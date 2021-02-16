@@ -168,7 +168,7 @@
 				"uniques": ["+[25]% [Science] from every [Grand Temple]","+[2 Science] from every [Temple]"],
 				"requires": ["Organized Religion"],
 				"row": 3,
-				"column": 4
+				"column": 3
 			},
 			{
 				"name": "Piety Complete",
@@ -269,54 +269,6 @@
 		]
 	},
 	{
-		"name": "Commerce",
-		"uniques": ["[Great Merchant] is earned [33]% faster","Unlocks building the Big Ben"],
-		"era": "Medieval era",
-		"policies": [
-			{
-				"name": "Silk Road",
-				"uniques": ["[+2 Food] from every [Land Trade Route (Food)]",
-					"[+2 Production] from every [Land Trade Route (Production)]","[+2 Gold] from every [Land Trade Route (Gold)]",
-					"[+2 Food] from every [Sea Trade Route (Food)]","[+2 Production] from every [Sea Trade Route (Production)]",
-					"[+2 Gold] from every [Sea Trade Route (Gold)]"],
-				"row": 1,
-				"column": 2
-			},
-			{
-				"name": "Mercenary Army",
-				"uniques": ["Allows the purchasing of Landsknechts at Civil Service and Foreign Legions at Replaceable Parts"],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Entrepreneurship",
-				"uniques": ["Maintenance on roads & railroads reduced by [50]%","Provide 2 Trade Routes"],
-				"requires": ["Silk Road"],
-				"row": 2,
-				"column": 1
-			},
-			{
-				"name": "Mercantilism",
-				"uniques": ["Cost of purchasing items in cities reduced by [20]%","[+2 Science] from every [Mint]",
-					"[+2 Science] from every [Market]","[+2 Science] from every [Bank]","[+2 Science] from every [Stock Exchange]"],
-				"requires": ["Silk Road"],
-				"row": 2,
-				"column": 3
-			},
-			{
-				"name": "Protectionism",
-				"uniques": ["[+1 Food] from every [Customs house]","[+4 Gold] from every [Customs house]","[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]",],
-				"requires": ["Mercantilism"],
-				"row": 3,
-				"column": 3
-			},
-			{
-				"name": "Commerce Complete",
-				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","Double gold from Great Merchant trade missions"]
-			}
-		]
-	},
-	{
 		"name": "Exploration",
 		"uniques": ["All military naval units receive +1 movement and +1 sight","Unlocks building the Louvre","Unlocks Conquistators"],
 		"era": "Medieval era",
@@ -399,6 +351,54 @@
 			{
 				"name": "Rationalism Complete",
 				"uniques": ["+15% science while empire is happy"]
+			}
+		]
+	},
+	{
+		"name": "Commerce",
+		"uniques": ["[Great Merchant] is earned [33]% faster","Unlocks building the Big Ben"],
+		"era": "Medieval era",
+		"policies": [
+			{
+				"name": "Silk Road",
+				"uniques": ["[+2 Food] from every [Land Trade Route (Food)]",
+					"[+2 Production] from every [Land Trade Route (Production)]","[+2 Gold] from every [Land Trade Route (Gold)]",
+					"[+2 Food] from every [Sea Trade Route (Food)]","[+2 Production] from every [Sea Trade Route (Production)]",
+					"[+2 Gold] from every [Sea Trade Route (Gold)]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Mercenary Army",
+				"uniques": ["Allows the purchasing of Landsknechts at Civil Service and Foreign Legions at Replaceable Parts"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Entrepreneurship",
+				"uniques": ["Maintenance on roads & railroads reduced by [50]%","Provide 2 Trade Routes"],
+				"requires": ["Silk Road"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Mercantilism",
+				"uniques": ["Cost of purchasing items in cities reduced by [20]%","[+2 Science] from every [Mint]",
+					"[+2 Science] from every [Market]","[+2 Science] from every [Bank]","[+2 Science] from every [Stock Exchange]"],
+				"requires": ["Silk Road"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Protectionism",
+				"uniques": ["[+1 Food] from every [Customs house]","[+4 Gold] from every [Customs house]","[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]",],
+				"requires": ["Mercantilism"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Commerce Complete",
+				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","Double gold from Great Merchant trade missions"]
 			}
 		]
 	},
