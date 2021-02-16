@@ -66,12 +66,29 @@
         "cost": -1,
         "uniques": ["Provides [-4] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
     },
-	{
+		    {
         "name": "~Ayyubids",
 		"uniqueTo": "Ayyubids",
         "cost": -1,
 		"providesFreeBuilding": "Burial Tomb",
         "uniques": ["Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
+    },
+			    {
+        "name": "~Boers",
+		"uniqueTo": "Boers",
+        "cost": -1,
+		"isNationalWonder": "true",
+		"requiredTech": "Fertilizer",
+        "uniques": ["[+1 Culture] from every [Farm]","Will not be displayed in Civilopedia"]
+    },
+				    {
+        "name": "~France",
+		"uniqueTo": "France",
+        "cost": -1,
+		"culture": 15,
+		"isNationalWonder": "true",
+		"requiredTech": "Acoustics",
+        "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Trade Route1",
