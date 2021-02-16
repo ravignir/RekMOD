@@ -30,6 +30,16 @@
 		"hurryCostModifier": 20
 	},
 		{
+		"name": "Ranchero",
+		"replaces": "Settler",
+		"uniqueTo": "Mexico",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city","Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+		{
 		"name": "Pioneer", //modded
 		"uniqueTo": "America",
 		"replaces": "Settler",
@@ -86,6 +96,20 @@
 		"uniques": ["Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
+		{
+		"name": "Apedemaks Bow",
+		"replaces": "Scout",
+		"unitType": "Ranged",
+		"uniqueTo": "Nubia",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 5,
+		"range": 3,
+		"cost": 30,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["Ignores terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
 	{
 		"name": "Pathfinder", //modded
 		"unitType": "Scout",
@@ -106,19 +130,6 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Maori Warrior",
-		"unitType": "Melee",
-		"uniqueTo": "Polynesia",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -172,6 +183,21 @@
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+		{
+		"name": "Matato'a",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"replaces": "Archer",
+		"uniqueTo": "Tonga",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["+1 Visibility Range","+1 Movement"],
 		"attackSound": "arrow"
 	},
 	{
@@ -230,6 +256,20 @@
 		"cost": 45,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles","Can move after attacking"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+		{
+		"name": "Square Sail Ship",
+		"replaces": "Trireme",
+		"uniqueTo": "Phoenicia",
+		"unitType": "WaterMelee",
+		"movement": 4,
+		"strength": 10,
+		"cost": 38,
+		"requiredTech": "Sailing",
+		"uniques": ["Can move after attacking"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -371,6 +411,20 @@
 		"uniques": ["Bonus vs Mounted 50%"],
 		"attackSound": "metalhit"
 	},
+		{
+		"name": "Phalanx",
+		"replaces": "Spearman",
+		"uniqueTo": "Sumeria",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 11,
+		"cost": 54,
+		"requiredTech": "Mining",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Bonus vs Mounted 50%"],
+		"attackSound": "metalhit"
+	},
 	{
 		"name": "Hoplite",
 		"replaces": "Spearman",
@@ -487,6 +541,34 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+		{
+		"name": "Buffalo Hunter",
+		"uniqueTo": "Sioux",
+		"replaces": "Composite Bowman", //modded
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+		{
+		"name": "Mpiambina", //modded
+		"uniqueTo": "Madagascar",
+		"unitType": "Ranged",
+		"movement": 3,
+		"range": 1,
+		"strength": 8,
+		"rangedStrength": 14,
+		"cost": 120,
+		"requiredTech": "Theology",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["Sampy"]
 		"attackSound": "arrow"
 	},
 	{
@@ -669,6 +751,20 @@
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
+		{
+		"name": "Saethwyr",
+		"uniqueTo": "Wales",
+		"replaces": "Crossbowman",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
 	{
 		"name": "Chu-Ko-Nu",
 		"unitType": "Ranged",
@@ -769,6 +865,35 @@
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
 		"uniques": ["Consumes [1] [Iron]","+[20]% combat bonus in [Foreign Land]","Earn [50]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"attackSound": "metalhit"
+	},
+			{
+		"name": "Pedite",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Normandy",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Metal Casting",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"promotions": ["Shock I"],
+		"uniques": ["Consumes [1] [Iron]",],
+		"attackSound": "metalhit"
+	},
+				{
+		"name": "Koa",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Polynesia",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 23,
+		"cost": 90,
+		"requiredTech": "Metal Casting",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Musketman",
+		"promotions": ["Amphibious"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1061,8 +1186,8 @@
 		"unitType": "Ranged",
 		"range": 2,
 		"movement": 5,
-		"strength": 15,
-		"rangedStrength": 16,
+		"strength": 17,
+		"rangedStrength": 17,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -1202,7 +1327,7 @@
 		"uniqueTo": "The Ottomans",
 		"movement": 2,
 		"strength": 24,
-		"cost": 150,
+		"cost": 120,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
@@ -1247,7 +1372,7 @@
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","Heals [25] damage if it kills a unit"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1256,12 +1381,12 @@
 		"unitType": "WaterMelee",
 		"uniqueTo": "The Netherlands",
 		"movement": 5,
-		"strength": 25,
+		"strength": 30,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I","Coastal Raider II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action","Can move after attacking"],
+		"promotions": ["Coastal Raider I","Coastal Raider II","Boarding Party I"],
+		"uniques": ["Heals [25] damage if it kills a unit","Unit will heal every turn, even if it performs an action","Can move after attacking"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1306,6 +1431,22 @@
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
+		{
+		"name": "Zaphorosian Cossack",
+		"replaces": "Lancer",
+		"uniqueTo": "Ukraine",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Anti-Tank Gun",
+		"promotions": ["Ambush Formation I","Shock I"],
+		"uniques": ["Can move after attacking","+[25]% combat bonus in [Friendly Land]","No defensive terrain bonus",
+			"Penalty vs City 33%","Consumes [1] [Horses]"],
+		"attackSound": "horse"
+	},
 	{
 		"name": "Sipahi",
 		"unitType": "Mounted",
@@ -1313,7 +1454,7 @@
 		"uniqueTo": "The Ottomans",
 		"movement": 5,
 		"strength": 25,
-		"cost": 185,
+		"cost": 148,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
@@ -1336,22 +1477,6 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"promotions": ["Shock I","Ambush Formation I","Heavy Charge"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Hakkapeliitta", //modded
-		"replaces": "Lancer",
-		"unitType": "Mounted",
-		"uniqueTo": "Sweden",
-		"movement": 4,
-		"strength": 29,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Anti-Tank Gun",
-		"promotions": ["Ambush Formation I"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	
@@ -1378,6 +1503,21 @@
 		"obsoleteTech": "Ballistics",
 		"attackSound": "machinegun"
 	},
+		{
+		"name": "Vanator",
+		"replaces": "Gatling Gun",
+		"unitType": "Ranged",
+		"uniqueTo": "Romania",
+		"range": 2,
+		"movement": 2,
+		"strength": 31,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Rifleman",
 		"unitType": "Melee",
@@ -1389,6 +1529,21 @@
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},	
+		{
+		"name": "Gallowglass",
+		"uniqueTo": "Scotland",
+		"replaces": "Rifleman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 29,
+		"cost": 180,
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Replaceable Parts",
+		"promotions": ["Volley","Altitude Training"],
+		"uniques": ["Consumes [1] [Iron]"],
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
 		{
 		"name": "Combat Engineer",
 		"replaces": "Rifleman",
@@ -1405,12 +1560,12 @@
 	},	
 	{
 		"name": "Carolean", //modded
-		"replaces": "Rifleman",
+		"replaces": "Musketman",
 		"unitType": "Melee",
 		"uniqueTo": "Sweden",
 		"movement": 2,
-		"strength": 34,
-		"cost": 225,
+		"strength": 24,
+		"cost": 150,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
@@ -1512,6 +1667,22 @@
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"Penalty vs City 33%","Bonus vs wounded units 33%","Consumes [1] [Horses]"],
+		"attackSound": "horse"
+	},
+		{
+		"name": "Qianlong Cavalry",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Manchuria",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"promotions": ["Great Generals I"]
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1681,6 +1852,20 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+		{
+		"name": "Ski Infantry",
+		"unitType": "Melee",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Norway",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["Ski Infantry","Drill I","Drill II"],
 		"attackSound": "shot"
 	},
 		{
@@ -1871,6 +2056,20 @@
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
+		{
+		"name": "Viet Cong",
+		"replaces": "Infantry",
+		"uniqueTo": "Vietnam",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Electronics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Can pass through impassable tiles"],
+		"attackSound": "shot"
+	},
 	{
 		"name": "Pracinha", //modded
 		"unitType": "Melee",
@@ -2007,6 +2206,14 @@
 		"unitType": "Civilian",
 		"uniques": ["Can start an [12]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
+	},
+			{
+		"name": "Dalai Lama",
+		"uniqueTo": "Tibet",
+		"replaces": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [10]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"movement": 4
 	},
 			{
 		"name": "Krivis",

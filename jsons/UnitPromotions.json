@@ -559,6 +559,10 @@
 	"name": "Sauna",
 	"effect": "+10 HP when healing",
 	},
+		{
+	"name": "Ski Infantry",
+	"uniques": ["+[25]% combat bonus in [Snow]","+[25]% combat bonus in [Tundra]","+[25]% combat bonus in [Hill]","Double movement in Snow, Tundra and Hills"],
+	},
 	{
 	"name": "Drauhtinon",
 	"uniques": ["+1 Movement","Heals [25] damage if it kills a unit"]
@@ -567,5 +571,55 @@
 	"name": "Hetairoi",
 	"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%","Great Person - [War]"]
 	}
+		{
+		"name": "Sampy",
+		"effect": "Access to special promotions"
+	},
+		{
+		"name": "Kelimazala",
+		"effect": "1 additional attack per turn",
+		"prerequisites": ["Sampy"],
+		"unitTypes": ["Ranged"]
+	},
+			{
+		"name": "Ramahavaly",
+		"uniques": ["+[50]% Strength when defending","+[-50]% Strength when attacking"]
+		"prerequisites": ["Sampy"],
+		"unitTypes": ["Ranged"]
+	},
+				{
+		"name": "Manjakatsiroa",
+		"uniques": ["+[25]% combat bonus in [Friendly Land]"]
+		"prerequisites": ["Sampy"],
+		"unitTypes": ["Ranged"]
+	},
+					{
+		"name": "Mosasa",
+		"uniques": ["+1 Visibility Range","+1 Visibility Range","+1 Visibility Range","+1 Visibility Range","+1 Range","+1 Range","+1 Range","+1 Range"]
+		"prerequisites": ["Sampy"],
+		"unitTypes": ["Ranged"]
+	},
+					{
+		"name": "Ambohimanambola",
+		"uniques": ["Bonus for units in 2 tile radius 15%"]
+		"prerequisites": ["Sampy"],
+		"unitTypes": ["Ranged"]
+	},
+						{
+		"name": "Sehatra",
+		"uniques": ["Heals [100] damage if it kills a unit"]
+		"prerequisites": ["Sampy"],
+		"unitTypes": ["Ranged"]
+	},
+							{
+		"name": "Lambamena",
+		"uniques": ["Bonus vs City 100%"]
+		"prerequisites": ["Sampy"],
+		"unitTypes": ["Ranged"]
+	},
+								{
+		"name": "Altitude Training",
+		"uniques": ["Double movement in Snow, Tundra and Hills","+[10]% combat bonus in [Hill]"]
+	},
 ]
 

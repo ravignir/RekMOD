@@ -279,6 +279,15 @@
 		"techRequired": "Bronze Working",
 		"uniques": ["[+2 Gold] once [Machinery] is discovered","[+2 Culture] once [Acoustics] is discovered"]
 	},
+		{
+		"name": "Tibetan Monastery",
+		"uniqueTo": "Tibet",
+		"terrainsCanBeBuiltOn": ["Forest","Hill"],
+		"culture": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Culture] for each adjacent [Mountain]"]
+	},
 	{
 		"name": "Polder",
 		"uniqueTo": "The Netherlands",
@@ -288,16 +297,47 @@
 		"techRequired": "Guilds",
 		"uniques": ["[+1 Production, +2 Gold] once [Economics] is discovered"]
 	},
+		{
+		"name": "Tipi",
+		"uniqueTo": "Sioux",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"food": 1,
+		"culture": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["[+1 Food, +1 Gold] once [Civil Service] is discovered"]
+	},
 	{
 		"name": "Kasbah",
 		"uniqueTo": "Morocco",
 		"terrainsCanBeBuiltOn": ["Desert","Desert Hill","Flood plains"],
-		"food": 1,
+		"food": 2,
 		"production": 1,
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Chivalry",
 		"uniques": ["Gives a defensive bonus of [50]%"]
+	},
+			{
+		"name": "Caer",
+		"uniqueTo": "Wales",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"gold": 3,
+		"production": 1,
+		"culture": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Metal Casting",
+		"uniques": ["Gives a defensive bonus of [25]%","[+1 Culture] once [Acoustics] is discovered"]
+	},
+		{
+		"name": "Motte and Bailey",
+		"uniqueTo": "Normandy",
+		"terrainsCanBeBuiltOn": ["Hill","Snow","Tundra","Plains","Grassland","Desert"],
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Engineering",
+		"uniques": ["Gives a defensive bonus of [25]%","[+2 Culture] once [Flight] is discovered"]
 	},
 	{
 		"name": "Feitoria",
