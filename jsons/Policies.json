@@ -446,7 +446,7 @@
 		]
 		},
 	{
-		"name": "Order II",
+		"name": "Don't pick Order II",
 		"era": "Modern era",
 		"uniques": ["Incompatible with [Autocracy]","Incompatible with [Freedom]","Incompatible with [Order]"],
 		"policies": [
@@ -537,7 +537,7 @@
 		]
 	},
 	{
-		"name": "Freedom II",
+		"name": "Don't pick Freedom II",
 		"era": "Modern era",
 		"uniques": ["Incompatible with [Autocracy]","Incompatible with [Freedom]","Incompatible with [Order]"],
 		"policies": [				
@@ -626,7 +626,7 @@
 		]
 	}
 		{
-		"name": "Autocracy II",
+		"name": "Don't pick Autocracy II",
 		"era": "Modern era",
 		"uniques": ["Incompatible with [Autocracy]","Incompatible with [Freedom]","Incompatible with [Order]"],
 		"policies": [

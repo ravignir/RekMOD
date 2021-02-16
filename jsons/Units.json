@@ -192,7 +192,6 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"replaces": "Archer",
 		"uniqueTo": "Tonga",
