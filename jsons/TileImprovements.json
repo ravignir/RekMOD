@@ -242,6 +242,14 @@
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
+		{
+		"name": "Sacred Grove",
+		"science": 1,
+		"food": 1,
+		"production": 1,
+		"culture": 1,
+		"uniques": ["Great Improvement","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Telecommunications] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Computers] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Plastics] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Archaeology] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Acoustics] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Theology] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Philosophy] is discovered"]
+	},
 	{
 		"name": "Chateau",
 		"uniqueTo": "France",
@@ -252,6 +260,15 @@
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
 		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] once [Flight] is discovered"]
+	},
+		{
+		"name": "Harjis",
+		"uniqueTo": "Goths",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild":7,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] once [Iron Working] is discovered","[+1 Production] once [Gunpowder] is discovered","[+1 Production] once [Dynamite] is discovered"]
 	},
 	{
 		"name": "Brazilwood Camp",

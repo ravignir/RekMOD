@@ -180,7 +180,7 @@
 		"uniqueTo": "Inca",
 		"replaces": "Archer",
 		"movement": 2,
-		"strength": 4,
+		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Archery",
@@ -284,6 +284,21 @@
 		"uniques": ["No defensive terrain bonus","Rough terrain penalty","Consumes [1] [Horses]"],
 		"attackSound": "arrow"
 	},
+		{
+		"name": "Heavy Chariot",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Hittites",
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus","+[20]% Strength when defending","Rough terrain penalty","Consumes [1] [Horses]"],
+		"attackSound": "arrow"
+	},
 	{
 		"name": "War Chariot",
 		"unitType": "Ranged",
@@ -340,7 +355,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus","Consumes [1] [Horses]"],
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"	
 	},
@@ -362,7 +377,7 @@
 		"uniqueTo": "Greece",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 13,
+		"strength": 14,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
@@ -410,21 +425,6 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques":["Earn [100]% of [military] opponent's [Strength] as [Culture] for kills"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Battering Ram", //modded
-		"replaces": "Spearman",
-		"uniqueTo": "The Huns",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 10,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["Limited Visibility","Bonus vs City 300%"],
-		"promotions": ["Cover I"],
 		"attackSound": "metalhit"
 	},
 	
@@ -502,6 +502,37 @@
 		"obsoleteTech": "Steel",
 		"attackSound": "metalhit"
 	},
+		{
+		"name": "Ngao Mbeba",
+		"uniqueTo": "Kongo",
+		"replaces": "Swordsman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 15,
+		"range": 0,
+		"cost": 75,
+		"hurryCostModifier": 20,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Consumes [1] [Iron]","+100% Defence against ranged attacks","Must set up to ranged attack"],
+		"obsoleteTech": "Steel",
+		"attackSound": "metalhit"
+	},
+		{
+		"name": "Maccabee",
+		"replaces": "Swordsman",
+		"uniqueTo": "Israel",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 14,
+		"cost": 60,
+		"hurryCostModifier": 20,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Consumes [1] [Iron]","Earn [100]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"obsoleteTech": "Steel",
+		"attackSound": "metalhit"
+	},
 	{
 		"name": "Legion",
 		"unitType": "Melee",
@@ -522,7 +553,7 @@
 		"uniqueTo": "Iroquois",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 14,
+		"strength": 15,
 		"cost": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
@@ -537,7 +568,7 @@
 		"unitType": "Melee",
 		"uniqueTo": "Indonesia",
 		"movement": 2,
-		"strength": 14,
+		"strength": 15,
 		"cost": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
@@ -577,23 +608,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Companion Cavalry",
-		"unitType": "Mounted",
-		"uniqueTo": "Greece",
-		"replaces": "Horseman",
-		"movement": 5,
-		"strength": 14,
-		"cost": 75,
-		"hurryCostModifier": 20,
-		"requiredTech": "Horseback Riding",
-		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Knight",
-		"promotions": ["Great Generals I"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"Penalty vs City 33%","Consumes [1] [Horses]"],
-		"attackSound": "horse"
-	},
-	{
 		"name": "Cataphract", //modded
 		"unitType": "Mounted",
 		"replaces": "Horseman",
@@ -626,6 +640,20 @@
 		"promotions": ["Feared Elephant","Great Generals II"],
 		"attackSound": "horse"		
 	},
+			{
+		"name": "Sarissophoroi",
+		"uniqueTo": "Macedonia",
+		"replaces": "Pikeman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 14,
+		"cost": 90,
+		"requiredTech": "Philosophy",
+		"uniques": ["Bonus vs Mounted 100%"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit",
+	},
 	
 	// Medieval Era
 
@@ -654,6 +682,21 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Logistics"],
+		"attackSound": "arrow"
+	},
+		{
+		"name": "Ballista Elephant",
+		"unitType": "Ranged",
+		"uniqueTo": "Khmer",
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 14,
+		"replaces": "Crossbowman",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"promotions": ["Feared Elephant"],
 		"attackSound": "arrow"
 	},
 	{
@@ -694,7 +737,7 @@
 		"uniqueTo": "Korea",
 		"movement": 2,
 		"strength": 11,
-		"rangedStrength": 26,
+		"rangedStrength": 30,
 		"cost": 120,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
@@ -714,6 +757,20 @@
 		"uniques": ["Consumes [1] [Iron]"],
 		"attackSound": "metalhit"
 	},
+		{
+		"name": "Crusader",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Jerusalem",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 17,
+		"cost": 80,
+		"requiredTech": "Theology",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["Consumes [1] [Iron]","+[20]% combat bonus in [Foreign Land]","Earn [50]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"attackSound": "metalhit"
+	},
 	{
 		"name": "Samurai", //adjusted
 		"replaces": "Longswordsman",
@@ -727,6 +784,49 @@
 		"upgradesTo": "Rifleman",
 		"uniques": ["May create improvements on water resources","Consumes [1] [Iron]"],
 		"promotions": ["Shock I","Great Generals II"],
+		"attackSound": "metalhit"
+	},
+		{
+		"name": "Seaxman", 
+		"replaces": "Longswordsman",
+		"uniqueTo": "Franks",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["Consumes [1] [Iron]"],
+		"promotions": ["Cover I","Amphibious"],
+		"attackSound": "metalhit"
+	},
+			{
+		"name": "Noble Swordsman", 
+		"replaces": "Longswordsman",
+		"uniqueTo": "Gaul",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"uniques": ["+[33]% Strength when attacking","+[50]% combat bonus in [Forest]"],
+		"promotions": ["Cover I","Amphibious"],
+		"attackSound": "metalhit"
+	},
+				{
+		"name": "Gadrauht", 
+		"replaces": "Longswordsman",
+		"uniqueTo": "Goths",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 22,
+		"cost": 108,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
 		"attackSound": "metalhit"
 	},
 	{
@@ -757,16 +857,43 @@
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit",
 	},
+		{
+		"name": "Pestininkas",
+		"uniqueTo": "Lithuania",
+		"replaces": "Pikeman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 60,
+		"requiredTech": "Civil Service",
+		"uniques": ["Bonus vs Mounted 50%"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit",
+	},
 	{
 		"name": "Landsknecht",
-		"replaces": "Pikeman",
-		"uniqueTo": "Germany",
 		"unitType": "Melee",
 		"movement": 3,
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["Bonus vs Mounted 50%","Unlocked with [Mercenary Army]"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+		{
+		"name": "Ulan",
+		"replaces": "Pikeman"
+		"unitType": "Mounted",
+		"uniqueTo": "Golden Horde",
+		"movement": 4,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Civil Service",
+		"promotions": ["Ambush Formation I"],
+		"uniques": ["Consumes [1] [Horses]","Bonus vs Mounted 50%"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -944,6 +1071,20 @@
 		"promotions": ["Great Generals I","Quick Study"],
 		"attackSound": "arrow"
 	},
+		{
+		"name": "Dhow",
+		"replaces": "Caravel",
+		"uniqueTo": "Kilwa",
+		"unitType": "WaterMelee",
+		"movement": 4,
+		"strength": 17,
+		"hurryCostModifier": 30,
+		"requiredTech": "Compass",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"promotions": ["Boarding Party I"],
+		"uniques": ["+1 Visibility Range","Can move after attacking","May withdraw before melee ([50]%)"],
+	},
 	
 	// Rennaisance Era
 
@@ -1037,6 +1178,20 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+		{
+		"name": "Black Arquebusier",
+		"unitType": "Melee",
+		"replaces": "Musketman",
+		"uniqueTo": "Hungary",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"promotions": ["Shock I"],
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
 	},
@@ -1277,6 +1432,20 @@
 		"uniques": ["+[40]% combat bonus in [Friendly Land]"],
 		"attackSound": "shot"
 	},
+		{
+		"name": "Fenian", //modded
+		"replaces": "Rifleman",
+		"uniqueTo": "Ireland",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 34,
+		"cost": 165,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["+[20]% combat bonus in [Friendly Land]"],
+		"attackSound": "shot"
+	},
 	{
 		"name": "Carrier",
 		"unitType": "WaterAircraftCarrier",
@@ -1445,24 +1614,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Zero",
-		"unitType": "Fighter",
-		"replaces": "Fighter",
-		"uniqueTo": "Japan",
-		"movement": 1,
-		"strength": 45,
-		"rangedStrength": 45,
-		"range": 8,
-		"interceptRange": 8,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Fighter",
-		"promotions": ["Air Recon"],
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%",
-			"Bonus vs Fighter 33%","Consumes [1] [Oil]"],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
@@ -1570,7 +1721,7 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"promotions": ["Ambush Formation I"],
-		"uniques": ["+[20]% combat bonus in [Foreign Land]"],
+		"uniques": ["+[20]% combat bonus in [Foreign Land]","Unlocked with [Mercenary Army]"],
 		"attackSound": "shot"
 	},
 	/*{
@@ -1849,6 +2000,22 @@
 		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
+		{
+		"name": "Pittore",
+		"uniqueTo": "Italy",
+		"replaces": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [12]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"movement": 2
+	},
+			{
+		"name": "Krivis",
+		"uniqueTo": "Lithuania",
+		"replaces": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Sacred Grove]", "Great Person - [Culture]", "Unbuildable","Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
@@ -1873,6 +2040,17 @@
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable"],
+		"movement": 4
+	},
+		{
+		"name": "Hetairoi"
+		"replaces": "Great General",
+		"uniqueTo": "Macedonia",
+		"unitType": "Mounted",
+		"strength": 15,
+		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Hetairoi"]
+		"upgradesTo": "Knight",
+		"uniques": ["Can construct [Citadel]","Great Person - [War]", "Unbuildable","Consumes [1] [Horses]"],
 		"movement": 4
 	},
 	{

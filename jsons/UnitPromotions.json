@@ -449,6 +449,10 @@
 		"name": "Morale", // Heroic Epic
 		"effect": "+[15]% Combat Strength"
 	},
+		{
+		"name": "Dojo", // Japan
+		"effect": "+[10]% Combat Strength"
+	},
 	{
 		"name": "Phoenician Heritage", // Carthage
 		"effect": "Can pass through impassable tiles"
@@ -555,4 +559,13 @@
 	"name": "Sauna",
 	"effect": "+10 HP when healing",
 	},
+	{
+	"name": "Drauhtinon",
+	"uniques": ["+1 Movement","Heals [25] damage if it kills a unit"]
+	},
+	{
+	"name": "Hetairoi",
+	"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%","Great Person - [War]"]
+	}
 ]
+

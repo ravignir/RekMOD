@@ -74,12 +74,44 @@
         "uniques": ["Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
     },
 			    {
+        "name": "~GoldenHorde",
+		"uniqueTo": "Golden Horde",
+        "cost": -1,
+		"providesFreeBuilding": "Jarliq",
+		"requiredTech": "Philosophy",
+        "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia","Unsellable"]
+    },
+			    {
         "name": "~Boers",
 		"uniqueTo": "Boers",
         "cost": -1,
 		"isNationalWonder": "true",
 		"requiredTech": "Fertilizer",
         "uniques": ["[+1 Culture] from every [Farm]","Will not be displayed in Civilopedia"]
+    },
+				    {
+        "name": "~Khmer",
+		"uniqueTo": "Khmer",
+        "cost": -1,
+		"isNationalWonder": "true",
+		"requiredTech": "Drama and Poetry",
+        "uniques": ["[+1 Culture, +2 Food] from every [Baray]","Will not be displayed in Civilopedia"]
+    },
+					    {
+        "name": "~Kongo",
+		"uniqueTo": "Kongo",
+        "cost": -1,
+		"isNationalWonder": "true",
+		"requiredTech": "Industrialization",
+        "uniques": ["[+2 Production] from every [Slave Market]","Will not be displayed in Civilopedia"]
+    },
+				    {
+        "name": "~Hungary",
+		"uniqueTo": "Hungary",
+        "cost": -1,
+		"isNationalWonder": "true",
+		"requiredTech": "Chivalry",
+        "uniques": ["[+3 Culture, +3 Food, +3 Production] from every [Orszaggyules]","Will not be displayed in Civilopedia"]
     },
 				    {
         "name": "~France",
@@ -89,6 +121,69 @@
 		"isNationalWonder": "true",
 		"requiredTech": "Acoustics",
         "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia"]
+    },
+					    {
+        "name": "~Italy Liberty",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Liberty Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+    },
+						    {
+        "name": "~Italy Tradition",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Tradition Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+    },
+						    {
+        "name": "~Italy Honor",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Honor Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+    },
+						    {
+        "name": "~Italy Piety",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Piety Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+    },
+						    {
+        "name": "~Italy Commerce",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Commerce Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+    },
+						    {
+        "name": "~Italy Patronage",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Patronage Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+    },
+						    {
+        "name": "~Italy Aesthetics",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Aesthetics Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+    },
+						    {
+        "name": "~Italy Rationalism",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Rationalism Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+    },
+						    {
+        "name": "~Italy Exploration",
+		"uniqueTo": "Italy",
+        "cost": -1,
+		"isNationalWonder": "true",
+        "uniques": ["Unlocked with [Exploration Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Trade Route1",
@@ -159,12 +254,27 @@
         "name": "Palace",
         "isNationalWonder": true,
         "production": 3,
-        "science": 30000,
+        "science": 3,
         "gold": 3,
+		"production": 3,
         "cityStrength": 2,
-        "culture": 10000,
+        "culture": 1,
         "cost": 1,
         "uniques": ["Indicates the capital city","[-1 Gold] from every [River]"]
+    },
+	    {
+        "name": "Orszaggyules",
+		"replaces": "Palace",
+		"uniqueTo": "Hungary",
+        "isNationalWonder": true,
+        "production": 3,
+        "science": 3,
+        "gold": 3,
+        "cityStrength": 2,
+        "culture": 1,
+        "cost": 100,
+        "uniques": ["Indicates the capital city","+[25]% great person generation in this city","+[10]% Production when constructing [Buildings] [in this city]"]
+		"requiredTech": "Mathematics",
     },
     {
         "name": "Monument",
@@ -368,6 +478,29 @@
         "hurryCostModifier": 25,
         "requiredTech": "Masonry"
     },
+	    {
+        "name": "Murus Gallicus",
+        "replaces": "Walls",
+        "cost": 65,
+        "uniqueTo": "Gaul",
+		"production": 1,
+		"happiness": 1,
+        "cityStrength": 6,
+        "cityHealth": 50,
+        "hurryCostModifier": 25,
+        "requiredTech": "Masonry"
+    },
+		    {
+        "name": "Lion's Gate",
+        "replaces": "Walls",
+        "uniqueTo": "Hittites",
+		"gold": 2,
+		"culture": 2,
+        "cityStrength": 5,
+        "cityHealth": 50,
+        "hurryCostModifier": 25,
+        "requiredTech": "Masonry"
+    },
     {
         "name": "The Pyramids",
         "culture": 1,
@@ -382,6 +515,16 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": ["New [Military] units start with [15] Experience in this city"],
+        "requiredTech": "Bronze Working"
+    },
+	    {
+		"name": "Dojo",
+        "replaces": "Barracks",
+		"uniqueTo": "Japan",
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+		"science": 2,
+        "uniques": ["New [Military] units start with [15] Experience in this city","All newly-trained [Melee] units in this city receive the [Dojo] promotion"],
         "requiredTech": "Bronze Working"
     },
     {
@@ -517,6 +660,17 @@
         "uniques": ["[+1 Food] from [Pasture] tiles in this city","[+1 Production] from [Maize] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]"]
         "requiredTech": "Horseback Riding"
     },
+		    {
+        "name": "Quara U'y",
+        "replaces": "Stable",
+        "uniqueTo": "The Huns",
+        "maintenance": 1,
+        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+        "resourceBonusStats": {"production": 1},
+        "hurryCostModifier": 25,
+        "uniques": ["Provides [2] [Horses]","[+1 Culture] from [Horses] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]"]
+        "requiredTech": "Horseback Riding"
+    },
     {
         "name": "Circus Maximus",
         "cost": 125,
@@ -545,11 +699,54 @@
             "Can only be built in annexed cities"],
         "requiredTech": "Mathematics"
     },
+	    {
+		"name": "Outremer",
+		"uniqueTo": "Jerusalem",
+        "replaces": "Courthouse",
+        "happiness": 2,
+		"culture": 3,
+        "hurryCostModifier": 50,
+        "uniques": ["Remove extra unhappiness from annexed cities",
+            "Can only be built in annexed cities"],
+        "requiredTech": "Mathematics"
+    },
+	    {
+        "name": "Jarliq",
+		"replaces": "Courthouse",
+		"uniqueTo": "Golden Horde",
+		"gold": 3,
+		"cost": 100,
+		"science": 3,
+        "hurryCostModifier": 50,
+        "uniques": ["Remove extra unhappiness from annexed cities",
+            "Can only be built in annexed cities","Unsellable","Free [Great Artist] appears"],
+        "requiredTech": "Writing"
+    },
     {
         "name": "Colosseum", 
         "maintenance": 1,
         "happiness": 2,
         "hurryCostModifier": 25,
+        "requiredTech": "Construction"
+    },
+	    {
+		"name": "Mead Hall",
+        "replaces": "Colosseum",
+		"uniqueTo": "Franks",
+        "maintenance": 1,
+        "happiness": 3,
+		"culture": 1,
+        "hurryCostModifier": 25,
+        "requiredTech": "Construction"
+    },
+		    {
+		"name": "Slave Market",
+        "replaces": "Colosseum",
+		"uniqueTo": "Kongo",
+		"gold": 5,
+        "production": 3,
+        "hurryCostModifier": 25,
+		"uniques": ["+2 Production at Industrialization"],
         "requiredTech": "Construction"
     },
     {
@@ -579,6 +776,31 @@
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
         "uniques": ["Doubles Gold given to enemy if city is captured","Requires a [Monument] in this city"],
+        "requiredTech": "Philosophy"
+    },
+	    {
+        "name": "Odeon",
+        "replaces": "Temple",
+        "uniqueTo": "Greece",
+        "culture": 4,
+        "gold": 1,
+        "specialistSlots": {"Artist": 1},
+        "hurryCostModifier": 25,
+        "uniques": ["Requires a [Monument] in this city"],
+        "requiredTech": "Philosophy"
+    },
+		    {
+        "name": "Yeshiva",
+        "replaces": "Temple",
+        "uniqueTo": "Israel",
+        "culture": 2,
+		"cost": 120,
+        "food": 1,
+		"production": 1,
+		"maintenance": 2,
+        "specialistSlots": {"Artist": 1},
+        "hurryCostModifier": 25,
+        "uniques": ["Requires a [Monument] in this city"],
         "requiredTech": "Philosophy"
     },
     {
@@ -701,6 +923,16 @@
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
     },
+		    {
+        "name": "Baray",
+		"replaces": "Garden",
+		"uniqueTo": "Khmer",
+        "cost": 120,
+        "uniques": ["[10]% of food is carried over after population increases","+2 Food and +1 Culture at Drama and Poetry.","+[25]% great person generation in this city", "Must be next to [Fresh water]"],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Drama and Poetry"
+    },
     {
         "name": "Candi", //modded
         "replaces": "Garden",
@@ -814,6 +1046,18 @@
         "requiredTech": "Metal Casting"
     },
 	    {
+		"name": "Coral Port",
+		"uniqueTo": "Kilwa",
+        "replaces": "Workshop", 
+        "maintenance": 2,
+        "production": 1,
+        "specialistSlots": {"Engineer": 1},
+        "hurryCostModifier": 25,
+        "uniques": ["[+2 Production] from [Coral] tiles in this city","[+1 Culture] from [Crab] tiles in this city","[+1 Culture] from [Pearls] tiles in this city","[+2 Gold] from [Whales] tiles in this city","[+1 Food] from [Fish] tiles in this city","[+3 Production] from [Land Trade Route (Production)] tiles in this city",
+            "[+3 Production] from [Sea Trade Route (Production)] tiles in this city","+[10]% [Production] [in this city]"],
+        "requiredTech": "Metal Casting"
+    },
+	    {
         "name": "Gemcutter",
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Gems","Amber","Lapis Lazuli","Jade"],
@@ -852,7 +1096,7 @@
         "production": 2,
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Production] from [Forest] tiles in this city","[+3 Production] from [Land Trade Route (Production)] tiles in this city",
+        "uniques": ["+[10]% [Production] [in this city]","[+1 Production] from [Forest] tiles in this city","[+1 Production] from [Jungle] tiles in this city","[+3 Production] from [Land Trade Route (Production)] tiles in this city",
             "[+2 Production] from [Sea Trade Route (Production)] tiles in this city"],
         "requiredTech": "Metal Casting"
     },
@@ -1117,6 +1361,18 @@
         "requiredTech": "Printing Press"
     },
 	    {
+        "name": "Irish Pub",
+		"replaces": "Zoo",
+		"uniqueTo": "Ireland",
+        "happiness": 3,
+		"food": 3,
+        "hurryCostModifier": 10,
+        "maintenance": 2,
+		"cost": 225,
+        "uniques": ["Requires a [Colosseum] in this city","[+1 Production] from [Coffee] tiles in this city","[+1 Production] from [Wine] tiles in this city","[+1 Production] from [Tea] tiles in this city"],
+        "requiredTech": "Printing Press"
+    },
+	    {
         "name": "Stade",
 		"replaces": "Zoo",
 		"uniqueTo": "Belgium",
@@ -1155,6 +1411,18 @@
         "hurryCostModifier": 0,
         "uniques": ["Requires a [Temple] in this city","+[10]% [Culture] [in this city]"],
         "requiredTech": "Archaeology"
+    },
+	    {
+        "name": "Basilica",
+		"replaces": "Museum",
+		"uniqueTo": "Italy",
+        "culture": 5,
+        "specialistSlots": {"Artist": 2},
+		"greatPersonPoints": {"culture":2},
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "uniques": ["Requires a [Temple] in this city","+[10]% [Culture] [in this city]"],
+        "requiredTech": "Industrialization"
     },
     {
         "name": "Hermitage",

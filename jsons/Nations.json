@@ -27,7 +27,7 @@
 		"uniqueText": " +5% Science when the empire is happy. +3 Culture, +1 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.
 		"
 		"uniques": ["+[5]% [Science] [in all cities]","[+1 Happiness, +3 Culture, +1 Production] from every [Courthouse]","[Land] units gain the [Epic of Battle] promotion"],
-		"cities": ["Akkad","Haderslev","Ringsted","Skrive"]
+		"cities": ["Akkad","Sipar","Kish","Tell Brak","Nippur","Tell Leilan","Marad","Umma","Azupiranu","Nuzi","Eshnunna"]
 	},
 		{
 		"name": "Aksum",
@@ -49,7 +49,7 @@
 		"innerColor": [186, 139, 20],
 		"uniqueName": "Saint Elesbaan's Blessing",
 		"uniques": ["+[33]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Culture] from every [Quarry]"],
-		"cities": ["Aksum","Haderslev","Ringsted","Skrive"]
+		"cities": ["Aksum","Adulis","Tiya","Qohaito","Berbera","Melazo","Tokonda","Yeha","Zeila","Massawa","Matara","Deira","Hawulti"]
 	},
 	{
 		"name": "America",
@@ -126,7 +126,7 @@
 		"innerColor": [240, 240, 14],
 		"uniqueName": "Pride of the People",
 		"uniques": ["Tile improvement speed +25%"],
-		"cities": ["Aksum","Haderslev","Ringsted","Skrive"]
+		"cities": ["Buenos Aires","La Plata","San Luis","Posadas","Catamarca","Cordoba","Formosa","San Juan","Parana","Salta","Neeuquen","Jujuy","La Rioja"]
 	},
 				{
 		"name": "Armenia",
@@ -705,6 +705,50 @@
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
 	},
+		{
+		"name": "Franks",
+		"leaderName": "Charlemagne",
+		"adjective": ["Frankish"],
+//		"startBias": ["Coast"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Holy Roman Empire",
+		"uniques": ["[+1 Culture] from every [Farm]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
+			{
+		"name": "Gaul",
+		"leaderName": "Vercingetorix",
+		"adjective": ["Gaul"],
+		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Oppidum of Bribacte",
+		"uniques": ["Gain a free [Murus Gallicus] [in capital]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
 	{
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
@@ -722,9 +766,8 @@
 		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
 		"outerColor": [150,150,150],
 		"innerColor": [60,60,60],
-		"uniqueName": "Furor Teutonicus",
-		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
-			"-[25]% [Land] unit maintenance costs"],
+		"uniqueName": "Precision Engineering",
+		"uniques": ["[+1 Science, +1 Production] from every [Workshop]","[+1 Science, +1 Production] from every [Factory]","[+1 Science, +1 Production] from every [Hydro Plant]","[Great Engineer] is earned [33]% faster"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -732,9 +775,54 @@
 			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg",
 			"Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
 	},
+				{
+		"name": "Golden Horde",
+		"leaderName": "Batu Khan",
+		"adjective": ["Golden Horde"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Golden Conquest",
+		"uniques": ["Receive a free Great Artist upon completing a Jarliq in a City. After the discovery of Philosophy, receive a free Jarliq in the Capital"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
+					{
+		"name": "Goths",
+		"leaderName": "Alaric I",
+		"adjective": ["Goth"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Drauhtinon",
+		"uniqueText": "Melee units receive +1 Movement and heal 25 HP after killing an enemy."
+		"uniques": ["[Melee] units gain the [Drauhtinon] promotion"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
 	{
 		"name": "Greece",
-		"leaderName": "Alexander",
+		"leaderName": "Pericles",
 		"adjective": ["Greek"],
 //		"preferredVictoryType":"Diplomatic",
 		
@@ -756,6 +844,28 @@
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
 			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
 			"Patras","Lamia","Nafplion","Apolyton"]
+	},
+						{
+		"name": "Hittites",
+		"leaderName": "Muwatallis",
+		"adjective": ["Hittite"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Bronze and Iron",
+		"uniques": ["Starts with [Mining]","[+1 Gold] from every [Mine]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
 	},
 	{
 		"name": "The Huns",
@@ -780,6 +890,29 @@
 		"cities": ["Attila's Court","Washington","Mecca","Tenochtitlan","Babylon","Beijing","Copenhagen","Thebes","London","Paris",
 			"Berlin","Athens","Cusco","Delhi","Onoondaga","Kyoto","Seoul","Karakorum","Istanbul","Persepolis",
 			"Honolulu","Rome","Moscow","Sukhothai","Gao","Madrid",]
+	},
+		{
+		"name": "Hungary",
+		"leaderName": "Andras II",
+		"adjective": ["Hungarian"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Verszerzodes",
+		"uniqueText": "Walls, Castles, Arsenals and Military Bases provide +1 Production and Culture",
+		"uniques": ["[+1 Production, +1 Culture] from every [Walls]","[+1 Production, +1 Culture] from every [Castle]","[+1 Production, +1 Culture] from every [Arsenal]","[+1 Production, +1 Culture] from every [Military Base]"],
+		"cities": ["Buda","Pest","Ringsted","Skrive"]
 	},
 	{
 		"name": "Inca",
@@ -859,6 +992,29 @@
 			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
 			"Yogyakarta","Bima","Sorong"]
 	},
+			{
+		"name": "Ireland",
+		"leaderName": "Michael Collins",
+		"adjective": ["Irish"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Gaelic Revival",
+		"uniqueText": "+2 Happiness from all National Wonders (excluding the Palace). +15% Production towards constructing buildings required for National Wonders.",
+		"uniques": ["+[15]% Production when constructing [Monument]","+[15]% Production when constructing [Hotel]","+[15]% Production when constructing [University]","+[15]% Production when constructing [Market]","+[15]% Production when constructing [Workshop]","+[15]% Production when constructing [Temple]","+[15]% Production when constructing [Barracks]","+[15]% Production when constructing [Library]","+[15]% Production when constructing [Colosseum]","+[15]% Production when constructing [Opera House]","[+2 Happiness] from every [East India Company]","[+2 Happiness] from every [National Visitor's Center]","[+2 Happiness] from every [Oxford University]","[+2 Happiness] from every [Hermitage]","[+2 Happiness] from every [Ironworks]","[+2 Happiness] from every [Grand Temple]","[+2 Happiness] from every [National Epic]","[+2 Happiness] from every [National College]","[+2 Happiness] from every [Heroic Epic]","[+2 Happiness] from every [Circus Maximus]"],
+		"cities": ["Buda","Pest","Ringsted","Skrive"]
+	},
 	{
 		"name": "Iroquois",
 		"leaderName": "Hiawatha",
@@ -883,6 +1039,50 @@
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
 			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"]
+	},
+							{
+		"name": "Israel",
+		"leaderName": "David",
+		"adjective": ["Israeli"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "The Promised Land",
+		"uniques": ["[+1 Culture] from every [Pasture]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
+	{
+		"name": "Italy",
+		"leaderName": "Vittorio Emanuele III",
+		"adjective": ["Italian"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Rinascimento",
+		"uniques": ["[+1 Culture] from every specialist","Enter a Golden Age upon completion of a Policy Tree."],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
 	},
 	{
 		"name": "Japan",
@@ -909,6 +1109,95 @@
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
+		{
+		"name": "Jerusalem",
+		"leaderName": "Fulk V",
+		"adjective": ["Jerusalem"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "The Holy Land",
+		"uniques": ["[+1 Culture] from every [Luxury resource]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
+			{
+		"name": "Khmer",
+		"leaderName": "Suryavarman II",
+		"adjective": ["Khmer"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Grand Baray of Angkor",
+		"uniques": ["Gain a free [Baray] [in capital]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
+				{
+		"name": "Kilwa",
+		"leaderName": "Ali ibn al-Hassan Shirazi",
+		"adjective": ["Kilwa"],
+		"startBias": ["Coast"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Merchant Economy",
+		"uniqueText": "+10% Growth in all cities. +4 Gold from Food and Production Trade Routes"
+		"uniques": ["+[10]% growth in all cities","[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]","[+4 Gold] from every [Sea Trade Route (Food)]","[+4 Gold] from every [Sea Trade Route (Production)]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
+					{
+		"name": "Kongo",
+		"leaderName": "Mvemba a Nzinga",
+		"adjective": ["Kongo"],
+		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Heart of Africa",
+		"uniques": ["-[33]% Culture cost of acquiring tiles [in all cities]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
 	{
 		"name": "Korea",
 		"leaderName": "Sejong",
@@ -929,11 +1218,78 @@
 		"outerColor": [26,32,96],
 		"innerColor": [255,0,0],
 		"uniqueName": "Scholars of the Jade Hall",
-		"uniques": ["[+2 Science] from every specialist","[+2 Science] from every [Great Improvement]",
+		"uniques": ["[+1 Science] from every specialist","[+1 Science] [in capital]","[+2 Science] from every [Great Improvement]",
 			"Receive a tech boost when scientific buildings/wonders are built in capital"],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
 			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
 			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"]
+	},
+						{
+		"name": "Lithuania",
+		"leaderName": "Vytautas",
+		"adjective": ["Lithuania"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Baltic Mythology",
+		"uniques": ["All Artists generated by Lithuania become the Krivis, which can create the Sacred Grove"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
+							{
+		"name": "Macedonia",
+		"leaderName": "Alexander",
+		"adjective": ["Macedonian"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Macedonian Discipline",
+		"uniqueText": "Barracks, Armories, and Military Academies provide +1 Food and +1 Culture. Receive a free Hetairoi at Horseback Riding."
+		"uniques": ["Receive free [Hetairoi] when you discover [Horseback Riding]","[+1 Food, +1 Culture] from every [Barracks]","[+1 Food, +1 Culture] from every [Military Academy]","[+1 Food, +1 Culture] from every [Armory]"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
+	},
+								{
+		"name": "Madagascar",
+		"leaderName": "Ralambo",
+		"adjective": ["Madagascar"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for War!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victoy is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [1, 49, 66],
+		"innerColor": [204, 192, 161],
+		"uniqueName": "Sacred Hills of Imerina",
+		"uniques": ["All Artists generated by Lithuania become the Krivis, which can create the Sacred Grove"],
+		"cities": ["Yerevan","Haderslev","Ringsted","Skrive"]
 	},
 	{
 		"name": "The Maya",
@@ -1402,8 +1758,8 @@
 	},	        	
 	//City-States
 	{
-		"name": "Milan",
-		"adjective": ["Milanese"],
+		"name": "Djibouti",
+		"adjective": ["Djibouti"],
 		"cityStateType": "Cultured",
 		
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1412,7 +1768,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [185,132,66],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Milan"]
+		"cities": ["Djibouti"]
 	},
 	{
 		"name": "Florence",
@@ -1442,8 +1798,8 @@
 		"cities": ["Mombasa"]
 	},
 	{
-		"name": "Antwerp",
-		"adjective": ["Antwerp"],
+		"name": "Vaduz",
+		"adjective": ["Vaduz"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 
@@ -1453,7 +1809,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [194,97,255],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Antwerp"]
+		"cities": ["Vaduz"]
 	},
 	{
 		"name": "Belgrade",
@@ -1469,8 +1825,8 @@
 		"cities": ["Belgrade"]
 	},
 	{
-		"name": "Tyre",
-		"adjective": ["Tyrian"],
+		"name": "Mohenjo-Daro",
+		"adjective": ["Mohenjo-Daro"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 
@@ -1480,11 +1836,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,97,255],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Tyre"]
+		"cities": ["Mohenjo-Daro"]
 	},
 	{
-		"name": "Ur",
-		"adjective": ["Ur"],
+		"name": "Bangkok",
+		"adjective": ["Bangkok"],
 		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
 
@@ -1494,11 +1850,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,69,0],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Ur"]
+		"cities": ["Bangkok"]
 	},
 	{
-		"name": "Genoa",
-		"adjective": ["Genoese"],
+		"name": "Tallinn",
+		"adjective": ["Tallinn"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 
@@ -1508,7 +1864,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [45,255,86],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Genoa"]
+		"cities": ["Tallinn"]
 	},
 	{
 		"name": "Brussels",
@@ -1537,8 +1893,8 @@
 		"cities": ["Kabul"]
 	},
 	{
-		"name": "Sidon",
-		"adjective": ["Sidon"],
+		"name": "Meroe",
+		"adjective": ["Meroese"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1547,7 +1903,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [250,128,114],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Sidon"]
+		"cities": ["Meroe"]
 	},
 	{
 		"name": "Almaty",
@@ -1563,8 +1919,8 @@
 		"cities": ["Almaty"]
 	},
 	{
-		"name": "Sofia",
-		"adjective": ["Bulgarian"],
+		"name": "Havana",
+		"adjective": ["Havana"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
@@ -1573,7 +1929,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Sofia"]
+		"cities": ["Havana"]
 	},
 	{
 		"name": "Singapore",
@@ -1602,8 +1958,8 @@
 		"cities": ["Zanzibar"]
 	},
 	{
-		"name": "Sydney",
-		"adjective": ["Sydney"],
+		"name": "Phnom Penh",
+		"adjective": ["Phnom Penh"],
 		"cityStateType": "Maritime",
 
 		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
@@ -1612,7 +1968,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,204,204],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Sydney"]
+		"cities": ["Phnom Penh"]
 	},
 	{
 		"name": "Cape Town",
@@ -1654,8 +2010,8 @@
 		"cities": ["Hanoi"]
 	},
 	{
-		"name": "Quebec City",
-		"adjective": ["Québécois"],
+		"name": "Islamabad",
+		"adjective": ["Islamabad"],
 		"cityStateType": "Cultured",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1664,11 +2020,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [51,102,0],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Quebec City"]
+		"cities": ["Islamabad"]
 	},
 	{
-		"name": "Helsinki",
-		"adjective": ["Helsinki"],
+		"name": "Hong Kong",
+		"adjective": ["Hong Kong"],
 		"cityStateType": "Maritime",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1677,7 +2033,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,178,102],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Helsinki"]
+		"cities": ["Hong Kong"]
 	},
 	{
 		"name": "Kuala Lumpur",
@@ -1720,9 +2076,9 @@
 		"cities": ["Lhasa"]
 	},
 	{
-		"name": "Vancouver",
-		"translatedName": "Vancouver",
-		"adjective": ["Vancouverite"],
+		"name": "Lima",
+		"translatedName": "Lima",
+		"adjective": ["Lima"],
 		"cityStateType": "Maritime",
 
 		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
@@ -1731,7 +2087,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,255,128],
 		"uniques": ["Gain a free [~CS] [in every city]"],
-		"cities": ["Vancouver"]
+		"cities": ["Lima"]
 	},
 	{
 		"name": "M'Banza-Kongo",
