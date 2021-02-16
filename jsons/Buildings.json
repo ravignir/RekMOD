@@ -66,6 +66,13 @@
         "cost": -1,
         "uniques": ["Provides [-4] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
     },
+	{
+        "name": "~Ayyubids",
+		"uniqueTo": "Ayyubids",
+        "cost": -1,
+		"providesFreeBuilding": "Burial Tomb",
+        "uniques": ["Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
+    },
 	    {
         "name": "Trade Route1",
         "isNationalWonder": "true",
