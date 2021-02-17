@@ -204,13 +204,14 @@
 			{
 				"name": "Flourishing of the Arts",
 				"uniques": ["+[33]% [Culture] [in all cities with a world wonder]","Empire enters golden age"],
-				"requires": ["Cultural Centers","Fine Arts"],
+				"requires": ["Cultural Exchange"],
 				"row": 3,
 				"column": 2
 			},
 			{
 				"name": "Fine Arts",
 				"uniques": ["+[20]% [Culture] from every [Museum]","+[20]% [Culture] from every [Opera House]","+[20]% [Culture] from every [Broadcast Tower]"],
+				"requires": ["Cultural Exchange","Artistic Genius"],
 				"row": 3,
 				"column": 4
 			},
@@ -281,7 +282,7 @@
 			},
 			{
 				"name": "Maritime Infrastructure",
-				"uniques": ["[+3 Production] from every [Lighthouse]","+[50]% Production when constructing [Lighthouse]","+[50]% Production when constructing [Harbor]","+[50]% Production when constructing [Seaport]"],
+				"uniques": ["[+3 Production] [in all coastal cities]","+[50]% Production when constructing [Lighthouse]","+[50]% Production when constructing [Harbor]","+[50]% Production when constructing [Seaport]"],
 				"row": 1,
 				"column": 3
 			},

@@ -2216,8 +2216,8 @@
 	},
 			{
 		"name": "Krivis",
-		"uniqueTo": "Lithuania",
 		"replaces": "Great Artist",
+		"uniqueTo": "Lithuania",
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age", "Can construct [Sacred Grove]", "Great Person - [Culture]", "Unbuildable","Will not be displayed in Civilopedia"],
 		"movement": 2
