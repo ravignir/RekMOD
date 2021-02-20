@@ -133,6 +133,18 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
+		{
+		"name": "Shona Warrior",
+		"uniqueTo": "Zimbabwe",
+		"replaces": "Warrior",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 9,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
 	{
 		"name": "Jaguar",
 		"unitType": "Melee",
@@ -293,21 +305,6 @@
 		"cost": 45,
 		"uniques": ["Cannot enter ocean tiles","Can move after attacking"],
 		"upgradesTo": "Trireme",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Dromon", //modded
-		"unitType": "WaterRanged",
-		"replaces": "Trireme",
-		"uniqueTo": "Byzantium",
-		"movement": 4,
-		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles","Bonus vs water units 45%"],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -668,7 +665,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Metallurgy",
+		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"Penalty vs City 33%","Consumes [2] [Horses]"],
 		"attackSound": "horse"
@@ -1079,6 +1076,22 @@
 		"attackSound": "horse"
 	},
 		{
+		"name": "Marathi Rider",
+		"replaces": "Horseman",
+		"uniqueTo": "Timurids",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 21,
+		"rangedStrength": 21,
+		"range": 4,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Flight",
+		"upgradesTo": "Great War Bomber",
+		"uniques": ["Consumes [1] [Horses]"],
+		"attackSound": "horse"
+	},
+		{
 		"name": "Konnitsa",
 		"uniqueTo": "Bulgaria",
 		"replaces": "Knight",
@@ -1128,7 +1141,7 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 20,
-		"cost": 150,
+		"cost": 128,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
@@ -1274,7 +1287,7 @@
 		"strength": 12,
 		"rangedStrength": 14,
 		"range": 3,
-		"cost": 185,
+		"cost": 120,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
@@ -1876,7 +1889,21 @@
 		"strength": 51,
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Drill I","Charge"]
+		"promotions": ["Drill I","Charge"]
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+			{
+		"name": "Kuva-yi Milliye",
+		"uniqueTo": "Turkey",
+		"replaces": "Great War Infantry",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 47,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["+[15]% Strength when attacking"]
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
@@ -1888,7 +1915,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 50,
-		"cost": 280,
+		"cost": 300,
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Heals [100] damage if it kills a unit","+[25]% Strength when defending"]
 		"upgradesTo": "Infantry",

@@ -398,6 +398,24 @@
 		"uniques": ["Bonus vs Armor 33%","Bonus vs Mounted 33%"],
 		"unitTypes": ["Melee","Fighter","Bomber"]
 	},
+		{
+		"name": "Formation I",
+		"uniques": ["Bonus vs Armor 33%","Bonus vs Mounted 33%"],
+	},
+	{
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["Bonus vs Armor 33%","Bonus vs Mounted 33%"],
+	},
+			{
+		"name": "Ambush I",
+		"uniques": ["Bonus vs Armor 33%","Bonus vs Mounted 33%"],
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": ["Bonus vs Armor 33%","Bonus vs Mounted 33%"],
+	},
 	
 	
 	// Water ranged and air units

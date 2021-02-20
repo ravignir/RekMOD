@@ -30,7 +30,7 @@
 		{
 		"name": "Hardwood",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"terrainsCanBeFoundOn": ["Forest"],
 		"production": 1,
 		"improvement": "Lumber mill",
 		"improvementStats": {"production": 1},

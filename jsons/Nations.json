@@ -1524,7 +1524,7 @@
 		"innerColor": [18,84,30],
 		"uniqueName": "Barbary Corsairs",
 		"uniques": ["-[66]% [Water] unit maintenance costs","50% chance of capturing defeated Barbarian naval units and earning 25 Gold"],
-		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyabakir","Izmir","Kayseri","Malatya",
+		"cities": ["Kostantiniyye","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyabakir","Izmir","Kayseri","Malatya",
 			"Marsin","Antalya","Zonguldak","Denizli","Ordu","Mugia","Eskishehir","Inebolu","Sinop","Adana","Artuin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarhisar",
 			"Bitlis","Yalova"]
@@ -1941,6 +1941,29 @@
 		"uniques": ["Gain a free [Eightfold Path to Nirvana] [in capital]"],
 		"cities": ["Lhasa","Xigaze","Qamdo","Nagqu","Nyingchi","Ngari","Lhoka","Chengguan","Doilungdeqen","Lhunzhub","Damxung","Maizhokunggar","Quxu"]
 	},
+				{
+		"name": "Timurids",
+		"leaderName": "Timur",
+		"adjective": ["Timurid"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [57,57,57],
+		"innerColor": [255,45,45],
+		"uniqueName": "Ulugh Beg's Observatory",
+		"uniqueText": "+10% Production, +10% Science, +10% Culture, +10% Gold and +5 defensive Strength in capital."
+		"uniques": ["Gain a free [Ulugh Beg's Observatory] [in capital]"],
+		"cities": ["Samarkand","Herat","Balkh","Bukhara","Kabul","Nishapur","Urgench","Merv","Ghazni","Kandahar","Tashkent","Tabriz","Tiflis"]
+	},
 					{
 		"name": "Tonga",
 		"leaderName": "'Aho'eitu",
@@ -1962,6 +1985,29 @@
 		"uniqueName": "The Friendly Islands",
 		"uniques": ["[+1 Gold, +1 Science] per [5] population in all cities"],
 		"cities": ["Mu'a","Nuku'alofa","Neiafu","Haveluoto","Vaini","Pangai","Ohonua","Agaha","Kolonga","Hihifo","Tafahi","Petani","Holonga"]
+	},
+					{
+		"name": "Turkey",
+		"leaderName": "Ataturk",
+		"adjective": ["Turkish"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [255,227,151],
+		"innerColor": [191,24,38],
+		"uniqueName": "Westernization",
+		"uniqueText": "+50% Production when constructing Temples, Opera Houses, Museums and Broadcast Towers. All of these Buildings provide +1 Science and +1 Production."
+		"uniques": ["[+1 Culture, +1 Science] from every [Temple]","[+1 Culture, +1 Science] from every [Museum]","[+1 Culture, +1 Science] from every [Opera House]","[+1 Culture, +1 Science] from every [Broadcast Tower]","+[50]% Production when constructing [Temple]","+[50]% Production when constructing [Opera House]","+[50]% Production when constructing [Museum]","+[50]% Production when constructing [Broadcast Tower]"],
+		"cities": ["Ankara","Istambul","Izmir","Bursa","Adana","Gaziantep","Konya","Antalya","Diyarbakir","Mersin","Kayseri","Eskisehir","Gebze"]
 	},
 						{
 		"name": "Ukraine",
@@ -2057,6 +2103,29 @@
 		"uniqueName": "Hafod a Hendref",
 		"uniques": ["[+1 Food, +1 Gold] from every [Sheep]","+[15]% combat bonus for units fighting in [Hill]"],
 		"cities": ["Cardiff","Swansea","Casnewydd","Wrecsam","Y Barri","Cwmbran","Pen-y-bont ar Ogwr","Lianelli","Penrhyndeudraeth","Caerffili","Ynysybwl","Pont-y-pwl","Cefn-Mawr","Coed Duon"]
+	},
+					{
+		"name": "Zimbabwe",
+		"leaderName": "Nyatsimba Mutota",
+		"adjective": ["Zimbabwe"],
+//		"startBias": ["Forest"],
+//		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [70,70,82],
+		"innerColor": [205,146,68],
+		"uniqueName": "Great Zimbabwe",
+		"uniqueText": "+25% Production when constructing buildings and military units in capital."
+		"uniques": ["Gain a free [Great Zimbabwe] [in capital]"],
+		"cities": ["Great Zimbabwe","Khami","Zvongombe","Danamombe","MApangubwe","Mayenne","Harare","Bulawayo","Chitungwiza","Mutare","Epworth","Gweru","Kwekwe","Kadoma"]
 	},
 	{
 		"name": "Zulu",
