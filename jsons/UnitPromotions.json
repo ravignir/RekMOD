@@ -477,7 +477,7 @@
 	},
 	{
 		"name": "Amphibious", // Marine, Berserker, and Songhai
-		"effect": "Amphibious"
+		"uniques": ["Amphibious","No combat penalty when attacking from the sea or over a river"]
 	},
 	{
 		"name": "War Canoes", // Songhai
