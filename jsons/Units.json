@@ -1874,8 +1874,8 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
+		"requiredTech": "Replaceable Parts",
+		"obsoleteTech": "Plastics",
 		"upgradesTo": "Infantry",
 		"promotions": ["Ski Infantry","Drill I","Drill II"],
 		"attackSound": "shot"
