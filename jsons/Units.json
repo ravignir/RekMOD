@@ -1876,7 +1876,7 @@
 		"cost": 320,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "Infantry",
 		"promotions": ["Ski Infantry","Drill I","Drill II"],
 		"attackSound": "shot"
 	},
