@@ -100,7 +100,7 @@
 			},
 			{
 				"name": "Professional Army",
-				"uniques":["[+1 Production, + 1 Gold, +1 Culture] from every [Military Academy]","[+1 Production, + 1 Gold, +1 Culture] from every [Armory]","[+1 Production, + 1 Gold, +1 Culture] from every [Barracks]","+[100]% Production when constructing [Barracks]","+[100]% Production when constructing [Armory]","+[100]% Production when constructing [Military Academy]"],
+				"uniques":["[+1 Production, +1 Gold, +1 Culture] from every [Military Academy]","[+1 Production, +1 Gold, +1 Culture] from every [Armory]","[+1 Production, +1 Gold, +1 Culture] from every [Barracks]","+[100]% Production when constructing [Barracks]","+[100]% Production when constructing [Armory]","+[100]% Production when constructing [Military Academy]"],
 				"row": 1,
 				"column": 4
 			},
