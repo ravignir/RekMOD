@@ -7,7 +7,6 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
-		"building": "Stable"
 	},
 	{
 		"name": "Sheep",
@@ -16,7 +15,6 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
-		"building": "Stable"
 	},
 	{
 		"name": "Deer",
@@ -25,7 +23,6 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
-		"building": "Granary"
 	},
 		{
 		"name": "Hardwood",
@@ -34,7 +31,6 @@
 		"production": 1,
 		"improvement": "Lumber mill",
 		"improvementStats": {"production": 1},
-		"building": "Workshop"
 	},
 	{
 		"name": "Bananas",
@@ -43,7 +39,6 @@
 		"food": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 2},
-		"building": "Granary"
 	},
 	{
 		"name": "Wheat",
@@ -52,7 +47,6 @@
 		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"food": 0},
-		"building": "Granary"
 	},
 		{
 		"name": "Maize",
@@ -61,7 +55,6 @@
 		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"food": 0},
-		"building": "Granary"
 	},
 	{
 		"name": "Stone",
@@ -70,7 +63,6 @@
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"building": "Stone Works"
 	},
 	{
 		"name": "Fish",
@@ -79,7 +71,6 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 0},
-		"building": "Lighthouse"
 	},
 	
 	// Strategic resources
@@ -91,7 +82,6 @@
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
-		"building": "Stable",
 	},
 	{
 		"name": "Iron",
@@ -101,7 +91,6 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"building": "Forge"
 	},
 	{
 		"name": "Coal",
@@ -148,7 +137,6 @@
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1, "production": 1},
-		"building": "Mint"
 	},
 	{
 		"name": "Furs",
@@ -183,13 +171,12 @@
 		"improvementStats": {"gold": 1, "production": 1}
 	},
 	{
-		"name": "Gold",
+		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill","Desert Hill"],
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1, "production": 1},
-		"building": "Mint"
 	},
 		{
 		"name": "Jade",
@@ -198,7 +185,6 @@
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1, "production": 1},
-		"building": "Mint"
 	},
 			{
 		"name": "Lapis Lazuli",
@@ -207,7 +193,6 @@
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1, "production": 1},
-		"building": "Mint"
 	},
 	{
 		"name": "Silver",
@@ -216,7 +201,6 @@
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1, "production": 1},
-		"building": "Mint"
 	},
 	{
 		"name": "Incense",
@@ -225,7 +209,6 @@
 		"gold": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1, "culture": 2},
-		"building": "Monastery"
 	},
 		{
 		"name": "Perfume",
@@ -234,7 +217,6 @@
 		"gold": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1, "culture": 2},
-		"building": "Monastery"
 	},
 	{
 		"name": "Ivory",
@@ -267,7 +249,6 @@
 		"gold": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1, "food": 1},
-		"building": "Monastery"
 	},
 	{
 		"name": "Sugar",
@@ -285,7 +266,6 @@
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
 		"unique": "+15% production towards Wonder construction",
-		"building": "Stone Works"
 	},
 		{
 		"name": "Obsidian",
@@ -294,7 +274,6 @@
 		"gold": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
-		"building": "Stone Works"
 	},
 	{
 		"name": "Whales",
@@ -320,7 +299,6 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
-		"building": "Granary"
 	},
 	{
 		"name": "Citrus", //modded
@@ -330,7 +308,6 @@
 		"gold": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 1},
-		"building": "Granary"
 	},
 		{
 		"name": "Olives", //modded
@@ -340,7 +317,6 @@
 		"gold": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 1},
-		"building": "Granary"
 	},
 	{
 		"name": "Copper", //modded
