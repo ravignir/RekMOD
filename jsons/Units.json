@@ -43,9 +43,8 @@
 		"name": "Pioneer", //modded
 		"uniqueTo": "America",
 		"replaces": "Settler",
-		"unitType": "Scout",
+		"unitType": "Civilian",
 		"movement": 2,
-		"strength": 5,
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","Ignores terrain cost"],
