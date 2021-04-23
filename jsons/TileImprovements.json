@@ -86,6 +86,7 @@
 	{
 		"name": "Archaeological Dig",
 		"resourceTerrainAllow": ["Grassland","Plains","Forest","Jungle","Desert"],
+		"uniques": ["Can be built outside your borders"]
 	},
 	{
 		"name": "Land Trade Route (Food)",
@@ -342,7 +343,7 @@
 	{
 		"name": "Feitoria",
 		"uniqueTo": "Portugal",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra"],
 		"turnsToBuild": 7,
 		"gold": 3,
 		"happiness": 2,
