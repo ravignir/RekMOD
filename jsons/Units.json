@@ -1621,7 +1621,7 @@
 		"rangedStrength": 40,
 		"cost": 375,
 		"requiredTech": "Electronics",
-        "uniques": ["Can carry 2 aircraft"]
+        "uniques": ["Can carry 2 aircraft","Cannot attack"]
 	},
 	{
 		"name": "Triplane",
@@ -1828,7 +1828,7 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["Can move after attacking","Can attack submarines","[40]% chance to intercept air attacks","May withdraw before melee ([50]%)"]
+		"uniques": ["Can move after attacking","Can attack submarines","[40]% chance to intercept air attacks","May withdraw before melee ([80]%)","Bonus vs WaterSubmarine 100%"]
 	},
 	{
 		"name": "Battleship",
