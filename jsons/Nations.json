@@ -2259,7 +2259,7 @@
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [45,255,86],
-		"uniques": [["Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Tallinn"]
 	},
 	{
