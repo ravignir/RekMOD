@@ -234,7 +234,6 @@
 	{
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Hill"],
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] once [Flight] is discovered",
