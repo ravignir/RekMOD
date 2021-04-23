@@ -328,11 +328,16 @@
     {
         "name": "Granary", 
         "food": 2,
-        "resourceBonusStats": {"food": 1},
         "maintenance": 1,
         "hurryCostModifier": 25,
-        "uniques": ["[+3 Food] from [Land Trade Route (Food)] tiles in this city",
-        	"[+3 Food] from [Sea Trade Route (Food)] tiles in this city"],
+        "uniques": ["[+1 Food] from [Deer] tiles in this city",
+			"[+1 Food] from [Bananas] tiles in this city",
+			"[+1 Food] from [Wheat] tiles in this city",
+		    	"[+1 Food] from [Maize] tiles in this city",
+		    		    "[+1 Food] from [Olives] tiles in this city",
+		    "[+1 Food] from [Citrus] tiles in this city",
+		    "[+1 Food] from [Bison] tiles in this city",
+			"[+3 Food] from [Land Trade Route (Food)] tiles in this city",
         "requiredTech": "Pottery"
     },
 	    {
@@ -340,12 +345,17 @@
 		"replaces": "Granary",
 		"uniqueTo": "Tonga",
         "food": 3,
-        "resourceBonusStats": {"food": 1},
         "maintenance": 1,
 		"cost": 45,
         "hurryCostModifier": 25,
         "uniques": ["[+3 Food] from [Land Trade Route (Food)] tiles in this city",
-        	"[+3 Food] from [Sea Trade Route (Food)] tiles in this city"],
+        	"[+3 Food] from [Sea Trade Route (Food)] tiles in this city","[+1 Food] from [Deer] tiles in this city",
+			"[+1 Food] from [Bananas] tiles in this city",
+		    "[+1 Food] from [Maize] tiles in this city",
+		    "[+1 Food] from [Olives] tiles in this city",
+		    "[+1 Food] from [Citrus] tiles in this city",
+		    "[+1 Food] from [Bison] tiles in this city",
+			"[+1 Food] from [Wheat] tiles in this city"],
         "requiredTech": "Sailing"
     },
 	    {
@@ -353,12 +363,18 @@
 		"uniqueTo": "Bulgaria",
         "replaces": "Granary", 
         "food": 2,
-        "resourceBonusStats": {"food": 1},
+
         "maintenance": 1,
 		"cost": 54,
         "hurryCostModifier": 25,
         "uniques": ["[+1 Gold] from [Wheat] tiles in this city","[+1 Gold] from [Cattle] tiles in this city","[+3 Food] from [Land Trade Route (Food)] tiles in this city",
-        	"[+3 Food] from [Sea Trade Route (Food)] tiles in this city"],
+        	"[+3 Food] from [Sea Trade Route (Food)] tiles in this city","[+1 Food] from [Deer] tiles in this city",
+			"[+1 Food] from [Bananas] tiles in this city",
+		    "[+1 Food] from [Maize] tiles in this city",
+		    		    "[+1 Food] from [Olives] tiles in this city",
+		    "[+1 Food] from [Citrus] tiles in this city",
+		    "[+1 Food] from [Bison] tiles in this city",
+			"[+1 Food] from [Wheat] tiles in this city"],
         "requiredTech": "Pottery"
     },
     {
@@ -366,10 +382,11 @@
         "happiness": 1,
         "production": 1,
         "requiredNearbyImprovedResources": ["Marble","Stone","Obsidian"],
-        "resourceBonusStats": {"production": 1},
         "maintenance": 1,
         "hurryCostModifier": 0,
         "requiredTech": "Calendar"
+	            "uniques": ["[+1 Production] from [Stone] tiles in this city",
+			"[+1 Production] from [Marble] tiles in this city","[+1 Production] from [Obsidian] tiles in this city"],
     },
 	    {
 		"name": "Kyawwat",
@@ -651,8 +668,7 @@
         "name": "Lighthouse",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "resourceBonusStats": {"food": 1},
-        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Ocean] tiles in this city"],
+        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Ocean] tiles in this city","[+1 Food] from [Fish] tiles in this city"],
         "requiredTech": "Optics"
     },
 	    {
@@ -664,8 +680,7 @@
 		"food": 1,
 		"gold": 1,
 		"production": 1,
-        "resourceBonusStats": {"food": 1},
-        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Ocean] tiles in this city"],
+        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Ocean] tiles in this city","[+1 Food] from [Fish] tiles in this city"],
         "requiredTech": "Optics"
     },
     {
@@ -700,9 +715,10 @@
         "name": "Stable", 
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-        "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["+[15]% Production when constructing [Mounted] units [in this city]"],
+        "uniques": ["+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production, +1 Gold] from [Cattle] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -712,10 +728,11 @@
         "cost": 75,
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-        "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
         "uniques": ["[+1 Production, +1 Gold] from [Pasture] tiles in this city",
-            "New [Mounted] units start with [15] Experience in this city","+[15]% Production when constructing [Mounted] units [in this city]"],
+            "New [Mounted] units start with [15] Experience in this city","+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production, +1 Gold] from [Cattle] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",],
         "requiredTech": "Horseback Riding"
     },
 	    {
@@ -724,9 +741,10 @@
         "uniqueTo": "Argentina",
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-        "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Food, +1 Production] from [Maize] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]"]
+        "uniques": ["[+1 Food, +1 Production] from [Maize] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production, +1 Gold] from [Cattle] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",]
         "requiredTech": "Horseback Riding"
     },
 		    {
@@ -735,9 +753,10 @@
         "uniqueTo": "The Huns",
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-        "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["Provides [2] [Horses]","[+1 Culture] from [Horses] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]"]
+        "uniques": ["Provides [2] [Horses]","[+1 Culture] from [Horses] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production, +1 Gold] from [Cattle] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",]
         "requiredTech": "Horseback Riding"
     },
     {
@@ -985,9 +1004,9 @@
     {
         "name": "Mint",
         "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Gold","Silver","Copper"],
-        "resourceBonusStats": {"gold": 2},
+        "requiredNearbyImprovedResources": ["Gold Ore","Silver","Copper","Amber","Lapis Lazuli","Jade"],
         "hurryCostModifier": 25,
+	    "uniques": ["[+2 Gold] from [Lapis Lazuli] tiles in this city","[+2 Gold] from [Amber] tiles in this city","[+2 Gold] from [Jade] tiles in this city","[+2 Gold] from [Gold Ore] tiles in this city","[+2 Gold] from [Silver] tiles in this city","[+2 Gold] from [Copper] tiles in this city"]
         "requiredTech": "Currency"
     },  
 	    {
@@ -997,7 +1016,7 @@
         "maintenance": 0,
         "production": 2,
         "hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Gold] tiles in this city","[+2 Gold] from [Silver] tiles in this city","[+2 Gold] from [Copper] tiles in this city"]
+		"uniques": ["[+2 Gold] from [Lapis Lazuli] tiles in this city","[+2 Gold] from [Amber] tiles in this city","[+2 Gold] from [Jade] tiles in this city","[+2 Gold] from [Gold Ore] tiles in this city","[+2 Gold] from [Silver] tiles in this city","[+2 Gold] from [Copper] tiles in this city"]
         "requiredTech": "Currency"
     }, 
     {
@@ -1074,10 +1093,10 @@
     {
         "name": "Monastery",
         "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Wine","Incense"],
-        "resourceBonusStats": {"culture": 2},
+        "requiredNearbyImprovedResources": ["Wine","Incense","Perfume"],
         "hurryCostModifier": 25,
         "requiredTech": "Theology"
+	"uniques": ["[+2 Culture] from [Incense] tiles in this city","[+2 Culture] from [Wine] tiles in this city","[+2 Culture] from [Perfume] tiles in this city"]
     },
     {
         "name": "Grand Temple", //modded
@@ -1162,11 +1181,10 @@
     {
         "name": "Workshop", 
         "maintenance": 2,
-        "production": 2,
-	"resourceBonusStats": {"production": 1},    
+        "production": 2, 
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+3 Production] from [Land Trade Route (Production)] tiles in this city",
+        "uniques": ["[+3 Production] from [Land Trade Route (Production)] tiles in this city", "[+1 Production] from [Hardwood] tiles in this city"
             "[+3 Production] from [Sea Trade Route (Production)] tiles in this city","+[10]% [Production] [in this city]"],
         "requiredTech": "Metal Casting"
     },
@@ -1176,10 +1194,9 @@
         "replaces": "Workshop", 
         "maintenance": 2,
         "production": 1,
-	"resourceBonusStats": {"production": 1},
         "specialistSlots": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+2 Production] from [Coral] tiles in this city","[+1 Culture] from [Crab] tiles in this city","[+1 Culture] from [Pearls] tiles in this city","[+2 Gold] from [Whales] tiles in this city","[+1 Food] from [Fish] tiles in this city","[+3 Production] from [Land Trade Route (Production)] tiles in this city",
+        "uniques": ["[+2 Production] from [Coral] tiles in this city","[+1 Culture] from [Crab] tiles in this city","[+1 Production] from [Hardwood] tiles in this city","[+1 Culture] from [Pearls] tiles in this city","[+2 Gold] from [Whales] tiles in this city","[+1 Food] from [Fish] tiles in this city","[+3 Production] from [Land Trade Route (Production)] tiles in this city",
             "[+3 Production] from [Sea Trade Route (Production)] tiles in this city","+[10]% [Production] [in this city]"],
         "requiredTech": "Metal Casting"
     },
@@ -1231,10 +1248,9 @@
         "maintenance": 1,
         "hurryCostModifier": 25,
         "requiredNearbyImprovedResources": ["Iron","Coal","Aluminum","Uranium"],
-        "resourceBonusStats": {"production": 1},
         "requiredTech": "Metal Casting",
         "uniques": ["+[15]% Production when constructing [Land] units [in this city]",
-            "+[15]% Production when constructing [Spaceship part] [in this city]"]
+            "+[15]% Production when constructing [Spaceship part] [in this city]","[+1 Production] from [Iron] tiles in this city"]
     },
 	    {
 		"name": "Blast Furnace",
