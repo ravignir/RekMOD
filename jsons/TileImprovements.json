@@ -50,6 +50,7 @@
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
+		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Biology"
 	},
 	{
@@ -367,7 +368,7 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": ["[+1 Food] for each adjacent [Mountain]","Cannot be built on bonus resource",
-			"[+1 Food] on [fresh water] tiles once [Civil Service] is discovered",
+			"[+1 Food] on [Fresh water] tiles once [Civil Service] is discovered",
 			"[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
