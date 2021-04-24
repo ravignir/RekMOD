@@ -91,40 +91,40 @@
 	},
 	{
 		"name": "Land Trade Route (Food)",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"food": 1,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 	{
 		"name": "Land Trade Route (Production)",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"production": 1,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 	{
 		"name": "Land Trade Route (Gold)",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"gold": 4,
-		"science": 3,
+		"science": 2,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 	{
 		"name": "Sea Trade Route (Food)",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"resourceTerrainAllow": ["Coast","Ocean"],
 		"food": 4,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"resourceTerrainAllow": ["Coast","Ocean"],
 		"production": 4,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"resourceTerrainAllow": ["Coast","Ocean"],
 		"gold": 6,
-		"science": 5,
+		"science": 3,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 
