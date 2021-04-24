@@ -1214,6 +1214,7 @@
 		"unitType": "WaterMelee",
 		"movement": 4,
 		"strength": 17,
+		"cost": 100,
 		"hurryCostModifier": 30,
 		"requiredTech": "Compass",
 		"upgradesTo": "Ironclad",
