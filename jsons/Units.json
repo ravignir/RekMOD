@@ -666,7 +666,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"Penalty vs City 33%","Consumes [2] [Horses]"],
+			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 		{
