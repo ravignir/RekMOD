@@ -489,7 +489,7 @@
 				"column": 3
 			},
 			{
-				"name": "Order Complete",
+				"name": "Don't pick Order II Complete",
 				"uniques": ["Ideology Complete"]
 			}
 		]
@@ -578,7 +578,7 @@
 				"column": 3
 			},
 			{
-				"name": "Freedom II Complete",
+				"name": "Don't pick Freedom II Complete",
 				"uniques": ["Ideology Complete"]
 			}
 		]
@@ -669,7 +669,7 @@
 				"column": 3
 			},
 			{
-				"name": "Autocracy II Complete",
+				"name": "Don't pick Autocracy II Complete",
 				"uniques": ["Ideology Complete"]
 			}
 		]
