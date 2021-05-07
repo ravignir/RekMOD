@@ -89,12 +89,12 @@
 	{
 		"name": "Honor",
 		"era": "Ancient era",
-		"uniques": ["+25% bonus vs Barbarians","Earn [100]% of [Barbarian] opponent's [Strength] as [Culture] for kills",
+		"uniques": ["+25% bonus vs Barbarians","Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
 			"Notified of new Barbarian encampments","Unlocks building the Temple of Artemis"],
 		"policies": [
 			{
 				"name": "Warrior Code",
-				"uniques":["[2] free [Warrior] units appear","Earn [10]% of [military] opponent's [Cost] as [Gold] for kills"],
+				"uniques":["[2] free [Warrior] units appear","Earn [10]% of killed [Enemy] unit's [Cost] as [Gold]"],
 				"row": 1,
 				"column": 2
 			},
