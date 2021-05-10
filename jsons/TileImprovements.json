@@ -21,7 +21,7 @@
 	},
 	{
 		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Desert Hill", "Hill"],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
@@ -55,7 +55,6 @@
 	},
 	{
 		"name": "Pasture",
-		"resourceTerrainAllow": ["Desert Hill"],
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": ["[+1 Food] once [Fertilizer] is discovered"]
@@ -312,7 +311,7 @@
 	{
 		"name": "Kasbah",
 		"uniqueTo": "Morocco",
-		"terrainsCanBeBuiltOn": ["Desert","Desert Hill","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
 		"food": 2,
 		"production": 1,
 		"gold": 1,
@@ -364,7 +363,7 @@
 	{
 		"name": "Terrace farm",
 		"uniqueTo": "Inca",
-		"terrainsCanBeBuiltOn": ["Hill","Desert Hill"],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": ["[+1 Food] for each adjacent [Mountain]","Cannot be built on bonus resource",
