@@ -2050,7 +2050,7 @@
 	},
 		{
 		"name": "Atomic Bomb",
-		"unitType": "AtomicBomber",
+		"unitType": "Missile",
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
