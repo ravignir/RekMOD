@@ -470,9 +470,8 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 40,
-		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "Swordsman",
 		"uniques":["Earn [100]% of [military] opponent's [Strength] as [Culture] for kills"],
 		"attackSound": "metalhit"
 	},
