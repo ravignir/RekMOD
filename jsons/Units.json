@@ -2048,6 +2048,34 @@
 		"requiredTech": "Rocketry",
 		"uniques": ["Requires [Manhattan Project]","Consumes [2] [Uranium]","Cannot be purchased"]
 	},
+		{
+		"name": "Atomic Bomb",
+		"unitType": "AtomicBomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"uniques": ["Nuclear weapon", "Requires [Manhattan Project]", "Self-destructs when attacking"]
+		// Plane rather than a missile - can be based in city or Carrier only. But cannot be intercepted because of a civ 5 bug that was never fixed.
+		// Single-use like missile
+		// No strength/rangedStrength tags in civ 5 xmls. Instead has NukeDamageLevel = 1 tag (Nuclear Missile has NukeDamageLevel = 2)
+	},
+	{
+		"name": "Guided Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 150,
+		"requiredTech": "Satellites",
+		"uniques": ["Self-destructs when attacking"]
+		// don't cost Maintenance, but count towards the limit of air units in city
+		// requiredTech "Advanced ballistics" in expansions
+	},
 	{
 		"name": "Marine", //modded
 		"unitType": "Melee",
