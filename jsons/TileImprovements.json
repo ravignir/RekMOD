@@ -227,7 +227,7 @@
 	{
 		"name": "Citadel",
 		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units","Great Improvement",
-			"Can be built outside your borders"],
+			"Can be built just outside your borders"],
 		// TODO (G&K): adds every tile around it to your territory
 	},
 
