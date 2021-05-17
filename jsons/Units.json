@@ -8,7 +8,6 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 50,
-		"promotions": ["Medic","Medic II"]
 		"uniques": ["Can build improvements on tiles"]
 	},
 		{
