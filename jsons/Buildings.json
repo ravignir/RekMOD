@@ -264,21 +264,20 @@
 	
 	// Buildings & Wonders
     // Ancient Era
-    {
-        "name": "Palace",
-        "isNationalWonder": true,
-        "production": 3,
-        "science": 3,
-        "gold": 3,
+{
+		"name": "Palace",
+		"isNationalWonder": true,
 		"production": 3,
-        "cityStrength": 2,
-        "culture": 1,
-        "cost": 1,
-        "uniques": ["Indicates the capital city","[-1 Gold] from every [River]"]
-    },
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city","[-1 Gold] from every [River]"]
+	},
 	    {
         "name": "Orszaggyules",
-		"uniqueTo": "Hungary",
+	"uniqueTo": "Hungary",
         "isNationalWonder": true,
         "production": 3,
         "science": 3,
@@ -287,7 +286,7 @@
         "culture": 1,
         "cost": 150,
         "uniques": ["+[25]% great person generation in this city","+[10]% Production when constructing [Buildings] [in this city]","[+3 Culture, +3 Production, +3 Food] once [Chivalry] is discovered"]
-		"requiredTech": "Mathematics",
+	"requiredTech": "Mathematics",
     },
     {
         "name": "Monument",
@@ -1126,16 +1125,16 @@
         "requiredTech": "Theology",
         "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty'  - Procopius, De Aedificis"
     },
-    {
-        "name": "National College",
-        "cost": 125,
-        "science": 3,
-        "culture": 1,
-        "isNationalWonder": true,
-        "uniques": ["Cost increases by [30] per owned city","+[50]% [Science] [in this city]",
-            "Requires a [Library] in all cities"],
-        "requiredTech": "Philosophy"
-    },
+	{
+		"name": "National College",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},
     {
         "name": "Chichen Itza",
         "culture": 1,
