@@ -707,7 +707,7 @@
         "cost": 100,
         "hurryCostModifier": 25,
 		"gold": 2,
-        "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] in this city","[+1 Gold] per [3] population [in this city]"],
+        "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] in this city","[+1 Gold] per [3] population in this city"],
         "requiredTech": "Horseback Riding"
     }
     {
@@ -1747,7 +1747,7 @@
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "uniques": ["[+1 Science] per [2] population [in this city]","Requires a [University] in this city"],
+        "uniques": ["[+1 Science] Per [2] Population in this city","Requires a [University] in this city"],
         "requiredTech": "Scientific Theory"
     },
 	    {
@@ -1760,7 +1760,7 @@
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "uniques": ["[+1 Science] per [2] population [in this city]","Requires a [University] in this city"],
+        "uniques": ["[+1 Science] Per [2] Population in this city","Requires a [University] in this city"],
         "requiredTech": "Scientific Theory"
     },
     {
