@@ -422,7 +422,7 @@
         "name": "Library",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["[+1 Science] per [2] population [in this city]"],
+        "uniques": ["[+1 Science] Per [2] Population in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -431,7 +431,7 @@
         "uniqueTo": "Akkad",
         "hurryCostModifier": 25,
         "science": 1,
-        "uniques": ["[+1 Science] per [2] population [in this city]"],
+        "uniques": ["[+1 Science] Per [2] Population in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -440,7 +440,7 @@
         "uniqueTo": "China",
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["[+1 Science] per [2] population [in this city]"],
+        "uniques": ["[+1 Science] Per [2] Population in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -453,7 +453,7 @@
         "maintenance": 1,
 		"culture": 1,
 		"science": 1,
-        "uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience in this city"],
+        "uniques": ["[+1 Science] Per [2] Population in this city","New [Military] units start with [10] Experience in this city"],
         "requiredTech": "Writing"
     },
     {
