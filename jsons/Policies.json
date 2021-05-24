@@ -447,9 +447,9 @@
 		]
 		},
 	{
-		"name": "Don't pick Order II",
+		"name": "Order II",
 		"era": "Modern era",
-		"uniques": ["Incompatible with [Autocracy]","Incompatible with [Freedom]","Incompatible with [Order]"],
+		"uniques": ["Incompatible with [Autocracy]","Incompatible with [Freedom]","Free Social Policy"],
 		"policies": [
 			{
 				"name": "Young Pioneers",
@@ -460,7 +460,8 @@
 			},
 			{
 				"name": "Skyscrapers",
-				"uniques": ["Cost of purchasing [All] buildings reduced by [50]%"],
+				"uniqueText": "Cost of purchasing buildings reduced by [50]%",
+				"uniques": ["Cost of purchasing [Science] buildings reduced by [50]%","Cost of purchasing [Production] buildings reduced by [50]%","Cost of purchasing [Food] buildings reduced by [50]%","Cost of purchasing [Gold] buildings reduced by [50]%","Cost of purchasing [Happiness] buildings reduced by [50]%","Cost of purchasing [Culture] buildings reduced by [50]%"],
 				"requires": ["Young Pioneers"],
 				"row": 2,
 				"column": 1
@@ -489,7 +490,7 @@
 				"column": 3
 			},
 			{
-				"name": "Don't pick Order II Complete",
+				"name": "Order II Complete",
 				"uniques": ["Ideology Complete"]
 			}
 		]
@@ -538,9 +539,9 @@
 		]
 	},
 	{
-		"name": "Don't pick Freedom II",
+		"name": "Freedom II",
 		"era": "Modern era",
-		"uniques": ["Incompatible with [Autocracy]","Incompatible with [Freedom]","Incompatible with [Order]"],
+		"uniques": ["Incompatible with [Autocracy]","Free Social Policy","Incompatible with [Order]"],
 		"policies": [				
 			{
 				"name": "Capitalism",
@@ -578,7 +579,7 @@
 				"column": 3
 			},
 			{
-				"name": "Don't pick Freedom II Complete",
+				"name": "Freedom II Complete",
 				"uniques": ["Ideology Complete"]
 			}
 		]
@@ -627,9 +628,9 @@
 		]
 	}
 		{
-		"name": "Don't pick Autocracy II",
+		"name": "Autocracy II",
 		"era": "Modern era",
-		"uniques": ["Incompatible with [Autocracy]","Incompatible with [Freedom]","Incompatible with [Order]"],
+		"uniques": ["Free Social Policy","Incompatible with [Freedom]","Incompatible with [Order]"],
 		"policies": [
 			{
 				"name": "Universal Healthcare",
@@ -669,7 +670,7 @@
 				"column": 3
 			},
 			{
-				"name": "Don't pick Autocracy II Complete",
+				"name": "Autocracy II Complete",
 				"uniques": ["Ideology Complete"]
 			}
 		]
