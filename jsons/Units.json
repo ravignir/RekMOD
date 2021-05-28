@@ -2059,7 +2059,7 @@
 		"uniques": ["Nuclear weapon", "Requires [Manhattan Project]", "Self-destructs when attacking"]
 	},
 	{
-		"name": "Guided Missile",
+		"name": "Missile",
 		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 60,
