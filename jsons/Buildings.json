@@ -57,7 +57,7 @@
         "name": "~CS",
         "isNationalWonder": "true",
         "cost": -1,
-        "uniques": ["Provides [-4] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
+        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
     },
 	    {
         "name": "Bonus Trade Routes",
@@ -202,6 +202,7 @@
 	    {
         "name": "Trade Route1",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
 		"requiredTech": "Animal Husbandry",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
@@ -209,6 +210,7 @@
 		    {
         "name": "Trade Route2",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
 		"requiredTech": "Sailing",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
@@ -216,6 +218,7 @@
 			    {
         "name": "Trade Route3",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
 		"requiredTech": "Engineering",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
@@ -223,6 +226,7 @@
 		    {
         "name": "Trade Route4",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
 		"requiredTech": "Compass",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
@@ -230,6 +234,7 @@
 		    {
         "name": "Trade Route5",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
 		"requiredTech": "Banking",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
@@ -237,6 +242,7 @@
 		    {
         "name": "Trade Route6",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
 		"requiredTech": "Biology",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
@@ -244,6 +250,7 @@
 		    {
         "name": "Trade Route7",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
 		"requiredTech": "Railroad",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
@@ -251,6 +258,7 @@
 		    {
         "name": "Trade Route8",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
 		"requiredTech": "Pharmaceuticals",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
@@ -258,6 +266,7 @@
 			    {
         "name": "Trade Route9",
         "isNationalWonder": "true",
+		"cannotBeBuiltWith": "~CS",
         "cost": -1,
         "uniques": ["Provides [2] [Trade Route]","Requires [Entrepreneurship]","Will not be displayed in Civilopedia"]
     },
