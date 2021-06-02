@@ -339,9 +339,9 @@
 		"outerColor": [228, 111, 87],
 		"innerColor": [38, 41, 80],
 		"uniqueName": "The Great Trek",
-		"uniqueText": "+1 food from farms, +1 culture from farms after the discovery of Fertilizer
+		"uniqueText": "+2 food in all cities before Civil Service, +1 culture from farms after the discovery of Fertilizer
 		",
-		"uniques": ["[+1 Food] from every [Farm]"]
+		"uniques": ["[+2 Food] per turn from cities before [Civil Service]"]
 		"cities": ["Pretoria","Bloemfontein","Johannesburg","Pietermatitzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof","Benoni","Boksburg"]
 	},
 	{
