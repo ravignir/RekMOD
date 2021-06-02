@@ -297,7 +297,7 @@
 		{
 		"name": "Longship", //modded
 		"unitType": "WaterMelee",
-		"uniqueTo": "Barbarians",
+		"uniqueTo": "Denmark",
 		"movement": 6,
 		"strength": 10,
 		"cost": 45,
