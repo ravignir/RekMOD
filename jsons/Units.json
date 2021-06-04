@@ -2074,7 +2074,7 @@
 		"strength": 80,
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["Defense bonus when embarked","+1 Visibility Range"],
+		"uniques": ["Defense bonus when embarked","[+1] Sight when [Embarked]"],
 		"promotions": ["Amphibious"],
 		"attackSound": "shot"
 	},	
