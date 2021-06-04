@@ -2243,7 +2243,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Uncapturable","Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 		{
@@ -2251,7 +2251,7 @@
 		"uniqueTo": "Italy",
 		"replaces": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [12]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Uncapturable","Can start an [12]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 			{
@@ -2259,7 +2259,7 @@
 		"uniqueTo": "Tibet",
 		"replaces": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [10]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Uncapturable","Can start an [10]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 4
 	},
 			{
@@ -2267,32 +2267,32 @@
 		"replaces": "Great Artist",
 		"uniqueTo": "Lithuania",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Sacred Grove]", "Great Person - [Culture]", "Unbuildable","Will not be displayed in Civilopedia"],
+		"uniques": ["Uncapturable","Can start an [8]-turn golden age", "Can construct [Sacred Grove]", "Great Person - [Culture]", "Unbuildable","Will not be displayed in Civilopedia"],
 		"movement": 2
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
+		"uniques": ["Uncapturable","Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Uncapturable","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a wonder", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
+		"uniques": ["Uncapturable","Can speed up construction of a wonder", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+		"uniques": ["Uncapturable","Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable"],
 		"movement": 4
 	},
@@ -2304,7 +2304,7 @@
 		"strength": 15,
 		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Hetairoi"]
 		"upgradesTo": "Knight",
-		"uniques": ["Can construct [Citadel]","Great Person - [War]", "Unbuildable","Consumes [1] [Horses]"],
+		"uniques": ["Uncapturable","Can construct [Citadel]","Great Person - [War]", "Unbuildable","Consumes [1] [Horses]"],
 		"movement": 4
 	},
 	{
@@ -2312,14 +2312,14 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%",
+		"uniques": ["Uncapturable","Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%",
 			"Heal adjacent units for an additional 15 HP per turn", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
 		"movement": 7
 	},
 	{
 		"name": "Great Admiral", //modded
 		"unitType": "WaterCivilian",
-		"uniques": ["Bonus for units in 2 tile radius 15%","Heal adjacent units for an additional 15 HP per turn","Unbuildable"],
+		"uniques": ["Uncapturable","Bonus for units in 2 tile radius 15%","Heal adjacent units for an additional 15 HP per turn","Unbuildable"],
 		"movement": 6
 	}	
 
