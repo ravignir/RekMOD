@@ -475,9 +475,11 @@
 		"name": "Phoenician Heritage", // Carthage
 		"effect": "Can pass through impassable tiles"
 	},
-	{
-		"name": "Amphibious", // Marine, Berserker, and Songhai
-		"uniques": ["Amphibious","No combat penalty when attacking from the sea or over a river"]
+{
+		"name": "Amphibious",
+		"prerequisites": ["Shock I", "Drill I"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
+		"unitTypes": ["Melee"]
 	},
 	{
 		"name": "War Canoes", // Songhai

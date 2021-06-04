@@ -152,7 +152,7 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
-		"uniques": ["+[33]% combat bonus in [Forest]", "+[33]% combat bonus in [Jungle]", "Heals [25] damage if it kills a unit"],
+		"uniques": ["+[33]% Strength in [Forest]", "+[33]% Strength in [Jungle]", "Heals [25] damage if it kills a unit"],
 		"promotions": ["Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -402,7 +402,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"attackSound": "metalhit"
 	},
 		{
@@ -416,7 +416,7 @@
 		"requiredTech": "Mining",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -430,7 +430,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"attackSound": "metalhit"
 	},
 		{
@@ -444,7 +444,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -458,7 +458,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 50%","+10 HP when healing"],
+		"uniques": ["+[50]% Strength vs [Mounted]","+10 HP when healing"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -488,7 +488,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
 	{
@@ -505,7 +505,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},	
 	{
@@ -520,7 +520,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus"],
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus"],
 		"promotions": ["Cover I"],
 		"attackSound": "metalhit"
 	},
@@ -584,12 +584,11 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 15,
-		"range": 0,
 		"cost": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Consumes [1] [Iron]","+100% Defence against ranged attacks","Must set up to ranged attack"],
+		"uniques": ["Consumes [1] [Iron]","+100% Defence against ranged attacks","Cannot attack"],
 		"obsoleteTech": "Steel",
 		"attackSound": "metalhit"
 	},
@@ -634,7 +633,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
-		"uniques": ["+[33]% combat bonus in [Forest]","+[33]% combat bonus in [Jungle]"],
+		"uniques": ["+[33]% Strength in [Forest]","+[33]% Strength in [Jungle]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -724,7 +723,7 @@
 		"strength": 14,
 		"cost": 90,
 		"requiredTech": "Philosophy",
-		"uniques": ["Bonus vs Mounted 100%"],
+		"uniques": ["+[100]% Strength vs [Mounted]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit",
@@ -815,7 +814,7 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus",
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus",
 			"Must set up to ranged attack","Limited Visibility"],
 		"attackSound": "throw"
 	},
@@ -857,7 +856,7 @@
 		"requiredTech": "Theology",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Consumes [1] [Iron]","+[20]% combat bonus in [Foreign Land]","Earn [50]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"uniques": ["Consumes [1] [Iron]","+[20]% Strength in [Foreign Land]","Earn [50]% of [military] opponent's [Strength] as [Culture] for kills"],
 		"attackSound": "metalhit"
 	},
 			{
@@ -930,7 +929,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
-		"uniques": ["+[33]% Strength when attacking","+[50]% combat bonus in [Forest]"],
+		"uniques": ["+[33]% Strength when attacking","+[50]% Strength in [Forest]"],
 		"promotions": ["Cover I","Amphibious"],
 		"attackSound": "metalhit"
 	},
@@ -959,7 +958,8 @@
 		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Musketman",
-		"uniques": ["Amphibious","Consumes [1] [Iron]"],
+		"promotions": ["Amphibious"],
+		"uniques": ["Consumes [1] [Iron]"],
 		"promotions": ["Shock I"],
 		"attackSound": "metalhit"
 	},
@@ -970,7 +970,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit",
@@ -984,7 +984,7 @@
 		"strength": 16,
 		"cost": 60,
 		"requiredTech": "Civil Service",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit",
@@ -996,7 +996,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["Bonus vs Mounted 50%","Unlocked with [Mercenary Army]"],
+		"uniques": ["+[50]% Strength vs [Mounted]","Unlocked with [Mercenary Army]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -1011,7 +1011,7 @@
 		"cost": 45,
 		"requiredTech": "Civil Service",
 		"promotions": ["Ambush Formation I"],
-		"uniques": ["Consumes [1] [Horses]","Bonus vs Mounted 50%"],
+		"uniques": ["Consumes [1] [Horses]","+[50]% Strength vs [Mounted]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -1025,7 +1025,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["Spear Throw"],
@@ -1142,7 +1142,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","Penalty vs City 33%","Bonus vs Melee 50%","No defensive terrain bonus","Consumes [1] [Horses]"],
+		"uniques": ["Can move after attacking","Penalty vs City 33%","+[50]% Strength vs [Melee]","No defensive terrain bonus","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 		{
@@ -1171,7 +1171,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Bonus vs Mounted 50%","Penalty vs City 33%"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","+[50]% Strength vs [Mounted]","Penalty vs City 33%"],
 		"attackSound": "shot"
 	},
 	{
@@ -1274,7 +1274,7 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"promotions": ["Indirect Fire"],		
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
 	},
 		{
 		"name": "Akyat Cannon",
@@ -1290,7 +1290,7 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"promotions": ["Indirect Fire"],		
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
 	},
 	{
 		"name": "Musketman",
@@ -1370,7 +1370,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1453,7 +1453,7 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
 		"promotions": ["Ambush Formation I","Shock I"],
-		"uniques": ["Can move after attacking","+[25]% combat bonus in [Friendly Land]","No defensive terrain bonus",
+		"uniques": ["Can move after attacking","+[25]% Strength in [Friendly Land]","No defensive terrain bonus",
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
@@ -1594,7 +1594,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Drill I"],
-		"uniques": ["+[40]% combat bonus in [Friendly Land]"],
+		"uniques": ["+[40]% Strength in [Friendly Land]"],
 		"attackSound": "shot"
 	},
 		{
@@ -1608,7 +1608,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["+[20]% combat bonus in [Friendly Land]"],
+		"uniques": ["+[20]% Strength in [Friendly Land]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1633,7 +1633,7 @@
 		"requiredTech": "Flight",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[50]% chance to intercept air attacks","Bonus vs Bomber 150%",
+		"uniques": ["[50]% chance to intercept air attacks","+[150]% Strength vs [Bomber]",
 			"6 tiles in every direction always visible","Consumes [1] [Oil]"],
 		"attackSound": "shot"
 	},
@@ -1676,7 +1676,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"Penalty vs City 33%","Bonus vs wounded units 33%","Consumes [1] [Horses]"],
+			"Penalty vs City 33%","+[33]% Strength vs [wounded units]","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 		{
@@ -1707,7 +1707,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%",
-			"+1 Visibility Range","Bonus vs wounded units 33%","Consumes [1] [Horses]"],
+			"+1 Visibility Range","+[33]% Strength vs [wounded units]","Consumes [1] [Horses]"],
 		"attackSound":"horse"
 	},
 	{
@@ -1751,7 +1751,7 @@
 		"cost": 320,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack",
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack",
 			"Limited Visibility","Ranged attacks may be performed over obstacles"]
 	},
 	{
@@ -1763,7 +1763,7 @@
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Bonus vs City 33%","Double movement in coast","Consumes [1] [Coal]","Can move after attacking"]
+		"uniques": ["+[33]% Strength vs [City]","Double movement in coast","Consumes [1] [Coal]","Can move after attacking"]
 	},
 		{
 		"name": "Airship", //modded
@@ -1790,7 +1790,7 @@
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Fighter",
 		"promotions": ["Air Recon"],
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%",
+		"uniques": ["[100]% chance to intercept air attacks","+[150]% Strength vs [Bomber]",
 			"Consumes [1] [Oil]"],
 		"attackSound": "shot"
 	},
@@ -1816,7 +1816,7 @@
 		"requiredTech": "Combustion",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Tank",
-		"uniques": ["Can move after attacking","Bonus vs land units 50%","No defensive terrain bonus","Consumes [1] [Oil]"]
+		"uniques": ["Can move after attacking","+[50]% Strength vs [land units]","No defensive terrain bonus","Consumes [1] [Oil]"]
 	},
 	{
 		"name": "Destroyer",
@@ -1826,7 +1826,7 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["Can move after attacking","Can attack submarines","[40]% chance to intercept air attacks","May withdraw before melee ([80]%)","Bonus vs WaterSubmarine 100%"]
+		"uniques": ["Can move after attacking","Can attack submarines","[40]% chance to intercept air attacks","May withdraw before melee ([80]%)","+[100]% Strength vs [WaterSubmarine]"]
 	},
 	{
 		"name": "Battleship",
@@ -1837,8 +1837,8 @@
 		"range": 3,
 		"cost": 375,
 		"requiredTech": "Electronics",
-		"uniques": ["Ranged attacks may be performed over obstacles","Bonus vs WaterSubmarine 100%",
-			"Bonus vs City 30%","Consumes [1] [Oil]"]
+		"uniques": ["Ranged attacks may be performed over obstacles","+[100]% Strength vs [WaterSubmarine]",
+			"+[30]% Strength vs [City]","Consumes [1] [Oil]"]
 	},
 	{
 		"name": "Submarine",
@@ -1930,20 +1930,19 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"promotions": ["Ambush Formation I"],
-		"uniques": ["+[20]% combat bonus in [Foreign Land]","Unlocked with [Mercenary Army]"],
+		"uniques": ["+[20]% Strength in [Foreign Land]","Unlocked with [Mercenary Army]"],
 		"attackSound": "shot"
 	},
-	/*{
+	{
 		"name": "Paratrooper",
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"upgradesTo": "XCOM Squad",
-		"uniques": ["May Paradrop"],
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","No Movement Cost to Pillage"],
 		"attackSound": "shot"
-	},*/
+	},
 
 	// Information Era
 
@@ -1974,7 +1973,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Nuclear Fission",
-		"uniques": ["Ignores terrain cost","Bonus vs Armor 50%","No movement cost to pillage"]
+		"uniques": ["Ignores terrain cost","+[50]% Strength vs [Armor]","No movement cost to pillage"]
 		"attackSound": "machinegun"
 	},
 	{
@@ -1987,7 +1986,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 150%"],
+		"uniques": ["[100]% chance to intercept air attacks","+[150]% Strength vs [air units]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1999,7 +1998,7 @@
 		"requiredTech": "Combined Arms",
 		"obsoleteTech": "Lasers",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","Bonus vs land units 50%","No defensive terrain bonus","Consumes [1] [Oil]"]
+		"uniques": ["Can move after attacking","+[50]% Strength vs [land units]","No defensive terrain bonus","Consumes [1] [Oil]"]
 	},
 	{
 		"name": "Panzer",
@@ -2011,7 +2010,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Bonus vs land units 50%","Consumes [1] [Oil]"]
+		"uniques": ["Can move after attacking","No defensive terrain bonus","+[50]% Strength vs [land units]","Consumes [1] [Oil]"]
 	},
 	{
 		"name": "Anti-Tank Gun",
@@ -2021,7 +2020,7 @@
 		"cost": 300,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["Bonus vs Armor 200%"]
+		"uniques": ["+[200]% Strength vs [Armor]"]
 	},
 	{
 		"name": "Rocket Artillery",
@@ -2032,7 +2031,7 @@
 		"range": 3,
 		"cost": 425,
 		"requiredTech": "Rocketry",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Limited Visibility",
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Limited Visibility",
 			"Ranged attacks may be performed over obstacles"]
 	},
 	{
@@ -2044,7 +2043,17 @@
 		"range": 12,
 		"cost": 1000,
 		"requiredTech": "Rocketry",
-		"uniques": ["Requires [Manhattan Project]","Consumes [2] [Uranium]","Cannot be purchased"]
+		"uniques": ["Nuclear weapon","Self-destructs when attacking","Requires [Manhattan Project]","Consumes [2] [Uranium]","Cannot be purchased"]
+	},{
+		"name": "Guided Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 150,
+		"requiredTech": "Rocketry",
+		"uniques": ["Self-destructs when attacking"]
 	},
 		{
 		"name": "Atomic Bomb",
@@ -2057,17 +2066,6 @@
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
 		"uniques": ["Nuclear weapon", "Requires [Manhattan Project]", "Self-destructs when attacking"]
-	},
-	{
-		"name": "Missile",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 60,
-		"rangedStrength": 60,
-		"range": 8,
-		"cost": 150,
-		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Self-destructs when attacking"]
 	},
 	{
 		"name": "Marine", //modded
@@ -2129,7 +2127,7 @@
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Great Generals II"],
-		"uniques": ["+[20]% combat bonus in [Foreign Land]"],
+		"uniques": ["+[20]% Strength in [Foreign Land]"],
 		"attackSound": "shot"		
 	},
 	{
@@ -2140,7 +2138,7 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 150%"],
+		"uniques": ["[100]% chance to intercept air attacks","+[150]% Strength vs [air units]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2150,7 +2148,7 @@
 		"strength": 60,
 		"cost": 425,
 		"requiredTech": "Computers",
-		"uniques": ["Bonus vs Armor 200%","All tiles costs 1","Can pass through impassable tiles",
+		"uniques": ["+[200]% Strength vs [Armor]","All tiles costs 1","Can pass through impassable tiles",
 			"No defensive terrain bonus","Unable to capture cities","Can move after attacking",
 			"Consumes [1] [Aluminum]"],
 		"attackSound": "shot"
@@ -2173,7 +2171,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking","Bonus vs land units 50%","No defensive terrain bonus","Consumes [1] [Aluminum]"]
+		"uniques": ["Can move after attacking","+[50]% Strength vs [land units]","No defensive terrain bonus","Consumes [1] [Aluminum]"]
 	},
 	{
 		"name": "Nuclear Submarine", //modded
@@ -2209,7 +2207,7 @@
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%","Consumes [1] [Aluminum]"],
+		"uniques": ["[100]% chance to intercept air attacks","+[150]% Strength vs [Bomber]","Consumes [1] [Aluminum]"],
 		"promotions": ["Air Recon"]
 	},
 	{
@@ -2233,7 +2231,17 @@
 		"cost": 550,
 		"requiredTech": "Nuclear Fusion",
 		"promotions": ["Interception III"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Bonus vs land units 50%","Consumes [1] [Uranium]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","+[50]% Strength vs [land units]","Consumes [1] [Uranium]"],
+		"attackSound": "shot"
+	},
+		{
+		"name": "Future Soldier",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 100,
+		"cost": 400,
+		"requiredTech": "Nanotechnology",
+		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory"],
 		"attackSound": "shot"
 	},
 	
@@ -2243,7 +2251,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Uncapturable","Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 		{
@@ -2251,7 +2259,7 @@
 		"uniqueTo": "Italy",
 		"replaces": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Uncapturable","Can start an [12]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Can start an [12]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 			{
@@ -2259,7 +2267,7 @@
 		"uniqueTo": "Tibet",
 		"replaces": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Uncapturable","Can start an [10]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Can start an [10]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 4
 	},
 			{
@@ -2267,32 +2275,32 @@
 		"replaces": "Great Artist",
 		"uniqueTo": "Lithuania",
 		"unitType": "Civilian",
-		"uniques": ["Uncapturable","Can start an [8]-turn golden age", "Can construct [Sacred Grove]", "Great Person - [Culture]", "Unbuildable","Will not be displayed in Civilopedia"],
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Sacred Grove]", "Great Person - [Culture]", "Unbuildable","Will not be displayed in Civilopedia"],
 		"movement": 2
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Uncapturable","Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
+		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Uncapturable","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Uncapturable","Can speed up construction of a wonder", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
+		"uniques": ["Can speed up construction of a wonder", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Uncapturable","Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable"],
 		"movement": 4
 	},
@@ -2304,7 +2312,7 @@
 		"strength": 15,
 		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Hetairoi"]
 		"upgradesTo": "Knight",
-		"uniques": ["Uncapturable","Can construct [Citadel]","Great Person - [War]", "Unbuildable","Consumes [1] [Horses]"],
+		"uniques": ["Can construct [Citadel]","Great Person - [War]", "Unbuildable","Consumes [1] [Horses]"],
 		"movement": 4
 	},
 	{
@@ -2312,14 +2320,14 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
-		"uniques": ["Uncapturable","Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%",
+		"uniques": ["Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%",
 			"Heal adjacent units for an additional 15 HP per turn", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
 		"movement": 7
 	},
 	{
 		"name": "Great Admiral", //modded
 		"unitType": "WaterCivilian",
-		"uniques": ["Uncapturable","Bonus for units in 2 tile radius 15%","Heal adjacent units for an additional 15 HP per turn","Unbuildable"],
+		"uniques": ["Bonus for units in 2 tile radius 15%","Heal adjacent units for an additional 15 HP per turn","Unbuildable"],
 		"movement": 6
 	}	
 
