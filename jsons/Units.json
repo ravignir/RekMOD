@@ -2055,18 +2055,6 @@
 		"requiredTech": "Rocketry",
 		"uniques": ["Self-destructs when attacking"]
 	},
-		{
-		"name": "Atomic Bomb",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 10,
-		"cost": 600,
-		"requiredTech": "Nuclear Fission",
-		"requiredResource": "Uranium",
-		"uniques": ["Nuclear weapon", "Requires [Manhattan Project]", "Self-destructs when attacking"]
-	},
 	{
 		"name": "Marine", //modded
 		"unitType": "Melee",
@@ -2074,7 +2062,7 @@
 		"strength": 80,
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["Defense bonus when embarked","[+1] Sight when [Embarked]"],
+		"uniques": ["Defense bonus when embarked","[+1] visibility when [embarked]"],
 		"promotions": ["Amphibious"],
 		"attackSound": "shot"
 	},	
