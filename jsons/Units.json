@@ -998,7 +998,6 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["+[50]% Strength vs [Mounted]","Unlocked with [Mercenary Army]"],
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	},
 		{
@@ -1928,7 +1927,6 @@
 		"cost": 270,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
 		"promotions": ["Ambush Formation I"],
 		"uniques": ["+[20]% Strength in [Foreign Land]","Unlocked with [Mercenary Army]"],
 		"attackSound": "shot"
