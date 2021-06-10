@@ -1212,30 +1212,30 @@
         "name": "Gemcutter",
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Gems","Amber","Lapis Lazuli","Jade"],
-        "resourceBonusStats": {"culture": 1},
 		"cost": 100,
 		"culture": 1,
         "hurryCostModifier": 25,
+		"uniques": ["[+1 Culture] from [Gems, Amber, Lapis Lazuli, Jade] tiles in this city"],
         "requiredTech": "Machinery"
     }, 
 		    {
         "name": "Censer Maker",
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Incense","Tobacco","Perfume"],
-        "resourceBonusStats": {"culture": 1},
 		"cost": 100,
 		"culture": 1,
         "hurryCostModifier": 25,
+			    	"uniques": ["[+1 Culture] from [Incense, Tobacco, Perfume] tiles in this city"],
         "requiredTech": "Theology"
     }, 
 		    {
         "name": "Brewery",
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Tea","Salt","Wine","Sugar","Coffee"],
-        "resourceBonusStats": {"gold": 2},
 		"cost": 100,
 		"gold": 2,
         "hurryCostModifier": 25,
+			    	"uniques": ["[+2 Gold] from [Tea, Salt, Wine, Sugar, Coffee] tiles in this city"],
         "requiredTech": "Education"
     }, 
     {
@@ -1508,10 +1508,10 @@
         "name": "Grocer",
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Citrus","Olives","Truffles","Cocoa","Spices"],
-        "resourceBonusStats": {"food": 1},
 		"cost": 100,
 		"food": 1,
         "hurryCostModifier": 25,
+	"uniques": ["[+1 Food] from [Citrus, Olives, Truffles, Cocoa, Spices] tiles in this city"],
         "requiredTech": "Banking"
     }, 
     {
