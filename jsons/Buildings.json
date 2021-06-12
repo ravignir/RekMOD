@@ -724,9 +724,9 @@
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "hurryCostModifier": 25,
-        "uniques": ["+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production, +1 Gold] from [Cattle] tiles in this city",
-        	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
-        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",],
+        "uniques": ["+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Cattle] tiles in this city",
+        	"[+1 Production] from [Horses] tiles in this city",
+        	"[+1 Production] from [Sheep] tiles in this city",],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -750,9 +750,9 @@
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Food, +1 Production] from [Maize] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production, +1 Gold] from [Cattle] tiles in this city",
-        	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
-        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",]
+        "uniques": ["[+1 Production] from [Maize] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Cattle] tiles in this city",
+        	"[+1 Production] from [Horses] tiles in this city","[+1 Food] from [Pasture] tiles in this city",
+        	"[+1 Production] from [Sheep] tiles in this city",]
         "requiredTech": "Horseback Riding"
     },
 		    {
@@ -762,9 +762,9 @@
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "hurryCostModifier": 25,
-        "uniques": ["Provides [2] [Horses]","[+1 Culture] from [Horses] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production, +1 Gold] from [Cattle] tiles in this city",
-        	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
-        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",]
+        "uniques": ["Provides [2] [Horses]","[+1 Culture] from [Horses] tiles in this city","+[15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Cattle] tiles in this city",
+        	"[+1 Production] from [Horses] tiles in this city",
+        	"[+1 Production] from [Sheep] tiles in this city",]
         "requiredTech": "Horseback Riding"
     },
     {
@@ -1012,6 +1012,7 @@
     {
         "name": "Mint",
         "maintenance": 0,
+	    "gold": 2,
         "requiredNearbyImprovedResources": ["Gold Ore","Silver","Copper","Amber","Lapis Lazuli","Jade"],
         "hurryCostModifier": 25,
 	    "uniques": ["[+2 Gold] from [Lapis Lazuli] tiles in this city","[+2 Gold] from [Amber] tiles in this city","[+2 Gold] from [Jade] tiles in this city","[+2 Gold] from [Gold Ore] tiles in this city","[+2 Gold] from [Silver] tiles in this city","[+2 Gold] from [Copper] tiles in this city"]
@@ -1023,6 +1024,8 @@
         "replaces": "Mint",
         "maintenance": 0,
         "production": 2,
+	"gold": 1,
+	"cost": 75,
         "hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Lapis Lazuli] tiles in this city","[+2 Gold] from [Amber] tiles in this city","[+2 Gold] from [Jade] tiles in this city","[+2 Gold] from [Gold Ore] tiles in this city","[+2 Gold] from [Silver] tiles in this city","[+2 Gold] from [Copper] tiles in this city"]
         "requiredTech": "Currency"
@@ -1439,7 +1442,7 @@
 		"science": 4,
 		"culture": 1,
         "hurryCostModifier": 15,
-        "uniques": ["[+4 Science] from [Mountain] tiles in this city","[+3 Culture] from [Mountain] tiles in this city"],
+        "uniques": ["[+4 Science] from [Mountain] tiles in this city","[+3 Culture, +4 Science] from [Mountain] tiles in this city"],
         "requiredTech": "Astronomy"
     },
     {
@@ -1596,7 +1599,6 @@
 		"cost": 150,
         "hurryCostModifier": 10,
         "gold": 1,
-        "uniques": ["Requires a [Colosseum] in this city"],
         "requiredTech": "Printing Press"
     },
     {
