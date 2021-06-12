@@ -24,9 +24,9 @@
 		"outerColor": [84, 103, 159],
 		"innerColor": [181, 142, 43],
 		"uniqueName": "Epic of Battle",
-		"uniqueText": " +5% Science when the empire is happy. +3 Culture, +1 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.
+		"uniqueText": " +3 Culture, +1 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.
 		"
-		"uniques": ["+[5]% [Science] [in all cities]","[+1 Happiness, +3 Culture, +1 Production] from every [Courthouse]","[Land] units gain the [Epic of Battle] promotion"],
+		"uniques": ["[+1 Happiness, +3 Culture, +1 Production] from every [Courthouse]","[Land] units gain the [Epic of Battle] promotion"],
 		"cities": ["Akkad","Sipar","Kish","Tell Brak","Nippur","Tell Leilan","Marad","Umma","Azupiranu","Nuzi","Eshnunna"]
 	},
 		{
@@ -48,7 +48,7 @@
 		"outerColor": [17, 31, 99],
 		"innerColor": [186, 139, 20],
 		"uniqueName": "Saint Elesbaan's Blessing",
-		"uniques": ["+[33]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Culture] from every [Quarry]"],
+		"uniques": ["+[10]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Culture] from every [Quarry]"],
 		"cities": ["Aksum","Adulis","Tiya","Qohaito","Berbera","Melazo","Tokonda","Yeha","Zeila","Massawa","Matara","Deira","Hawulti"]
 	},
 	{
@@ -439,7 +439,6 @@
 		"name": "Byzantium",
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
-		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": "All hail the most magnificent and magnanimous Empress Theodora, beloved of Byzantium and of Rome! From the lowly ranks of actress and courtesan you became the most powerful woman in the Roman Empire, consort to Justinian I. Starting in the late 520's AD, you joined your husband in a series of important spiritual and legal reforms, creating many laws which elevated the status of and promoted equal treatment of women in the empire. You also aided in the restoration and construction of many aqueducts, bridges and churches across Constantinople, culminating in the creation of the Hagia Sophia, one of the most splendid architectural wonders of the world.",
@@ -478,7 +477,7 @@
 		"outerColor": [228, 26, 40],
 		"innerColor": [245, 222, 153],
 		"uniqueName": "Canadian Fur Trade",
-		"uniques": ["[+2 Gold] from every [Camp]","[+2 Gold, +1 Culture] from every [Oasis]","[+2 Gold, +1 Culture] from every [Lakes]"],
+		"uniques": ["[+2 Gold] from every [Camp]","[+2 Gold, +1 Culture] from every [Lakes]"],
 		"cities": ["Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Quebec City","Winnipeg","Mississauga","Halifax","Saskatoon","Regina","Brampton"]
 	},
 	{
@@ -768,7 +767,7 @@
 		"outerColor": [150,150,150],
 		"innerColor": [60,60,60],
 		"uniqueName": "Precision Engineering",
-		"uniques": ["[+1 Science, +1 Production] from every [Workshop]","[+1 Science, +1 Production] from every [Factory]","[+1 Science, +1 Production] from every [Hydro Plant]","[Great Engineer] is earned [33]% faster"],
+		"uniques": ["[+1 Science, +1 Production] from every [Windmill]","[+1 Science, +1 Production] from every [Workshop]","[+1 Science, +1 Production] from every [Factory]","[+1 Science, +1 Production] from every [Hydro Plant]","[Great Engineer] is earned [33]% faster"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
