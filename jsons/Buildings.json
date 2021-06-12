@@ -286,15 +286,16 @@
 	},
 	    {
         "name": "Orszaggyules",
-	"uniqueTo": "Hungary",
+		"uniqueTo": "Hungary",
         "isNationalWonder": true,
+		"replaces": "Palace",
         "production": 3,
         "science": 3,
         "gold": 3,
         "cityStrength": 2,
         "culture": 1,
         "cost": 150,
-        "uniques": ["+[25]% great person generation in this city","+[10]% Production when constructing [Buildings] [in this city]","[+3 Culture, +3 Production, +3 Food] once [Chivalry] is discovered"]
+        "uniques": ["Indicates the capital city","+[25]% great person generation in this city","+[10]% Production when constructing [Buildings] [in this city]","[+3 Culture, +3 Production, +3 Food] once [Chivalry] is discovered"]
 	"requiredTech": "Mathematics",
     },
     {
@@ -1107,7 +1108,7 @@
         "requiredNearbyImprovedResources": ["Wine","Incense","Perfume"],
         "hurryCostModifier": 25,
         "requiredTech": "Theology"
-	"uniques": ["[+2 Culture] from [Incense] tiles in this city","[+2 Culture] from [Wine] tiles in this city","[+2 Culture] from [Perfume] tiles in this city"]
+	"uniques": ["[+1 Culture] from [Incense] tiles in this city","[+1 Culture] from [Wine] tiles in this city","[+1 Culture] from [Perfume] tiles in this city"]
     },
     {
         "name": "Grand Temple", //modded
@@ -1207,7 +1208,7 @@
         "production": 1,
         "specialistSlots": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+2 Production] from [Coral] tiles in this city","[+1 Culture] from [Crab] tiles in this city","[+1 Production] from [Hardwood] tiles in this city","[+1 Culture] from [Pearls] tiles in this city","[+2 Gold] from [Whales] tiles in this city","[+1 Food] from [Fish] tiles in this city","[+3 Production] from [Land Trade Route (Production)] tiles in this city",
+        "uniques": ["[+2 Production] from [Coral] tiles in this city","[+1 Production] from [Hardwood] tiles in this city","[+1 Culture] from [Crab] tiles in this city","[+1 Production] from [Hardwood] tiles in this city","[+1 Culture] from [Pearls] tiles in this city","[+2 Gold] from [Whales] tiles in this city","[+1 Food] from [Fish] tiles in this city","[+3 Production] from [Land Trade Route (Production)] tiles in this city",
             "[+3 Production] from [Sea Trade Route (Production)] tiles in this city","+[10]% [Production] [in this city]"],
         "requiredTech": "Metal Casting"
     },
@@ -1218,7 +1219,7 @@
 		"cost": 100,
 		"culture": 1,
         "hurryCostModifier": 25,
-		"uniques": ["[+1 Culture] from [Gems, Amber, Lapis Lazuli, Jade] tiles in this city"],
+		"uniques": ["[+1 Culture] from [Jade] tiles in this city","[+1 Culture] from [Lapis Lazuli] tiles in this city","[+1 Culture] from [Amber] tiles in this city","[+1 Culture] from [Gems] tiles in this city"],
         "requiredTech": "Machinery"
     }, 
 		    {
@@ -1238,14 +1239,14 @@
 		"cost": 100,
 		"gold": 2,
         "hurryCostModifier": 25,
-			    	"uniques": ["[+2 Gold] from [Tea, Salt, Wine, Sugar, Coffee] tiles in this city"],
+			    	"uniques": ["[+2 Gold] from [Sugar] tiles in this city","[+2 Gold] from [Coffee] tiles in this city","[+2 Gold] from [Wine] tiles in this city","[+2 Gold] from [Salt] tiles in this city","[+2 Gold] from [Tea] tiles in this city"],
         "requiredTech": "Education"
     }, 
     {
         "name": "Longhouse",
         "replaces": "Workshop",
         "uniqueTo": "Iroquois",
-        "cost": 100,
+        "cost": 75,
         "maintenance": 2,
         "production": 2,
         "specialistSlots": {"Engineer": 1},
@@ -1352,9 +1353,10 @@
         "uniqueTo": "India",
         "cityStrength": 7,
         "cityHealth": 25,
-        "culture": 2,
+        "culture": 4,
+		"happiness": 2,
         "hurryCostModifier": 25,
-	    "uniques": ["[+1 Gold] once [Flight] is discovered","Requires a [Walls] in this city"],
+	    "uniques": ["[+1 Gold] once [Flight] is discovered"],
         "requiredTech": "Chivalry"
     },
     {
@@ -1500,7 +1502,7 @@
 		"name": "Canton Factory",
         "replaces": "Bank",
 		"uniqueTo": "Manchuria",
-        "gold": 2,
+        "gold": 4,
 		"cost": 125,
         "specialistSlots": {"Merchant": 2},
         "hurryCostModifier": 15,
@@ -1514,7 +1516,7 @@
 		"cost": 100,
 		"food": 1,
         "hurryCostModifier": 25,
-	"uniques": ["[+1 Food] from [Citrus, Olives, Truffles, Cocoa, Spices] tiles in this city"],
+	"uniques": ["[+1 Food] from [Truffles] tiles in this city","[+1 Food] from [Spices] tiles in this city","[+1 Food] from [Cocoa] tiles in this city","[+1 Food] from [Olive] tiles in this city","[+1 Food] from [Citrus] tiles in this city"],
         "requiredTech": "Banking"
     }, 
     {
@@ -1554,10 +1556,10 @@
         "name": "Textile Mill",
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Cotton","Silk","Dyes","Furs"],
-        "resourceBonusStats": {"production": 2},
         "hurryCostModifier": 25,
 		"production": 1,
 		"cost": 100,
+		"uniques": ["[+2 Production] from [Dyes] tiles in this city","[+2 Production] from [Furs] tiles in this city","[+2 Production] from [Cotton] tiles in this city","[+2 Production] from [Silk] tiles in this city"],
         "requiredTech": "Economics"
     }, 
     {
@@ -1585,7 +1587,6 @@
         "happiness": 3,
 		"food": 3,
         "hurryCostModifier": 10,
-        "maintenance": 2,
 		"cost": 225,
         "uniques": ["Requires a [Colosseum] in this city","[+1 Production] from [Coffee] tiles in this city","[+1 Production] from [Wine] tiles in this city","[+1 Production] from [Tea] tiles in this city"],
         "requiredTech": "Printing Press"
@@ -1767,7 +1768,7 @@
 		"uniqueTo": "Turkey",
         "science": 3,
 		"culture": 3,
-		"cost": 240,
+		"cost": 288,
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
         "hurryCostModifier": 0,
@@ -1843,6 +1844,7 @@
         "resourceBonusStats": {"production": 3, "gold": 3},
 		"cost": 200,
         "hurryCostModifier": 25,
+		"uniques": ["[+3 Production, +3 Gold] from [Oil] tiles in this city"],
         "requiredTech": "Biology"
     }, 
     {

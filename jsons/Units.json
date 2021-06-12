@@ -91,6 +91,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
+		"upgradesTo": "Airship",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -103,6 +104,7 @@
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 5,
+				"upgradesTo": "Airship",
 		"range": 3,
 		"cost": 30,
 		"obsoleteTech": "Scientific Theory",
@@ -361,7 +363,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus","+[50]% Strength vs [Melee]"],
 		"attackSound": "horse"
 	},
 	{
@@ -827,7 +829,7 @@
 		"movement": 2,
 		"strength": 11,
 		"rangedStrength": 30,
-		"cost": 120,
+		"cost": 100,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
@@ -1007,7 +1009,7 @@
 		"uniqueTo": "Golden Horde",
 		"movement": 4,
 		"strength": 16,
-		"cost": 45,
+		"cost": 90,
 		"requiredTech": "Civil Service",
 		"promotions": ["Ambush Formation I"],
 		"uniques": ["Consumes [1] [Horses]","+[50]% Strength vs [Mounted]"],
@@ -1394,7 +1396,7 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I","Coastal Raider II","Boarding Party I"],
+		"promotions": ["Boarding Party I"],
 		"uniques": ["Heals [25] damage if it kills a unit","Unit will heal every turn, even if it performs an action","Can move after attacking"],
 		"attackSound": "nonmetalhit"
 	},
