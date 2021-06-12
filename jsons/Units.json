@@ -17,6 +17,7 @@
 		"unitType": "Civilian",
 		"movement": 3,
 		"cost": 50,
+		"promotions": ["Medic","Medic II"],
 		"uniques": ["Can build improvements on tiles",]
 	},
 	{
@@ -704,13 +705,13 @@
 		"uniqueTo": "Carthage",
 		"movement": 3,
 		"strength": 14,
-		"cost": 100,
+		"cost": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"Penalty vs City 33%","Consumes [1] [Horses]"],
+			"Penalty vs City 33%","Consumes [1] [Horses]","+[20]% Strength when attacking"],
 		"promotions": ["Feared Elephant","Great Generals II"],
 		"attackSound": "horse"		
 	},
@@ -930,7 +931,6 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
 		"uniques": ["+[33]% Strength when attacking","+[50]% Strength in [Forest]"],
-		"promotions": ["Cover I","Amphibious"],
 		"attackSound": "metalhit"
 	},
 				{
@@ -1151,7 +1151,7 @@
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 20,
-		"cost": 135,
+		"cost": 120,
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
@@ -1561,7 +1561,7 @@
 		"movement": 3,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Rifling",
+		"requiredTech": "Industrialization",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Can build improvements on tiles"],
 		"upgradesTo": "Great War Infantry",
@@ -1971,7 +1971,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Nuclear Fission",
-		"uniques": ["Ignores terrain cost","+[50]% Strength vs [Armor]","No movement cost to pillage"]
+		"uniques": ["Ignores terrain cost","+[25]% Strength vs [Armor]","No movement cost to pillage"]
 		"attackSound": "machinegun"
 	},
 	{
