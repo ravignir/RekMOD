@@ -482,7 +482,7 @@
 			},
 			{
 				"name": "Iron Curtain",
-				"uniques": ["[+11 Production] from every [Sea Trade Route (Production)]","[+11 Food] from every [Trade Route (Food)]","[+11 Food] from every [Sea Trade Route (Food)]","[+11 Production] from every [Sea Trade Route (Production)]"],
+				"uniques": ["[+11 Production] from every [Land Trade Route (Production)]","[+11 Food] from every [Land Trade Route (Food)]","[+11 Food] from every [Sea Trade Route (Food)]","[+11 Production] from every [Sea Trade Route (Production)]"],
 				"requires": ["Five-Year Plan","Party Leadership","Skyscrapers"],
 				"row": 3,
 				"column": 3
