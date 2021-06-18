@@ -10,7 +10,7 @@
 		"name": "Akkad",
 		"leaderName": "Sargon",
 		"adjective": ["Akkadian"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -26,7 +26,7 @@
 		"uniqueName": "Epic of Battle",
 		"uniqueText": " +3 Culture, +1 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.
 		"
-		"uniques": ["[+1 Happiness, +3 Culture, +1 Production] from every [Courthouse]","[Land] units gain the [Epic of Battle] promotion"],
+		"uniques": ["[+2 Happiness, +3 Culture, +1 Production] from every [Courthouse]","[Land] units gain the [Epic of Battle] promotion"],
 		"cities": ["Akkad","Sipar","Kish","Tell Brak","Nippur","Tell Leilan","Marad","Umma","Azupiranu","Nuzi","Eshnunna"]
 	},
 		{
@@ -34,7 +34,7 @@
 		"leaderName": "Ezana",
 		"adjective": ["Aksumite"],
 		"startBias": ["Hill"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -48,7 +48,7 @@
 		"outerColor": [17, 31, 99],
 		"innerColor": [186, 139, 20],
 		"uniqueName": "Saint Elesbaan's Blessing",
-		"uniques": ["+[10]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Culture] from every [Quarry]"],
+		"uniques": ["+[15]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Culture] from every [Quarry]"],
 		"cities": ["Aksum","Adulis","Tiya","Qohaito","Berbera","Melazo","Tokonda","Yeha","Zeila","Massawa","Matara","Deira","Hawulti"]
 	},
 	{
@@ -69,7 +69,7 @@
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["+1 Sight for all land military units","-[50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["+[1] Sight for all [{Military} {Land}] units","-[50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -111,7 +111,7 @@
 		"leaderName": "Eva Peron",
 		"adjective": ["Argentinan"],
 //		"startBias": ["Hill"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -125,7 +125,7 @@
 		"outerColor": [92, 198, 255],
 		"innerColor": [240, 240, 14],
 		"uniqueName": "Pride of the People",
-		"uniques": ["Tile improvement speed +25%"],
+		"uniques": ["-[30]% tile improvement construction time"],
 		"cities": ["Buenos Aires","La Plata","San Luis","Posadas","Catamarca","Cordoba","Formosa","San Juan","Parana","Salta","Neeuquen","Jujuy","La Rioja"]
 	},
 				{
@@ -133,7 +133,7 @@
 		"leaderName": "Tiridates III",
 		"adjective": ["Armenian"],
 		"startBias": ["Hill","Avoid [Jungle]"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -179,7 +179,7 @@
 		"leaderName": "Henry Parker",
 		"adjective": ["Australian"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -203,7 +203,7 @@
 		"leaderName": "Maria Theresa",
 		"adjective": ["Austrian"],
 		"startBias": ["Hill"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "Noble and virtuous Queen Maria Theresa, Holy Roman Empress and sovereign of Austria, your people bow to your gracious will. Following the death of your father, King Charles VI, you ascended to the throne of Austria during the time of great instability, but the empty coffers and diminished military did little to dissuade your ambitions. Faced with war almost immediately upon your succession to the throne, you managed to fend off your foes, and in naming your husband, Francis Stephen, co-ruler, assured your place as Empress of the Holy Roman Empire. During your reign, you guided Austria on a new path of reform - strengthening the military, replenishing the treasury, and improving the education system of the kingdom.",
 		"startIntroPart2": "Oh great queen, bold and dignified, the time has come for you to rise and guide your kingdom once again. Can you return your people to the height of prosperity and splendor? Will you build a civilization that will stand the test of time?",
@@ -227,7 +227,7 @@
 		"leaderName": "Saladin",
 		"adjective": ["Ayyubid"],
 		"startBias": ["Desert"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -241,7 +241,8 @@
 		"outerColor": [221, 141, 0],
 		"innerColor": [255, 244, 174],
 		"uniqueName": "Justice of Saladin",
-		"uniqueText": "All cities receive a free Burial Tomb upon capture",
+		"uniqueText": "All cities receive a free Burial Tomb upon capture. Workers create improvements 20% faster",
+		"uniques": ["-[20]% tile improvement construction time"],
 		"cities": ["Al-Quahirah","Al-Iskandariyyah","B'Albek","Assuan","Bilbeis","Dimashq","Qus","Adan","Zabid","Beirut","Akhmim","Al-Karak","Madinat Al-Fayyum"]
 	},
 	{
@@ -303,7 +304,7 @@
 		"leaderName": "Leopold II",
 		"adjective": ["Belgian"],
 //		"startBias": ["Desert"],
-//		"preferredVictoryType": "Diplomatic",
+//		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -325,7 +326,7 @@
 		"leaderName": "Stephanus Johannes Paulus Kruger",
 		"adjective": ["Boers"],
 //		"startBias": ["Desert"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -374,7 +375,7 @@
 		"leaderName": "Bolkiah",
 		"adjective": ["Brunei"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -396,7 +397,7 @@
 		"leaderName": "Asparukh Khan",
 		"adjective": ["Bulgarian"],
 //		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -614,7 +615,7 @@
 		"leaderName": "Elizabeth",
 		"adjective": ["English"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 	
 		"startIntroPart1": "Praises upon her serene highness, Queen Elizabeth Gloriana. You lead and protect the celebrated maritime nation of England. England is an ancient land, settled as early as 35,000 years ago. The island has seen countless waves of invaders, each in turn becoming a part of the fabric of the people. Although England is a small island, for many years your people dominated the world stage. Their matchless navy, brilliant artists and shrewd merchants, giving them power and influence far in excess of their mere numbers.",
 		"startIntroPart2": "Queen Elizabeth, will you bring about a new golden age for the English people? They look to you once more to return peace and prosperity to the nation. Will you take up the mantle of greatness? Can you build a civilization that will stand the test of time?",
@@ -677,7 +678,7 @@
 		"outerColor": [10, 40, 74],
 		"innerColor": [218, 218, 218],
 		"uniqueName": "Finnish Mobility",
-		"uniques": ["[+1 Culture] from every [Forest]","+[10]% combat bonus for units fighting in [Friendly Land]"],
+		"uniques": ["[+1 Culture] from every [City]","+[10]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa","Uusukaipunki","Kakisalmi"]
 	},
 	{
@@ -710,7 +711,7 @@
 		"leaderName": "Charlemagne",
 		"adjective": ["Frankish"],
 //		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -732,7 +733,7 @@
 		"leaderName": "Vercingetorix",
 		"adjective": ["Gaul"],
 		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -780,7 +781,7 @@
 		"leaderName": "Batu Khan",
 		"adjective": ["Golden Horde"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -802,7 +803,7 @@
 		"leaderName": "Alaric I",
 		"adjective": ["Goth"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -831,7 +832,7 @@
 		"declaringWar": "You are in my way, you must be destroyed.",
 		"attacked": "As a matter of fact I too grow weary of peace.",
 		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+		"introduction": "Hello stranger! I am Pericles, son of Athens!",
 		"neutralHello": "Greetings!",
 		"hateHello": "What?",
 		"tradeRequest": "My friend, does this seem reasonable to you?",		
@@ -850,7 +851,7 @@
 		"leaderName": "Muwatallis",
 		"adjective": ["Hittite"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -896,7 +897,7 @@
 		"leaderName": "Andras II",
 		"adjective": ["Hungarian"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -997,7 +998,7 @@
 		"leaderName": "Michael Collins",
 		"adjective": ["Irish"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+//		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1045,7 +1046,7 @@
 		"leaderName": "David",
 		"adjective": ["Israeli"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1067,7 +1068,7 @@
 		"leaderName": "Vittorio Emanuele III",
 		"adjective": ["Italian"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1114,7 +1115,7 @@
 		"leaderName": "Fulk V",
 		"adjective": ["Jerusalem"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1173,7 +1174,7 @@
 		"innerColor": [194,222,155],
 		"uniqueName": "Merchant Economy",
 		"uniqueText": "+10% Growth in all cities. +4 Gold from Food and Production Trade Routes"
-		"uniques": ["+[10]% growth in all cities","[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]","[+4 Gold] from every [Sea Trade Route (Food)]","[+4 Gold] from every [Sea Trade Route (Production)]"],
+		"uniques": ["+[10]% growth [in all cities]","[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]","[+4 Gold] from every [Sea Trade Route (Food)]","[+4 Gold] from every [Sea Trade Route (Production)]"],
 		"cities": ["Kilwa Kiswani","Zanzibar","Mombasa","Malindi","Sofala","Pemba","Mozambique","Mogadishu","Lamu","Mahajanga","Antsiranana","Kismaoyo","Mzizima","Mafia","Bazarula","Pate"]
 	},
 					{
@@ -1181,7 +1182,7 @@
 		"leaderName": "Mvemba a Nzinga",
 		"adjective": ["Kongo"],
 		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1229,7 +1230,7 @@
 		"leaderName": "Vytautas",
 		"adjective": ["Lithuania"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1251,7 +1252,7 @@
 		"leaderName": "Alexander",
 		"adjective": ["Macedonian"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1296,7 +1297,7 @@
 		"leaderName": "Nurhaci",
 		"adjective": ["Manchurian"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1379,7 +1380,7 @@
 		"outerColor": [81,0,9],
 		"innerColor": [255,120,0],
 		"uniqueName": "Mongol Terror",
-		"uniques": ["+30% Strength when fighting City-State units and cities", "+[1] Movement for all [Mounted] units","+[1] Movement for all [Armor] units"],
+		"uniques": ["+30% Strength when fighting City-State units and cities", "+[1] Movement for all [Mounted] units","+[1] Movement for all [Armor] units","Double quantity of [Horses] produced"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -1442,7 +1443,7 @@
 		"leaderName": "William the Conqueror",
 		"adjective": ["Norman"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1501,7 +1502,7 @@
 		"outerColor": [184,179,112],
 		"innerColor": [105,73,45],
 		"uniqueName": "Ta-Seti",
-		"uniques": ["[+1 Food] from every [Flood plains]","Receive free [Apedemaks Bow] when you discover [Pottery]"],
+		"uniques": ["[+1 Production] from every [Flood plains]","Receive free [Apedemaks Bow] when you discover [Pottery]"],
 		"cities": ["Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe","Shaat","Heh","Dengeil"]
 	},
 	{
@@ -1621,7 +1622,7 @@
 		"outerColor": [225,105,0],
 		"innerColor": [255,255,78],
 		"uniqueName": "Wayfinding",
-		"uniques": ["Can embark and move over Coasts and Oceans immediately","+1 Sight when embarked","+[10]% Strength if within [2] tiles of a [Moai]","Increases embarked movement +1"],
+		"uniques": ["Can embark and move over Coasts and Oceans immediately","+[1] Sight for all [Embarked] units","+[10]% Strength if within [2] tiles of a [Moai]","Increases embarked movement +1"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
@@ -1656,7 +1657,7 @@
 		"name": "Romania",
 		"leaderName": "Carol I",
 		"adjective": ["Romanian"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1670,7 +1671,7 @@
 		"outerColor": [2,51,69],
 		"innerColor": [197,196,72],
 		"uniqueName": "Nihil Sine Deo",
-		"uniques": ["[+1 Culture] from every [Monument]","[+1 Culture] from every [Temple]"],
+		"uniques": ["Earn [25]% of killed [Military] unit's [Strength] as [Science]","Earn [25]% of killed [Military] unit's [Strength] as [Culture]"],
 		"cities": ["Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti","Suceava","Buzau","Piatra Neamt"]
 	},
 	{
@@ -1876,7 +1877,7 @@
 		"name": "Sumeria",
 		"leaderName": "Gilgamesh",
 		"adjective": ["Sumer"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1922,7 +1923,7 @@
 		"name": "Tibet",
 		"leaderName": "Ngawang Lobsang Gyatso",
 		"adjective": ["Tibetan"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2078,7 +2079,7 @@
 		"outerColor": [0,204,126],
 		"innerColor": [128,3,28],
 		"uniqueName": "Tam Giao",
-		"uniques": ["[+2 Food, +1 Production] from every [Marsh]","[+1 Production] from every [Jungle]"],
+		"uniques": ["[+2 Food, +1 Production] from every [Marsh]","[+1 Culture] from every [Jungle]"],
 		"cities": ["Ha Noi","Thanh Pho Ho Chi Minh","Hai Phong","Thanh Pho Hue","Can Tho","Da Nang","Bien Hoa","Phan Rang","Quang Ngai","Quang Ninh","Tuyen Quang","Ha Tinh","Tam Ky"]
 	},
 								{
@@ -2086,7 +2087,7 @@
 		"leaderName": "Owain Glyndwr",
 		"adjective": ["Welsh"],
 		"startBias": ["Hill"],
-//		"preferredVictoryType": "Diplomatic",
+//		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2108,7 +2109,7 @@
 		"leaderName": "Nyatsimba Mutota",
 		"adjective": ["Zimbabwe"],
 //		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",

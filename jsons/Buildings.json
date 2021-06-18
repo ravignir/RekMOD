@@ -432,7 +432,7 @@
         "name": "Library",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["[+1 Science] Per [2] Population in this city"],
+        "uniques": ["[+1 Science] per [2] population [in this city]"],
         "requiredTech": "Writing"
     },
     {
@@ -441,7 +441,8 @@
         "uniqueTo": "Akkad",
         "hurryCostModifier": 25,
         "science": 1,
-        "uniques": ["[+1 Science] Per [2] Population in this city"],
+		"cost": 60,
+        "uniques": ["[+1 Science] per [2] population [in this city]"],
         "requiredTech": "Writing"
     },
     {
@@ -450,7 +451,7 @@
         "uniqueTo": "China",
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["[+1 Science] Per [2] Population in this city"],
+        "uniques": ["[+1 Science] per [2] population [in this city]"],
         "requiredTech": "Writing"
     },
     {
@@ -463,7 +464,7 @@
         "maintenance": 1,
 		"culture": 1,
 		"science": 1,
-        "uniques": ["[+1 Science] Per [2] Population in this city","New [Military] units start with [10] Experience in this city"],
+        "uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -591,7 +592,7 @@
         "culture": 1,
         "greatPersonPoints": {"production": 1},
         "isWonder": true,
-        "uniques": ["Worker construction increased 25%","[2] free [Worker] units appear","Requires [Liberty]"],
+        "uniques": ["-[25]% tile improvement construction time","[2] free [Worker] units appear","Requires [Liberty]"],
         "requiredTech": "Masonry",
         "quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.'  - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
     },
@@ -698,7 +699,8 @@
         "greatPersonPoints": {"gold": 1},
         "isWonder": true,
         "providesFreeBuilding":  "Lighthouse",
-        "uniques": ["Must be next to [Coast]", "All military naval units receive +1 movement and +1 sight"],
+        "uniques": ["Must be next to [Coast]", "+[1] Movement for all [{Military} {Water}] units",
+			"+[1] Sight for all [{Military} {Water}] units"],
         "requiredTech": "Optics",
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
@@ -717,7 +719,7 @@
         "cost": 100,
         "hurryCostModifier": 25,
 		"gold": 2,
-        "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] in this city","[+1 Gold] per [3] population in this city"],
+        "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] in this city","[+1 Gold] per [3] population [in this city]"],
         "requiredTech": "Horseback Riding"
     }
     {
@@ -1289,7 +1291,7 @@
 		"uniqueTo": "Phoenicia",
         "maintenance": 2,
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Production] from [Water resource] tiles in this city","+[15]% Production when constructing [Water] units [in this city]","[+1 Gold] from [Sea Trade Route (Food)] tiles in this city",
+        "uniques": ["[+1 Production] from [Water resource] tiles in this city","+[15]% Production when constructing [water units] [in this city]","[+1 Gold] from [Sea Trade Route (Food)] tiles in this city",
             "[+1 Gold] from [Sea Trade Route (Production)] tiles in this city","[+1 Gold] from [Sea Trade Route (Gold)] tiles in this city",
             "Connects trade routes over water","Must be next to [Coast]"],
         "requiredTech": "Compass"
@@ -1665,7 +1667,7 @@
         "hurryCostModifier": 25,
         "maintenance": 3,
 	    "uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
-		"+[15]% Production when constructing [Water] units [in this city]","Must be next to [Coast]",
+		"+[15]% Production when constructing [water units] [in this city]","Must be next to [Coast]",
         "Requires a [Harbor] in this city"],
         "requiredTech": "Navigation"
     },
@@ -1693,7 +1695,7 @@
         "culture": 1,
         "greatPersonPoints": {"science": 2},
         "isWonder": true,
-        "uniques": ["Free [Great Scientist] appears","Science gained from research agreements +50%","Requires [Rationalism]"],
+        "uniques": ["Free [Great Scientist] appears","Science gained from research agreements +[50]%","Requires [Rationalism]"],
         "requiredTech": "Architecture",
         "quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.'  - James Russell Lowell"
     }, 
@@ -1759,7 +1761,7 @@
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "uniques": ["[+1 Science] Per [2] Population in this city","Requires a [University] in this city"],
+        "uniques": ["[+1 Science] per [2] population [in this city]","Requires a [University] in this city"],
         "requiredTech": "Scientific Theory"
     },
 	    {
@@ -1772,7 +1774,7 @@
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "uniques": ["[+1 Science] Per [2] Population in this city","Requires a [University] in this city"],
+        "uniques": ["[+1 Science] per [2] population [in this city]","Requires a [University] in this city"],
         "requiredTech": "Scientific Theory"
     },
     {
@@ -2085,4 +2087,11 @@
         "requiredTech": "Nanotechnology",
         "uniques": ["Spaceship part","Cannot be purchased"]
     }
+		{
+		"name": "Utopia Project",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Hidden until [7] social policy branches have been completed", "Triggers a global alert upon build start", 
+			"Triggers a Cultural Victory upon completion", "Hidden when cultural victory is disabled"]
+	}
 ]
