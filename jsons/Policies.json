@@ -363,7 +363,7 @@
 		"policies": [
 			{
 				"name": "Silk Road",
-				"uniques": ["+[25]% yield from [Land Trade Route (Food)]","+[25]% yield from [Land Trade Route (Production)]","+[25]% yield from [Sea Trade Route (Food)]","+[25]% yield from [Sea Trade Route (Production)]"],
+				"uniques": ["+[25]% yield from every [Land Trade Route (Food)]","+[25]% yield from every [Land Trade Route (Production)]","+[25]% yield from every [Sea Trade Route (Food)]","+[25]% yield from every [Sea Trade Route (Production)]"],
 				"row": 1,
 				"column": 2
 			},
@@ -382,7 +382,7 @@
 			},
 			{
 				"name": "Mercantilism",
-				"uniques": ["+[25]% yield from [Land Trade Route (Food)]","+[25]% yield from [Land Trade Route (Production)]","+[25]% yield from [Sea Trade Route (Food)]","+[25]% yield from [Sea Trade Route (Production)]","Cost of purchasing items in cities reduced by [20]%","[+2 Science] from every [Mint]",
+				"uniques": ["+[25]% yield from every [Land Trade Route (Food)]","+[25]% yield from every [Land Trade Route (Production)]","+[25]% yield from every [Sea Trade Route (Food)]","+[25]% yield from every [Sea Trade Route (Production)]","Cost of purchasing items in cities reduced by [20]%","[+2 Science] from every [Mint]",
 					"[+2 Science] from every [Market]","[+2 Science] from every [Bank]","[+2 Science] from every [Stock Exchange]"],
 				"requires": ["Silk Road"],
 				"row": 2,
@@ -557,7 +557,7 @@
 			},
 			{
 				"name": "New Deal",
-				"uniques": ["+[100]% yield from [Great Improvements]"],
+				"uniques": ["+[100]% yield from every [Great Improvement]"],
 				"requires": ["Capitalism"],
 				"row": 2,
 				"column": 3
