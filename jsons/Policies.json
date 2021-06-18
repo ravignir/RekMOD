@@ -222,7 +222,7 @@
 		]
 	},
 	{
-		"name": "Patronage.",
+		"name": "Patronage",
 		"era": "Classical era",
 		"uniques": ["Resting point for Influence with City-States is increased by [20]","Unlocks building the Forbidden Palace"],
 		"policies": [
@@ -374,7 +374,7 @@
 				"column": 5
 			},
 			{
-				"name": "Entrepreneurship.",
+				"name": "Entrepreneurship",
 				"uniques": ["Maintenance on roads & railroads reduced by [50]%","Provides 2 Trade Routes"],
 				"requires": ["Silk Road"],
 				"row": 2,
