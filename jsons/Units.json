@@ -527,6 +527,19 @@
 		"promotions": ["Cover I"],
 		"attackSound": "metalhit"
 	},
+		{
+		"name": "Dromon", 
+		"unitType": "WaterRanged",
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength": 9,
+		"cost": 56,
+		"requiredTech": "Optics",
+		"uniques": ["Cannot enter ocean tiles","Bonus vs water units 45%"],
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
 	{
 		"name": "Composite Bowman", //modded
 		"unitType": "Ranged",
@@ -1378,7 +1391,7 @@
 		"name": "Privateer", //modded
 		"unitType": "WaterMelee",
 		"movement": 5,
-		"strength": 25,
+		"strength": 27,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
@@ -1772,7 +1785,7 @@
 		"movement": 4,
 		"strength": 15,
 		"cost": 250,
-		"requiredTech": "Electricity",
+		"requiredTech": "Steam Power",
 		"uniques": ["All tiles costs 1","Can pass through impassable tiles","+2 Visibility Range",
 			"No defensive terrain bonus","Unable to capture cities","Can move after attacking",],
 		"attackSound": "shot"
@@ -2018,7 +2031,7 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 300,
-		"requiredTech": "Ballistics",
+		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": ["+[200]% Strength vs [Armor]"]
 	},
@@ -2042,7 +2055,7 @@
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Advanced Ballistics",
 		"uniques": ["Nuclear weapon","Self-destructs when attacking","Requires [Manhattan Project]","Consumes [2] [Uranium]","Cannot be purchased"]
 	},{
 		"name": "Guided Missile",
@@ -2052,7 +2065,7 @@
 		"rangedStrength": 60,
 		"range": 8,
 		"cost": 150,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Advanced Ballistics",
 		"uniques": ["Self-destructs when attacking"]
 	},
 	{

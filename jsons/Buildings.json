@@ -2,7 +2,7 @@
     // Uniques
     {
         "name": "Mosque",
-        "cost": -1,
+        "cost": 1,
         "culture": 5,
         "happiness": 1,
         "uniques": ["Unbuildable"]
@@ -20,7 +20,7 @@
         "providesFreeBuilding": "~limit",
         "requiredTech": "Optics",
         "isNationalWonder": true, 
-        "cost": -1,
+        "cost": 1,
         "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
     },
     {
@@ -30,7 +30,7 @@
         "providesFreeBuilding": "~limit",
         "requiredTech": "Compass",
         "isNationalWonder": true,
-        "cost": -1,
+        "cost": 1,
         "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
     },
     {
@@ -40,7 +40,7 @@
         "providesFreeBuilding": "~limit",
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
-        "cost": -1,
+        "cost": 1,
         "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
     },
     {
@@ -48,7 +48,7 @@
         "uniqueTo": "The Maya",
         "greatPersonPoints": {"science": 12,"culture": 12,"production": 12,"gold": 12},
         "requiredTech": "Theology",
-        "cost": -1,
+        "cost": 1,
         "replacementTextForUniques": " ",
         "uniques": ["Not displayed as an available construction without [Palace]",
         	"Will not be displayed in Civilopedia","Unsellable"]
@@ -56,19 +56,19 @@
     {
         "name": "~CS",
         "isNationalWonder": "true",
-        "cost": -1,
+        "cost": 1,
         "uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
     },
 	    {
         "name": "Bonus Trade Routes",
         "isNationalWonder": "true",
-        "cost": -1,
+        "cost": 1,
         "uniques": ["Provides [2] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
     },
 	    {
         "name": "Castle Builders",
         "cityStrength": 5,
-		"cost": -1,
+		"cost": 1,
         "uniques": ["Unsellable","Unbuildable","Will not be displayed in Civilopedia"]
     },
 		    {
@@ -76,30 +76,30 @@
         "cityStrength": 5,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 10, "production": 10, "gold": 10, "culture": 10},
-		"cost": -1,
+		"cost": 1,
         "uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
     },
 	{
 		"name": "Great Zimbabwe",
-		"cost": -1,
+		"cost": 1,
 		"uniques": ["Unsellable","Unbuildable","Will not be displayed in Civilopedia","+[25]% Production when constructing [Buildings] [in this city]","+[25]% Production when constructing [Military] units [in this city]"]
 	}		
 		{
         "name": "GPBonus",
-		"cost": -1,
+		"cost": 1,
         "uniques": ["+[33]% great person generation in this city","Unsellable","Unbuildable","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "~Ayyubids",
 		"uniqueTo": "Ayyubids",
-        "cost": -1,
+        "cost": 1,
 		"providesFreeBuilding": "Burial Tomb",
         "uniques": ["Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
     },
 			    {
         "name": "~GoldenHorde",
 		"uniqueTo": "Golden Horde",
-        "cost": -1,
+        "cost": 1,
 		"providesFreeBuilding": "Jarliq",
 		"requiredTech": "Philosophy",
         "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia","Unsellable"]
@@ -107,7 +107,7 @@
 			    {
         "name": "~Boers",
 		"uniqueTo": "Boers",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
 		"requiredTech": "Fertilizer",
         "uniques": ["[+1 Culture] from every [Farm]","Will not be displayed in Civilopedia"]
@@ -115,7 +115,7 @@
 				    {
         "name": "The Way of Chumaks",
 		"uniqueTo": "Ukraine",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
 		"requiredTech": "The Wheel",
         "uniques": ["[+1 Food] from every [Maize]","[+1 Food] from every [Wheat]","[+1 Food] from every [Salt]","Will not be displayed in Civilopedia"]
@@ -123,7 +123,7 @@
 					    {
         "name": "Eightfold Path to Nirvana",
 		"uniqueTo": "Tibet",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
 		"requiredTech": "Drama and Poetry",
         "uniques": ["Unbuildable","Will not be displayed in Civilopedia","[+2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] once [Drama and Poetry] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Education] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Acoustics] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Industrialization] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Radio] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Radar] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Telecommunications] is discovered"]
@@ -131,7 +131,7 @@
 				    {
         "name": "City of Light",
 		"uniqueTo": "France",
-        "cost": -1,
+        "cost": 1,
 		"culture": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unbuildable","Requires a [Palace] in this city","Will not be displayed in Civilopedia","[+15 Culture] once [Acoustics] is discovered"]
@@ -139,63 +139,63 @@
 					    {
         "name": "Italy Liberty",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Liberty Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Tradition",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Tradition Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Honor",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Honor Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Piety",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Piety Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Commerce",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Commerce Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Patronage",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Patronage Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Aesthetics",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Aesthetics Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Rationalism",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Rationalism Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Exploration",
 		"uniqueTo": "Italy",
-        "cost": -1,
+        "cost": 1,
 		"isNationalWonder": "true",
         "uniques": ["Unlocked with [Exploration Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
@@ -203,7 +203,7 @@
         "name": "Trade Route1",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
 		"requiredTech": "Animal Husbandry",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
@@ -211,7 +211,7 @@
         "name": "Trade Route2",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
 		"requiredTech": "Sailing",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
@@ -219,7 +219,7 @@
         "name": "Trade Route3",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
 		"requiredTech": "Engineering",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
@@ -227,7 +227,7 @@
         "name": "Trade Route4",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
 		"requiredTech": "Compass",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
@@ -235,7 +235,7 @@
         "name": "Trade Route5",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
 		"requiredTech": "Banking",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
@@ -243,7 +243,7 @@
         "name": "Trade Route6",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
 		"requiredTech": "Biology",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
@@ -251,7 +251,7 @@
         "name": "Trade Route7",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
 		"requiredTech": "Railroad",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
@@ -259,7 +259,7 @@
         "name": "Trade Route8",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
 		"requiredTech": "Pharmaceuticals",
         "uniques": ["Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
@@ -267,7 +267,7 @@
         "name": "Trade Route9",
         "isNationalWonder": "true",
 		"cannotBeBuiltWith": "~CS",
-        "cost": -1,
+        "cost": 1,
         "uniques": ["Provides [2] [Trade Route]","Requires [Entrepreneurship]","Will not be displayed in Civilopedia"]
     },
 	
@@ -1170,7 +1170,7 @@
             "[+2 Gold] from every [Land Trade Route (Gold)]","[+2 Gold] from every [Sea Trade Route (Food)]",
             "[+2 Gold] from every [Sea Trade Route (Production)]","[+2 Gold] from every [Sea Trade Route (Gold)]",
             "Cost increases by [30] per owned city","Requires a [Market] in all cities"],
-        "requiredTech": "Currency"
+        "requiredTech": "Guilds"
     },
     {
         "name": "Althing",
@@ -1368,7 +1368,7 @@
 		"providesFreeBuilding": "University",
         "greatPersonPoints": {"science": 1},
         "isWonder": true,
-        "requiredTech": "Chivalry",
+        "requiredTech": "Education",
         "quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
     },
     {
@@ -1465,7 +1465,7 @@
         "happiness": 3,
         "culture": 4,
         "specialistSlots": {"Artist": 1},
-        "cost": 250,
+        "cost": 200,
         "hurryCostModifier": 25,
         "maintenance": 2,
         "uniques": ["Requires a [Temple] in this city"],
@@ -1477,7 +1477,7 @@
         "uniqueTo": "Boers",
         "culture": 6,
         "specialistSlots": {"Artist": 1},
-        "cost": 250,
+        "cost": 200,
         "hurryCostModifier": 25,
         "maintenance": 2,
         "uniques": ["Requires a [Temple] in this city"],
@@ -1578,7 +1578,7 @@
         "happiness": 2,
         "hurryCostModifier": 10,
         "maintenance": 2,
-		"cost": 180,
+		"cost": 200,
         "uniques": ["Requires a [Colosseum] in this city"],
         "requiredTech": "Printing Press"
     },
@@ -1651,7 +1651,7 @@
         "isNationalWonder": true,
         "uniques": ["+[50]% [Culture] [in this city]","Cost increases by [30] per owned city",
             "Requires a [Opera House] in all cities"],
-        "requiredTech": "Archaeology"
+        "requiredTech": "Architecture"
     }, 
     {
         "name": "The Louvre",
@@ -1782,6 +1782,7 @@
         "production": 4,
         "specialistSlots": {"Engineer": 2},
         "maintenance": 3,
+		"cost": 360,
         "hurryCostModifier": 0,
         "uniques": ["+[10]% [Production] [in this city]","Requires a [Workshop] in this city","Consumes [1] [Coal]"],
         "requiredTech": "Industrialization"
@@ -1937,7 +1938,7 @@
         "isWonder": true,
         "greatPersonPoints": {"culture": 2},        
         "uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
-        "requiredTech": "Flight",
+        "requiredTech": "Plastics",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.'  - New Testament, Matthew 11:28"
     },
     {
@@ -1989,6 +1990,7 @@
     {
         "name": "Recycling Center",    
         "maintenance": 3,
+		"cost": 500,
         "requiredTech": "Ecology",
         "uniques": ["Provides [2] [Aluminum]"]
     },
@@ -2036,13 +2038,14 @@
     },
     {
         "name": "Apollo Program",
-        "cost": 1500,
+        "cost": 750,
         "isNationalWonder": true,
         "uniques": ["Enables construction of Spaceship parts"],
         "requiredTech": "Rocketry"
     },   
     {
         "name": "National Visitor's Center", //modded
+		"cost": 400,
         "isNationalWonder": true,
         "uniques": ["+[100]% [Culture] [in this city]","Requires a [Hotel] in all cities"],
         "requiredTech": "Telecommunications"
@@ -2055,7 +2058,7 @@
         "cost": 1250,
         "greatPersonPoints": {"production": 1},
         "providesFreeBuilding": "Broadcast Tower",
-        "requiredTech": "Telecommunications",
+        "requiredTech": "Radar",
         "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
     },
     {

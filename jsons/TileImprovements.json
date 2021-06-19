@@ -15,7 +15,7 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Construction",
+		"techRequired": "Bronze Working",
 		"uniques": ["[+1 Production] once [Steel] is discovered"],
 		"shortcutKey": "L"
 	},
