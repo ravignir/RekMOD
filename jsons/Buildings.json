@@ -282,7 +282,9 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","[-1 Gold] from every [River]"]
+		"uniques": ["Indicates the capital city","[-1 Gold] from every [River]","Double quantity of [Horses] produced","Double quantity of [Iron] produced",
+					"Double quantity of [Coal] produced","Double quantity of [Oil] produced",
+					"Double quantity of [Aluminum] produced"]
 	},
 	    {
         "name": "Orszaggyules",
