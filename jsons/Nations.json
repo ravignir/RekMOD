@@ -2204,7 +2204,7 @@
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [194,97,255],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [Jewelry] [in capital]","Gain a free [~CS] [in all cities]"],
 		"cities": ["Vaduz"]
 	},
 	{
@@ -2231,7 +2231,7 @@
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,97,255],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [Porcelain] [in capital]","Gain a free [~CS] [in all cities]"],
 		"cities": ["Mohenjo-Daro"]
 	},
 	{
@@ -2259,7 +2259,7 @@
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [45,255,86],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [Jewelry] [in capital]","Gain a free [~CS] [in all cities]"],
 		"cities": ["Tallinn"]
 	},
 	{
@@ -2337,7 +2337,7 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,255,0],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [Porcelain] [in capital]","Gain a free [~CS] [in all cities]"],
 		"cities": ["Singapore"]
 	},
 	{
@@ -2350,7 +2350,7 @@
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,153,255],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [Jewelry] [in capital]","Gain a free [~CS] [in all cities]"],
 		"cities": ["Zanzibar"]
 	},
 	{
@@ -2389,7 +2389,7 @@
 		"defeated": "We... defeated? No... we had so much work to do!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [151,125,0],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [Porcelain] [in capital]","Gain a free [~CS] [in all cities]"],
 		"cities": ["Kathmandu"]
 	},
 	{

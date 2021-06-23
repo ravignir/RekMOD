@@ -410,6 +410,16 @@
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
+		{
+		"name": "Porcelain", //modded
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Jewelry", //modded
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
 
 	// Ingame Mechanics
 	{

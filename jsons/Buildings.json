@@ -14,34 +14,43 @@
         "uniques": ["Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
     },
     {
-        "name": "Cloves", // Indonesian "luxury"
+        "name": "Cloves", // Indonesian luxury
         "uniqueTo": "Indonesia",
         "cannotBeBuiltWith": "~limit",
         "providesFreeBuilding": "~limit",
-        "requiredTech": "Optics",
         "isNationalWonder": true, 
         "cost": 1,
         "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
     },
     {
-        "name": "Nutmeg", // Indonesian "luxury"
+        "name": "Nutmeg", // Indonesian luxury
         "uniqueTo": "Indonesia",
         "cannotBeBuiltWith": "~limit",
         "providesFreeBuilding": "~limit",
-        "requiredTech": "Compass",
         "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
     },
     {
-        "name": "Pepper", // Indonesian "luxury"
+        "name": "Pepper", // Indonesian luxury
         "uniqueTo": "Indonesia",
         "cannotBeBuiltWith": "~limit",
         "providesFreeBuilding": "~limit",
-        "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
+    },
+	    {
+        "name": "Jewelry", // City state luxury
+		        "isNationalWonder": "true",
+        "cost": 1,
+        "uniques": ["Unbuildable","Unsellable","Will not be displayed in Civilopedia","Provides [1] [Jewelry]"],
+    },
+	    {
+        "name": "Porcelain", // City state luxury
+		        "isNationalWonder": "true",
+        "cost": 1,
+        "uniques": ["Unbuildable","Unsellable","Will not be displayed in Civilopedia","Provides [1] [Porcelain]"],
     },
     {
         "name": "Maya Great People Bonus",
@@ -55,13 +64,13 @@
     },
     {
         "name": "~CS",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+        "uniques": ["Unsellable","Will not be displayed in Civilopedia","Unbuildable"]
     },
 	    {
         "name": "Bonus Trade Routes",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Provides [2] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
     },
@@ -108,7 +117,7 @@
         "name": "~Boers",
 		"uniqueTo": "Boers",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
 		"requiredTech": "Fertilizer",
         "uniques": ["[+1 Culture] from every [Farm]","Will not be displayed in Civilopedia"]
     },
@@ -116,7 +125,7 @@
         "name": "The Way of Chumaks",
 		"uniqueTo": "Ukraine",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
 		"requiredTech": "The Wheel",
         "uniques": ["[+1 Food] from every [Maize]","[+1 Food] from every [Wheat]","[+1 Food] from every [Salt]","Will not be displayed in Civilopedia"]
     },
@@ -124,7 +133,7 @@
         "name": "Eightfold Path to Nirvana",
 		"uniqueTo": "Tibet",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
 		"requiredTech": "Drama and Poetry",
         "uniques": ["Unbuildable","Will not be displayed in Civilopedia","[+2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] once [Drama and Poetry] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Education] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Acoustics] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Industrialization] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Radio] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Radar] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Telecommunications] is discovered"]
     },
@@ -133,7 +142,7 @@
 		"uniqueTo": "France",
         "cost": 1,
 		"culture": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unbuildable","Requires a [Palace] in this city","Will not be displayed in Civilopedia","[+15 Culture] once [Acoustics] is discovered"]
     },
 					    {
