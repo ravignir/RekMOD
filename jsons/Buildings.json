@@ -111,7 +111,7 @@
         "cost": 1,
 		"providesFreeBuilding": "Jarliq",
 		"requiredTech": "Philosophy",
-        "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia","Unsellable"]
+        "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia","Unsellable","Free [Great Artist] appears"]
     },
 			    {
         "name": "~Boers",
