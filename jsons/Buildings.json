@@ -99,14 +99,14 @@
         "uniques": ["+[33]% great person generation in this city","Unsellable","Unbuildable","Will not be displayed in Civilopedia"]
     },
 		    {
-        "name": "~Ayyubids",
+        "name": "Free Burial Tomb",
 		"uniqueTo": "Ayyubids",
         "cost": 1,
 		"providesFreeBuilding": "Burial Tomb",
         "uniques": ["Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
     },
 			    {
-        "name": "~GoldenHorde",
+        "name": "~Free Jarliq",
 		"uniqueTo": "Golden Horde",
         "cost": 1,
 		"providesFreeBuilding": "Jarliq",
@@ -114,7 +114,7 @@
         "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia","Unsellable","Free [Great Artist] appears"]
     },
 			    {
-        "name": "~Boers",
+        "name": "Boers Bonus",
 		"uniqueTo": "Boers",
         "cost": 1,
 		"isNationalWonder": true,
