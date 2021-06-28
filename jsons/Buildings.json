@@ -106,7 +106,7 @@
         "uniques": ["Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
     },
 			    {
-        "name": "~Free Jarliq",
+        "name": "Free Jarliq",
 		"uniqueTo": "Golden Horde",
         "cost": 1,
 		"providesFreeBuilding": "Jarliq",
