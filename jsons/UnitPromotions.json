@@ -398,6 +398,28 @@
 		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]"],
 		"unitTypes": ["Melee","Fighter","Bomber"]
 	},
+		{
+		"name": "Formation I",
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]"],
+		"unitTypes": ["Melee","Fighter","Bomber"]
+	},
+	{
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]"],
+		"unitTypes": ["Melee","Fighter","Bomber"]
+	},
+		{
+		"name": "Ambush I",
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]"],
+		"unitTypes": ["Melee","Fighter","Bomber"]
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]"],
+		"unitTypes": ["Melee","Fighter","Bomber"]
+	},
 	
 	
 	// Water ranged and air units
