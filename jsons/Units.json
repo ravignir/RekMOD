@@ -474,7 +474,7 @@
 		"cost": 45,
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Swordsman",
-		"uniques":["Earn [100]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"uniques":["Earn [100]% of [military] opponent's [Strength] as [Faith] for kills"],
 		"attackSound": "metalhit"
 	},
 	
@@ -619,7 +619,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Consumes [1] [Iron]","Earn [100]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"uniques": ["Consumes [1] [Iron]","Earn [100]% of [military] opponent's [Strength] as [Faith] for kills"],
 		"obsoleteTech": "Steel",
 		"attackSound": "metalhit"
 	},
@@ -872,7 +872,7 @@
 		"requiredTech": "Theology",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Consumes [1] [Iron]","+[20]% Strength in [Foreign Land]","Earn [150]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"uniques": ["Consumes [1] [Iron]","+[20]% Strength in [Foreign Land]","Earn [150]% of [military] opponent's [Strength] as [Faith] for kills"],
 		"attackSound": "metalhit"
 	},
 			{

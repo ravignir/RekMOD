@@ -48,7 +48,7 @@
 		"outerColor": [17, 31, 99],
 		"innerColor": [186, 139, 20],
 		"uniqueName": "Saint Elesbaan's Blessing",
-		"uniques": ["[+15]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Culture] from every [Quarry]"],
+		"uniques": ["[+15]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Faith] from every [Quarry]"],
 		"cities": ["Aksum","Adulis","Tiya","Qohaito","Berbera","Melazo","Tokonda","Yeha","Zeila","Massawa","Matara","Deira","Hawulti"]
 	},
 	{
@@ -193,9 +193,7 @@
 		"outerColor": [0, 91, 65],
 		"innerColor": [225, 148, 26],
 		"uniqueName": "Dreamtime",
-		"uniqueText": "+4 Culture from Natural Wonders
-		"
-		"uniques": ["[+4 Culture] from every [Great Barrier Reef]","[+4 Culture] from every [Old Faithful]","[+4 Culture] from every [El Dorado]","[+4 Culture] from every [Fountain of Youth]","[+4 Culture] from every [Grand Mesa]","[+4 Culture] from every [Mount Fuji]","[+4 Culture] from every [Krakatoa]","[+4 Culture] from every [Rock of Gibraltar]","[+4 Culture] from every [Cerro de Potosi]","[+4 Culture] from every [Barringer Crater]"]
+		"uniques": ["[+5 Faith] from every [Natural Wonder]"],
 		"cities": ["Canberra","Melbourne","Sydney","Perth","Brisbane","Newcastle","Adelaide","Wollongong","Gold Coast","Sunshine Coast","Hobart"]
 	},
 	{
@@ -725,7 +723,7 @@
 		"outerColor": [156, 197, 237],
 		"innerColor": [16, 25, 115],
 		"uniqueName": "Holy Roman Empire",
-		"uniques": ["[+1 Culture] from every [Farm]"],
+		"uniques": ["[+1 Faith] from every [Farm]"],
 		"cities": ["Aachen","Cologne","Duisburg","Metz","Regensburg","Luxembourg","Strasbourg","Nuremberg","Ulm","Fulda","Rheims","Verdun","Mainz"]
 	},
 			{
@@ -1127,7 +1125,7 @@
 		"outerColor": [190, 204, 204],
 		"innerColor": [190, 115, 0],
 		"uniqueName": "The Holy Land",
-		"uniques": ["[+1 Culture] from every [Luxury resource]"],
+		"uniques": ["[+1 Faith] from every [Luxury resource]"],
 		"cities": ["Jerusalem","Acre","Edessa","Antioch","Beirut","Ascalon","Tripoli","Cilica","Turbessel","Tarsus","Arduf","Hattin"]
 	},
 			{
@@ -1287,7 +1285,7 @@
 		"outerColor": [89,166,128],
 		"innerColor": [255,255,255],
 		"uniqueName": "Sacred Hills of Imerina",
-		"uniques": ["[+8 Culture] from every [Landmark]"],
+		"uniques": ["[+6 Culture, +6 Faith] from every [Holy Site]"],
 		"cities": ["Antananariva","Ambohimanga","Ambohitrabiby","Ambohidratrimo","Analamanga","Antsahadinta","Ambatofinandrahana","Ambohimahamasina","Amparafaravola","Antsirambazaha","Arivonimamo","Ambohijoky","Antongona"]
 	},
 	{
@@ -2003,7 +2001,7 @@
 		"outerColor": [255,227,151],
 		"innerColor": [191,24,38],
 		"uniqueName": "Westernization",
-		"uniqueText": "+50% Production when constructing Temples, Opera Houses, Museums and Broadcast Towers. All of these Buildings provide +1 Science and +1 Production."
+		"uniqueText": "+50% Production when constructing Amphitheaters, Opera Houses, Museums and Broadcast Towers. All of these Buildings provide +1 Science and +1 Production."
 		"uniques": ["[+1 Culture, +1 Science] from every [Amphitheater]","[+1 Culture, +1 Science] from every [Museum]","[+1 Culture, +1 Science] from every [Opera House]","[+1 Culture, +1 Science] from every [Broadcast Tower]","[+50]% Production when constructing [Amphitheater]","[+50]% Production when constructing [Opera House]","[+50]% Production when constructing [Museum]","[+50]% Production when constructing [Broadcast Tower]"],
 		"cities": ["Ankara","Istambul","Izmir","Bursa","Adana","Gaziantep","Konya","Antalya","Diyarbakir","Mersin","Kayseri","Eskisehir","Gebze"]
 	},
@@ -2077,7 +2075,7 @@
 		"outerColor": [0,204,126],
 		"innerColor": [128,3,28],
 		"uniqueName": "Tam Giao",
-		"uniques": ["[+2 Food, +1 Production] from every [Marsh]","[+1 Culture] from every [Jungle]"],
+		"uniques": ["[+2 Food, +1 Production] from every [Marsh]","[+1 Faith] from every [Jungle]"],
 		"cities": ["Ha Noi","Thanh Pho Ho Chi Minh","Hai Phong","Thanh Pho Hue","Can Tho","Da Nang","Bien Hoa","Phan Rang","Quang Ngai","Quang Ninh","Tuyen Quang","Ha Tinh","Tam Ky"]
 	},
 								{

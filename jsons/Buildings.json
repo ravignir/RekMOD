@@ -3,7 +3,8 @@
     {
         "name": "Mosque",
         "cost": 1,
-        "culture": 5,
+        "culture": 2,
+		"faith": 3,
         "happiness": 1,
         "uniques": ["Unbuildable"]
     },
@@ -135,7 +136,7 @@
         "cost": 1,
 		"isNationalWonder": true,
 		"requiredTech": "Drama and Poetry",
-        "uniques": ["Unbuildable","Will not be displayed in Civilopedia","[+2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] once [Drama and Poetry] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Education] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Acoustics] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Industrialization] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Radio] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Radar] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] once [Telecommunications] is discovered"]
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia","[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] once [Drama and Poetry] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Education] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Acoustics] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Industrialization] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Radio] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Radar] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Telecommunications] is discovered"]
     },
 				    {
         "name": "City of Light",
@@ -327,7 +328,8 @@
         "name": "Stele", //modded
         "replaces": "Monument",
         "uniqueTo": "Ethiopia",
-        "culture": 4,
+        "culture": 2,
+		"faith": 2,
         "cost": 40,
         "hurryCostModifier": 40,
         "maintenance": 1
@@ -344,9 +346,9 @@
     },
     {
         "name": "Pyramid", //modded
-        "replaces": "Monument",
+        "replaces": "Shrine",
         "uniqueTo": "The Maya",
-        "culture": 2,
+        "faith": 2,
         "science": 2,
         "cost": 40,
         "hurryCostModifier": 40,
@@ -439,7 +441,8 @@
     },
     {
         "name": "Stonehenge",
-        "culture": 5,
+        "faith": 6,
+		"culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"Engineer": 1},
         "requiredTech": "Calendar",
@@ -577,7 +580,7 @@
         "uniqueTo": "Madagascar",
         "cityStrength": 5,
         "cityHealth": 50,
-		"culture": 2,
+		"faith": 3,
 		"happiness": 1,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry"
@@ -783,7 +786,7 @@
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "hurryCostModifier": 25,
-        "uniques": ["Provides [2] [Horses]","[+1 Culture] from [Horses] tiles in this city","[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Cattle] tiles in this city",
+        "uniques": ["Provides [2] [Horses]","[+1 Faith] from [Horses] tiles in this city","[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Cattle] tiles in this city",
         	"[+1 Production] from [Horses] tiles in this city",
         	"[+1 Production] from [Sheep] tiles in this city",]
         "requiredTech": "Horseback Riding"
@@ -821,7 +824,8 @@
 		"uniqueTo": "Jerusalem",
         "replaces": "Courthouse",
         "happiness": 2,
-		"culture": 3,
+		"culture": 2,
+		"faith": 2,
         "hurryCostModifier": 50,
         "uniques": ["Remove extra unhappiness from annexed cities",
             "Can only be built in annexed cities"],
@@ -894,33 +898,32 @@
     },
 	    {
 		"name": "Stave Church",
-        "replaces": "Amphitheater",
+        "replaces": "Temple",
 		"uniqueTo": "Norway",
-        "culture": 1,
+        "faith": 1,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
-        "uniques": ["Requires a [Monument] in this city","[+1 Culture] from [Water resource] tiles in this city"],
+        "uniques": ["Requires a [Shrine] in this city","[+1 Faith] from [Water resource] tiles in this city"],
         "requiredTech": "Philosophy"
     },
     {
         "name": "Burial Tomb",
-        "replaces": "Amphitheater",
+        "replaces": "Temple",
         "uniqueTo": "Egypt",
-        "culture": 2,
+        "faith": 2,
         "happiness": 2,
         "hurryCostModifier": 25,
-        "uniques": ["Doubles Gold given to enemy if city is captured","Requires a [Monument] in this city"],
+        "uniques": ["Doubles Gold given to enemy if city is captured","Requires a [Shrine] in this city"],
         "requiredTech": "Philosophy"
     },
 		    {
         "name": "Ziggurat",
         "replaces": "Amphitheater",
         "uniqueTo": "Sumeria",
-        "culture": 3,
+        "faith": 2,
         "maintenance": 1,
-        "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
-        "uniques": ["Requires a [Monument] in this city","[+5]% [Science] [in this city]"],
+        "uniques": ["Requires a [Shrine] in this city","[+5]% [Science] [in this city]"],
         "requiredTech": "Philosophy"
     },
 	    {
@@ -938,7 +941,8 @@
         "name": "Hippodrome",
         "replaces": "Amphitheater",
         "uniqueTo": "Byzantium",
-        "culture": 3,
+        "culture": 2,
+		"faith": 2,
 		"happiness": 1,
         "maintenance": 1,
         "specialistSlots": {"Artist": 1},
@@ -950,24 +954,23 @@
         "name": "Yeshiva",
         "replaces": "Amphitheater",
         "uniqueTo": "Israel",
-        "culture": 2,
+        "faith": 2,
 		"cost": 120,
         "food": 1,
 		"production": 1,
 		"maintenance": 2,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
-        "uniques": ["Requires a [Monument] in this city"],
+        "uniques": ["Requires a [Shrine] in this city"],
         "requiredTech": "Philosophy"
     },
     {
         "name": "Mud Pyramid Mosque",
-        "replaces": "Amphitheater",
+        "replaces": "Temple",
         "uniqueTo": "Songhai",
-        "culture": 4,
-        "specialistSlots": {"Artist": 1},
+        "faith": 4,
         "hurryCostModifier": 15,
-        "uniques": ["Requires a [Monument] in this city"],
+        "uniques": ["Requires a [Shrine] in this city"],
         "requiredTech": "Philosophy"
     },
     {
@@ -1001,9 +1004,10 @@
 		"replaces": "National Epic",
 		"uniqueTo": "Aksum",
         "cost": 125,
-        "culture": 5,
-        "uniques": ["[+25]% great person generation in this city","[+2 Food, +1 Gold, +1 Production, +1 Culture] from every [Monument]","Cost increases by [30] per owned city",
-            "Requires a [Monument] in all cities"],
+        "culture": 4,
+		"faith": 4,
+        "uniques": ["[+25]% great person generation in this city","[+2 Food, +1 Gold, +1 Production, +1 Culture] from every [Shrine]","Cost increases by [30] per owned city",
+            "Requires a [Shrine] in all cities"],
         "isNationalWonder": true,
         "requiredTech": "Drama and Poetry"
     },
@@ -1099,7 +1103,7 @@
 		"uniqueTo": "Romania",
         "cost": 120,
 		"greatPersonPoints": {"Artist":1 },
-		"culture": 1,
+		"faith": 2,
         "uniques": ["[+25]% great person generation in this city"],
         "hurryCostModifier": 25,
         "maintenance": 1,
@@ -1110,7 +1114,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Khmer",
         "cost": 120,
-        "uniques": ["[10]% of food is carried over after population increases","[+2 Food, +1 Culture] once [Drama and Poetry] is discovered","[+25]% great person generation in this city", "Must be next to [Fresh water]"],
+        "uniques": ["[10]% of food is carried over after population increases","[+2 Food, +2 Faith] once [Drama and Poetry] is discovered","[+25]% great person generation in this city", "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -1120,7 +1124,7 @@
         "replaces": "Garden",
         "uniqueTo": "Indonesia",
         "cost": 120,
-        "culture": 2,
+        "faith": 3,
         "uniques": ["[+25]% great person generation in this city"],
         "hurryCostModifier": 25,
         "maintenance": 1,
@@ -1135,7 +1139,7 @@
         "requiredNearbyImprovedResources": ["Wine","Incense","Perfume"],
         "hurryCostModifier": 25,
         "requiredTech": "Theology"
-	"uniques": ["[+1 Culture] from [Incense] tiles in this city","[+1 Culture] from [Wine] tiles in this city","[+1 Culture] from [Perfume] tiles in this city"]
+	"uniques": ["[+1 Faith, +1 Culture] from [Incense] tiles in this city","[+1 Faith, +1 Culture] from [Wine] tiles in this city","[+1 Culture, +1 Faith] from [Perfume] tiles in this city"]
     },
     {
         "name": "Grand Temple", //modded
@@ -1147,7 +1151,7 @@
     },
     {
         "name": "Great Mosque of Djenne",
-        "culture": 3,
+        "faith": 6,
 		"happiness": 3,
         "isWonder": true,
         "providesFreeBuilding": "Mosque",
@@ -1157,11 +1161,12 @@
     },
     {
         "name": "Hagia Sophia",
-        "culture": 4,
+        "faith": 3,
+		"culture": 1,
         "greatPersonPoints": {"Artist": 1},
         "isWonder": true,
-        "providesFreeBuilding": "Amphitheater",
-        "uniques": ["Free [Great Artist] appears"],
+        "providesFreeBuilding": "Temple",
+        "uniques": ["Free [Great Prophet] appears"],
         "requiredTech": "Theology",
         "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty'  - Procopius, De Aedificis"
     },
@@ -1347,7 +1352,7 @@
         "name": "Madrasah",
         "replaces": "University",
         "uniqueTo": "Ayyubids",
-        "culture": 2,
+        "faith": 2,
         "maintenance": 2,
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
@@ -1429,7 +1434,7 @@
     },
     {
         "name": "Notre Dame",
-        "culture": 3,
+        "faith": 4,
         "happiness": 10,
         "greatPersonPoints": {"Artist": 1},
         "isWonder": true,

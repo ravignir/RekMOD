@@ -298,10 +298,11 @@
 		"name": "Tibetan Monastery",
 		"uniqueTo": "Tibet",
 		"terrainsCanBeBuiltOn": ["Forest","Hill"],
-		"culture": 2,
+		"culture": 1,
+		"faith": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Culture] for each adjacent [Mountain]"]
+		"uniques": ["[+1 Faith] once [Theology] is discovered","[+1 Culture] for each adjacent [Mountain]"]
 	},
 	{
 		"name": "Polder",
@@ -317,10 +318,10 @@
 		"uniqueTo": "Sioux",
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"food": 1,
-		"culture": 1,
+		"faith": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Food, +1 Gold] once [Civil Service] is discovered"]
+		"uniques": ["[+1 Food, +1 Gold] once [Civil Service] is discovered","[+1 Faith] once [Theology] is discovered"]
 	},
 	{
 		"name": "Kasbah",

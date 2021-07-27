@@ -55,7 +55,7 @@
 	{
 		"name": "Lakes",
 		"type": "Water",
-		"food": 2,
+		"food": 3,
 		"gold": 1,
 		"RGB": [ 123, 202, 226],
 		"uniques": ["Fresh water"]
@@ -222,7 +222,7 @@
 		"type": "NaturalWonder",
 		"production": 3,
 		"gold": 3,
-		"food": 3,
+		"food": 2,
 		"occursOn": ["Plains","Desert","Tundra"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -233,7 +233,8 @@
 		"name": "Mount Fuji",
 		"type": "NaturalWonder",
 		"happiness": 2,
-		"culture": 5,
+		"culture": 2,
+		"faith": 4,
 		"occursOn": ["Grassland","Plains"],
 		"turnsInto": "Mountain",
 		"impassable": true,

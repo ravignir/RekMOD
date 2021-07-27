@@ -359,7 +359,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"culture": 2,"gold": 1}
+		"improvementStats": {"faith": 2,"gold": 1}
 	},
 	{
 		"name": "Crab", //modded

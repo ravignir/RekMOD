@@ -135,24 +135,24 @@
 	{
 		"name": "Piety",
 		"era": "Ancient era",
-		"uniques": ["[+100]% Production when constructing [Amphitheater]","[+100]% Production when constructing [Monument]","[+2 Culture] [in capital]","Unlocks building the Great Mosque of Djenne"],
+		"uniques": ["[+100]% Production when constructing [Temple]","[+100]% Production when constructing [Shrine]","[+2 Culture] [in capital]","Unlocks building the Great Mosque of Djenne"],
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
-				"uniques": ["[+1 Happiness] from every [Amphitheater]","[+1 Culture] [in capital]","Cost of purchasing [Culture] buildings reduced by [20]%","Unlocks construction of Missionary"],
+				"uniques": ["[+1 Happiness] from every [Temple]","[+1 Culture] [in capital]","Cost of purchasing [Culture] buildings reduced by [20]%","Unlocks construction of Missionary"],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Organized Religion",
-				"uniques": ["[+1 Culture] from every [Monument]","[+1 Culture] from every [Amphitheater]",
+				"uniques": ["[+1 Culture] from every [Shrine]","[+1 Culture] from every [Temple]",
 					"[+1 Culture] from every [Monastery]"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Theocracy",
-				"uniques": ["[+33]% [Gold] from every [Grand Temple]","[+2 Gold] from every [Amphitheater]","[+3 Gold] from every [Landmark]"],
+				"uniques": ["[+33]% [Gold] from every [Grand Temple]","[+2 Gold] from every [Temple]","[+3 Gold] from every [Holy Site]"],
 				"row": 1,
 				"column": 5
 			},
@@ -165,14 +165,14 @@
 			},
 			{
 				"name": "Religious Tolerance",
-				"uniques": ["[+1 Culture] [in all cities]","[+25]% [Science] from every [Grand Temple]","[+2 Science] from every [Amphitheater]"],
+				"uniques": ["[+1 Culture] [in all cities]","[+25]% [Science] from every [Grand Temple]","[+2 Science] from every [Temple]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
 				"column": 4
 			},
 			{
 				"name": "Piety Complete",
-				"uniques": ["Free [Great Artist] appears","[+1 Food] from every [Landmark]","[+3 Culture] from every [Landmark]","Immediately creates a [Garden] in each of your first [4] cities for free"]
+				"uniques": ["Free [Great Prophet] appears","[+1 Food] from every [Holy Site]","[+3 Culture] from every [Holy Site]","Immediately creates a [Garden] in each of your first [4] cities for free"]
 			}
 		]
 	},
