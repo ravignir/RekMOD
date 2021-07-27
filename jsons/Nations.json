@@ -48,7 +48,7 @@
 		"outerColor": [17, 31, 99],
 		"innerColor": [186, 139, 20],
 		"uniqueName": "Saint Elesbaan's Blessing",
-		"uniques": ["+[15]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Culture] from every [Quarry]"],
+		"uniques": ["[+15]% [Culture] [in capital]","[+1 Production] from every [Quarry]","[+2 Culture] from every [Quarry]"],
 		"cities": ["Aksum","Adulis","Tiya","Qohaito","Berbera","Melazo","Tokonda","Yeha","Zeila","Massawa","Matara","Deira","Hawulti"]
 	},
 	{
@@ -69,7 +69,7 @@
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["+[1] Sight for all [{Military} {Land}] units","-[50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+1] Sight for all [{Military} {Land}] units","[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -125,7 +125,7 @@
 		"outerColor": [92, 198, 255],
 		"innerColor": [240, 240, 14],
 		"uniqueName": "Pride of the People",
-		"uniques": ["-[30]% tile improvement construction time"],
+		"uniques": ["[-30]% tile improvement construction time"],
 		"cities": ["Buenos Aires","La Plata","San Luis","Posadas","Catamarca","Cordoba","Formosa","San Juan","Parana","Salta","Neeuquen","Jujuy","La Rioja"]
 	},
 				{
@@ -169,7 +169,7 @@
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
 		"uniqueName": "Siege Warfare",
-		"uniques": ["+[1] Movement for all [Siege] units","Receive free [Great Artist] when you discover [Philosophy]"]
+		"uniques": ["[+1] Movement for all [Siege] units","Receive free [Great Artist] when you discover [Philosophy]"]
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -242,7 +242,7 @@
 		"innerColor": [255, 244, 174],
 		"uniqueName": "Justice of Saladin",
 		"uniqueText": "All cities receive a free Burial Tomb upon capture. Workers create improvements 20% faster",
-		"uniques": ["-[20]% tile improvement construction time"],
+		"uniques": ["[-20]% tile improvement construction time"],
 		"cities": ["Al-Quahirah","Al-Iskandariyyah","B'Albek","Assuan","Bilbeis","Dimashq","Qus","Adan","Zabid","Beirut","Akhmim","Al-Karak","Madinat Al-Fayyum"]
 	},
 	{
@@ -603,7 +603,7 @@
 		"outerColor": [ 231, 213, 0],
 		"innerColor": [98,10,210],
 		"uniqueName": "Monument Builders",
-		"uniques": ["+[15]% Production when constructing [Wonders]"],
+		"uniques": ["[+15]% Production when constructing [Wonders]"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
@@ -629,7 +629,7 @@
 		"outerColor": [ 114, 0, 0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Sun Never Sets",
-		"uniques": ["+[2] Movement for all [Water] units"],
+		"uniques": ["[+2] Movement for all [Water] units"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -653,7 +653,7 @@
 		"outerColor": [17,44,16],
 		"innerColor": [254,31,33],
 		"uniqueName": "Spirit of Adwa",
-		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]"],
+		"uniques": ["[+20]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama","Mek'ele",
 			"Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena","Nekemte",
 			"Aselia","Dila","Adigrat","Debre Tabor","Sebeta","Shire","Ambo","Negele Arsi","Gambela",
@@ -678,7 +678,7 @@
 		"outerColor": [10, 40, 74],
 		"innerColor": [218, 218, 218],
 		"uniqueName": "Finnish Mobility",
-		"uniques": ["[+1 Culture] from every [City]","+[10]% combat bonus for units fighting in [Friendly Land]"],
+		"uniques": ["[+1 Culture] from every [City]","[+10]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa","Uusukaipunki","Kakisalmi"]
 	},
 	{
@@ -700,7 +700,7 @@
 		"innerColor": [239,236,148],
 		"uniqueName": "City of Light",
 		"uniqueText": "+1 Culture in capital, additional +15 Culture upon researching Acoustics. +25% Culture in capital",
-		"uniques": ["+[25]% [Culture] [in capital]","Gain a free [City of Light] [in capital]"],
+		"uniques": ["[+25]% [Culture] [in capital]","Gain a free [City of Light] [in capital]"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -887,10 +887,8 @@
 		"outerColor": [238,238,236],
 		"innerColor": [77,2,4],
 		"uniqueName": "Scourge of God",
-		"uniques": ["Starts with [Animal Husbandry]","[+1 Production] from every [Pasture]"],
-		"cities": ["Attila's Court","Washington","Mecca","Tenochtitlan","Babylon","Beijing","Copenhagen","Thebes","London","Paris",
-			"Berlin","Athens","Cusco","Delhi","Onoondaga","Kyoto","Seoul","Karakorum","Istanbul","Persepolis",
-			"Honolulu","Rome","Moscow","Sukhothai","Gao","Madrid",]
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["Attila's Court"]
 	},
 		{
 		"name": "Hungary",
@@ -1013,7 +1011,7 @@
 		"innerColor": [223,172,70],
 		"uniqueName": "Gaelic Revival",
 		"uniqueText": "+2 Happiness from all National Wonders (excluding the Palace). +15% Production towards constructing buildings required for National Wonders.",
-		"uniques": ["+[15]% Production when constructing [Monument]","+[15]% Production when constructing [Hotel]","+[15]% Production when constructing [University]","+[15]% Production when constructing [Market]","+[15]% Production when constructing [Workshop]","+[15]% Production when constructing [Temple]","+[15]% Production when constructing [Barracks]","+[15]% Production when constructing [Library]","+[15]% Production when constructing [Colosseum]","+[15]% Production when constructing [Opera House]","[+2 Happiness] from every [East India Company]","[+2 Happiness] from every [National Visitor's Center]","[+2 Happiness] from every [Oxford University]","[+2 Happiness] from every [Hermitage]","[+2 Happiness] from every [Ironworks]","[+2 Happiness] from every [Grand Temple]","[+2 Happiness] from every [National Epic]","[+2 Happiness] from every [National College]","[+2 Happiness] from every [Heroic Epic]","[+2 Happiness] from every [Circus Maximus]"],
+		"uniques": ["[+15]% Production when constructing [Monument]","[+15]% Production when constructing [Hotel]","[+15]% Production when constructing [University]","[+15]% Production when constructing [Market]","[+15]% Production when constructing [Workshop]","[+15]% Production when constructing [Amphitheater]","[+15]% Production when constructing [Barracks]","[+15]% Production when constructing [Library]","[+15]% Production when constructing [Colosseum]","[+15]% Production when constructing [Opera House]","[+2 Happiness] from every [East India Company]","[+2 Happiness] from every [National Visitor's Center]","[+2 Happiness] from every [Oxford University]","[+2 Happiness] from every [Hermitage]","[+2 Happiness] from every [Ironworks]","[+2 Happiness] from every [Grand Temple]","[+2 Happiness] from every [National Epic]","[+2 Happiness] from every [National College]","[+2 Happiness] from every [Heroic Epic]","[+2 Happiness] from every [Circus Maximus]"],
 		"cities": ["Dublin","Cork","Galway","Wexford","Kilkenny","Tralee","Limerick","Castlebar","Lifford","Clonmel","Ennis","Roscommon","Cavan"]
 	},
 	{
@@ -1174,7 +1172,7 @@
 		"innerColor": [194,222,155],
 		"uniqueName": "Merchant Economy",
 		"uniqueText": "+10% Growth in all cities. +4 Gold from Food and Production Trade Routes"
-		"uniques": ["+[10]% growth [in all cities]","[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]","[+4 Gold] from every [Sea Trade Route (Food)]","[+4 Gold] from every [Sea Trade Route (Production)]"],
+		"uniques": ["[+10]% growth [in all cities]","[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]","[+4 Gold] from every [Sea Trade Route (Food)]","[+4 Gold] from every [Sea Trade Route (Production)]"],
 		"cities": ["Kilwa Kiswani","Zanzibar","Mombasa","Malindi","Sofala","Pemba","Mozambique","Mogadishu","Lamu","Mahajanga","Antsiranana","Kismaoyo","Mzizima","Mafia","Bazarula","Pate"]
 	},
 					{
@@ -1196,7 +1194,7 @@
 		"outerColor": [122,62,35],
 		"innerColor": [171,173,97],
 		"uniqueName": "Heart of Africa",
-		"uniques": ["-[33]% Culture cost of acquiring tiles [in all cities]"],
+		"uniques": ["[-33]% Culture cost of acquiring tiles [in all cities]"],
 		"cities": ["M'banza-Kongo","M'banza-Ngungu","M'banza-Mbata","M'banza-Nsundi","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba","M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila"]
 	},
 	{
@@ -1311,7 +1309,7 @@
 		"outerColor": [254,204,32],
 		"innerColor": [0,55,106],
 		"uniqueName": "Eight Banners",
-		"uniques": ["-[100]% [Mounted] unit maintenance costs","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
+		"uniques": ["[-100]% [Mounted] unit maintenance costs","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
 		"cities": ["Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling","Ningdota","Siping","Anshan"]
 	},
 	{
@@ -1380,7 +1378,7 @@
 		"outerColor": [81,0,9],
 		"innerColor": [255,120,0],
 		"uniqueName": "Mongol Terror",
-		"uniques": ["+30% Strength when fighting City-State units and cities", "+[1] Movement for all [Mounted] units","+[1] Movement for all [Armor] units","Double quantity of [Horses] produced"],
+		"uniques": ["+30% Strength when fighting City-State units and cities", "[+1] Movement for all [Mounted] units","[+1] Movement for all [Armor] units","Double quantity of [Horses] produced"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -1458,7 +1456,7 @@
 		"innerColor": [255,143,0],
 		"uniqueName": "Castle Builders",
 		"uniqueText": "+10% combat strength outside of friendly territory. +5 defensive Strength in every City."
-		"uniques": ["+[10]% combat bonus for units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
+		"uniques": ["[+10]% combat bonus for units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
 		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
 	},
 				{
@@ -1523,7 +1521,7 @@
 		"outerColor": [245,248,185],
 		"innerColor": [18,84,30],
 		"uniqueName": "Barbary Corsairs",
-		"uniques": ["-[66]% [Water] unit maintenance costs","50% chance of capturing defeated Barbarian naval units and earning 25 Gold"],
+		"uniques": ["[-66]% [Water] unit maintenance costs","50% chance of capturing defeated Barbarian naval units and earning 25 Gold"],
 		"cities": ["Kostantiniyye","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyabakir","Izmir","Kayseri","Malatya",
 			"Marsin","Antalya","Zonguldak","Denizli","Ordu","Mugia","Eskishehir","Inebolu","Sinop","Adana","Artuin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarhisar",
@@ -1622,7 +1620,7 @@
 		"outerColor": [225,105,0],
 		"innerColor": [255,255,78],
 		"uniqueName": "Wayfinding",
-		"uniques": ["Can embark and move over Coasts and Oceans immediately","+[1] Sight for all [Embarked] units","+[10]% Strength if within [2] tiles of a [Moai]","Increases embarked movement +1"],
+		"uniques": ["Can embark and move over Coasts and Oceans immediately","[+1] Sight for all [Embarked] units","[+10]% Strength if within [2] tiles of a [Moai]","Increases embarked movement +1"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
@@ -1647,7 +1645,7 @@
 		"outerColor": [206,206,205],
 		"innerColor": [8,25,115],
 		"uniqueName": "Mare Clausum",
-		"uniques": ["[+3 Gold] from every [Luxury resource]","+[25]% Production when constructing [Caravan]","+[25]% Production when constructing [Cargo Ship]"],
+		"uniques": ["[+3 Gold] from every [Luxury resource]","[+25]% Production when constructing [Caravan]","[+25]% Production when constructing [Cargo Ship]"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
 			"Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego",
@@ -1744,8 +1742,8 @@
 		"outerColor": [5,60,77],
 		"innerColor": [201,214,217],
 		"uniqueName": "Flower of Scotland",
-		"uniqueText": "+3 Culture, +3 Science, +3 Production from Great Temple and Hermitage, +33% faster Great Person generation in the Capital."
-		"uniques": ["[+3 Culture, +3 Science, +3 Production] from every [Great Temple]","[+3 Culture, +3 Science, +3 Production] from every [Hermitage]","Gain a free [GPBonus] [in capital]"],
+		"uniqueText": "+3 Culture, +3 Science, +3 Production from Grand Temple and Hermitage, +33% faster Great Person generation in the Capital."
+		"uniques": ["[+3 Culture, +3 Science, +3 Production] from every [Grand Temple]","[+3 Culture, +3 Science, +3 Production] from every [Hermitage]","Gain a free [GPBonus] [in capital]"],
 		"cities": ["Edinbourgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries","Lanark","Dumbarton","Falkirk"]
 	},
 	{
@@ -1768,7 +1766,7 @@
 		"uniqueName": "Great Expanse",
 		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land
 		"
-		"uniques": ["-[75]% Culture cost of acquiring tiles [in this city]","+[15]% combat bonus for units fighting in [Friendly Land]"],
+		"uniques": ["[-75]% Culture cost of acquiring tiles [in this city]","[+15]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -1844,7 +1842,7 @@
 		"outerColor": [255,120,0],
 		"innerColor": [77,32,32],
 		"uniqueName": "Dwellers of the Plains",
-		"uniques": ["+[15]% combat bonus for units fighting in [Plains]"],
+		"uniques": ["[+15]% combat bonus for units fighting in [Plains]"],
 		"cities": ["Ihankthunwanna","Bdewekhanthunwan","Isanyathi","Sichangju","Oglala","Itazipcho","Assiniboine","Sisithunwan","Wahpekhute","Wahpethunwan","Hunkpapha","Mnikhowozu","Sihasapa"]
 	},
 	{
@@ -1913,7 +1911,7 @@
 		"outerColor": [39,59,146],
 		"innerColor": [250,250,27],
 		"uniqueName": "Nobel Prize",
-		"uniques": ["+[20]% great person generation in all cities"],
+		"uniques": ["[+20]% great person generation in all cities"],
 		"cities": ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö",
 			"Vantaa","Visby","Strängnäs","Tampere","Skara","Lödöse","Oulu","Växjö","Jyväskylä","Gothenburg",
 			"Örebro","Lahti","Helsingborg","Jönköping","Kuopio","Norrköping","Sundsvall","Kouvola","Karlstad","Umeå",
@@ -2006,7 +2004,7 @@
 		"innerColor": [191,24,38],
 		"uniqueName": "Westernization",
 		"uniqueText": "+50% Production when constructing Temples, Opera Houses, Museums and Broadcast Towers. All of these Buildings provide +1 Science and +1 Production."
-		"uniques": ["[+1 Culture, +1 Science] from every [Temple]","[+1 Culture, +1 Science] from every [Museum]","[+1 Culture, +1 Science] from every [Opera House]","[+1 Culture, +1 Science] from every [Broadcast Tower]","+[50]% Production when constructing [Temple]","+[50]% Production when constructing [Opera House]","+[50]% Production when constructing [Museum]","+[50]% Production when constructing [Broadcast Tower]"],
+		"uniques": ["[+1 Culture, +1 Science] from every [Amphitheater]","[+1 Culture, +1 Science] from every [Museum]","[+1 Culture, +1 Science] from every [Opera House]","[+1 Culture, +1 Science] from every [Broadcast Tower]","[+50]% Production when constructing [Amphitheater]","[+50]% Production when constructing [Opera House]","[+50]% Production when constructing [Museum]","[+50]% Production when constructing [Broadcast Tower]"],
 		"cities": ["Ankara","Istambul","Izmir","Bursa","Adana","Gaziantep","Konya","Antalya","Diyarbakir","Mersin","Kayseri","Eskisehir","Gebze"]
 	},
 						{
@@ -2051,7 +2049,7 @@
 		"uniqueName": "Serenissima",
 		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics
 		"
-		"uniques": ["+[100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]",
+		"uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]",
 			"Double quantity of [Trade Route] produced"],
 		"cities": ["Venice","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
@@ -2101,7 +2099,7 @@
 		"outerColor": [14,70,61],
 		"innerColor": [167,35,22],
 		"uniqueName": "Hafod a Hendref",
-		"uniques": ["[+1 Food, +1 Gold] from every [Sheep]","+[15]% combat bonus for units fighting in [Hill]"],
+		"uniques": ["[+1 Food, +1 Gold] from every [Sheep]","[+15]% combat bonus for units fighting in [Hill]"],
 		"cities": ["Cardiff","Swansea","Casnewydd","Wrecsam","Y Barri","Cwmbran","Pen-y-bont ar Ogwr","Lianelli","Penrhyndeudraeth","Caerffili","Ynysybwl","Pont-y-pwl","Cefn-Mawr","Coed Duon"]
 	},
 					{
@@ -2146,7 +2144,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["-[50]% [Melee] unit maintenance costs","[Military] units gain [25]% more Experience from combat"],
+		"uniques": ["[-50]% [Melee] unit maintenance costs","[Military] units gain [25]% more Experience from combat"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",

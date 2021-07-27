@@ -143,13 +143,19 @@
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders","Costs [1] gold per turn when in your territory"],
-		"shortcutKey": "R"
+		"shortcutKey": "R",
+		        "civilopediaText": [
+            {text:"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {text:"Reduces movement cost to ⅓ with Machinery",link:"Technology/Machinery"},
+            {text:"Requires Engineering to bridge rivers",link:"Technology/Engineering"}
+        ]
 	},
 	{
 		"name": "Railroad",
 		"turnsToBuild": 4,
 		"techRequired": "Railroad",
-		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"]
+		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"],
+		"civilopediaText": [{text:"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
 	},
 	
 	// Removals
@@ -159,7 +165,8 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"shortcutKey": "X",
+		"civilopediaText": [{text:"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
 		"name": "Remove Jungle",
@@ -210,6 +217,11 @@
 			"[+2 Science] once [Atomic Theory] is discovered"]
 	},
 	{
+		"name": "Holy site",
+		"faith": 6,
+		"uniques": ["Great Improvement"]
+	},
+	{
 		"name": "Landmark",
 		"culture": 6,
 		"uniques": ["Great Improvement"]
@@ -228,6 +240,7 @@
 		"name": "Citadel",
 		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units","Great Improvement",
 			"Can be built just outside your borders"],
+			"civilopediaText": [{text:"Constructing it will take over the tiles around it and assign them to your closest city"}]
 		// TODO (G&K): adds every tile around it to your territory
 	},
 
@@ -238,7 +251,7 @@
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] once [Flight] is discovered",
-			"Can only be built on Coastal tiles"],
+			"Can only be built on [Coastal] tiles"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
@@ -348,7 +361,7 @@
 		"gold": 3,
 		"happiness": 2,
 		"techRequired": "Navigation",
-		"uniques": ["Gives a defensive bonus of [50]%","Can only be built on Coastal tiles"]
+		"uniques": ["Gives a defensive bonus of [50]%","Can only be built on [Coastal] tiles"]
 	},
 		{
 		"name": "Kampong Ayer",
@@ -372,8 +385,12 @@
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},
-	{ "name": "Ancient ruins", "uniques": ["Unpillagable"] },
-	{ "name": "City ruins", "uniques": ["Unpillagable"] },
-	{ "name": "City center", "uniques": ["Unpillagable"] },
-	{ "name": "Barbarian encampment", "uniques": ["Unpillagable"] }
+	{ "name": "Ancient ruins", "uniques": ["Unpillagable"],
+        "civilopediaText": [{text:"Ancient ruins provide a one-time random bonus when explored"}] },
+	{ "name": "City ruins", "uniques": ["Unpillagable"],
+        "civilopediaText": [{text:"A bleak reminder of the destruction wreaked by War"}] },
+	{ "name": "City center", "uniques": ["Unpillagable", "Indestructible"],
+        "civilopediaText": [{text:"Marks the center of a city"},{text:"Appearance changes with the technological era of the owning civilization"}] },
+	{ "name": "Barbarian encampment", "uniques": ["Unpillagable"],
+        "civilopediaText": [{text:"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}] }
 ]
