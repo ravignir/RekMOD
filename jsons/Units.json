@@ -1863,7 +1863,7 @@
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"obsoleteTech": "Telecommunications",
-		"uniques": ["+[75]% Strength when attacking","Invisible to others","Can only attack water",
+		"uniques": ["+[75]% Strength when attacking","Invisible to others","Can only attack [Water] tiles",
 			"Can attack submarines","Can enter ice tiles"]
 	},
 	{
