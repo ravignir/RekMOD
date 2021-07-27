@@ -322,6 +322,7 @@
         "faith": 1,
         "cost": 40,
         "hurryCostModifier": 40,
+	"requiredTech": "Pottery",
         "maintenance": 1
     },
     {
@@ -351,6 +352,7 @@
         "faith": 2,
         "science": 2,
         "cost": 40,
+	"requiredTech": "Pottery",
         "hurryCostModifier": 40,
         "maintenance": 1
     },
