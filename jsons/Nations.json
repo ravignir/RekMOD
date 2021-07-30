@@ -928,8 +928,8 @@
 		"hateHello": "What do you want now?",
 		"afterPeace": "Viracocha has frowned upon our war, and has agreed to our peace agreements.",
 		"tradeRequest": "The Incan people offer this fair trade.",		
-		"outerColor": [255,184,33],
-		"innerColor": [3,115,86],
+		"outerColor": [253,245,155],
+		"innerColor": [4,144,95],
 		"uniqueName": "Great Andean Road",
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","Maintenance on roads & railroads reduced by [50]%",
 			"No Maintenance costs for improvements in [Hill] tiles"],
@@ -1454,7 +1454,7 @@
 		"innerColor": [255,143,0],
 		"uniqueName": "Castle Builders",
 		"uniqueText": "+10% combat strength outside of friendly territory. +5 defensive Strength in every City."
-		"uniques": ["[+10]% combat bonus for units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
+		"uniques": ["+[10]% Strength for units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
 		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
 	},
 				{
