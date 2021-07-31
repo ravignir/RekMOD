@@ -178,6 +178,12 @@
     // Missing: asceticism (requires followers)
     // Missing: cathedrals (requires purchasing with faith)
     // Missing: choral music (requires followers)
+	{
+        "name": "Choral Music",
+        "type": "Follower",
+        "uniques": ["[+3 Culture, -1 Gold] from every [Temple]"]
+    },
+	    
     {
         "name": "Divine inspiration",
         "type": "Follower",
@@ -198,15 +204,25 @@
     // Missing: Monasteries (requires purchasing with faith)
     // Missing: Mosques (requires purchasing with faith)
     // Missing: Pagodas (requires purchasing with faith)
+	{
+        "name": "Liturgical Drama",
+        "type": "Follower",
+        "uniques": ["[+2 Faith, +1 Culture] from every [Amphitheater]","[+2 Faith, +1 Culture] from every [Opera House]"]
+    },
     {
         "name": "Peace Gardens",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Garden]"]
+        "uniques": ["[+1 Production, +1 Gold] from every [Water Mill]","[+1 Happiness] from every [Garden]"]
     },
     {
         "name": "Religious Art",
         "type": "Follower",
         "uniques": ["[+8 Culture] from every [Hermitage]"]
+    },
+	{
+        "name": "Religious Centers",
+        "type": "Follower",
+        "uniques": ["[+1 Production, +1 Gold, +1 Happiness] from every [Temple]"]
     },
     // Missing: Religious center (requires followers)
     // Missing: Religious community (requires followers)
@@ -214,5 +230,33 @@
         "name": "Swords into Ploughshares",
         "type": "Follower",
         "uniques": ["[+15]% growth [in this city] when not at war"]
-    }
+    },
+	/*
+	{
+        "name": "Ceremonial Burial",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness] from every [Palace]","[+1 Happiness] [in all cities]"]
+    },
+		    {
+        "name": "Church Property",
+        "type": "Follower",
+        "uniques": ["[+1 Gold, +1 Culture] [in all cities]"]
+    },
+	{
+        "name": "Dawah",
+        "type": "Follower",
+        "uniques": ["[+4 Culture] from every [Palace]"]
+    },
+	{
+        "name": "Salat",
+        "type": "Founder",
+        "uniques": ["[+4 Production] from every [Palace]"]
+    },
+	{
+        "name": "Zakat",
+        "type": "Founder",
+        "uniques": ["[+8 Gold] from every [Palace]"]
+    },
+	*/
+	
 ]
