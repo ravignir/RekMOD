@@ -136,7 +136,7 @@
         "cost": 1,
 		"isNationalWonder": true,
 		"requiredTech": "Drama and Poetry",
-        "uniques": ["Unbuildable","Will not be displayed in Civilopedia","[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] once [Drama and Poetry] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Education] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Acoustics] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Industrialization] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Radio] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Radar] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Telecommunications] is discovered"]
+        "uniques": ["Will not be displayed in Civilopedia","[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] once [Drama and Poetry] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Education] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Acoustics] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Industrialization] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Radio] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Radar] is discovered","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] once [Telecommunications] is discovered"]
     },
 				    {
         "name": "City of Light",

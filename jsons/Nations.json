@@ -239,8 +239,8 @@
 		"outerColor": [221, 141, 0],
 		"innerColor": [255, 244, 174],
 		"uniqueName": "Justice of Saladin",
-		"uniqueText": "All cities receive a free Burial Tomb upon capture. Workers create improvements 20% faster",
-		"uniques": ["[-20]% tile improvement construction time"],
+		"uniqueText": "All cities receive a free Burial Tomb upon capture. Workers create improvements 25% faster",
+		"uniques": ["[-25]% tile improvement construction time"],
 		"cities": ["Al-Quahirah","Al-Iskandariyyah","B'Albek","Assuan","Bilbeis","Dimashq","Qus","Adan","Zabid","Beirut","Akhmim","Al-Karak","Madinat Al-Fayyum"]
 	},
 	{
@@ -451,7 +451,7 @@
 		"outerColor": [88,145,228],
 		"innerColor": [80,23,135],
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["[+1 Culture, +1 Gold, +1 Production, +1 Science] [in capital]"],
+		"uniques": ["[+2 Culture, +2 Gold, +1 Production, +1 Science, +1 Faith] [in capital]"],
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson","Sardica",
 			"Ani","Dyrrachium","Edessa","Chalcedon","Naissus","Bari","Iconium","Prilep","Samosata","Kars",
 			"Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Vodena",
@@ -574,7 +574,7 @@
 		"outerColor": [51,25,0],
 		"innerColor": [255,255,102],
 		"uniqueName": "Viking Fury",
-		"uniques": ["[+1 Production] from every [Fish]","+1 Movement for all embarked units", "Units pay only 1 movement point to embark and disembark",
+		"uniques": ["[+1 Production] from every [Fish]","+1 Movement for all embarked units", "Units pay only 1 movement point to disembark",
 			"Melee units pay no movement cost to pillage"], 
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
