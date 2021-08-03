@@ -49,15 +49,25 @@
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","Ignores terrain cost"],
 	},
+		{
+		"name": " Venice Settler",
+		"unitType": "Civilian",
+		"uniqueTo": "Venice",
+		"replaces": "Settler",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
+		"hurryCostModifier": 20
+	},
 	{
 		"name": "Merchant of Venice", //modded
 		"uniqueTo": "Venice",
-		"replaces": "Settler",
+		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 250,
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [120] Influence",
-			"Can construct [Customs house]","Double movement in coast"]
+			"Can construct [Customs house]","Double movement in coast", "Great Person - [Gold]", "Unbuildable"]
 	},
 	{
 		"name": "Missionary", //modded
