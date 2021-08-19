@@ -6,7 +6,7 @@
 		"policies": [
 			{
 				"name": "Aristocracy",
-				"uniques": ["[+15]% Production when constructing [Wonders]","[+1 Happiness] per [10] population [in all cities]"],
+				"uniques": ["+[15]% Production when constructing [Wonders]","[+1 Happiness] per [10] population [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
@@ -49,7 +49,7 @@
 		"policies": [
 			{
 				"name": "Republic",
-				"uniques": ["[+1 Production] [in all cities]","[+5]% Production when constructing [Buildings]"],
+				"uniques": ["[+1 Production] [in all cities]","+[5]% Production when constructing [Buildings]"],
 				"row": 1,
 				"column": 1
 			},
@@ -61,7 +61,7 @@
 			},
 			{
 				"name": "Collective Rule",
-				"uniques": ["[+50]% Production when constructing [Settler] units [in capital]","Free [Settler] appears"],
+				"uniques": ["+[50]% Production when constructing [Settler] units [in capital]","Free [Settler] appears"],
 				"requires": ["Republic"],
 				"row": 2,
 				"column": 1
@@ -82,7 +82,7 @@
 			},
 			{
 				"name": "Liberty Complete",
-				"uniques": ["Free Great Person","[+33]% Production when constructing [East India Company]","[+33]% Production when constructing [National Visitor's Center]","[+33]% Production when constructing [Oxford University]","[+33]% Production when constructing [Hermitage]","[+33]% Production when constructing [Ironworks]","[+33]% Production when constructing [Grand Temple]","[+33]% Production when constructing [National Epic]","[+33]% Production when constructing [National College]","[+33]% Production when constructing [Heroic Epic]","[+33]% Production when constructing [Circus Maximus]","[+15]% Production when constructing [Monument]","[+15]% Production when constructing [Hotel]","[+15]% Production when constructing [University]","[+15]% Production when constructing [Market]","[+15]% Production when constructing [Workshop]","[+15]% Production when constructing [Amphitheater]","[+15]% Production when constructing [Barracks]","[+15]% Production when constructing [Library]","[+15]% Production when constructing [Colosseum]","[+15]% Production when constructing [Opera House]"]
+				"uniques": ["Free Great Person","+[33]% Production when constructing [East India Company]","+[33]% Production when constructing [National Visitor's Center]","+[33]% Production when constructing [Oxford University]","+[33]% Production when constructing [Hermitage]","+[33]% Production when constructing [Ironworks]","+[33]% Production when constructing [Grand Temple]","+[33]% Production when constructing [National Epic]","+[33]% Production when constructing [National College]","+[33]% Production when constructing [Heroic Epic]","+[33]% Production when constructing [Circus Maximus]","+[15]% Production when constructing [Monument]","+[15]% Production when constructing [Hotel]","+[15]% Production when constructing [University]","+[15]% Production when constructing [Market]","+[15]% Production when constructing [Workshop]","+[15]% Production when constructing [Amphitheater]","+[15]% Production when constructing [Barracks]","+[15]% Production when constructing [Library]","+[15]% Production when constructing [Colosseum]","+[15]% Production when constructing [Opera House]"]
 			}
 		]
 	},
@@ -100,7 +100,7 @@
 			},
 			{
 				"name": "Professional Army",
-				"uniques":["[+1 Production, +1 Gold, +1 Culture] from every [Military Academy]","[+1 Production, +1 Gold, +1 Culture] from every [Armory]","[+1 Production, +1 Gold, +1 Culture] from every [Barracks]","[+100]% Production when constructing [Barracks]","[+100]% Production when constructing [Armory]","[+100]% Production when constructing [Military Academy]"],
+				"uniques":["[+1 Production, +1 Gold, +1 Culture] from every [Military Academy]","[+1 Production, +1 Gold, +1 Culture] from every [Armory]","[+1 Production, +1 Gold, +1 Culture] from every [Barracks]","+[100]% Production when constructing [Barracks]","+[100]% Production when constructing [Armory]","+[100]% Production when constructing [Military Academy]"],
 				"row": 1,
 				"column": 4
 			},
@@ -113,7 +113,7 @@
 			},
 			{
 				"name": "Military Tradition",
-				"uniques": ["Gold cost of upgrading [Military] units reduced by [20]%","[+100]% Production when constructing [Courthouse]",
+				"uniques": ["Gold cost of upgrading [Military] units reduced by [20]%","+[100]% Production when constructing [Courthouse]",
 					"[+3 Production, + 3 Gold, +3 Food] from every [Courthouse]"],
 				"requires": ["Professional Army","Warrior Code"],
 				"row": 2,
@@ -128,14 +128,14 @@
 			},
 			{
 				"name": "Honor Complete",
-				"uniques": ["[+10]% [Food] [in all cities]","Earn [33]% of killed [Military] unit's [Strength] as [Science]","[+100]% Production when constructing [Heroic Epic]","[+4 Production, + 4 Gold, +4 Culture] from every [Heroic Epic]"],
+				"uniques": ["[+10]% [Food] [in all cities]","Earn [33]% of killed [Military] unit's [Strength] as [Science]","+[100]% Production when constructing [Heroic Epic]","[+4 Production, + 4 Gold, +4 Culture] from every [Heroic Epic]"],
 			}
 		]
 	},
 	{
 		"name": "Piety",
 		"era": "Ancient era",
-		"uniques": ["[+100]% Production when constructing [Temple]","[+100]% Production when constructing [Shrine]","[+2 Culture] [in capital]","Unlocks building the Great Mosque of Djenne"],
+		"uniques": ["+[100]% Production when constructing [Temple]","+[100]% Production when constructing [Shrine]","[+2 Culture] [in capital]","Unlocks building the Great Mosque of Djenne"],
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
@@ -183,7 +183,7 @@
 		"policies": [
 			{
 				"name": "Cultural Centers",
-				"uniques": ["[+100]% Production when constructing [Opera House]","[+100]% Production when constructing [Museum]","[+100]% Production when constructing [Broadcast Tower]"],
+				"uniques": ["+[100]% Production when constructing [Opera House]","+[100]% Production when constructing [Museum]","+[100]% Production when constructing [Broadcast Tower]"],
 				"row": 1,
 				"column": 3
 			},
@@ -217,7 +217,7 @@
 			},
 			{
 				"name": "Aesthetics Complete",
-				"uniques": ["[+100]% Production when constructing [Archaeologist] units","[+4 Culture] from every [Landmark]","Free Social Policy"]
+				"uniques": ["+[100]% Production when constructing [Archaeologist] units","[+4 Culture] from every [Landmark]","Free Social Policy"]
 			}
 		]
 	},
@@ -283,7 +283,7 @@
 			},
 			{
 				"name": "Maritime Infrastructure",
-				"uniques": ["[+3 Production] [in all coastal cities]","[+50]% Production when constructing [Lighthouse]","[+50]% Production when constructing [Harbor]","[+50]% Production when constructing [Seaport]"],
+				"uniques": ["[+3 Production] [in all coastal cities]","+[50]% Production when constructing [Lighthouse]","+[50]% Production when constructing [Harbor]","+[50]% Production when constructing [Seaport]"],
 				"row": 1,
 				"column": 3
 			},
@@ -332,7 +332,7 @@
 			},
 			{
 				"name": "Humanism",
-				"uniques": ["[+50]% Production when constructing [Library]","[+50]% Production when constructing [University]","[+50]% Production when constructing [Observatory]","[+50]% Production when constructing [Public School]","[+50]% Production when constructing [Research Lab]"],
+				"uniques": ["+[50]% Production when constructing [Library]","+[50]% Production when constructing [University]","+[50]% Production when constructing [Observatory]","+[50]% Production when constructing [Public School]","+[50]% Production when constructing [Research Lab]"],
 				"row": 1,
 				"column": 5
 			},
@@ -414,7 +414,7 @@
 			},
 			{
 				"name": "Socialist Realism",
-				"uniques": ["[+2 Happiness] from every [Monument]","[+100]% Production when constructing [Monument]"],
+				"uniques": ["[+2 Happiness] from every [Monument]","+[100]% Production when constructing [Monument]"],
 				"row": 1,
 				"column": 3
 			},
@@ -433,7 +433,7 @@
 			},
 			{
 				"name": "Workers Faculties",
-				"uniques": ["[+25]% [Science] from every [Factory]","[+100]% Production when constructing [Factory]"],
+				"uniques": ["[+25]% [Science] from every [Factory]","+[100]% Production when constructing [Factory]"],
 				"requires": ["Patriotic War","Socialist Realism","Hero of the People"],
 				"row": 2,
 				"column": 4
@@ -607,14 +607,14 @@
 			},
 			{
 				"name": "Police State",
-				"uniques": ["[+3 Happiness] from every [Courthouse]","[+100]% Production when constructing [Courthouse]"],
+				"uniques": ["[+3 Happiness] from every [Courthouse]","+[100]% Production when constructing [Courthouse]"],
 				"requires": ["Fascism","Mobilization","Elite Forces"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Total War",
-				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]","New [Military] units start with [15] Experience"],
+				"uniques": ["+[25]% Production when constructing [Military] units [in all cities]","New [Military] units start with [15] Experience"],
 				"requires": ["Fascism","Mobilization","Elite Forces"],
 				"row": 2,
 				"column": 4
