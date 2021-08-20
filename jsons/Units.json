@@ -69,14 +69,15 @@
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [120] Influence",
 			"Can construct [Customs house]","Double movement in coast", "Great Person - [Gold]", "Unbuildable"]
 	},
-	{
-		"name": "Missionary", //modded
+		{
+		"name": "Missionary",
 		"unitType": "Civilian",
+		"uniques": ["Can spread religion [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
+			"[-1] Visibility Range", "Unbuildable", "Religious Unit"],
 		"movement": 4,
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
-			"Limited Visibility","Requires [Mandate Of Heaven]"],
-		"cost": 250
-	},
+		"religiousStrength": 1000
+	}
 	{
 		"name": "Caravan", //modded
 		"unitType": "Civilian",
@@ -103,13 +104,14 @@
 		"cost": 25,
 		"upgradesTo": "Airship",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost"],
+				"promotions": ["Ignores terrain cost"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 		{
 		"name": "Apedemaks Bow",
 		"replaces": "Scout",
-		"unitType": "Ranged",
+		"unitType": "Scout",
 		"uniqueTo": "Nubia",
 		"movement": 2,
 		"strength": 5,
@@ -118,7 +120,8 @@
 		"range": 3,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost"],
+				"promotions": ["Ignores terrain cost"],
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -131,7 +134,8 @@
 		"upgradesTo": "Composite Bowman",
 		"cost": 41,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost"],
+		"promotions": ["Ignores terrain cost"],
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -142,6 +146,7 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 		{
@@ -219,7 +224,7 @@
 		"replaces": "Archer",
 		"uniqueTo": "Tonga",
 		"upgradesTo": "Composite Bowman",
-		"uniques": ["[+1] Visibility Range","+1 Movement"],
+		"uniques": ["[+1] Visibility Range","[+1] Movement"],
 		"attackSound": "arrow"
 	},
 	{
@@ -2159,7 +2164,7 @@
 		"strength": 60,
 		"cost": 510,
 		"requiredTech": "Computers",
-		"uniques": ["+[200]% Strength vs [Armor]","All tiles costs 1","Can pass through impassable tiles",
+		"uniques": ["+[200]% Strength vs [Armor]","All tiles costs 1","Ignores Zone of Control",
 			"No defensive terrain bonus","Unable to capture cities","Can move after attacking",
 			"Consumes [1] [Aluminum]"],
 		"attackSound": "shot"
@@ -2341,8 +2346,10 @@
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Holy site] if it hasn't spread religion yet", "Can spread religion [4] times",
-			"May found a religion", "Great Person - [Faith]", "Unbuildable"],
-		"movement": 2
+			"May found a religion", "May enter foreign tiles without open borders", "[-1] Visibility Range",
+			"Great Person - [Faith]", "Unbuildable", "Religious Unit"],
+		"movement": 2,
+		"religiousStrength": 1000
 	},
 	{
 		"name": "Great Admiral", //modded

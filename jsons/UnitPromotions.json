@@ -159,6 +159,10 @@
 		"uniques": ["[+1] Visibility Range"],
 		"unitTypes": ["Scout"]
 	},
+		{
+		"name": "Ignores terrain cost",
+		"uniques": ["Ignores terrain cost"],
+	},
 	{
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
@@ -316,22 +320,19 @@
 	// Fighter
 {
 		"name": "Interception I",
-		"effect": "Bonus when intercepting [33]%",
-		"effect": "[+33]% Damage when intercepting",
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
-		"effect": "Bonus when intercepting [33]%",
-		"effect": "[+33]% Damage when intercepting",
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"effect": "Bonus when intercepting [34]%",
-		"effect": "[+34]% Damage when intercepting",
+		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
 	/*

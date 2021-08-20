@@ -10,6 +10,19 @@
         "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Warrior",
         "settlerPopulation": 1,
+		       "baseUnitBuyCost": 200,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
         "iconRGB": [255, 87, 35]
     },
     {
@@ -22,6 +35,19 @@
         "startingGold": 10,
         "startingCulture": 100,
         "settlerPopulation": 1,
+		"baseUnitBuyCost": 200,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
         "iconRGB": [233, 31, 99]
     },
     {
@@ -36,7 +62,20 @@
         "settlerPopulation": 1,
         "settlerBuildings": ["Shrine","Monument"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus"],
-        "iconRGB": [157, 39, 176]
+"baseUnitBuyCost": 200,
+        "friendBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [12] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },       
+	   "iconRGB": [157, 39, 176]
     },
     {
         "name": "Renaissance era",
@@ -51,7 +90,20 @@
         "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse"],
         "startingObsoleteWonders": ["Parthenon","Great Mosque of Djenne","Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus", 
             "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Petra", "Great Wall", "Colossus"],
-        "iconRGB": [104, 58, 183]
+  "baseUnitBuyCost": 300,
+        "friendBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [12] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },       
+	   "iconRGB": [104, 58, 183]
     },
     {
         "name": "Industrial era",
@@ -67,7 +119,20 @@
         "startingObsoleteWonders": ["Parthenon","Great Mosque of Djenne","Althing","Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
             "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Petra", "Great Wall", "Colossus",
             "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame"],
-        "iconRGB": [63, 81, 182]
+          "baseUnitBuyCost": 400,
+        "friendBonus": {
+            "Cultured": ["Provides [13] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [26] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+		"iconRGB": [63, 81, 182]
     },
     {
         "name": "Modern era",
@@ -84,7 +149,20 @@
             "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Petra", "Great Wall", "Colossus",
             "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame", 
             "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin"],
-        "iconRGB": [33, 150, 243]
+         "baseUnitBuyCost": 600,
+        "friendBonus": {
+            "Cultured": ["Provides [13] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [26] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+		"iconRGB": [33, 150, 243]
     },
     {
         "name": "Atomic era",
@@ -102,7 +180,20 @@
             "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame", 
             "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin",
             "The Louvre", "Big Ben", "Brandenburg Gate"],
-        "iconRGB": [0, 150, 136]
+        "baseUnitBuyCost": 800,
+        "friendBonus": {
+            "Cultured": ["Provides [13] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [26] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+		"iconRGB": [0, 150, 136]
     },
     {
         "name": "Information era",
@@ -121,9 +212,22 @@
             "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin",
             "The Louvre", "Big Ben", "Brandenburg Gate",
             "Eiffel Tower", "Statue of Liberty", "Neuschwanstein", "Cristo Redentor"],
+        "baseUnitBuyCost": 1000,
         // So theoretically this is always just all the wonders at least 2 eras old. So we could just use that. 
         // But where is the modularity? The excluding of very specific wonders? That is no fun.
         // So we just write down the entire long list (sorted by era!) instead.
+        "friendBonus": {
+            "Cultured": ["Provides [13] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [26] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
         "iconRGB": [76, 176, 81]
     },
     { // Technically, this Era doesn't exist in the original game. 
@@ -145,6 +249,19 @@
             "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin",
             "The Louvre", "Big Ben", "Brandenburg Gate",
             "Eiffel Tower", "Statue of Liberty", "Neuschwanstein", "Cristo Redentor", "CN Tower"],
+			 "baseUnitBuyCost": 1000,
+        "friendBonus": {
+            "Cultured": ["Provides [13] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [26] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
         "iconRGB": [76, 176, 81]
     }
 ]

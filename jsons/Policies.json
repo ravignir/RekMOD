@@ -139,7 +139,7 @@
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
-				"uniques": ["[+1 Happiness] from every [Temple]","[+1 Culture] [in capital]","Cost of purchasing [Culture] buildings reduced by [20]%","Unlocks construction of Missionary"],
+				"uniques": ["[+1 Happiness] from every [Temple]","[+1 Culture] [in capital]","Cost of purchasing [Culture] buildings reduced by [20]%"],
 				"row": 1,
 				"column": 1
 			},
@@ -382,7 +382,7 @@
 			},
 			{
 				"name": "Mercantilism",
-				"uniques": ["[+25]% yield from every [Land Trade Route (Food)]","[+25]% yield from every [Land Trade Route (Production)]","[+25]% yield from every [Sea Trade Route (Food)]","[+25]% yield from every [Sea Trade Route (Production)]","Cost of purchasing items in cities reduced by [20]%","[+2 Science] from every [Mint]",
+				"uniques": ["[+25]% yield from every [Land Trade Route (Food)]","[+25]% yield from every [Land Trade Route (Production)]","[+25]% yield from every [Sea Trade Route (Food)]","[+25]% yield from every [Sea Trade Route (Production)]","[Gold] cost of purchasing items in cities [-20]%","[+2 Science] from every [Mint]",
 					"[+2 Science] from every [Market]","[+2 Science] from every [Bank]","[+2 Science] from every [Stock Exchange]"],
 				"requires": ["Silk Road"],
 				"row": 2,
@@ -595,7 +595,7 @@
 			},
 			{
 				"name": "Mobilization",
-				"uniques": ["Gold cost of purchasing [All] units [-25]%"],
+				"uniques": ["[Gold] cost of purchasing [All] units [23]%"],
 				"row": 1,
 				"column": 3
 			},

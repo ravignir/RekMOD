@@ -178,6 +178,11 @@
     // Missing: asceticism (requires followers)
     // Missing: cathedrals (requires purchasing with faith)
     // Missing: choral music (requires followers)
+	 {
+        "name": "Cathedrals",
+        "type": "Follower",
+        "uniques": ["May buy [Cathedral] buildings for [220] [Faith] [in cities following this religion]"]
+    },
 	{
         "name": "Choral Music",
         "type": "Follower",
@@ -199,6 +204,11 @@
         "type": "Follower",
         "uniques": ["[+2 Production] if this city has at least [1] specialists"]
     },
+	 {
+        "name": "Mandirs",
+        "type": "Follower",
+        "uniques": ["May buy [Mandir] buildings for [270] [Faith] [in cities following this religion]"]
+    },
     // Missing: Holy Warriors (requires purchasing with faith)
     // Missing: Liturgical drama (requires followers)
     // Missing: Monasteries (requires purchasing with faith)
@@ -208,6 +218,11 @@
         "name": "Liturgical Drama",
         "type": "Follower",
         "uniques": ["[+2 Faith, +1 Culture] from every [Amphitheater]","[+2 Faith, +1 Culture] from every [Opera House]"]
+    },
+		 {
+        "name": "Mosques",
+        "type": "Follower",
+        "uniques": ["May buy [Mosque] buildings for [150] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Peace Gardens",
@@ -231,16 +246,35 @@
         "type": "Follower",
         "uniques": ["[+15]% growth [in this city] when not at war"]
     },
-	/*
-	{
+	///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+    {
+        "name": "Church Property",
+        "type": "Founder",
+        "uniques": ["[+1 Gold, +1 Culture] for each global city following this religion"]
+    },
+    {
+        "name": "Initiation Rites",
+        "type": "Founder",
+        "uniques": ["[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"]
+    },
+    // Missing: Interfaith Dialogue (requires followers)
+    {
+        "name": "Papal Primacy",
+        "type": "Founder",
+        "uniques": ["Resting point for influence with City-States following this religion [+15]"]
+    },
+    // Missing: Peace Loving (requires followers)
+    {
+        "name": "Pilgrimage",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] for each global city following this religion"]
+    },
+    // Missing: Tithe (requires followers)
+    // Missing: World Churhc (requires followers)
+		{
         "name": "Ceremonial Burial",
         "type": "Follower",
-        "uniques": ["[+1 Happiness] from every [Palace]","[+1 Happiness] [in all cities]"]
-    },
-		    {
-        "name": "Church Property",
-        "type": "Follower",
-        "uniques": ["[+1 Gold, +1 Culture] [in all cities]"]
+        "uniques": ["[+1 Happiness] from every [Palace]","[+1 Happiness] for each global city following this religion"]
     },
 	{
         "name": "Dawah",
@@ -257,6 +291,5 @@
         "type": "Founder",
         "uniques": ["[+8 Gold] from every [Palace]"]
     },
-	*/
 	
 ]

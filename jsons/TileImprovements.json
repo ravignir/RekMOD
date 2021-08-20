@@ -51,7 +51,8 @@
 		"name": "Oil well",
 		"turnsToBuild": 9,
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"techRequired": "Biology"
+		"techRequired": "Biology",
+		"uniques": ["Cannot be built on [Coast] tiles until [Refrigeration] is discovered"],
 	},
 	{
 		"name": "Pasture",
@@ -387,7 +388,7 @@
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},
-	{ "name": "Ancient ruins", "uniques": ["Unpillagable"],
+	{ "name": "Ancient ruins", "uniques": ["Unpillagable", "Provides a random bonus when entered"],
         "civilopediaText": [{text:"Ancient ruins provide a one-time random bonus when explored"}] },
 	{ "name": "City ruins", "uniques": ["Unpillagable"],
         "civilopediaText": [{text:"A bleak reminder of the destruction wreaked by War"}] },

@@ -215,7 +215,7 @@
 		"outerColor": [171,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Diplomatic Marriage",
-		"uniques": ["Cost of purchasing items in cities reduced by [15]%"],
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%",],
 		"cities": ["Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Innsbruck","Kitsbühel","St. Pölten","Eisenstadt",
 			"Villach","Zwettl","Traun","Weis","Dombim","Feldkirch","Amstetten","Bad Ischl","Wolfsberg","Kufstein",
 			"Leoben","Klosterneuburg","Leonding","Kapfenberg","Hallein","Bischofshofen","Saalbach","Lienz","Steyr",]	
@@ -601,7 +601,7 @@
 		"outerColor": [ 231, 213, 0],
 		"innerColor": [98,10,210],
 		"uniqueName": "Monument Builders",
-		"uniques": ["[+15]% Production when constructing [Wonders]"],
+		"uniques": ["+[15]% Production when constructing [Wonders]"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
@@ -1009,7 +1009,7 @@
 		"innerColor": [223,172,70],
 		"uniqueName": "Gaelic Revival",
 		"uniqueText": "+2 Happiness from all National Wonders (excluding the Palace). +15% Production towards constructing buildings required for National Wonders.",
-		"uniques": ["[+15]% Production when constructing [Monument]","[+15]% Production when constructing [Hotel]","[+15]% Production when constructing [University]","[+15]% Production when constructing [Market]","[+15]% Production when constructing [Workshop]","[+15]% Production when constructing [Amphitheater]","[+15]% Production when constructing [Barracks]","[+15]% Production when constructing [Library]","[+15]% Production when constructing [Colosseum]","[+15]% Production when constructing [Opera House]","[+2 Happiness] from every [East India Company]","[+2 Happiness] from every [National Visitor's Center]","[+2 Happiness] from every [Oxford University]","[+2 Happiness] from every [Hermitage]","[+2 Happiness] from every [Ironworks]","[+2 Happiness] from every [Grand Temple]","[+2 Happiness] from every [National Epic]","[+2 Happiness] from every [National College]","[+2 Happiness] from every [Heroic Epic]","[+2 Happiness] from every [Circus Maximus]"],
+		"uniques": ["+[15]% Production when constructing [Monument]","+[15]% Production when constructing [Hotel]","+[15]% Production when constructing [University]","+[15]% Production when constructing [Market]","+[15]% Production when constructing [Workshop]","+[15]% Production when constructing [Amphitheater]","+[15]% Production when constructing [Barracks]","+[15]% Production when constructing [Library]","+[15]% Production when constructing [Colosseum]","+[15]% Production when constructing [Opera House]","[+2 Happiness] from every [East India Company]","[+2 Happiness] from every [National Visitor's Center]","[+2 Happiness] from every [Oxford University]","[+2 Happiness] from every [Hermitage]","[+2 Happiness] from every [Ironworks]","[+2 Happiness] from every [Grand Temple]","[+2 Happiness] from every [National Epic]","[+2 Happiness] from every [National College]","[+2 Happiness] from every [Heroic Epic]","[+2 Happiness] from every [Circus Maximus]"],
 		"cities": ["Dublin","Cork","Galway","Wexford","Kilkenny","Tralee","Limerick","Castlebar","Lifford","Clonmel","Ennis","Roscommon","Cavan"]
 	},
 	{
@@ -1643,7 +1643,7 @@
 		"outerColor": [206,206,205],
 		"innerColor": [8,25,115],
 		"uniqueName": "Mare Clausum",
-		"uniques": ["[+3 Gold] from every [Luxury resource]","[+25]% Production when constructing [Caravan]","[+25]% Production when constructing [Cargo Ship]"],
+		"uniques": ["[+3 Gold] from every [Luxury resource]","+[25]% Production when constructing [Caravan]","+[25]% Production when constructing [Cargo Ship]"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
 			"Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego",
@@ -1788,7 +1788,7 @@
 		"outerColor": [228,208,43],
 		"innerColor": [193,21,17],
 		"uniqueName": "Father Governs Children",
-		"uniques": ["Food and Culture from Friendly City-States are increased by 50%"],
+		"uniques": ["Food and Culture from Friendly City-States are increased by 50%","Military Units gifted from City-States start with [+10] XP"],
 		"cities": ["Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
 			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthuya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
@@ -2002,7 +2002,7 @@
 		"innerColor": [191,24,38],
 		"uniqueName": "Westernization",
 		"uniqueText": "+50% Production when constructing Amphitheaters, Opera Houses, Museums and Broadcast Towers. All of these Buildings provide +1 Science and +1 Production."
-		"uniques": ["[+1 Culture, +1 Science] from every [Amphitheater]","[+1 Culture, +1 Science] from every [Museum]","[+1 Culture, +1 Science] from every [Opera House]","[+1 Culture, +1 Science] from every [Broadcast Tower]","[+50]% Production when constructing [Amphitheater]","[+50]% Production when constructing [Opera House]","[+50]% Production when constructing [Museum]","[+50]% Production when constructing [Broadcast Tower]"],
+		"uniques": ["[+1 Culture, +1 Science] from every [Amphitheater]","[+1 Culture, +1 Science] from every [Museum]","[+1 Culture, +1 Science] from every [Opera House]","[+1 Culture, +1 Science] from every [Broadcast Tower]","+[50]% Production when constructing [Amphitheater]","+[50]% Production when constructing [Opera House]","+[50]% Production when constructing [Museum]","+[50]% Production when constructing [Broadcast Tower]"],
 		"cities": ["Ankara","Istambul","Izmir","Bursa","Adana","Gaziantep","Konya","Antalya","Diyarbakir","Mersin","Kayseri","Eskisehir","Gebze"]
 	},
 						{
@@ -2200,7 +2200,7 @@
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [194,97,255],
-		"uniques": ["Gain a free [Jewelry] [in capital]","Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Vaduz"]
 	},
 	{
@@ -2227,7 +2227,7 @@
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,97,255],
-		"uniques": ["Gain a free [Porcelain] [in capital]","Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Mohenjo-Daro"]
 	},
 	{
@@ -2255,7 +2255,7 @@
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [45,255,86],
-		"uniques": ["Gain a free [Jewelry] [in capital]","Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Tallinn"]
 	},
 	{
@@ -2333,7 +2333,7 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,255,0],
-		"uniques": ["Gain a free [Porcelain] [in capital]","Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Singapore"]
 	},
 	{
@@ -2346,7 +2346,7 @@
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,153,255],
-		"uniques": ["Gain a free [Jewelry] [in capital]","Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Zanzibar"]
 	},
 	{
@@ -2385,7 +2385,7 @@
 		"defeated": "We... defeated? No... we had so much work to do!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [151,125,0],
-		"uniques": ["Gain a free [Porcelain] [in capital]","Gain a free [~CS] [in all cities]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Kathmandu"]
 	},
 	{

@@ -277,7 +277,7 @@
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Chivalry"],
+				"prerequisites": ["Chivalry","Education"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
@@ -605,6 +605,12 @@
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
+		{
+				"name": "Globalization",
+				"row": 1,
+				"prerequisites": ["Telecommunications"],
+				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+			},
 			{
 				"name": "Particle Physics",
 				"row": 3,
