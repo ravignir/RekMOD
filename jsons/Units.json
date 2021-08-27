@@ -2345,7 +2345,7 @@
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can construct [Holy site] if it hasn't spread religion yet", "Can spread religion [4] times",
+		"uniques": ["Can construct [Holy site] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
 			"May found a religion", "May enter foreign tiles without open borders", "[-1] Visibility Range",
 			"Great Person - [Faith]", "Unbuildable", "Religious Unit"],
 		"movement": 2,
