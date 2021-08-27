@@ -69,15 +69,26 @@
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [120] Influence",
 			"Can construct [Customs house]","Double movement in coast", "Great Person - [Gold]", "Unbuildable"]
 	},
-		{
+		
+	{
 		"name": "Missionary",
 		"unitType": "Civilian",
-		"uniques": ["Can spread religion [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
 			"[-1] Visibility Range", "Unbuildable", "Religious Unit"],
 		"movement": 4,
 		"religiousStrength": 1000
-	}
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [1] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Visibility Range", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3,
+	},
 	{
 		"name": "Caravan", //modded
 		"unitType": "Civilian",
@@ -556,7 +567,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Composite Bowman", //modded
+		"name": "Composite Bowman",
 		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 7,
@@ -570,7 +581,7 @@
 		{
 		"name": "Buffalo Hunter",
 		"uniqueTo": "Sioux",
-		"replaces": "Composite Bowman", //modded
+		"replaces": "Composite Bowman", 
 		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 8,
@@ -582,16 +593,16 @@
 		"attackSound": "arrow"
 	},
 		{
-		"name": "Mpiambina", //modded
+		"name": "Mpiambina", 
 		"uniqueTo": "Madagascar",
 		"unitType": "Ranged",
+		"replaces": "Inquisitor"
 		"movement": 3,
 		"range": 1,
 		"strength": 8,
 		"rangedStrength": 14,
-		"cost": 120,
-		"requiredTech": "Theology",
-		"upgradesTo": "Gatling Gun",
+                "uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", "Unbuildable", "Religious Unit"
+		],
 		"promotions": ["Sampy"]
 		"attackSound": "arrow"
 	},
