@@ -8,7 +8,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 48,
-		"uniques": ["Can build improvements on tiles"]
+		"uniques": ["Can build [Land] improvements on tiles"]
 	},
 		{
 		"name": "Ngangkari",
@@ -18,7 +18,7 @@
 		"movement": 3,
 		"cost": 48,
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["Can build improvements on tiles",]
+		"uniques": ["Can build [Land] improvements on tiles",]
 	},
 	{
 		"name": "Settler",
@@ -1196,7 +1196,7 @@
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Can build improvements on tiles",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Can build [Land] improvements on tiles",
 			"May withdraw before melee ([50%])","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
@@ -1603,7 +1603,7 @@
 		"cost": 225,
 		"requiredTech": "Industrialization",
 		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["Can build improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},	
