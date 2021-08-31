@@ -130,7 +130,7 @@
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["[1] additional attack per turn"],
+		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
@@ -434,7 +434,7 @@
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
-		"uniques": ["[1] additional attack per turn"],
+		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Helicopter","Ranged", "Mounted Ranged","Siege","WaterMelee","Melee Water","WaterRanged", "Ranged Water","WaterSubmarine","Submarine","Fighter","Bomber"]
 	},
 	
@@ -600,7 +600,7 @@
 	},
 	{
 		"name": "Restlessness",
-		"uniques": ["[1] additional attack per turn"],
+		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
@@ -646,7 +646,7 @@
 	},
 		{
 		"name": "Kelimazala",
-		"uniques": ["[1] additional attack per turn"],
+		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},

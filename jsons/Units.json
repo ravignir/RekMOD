@@ -1080,7 +1080,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["+[25]% Strength vs [Gunpowder]","+[50]% Strength vs [Mounted]","[1] additional attack per turn","+[50]% Strength vs [Mounted Ranged]"],
+		"uniques": ["+[25]% Strength vs [Gunpowder]","+[50]% Strength vs [Mounted]","[1] additional attacks per turn","+[50]% Strength vs [Mounted Ranged]"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
