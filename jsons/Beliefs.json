@@ -291,5 +291,63 @@
         "type": "Founder",
         "uniques": ["[+8 Gold] from every [Palace]"]
     },
-	
+// ENHANCERS
+ {
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": ["[+15]% Strength for [All] units in [Friendly Land]"],
+        // ToDo: Should only be friendly territory of cities that follow this religion
+    },
+		{
+        "name": "Dharma",
+        "type": "Enhancer",
+        "uniques": ["[+8 Science] from every [Grand Temple]"]
+    },
+			{
+        "name": "Disciples",
+        "type": "Enhancer",
+        "uniques": ["[+2 Culture, +2 Gold] from every [Great Improvement]"]
+    },
+			{
+        "name": "Hajj",
+        "type": "Enhancer",
+        "uniques": ["[+3 Food, +3 Production, +3 Culture] from every [Palace]"]
+    },
+	{
+        "name": "Just War",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength for [Non-City] units in [Enemy Land]"],
+        // ToDo: Should only be enemy territory of cities that follow this religion
+    },
+				{
+        "name": "Kotel",
+        "type": "Enhancer",
+        "uniques": ["[+6 Happiness] from every [Palace]"]
+    },
+ {
+        "name": "Messiah",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength for [Great Prophet] units", "[-25]% Faith cost of generating Great Prophet equivalents"]
+    },
+    {
+        "name": "Missionary Zeal",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength for [Missionary] units"]
+    },
+    {
+        "name": "Religious Texts",
+        "type": "Enhancer",
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] with [Printing Press]"]
+    },
+    {
+        "name": "Religious Unity",
+        "type": "Enhancer",
+        "uniques": ["[+100]% Natural religion spread to [in City-State cities]"]
+    },
+    {
+        "name": "Reliquary",
+        "type": "Enhancer",
+        "uniques": ["[+50 Faith] whenever a Great Person is expended"]
+    }
 ]
+

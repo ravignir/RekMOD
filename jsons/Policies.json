@@ -38,7 +38,7 @@
 			},
 			{
 				"name": "Tradition Complete",
-				"uniques": ["[+15]% growth [in all cities]","Immediately creates a [Aqueduct] in each of your first [4] cities for free"]
+				"uniques": ["[+15]% growth [in all cities]","Immediately creates a [Aqueduct] in each of your first [4] cities for free","May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"]
 			}
 		]
 	},
@@ -128,7 +128,7 @@
 			},
 			{
 				"name": "Honor Complete",
-				"uniques": ["[+10]% [Food] [in all cities]","Earn [33]% of killed [Military] unit's [Strength] as [Science]","+[100]% Production when constructing [Heroic Epic]","[+4 Production, + 4 Gold, +4 Culture] from every [Heroic Epic]"],
+				"uniques": ["[+10]% [Food] [in all cities]","Earn [33]% of killed [Military] unit's [Strength] as [Science]","+[100]% Production when constructing [Heroic Epic]","[+4 Production, + 4 Gold, +4 Culture] from every [Heroic Epic]","May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"],
 			}
 		]
 	},
@@ -217,7 +217,7 @@
 			},
 			{
 				"name": "Aesthetics Complete",
-				"uniques": ["+[100]% Production when constructing [Archaeologist] units","[+4 Culture] from every [Landmark]","Free Social Policy"]
+				"uniques": ["+[100]% Production when constructing [Archaeologist] units","[+4 Culture] from every [Landmark]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"]
 			}
 		]
 	},
@@ -309,7 +309,7 @@
 			},
 			{
 				"name": "Exploration Complete",
-				"uniques": ["[3] free [Great Admiral] units appear","[+1] happiness from each type of luxury resource"]
+				"uniques": ["[3] free [Great Admiral] units appear","[+1] happiness from each type of luxury resource","May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"]
 			}
 		]
 	},
@@ -352,7 +352,7 @@
 			},
 			{
 				"name": "Rationalism Complete",
-				"uniques": ["[+10]% [Science] while the empire is happy"]
+				"uniques": ["[+10]% [Science] while the empire is happy","May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"]
 			}
 		]
 	},
@@ -397,7 +397,7 @@
 			},
 			{
 				"name": "Commerce Complete",
-				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","Double gold from Great Merchant trade missions"]
+				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","Double gold from Great Merchant trade missions","May buy [Great Merchamt] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"]
 			}
 		]
 	},
@@ -420,7 +420,7 @@
 			},
 			{
 				"name": "Patriotic War",
-				"uniques": ["[+15]% combat bonus for units fighting in [Friendly Land]"],
+				"uniques": ["[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
 				"row": 1,
 				"column": 4
 			},
@@ -557,7 +557,7 @@
 			},
 			{
 				"name": "New Deal",
-				"uniques": ["[+100]% yield from every [Great Improvement]"],
+				"uniques": ["+[100]% yield from every [Great Improvement]"],
 				"requires": ["Capitalism"],
 				"row": 2,
 				"column": 3
@@ -589,7 +589,7 @@
 		"policies": [
 			{
 				"name": "Elite Forces",
-				"uniques": ["[+10]% combat bonus for units fighting in [Friendly Land]","[+10]% combat bonus for units fighting in [Foreign Land]"],
+				"uniques": ["[+10]% combat bonus for [Non-City] units fighting in [Friendly Land]","[+10]% combat bonus for [Non-City] units fighting in [Foreign Land]"],
 				"row": 1,
 				"column": 1
 			},

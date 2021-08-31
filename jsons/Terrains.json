@@ -114,8 +114,7 @@
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
-		"uniques": ["Rough terrain", "[+5] Strength for cities built on this terrain",
-			"[+1] Sight for [Land] units", "Has an elevation of [2] for visibility calculations", "Occurs in groups around high elevations"]
+		"uniques": ["Rough terrain", "[+5] Strength for cities built on this terrain", "Has an elevation of [2] for visibility calculations", "Occurs in groups around high elevations"]
 	},
 	{
 		"name": "Forest",

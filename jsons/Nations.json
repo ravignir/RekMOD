@@ -201,24 +201,28 @@
 		"leaderName": "Maria Theresa",
 		"adjective": ["Austrian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Diplomatic",
 
-		"startIntroPart1": "Noble and virtuous Queen Maria Theresa, Holy Roman Empress and sovereign of Austria, your people bow to your gracious will. Following the death of your father, King Charles VI, you ascended to the throne of Austria during the time of great instability, but the empty coffers and diminished military did little to dissuade your ambitions. Faced with war almost immediately upon your succession to the throne, you managed to fend off your foes, and in naming your husband, Francis Stephen, co-ruler, assured your place as Empress of the Holy Roman Empire. During your reign, you guided Austria on a new path of reform - strengthening the military, replenishing the treasury, and improving the education system of the kingdom.",
-		"startIntroPart2": "Oh great queen, bold and dignified, the time has come for you to rise and guide your kingdom once again. Can you return your people to the height of prosperity and splendor? Will you build a civilization that will stand the test of time?",
-		"declaringWar": "Shame that it has come this far. But ye wished it so.",
+		"startIntroPart1": "Noble and virtuous Queen Maria Theresa, Holy Roman Empress and sovereign of Austria, the people bow to your gracious will. Following the death of your father King Charles VI, you ascended the thone of Austria during a time of great instability, but the empty coffers and diminished military did litle to dissuade your ambitions. Faced with war almost immediately upon your succession to the thron, you managed to fend off your foes, and in naming your husband Francis Stephen co-ruler, assured your place as Empress of the Holy Roman Empire. During your reigh, you guided Austria on a new path of reform - strengthening the military, replenishing the treasury, and improving the educational system of the kingdom.",
+		"startIntroPart2": "Oh great queen, bold and dignified, the time has come for you to rise and guide the kingdom once again. Can you return your people to the height of prosperity and splendor? Will you build a civilization that stands the test of time?",
+
+		"declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely. ",
 		"attacked": "What a fool ye are! Ye will end swiftly and miserably.",
 		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
 		"introduction": "The archduchess of Austria welcomes your Eminence to... Oh let's get this over with! I have a luncheon at four o'clock.",
+
 		"neutralHello": "Hello!",
 		"hateHello": "Oh, it's ye!",
 		"tradeRequest": "I see you admire my new damask. Nobody should say that I am an unjust woman. Let's reach an agreement!",
-		"outerColor": [171,0,0],
+		"outerColor": [234,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Diplomatic Marriage",
-		"uniques": ["[Gold] cost of purchasing items in cities [-15]%",],
-		"cities": ["Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Innsbruck","Kitsbühel","St. Pölten","Eisenstadt",
-			"Villach","Zwettl","Traun","Weis","Dombim","Feldkirch","Amstetten","Bad Ischl","Wolfsberg","Kufstein",
-			"Leoben","Klosterneuburg","Leonding","Kapfenberg","Hallein","Bischofshofen","Saalbach","Lienz","Steyr",]	
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
+			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
+			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
+			"Kapfenberg", "Hallein", "Bischofshofen", "Waidhofen", "Saalbach", "Lienz", "Steyr"
+		]
 	},
 							{
 		"name": "Ayyubids",
@@ -651,7 +655,7 @@
 		"outerColor": [17,44,16],
 		"innerColor": [254,31,33],
 		"uniqueName": "Spirit of Adwa",
-		"uniques": ["[+20]% combat bonus for units fighting in [Friendly Land]"],
+		"uniques": ["[+20]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama","Mek'ele",
 			"Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena","Nekemte",
 			"Aselia","Dila","Adigrat","Debre Tabor","Sebeta","Shire","Ambo","Negele Arsi","Gambela",
@@ -676,7 +680,7 @@
 		"outerColor": [10, 40, 74],
 		"innerColor": [218, 218, 218],
 		"uniqueName": "Finnish Mobility",
-		"uniques": ["[+1 Culture] from every [City]","[+10]% combat bonus for units fighting in [Friendly Land]"],
+		"uniques": ["[+1 Culture] from every [City]","[+10]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
 		"cities": ["Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa","Uusukaipunki","Kakisalmi"]
 	},
 	{
@@ -1401,7 +1405,7 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
-		"uniqueText": " +3 Gold and +1 Culture from every gold Trade Route
+		"uniqueText": " +3 Gold and +1 Culture from every gold Trade Route, bonus inceases by +1 Gold and +1 Culture each era
 		",
 		"uniques": ["[+3 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+3 Gold, +1 Culture] from every [Sea Trade Route (Gold)]"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Quarzazate","Meknes","Agadir","Oujda",
@@ -1454,7 +1458,7 @@
 		"innerColor": [255,143,0],
 		"uniqueName": "Castle Builders",
 		"uniqueText": "+10% combat strength outside of friendly territory. +5 defensive Strength in every City."
-		"uniques": ["+[10]% Strength for units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
+		"uniques": ["+[10]% Strength for [Non-City] units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
 		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
 	},
 				{
@@ -1764,7 +1768,7 @@
 		"uniqueName": "Great Expanse",
 		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land
 		"
-		"uniques": ["[-75]% Culture cost of acquiring tiles [in this city]","[+15]% combat bonus for units fighting in [Friendly Land]"],
+		"uniques": ["[-75]% Culture cost of acquiring tiles [in this city]","[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -1840,7 +1844,7 @@
 		"outerColor": [255,120,0],
 		"innerColor": [77,32,32],
 		"uniqueName": "Dwellers of the Plains",
-		"uniques": ["[+15]% combat bonus for units fighting in [Plains]"],
+		"uniques": ["[+15]% combat bonus for [Non-City] units fighting in [Plains]"],
 		"cities": ["Ihankthunwanna","Bdewekhanthunwan","Isanyathi","Sichangju","Oglala","Itazipcho","Assiniboine","Sisithunwan","Wahpekhute","Wahpethunwan","Hunkpapha","Mnikhowozu","Sihasapa"]
 	},
 	{
@@ -2097,7 +2101,7 @@
 		"outerColor": [14,70,61],
 		"innerColor": [167,35,22],
 		"uniqueName": "Hafod a Hendref",
-		"uniques": ["[+1 Food, +1 Gold] from every [Sheep]","[+15]% combat bonus for units fighting in [Hill]"],
+		"uniques": ["[+1 Food, +1 Gold] from every [Sheep]","[+15]% combat bonus for [Non-City] units fighting in [Hill]"],
 		"cities": ["Cardiff","Swansea","Casnewydd","Wrecsam","Y Barri","Cwmbran","Pen-y-bont ar Ogwr","Lianelli","Penrhyndeudraeth","Caerffili","Ynysybwl","Pont-y-pwl","Cefn-Mawr","Coed Duon"]
 	},
 					{

@@ -88,6 +88,7 @@
 	{
 		"name": "Archaeological Dig",
 		"resourceTerrainAllow": ["Grassland","Plains","Forest","Jungle","Desert"],
+		"culture": 1,
 		"uniques": ["Can be built outside your borders"]
 	},
 	{
@@ -164,19 +165,11 @@
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X",
 		"civilopediaText": [{text:"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
-	},
-	{
-		"name": "Remove Jungle",
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Jungle"],
-		"techRequired": "Bronze Working",
-		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout",
@@ -230,13 +223,14 @@
 	},
 	{
 		"name": "Manufactory",
-		"production": 4,
-		"uniques": ["Great Improvement","[+1 Production] once [Chemistry] is discovered"]
+		"production": 6,
+		"food": 1,
+		"uniques": ["Great Improvement","[+3 Production] once [Chemistry] is discovered"]
 	},
 	{
 		"name": "Customs house",
 		"gold": 4,
-		"uniques": ["Great Improvement","[+1 Gold] once [Economics] is discovered"]
+		"uniques": ["Great Improvement","[+4 Gold] once [Economics] is discovered"]
 	},
 	{
 		"name": "Citadel",
@@ -289,7 +283,7 @@
 	{
 		"name": "Brazilwood Camp",
 		"uniqueTo": "Brazil",
-		"terrainsCanBeBuiltOn": ["Jungle"],
+		"terrainsCanBeBuiltOn": ["Jungle","Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Bronze Working",

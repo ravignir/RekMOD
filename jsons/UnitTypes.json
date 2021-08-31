@@ -4,19 +4,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Sword",
-        "movementType": "Land"
-    },
-    {
         "name": "Gunpowder",
         "movementType": "Land"
     },
     {
-        "name": "Archery",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Gunpowder",
+        "name": "Mounted Ranged",
         "movementType": "Land"
     },
     {
@@ -41,7 +33,8 @@
     },
     {
         "name": "Melee Water",
-        "movementType": "Water"
+        "movementType": "Water",
+		"uniques": ["Can move after attacking"]
     },
     {
         "name": "Ranged Water",
@@ -79,7 +72,7 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
+        "uniques": ["Ignores Zone of Control","Can pass through impassable tiles","Unable to capture cities"]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
