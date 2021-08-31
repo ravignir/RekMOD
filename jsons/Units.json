@@ -1618,7 +1618,7 @@
 		"requiredTech": "Industrialization",
 		"obsoleteTech": "Replaceable Parts",
 		"replacementTextForUniques": "Can construct Roads, Railroads, Forts and remove: Forest, Marsh and Jungle tiles", 
-		"uniques": ["Can build [Road] improvements on tiles","Can build [Railroad] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Remove Marsh] improvements on tiles",],
+		"uniques": ["Can build [All Road] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Remove Marsh] improvements on tiles",],
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},	
