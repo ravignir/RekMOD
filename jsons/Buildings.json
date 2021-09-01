@@ -156,7 +156,7 @@
         "name": "Free Burial Tomb",
 		"uniqueTo": "Ayyubids",
         "cost": 1,
-        "uniques": ["Provides a free [Burial Tomb] [in this city]","Can only be built [in annexed cities]","Will not be displayed in Civilopedia","Unsellable"]
+        "uniques": ["Provides a free [Burial Tomb] [in this city]","Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
     },
 			    {
         "name": "Free Jarliq",
@@ -865,7 +865,7 @@
         "maintenance": 4,
         "hurryCostModifier": 50,
         "uniques": ["Remove extra unhappiness from annexed cities",
-            "Can only be built [in annexed cities]"],
+            "Can only be built in annexed cities"],
         "requiredTech": "Mathematics"
     },
 	    {
@@ -877,7 +877,7 @@
 		"faith": 2,
         "hurryCostModifier": 50,
         "uniques": ["Remove extra unhappiness from annexed cities",
-            "Can only be built [in annexed cities]"],
+            "Can only be built in annexed cities"],
         "requiredTech": "Mathematics"
     },
 	    {
@@ -889,7 +889,7 @@
 		"science": 3,
         "hurryCostModifier": 50,
         "uniques": ["Remove extra unhappiness from annexed cities",
-            "Can only be built [in annexed cities]","Unsellable","Free [Great Artist] appears"],
+            "Can only be built in annexed cities","Unsellable","Free [Great Artist] appears"],
         "requiredTech": "Writing"
     },
     {
