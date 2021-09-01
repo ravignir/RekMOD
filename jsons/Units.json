@@ -1551,7 +1551,7 @@
 		"movement": 4,
 		"cost": 200,
 		"requiredTech": "Archaeology",
-		"uniques": ["Can construct [Archaeological Dig]","Cannot be purchased"]
+		"uniques": ["Can construct [Archaeological Dig]","Requires [University]","Cannot be purchased"]
 	},
 	{
 		"name": "Gatling Gun",
