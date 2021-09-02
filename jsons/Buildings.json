@@ -1087,7 +1087,7 @@
         "hurryCostModifier": 25,
         "uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
             "[+2 Gold] from [Oil] tiles [in this city]","[+2 Gold] from [Oasis] tiles [in this city]",
-            "[+25]% [Gold] [in this city]"],
+            "+[25]% [Gold] [in this city]"],
         "requiredTech": "Currency"
     },
     {
@@ -1276,7 +1276,7 @@
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "uniques": ["[+3 Production] from [Land Trade Route (Production)] tiles [in this city]", "[+1 Production] from [Hardwood] tiles [in this city]"
-            "[+3 Production] from [Sea Trade Route (Production)] tiles [in this city]","[+10]% [Production] [in this city]"],
+            "[+3 Production] from [Sea Trade Route (Production)] tiles [in this city]","+[10]% [Production] [in this city]"],
         "requiredTech": "Metal Casting"
     },
 	    {
@@ -1288,7 +1288,7 @@
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "uniques": ["[+2 Production] from [Coral] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]","[+1 Culture] from [Crab] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]","[+1 Culture] from [Pearls] tiles [in this city]","[+2 Gold] from [Whales] tiles [in this city]","[+1 Food] from [Fish] tiles [in this city]","[+3 Production] from [Land Trade Route (Production)] tiles [in this city]",
-            "[+3 Production] from [Sea Trade Route (Production)] tiles [in this city]","[+10]% [Production] [in this city]"],
+            "[+3 Production] from [Sea Trade Route (Production)] tiles [in this city]","+[10]% [Production] [in this city]"],
         "requiredTech": "Metal Casting"
     },
 	    {
@@ -1330,7 +1330,7 @@
         "production": 2,
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+10]% [Production] [in this city]","[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Jungle] tiles [in this city]","[+3 Production] from [Land Trade Route (Production)] tiles [in this city]",
+        "uniques": ["+[10]% [Production] [in this city]","[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Jungle] tiles [in this city]","[+3 Production] from [Land Trade Route (Production)] tiles [in this city]",
             "[+2 Production] from [Sea Trade Route (Production)] tiles [in this city]"],
         "requiredTech": "Metal Casting"
     },
@@ -1378,7 +1378,7 @@
         "maintenance": 2,
         "hurryCostModifier": 15,
         "specialistSlots": {"Scientist": 2},
-        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+33]% [Science] [in this city]",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","+[33]% [Science] [in this city]",
             "Requires a [Library] [in this city]"],
         "requiredTech": "Education"
     },
@@ -1391,7 +1391,7 @@
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
-        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+33]% [Science] [in this city]",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","+[33]% [Science] [in this city]",
             "Requires a [Library] [in this city]"],
         "requiredTech": "Education"
     },
@@ -1404,7 +1404,7 @@
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
-        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+2 Science] from [Oasis] tiles [in this city]","[+1 Science] from [Flood plains] tiles [in this city]","[+33]% [Science] [in this city]",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+2 Science] from [Oasis] tiles [in this city]","[+1 Science] from [Flood plains] tiles [in this city]","+[33]% [Science] [in this city]",
             "Requires a [Library] [in this city]"],
         "requiredTech": "Education"
     },
@@ -1454,7 +1454,7 @@
         "greatPersonPoints": {"Great Artist": 1},
         "isWonder": true,
         "uniques": ["Provides a free [Castle] [in this city]","All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
-            "[+20]% [Culture] [in this city]"],
+            "+[20]% [Culture] [in this city]"],
         "requiredTech": "Chivalry",
         "quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.'  - Joseph Addison"
     },
@@ -1564,7 +1564,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"Great Artist": 2},
-        "uniques": ["[+25]% [Culture] [in all cities]"],
+        "uniques": ["+[25]% [Culture] [in all cities]"],
         "requiredTech": "Acoustics",
         "quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
     },
@@ -1573,7 +1573,7 @@
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
-        "uniques": ["[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
+        "uniques": ["+[25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
         "requiredTech": "Banking"
     },
 	    {
@@ -1584,7 +1584,7 @@
 		"cost": 125,
         "specialistSlots": {"Merchant": 2},
         "hurryCostModifier": 15,
-        "uniques": ["[+35]% [Gold] [in this city]","Requires a [Market] [in this city]"],
+        "uniques": ["+[35]% [Gold] [in this city]","Requires a [Market] [in this city]"],
         "requiredTech": "Banking"
     },
 		    {
@@ -1605,7 +1605,7 @@
         "specialistSlots": {"Merchant": 1},
         "happiness": 2,
         "hurryCostModifier": 15,
-        "uniques": ["[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
+        "uniques": ["+[25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
         "requiredTech": "Banking"
     },
 	    {
@@ -1616,7 +1616,7 @@
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
 		"cost": 250,
-        "uniques": ["[+30]% [Gold] [in this city]","[+5]% [Production] [in this city]","Requires a [Market] [in this city]"],
+        "uniques": ["+[30]% [Gold] [in this city]","+[5]% [Production] [in this city]","Requires a [Market] [in this city]"],
         "requiredTech": "Machinery"
     },
     {
@@ -1627,7 +1627,7 @@
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
         "uniques": ["+5% Production for every Trade Route with a City-State in the empire",
-            "[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
+            "+[25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
         "requiredTech": "Banking"
     },
 	    {
@@ -1704,7 +1704,7 @@
         "specialistSlots": {"Artist": 2},
         "maintenance": 3,
         "hurryCostModifier": 0,
-		"uniques": ["Destroyed when the city is captured","Requires a [Amphitheater] [in this city]","[+10]% [Culture] [in this city]"],
+		"uniques": ["Destroyed when the city is captured","Requires a [Amphitheater] [in this city]","+[10]% [Culture] [in this city]"],
         "requiredTech": "Archaeology"
     },
 	    {
@@ -1716,7 +1716,7 @@
 		"greatPersonPoints": {"Great Artist":2},
         "maintenance": 3,
         "hurryCostModifier": 0,
-		"uniques": ["Destroyed when the city is captured","Requires a [Amphitheater] [in this city]","[+10]% [Culture] [in this city]"],
+		"uniques": ["Destroyed when the city is captured","Requires a [Amphitheater] [in this city]","+[10]% [Culture] [in this city]"],
         "requiredTech": "Industrialization"
     },
     {
@@ -1724,7 +1724,7 @@
         "cost": 125,
         "culture": 5,
         "isNationalWonder": true,
-        "uniques": ["[+50]% [Culture] [in this city]","Cost increases by [30] per owned city",
+        "uniques": ["+[50]% [Culture] [in this city]","Cost increases by [30] per owned city",
             "Requires a [Opera House] in all cities"],
         "requiredTech": "Architecture"
     }, 
@@ -1803,7 +1803,7 @@
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "uniques": ["[+5]% [Production] [in this city]","[+25]% great person generation [in this city]"],
+        "uniques": ["+[5]% [Production] [in this city]","[+25]% great person generation [in this city]"],
         "requiredTech": "Economics"     
     },
 	
@@ -1860,7 +1860,7 @@
         "maintenance": 3,
 		"cost": 360,
         "hurryCostModifier": 0,
-        "uniques": ["[+10]% [Production] [in this city]","Requires a [Workshop] [in this city]","Consumes [1] [Coal]"],
+        "uniques": ["+[10]% [Production] [in this city]","Requires a [Workshop] [in this city]","Consumes [1] [Coal]"],
         "requiredTech": "Industrialization"
     },
     {
@@ -1902,7 +1902,7 @@
         "gold": 3,
         "specialistSlots": {"Merchant": 2},
         "hurryCostModifier": 15,
-        "uniques": ["[+25]% [Gold] [in this city]","Requires a [Bank] [in this city]"],
+        "uniques": ["+[25]% [Gold] [in this city]","Requires a [Bank] [in this city]"],
         "requiredTech": "Electricity"
     },
 	    {
@@ -1913,7 +1913,7 @@
 		"happiness": 2,
         "specialistSlots": {"Merchant": 2},
         "hurryCostModifier": 15,
-        "uniques": ["[+25]% [Gold] [in this city]","Requires a [Bank] [in this city]","[+1 Gold] from [River] tiles [in this city]"],
+        "uniques": ["+[25]% [Gold] [in this city]","Requires a [Bank] [in this city]","[+1 Gold] from [River] tiles [in this city]"],
         "requiredTech": "Electricity"
     },
 		    {
@@ -1950,7 +1950,7 @@
     {
         "name": "Broadcast Tower",
         "culture": 3,
-        "uniques": ["Destroyed when the city is captured","[+10]% [Culture] [in this city]","Requires a [Opera House] [in this city]"],
+        "uniques": ["Destroyed when the city is captured","+[10]% [Culture] [in this city]","Requires a [Opera House] [in this city]"],
         "maintenance": 3,
         "requiredTech": "Radio"
     },    
@@ -1959,7 +1959,7 @@
         "culture": 1,
         "happiness": 5,
         "greatPersonPoints": {"Great Merchant": 2},
-        "uniques": ["Provides a free [Broadcast Tower] [in this city]","[+100]% [Culture] [in this city]"],
+        "uniques": ["Provides a free [Broadcast Tower] [in this city]","+[100]% [Culture] [in this city]"],
         "isWonder": true,
         "requiredTech": "Radio",
         "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
@@ -1989,7 +1989,7 @@
         "percentStatBonus": {"science": 50},
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
-        "uniques": ["[+50]% [Science] [in this city]","Requires a [Public School] [in this city]"],
+        "uniques": ["+[50]% [Science] [in this city]","Requires a [Public School] [in this city]"],
         "requiredTech": "Plastics"
     },
     {
@@ -2003,7 +2003,7 @@
         "name": "Hotel", 
         "culture": 1,
         "cost": 300,
-		"uniques": ["Destroyed when the city is captured","[+30]% [Culture] [in this city]"],
+		"uniques": ["Destroyed when the city is captured","+[30]% [Culture] [in this city]"],
         "maintenance": 0,
         "requiredTech": "Refrigeration"
     },
@@ -2058,7 +2058,7 @@
         "name": "Nuclear Plant",
         "production": 5,        
         "maintenance": 3,
-        "uniques": ["[+15]% [Production] [in this city]","Requires a [Factory] [in this city]","Consumes [1] [Uranium]","Cannot be built with [Solar Plant]"],
+        "uniques": ["+[15]% [Production] [in this city]","Requires a [Factory] [in this city]","Consumes [1] [Uranium]","Cannot be built with [Solar Plant]"],
         "requiredTech": "Nuclear Fission"
     },
     {
@@ -2073,13 +2073,13 @@
         "production": 5,        
         "maintenance": 3,
         "requiredTech": "Ecology",
-        "uniques": ["[+15]% [Production] [in this city]","Must be next to [Desert]","Requires a [Factory] [in this city]", "Cannot be built with [Nuclear Plant]"]
+        "uniques": ["+[15]% [Production] [in this city]","Must be next to [Desert]","Requires a [Factory] [in this city]", "Cannot be built with [Nuclear Plant]"]
     },
     {
         "name": "Sydney Opera House",
         "isWonder": true,
         "greatPersonPoints": {"Great Artist": 2},
-        "uniques": ["[+50]% [Culture] [in this city]","Free Social Policy"],
+        "uniques": ["+[50]% [Culture] [in this city]","Free Social Policy"],
         "requiredTech": "Ecology",
         "quote": "'Those who lose dreaming are lost.'  - Australian Aboriginal saying"
     },
@@ -2120,7 +2120,7 @@
         "name": "National Visitor's Center", 
 		"cost": 400,
         "isNationalWonder": true,
-        "uniques": ["[+100]% [Culture] [in this city]","Requires a [Hotel] in all cities"],
+        "uniques": ["+[100]% [Culture] [in this city]","Requires a [Hotel] in all cities"],
         "requiredTech": "Telecommunications"
     },
     {
