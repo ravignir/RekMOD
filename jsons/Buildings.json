@@ -54,7 +54,7 @@
     {
         "name": "Maya Great People Bonus",
         "uniqueTo": "The Maya",
-        "greatPersonPoints": {"Scientist": 12,"Artist": 12,"Engineer": 12,"Merchant": 12},
+        "greatPersonPoints": {"Great Scientist": 12,"Great Artist": 12,"Great Engineer": 12,"Great Merchant": 12},
         "requiredTech": "Theology",
         "cost": 1,
         "replacementTextForUniques": " ",
@@ -491,7 +491,7 @@
         "faith": 6,
 		"culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "requiredTech": "Calendar",
 		"uniques": ["[-25]% Culture cost of acquiring tiles [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
         "quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
@@ -539,7 +539,7 @@
         "name": "The Great Library",
         "science": 3,
         "culture": 1,
-        "greatPersonPoints": {"Scientist": 1},
+        "greatPersonPoints": {"Great Scientist": 1},
         "isWonder": true,
         "requiredTech": "Writing",
         "uniques": ["Provides a free [Library] [in this city]","Free Technology"],
@@ -589,7 +589,7 @@
         "culture": 1,
         "isWonder": true,
         "cost": 185,
-        "greatPersonPoints": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "uniques": ["Requires [Honor]","[+10]% [Food] [in all cities]","+[15]% Production when constructing [Ranged] units [in all cities]"],
         "requiredTech": "Archery",
         "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
@@ -662,7 +662,7 @@
     {
         "name": "The Pyramids",
         "culture": 1,
-        "greatPersonPoints": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "uniques": ["[-25]% tile improvement construction time","[2] free [Worker] units appear","Requires [Liberty]"],
         "requiredTech": "Masonry",
@@ -699,7 +699,7 @@
         "name": "Colossus",
         "culture": 1,
         "gold": 5,
-        "greatPersonPoints": {"Merchant": 1},
+        "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": ["Must be next to [Coast]","Provides [1] [Trade Route]","Free [Cargo Ship] appears","[+1 Gold] from [Water] tiles in this city"],
         "requiredTech": "Iron Working",
@@ -735,7 +735,7 @@
     {
         "name": "Mausoleum of Halicarnassus",
         "culture": 1,
-        "greatPersonPoints": {"Merchant": 1},
+        "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": ["Provides a sum of gold each time you spend a Great Person",
             "[+2 Gold] from [Marble] tiles in this city", "[+2 Gold] from [Stone] tiles in this city"],
@@ -768,7 +768,7 @@
     {
         "name": "The Great Lighthouse",
         "culture": 1,
-        "greatPersonPoints": {"Merchant": 1},
+        "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": ["Provides a free [Lighthouse] [in this city]","Must be next to [Coast]", "[+1] Movement for all [{Military} {Water}] units",
 			"[+1] Sight for all [{Military} {Water}] units"],
@@ -854,7 +854,7 @@
         "name": "Hanging Gardens", //adjusted
         "food": 6,
         "culture": 1,
-		"greatPersonPoints": {"Engineer": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "requiredTech": "Mathematics",
         "uniques": ["Provides a free [Garden] [in this city]","Requires [Tradition]"],
@@ -923,7 +923,7 @@
         "name": "Terracotta Army", //adjusted
         "culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"Artist": 1},
+        "greatPersonPoints": {"Great Artist": 1},
         "requiredTech": "Construction",
         "uniques": ["Free [Warrior] appears","Free [Archer] appears","Free [Composite Bowman] appears","Free [Spearman] appears"],
         "quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.'  - Sun Tzu"
@@ -1025,7 +1025,7 @@
     {
         "name": "The Oracle",
         "culture": 3,
-        "greatPersonPoints": {"Scientist": 1},
+        "greatPersonPoints": {"Great Scientist": 1},
         "isWonder": true,
         "uniques": ["Free Social Policy"],
         "requiredTech": "Philosophy",
@@ -1035,7 +1035,7 @@
         "name": "Parthenon", 
         "culture": 6,
         "isWonder": true,
-        "greatPersonPoints": {"Artist": 1},
+        "greatPersonPoints": {"Great Artist": 1},
         "requiredTech": "Drama and Poetry",
         "quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
     },
@@ -1114,7 +1114,7 @@
     {
         "name": "Petra", 
         "isWonder": true,
-        "greatPersonPoints": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "culture": 1,
         "uniques": ["[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]","[+6 Culture] once [Archaeology] is discovered",
             "Provides [1] [Trade Route]","Free [Caravan] appears","Must be next to [Desert]"],
@@ -1131,7 +1131,7 @@
     {
         "name": "Great Wall",
         "culture": 3,
-        "greatPersonPoints": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "uniques": ["Provides a free [Walls] [in this city]","Gain a free [Watch Tower] [in all cities]"],
         "requiredTech": "Engineering",
@@ -1150,7 +1150,7 @@
         "replaces": "Garden",
 		"uniqueTo": "Romania",
         "cost": 120,
-		"greatPersonPoints": {"Artist":1 },
+		"greatPersonPoints": {"Great Artist":1 },
 		"faith": 2,
         "uniques": ["[+25]% great person generation in this city"],
         "hurryCostModifier": 25,
@@ -1211,7 +1211,7 @@
         "name": "Hagia Sophia",
         "faith": 3,
 		"culture": 1,
-        "greatPersonPoints": {"Artist": 1},
+        "greatPersonPoints": {"Great Artist": 1},
         "isWonder": true,
         "uniques": ["Provides a free [Cathedral] [in this city]","Free [Great Prophet] appears"],
         "requiredTech": "Theology",
@@ -1231,7 +1231,7 @@
         "name": "Chichen Itza",
         "culture": 1,
         "happiness": 4,
-        "greatPersonPoints": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "uniques": ["Golden Age length increased by [50]%"],
         "requiredTech": "Civil Service",
@@ -1251,7 +1251,7 @@
     },
     {
         "name": "Althing",
-        "greatPersonPoints": {"Scientist": 1},
+        "greatPersonPoints": {"Great Scientist": 1},
         "culture": 1,
 		"cost": 300,
         "isWonder": true,
@@ -1262,7 +1262,7 @@
 	    {
         "name": "Machu Picchu",
         "gold": 5,
-        "greatPersonPoints": {"Merchant": 1},
+        "greatPersonPoints": {"Great Merchant": 1},
         "culture": 1,
         "isWonder": true,
         "uniques": ["Gold from all trade routes +25%","Must have an owned [Mountain] within [2] tiles"],
@@ -1442,7 +1442,7 @@
         "name": "Angkor Wat",
         "culture": 5,
 		"science": 5,
-        "greatPersonPoints": {"Scientist": 1},
+        "greatPersonPoints": {"Great Scientist": 1},
         "isWonder": true,
 		"uniques": ["Provides a free [Wat] [in this city]"],
         "requiredTech": "Education",
@@ -1451,7 +1451,7 @@
     {
         "name": "Alhambra",
         "culture": 1,
-        "greatPersonPoints": {"Artist": 1},
+        "greatPersonPoints": {"Great Artist": 1},
         "isWonder": true,
         "uniques": ["Provides a free [Castle] [in this city]","All newly-trained [relevant] units in this city receive the [Drill I] promotion",
             "[+20]% [Culture] [in this city]"],
@@ -1482,7 +1482,7 @@
         "name": "Notre Dame",
         "faith": 4,
         "happiness": 10,
-        "greatPersonPoints": {"Artist": 1},
+        "greatPersonPoints": {"Great Artist": 1},
         "isWonder": true,
         "requiredTech": "Physics",
         "quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.'  - Victor Hugo"
@@ -1563,7 +1563,7 @@
         "name": "Sistine Chapel",
         "culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"Artist": 2},
+        "greatPersonPoints": {"Great Artist": 2},
         "uniques": ["[+25]% [Culture] [in all cities]"],
         "requiredTech": "Acoustics",
         "quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
@@ -1644,7 +1644,7 @@
         "name": "Forbidden Palace",
         "culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"Artist": 1},
+        "greatPersonPoints": {"Great Artist": 1},
         "uniques": ["Unhappiness from population decreased by [10]%","Requires [Patronage]"],
         "requiredTech": "Banking",
         "quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
@@ -1684,7 +1684,7 @@
         "name": "Leaning Tower of Pisa", //adjusted
         "culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"Artist": 1},
+        "greatPersonPoints": {"Great Artist": 1},
         "uniques": ["[+25]% great person generation in all cities"],
         "requiredTech": "Printing Press",
         "quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
@@ -1693,7 +1693,7 @@
         "name": "Himeji Castle",
         "culture": 3,
         "isWonder": true,
-        "greatPersonPoints": {"Engineer": 2},
+        "greatPersonPoints": {"Great Engineer": 2},
         "uniques": ["Provides a free [Castle] [in this city]","[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
         "requiredTech": "Gunpowder",
         "quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.'  - Yamamoto Tsunetomo"
@@ -1713,7 +1713,7 @@
 		"uniqueTo": "Italy",
         "culture": 5,
         "specialistSlots": {"Artist": 2},
-		"greatPersonPoints": {"Artist":2},
+		"greatPersonPoints": {"Great Artist":2},
         "maintenance": 3,
         "hurryCostModifier": 0,
 		"uniques": ["Destroyed when the city is captured","Requires a [Amphitheater] in this city","[+10]% [Culture] [in this city]"],
@@ -1759,7 +1759,7 @@
         "name": "Taj Mahal",
         "culture": 1,
         "happiness": 4,
-        "greatPersonPoints": {"Artist": 2},
+        "greatPersonPoints": {"Great Artist": 2},
         "isWonder": true,
         "uniques": ["Empire enters golden age"],
         "requiredTech": "Architecture",
@@ -1768,7 +1768,7 @@
     {
         "name": "Porcelain Tower",
         "culture": 1,
-        "greatPersonPoints": {"Scientist": 2},
+        "greatPersonPoints": {"Great Scientist": 2},
         "isWonder": true,
         "uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%","Requires [Rationalism]"],
         "requiredTech": "Architecture",
@@ -1823,7 +1823,7 @@
 		"happiness": 4,
         "cityHealth": 12,
         "isWonder": true,
-        "greatPersonPoints": {"Scientist": 1},    
+        "greatPersonPoints": {"Great Scientist": 1},    
         "uniques": ["Defensive buildings in all cities are 25% more effective"],
         "requiredTech": "Metallurgy",
         "quote": "'When we build, let us think that we build forever.'   –- John Ruskin"
@@ -1867,7 +1867,7 @@
         "name": "Big Ben",
         "culture": 1,
         "gold": 4,
-        "greatPersonPoints": {"Merchant": 2},
+        "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
         "uniques": ["[Gold] cost of purchasing items in cities [-12]%","Requires [Commerce]"],
         "requiredTech": "Industrialization",
@@ -1883,7 +1883,7 @@
     {
         "name": "Brandenburg Gate",
         "culture": 3,
-        "greatPersonPoints": {"Scientist": 2},
+        "greatPersonPoints": {"Great Scientist": 2},
         "isWonder": true,
         "uniques": ["New [Military] units start with [15] Experience in this city","Free [Great General] appears"],
         "requiredTech": "Military Science",
@@ -1941,7 +1941,7 @@
         "name": "Prora", 
         "culture": 1,
         "happiness": 2,
-        "greatPersonPoints": {"Merchant": 2},
+        "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
         "uniques": ["Provides 1 happiness per 2 additional social policies adopted","Free Social Policy","Requires [Autocracy]"],
         "requiredTech": "Flight",
@@ -1958,7 +1958,7 @@
         "name": "Eiffel Tower", //adjusted
         "culture": 1,
         "happiness": 5,
-        "greatPersonPoints": {"Merchant": 2},
+        "greatPersonPoints": {"Great Merchant": 2},
         "uniques": ["Provides a free [Broadcast Tower] [in this city]","[+100]% [Culture] [in this city]"],
         "isWonder": true,
         "requiredTech": "Radio",
@@ -1978,7 +1978,7 @@
         "name": "Statue of Liberty", //adjusted
         "culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"Engineer": 2},
+        "greatPersonPoints": {"Great Engineer": 2},
         "uniques": ["[+1 Production] from every specialist","Free Social Policy","Requires [Freedom]"],
         "requiredTech": "Replaceable Parts",
         "quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!'  - Emma Lazarus"
@@ -2011,7 +2011,7 @@
         "name": "Cristo Redentor",
         "culture": 5,
         "isWonder": true,
-        "greatPersonPoints": {"Artist": 2},        
+        "greatPersonPoints": {"Great Artist": 2},        
         "uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
         "requiredTech": "Plastics",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.'  - New Testament, Matthew 11:28"
@@ -2020,7 +2020,7 @@
         "name": "Kremlin", //adjusted
         "culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"Scientist": 1},    
+        "greatPersonPoints": {"Great Scientist": 1},    
         "uniques": ["+[50]% Production when constructing [Armor] units [in all cities]","Free Social Policy",
             "Requires [Order]"],
         "requiredTech": "Railroad",
@@ -2031,7 +2031,7 @@
         "happiness": 2,
         "culture": 4,
         "gold": 6,
-        "greatPersonPoints": {"Merchant": 1},
+        "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
             "Must have an owned [Mountain] within [2] tiles"],
@@ -2078,7 +2078,7 @@
     {
         "name": "Sydney Opera House",
         "isWonder": true,
-        "greatPersonPoints": {"Artist": 2},
+        "greatPersonPoints": {"Great Artist": 2},
         "uniques": ["[+50]% [Culture] [in this city]","Free Social Policy"],
         "requiredTech": "Ecology",
         "quote": "'Those who lose dreaming are lost.'  - Australian Aboriginal saying"
@@ -2087,7 +2087,7 @@
         "name": "Pentagon",
         "isWonder": true,
         "culture": 3,
-        "greatPersonPoints": {"Engineer": 2},
+        "greatPersonPoints": {"Great Engineer": 2},
         "uniques": ["Gold cost of upgrading military units reduced by 33%"],
         "requiredTech": "Combined Arms",
         "quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.'  - Dwight D. Eisenhower"
@@ -2129,7 +2129,7 @@
         "uniques": ["+1 population in each city","[+1 Happiness] [in all cities]","Provides a free [Broadcast Tower] [in this city]"],
         "culture": 1,
         "cost": 1250,
-        "greatPersonPoints": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "requiredTech": "Radar",
         "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
     },
@@ -2138,7 +2138,7 @@
         "cost": 1250,
         "isWonder": true,
 		"science": 10,
-        "greatPersonPoints": {"Scientist": 3},        
+        "greatPersonPoints": {"Great Scientist": 3},        
         "uniques": ["Provides a free [Recycling Center] [in this city]","+[200]% Production when constructing [Spaceship part] [in this city]"],
         "requiredTech": "Satellites",
         "quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.'  - Anatole France"
