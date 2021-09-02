@@ -306,7 +306,7 @@
         "name": "Trade Route7",
         "isNationalWonder": "true",
         "cost": 1,
-		"requiredTech": "Railroad",
+		"requiredTech": "Railroads",
         "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
@@ -2023,7 +2023,7 @@
         "greatPersonPoints": {"Great Scientist": 1},    
         "uniques": ["+[50]% Production when constructing [Armor] units [in all cities]","Free Social Policy",
             "Requires [Order]"],
-        "requiredTech": "Railroad",
+        "requiredTech": "Railroads",
         "quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.'   –- The Prophet Muhammed"
     },
     {

@@ -23,8 +23,8 @@
 		"tradeRequest": "Better hurry, I may change my mind.",
 		"outerColor": [84, 103, 159],
 		"innerColor": [181, 142, 43],
-		"uniqueName": "Epic of Battle",
-		"uniqueText": " +3 Culture, +1 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.
+		"uniqueName": "The Great Unification",
+		"uniqueText": " +3 Culture, +2 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.
 		"
 		"uniques": ["[+2 Happiness, +3 Culture, +1 Production] from every [Courthouse]","[Land] units gain the [Epic of Battle] promotion"],
 		"cities": ["Akkad","Sipar","Kish","Tell Brak","Nippur","Tell Leilan","Marad","Umma","Azupiranu","Nuzi","Eshnunna"]

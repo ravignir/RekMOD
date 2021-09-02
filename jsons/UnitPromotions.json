@@ -512,7 +512,7 @@
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["+[15]% Strength vs [water units]"],
-		"unitTypes": ["WaterRanged"]
+		"unitTypes": ["WaterRanged", "Ranged Water"]
 	},
 	
 	// Uniques
