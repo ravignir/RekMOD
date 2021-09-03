@@ -361,6 +361,15 @@
 		"uniques": ["Destroyed when the city is captured"]
     },
 	    {
+        "name": "Pillar of Ashoka",
+		"replaces": "Monument",
+		"uniqueTo": "Maurya",
+        "culture": 2,
+        "cost": 20,
+        "hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+    },
+	    {
         "name": "Shrine",
         "faith": 1,
         "cost": 40,
@@ -632,7 +641,7 @@
 		"happiness": 1,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry"
-				"uniques": ["Destroyed when the city is captured","[+1 Production] once [Metal Casting] is discovered"]
+				"uniques": ["Destroyed when the city is captured"]
     },
 	    {
         "name": "Murus Gallicus",
@@ -1198,6 +1207,17 @@
         "uniques": ["Cost increases by [30] per owned city","Requires a [Temple] in all cities","[+100]% Natural religion spread [in this city]","Can only be built [in holy cities]"],
         "requiredTech": "Theology"
     },
+	    {
+        "name": "Saint Peter’s Basilica", 
+		"replaces": "Grand Temple",
+		"uniqueTo": "Papal State",
+		"culture": 1,
+        "cost": 125,
+        "faith": 8,
+        "isNationalWonder": true,
+        "uniques": ["Cost increases by [30] per owned city","Requires a [Temple] in all cities","[+100]% Natural religion spread [in this city]","Can only be built [in holy cities]","Provides a free [Cathedral] [in this city]","Free [Great Prophet] appears"],
+        "requiredTech": "Theology"
+    },
     {
         "name": "Great Mosque of Djenne",
         "faith": 6,
@@ -1362,6 +1382,20 @@
             "Connects trade routes over water","Must be next to [Coast]"],
         "requiredTech": "Compass"
     },
+	    {
+			"name": "Minaa’"
+			"uniqueTo": "Oman"
+        "replaces": "Harbor",
+        "maintenance": 2,
+		"cityStrength": 5,
+        "hurryCostModifier": 25,
+        "uniques": ["[+1 Gold] from [Sea Trade Route (Food)] tiles [in this city]",
+            "[+1 Gold] from [Sea Trade Route (Production)] tiles [in this city]","[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]","[+2 Production] from [Sea Trade Route (Food)] tiles [in this city]",
+            "[+2 Production] from [Sea Trade Route (Production)] tiles [in this city]","[+2 Production] from [Sea Trade Route (Gold)] tiles [in this city]","[+2 Production] from [Land Trade Route (Food)] tiles [in this city]",
+            "[+2 Production] from [Land Trade Route (Production)] tiles [in this city]","[+2 Production] from [Land Trade Route (Gold)] tiles [in this city]",
+            "Connects trade routes over water","Must be next to [Coast]"],
+        "requiredTech": "Compass"
+    },
 	{
         "name": "Trade Harbour",
 		"replaces": "Harbor",
@@ -1424,6 +1458,17 @@
         "cityHealth": 25,
         "hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured","Requires a [Walls] [in this city]"],
+        "requiredTech": "Chivalry"
+    },
+	    {
+		"name": "Alcazaba",
+		"uniqueTo": "The Moors",
+        "replaces": "Castle",
+        "cityStrength": 7,
+        "cityHealth": 25,
+		"science": 3,
+        "hurryCostModifier": 25,
+		"uniques": ["+[10]% growth [in this city]","Destroyed when the city is captured","Requires a [Walls] [in this city]"],
         "requiredTech": "Chivalry"
     },
     {
@@ -1728,6 +1773,20 @@
             "Requires a [Opera House] in all cities"],
         "requiredTech": "Architecture"
     }, 
+	    {
+		"name": "Mysore Palace",
+		"uniqueTo": "Mysore",
+        "replaces": "Hermitage",
+        "cost": 125,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+        "culture": 5,
+        "isNationalWonder": true,
+        "uniques": ["+[50]% [Culture] [in this city]","Cost increases by [30] per owned city",
+            "Requires a [Walls] in all cities","Empire enters golden age"],
+        "requiredTech": "Chivalry"
+    }, 
     {
         "name": "The Louvre",
         "culture": 1,
@@ -1861,6 +1920,18 @@
 		"cost": 360,
         "hurryCostModifier": 0,
         "uniques": ["+[10]% [Production] [in this city]","Requires a [Workshop] [in this city]","Consumes [1] [Coal]"],
+        "requiredTech": "Industrialization"
+    },
+	    {
+			"name": "Fabrik",
+			"uniqueTo": "Prussia",
+        "replaces": "Factory",
+        "production": 4,
+        "specialistSlots": {"Engineer": 2},
+        "maintenance": 3,
+		"cost": 270,
+        "hurryCostModifier": 0,
+        "uniques": ["+[10]% [Production] [in this city]","Requires a [Workshop] [in this city]"],
         "requiredTech": "Industrialization"
     },
     {

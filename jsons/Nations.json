@@ -1311,8 +1311,31 @@
 		"outerColor": [254,204,32],
 		"innerColor": [0,55,106],
 		"uniqueName": "Eight Banners",
-		"uniques": ["-[100]% [Mounted Ranged] unit maintenance costs","-[100]% [Mounted] unit maintenance costs","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
+		"uniques": ["-[100]% [Mounted Ranged] unit maintenance costs","-[100]% [Mounted] unit maintenance costs","[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
 		"cities": ["Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling","Ningdota","Siping","Anshan"]
+	},
+		{
+		"name": "Maurya",
+		"leaderName": "Ashoka",
+		"adjective": ["Mauryan"],
+//		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [254,204,32],
+		"innerColor": [0,55,106],
+		"uniqueName": "Insriptions of the Dharma",
+		"uniqueText": "All non-Air Units receive a -15% Combat Penalty when attacking, a +15% Combat Bonus when defending, and heal 20 HP every turn in your own territory",
+		"uniques": ["[Land] units gain the [Dharma] promotion","[Water] units gain the [Dharma] promotion"],
+		"cities": ["Pataliputra"]
 	},
 	{
 		"name": "The Maya",
@@ -1386,6 +1409,28 @@
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
 			"Har-Ayrag","Nalayh","Tes"]
 	},
+			{
+		"name": "The Moors",
+		"leaderName": "Abd-ar-Rahman III",
+		"adjective": ["Moorish"],
+//		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [254,204,32],
+		"innerColor": [0,55,106],
+		"uniqueName": "Glory of Al-Andalus",
+		"uniques": ["+[10]% Production when constructing [Buildings] [in all cities]"],
+		"cities": ["Pataliputra"]
+	},
 	{
 		"name": "Morocco",
 		"leaderName": "Ahmad al-Mansur",
@@ -1412,6 +1457,29 @@
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
 			"Taza","Fquih ben Salah","Khouribga","Nador","Settat","Berrechid","Larache","Khemisset","Guelmim","Dakhla",
 			"Chefchaouen","Ben Guerir","Eli Kelaa des Sraghna","Erfoud"]			
+	},
+				{
+		"name": "Mysore",
+		"leaderName": "Hyder Ali",
+		"adjective": ["Mysorean"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [234,0,0],
+		"innerColor": [255,143,0],
+		"uniqueName": "Brahmin Elite",
+		"uniqueText": "Specialists provide +1 Food and Production, but generate +50% more Unhappiness"
+		"uniques": ["[+1 Food] from every specialist","[+1 Production] from every specialist","Specialists only produce [150]% of normal unhappiness"],
+		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
 	},
 	{
 		"name": "The Netherlands",
@@ -1505,6 +1573,29 @@
 		"uniques": ["[+1 Production] from every [Flood plains]","Receive free [Apedemaks Bow] when you discover [Pottery]"],
 		"cities": ["Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe","Shaat","Heh","Dengeil"]
 	},
+						{
+		"name": "Oman",
+		"leaderName": "Saif bin Sultan",
+		"adjective": ["Omani"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [184,179,112],
+		"innerColor": [105,73,45],
+		"uniqueName": "Chain of the Earth",
+		"uniqueText": "All Naval Units ignore Zone of Control movement penalties. Receive a free Seaport in captured Cities"
+		"uniques": ["[Water] units gain the [Chain of the Earth] promotion"],
+		"cities": ["Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe","Shaat","Heh","Dengeil"]
+	},
 	{
 		"name": "The Ottomans",
 		"leaderName": "Suleiman I",
@@ -1528,6 +1619,27 @@
 			"Marsin","Antalya","Zonguldak","Denizli","Ordu","Mugia","Eskishehir","Inebolu","Sinop","Adana","Artuin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarhisar",
 			"Bitlis","Yalova"]
+	},
+								{
+		"name": "Papal State",
+		"leaderName": "Urban II",
+		"adjective": ["Vatican"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [2,51,69],
+		"innerColor": [197,196,72],
+		"uniqueName": "The Holy See",
+		"uniques": ["[+1 Culture, +1 Faith, +1 Production, +1 Food, +1 Gold, +1 Science] from every [Holy Site]"],
+		"cities": ["Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti","Suceava","Buzau","Piatra Neamt"]
 	},
 	{
 		"name": "Persia",
@@ -1652,6 +1764,28 @@
 			"Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego",
 			"Ponta Delgada"]			
+	},
+								{
+		"name": "Prussia",
+		"leaderName": "Frederick",
+		"adjective": ["Prussian"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [2,51,69],
+		"innerColor": [197,196,72],
+		"uniqueName": "Army with a State",
+		"uniqueText": "All Land Units may receive unique Promotions upon leveling up. +50% Food and Production from Trade Routes",
+		"uniques": ["[Land] units gain the [Gehorsam] promotion","+[50]% yield from every [Land Trade Route (Food)]","+[50]% yield from every [Land Trade Route (Production)]","+[50]% yield from every [Sea Trade Route (Food)]","+[50]% yield from every [Sea Trade Route (Production)]"],
+		"cities": ["Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti","Suceava","Buzau","Piatra Neamt"]
 	},
 							{
 		"name": "Romania",

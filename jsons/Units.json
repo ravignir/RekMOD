@@ -11,6 +11,16 @@
 		"uniques": ["Can build [Land] improvements on tiles"]
 	},
 		{
+		"name": "Fast Worker",
+		"replaces": "Worker",
+		"uniqueTo": "Maurya",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 36,
+		"promotions": ["Ignores terrain cost"],
+		"uniques": ["Can build [Land] improvements on tiles"]
+	},
+		{
 		"name": "Ngangkari",
 		"uniqueTo": "Australia",
 		"replaces": "Worker",
@@ -46,8 +56,9 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
+		"promotions": ["Ignores terrain cost"],
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population","Ignores terrain cost"],
+			"Requires at least [2] population"],
 	},
 		{
 		"name": " Venice Settler",
@@ -574,7 +585,23 @@
 		"rangedStrength": 9,
 		"cost": 56,
 		"requiredTech": "Optics",
-		"uniques": ["Cannot enter ocean tiles","Bonus vs water units 45%"],
+		"uniques": ["Cannot enter ocean tiles","+[45]% Strength vs [water units]"],
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+			{
+		"name": "Baghlah"
+		"uniqueTo": "Oman",
+		"replaces": "Dromon", 
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 8,
+		"rangedStrength": 9,
+		"cost": 56,
+		"requiredTech": "Optics",
+		"promotions": ["Coastal Raider I"],
+		"uniques": ["Cannot enter ocean tiles","+[45]% Strength vs [water units]","Earn [100]% of [military] opponent's [Strength] as [Faith] for kills","Earn [100]% of [military] opponent's [Strength] as [Gold] for kills"],
 		"upgradesTo": "Frigate",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -1057,6 +1084,20 @@
 		"attackSound": "metalhit"
 	},
 		{
+		"name": "Swiss Guard",
+		"uniqueTo": "Papal State",
+		"replaces": "Landsknecht",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 25,
+		"cost": 60,
+		"requiredTech": "Economics",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["+[50]% Strength vs [Mounted]","+[50]% Strength vs [Mounted Ranged]","Earn [100]% of [military] opponent's [Strength] as [Gold] for kills","Earn [100]% of [military] opponent's [Strength] as [Faith] for kills"],
+		"upgradesTo": "Rifleman",
+		"attackSound": "metalhit"
+	},
+		{
 		"name": "Ulan",
 		"replaces": "Pikeman"
 		"unitType": "Mounted",
@@ -1409,7 +1450,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Ignores terrain cost"],
+		"promotions": ["Ignores terrain cost"],
 		"promotions": ["Drill I"],
 		"attackSound": "shot"
 	},
@@ -1495,20 +1536,20 @@
 		"attackSound": "horse"
 	},
 		{
-		"name": "Zaphorosian Cossack",
+		"name": "Grenadine Cavalry",
+		"uniqueTo": "The Moors",
 		"replaces": "Lancer",
-		"uniqueTo": "Ukraine",
-		"unitType": "Mounted",
+		"unitType": "Mounted Ranged",
 		"movement": 4,
 		"strength": 25,
+		"range": 2,
+		"rangedStrength": 29,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
-		"promotions": ["Ambush Formation I","Shock I"],
-		"uniques": ["Can move after attacking","+[25]% Strength in [Friendly Land]","No defensive terrain bonus",
-			"-[33]% Strength vs [City]","Consumes [1] [Horses]"],
-		"attackSound": "horse"
+		"uniques": ["No defensive terrain bonus","Consumes [1] [Horses]"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Sipahi",
@@ -1581,6 +1622,22 @@
 		"obsoleteTech": "Ballistics",
 		"attackSound": "machinegun"
 	},
+			{
+		"name": "Tachanka",
+		"replaces": "Gatling Gun",
+		"unitType": "Mounted Ranged",
+		"uniqueTo": "Ukraine",
+		"range": 2,
+		"movement": 4,
+		"strength": 31,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Mounted Ranged]"],
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
@@ -1603,6 +1660,21 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Replaceable Parts",
 		"promotions": ["Volley","Altitude Training"],
+		"uniques": ["Consumes [1] [Iron]"],
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+			{
+		"name": "Landwehr",
+		"uniqueTo": "Prussia",
+		"replaces": "Rifleman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 29,
+		"cost": 180,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Replaceable Parts",
+		"promotions": ["Blitz","Quick Study"],
 		"uniques": ["Consumes [1] [Iron]"],
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
@@ -1806,6 +1878,21 @@
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack",
+			"Limited Visibility","Ranged attacks may be performed over obstacles"]
+	},
+		{
+		"name": "Rocket Corps",
+		"uniqueTo": "Mysore",
+		"replaces": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 250,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": ["+[200]% Strength vs [City]","+[25]% Strength vs [Melee]","+[25]% Strength vs [Gunpowder]","No defensive terrain bonus",
 			"Limited Visibility","Ranged attacks may be performed over obstacles"]
 	},
 	{
@@ -2026,6 +2113,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Nuclear Fission",
+		"promotions": ["Ignores terrain cost"],
 		"uniques": ["Ignores terrain cost","+[25]% Strength vs [Armored]","No movement cost to pillage"]
 		"attackSound": "machinegun"
 	},

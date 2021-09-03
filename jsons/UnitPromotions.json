@@ -215,19 +215,19 @@
 	
 	{
 		"name": "Coastal Raider I",
-		"uniques": ["+[15]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["+[15]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	{
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
-		"uniques": ["+[15]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	
@@ -694,5 +694,71 @@
 		"name": "Swift Charge",
 		"uniques": ["+[50]% Strength vs [Melee]","+[25]% Strength vs [Gunpowder]"],
 	},
+				{
+		"name": "Dharma",
+		"uniques": ["+[-15]% Strength when attacking","[+10] HP when healing in [Friendly Land] tiles", "+[15]% Strength when defending"]
+				},
+								{
+		"name": "Chain of the Earth",
+		"uniques": ["Ignores Zone of Control"]
+				},
+// PRUSSIA
+{
+		"name": "Gehorsam", // only for Kris Swordsman and subsequent upgrades
+		"uniques": ["Access to special promotions"]
+	},
+	{
+		"name": "Disziplin",
+		"uniques": ["+[10]% Strength when attacking","+[10]% Strength when defending"],
+		"prerequisites": ["Gehorsam"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
+	{
+		"name": "Fleiss",
+		"uniques": ["+[25]% Strength when attacking"],
+		"prerequisites": ["Disziplin"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
+		{
+		"name": "Tapferkeit",
+		"uniques": ["+[25]% Strength when defending"],
+		"prerequisites": ["Disziplin"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
+		{
+		"name": "Zielstrebigkei",
+		"uniques": ["[1] additional attacks per turn"],
+		"prerequisites": ["Fleiss"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
+		{
+		"name": "Härte",
+		"uniques": ["[+50]% Strength when defending vs [Ranged] units"],
+		"prerequisites": ["Tapferkeit"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
+		{
+		"name": "Pünktlichkeit",
+		"uniques": ["[+1] Movement"],
+		"prerequisites": ["Fleiss","Tapferkeit"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
+		{
+		"name": "Zuverlässigkeit:",
+		"uniques": ["Unit will heal every turn, even if it performs an action","Great General provides double combat bonus"],
+		"prerequisites": ["Zielstrebigkei"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
+		{
+		"name": "Zurückhaltung",
+		"uniques": ["+[30]% Strength in [Friendly Land]"],
+		"prerequisites": ["Härte"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
+			{
+		"name": "Pflichtbewusstsein",
+		"uniques": ["[+1] Movement","+[50]% Strength vs [Armor]","+[50]% Strength vs [Mounted]","+[50]% Strength vs [Armored]","+[50]% Strength vs [Mounted Ranged]"],
+		"prerequisites": ["Pünktlichkeit"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
+	},
 ]
-
