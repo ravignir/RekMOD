@@ -744,7 +744,7 @@
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
 		{
-		"name": "Zuverlässigkeit:",
+		"name": "Zuverlässigkeit",
 		"uniques": ["Unit will heal every turn, even if it performs an action","Great General provides double combat bonus"],
 		"prerequisites": ["Zielstrebigkei"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]

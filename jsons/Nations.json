@@ -1330,12 +1330,12 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [254,204,32],
-		"innerColor": [0,55,106],
+		"outerColor": [42,34,0],
+		"innerColor": [146,129,55],
 		"uniqueName": "Insriptions of the Dharma",
 		"uniqueText": "All non-Air Units receive a -15% Combat Penalty when attacking, a +15% Combat Bonus when defending, and heal 20 HP every turn in your own territory",
 		"uniques": ["[Land] units gain the [Dharma] promotion","[Water] units gain the [Dharma] promotion"],
-		"cities": ["Pataliputra"]
+		"cities": ["Pataliputra","Sarnath","Ujjain","Mathura","Indraprastha","Suvarnagiri","Tamralipti","Varanasi","Lumbini","Toshali","Sanchi","Kausambi","Amaravati","Lauriya-Araraj","Bodh Gaya","Sopara","Lalitapatna"]
 	},
 	{
 		"name": "The Maya",
@@ -1425,11 +1425,11 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [254,204,32],
-		"innerColor": [0,55,106],
+		"outerColor": [237,197,82],
+		"innerColor": [186,60,3],
 		"uniqueName": "Glory of Al-Andalus",
 		"uniques": ["+[10]% Production when constructing [Buildings] [in all cities]"],
-		"cities": ["Pataliputra"]
+		"cities": ["Cordoba","Granada","Valencia","Murcia","Toledo","Zaragoza","Seville","Malaga","Almeria","Salamanca","Huelva","Merida","Badajoz","Tortosa","Kulumriyya","Cadiz"]
 	},
 	{
 		"name": "Morocco",
@@ -1474,12 +1474,12 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [234,0,0],
-		"innerColor": [255,143,0],
+		"outerColor": [47,95,47],
+		"innerColor": [249,249,20],
 		"uniqueName": "Brahmin Elite",
 		"uniqueText": "Specialists provide +1 Food and Production, but generate +50% more Unhappiness"
 		"uniques": ["[+1 Food] from every specialist","[+1 Production] from every specialist","Specialists only produce [150]% of normal unhappiness"],
-		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
+		"cities": ["Mysuru","Hunsur","Bannur","Bengaluru","Nanjanagudu","Periyapatna","Saligrama","Virajpet","Madikeri","Mandya","Maddur","Nagamangala","Narasipura","Arkalgud","Hassan","Belur","Turuvekere","Mudigere","Koppa"]
 	},
 	{
 		"name": "The Netherlands",
@@ -1589,12 +1589,12 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [184,179,112],
-		"innerColor": [105,73,45],
+		"outerColor": [155,44,24],
+		"innerColor": [211,204,27],
 		"uniqueName": "Chain of the Earth",
 		"uniqueText": "All Naval Units ignore Zone of Control movement penalties. Receive a free Seaport in captured Cities"
 		"uniques": ["[Water] units gain the [Chain of the Earth] promotion"],
-		"cities": ["Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe","Shaat","Heh","Dengeil"]
+		"cities": ["Muscat","Salalah","Nizwa","Sur","Ibra","Bahla","Rustaq","Barka","Muttrah","Sahar","Sahan","Samail","Khasab","Raysut","Jabrin","Al Hamra","Seeb","Duqm"]
 	},
 	{
 		"name": "The Ottomans",
@@ -1635,11 +1635,11 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [2,51,69],
-		"innerColor": [197,196,72],
+		"outerColor": [242,242,0],
+		"innerColor": [153,153,153],
 		"uniqueName": "The Holy See",
 		"uniques": ["[+1 Culture, +1 Faith, +1 Production, +1 Food, +1 Gold, +1 Science] from every [Holy Site]"],
-		"cities": ["Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti","Suceava","Buzau","Piatra Neamt"]
+		"cities": ["Vatican City","Benevento","Pontecorvo","San Marino","Terracina","Narni","Spoleto","Assisi","Arpino","Perugia","Macerata","Ancona","Forli","Rimini","Ascoli","Pesaro","Ferrara"]
 	},
 	{
 		"name": "Persia",
@@ -1780,12 +1780,12 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [2,51,69],
-		"innerColor": [197,196,72],
+		"outerColor": [35,104,156],
+		"innerColor": [0,0,0],
 		"uniqueName": "Army with a State",
 		"uniqueText": "All Land Units may receive unique Promotions upon leveling up. +50% Food and Production from Trade Routes",
 		"uniques": ["[Land] units gain the [Gehorsam] promotion","+[50]% yield from every [Land Trade Route (Food)]","+[50]% yield from every [Land Trade Route (Production)]","+[50]% yield from every [Sea Trade Route (Food)]","+[50]% yield from every [Sea Trade Route (Production)]"],
-		"cities": ["Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti","Suceava","Buzau","Piatra Neamt"]
+		"cities": ["Konigsberg","Danzig","Memel","Stettin","Breslau","Leipzig","Potsdam","Hamburg","Magdeburg","Dresden","Lubeck","Rostock","Berlin","Straslund,","Greifswald","Kolberg","Brandenburg","Freiberg"]
 	},
 							{
 		"name": "Romania",
@@ -2161,7 +2161,7 @@
 		"outerColor": [21,34,78],
 		"innerColor": [255,233,142],
 		"uniqueName": "The Way of Chumaks",
-		"uniques": ["+1 Food from Maize, Wheat and Salt resources after researching The Wheel"],
+		"uniqueText": "+1 Food from Maize, Wheat and Salt resources after researching The Wheel, +2 Gold from each city connected to capital",
 		"cities": ["Kiev","Kharkiv","Zaporizhia","Odessa","Dnipropetrovsk","Donetsk","Luhansk","Zhytomyr","Lviv","Kryvyi Rih","Chernihiv","Mariupol","Mykolaiv"]
 	},
 	{
@@ -2187,12 +2187,8 @@
 		"
 		"uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]",
 			"Double quantity of [Trade Route] produced"],
-		"cities": ["Venice","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
-			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
-			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
-			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
-			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"
-		]
+		"cities": ["Venice","Ragusa","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato","Veroz","Ravenna","Negroponte","Athens","Burano","Leonessa","Cerigo"]
+		
 	},
 							{
 		"name": "Vietnam",

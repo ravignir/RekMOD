@@ -158,6 +158,12 @@
         "cost": 1,
         "uniques": ["Provides a free [Burial Tomb] [in this city]","Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
     },
+	{
+        "name": "Free Seaport",
+		"uniqueTo": "Oman",
+        "cost": 1,
+        "uniques": ["Provides a free [Seaport] [in this city]","Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
+    },
 			    {
         "name": "Free Jarliq",
 		"uniqueTo": "Golden Horde",
