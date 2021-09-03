@@ -1333,7 +1333,7 @@
 		"outerColor": [42,34,0],
 		"innerColor": [146,129,55],
 		"uniqueName": "Insriptions of the Dharma",
-		"uniqueText": "All non-Air Units receive a -15% Combat Penalty when attacking, a +15% Combat Bonus when defending, and heal 20 HP every turn in your own territory",
+		"uniqueText": "All non-Air Units receive a -15% Combat Penalty when attacking, a +15% Combat Bonus when defending, and heal 10 HP more every turn in your own territory",
 		"uniques": ["[Land] units gain the [Dharma] promotion","[Water] units gain the [Dharma] promotion"],
 		"cities": ["Pataliputra","Sarnath","Ujjain","Mathura","Indraprastha","Suvarnagiri","Tamralipti","Varanasi","Lumbini","Toshali","Sanchi","Kausambi","Amaravati","Lauriya-Araraj","Bodh Gaya","Sopara","Lalitapatna"]
 	},
