@@ -632,7 +632,7 @@
 		"happiness": 1,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry"
-				"uniques": ["Destroyed when the city is captured"]
+				"uniques": ["Destroyed when the city is captured","[+1 Production] once [Metal Casting] is discovered"]
     },
 	    {
         "name": "Murus Gallicus",
