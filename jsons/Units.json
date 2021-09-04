@@ -1079,7 +1079,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","+[50]% Strength vs [Mounted]","Unlocked with [Mercenary Army]","+[50]% Strength vs [Mounted Ranged]"],
+		"uniques": ["+[50]% Strength vs [Mounted]","Unlocked with [Mercenary Army]","+[50]% Strength vs [Mounted Ranged]"],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
 	},
@@ -1093,7 +1093,7 @@
 		"cost": 65,
 		"requiredTech": "Economics",
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","+[50]% Strength vs [Mounted]","+[50]% Strength vs [Mounted Ranged]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"uniques": ["+[50]% Strength vs [Mounted]","+[50]% Strength vs [Mounted Ranged]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
 		"upgradesTo": "Rifleman",
 		"attackSound": "metalhit"
 	},
