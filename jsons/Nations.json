@@ -268,7 +268,7 @@
 		"uniqueName": "Sacrificial Captives",
 		"uniqueText": " Gains Culture for the empire from each enemy unit killed
 		",
-		"uniques": ["Earn [100]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
 			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",

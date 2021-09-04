@@ -512,7 +512,7 @@
 		"cost": 45,
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Swordsman",
-		"uniques":["Earn [100]% of [military] opponent's [Strength] as [Faith] for kills","May upgrade to [Pictish Swordsman] through ruins-like effects"],
+		"uniques":["Earn [100]% of killed [Military] unit's [Strength] as [Faith]","May upgrade to [Pictish Swordsman] through ruins-like effects"],
 		"attackSound": "metalhit"
 	},
 		{
@@ -524,7 +524,7 @@
 		"cost": 75,
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Longswordsman",
-		"uniques":["Unbuildable","Earn [100]% of [military] opponent's [Strength] as [Faith] for kills"],
+		"uniques":["Unbuildable","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
 		"attackSound": "metalhit"
 	},
 	
@@ -601,7 +601,7 @@
 		"cost": 56,
 		"requiredTech": "Optics",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["Cannot enter ocean tiles","+[45]% Strength vs [water units]","Earn [100]% of [military] opponent's [Strength] as [Faith] for kills","Earn [100]% of [military] opponent's [Strength] as [Gold] for kills"],
+		"uniques": ["Cannot enter ocean tiles","+[45]% Strength vs [water units]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
 		"upgradesTo": "Frigate",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -685,7 +685,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Consumes [1] [Iron]","Earn [100]% of [military] opponent's [Strength] as [Faith] for kills"],
+		"uniques": ["Consumes [1] [Iron]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"zz],
 		"obsoleteTech": "Steel",
 		"attackSound": "metalhit"
 	},
@@ -940,7 +940,7 @@
 		"requiredTech": "Theology",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Consumes [1] [Iron]","May enter foreign tiles without open borders","+[20]% Strength in [Foreign Land]","Earn [150]% of [military] opponent's [Strength] as [Faith] for kills"],
+		"uniques": ["Consumes [1] [Iron]","May enter foreign tiles without open borders","+[20]% Strength in [Foreign Land]","Earn [150]% of killed [Military] unit's [Strength] as [Faith]"],
 		"attackSound": "metalhit"
 	},
 			{
@@ -1093,7 +1093,7 @@
 		"cost": 60,
 		"requiredTech": "Economics",
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["+[50]% Strength vs [Mounted]","+[50]% Strength vs [Mounted Ranged]","Earn [100]% of [military] opponent's [Strength] as [Gold] for kills","Earn [100]% of [military] opponent's [Strength] as [Faith] for kills"],
+		"uniques": ["+[50]% Strength vs [Mounted]","+[50]% Strength vs [Mounted Ranged]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
 		"upgradesTo": "Rifleman",
 		"attackSound": "metalhit"
 	},
