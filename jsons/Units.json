@@ -685,7 +685,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Consumes [1] [Iron]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"zz],
+		"uniques": ["Consumes [1] [Iron]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
 		"obsoleteTech": "Steel",
 		"attackSound": "metalhit"
 	},
