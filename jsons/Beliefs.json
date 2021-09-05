@@ -126,7 +126,7 @@
 	    {
         "name": "Rain Dancing",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, + 2 Faith] from every [Lakes]", "[+1 Culture, + 2 Faith] from every [Oasis]"]
+        "uniques": ["[+1 Culture] from every [Lakes]", "[+1 Culture] from every [Oasis]","[+2 Faith] from every [Lakes]", "[+2 Faith] from every [Oasis]"]
     },
     {
         "name": "Religious Idols",
