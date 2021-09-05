@@ -246,11 +246,21 @@
         "type": "Follower",
         "uniques": ["[+15]% growth [in this city] when not at war"]
     },
+ {
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [10]%"]
+    },
 	///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
     {
         "name": "Church Property",
         "type": "Founder",
         "uniques": ["[+1 Gold, +1 Culture] for each global city following this religion"]
+    },
+ {
+        "name": "Tithe",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] for every [4] global followers [in all cities]"]
     },
     {
         "name": "Initiation Rites",
@@ -273,12 +283,12 @@
     // Missing: World Churhc (requires followers)
 		{
         "name": "Ceremonial Burial",
-        "type": "Follower",
+        "type": "Founder",
         "uniques": ["[+1 Happiness] from every [Palace]","[+1 Happiness] for each global city following this religion"]
     },
 	{
         "name": "Dawah",
-        "type": "Follower",
+        "type": "Funder",
         "uniques": ["[+4 Culture] from every [Palace]"]
     },
 	{
