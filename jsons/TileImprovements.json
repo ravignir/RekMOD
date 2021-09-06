@@ -95,39 +95,39 @@
 		"name": "Land Trade Route (Food)",
 		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"food": 1,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
 	},
 	{
 		"name": "Land Trade Route (Production)",
 		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"production": 1,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
 	},
 	{
 		"name": "Land Trade Route (Gold)",
 		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
-		"gold": 4,
+		"gold": 2,
 		"science": 2,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
 	},
 	{
 		"name": "Sea Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
-		"food": 4,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"food": 2,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
-		"production": 4,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"production": 2,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
-		"gold": 6,
-		"science": 3,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"gold": 4,
+		"science": 2,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
 	},
 
 	// Military improvements

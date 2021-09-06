@@ -17,6 +17,36 @@
 		"uniques": ["Unbuildable"]
 	},
 		{
+		"name": "Pagoda",
+		"cost": 0,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": ["Unbuildable","[10]% of food is carried over after population increases"]
+	},
+			{
+		"name": "Gurdwara",
+		"cost": 0,
+		"culture": 1,
+		"faith": 5,
+		"happiness": 1,
+		"uniques": ["Unbuildable"]
+	},
+				{
+		"name": "Synagogue",
+		"cost": 0,
+		"culture": 1,
+		"faith": 2,
+		"production": 1,
+		"uniques": ["Unbuildable","+[15]% Production when constructing [Buildings] [in this city]"]
+	},
+				{
+		"name": "Vihara",
+		"cost": 0,
+		"faith": 1,
+		"happiness": 1,
+		"uniques": ["Unbuildable","+[15]% [Gold] [in this city]"]
+	},
+		{
 		"name": "Mandir",
 		"cost": 0,
 		"culture": 2,
@@ -28,7 +58,7 @@
         "name": "~limit",
 	    "gold": 2,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+        "uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
     },
     {
         "name": "Cloves", // Indonesian luxury
@@ -58,7 +88,7 @@
         "requiredTech": "Theology",
         "cost": 1,
         "replacementTextForUniques": " ",
-        "uniques": ["Not displayed as an available construction without [Palace]",
+        "uniques": ["Destroyed when the city is captured","Not displayed as an available construction without [Palace]",
         	"Will not be displayed in Civilopedia","Unsellable"]
     },
     {
@@ -66,6 +96,21 @@
         "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Unsellable","Will not be displayed in Civilopedia","Unbuildable"]
+    },
+		    {
+        "name": "Classical Trade Routes",
+        "cost": -1,
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Science)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
+    },
+			    {
+        "name": "Renaissance Trade Routes",
+        "cost": -1,
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Science)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
+    },
+			    {
+        "name": "Modern Trade Routes",
+        "cost": -1,
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Science)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Morocco Classical",
@@ -126,7 +171,7 @@
         "name": "Bonus Trade Routes",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Provides [2] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
+        "uniques": ["Provides [2] [Trade Route (Count)]","Provides [2] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
     },
 	    {
         "name": "Castle Builders",
@@ -145,12 +190,12 @@
 	{
 		"name": "Great Zimbabwe",
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","Will not be displayed in Civilopedia","+[25]% Production when constructing [Buildings] [in this city]","+[25]% Production when constructing [Military] units [in this city]"]
+		"uniques": ["Destroyed when the city is captured","Unsellable","Unbuildable","Will not be displayed in Civilopedia","+[25]% Production when constructing [Buildings] [in this city]","+[25]% Production when constructing [Military] units [in this city]"]
 	}		
 		{
         "name": "GPBonus",
 		"cost": 1,
-        "uniques": ["[+33]% great person generation [in this city]","Unsellable","Unbuildable","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","[+33]% great person generation [in this city]","Unsellable","Unbuildable","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Free Burial Tomb",
@@ -207,126 +252,126 @@
         "name": "Italy Liberty",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Liberty Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Tradition",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Tradition Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Honor",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Honor Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Piety",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Piety Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Commerce",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Commerce Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Patronage",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Patronage Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Aesthetics",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Aesthetics Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Rationalism",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Rationalism Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Exploration",
 		"uniqueTo": "Italy",
         "cost": 1,
-		"isNationalWonder": "true",
+		"isNationalWonder": true,
         "uniques": ["Unlocked with [Exploration Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Trade Route1",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Animal Husbandry",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route2",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Sailing",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Trade Route3",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Engineering",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route4",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Compass",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route5",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Banking",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route6",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Biology",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route7",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Railroads",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route8",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Pharmaceuticals",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Trade Route9",
-        "isNationalWonder": "true",
+        "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Cannot be built with [~CS]","Provides [2] [Trade Route]","Requires [Entrepreneurship]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [2] [Trade Route (Count]","Provides [2] [Trade Route]","Requires [Entrepreneurship]","Will not be displayed in Civilopedia"]
     },
 	
 	// Buildings & Wonders
@@ -428,7 +473,8 @@
 		    		    "[+1 Food] from [Olives] tiles [in this city]",
 		    "[+1 Food] from [Citrus] tiles [in this city]",
 		    "[+1 Food] from [Bison] tiles [in this city]",
-			"[+3 Food] from [Land Trade Route (Food)] tiles [in this city]",],
+			"[+1 Food] from [Land Trade Route (Food)] tiles [in this city]",
+			"[+2 Food] from [Sea Trade Route (Food)] tiles [in this city]"],
         "requiredTech": "Pottery"
     },
 	    {
@@ -439,8 +485,9 @@
         "maintenance": 1,
 		"cost": 45,
         "hurryCostModifier": 25,
-        "uniques": ["[+3 Food] from [Land Trade Route (Food)] tiles [in this city]",
-        	"[+3 Food] from [Sea Trade Route (Food)] tiles [in this city]","[+1 Food] from [Deer] tiles [in this city]",
+        "uniques": ["[+1 Food] from [Land Trade Route (Food)] tiles [in this city]",
+			"[+2 Food] from [Sea Trade Route (Food)] tiles [in this city]"
+        	"[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 		    "[+1 Food] from [Maize] tiles [in this city]",
 		    "[+1 Food] from [Olives] tiles [in this city]",
@@ -458,8 +505,8 @@
         "maintenance": 1,
 		"cost": 54,
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Gold] from [Wheat] tiles [in this city]","[+1 Gold] from [Cattle] tiles [in this city]","[+3 Food] from [Land Trade Route (Food)] tiles [in this city]",
-        	"[+3 Food] from [Sea Trade Route (Food)] tiles [in this city]","[+1 Food] from [Deer] tiles [in this city]",
+        "uniques": ["[+1 Gold] from [Wheat] tiles [in this city]","[+1 Gold] from [Cattle] tiles [in this city]","[+1 Food] from [Land Trade Route (Food)] tiles [in this city]",
+			"[+2 Food] from [Sea Trade Route (Food)] tiles [in this city]","[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 		    "[+1 Food] from [Maize] tiles [in this city]",
 		    		    "[+1 Food] from [Olives] tiles [in this city]",
@@ -716,7 +763,7 @@
         "gold": 5,
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
-        "uniques": ["Must be next to [Coast]","Provides [1] [Trade Route]","Free [Cargo Ship] appears","[+1 Gold] from [Water] tiles [in this city]"],
+        "uniques": ["Must be next to [Coast]","Provides [1] [Trade Route]","Provides [1] [Trade Route (Count]","Free [Cargo Ship] appears","[+1 Gold] from [Water] tiles [in this city]"],
         "requiredTech": "Iron Working",
         "quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
     },
@@ -1132,7 +1179,7 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "culture": 1,
         "uniques": ["[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]","[+6 Culture] once [Archaeology] is discovered",
-            "Provides [1] [Trade Route]","Free [Caravan] appears","Must be next to [Desert]"],
+            "Provides [1] [Trade Route]","Provides [1] [Trade Route (Count]","Free [Caravan] appears","Must be next to [Desert]"],
         "requiredTech": "Currency",
         "quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
     },
@@ -1269,9 +1316,9 @@
         "gold": 4,
         "culture": 1,
         "isNationalWonder": true,
-        "uniques": ["[+2 Gold] from every [Land Trade Route (Food)]","[+2 Gold] from every [Land Trade Route (Production)]",
-            "[+2 Gold] from every [Land Trade Route (Gold)]","[+2 Gold] from every [Sea Trade Route (Food)]",
-            "[+2 Gold] from every [Sea Trade Route (Production)]","[+2 Gold] from every [Sea Trade Route (Gold)]",
+        "uniques": ["Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","[+1 Gold] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
+            "[+2 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
+            "[+1 Gold] from every [Sea Trade Route (Production)]","[+2 Gold] from every [Sea Trade Route (Gold)]",
             "Cost increases by [30] per owned city","Requires a [Market] in all cities"],
         "requiredTech": "Guilds"
     },
@@ -1301,8 +1348,8 @@
         "production": 2, 
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+3 Production] from [Land Trade Route (Production)] tiles [in this city]", "[+1 Production] from [Hardwood] tiles [in this city]"
-            "[+3 Production] from [Sea Trade Route (Production)] tiles [in this city]","+[10]% [Production] [in this city]"],
+        "uniques": ["[+1 Production] from [Land Trade Route (Production)] tiles [in this city]", "[+1 Production] from [Hardwood] tiles [in this city]"
+            "[+2 Production] from [Sea Trade Route (Production)] tiles [in this city]","+[10]% [Production] [in this city]"],
         "requiredTech": "Metal Casting"
     },
 	    {
@@ -1313,8 +1360,8 @@
         "production": 1,
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+2 Production] from [Coral] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]","[+1 Culture] from [Crab] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]","[+1 Culture] from [Pearls] tiles [in this city]","[+2 Gold] from [Whales] tiles [in this city]","[+1 Food] from [Fish] tiles [in this city]","[+3 Production] from [Land Trade Route (Production)] tiles [in this city]",
-            "[+3 Production] from [Sea Trade Route (Production)] tiles [in this city]","+[10]% [Production] [in this city]"],
+        "uniques": ["[+2 Production] from [Coral] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]","[+1 Culture] from [Crab] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]","[+1 Culture] from [Pearls] tiles [in this city]","[+2 Gold] from [Whales] tiles [in this city]","[+1 Food] from [Fish] tiles [in this city]","[+1 Production] from [Land Trade Route (Production)] tiles [in this city]",
+            "[+2 Production] from [Sea Trade Route (Production)] tiles [in this city]","+[10]% [Production] [in this city]"],
         "requiredTech": "Metal Casting"
     },
 	    {
@@ -1356,7 +1403,7 @@
         "production": 2,
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
-        "uniques": ["+[10]% [Production] [in this city]","[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Jungle] tiles [in this city]","[+3 Production] from [Land Trade Route (Production)] tiles [in this city]",
+        "uniques": ["+[10]% [Production] [in this city]","[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Jungle] tiles [in this city]","[+1 Production] from [Land Trade Route (Production)] tiles [in this city]",
             "[+2 Production] from [Sea Trade Route (Production)] tiles [in this city]"],
         "requiredTech": "Metal Casting"
     },
@@ -1389,7 +1436,7 @@
         "requiredTech": "Compass"
     },
 	    {
-			"name": "Minaa’"
+			"name": "Minaa"
 			"uniqueTo": "Oman"
         "replaces": "Harbor",
         "maintenance": 2,
@@ -1397,8 +1444,7 @@
         "hurryCostModifier": 25,
         "uniques": ["[+1 Gold] from [Sea Trade Route (Food)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Production)] tiles [in this city]","[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]","[+2 Production] from [Sea Trade Route (Food)] tiles [in this city]",
-            "[+2 Production] from [Sea Trade Route (Production)] tiles [in this city]","[+2 Production] from [Sea Trade Route (Gold)] tiles [in this city]","[+2 Production] from [Land Trade Route (Food)] tiles [in this city]",
-            "[+2 Production] from [Land Trade Route (Production)] tiles [in this city]","[+2 Production] from [Land Trade Route (Gold)] tiles [in this city]",
+            "[+2 Production] from [Sea Trade Route (Production)] tiles [in this city]","[+2 Production] from [Sea Trade Route (Gold)] tiles [in this city]",
             "Connects trade routes over water","Must be next to [Coast]"],
         "requiredTech": "Compass"
     },

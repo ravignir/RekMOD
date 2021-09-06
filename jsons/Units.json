@@ -106,7 +106,7 @@
 		"movement": 2,
 		"cost": 75,
 		"uniques": ["Can construct [Land Trade Route (Food)]","Can construct [Land Trade Route (Production)]",
-			"Can construct [Land Trade Route (Gold)]","Consumes [1] [Trade Route]"],
+			"Can construct [Land Trade Route (Gold)]","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
 		"requiredTech": "Animal Husbandry"
 	},
 	{
@@ -115,7 +115,7 @@
 		"movement": 4,
 		"cost": 75,
 		"uniques": ["Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
-			"Can construct [Sea Trade Route (Gold)]","Consumes [1] [Trade Route]"],
+			"Can construct [Sea Trade Route (Gold)]","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
 		"requiredTech": "Sailing"
 	},
 	{

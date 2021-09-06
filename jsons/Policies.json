@@ -114,7 +114,7 @@
 			{
 				"name": "Military Tradition",
 				"uniques": ["Gold cost of upgrading [Military] units reduced by [20]%","+[100]% Production when constructing [Courthouse]",
-					"[+3 Production, + 3 Gold, +3 Food] from every [Courthouse]"],
+					"[+3 Production, +3 Gold, +3 Food] from every [Courthouse]"],
 				"requires": ["Professional Army","Warrior Code"],
 				"row": 2,
 				"column": 3
@@ -128,7 +128,7 @@
 			},
 			{
 				"name": "Honor Complete",
-				"uniques": ["+[10]% [Food] [in all cities]","Earn [33]% of killed [Military] unit's [Strength] as [Science]","+[100]% Production when constructing [Heroic Epic]","[+4 Production, + 4 Gold, +4 Culture] from every [Heroic Epic]","May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"],
+				"uniques": ["+[10]% [Food] [in all cities]","Earn [33]% of killed [Military] unit's [Strength] as [Science]","+[100]% Production when constructing [Heroic Epic]","[+4 Production, +4 Gold, +4 Culture] from every [Heroic Epic]","May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"],
 			}
 		]
 	},

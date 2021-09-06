@@ -293,7 +293,7 @@
 		"improvementStats": {"food": 0, "gold": 1}
 	}
 	{
-		"name": "Bison", //modded
+		"name": "Bison", 
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
@@ -301,7 +301,7 @@
 		"improvementStats": {"food": 1},
 	},
 	{
-		"name": "Citrus", //modded
+		"name": "Citrus", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Grassland"],
 		"food": 1,
@@ -310,7 +310,7 @@
 		"improvementStats": {"food": 1,"gold": 1},
 	},
 		{
-		"name": "Olives", //modded
+		"name": "Olives", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
@@ -319,7 +319,7 @@
 		"improvementStats": {"food": 1,"gold": 1},
 	},
 	{
-		"name": "Copper", //modded
+		"name": "Copper", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra","Snow"],
 		"gold": 2,
@@ -327,7 +327,7 @@
 		"improvementStats": {"production": 1, "gold": 1}
 	},
 	{
-		"name": "Cocoa", //modded
+		"name": "Cocoa", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
@@ -336,7 +336,7 @@
 		"improvementStats": {"food": 1,"gold": 1}
 	},
 		{
-		"name": "Coffee", //modded
+		"name": "Coffee", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"production": 1,
@@ -345,7 +345,7 @@
 		"improvementStats": {"food": 1,"gold": 1}
 	},
 			{
-		"name": "Tea", //modded
+		"name": "Tea", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"production": 1,
@@ -354,7 +354,7 @@
 		"improvementStats": {"food": 1,"gold": 1}
 	},
 				{
-		"name": "Tobacco", //modded
+		"name": "Tobacco", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
@@ -362,7 +362,7 @@
 		"improvementStats": {"faith": 2,"gold": 1}
 	},
 	{
-		"name": "Crab", //modded
+		"name": "Crab", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
@@ -371,7 +371,7 @@
 		"improvementStats": {"food": 1,"gold": 1},
 	},
 		{
-		"name": "Coral", //modded
+		"name": "Coral", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
@@ -379,7 +379,7 @@
 		"improvementStats": {"food": 1,"gold": 1},
 	},
 	{
-		"name": "Truffles", //modded
+		"name": "Truffles", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
@@ -387,7 +387,7 @@
 		"improvementStats": {"gold": 2, "food": 1}
 	},
 	{
-		"name": "Salt", //modded
+		"name": "Salt", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra"],
 		"gold": 1,
@@ -396,17 +396,17 @@
 		"improvementStats": {"food": 1, "production": 1},
 	},
 	{
-		"name": "Nutmeg", //modded
+		"name": "Nutmeg", 
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
 	{
-		"name": "Cloves", //modded
+		"name": "Cloves", 
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
 	{
-		"name": "Pepper", //modded
+		"name": "Pepper", 
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
@@ -425,7 +425,7 @@
 
 	// Ingame Mechanics
 	{
-		"name": "Antiquity Site", //modded
+		"name": "Antiquity Site", 
 		"resourceType": "Bonus",
 		"revealedBy": "Archaeology",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert"],
@@ -433,8 +433,13 @@
 		"improvementStats": {"culture": 7},
 	},
 	{
-		"name": "Trade Route", //modded
+		"name": "Trade Route (Count)", 
 		"resourceType": "Strategic",
+		"gold": 1
+	},
+		{
+		"name": "Trade Route", 
+		"resourceType": "Bonus",
 		"gold": 1
 	},
 ]
