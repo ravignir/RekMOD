@@ -316,62 +316,62 @@
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Animal Husbandry",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route2",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Sailing",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Trade Route3",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Engineering",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route4",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Compass",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route5",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Banking",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route6",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Biology",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route7",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Railroads",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route8",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Pharmaceuticals",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Trade Route9",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Cannot be built with [~CS]","Provides [2] [Trade Route (Count]","Provides [2] [Trade Route]","Requires [Entrepreneurship]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cannot be built with [~CS]","Provides [2] [Trade Route (Count)]","Provides [2] [Trade Route]","Requires [Entrepreneurship]","Will not be displayed in Civilopedia"]
     },
 	
 	// Buildings & Wonders
@@ -763,7 +763,7 @@
         "gold": 5,
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
-        "uniques": ["Must be next to [Coast]","Provides [1] [Trade Route]","Provides [1] [Trade Route (Count]","Free [Cargo Ship] appears","[+1 Gold] from [Water] tiles [in this city]"],
+        "uniques": ["Must be next to [Coast]","Provides [1] [Trade Route]","Provides [1] [Trade Route (Count)]","Free [Cargo Ship] appears","[+1 Gold] from [Water] tiles [in this city]"],
         "requiredTech": "Iron Working",
         "quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
     },
@@ -1179,7 +1179,7 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "culture": 1,
         "uniques": ["[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]","[+6 Culture] once [Archaeology] is discovered",
-            "Provides [1] [Trade Route]","Provides [1] [Trade Route (Count]","Free [Caravan] appears","Must be next to [Desert]"],
+            "Provides [1] [Trade Route]","Provides [1] [Trade Route (Count)]","Free [Caravan] appears","Must be next to [Desert]"],
         "requiredTech": "Currency",
         "quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
     },
@@ -1316,7 +1316,7 @@
         "gold": 4,
         "culture": 1,
         "isNationalWonder": true,
-        "uniques": ["Provides [1] [Trade Route (Count]","Provides [1] [Trade Route]","[+1 Gold] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
+        "uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","[+1 Gold] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
             "[+2 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
             "[+1 Gold] from every [Sea Trade Route (Production)]","[+2 Gold] from every [Sea Trade Route (Gold)]",
             "Cost increases by [30] per owned city","Requires a [Market] in all cities"],
