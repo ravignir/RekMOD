@@ -717,6 +717,13 @@ ResourceIcons/Trade Route
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Trade Route (Count)
+  rotate: false
+  xy: 1049, 172
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Caravansary
   rotate: false
   xy: 1157, 172
