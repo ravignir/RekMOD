@@ -38,13 +38,13 @@
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
-		"declaringWar": "Prepare for war!",
-		"attacked": "You shall regret this!",
-		"defeated": "The victory is yours.",
-		"introduction": "Welcome, mighty leader.",
-		"neutralHello": "Greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringWar": "I had a vision from God himself, and he has told me to smite you down!",
+		"attacked": "I have God in my side! What do you have in yours?",
+		"defeated": "So much bloodshed.. But if this is the will of God, then I must accept this cruel fate.",
+		"introduction": "It seems God has foreseen our encounter. I am Ezana, King of Aksum, but the true king of Heaven and Earth is, of course, Christ himself.",
+		"neutralHello": "May God bless your soul.",
+		"hateHello": "I do not have time to speak.",
+		"tradeRequest": "Sharing it's a fine thing God has bring, don't you agree?",
 		"outerColor": [17, 31, 99],
 		"innerColor": [186, 139, 20],
 		"uniqueName": "Saint Elesbaan's Blessing",
@@ -174,7 +174,7 @@
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
 	},
-					{
+	{				
 		"name": "Australia",
 		"leaderName": "Henry Parker",
 		"adjective": ["Australian"],
