@@ -100,17 +100,17 @@
 		    {
         "name": "Classical Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Science)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Renaissance Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Science)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Modern Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Science)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Morocco Classical",
