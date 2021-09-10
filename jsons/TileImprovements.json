@@ -112,19 +112,19 @@
 	},
 	{
 		"name": "Sea Trade Route (Food)",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"food": 2,
 		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"production": 2,
 		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"gold": 4,
 		"science": 2,
 		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
