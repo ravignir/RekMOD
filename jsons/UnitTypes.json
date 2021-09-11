@@ -112,5 +112,13 @@
     {
         "name": "AtomicBomber",
         "movementType": "Air"
-    }
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder",
+        "movementType": "Land"
+    },	
 ]
