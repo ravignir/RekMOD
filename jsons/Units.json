@@ -503,6 +503,7 @@
 		"attackSound": "metalhit"
 	},
 	{
+		
 		"name": "Pictish Warrior", 
 		"unitType": "Melee",
 		"uniqueTo": "Celts",
@@ -571,7 +572,7 @@
 		"cost": 75, 
 		"hurryCostModifier": 20,
 		"requiredTech": "Mathematics",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Can only attack [City] units"],
 		"promotions": ["Cover I"],
