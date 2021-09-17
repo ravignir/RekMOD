@@ -38,7 +38,7 @@
 			},
 			{
 				"name": "Tradition Complete",
-				"uniques": ["+[15]% growth [in all cities]","Immediately creates a [Aqueduct] in each of your first [4] cities for free","May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"]
+				"uniques": ["+[15]% growth [in all cities]","Provides a [Aqueduct] in your first [4] cities for free","May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] starting from the [Industrial era] at an increasing price ([500])"]
 			}
 		]
 	},
@@ -172,7 +172,7 @@
 			},
 			{
 				"name": "Piety Complete",
-				"uniques": ["Free [Great Prophet] appears","[+1 Food] from every [Holy site]","[+3 Culture] from every [Holy site]","Immediately creates a [Garden] in each of your first [4] cities for free"]
+				"uniques": ["Free [Great Prophet] appears","[+1 Food] from every [Holy site]","[+3 Culture] from every [Holy site]","Provides a [Garden] in your first [4] cities for free"]
 			}
 		]
 	},

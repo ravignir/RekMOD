@@ -827,7 +827,7 @@
 		"name": "Greece",
 		"leaderName": "Pericles",
 		"adjective": ["Greek"],
-//		"preferredVictoryType":"Diplomatic",
+		"preferredVictoryType":"Diplomatic",
 		
 		"startIntroPart1": "May the blessings of the gods be upon you, oh great King Alexander! You are the ruler of the mighty Greek nation. Your people lived for so many years in isolated city-states - legendary cities such as Athens, Sparta, Thebes - where they gave the world many great things, such as democracy, philosophy, ragedy, art and architecture, the very foundation of Western Civilization. Although few in number and often hostile to each other, in the 5th century BC they were able to defeat their much larger neighbor, Persia, on land and sea.",
 		"startIntroPart2": "Alexander, your people stand ready to march to war, to spread the great Greek culture to millions and to bring you everlasting glory. Are you ready to accept your destiny, King Alexander? Will you lead your people to triumph and greatness? Can you build a civilization that will stand the test of time?",
@@ -841,7 +841,7 @@
 		"outerColor": [181, 232, 232],
 		"innerColor": [68,142,249],
 		"uniqueName": "Hellenic League",
-		"uniques": ["City-State Influence degrades [50]% slower","City-State Influence recovers at twice the normal rate"],
+		"uniques": ["City-State Influence degrades [50]% slower","City-State Influence recovers at twice the normal rate","City-State territory always counts as friendly territory"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -2033,7 +2033,7 @@
 		"leaderName": "Gustavus Adolphus",
 		"adjective": ["Swedish"],
 		"startBias": ["Tundra"],
-//		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "All hail the transcendent King Gustavus Adolphus, founder of the Swedish Empire and her most distinguished military tactician. It was during your reign that Sweden emerged as one of the greatest powers in Europe, due in no small part to your wisdom, both on and off the battlefield. As king, you initiated a number of domestic reforms that ensured the economic stability and prosperity of your people. As the general who came to be known as the 'Lion of the North', your visionary designs in warfare gained the admiration of military commanders the world over. Thanks to your triumphs in the Thirty Years' War, you were assured a legacy as one of history's greatest generals.",
 		"startIntroPart2": "Oh noble King, the people long for your prudent leadership, hopeful that once again they will see your kingdom rise to glory. Will you devise daring new strategies, leading your armies to victory on the theater of war? Will you build a civilization that stands the test of time?",
@@ -2591,7 +2591,7 @@
 		"name": "Lhasa",
 		"translatedName": "Lhasa",
 		"adjective": ["tibetano"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Religious",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2641,6 +2641,98 @@
 		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Mogadishu"]
 	},
+	{
+		"name": "Bratislava",
+		"adjective": ["Bratislava"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "Why have you forsaken us my lord?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+				"uniques": ["Gain a free [~CS] [in all cities]"],
+		"cities": ["Bratislava"]
+	},
+	{
+		"name": "Cahokia",
+		"adjective": ["Cahokia"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [203, 253, 232],
+				"uniques": ["Gain a free [~CS] [in all cities]"],
+		"cities": ["Cahokia"]
+	},
+	{
+		"name": "Jerusalem",
+		"adjective": ["Jerusalem"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198,255,192],
+				"uniques": ["Gain a free [~CS] [in all cities]"],
+		"cities": ["Jerusalem"]
+	},
+		{
+		"name": "La Venta",
+		"adjective": ["Olmec"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [95,202,232],
+				"uniques": ["Gain a free [~CS] [in all cities]"],
+		"cities": ["La Venta"]
+	},
+		{
+		"name": "Ife",
+		"adjective": ["Nigerian"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [184,184,184],
+				"uniques": ["Gain a free [~CS] [in all cities]"],
+		"cities": ["Ife"]
+	},
+			{
+		"name": "Wittenberg",
+		"adjective": ["Wittenbergian"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [156,206,214],
+				"uniques": ["Gain a free [~CS] [in all cities]"],
+		"cities": ["Wittenberg"]
+	},
+			{
+		"name": "Geneva",
+		"adjective": ["Swiss"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [15,82,189],
+				"uniques": ["Gain a free [~CS] [in all cities]"],
+		"cities": ["Geneva"]
+	},
+	
 	
 	        
 
