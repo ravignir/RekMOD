@@ -1311,7 +1311,7 @@
 		"outerColor": [254,204,32],
 		"innerColor": [0,55,106],
 		"uniqueName": "Eight Banners",
-		"uniques": ["-[100]% [Mounted Ranged] unit maintenance costs","-[100]% [Mounted] unit maintenance costs","[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
+		"uniques": ["-[100]% maintenance costs for [Mounted Ranged] units", "-[100]% maintenance costs for [Mounted] units","[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
 		"cities": ["Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling","Ningdota","Siping","Anshan"]
 	},
 		{
@@ -2276,7 +2276,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["-[50]% [Melee] unit maintenance costs","[Military] units gain [25]% more Experience from combat"],
+		"uniques": ["-[50]% unit maintenance costs for [Melee] units","[Military] units gain [25]% more Experience from combat"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",
