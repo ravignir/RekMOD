@@ -198,7 +198,7 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production] if this city has at least [1] specialists"]
+        "uniques": ["[+2 Production] <if this city has at least [1] specialists>"]
     },
 	 {
         "name": "Mandirs",
@@ -253,7 +253,7 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+15]% growth [in this city] when not at war"]
+        "uniques": ["[+15]% growth [in this city] <when not at war>"]
     },
  {
         "name": "Religious Community",

@@ -44,26 +44,26 @@
 	},
 		{
 		"name": "Anti-naval I",
-		"uniques": ["+[20]% Strength vs [water units]"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 			{
 		"name": "Anti-naval II",
 		"prerequisites": ["Anti-naval I"],
-		"uniques": ["+[20]% Strength vs [water units]"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 			{
 		"name": "Anti-naval III",
 		"prerequisites": ["Anti-naval II"],
-		"uniques": ["+[20]% Strength vs [water units]"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 
 	{
 		"name": "Volley",
 		"prerequisites": ["Accuracy I","Barrage I"],
-		"uniques": ["+[50]% Strength vs [City]"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Ranged", "Mounted Ranged","Siege"]
 	},
 	{
@@ -118,13 +118,13 @@
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["+[33]% Strength vs [wounded units]"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Siege",
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["+[50]% Strength vs [City]"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
 	{
@@ -197,37 +197,37 @@
 	// Water melee
 	{
 		"name": "Boarding Party I",
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	
 	{
 		"name": "Coastal Raider I",
-		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	{
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
-		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee","Melee Water"]
 	},
 	
@@ -305,32 +305,32 @@
 	},
 	{
 		"name": "Anti-Armor I",
-		"uniques": ["+[25]% Strength vs [Armored]"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"]
 	},
 	{
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
-		"uniques": ["+[25]% Strength vs [Armored]"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"]
 	},
 
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["+[33]% Strength vs [City]"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["+[33]% Strength vs [City]"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["+[34]% Strength vs [City]"],
+		"uniques": ["[+34]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
@@ -440,89 +440,87 @@
 	
 	{
 		"name": "Ambush Formation I",
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
+		"uniques": ["[+33]% Strength <vs [Armor] units>","[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted Ranged] units>"],
 		"unitTypes": ["Melee","Gunpowder","Fighter","Bomber"]
 	},
 	{
 		"name": "Ambush Formation II",
 		"prerequisites": ["Ambush Formation I"],
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
+		"uniques": ["[+33]% Strength <vs [Armor] units>","[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted Ranged] units>"],
 		"unitTypes": ["Melee","Gunpowder","Fighter","Bomber"]
 	},
 		{
 		"name": "Formation I",
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength <vs [Armored] units>","+[33]% Strength vs [Mounted Ranged]"],
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
-		"unitTypes": ["Melee","Gunpowder","Fighter","Bomber"]
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength <vs [Armored] units>","+[33]% Strength vs [Mounted Ranged]"]
 	},
 		{
 		"name": "Ambush I",
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength <vs [Armored] units>","+[33]% Strength vs [Mounted Ranged]"],
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
-		"unitTypes": ["Melee","Gunpowder","Fighter","Bomber"]
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength <vs [Armored] units>","+[33]% Strength vs [Mounted Ranged]"]
 	},
 	
 	
 	// Water ranged and air units
 	{
 		"name": "Bombardment I",
-		"uniques": ["+[33]% Strength vs [land units]"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["WaterRanged", "Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
-		"uniques": ["+[33]% Strength vs [land units]"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["WaterRanged", "Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
-		"uniques": ["+[34]% Strength vs [land units]"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
 		"unitTypes": ["WaterRanged", "Ranged Water","Fighter","Bomber"]
 	},
 	
 	// Targeting I has different requirements for air and waterranged units, this was the cleanest way to do so
 	{
 		"name": "Targeting I",
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterRanged", "Ranged Water"]
 	},
 	{
 		"name": "Targeting I (air)",
 		"prerequisites": ["Interception I","Dogfighting I","Siege I","Bombardment I"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I","Targeting I (air)"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterRanged", "Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["WaterRanged", "Ranged Water"]
 	},
 	
 	// Uniques
 	{
 		"name": "Morale", // Heroic Epic
-		"uniques": ["+[15]% Combat Strength"]
+		"uniques": ["[+15]% Strength"]
 	},
 		{
 		"name": "Dojo", // Japan
-		"uniques": ["+[10]% Combat Strength"]
+		"uniques": ["[+10]% Strength"]
 	},
 	{
 		"name": "Phoenician Heritage", // Carthage
@@ -580,7 +578,7 @@
 	},
 	{
 		"name": "Heavy Charge", // only for Winged Hussar and subsequent upgrades
-		"uniques": ["+[25]% Strength when attacking",]
+		"uniques": ["+[25]% Strength when attacking"]
 	},
 	{
 		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
@@ -622,7 +620,7 @@
 	},
 		{
 		"name": "Epic of Battle",
-		"uniques": ["+[15]% Strength vs [City]"],
+		"uniques": ["[+15]% Strength <vs cities>"],
 	},
 	{
 	"name": "Sauna",
@@ -682,7 +680,7 @@
 	},
 							{
 		"name": "Lambamena",
-		"uniques": ["+[100]% Strength vs [City]"]
+		"uniques": ["[+100]% Strength <vs cities>"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
@@ -692,7 +690,7 @@
 	},
 			{
 		"name": "Swift Charge",
-		"uniques": ["+[50]% Strength vs [Melee]","+[25]% Strength vs [Gunpowder]"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>","[+25]% Strength <vs [Gunpowder] units>"],
 	},
 				{
 		"name": "Dharma",
@@ -757,7 +755,7 @@
 	},
 			{
 		"name": "Pflichtbewusstsein",
-		"uniques": ["[+1] Movement","+[50]% Strength vs [Armor]","+[50]% Strength vs [Mounted]","+[50]% Strength vs [Armored]","+[50]% Strength vs [Mounted Ranged]"],
+		"uniques": ["[+1] Movement","[+50]% Strength <vs [Armor] units>","[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Armored] units>","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"prerequisites": ["Pünktlichkeit"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},

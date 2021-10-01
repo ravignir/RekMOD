@@ -1520,7 +1520,7 @@
         "cityHealth": 25,
 		"science": 3,
         "hurryCostModifier": 25,
-		"uniques": ["+[10]% growth [in this city]","Destroyed when the city is captured","Requires a [Walls] [in this city]"],
+		"uniques": ["[+10]% growth [in this city]","Destroyed when the city is captured","Requires a [Walls] [in this city]"],
         "requiredTech": "Chivalry"
     },
     {
