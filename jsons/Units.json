@@ -28,7 +28,7 @@
 		"movement": 3,
 		"cost": 48,
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["Can build [Land] improvements on tiles",]
+		"uniques": ["Can build [Land] improvements on tiles"]
 	},
 	{
 		"name": "Settler",
@@ -58,10 +58,10 @@
 		"cost": 106,
 		"promotions": ["Ignores terrain cost"],
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+			"Requires at least [2] population"]
 	},
 		{
-		"name": " Venice Settler",
+		"name": "Venice Settler",
 		"unitType": "Civilian",
 		"uniqueTo": "Venice",
 		"replaces": "Settler",
@@ -98,7 +98,7 @@
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Visibility Range", "Unbuildable", "Religious Unit"
 		],
-		"movement": 3,
+		"movement": 3
 	},
 	{
 		"name": "Caravan", 
@@ -443,7 +443,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>"]
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"attackSound": "metalhit"
 	},
 		{
@@ -592,7 +592,7 @@
 		"attackSound": "nonmetalhit"
 	},
 			{
-		"name": "Baghlah"
+		"name": "Baghlah",
 		"uniqueTo": "Oman",
 		"replaces": "Dromon", 
 		"unitType": "Ranged Water",
@@ -637,14 +637,14 @@
 		"name": "Mpiambina", 
 		"uniqueTo": "Madagascar",
 		"unitType": "Ranged",
-		"replaces": "Inquisitor"
+		"replaces": "Inquisitor",
 		"movement": 3,
 		"range": 1,
 		"strength": 8,
 		"rangedStrength": 14,
                 "uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]", "Unbuildable", "Religious Unit"
 		],
-		"promotions": ["Sampy"]
+		"promotions": ["Sampy"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1817,7 +1817,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"promotions": ["Great Generals I"]
+		"promotions": ["Great Generals I"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
 		"attackSound": "horse"
@@ -2029,7 +2029,7 @@
 		"strength": 51,
 		"cost": 330,
 		"requiredTech": "Replaceable Parts",
-		"promotions": ["Drill I","Charge"]
+		"promotions": ["Drill I","Charge"],
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
