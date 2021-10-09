@@ -86,7 +86,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
-			"[-1] Visibility Range", "Unbuildable", "Religious Unit"],
+			"[-1] Sight", "Unbuildable", "Religious Unit"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -96,7 +96,7 @@
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [1] times",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
-			"[+1] Visibility Range", "Unbuildable", "Religious Unit"
+			"[+1] Sight", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
 	},
@@ -192,7 +192,7 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
-		"uniques": ["+[33]% Strength in [Forest]", "+[33]% Strength in [Jungle]", "Heals [25] damage if it kills a unit"],
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"],
 		"promotions": ["Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -246,7 +246,7 @@
 		"replaces": "Archer",
 		"uniqueTo": "Tonga",
 		"upgradesTo": "Composite Bowman",
-		"uniques": ["[+1] Visibility Range","[+1] Movement"],
+		"uniques": ["[+1] Sight","[+1] Movement"],
 		"attackSound": "arrow"
 	},
 	{
@@ -370,7 +370,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus","+[20]% Strength when defending","Rough terrain penalty","Consumes [1] [Horses]"],
+		"uniques": ["No defensive terrain bonus","[+20]% Strength <when defending>","Rough terrain penalty","Consumes [1] [Horses]"],
 		"attackSound": "arrow"
 	},
 	{
@@ -671,7 +671,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Consumes [1] [Iron]","[+100]% Strength when defending vs [Ranged] units","Cannot attack"],
+		"uniques": ["Consumes [1] [Iron]","[+100]% Strength <when defending> <vs [Ranged] units>","Cannot attack"],
 		"obsoleteTech": "Steel",
 		"attackSound": "metalhit"
 	},
@@ -716,7 +716,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
-		"uniques": ["+[33]% Strength in [Forest]","+[33]% Strength in [Jungle]"],
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -793,7 +793,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]","+[20]% Strength when attacking"],
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]","[+20]% Strength <when attacking>"],
 		"promotions": ["Feared Elephant","Great Generals II"],
 		"attackSound": "horse"		
 	},
@@ -900,7 +900,7 @@
 		"upgradesTo": "Cannon",
 		"promotions": ["Indirect Fire"],
 		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus",
-			"Must set up to ranged attack","Limited Visibility"],
+			"Must set up to ranged attack","[-1] Sight"],
 		"attackSound": "throw"
 	},
 	{
@@ -1014,7 +1014,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
-		"uniques": ["+[33]% Strength when attacking","+[50]% Strength in [Forest]"],
+		"uniques": ["[+33]% Strength <when attacking>","[+50]% Strength <when fighting in [Forest] tiles>"],
 		"attackSound": "metalhit"
 	},
 				{
@@ -1224,7 +1224,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Unlocked with [Exploration]","Can move after attacking","No defensive terrain bonus","Founds a new city",
-			"[+2] Visibility Range","Defense bonus when embarked","Consumes [1] [Horses]"],
+			"[+2] Sight","Defense bonus when embarked","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 		{
@@ -1314,7 +1314,7 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"promotions": ["Boarding Party I"],
-		"uniques": ["[+1] Visibility Range","Can move after attacking","May withdraw before melee ([50]%)"],
+		"uniques": ["[+1] Sight","Can move after attacking","May withdraw before melee ([50]%)"],
 	},
 	
 	// Rennaisance Era
@@ -1329,7 +1329,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Visibility Range","Can move after attacking","May withdraw before melee ([50]%)"],
+		"uniques": ["[+1] Sight","Can move after attacking","May withdraw before melee ([50]%)"],
 	},
 	{
 		"name": "Turtle Ship",
@@ -1357,7 +1357,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Can move after attacking","[+1] Visibility Range","May withdraw before melee","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"],
+		"uniques": ["Can move after attacking","[+1] Sight","May withdraw before melee","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"],
 	},
 	{
 		"name": "Cannon",
@@ -1370,7 +1370,7 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"promotions": ["Indirect Fire"],		
-		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 	},
 		{
 		"name": "Akyat Cannon",
@@ -1386,7 +1386,7 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"promotions": ["Indirect Fire"],		
-		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 	},
 	{
 		"name": "Musketman",
@@ -1437,7 +1437,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Heals [50] damage if it kills a unit","+[25]% Strength when attacking"],
+		"uniques": ["Heals [50] damage if it kills a unit","[+25]% Strength <when attacking>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1520,7 +1520,7 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
-		"uniques": ["[+1] Visibility Range","Consumes [1] [Iron]"]
+		"uniques": ["[+1] Sight","Consumes [1] [Iron]"]
 	},
 	{
 		"name": "Lancer",
@@ -1565,7 +1565,7 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"promotions": ["Ambush Formation I"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
-			"[+1] Visibility Range","No movement cost to pillage","Consumes [1] [Horses]"],
+			"[+1] Sight","No movement cost to pillage","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1721,7 +1721,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Drill I"],
-		"uniques": ["+[40]% Strength in [Friendly Land]"],
+		"uniques": ["[+40]% Strength <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "shot"
 	},
 		{
@@ -1735,7 +1735,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["+[20]% Strength in [Friendly Land]"],
+		"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1834,7 +1834,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
-			"[+1] Visibility Range", "[+50]% to Flank Attack bonuses" ,"Consumes [1] [Horses]"],
+			"[+1] Sight", "[+50]% to Flank Attack bonuses" ,"Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1879,7 +1879,7 @@
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack",
-			"Limited Visibility","Ranged attacks may be performed over obstacles"]
+			"[-1] Sight","Ranged attacks may be performed over obstacles"]
 	},
 		{
 		"name": "Rocket Corps",
@@ -1894,7 +1894,7 @@
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": ["[+200]% Strength <vs cities>","[+25]% Strength <vs [Melee] units>","[+25]% Strength <vs [Gunpowder] units>","No defensive terrain bonus",
-			"Limited Visibility","Ranged attacks may be performed over obstacles"]
+			"[-1] Sight","Ranged attacks may be performed over obstacles"]
 	},
 	{
 		"name": "Ironclad",
@@ -1914,7 +1914,7 @@
 		"strength": 15,
 		"cost": 250,
 		"requiredTech": "Steam Power",
-		"uniques": ["[+3] Visibility Range",
+		"uniques": ["[+3] Sight",
 			"No defensive terrain bonus"],
 		"attackSound": "shot"
 	},
@@ -1992,7 +1992,7 @@
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"obsoleteTech": "Telecommunications",
-		"uniques": ["+[75]% Strength when attacking","Invisible to others","Can only attack [Water] tiles",
+		"uniques": ["[+75]% Strength <when attacking>","Invisible to others","Can only attack [Water] tiles",
 			"Can see invisible [Submarine] units","Can enter ice tiles"]
 	},
 	{
@@ -2043,7 +2043,7 @@
 		"strength": 47,
 		"cost": 330,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["+[15]% Strength when attacking"]
+		"uniques": ["[+15]% Strength <when attacking>"]
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
@@ -2057,7 +2057,7 @@
 		"strength": 50,
 		"cost": 300,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Heals [100] damage if it kills a unit","+[25]% Strength when defending","Can build [Farm] improvements on tiles"]
+		"uniques": ["Heals [100] damage if it kills a unit","[+25]% Strength <when defending>","Can build [Farm] improvements on tiles"]
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
@@ -2071,7 +2071,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"promotions": ["Ambush Formation I"],
-		"uniques": ["+[20]% Strength in [Foreign Land]","Unlocked with [Mercenary Army]"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Unlocked with [Mercenary Army]"],
 		"attackSound": "shot"
 	},
 	{
@@ -2173,7 +2173,7 @@
 		"range": 3,
 		"cost": 510,
 		"requiredTech": "Rocketry",
-		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Limited Visibility",
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","[-1] Sight",
 			"Ranged attacks may be performed over obstacles"]
 	},
 	{
@@ -2257,7 +2257,7 @@
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Great Generals II"],
-		"uniques": ["+[20]% Strength in [Foreign Land]"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"		
 	},
 	{
@@ -2312,9 +2312,9 @@
 		"rangedStrength": 85,
 		"cost": 510,
 		"requiredTech": "Telecommunications",
-		"uniques": ["+[75]% Strength when attacking", "Invisible to others", 
+		"uniques": ["[+75]% Strength <when attacking>", "Invisible to others", 
 			"Can only attack [Water] tiles", "Can see invisible [Submarine] units", "Can enter ice tiles", 
-			"[+1] Visibility Range", "Can carry [2] [Missile] units"],
+			"[+1] Sight", "Can carry [2] [Missile] units"],
 			},
 	{
 		"name": "Missile Cruiser", 
@@ -2462,7 +2462,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Holy site] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
-			"May enter foreign tiles without open borders", "[-1] Visibility Range", "Great Person - [Faith]", 
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Unbuildable"],
 		"movement": 4,
 		"religiousStrength": 1000

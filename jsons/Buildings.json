@@ -790,7 +790,7 @@
         "name": "Statue of Zeus",
         "culture": 2,
         "isWonder": true,
-        "uniques": ["+[10]% Production when constructing [Military] units [in this city]","+15% Combat Strength for all units when attacking Cities"],
+        "uniques": ["+[10]% Production when constructing [Military] units [in this city]","[+15]% Strength <for [All] units> <when attacking> <vs cities>"],
         "requiredTech": "Bronze Working",
         "quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
     },
@@ -833,7 +833,7 @@
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": ["Provides a free [Lighthouse] [in this city]","Must be next to [Coast]", "[+1] Movement for all [{Military} {Water}] units",
-			"[+1] Sight for all [{Military} {Water}] units"],
+			"[+1] Sight <for [{Military} {Water}] units>"],
         "requiredTech": "Optics",
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
@@ -1187,7 +1187,7 @@
         "name": "Aqueduct",
         "maintenance": 1,
         "hurryCostModifier": 0,
-        "uniques": ["[40]% of food is carried over after population increases"],
+        "uniques": ["[40]% of food is carried over [in this city] after population increases"],
         "requiredTech": "Engineering"
     },
     {
@@ -2102,7 +2102,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"Great Engineer": 2},
-        "uniques": ["[+1 Production] from every specialist","Free Social Policy","Requires [Freedom]"],
+        "uniques": ["[+1 Production] from every specialist [in all cities]","Free Social Policy","Requires [Freedom]"],
         "requiredTech": "Replaceable Parts",
         "quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!'  - Emma Lazarus"
     },

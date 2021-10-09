@@ -3,7 +3,7 @@
     {
         "name": "Ancestor Worship",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Shrine]"]
+        "uniques": ["[+1 Faith] from every [Monument]", "[+1 Culture] from every [Shrine]"]
     },
     {
         "name": "Dance of the Aurora",
@@ -35,7 +35,7 @@
     {
         "name": "God of Craftsman",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] [in all cities]"]
+        "uniques": ["[+1 Production]"]
     },
     {
         "name": "God of the Open Sky",
@@ -126,8 +126,13 @@
 	    {
         "name": "Rain Dancing",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Lakes]", "[+1 Culture] from every [Oasis]","[+2 Faith] from every [Lakes]", "[+2 Faith] from every [Oasis]"]
+        "uniques": ["[+1 Culture, +2 Faith] from every [Lakes]", "[+1 Culture, +2 Faith] from every [Oasis]"]
     },
+	{
+		"name": "Ritual Sacrifice",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith, +1 Culture] from every [Ivory]", "[+1 Faith, +1 Culture] from every [Furs]", "[+1 Faith, +1 Culture] from every [Truffles]"]
+	},
     {
         "name": "Religious Idols",
         "type": "Pantheon",
@@ -136,13 +141,18 @@
     {
         "name": "Religious Settlements",
         "type": "Pantheon",
-        "uniques": ["[+1 Food] [in all cities]","[-25]% cost of natural border growth"]
+        "uniques": ["[+1 Food]","[-25]% cost of natural border growth"]
     },
     {
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Jungle]", "[+1 Culture] from every [Forest]", "[+1 Culture] from every [Hardwood]"]
     },
+	{
+		"name": "Seafood Rituals",
+		"type": "Pantheon",
+		"uniques": ["[+1 Food, +1 Culture] from every [Fish]"]
+	},
 	    {
         "name": "Spirit Animals",
         "type": "Pantheon",
@@ -307,15 +317,20 @@
         "uniques": ["[+4 Production] from every [Palace]"]
     },
 	{
+		"name": "World Church",
+		"type": "Founder",
+		"uniques": ["[+1 Culture] for every [2] global followers [in foreign cities]"]
+	},
+	{
         "name": "Zakat",
         "type": "Founder",
         "uniques": ["[+8 Gold] from every [Palace]"]
     },
 // ENHANCERS
- {
+	{
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength for [All] units in [Friendly Land]"],
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
     },
 		{
         "name": "Dharma",
@@ -333,11 +348,21 @@
         "uniques": ["[+3 Food, +3 Production, +3 Culture] from every [Palace]"]
     },
 	{
+		"name": "Indulgences",
+		"type": "Enhancer",
+		"uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Culture, +1 Faith] [in cities following this religion]"]
+	},
+	{
         "name": "Just War",
         "type": "Enhancer",
-        "uniques": ["[+20]% Strength for [Non-City] units in [Enemy Land]"],
+        "uniques": ["[+20]% Strength <for [Non-City] units> <when fighting in [Enemy Land] tiles>"],
     },
-				{
+	{
+		"name": "Karma",
+		"type": "Enhancer",
+		"uniques": ["[+8 Culture] [in holy cities]"]
+	},
+	{
         "name": "Kotel",
         "type": "Enhancer",
         "uniques": ["[+6 Happiness] from every [Palace]"]
@@ -345,12 +370,12 @@
  {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength for [Great Prophet] units", "[-25]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
     },
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength for [Missionary] units"]
+        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
     },
     {
         "name": "Religious Texts",
