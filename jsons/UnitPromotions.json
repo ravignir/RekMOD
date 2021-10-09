@@ -9,37 +9,37 @@
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Siege","Ranged", "Mounted Ranged"]
 	},
 	{
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Siege","Ranged", "Mounted Ranged"]
 	},
 	{
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Siege","Ranged", "Mounted Ranged"]
 	},
 
 	{
 		"name": "Barrage I",
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Siege","Ranged", "Mounted Ranged"]
 	},
 	{
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Siege","Ranged", "Mounted Ranged"]
 	},
 	{
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Siege","Ranged", "Mounted Ranged"]
 	},
 		{
@@ -82,37 +82,37 @@
 	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
 	},
 
 	{
 		"name": "Drill I",
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
@@ -136,7 +136,7 @@
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement rate through Forest and Jungle"],
+		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
 	{
@@ -156,7 +156,7 @@
 	// Scout
 	{
 		"name": "Scouting I",
-		"uniques": ["[+1] Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"]
 	},
 		{
@@ -166,7 +166,7 @@
 	{
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
-		"uniques": ["[+1] Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -177,13 +177,13 @@
 	},
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "+[25]% Strength when defending"],
+		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "+[25]% Strength when defending"],
+		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -234,38 +234,38 @@
 	// Submarine
 	{
 		"name": "Wolfpack I",
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["WaterSubmarine","Submarine"]
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["WaterSubmarine","Submarine"]
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["WaterSubmarine","Submarine"]
 	},
 	
 	// Aircraft Carrier
 	{
 		"name": "Armor Plating I",
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["WaterAircraftCarrier", "Aircraft Carrier"]
 	},
 	{
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["WaterAircraftCarrier", "Aircraft Carrier"]
 	},
 	{
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["WaterAircraftCarrier", "Aircraft Carrier"]
 	},
 	{
@@ -380,7 +380,7 @@
 	
 	{
 		"name": "Sortie",
-		"prerequisites": ["Interception II", "Dogfighting II"],
+		"prerequisites": ["Interception II"/*, "Dogfighting II"*/],
 		"uniques": ["[1] extra interception may be made per turn"],
 		"unitTypes": ["Fighter"]
 	},
@@ -401,13 +401,13 @@
 	// Mixed
 	{
 		"name": "Cover I",
-		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
+		"uniques": ["[+33]% Strength <when defending> <vs [Ranged] units>"],
 		"unitTypes": ["Melee","Helicopter","Gunpowder","Ranged", "Mounted Ranged","Siege"]
 	},
 	{
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
-		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
+		"uniques": ["[+33]% Strength <when defending> <vs [Ranged] units>"],
 		"unitTypes": ["Melee","Helicopter","Gunpowder","Ranged", "Mounted Ranged","Siege"]
 	},
 	
@@ -427,7 +427,7 @@
 	{
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
-		"uniques": ["[+1] Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Melee","Helicopter","Gunpowder","Mounted","WaterRanged", "Ranged Water","Armor","Armored","WaterMelee","Melee Water"]
 	},
 	{
@@ -451,21 +451,21 @@
 	},
 		{
 		"name": "Formation I",
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength <vs [Armored] units>","+[33]% Strength vs [Mounted Ranged]"],
+		"uniques": ["[+33]% Strength <vs [Armor] units>","[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted Ranged] units>"],
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength <vs [Armored] units>","+[33]% Strength vs [Mounted Ranged]"]
+		"uniques": ["[+33]% Strength <vs [Armor] units>","[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted Ranged] units>"]
 	},
 		{
 		"name": "Ambush I",
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength <vs [Armored] units>","+[33]% Strength vs [Mounted Ranged]"],
+		"uniques": ["[+33]% Strength <vs [Armor] units>","[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted Ranged] units>"],
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength <vs [Armored] units>","+[33]% Strength vs [Mounted Ranged]"]
+		"uniques": ["[+33]% Strength <vs [Armor] units>","[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted Ranged] units>"]
 	},
 	
 	
@@ -496,7 +496,7 @@
 	},
 	{
 		"name": "Targeting I (air)",
-		"prerequisites": ["Interception I","Dogfighting I","Siege I","Bombardment I"],
+		"prerequisites": ["Interception I",/*"Dogfighting I",*/"Siege I","Bombardment I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
@@ -566,11 +566,11 @@
 	},
 	{
 		"name": "Homeland Guardian", // only for Berber Cavalry and subsequent upgrades
-		"uniques": ["+[20]% Strength in [Foreign Land]"]
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Desert Warrior", // only for Berber Cavalry and subsequent upgrades
-		"uniques": ["+[50]% Strength in [Desert]"]
+		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
 	},
 	{
 		"name": "Feared Elephant", // only for Maori Warrior and subsequent upgrades
@@ -578,7 +578,7 @@
 	},
 	{
 		"name": "Heavy Charge", // only for Winged Hussar and subsequent upgrades
-		"uniques": ["+[25]% Strength when attacking"]
+		"uniques": ["[+25]% Strength <when attacking>"]
 	},
 	{
 		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
@@ -586,7 +586,7 @@
 	},
 	{
 		"name": "Ambition",
-		"uniques": ["+[50]% Strength when attacking"],
+		"uniques": ["[+50]% Strength <when attacking>"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
@@ -604,17 +604,17 @@
 	},
 	{
 		"name": "Buffalo Horns I", // only for Ikanda
-		"uniques": ["[+1] Movement","+[5]% Combat Strength","[+33]% Strength when defending vs [Ranged] units"],
+		"uniques": ["[+1] Movement","[+5]% Strength","[+33]% Strength <when defending> <vs [Ranged] units>"],
 	},
 	{
 		"name": "Buffalo Chest II",
-		"uniques": ["+[10]% Strength in [Open terrain]","+[5]% Combat Strength"],
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+5]% Strength"],
 		"prerequisites": ["Buffalo Horns I"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
 	{
 		"name": "Buffalo Loins III",
-		"uniques": ["+[15]% Combat Strength"],
+		"uniques": ["[+15]% Strength"],
 		"prerequisites": ["Buffalo Chest II"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
@@ -628,7 +628,12 @@
 	},
 		{
 	"name": "Ski Infantry",
-	"uniques": ["+[25]% Strength in [Snow]","+[25]% Strength in [Tundra]","+[25]% Strength in [Hill]","Double movement in Snow, Tundra and Hills"],
+	"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
+		"[+25]% Strength <when fighting in [Tundra] tiles>",
+		"[+25]% Strength <when fighting in [Hill] tiles>",
+		"Double movement in [Snow]",
+		"Double movement in [Tundra]",
+		"Double movement in [Hills]"]
 	},
 	{
 	"name": "Drauhtinon",
@@ -650,19 +655,19 @@
 	},
 			{
 		"name": "Ramahavaly",
-		"uniques": ["+[50]% Strength when defending","+[-50]% Strength when attacking"],
+		"uniques": ["[+50]% Strength <when defending>","[-50]% Strength <when attacking>"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
 				{
 		"name": "Manjakatsiroa",
-		"uniques": ["+[25]% Strength in [Friendly Land]"]
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
 					{
 		"name": "Mosasa",
-		"uniques": ["[+4] Visibility Range","[+4] Range"]
+		"uniques": ["[+4] Sight","[+4] Range"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
@@ -686,7 +691,7 @@
 	},
 								{
 		"name": "Altitude Training",
-		"uniques": ["Double movement in Snow, Tundra and Hills","+[10]% Strength in [Hill]"]
+		"uniques": ["Double movement in [Snow]", "Double movement in [Tundra]", "Double movement in [Hills]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	},
 			{
 		"name": "Swift Charge",
@@ -694,7 +699,7 @@
 	},
 				{
 		"name": "Dharma",
-		"uniques": ["+[-15]% Strength when attacking","[+10] HP when healing in [Friendly Land] tiles", "+[15]% Strength when defending"]
+		"uniques": ["[-15]% Strength <when attacking>","[+10] HP when healing in [Friendly Land] tiles", "[+15]% Strength <when defending>"]
 				},
 								{
 		"name": "Chain of the Earth",
@@ -707,19 +712,19 @@
 	},
 	{
 		"name": "Disziplin",
-		"uniques": ["+[10]% Strength when attacking","+[10]% Strength when defending"],
+		"uniques": ["[+10]% Strength <when attacking>","[+10]% Strength <when defending>"],
 		"prerequisites": ["Gehorsam"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
 	{
 		"name": "Fleiss",
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"prerequisites": ["Disziplin"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
 		{
 		"name": "Tapferkeit",
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"prerequisites": ["Disziplin"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
@@ -731,7 +736,7 @@
 	},
 		{
 		"name": "Härte",
-		"uniques": ["[+50]% Strength when defending vs [Ranged] units"],
+		"uniques": ["[+50]% Strength <when defending> <vs [Ranged] units>"],
 		"prerequisites": ["Tapferkeit"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
@@ -749,7 +754,7 @@
 	},
 		{
 		"name": "Zurückhaltung",
-		"uniques": ["+[30]% Strength in [Friendly Land]"],
+		"uniques": ["[+30]% Strength <when fighting in [Friendly Land] tiles>"],
 		"prerequisites": ["Härte"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},

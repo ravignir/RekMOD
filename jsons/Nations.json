@@ -69,7 +69,7 @@
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight for all [{Military} {Land}] units","[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+1] Sight <for all [{Military} {Land}] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -1082,7 +1082,7 @@
 		"outerColor": [41, 87, 0],
 		"innerColor": [205, 205, 205],
 		"uniqueName": "Rinascimento",
-		"uniques": ["[+1 Culture] from every specialist","Enter a Golden Age upon completion of a Policy Tree."],
+		"uniques": ["[+1 Culture] from every specialist [in all cities]","Enter a Golden Age upon completion of a Policy Tree."],
 		"cities": ["Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania","Brescia","Messina","Pisa","Bologna","Verona"]
 	},
 	{
@@ -1219,7 +1219,7 @@
 		"outerColor": [26,32,96],
 		"innerColor": [255,0,0],
 		"uniqueName": "Scholars of the Jade Hall",
-		"uniques": ["[+1 Science] from every specialist","[+1 Science] [in capital]","[+2 Science] from every [Great Improvement]",
+		"uniques": ["[+1 Science] from every specialist [in all cities]","[+1 Science] [in capital]","[+2 Science] from every [Great Improvement]",
 			"Receive a tech boost when scientific buildings/wonders are built in capital"],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
 			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
@@ -1478,7 +1478,7 @@
 		"innerColor": [249,249,20],
 		"uniqueName": "Brahmin Elite",
 		"uniqueText": "Specialists provide +1 Food and Production, but generate +50% more Unhappiness"
-		"uniques": ["[+1 Food] from every specialist","[+1 Production] from every specialist","Specialists only produce [150]% of normal unhappiness"],
+		"uniques": ["[+1 Food] from every specialist [in all cities]","[+1 Production] from every specialist [in all cities]","Specialists only produce [150]% of normal unhappiness"],
 		"cities": ["Mysuru","Hunsur","Bannur","Bengaluru","Nanjanagudu","Periyapatna","Saligrama","Virajpet","Madikeri","Mandya","Maddur","Nagamangala","Narasipura","Arkalgud","Hassan","Belur","Turuvekere","Mudigere","Koppa"]
 	},
 	{
@@ -1659,7 +1659,7 @@
 		"outerColor": [153,5,3],
 		"innerColor": [244,232,54],
 		"uniqueName": "Achaemenid Legacy",
-		"uniques": ["Golden Age length increased by [50]%","+1 Movement for all units during Golden Age","+10% Strength for all units during Golden Age"],
+		"uniques": ["Golden Age length increased by [50]%","[+1] Movement <for [All] units> <during a Golden Age>","[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -1734,7 +1734,7 @@
 		"outerColor": [225,105,0],
 		"innerColor": [255,255,78],
 		"uniqueName": "Wayfinding",
-		"uniques": ["Can embark and move over Coasts and Oceans immediately","[+1] Sight for all [Embarked] units","[+10]% Strength if within [2] tiles of a [Moai]","Increases embarked movement +1"],
+		"uniques": ["Can embark and move over Coasts and Oceans immediately","[+1] Sight <for [Embarked] units>","[+10]% Strength if within [2] tiles of a [Moai]","Increases embarked movement +1"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
