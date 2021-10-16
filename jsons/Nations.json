@@ -1289,7 +1289,7 @@
 		"outerColor": [89,166,128],
 		"innerColor": [255,255,255],
 		"uniqueName": "Sacred Hills of Imerina",
-		"uniques": ["[+6 Culture, +6 Faith] from every [Holy Site]"],
+		"uniques": ["[+6 Culture, +6 Faith] from every [Holy site]"],
 		"cities": ["Antananariva","Ambohimanga","Ambohitrabiby","Ambohidratrimo","Analamanga","Antsahadinta","Ambatofinandrahana","Ambohimahamasina","Amparafaravola","Antsirambazaha","Arivonimamo","Ambohijoky","Antongona"]
 	},
 	{
@@ -1638,7 +1638,7 @@
 		"outerColor": [242,242,0],
 		"innerColor": [153,153,153],
 		"uniqueName": "The Holy See",
-		"uniques": ["[+1 Culture, +1 Faith, +1 Production, +1 Food, +1 Gold, +1 Science] from every [Holy Site]"],
+		"uniques": ["[+1 Culture, +1 Faith, +1 Production, +1 Food, +1 Gold, +1 Science] from every [Holy site]"],
 		"cities": ["Vatican City","Benevento","Pontecorvo","San Marino","Terracina","Narni","Spoleto","Assisi","Arpino","Perugia","Macerata","Ancona","Forli","Rimini","Ascoli","Pesaro","Ferrara"]
 	},
 	{
