@@ -6,8 +6,8 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] on [Fresh water] tiles once [Civil Service] is discovered",
-			"[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
+			"[+1 Food] on [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] on [non-fresh water] tiles <after discovering [Fertilizer]>"],
 		"shortcutKey": "F"
 	},
 	{
@@ -16,7 +16,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Bronze Working",
-		"uniques": ["[+1 Production] once [Steel] is discovered"],
+		"uniques": ["[+1 Production] <after discovering [Steel]>"],
 		"shortcutKey": "L"
 	},
 	{
@@ -25,7 +25,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] once [Chemistry] is discovered"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>"],
 		"shortcutKey": "M"
 	},
 	{
@@ -34,7 +34,7 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] once [Economics] is discovered"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>"],
 		"shortcutKey": "T"
 	},
 	
@@ -43,7 +43,7 @@
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] once [Economics] is discovered"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>"],
 		"shortcutKey": "C"
 	},
 	{
@@ -57,7 +57,7 @@
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
 		"shortcutKey": "P"
 	},
 	{
@@ -65,14 +65,14 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] once [Chemistry] is discovered"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>"],
 		"shortcutKey": "Q"
 	},
 	{
@@ -80,7 +80,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] once [Compass] is discovered"]
+		"uniques": ["[+1 Gold] <after discovering [Compass]>"]
 	},
 
 	// Special improvement
@@ -215,8 +215,8 @@
 	{
 		"name": "Academy",
 		"science": 8,
-		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered",
-			"[+2 Science] once [Atomic Theory] is discovered"]
+		"uniques": ["Great Improvement","[+2 Science] <after discovering [Scientific Theory]>",
+			"[+2 Science] <after discovering [Atomic Theory]>"]
 	},
 	{
 		"name": "Holy site",
@@ -232,16 +232,16 @@
 		"name": "Manufactory",
 		"production": 6,
 		"food": 1,
-		"uniques": ["Great Improvement","[+3 Production] once [Chemistry] is discovered"]
+		"uniques": ["Great Improvement","[+3 Production] <after discovering [Chemistry]>"]
 	},
 	{
 		"name": "Customs house",
 		"gold": 4,
-		"uniques": ["Great Improvement","[+4 Gold] once [Economics] is discovered"]
+		"uniques": ["Great Improvement","[+4 Gold] <after discovering [Economics]>"]
 	},
 	{
 		"name": "Citadel",
-		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units","Great Improvement",
+		"uniques": ["Gives a defensive bonus of [100]%","Adjacent units ending their turn take [30] damage","Great Improvement",
 			"Can be built just outside your borders"],
 			"civilopediaText": [{text:"Constructing it will take over the tiles around it and assign them to your closest city"}]
 		// TODO (G&K): adds every tile around it to your territory
@@ -253,7 +253,7 @@
 		"uniqueTo": "Polynesia",
 		"culture": 1,
 		"turnsToBuild": 4,
-		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] once [Flight] is discovered",
+		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] <after discovering [Flight]>",
 			"Can only be built on [Coastal] tiles"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
@@ -265,7 +265,13 @@
 		"food": 1,
 		"production": 1,
 		"culture": 1,
-		"uniques": ["Great Improvement","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Telecommunications] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Computers] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Plastics] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Archaeology] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Acoustics] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Theology] is discovered","[+1 Science, +1 Production, +1 Culture, +1 Food] once [Philosophy] is discovered"]
+		"uniques": ["Great Improvement","[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Telecommunications]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Computers]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Plastics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Archaeology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Acoustics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Theology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Philosophy]>"]
 	},
 	{
 		"name": "Chateau",
@@ -276,7 +282,7 @@
 		"science": 2,
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] once [Flight] is discovered"]
+		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] <after discovering [Flight]>"]
 	},
 		{
 		"name": "Harjis",
@@ -285,7 +291,9 @@
 		"production": 1,
 		"turnsToBuild":7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] once [Iron Working] is discovered","[+1 Production] once [Gunpowder] is discovered","[+1 Production] once [Dynamite] is discovered"]
+		"uniques": ["[+1 Production] <after discovering [Iron Working]>",
+			"[+1 Production] <after discovering [Gunpowder]>",
+			"[+1 Production] <after discovering [Dynamite]>"]
 	},
 	{
 		"name": "Brazilwood Camp",
@@ -294,7 +302,8 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Bronze Working",
-		"uniques": ["[+2 Gold] once [Machinery] is discovered","[+2 Culture] once [Acoustics] is discovered"]
+		"uniques": ["[+2 Gold] <after discovering [Machinery]>",
+			"[+2 Culture] <after discovering [Acoustics]>"]
 	},
 		{
 		"name": "Tibetan Monastery",
@@ -304,7 +313,7 @@
 		"faith": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Faith] once [Theology] is discovered","[+1 Culture] for each adjacent [Mountain]"]
+		"uniques": ["[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [Mountain]"]
 	},
 	{
 		"name": "Polder",
@@ -313,7 +322,7 @@
 		"food": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Production, +2 Gold] once [Economics] is discovered"]
+		"uniques": ["[+1 Production, +2 Gold] <after discovering [Economics]>"]
 	},
 		{
 		"name": "Tipi",
@@ -323,7 +332,8 @@
 		"faith": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Food, +1 Gold] once [Civil Service] is discovered","[+1 Faith] once [Theology] is discovered"]
+		"uniques": ["[+1 Food, +1 Gold] <after discovering [Civil Service]>",
+			"[+1 Faith] <after discovering [Theology]>"]
 	},
 	{
 		"name": "Kasbah",
@@ -345,7 +355,7 @@
 		"culture": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Metal Casting",
-		"uniques": ["Gives a defensive bonus of [25]%","[+1 Culture] once [Acoustics] is discovered"]
+		"uniques": ["Gives a defensive bonus of [25]%","[+1 Culture] <after discovering [Acoustics]>"]
 	},
 		{
 		"name": "Motte and Bailey",
@@ -355,7 +365,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Engineering",
-		"uniques": ["Gives a defensive bonus of [25]%","[+2 Culture] once [Flight] is discovered"]
+		"uniques": ["Gives a defensive bonus of [25]%","[+2 Culture] <after discovering [Flight]>"]
 	},
 	{
 		"name": "Feitoria",
@@ -375,7 +385,8 @@
 		"gold": 1,
 		"culture": 1,
 		"techRequired": "Optics",
-		"uniques": ["[+1 Production] once [Astronomy] is discovered","[+1 Culture] once [Flight] is discovered"]
+		"uniques": ["[+1 Production] <after discovering [Astronomy]>",
+			"[+1 Culture] <after discovering [Flight]>"]
 	},
 	{
 		"name": "Terrace farm",
@@ -384,8 +395,8 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": ["[+1 Food] for each adjacent [Mountain]","Cannot be built on bonus resource",
-			"[+1 Food] on [Fresh water] tiles once [Civil Service] is discovered",
-			"[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
+			"[+1 Food] on [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] on [non-fresh water] tiles <after discovering [Fertilizer]>"],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},

@@ -95,7 +95,7 @@
     {
         "name": "Monument to the Gods",
         "type": "Pantheon",
-        "uniques": ["+[15]% Production when constructing [Wonders]"]
+        "uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"]
         // Should only be ancient/classical era wonders, but implementing that is another can of worms
         // For that we really should need an era.matchesFilter() AND support for multiple values in 
         // construction.matchesFilter(), so we could write something like:
