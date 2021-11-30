@@ -114,7 +114,7 @@
 		"unitType": "WaterCivilian",
 		"movement": 4,
 		"cost": 75,
-		"uniques": ["Cannot enter ocean tiles until Astronomy","Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
+		"uniques": ["Cannot enter ocean tiles <before disovering [Astronomy]>","Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
 			"Can construct [Sea Trade Route (Gold)]","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
 		"requiredTech": "Sailing"
 	},
@@ -284,7 +284,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles until Astronomy","May create improvements on water resources","Uncapturable"]
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources","Uncapturable"]
 	},
 		{
 		"name": "Nelayan",
@@ -295,7 +295,7 @@
 		"strength": 10,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Can construct [Kampong Ayer]","Cannot attack","Cannot enter ocean tiles until Astronomy","May create improvements on water resources"]
+		"uniques": ["Can construct [Kampong Ayer]","Cannot attack","Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources"]
 	},
 	{
 		"name": "Trireme",
