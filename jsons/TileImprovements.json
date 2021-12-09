@@ -51,7 +51,7 @@
 		"turnsToBuild": 9,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Biology",
-		"uniques": ["Cannot be built on [Coast] tiles until [Refrigeration] is discovered"],
+		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Refrigeration]>"],
 	},
 	{
 		"name": "Pasture",
