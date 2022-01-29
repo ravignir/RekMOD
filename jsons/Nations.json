@@ -24,12 +24,12 @@
 		"outerColor": [84, 103, 159],
 		"innerColor": [181, 142, 43],
 		"uniqueName": "The Great Unification",
-		"uniqueText": " +3 Culture, +2 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.
-		"
+		"uniqueText": " +3 Culture, +2 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities."
 		"uniques": ["[+2 Happiness, +3 Culture, +1 Production] from every [Courthouse]","[Land] units gain the [Epic of Battle] promotion"],
 		"cities": ["Akkad","Sipar","Kish","Tell Brak","Nippur","Tell Leilan","Marad","Umma","Azupiranu","Nuzi","Eshnunna"]
 	},
-		{
+		
+	{
 		"name": "Aksum",
 		"leaderName": "Ezana",
 		"adjective": ["Aksumite"],
@@ -69,7 +69,7 @@
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for all [{Military} {Land}] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+1] Sight <for [{Military} {Land}] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -106,11 +106,11 @@
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]
 	},
-			{
+	{
 		"name": "Argentina",
 		"leaderName": "Eva Peron",
 		"adjective": ["Argentinan"],
-//		"startBias": ["Hill"],
+		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": " ",
@@ -128,7 +128,7 @@
 		"uniques": ["[-30]% tile improvement construction time"],
 		"cities": ["Buenos Aires","La Plata","San Luis","Posadas","Catamarca","Cordoba","Formosa","San Juan","Parana","Salta","Neeuquen","Jujuy","La Rioja"]
 	},
-				{
+	{
 		"name": "Armenia",
 		"leaderName": "Tiridates III",
 		"adjective": ["Armenian"],
@@ -221,10 +221,9 @@
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
 			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
 			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
-			"Kapfenberg", "Hallein", "Bischofshofen", "Waidhofen", "Saalbach", "Lienz", "Steyr"
-		]
+			"Kapfenberg", "Hallein", "Bischofshofen", "Waidhofen", "Saalbach", "Lienz", "Steyr"]
 	},
-							{
+	{
 		"name": "Ayyubids",
 		"leaderName": "Saladin",
 		"adjective": ["Ayyubid"],
@@ -301,12 +300,12 @@
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"]
 	},
-								{
+	{
 		"name": "Belgium",
 		"leaderName": "Leopold II",
 		"adjective": ["Belgian"],
-//		"startBias": ["Desert"],
-//		"preferredVictoryType": "Domination",
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -323,11 +322,11 @@
 		"uniques": ["[+1 Production] from every [Plantation]","[+1 Gold] from every [Strategic resource]"],
 		"cities": ["Brussels","Antwerp","Ghent","Charleroi","Bruges","Liege","Ypres","Schaerbeek","Leuven","Namur","Mons","Mechelen","Anderlecht"]
 	},
-									{
+	{
 		"name": "Boers",
 		"leaderName": "Stephanus Johannes Paulus Kruger",
 		"adjective": ["Boers"],
-//		"startBias": ["Desert"],
+		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
@@ -344,7 +343,7 @@
 		"uniqueName": "The Great Trek",
 		"uniqueText": "+2 food in all cities before Civil Service, +1 culture from farms after the discovery of Fertilizer
 		",
-		"uniques": ["[+2 Food] per turn from cities before [Civil Service]"]
+		"uniques": ["[+2 Food] [in all cities] <before discovering [Civil Service]>"]
 		"cities": ["Pretoria","Bloemfontein","Johannesburg","Pietermatitzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof","Benoni","Boksburg"]
 	},
 	{
@@ -372,7 +371,7 @@
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
 			"Feira de Santana","Juiz de Fora","Joinville","Jundiaí"]			
 	},
-									{
+	{
 		"name": "Brunei",
 		"leaderName": "Bolkiah",
 		"adjective": ["Brunei"],
@@ -398,7 +397,7 @@
 		"name": "Bulgaria",
 		"leaderName": "Asparukh Khan",
 		"adjective": ["Bulgarian"],
-//		"startBias": ["Coast"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": " ",
@@ -416,12 +415,12 @@
 		"uniques": ["[+1 Science] [in all cities]","[+1 Culture] from all [Science] buildings"],
 		"cities": ["Pliska","Preslav","Tarnovo","Plovdiv","Prilep","Sofia","Vidin","Nis","Kastoria","Skopje","Ohrid","Glavinitsa","Varna"]
 	},
-		{
+	{
 		"name": "Burma",
 		"leaderName": "Anawratha",
 		"adjective": ["Burma"],
-//		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -461,12 +460,12 @@
 			"Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Vodena",
 			"Caesarea Maritima","Traianoupoli","Constantia","Korinthos","Patra"]
 	},
-			{
+	{
 		"name": "Canada",
 		"leaderName": "John A. MacDonald",
 		"adjective": ["Canadian"],
-//		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -579,7 +578,7 @@
 		"innerColor": [255,255,102],
 		"uniqueName": "Viking Fury",
 		"uniques": ["[+1 Production] from every [Fish]","[+1] Movement <for [Embarked] units>", "Units pay only 1 movement point to disembark",
-			"Melee units pay no movement cost to pillage"], 
+			"No movement cost to pillage <for [Meele] units"], 
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
@@ -638,6 +637,39 @@
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
 	},
 	{
+		"name": "Epirus",
+		"leaderName": "Pyrrhus",
+		"adjective": ["Epirote"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "In 330 BC, upon Alexander the Molossian's death, the term 'Epirus' appears as a single political unit in the ancient Greek records for the first time, under the leadership of the Molossian dynasty. Subsequently, the coinages of the three major Epirote tribal groups came to an end, and a new coinage was issued with the legend Epirotes. After Alexander's I death, Aeacides of Epirus, who succeeded him, espoused the cause of Olympias against Cassander, but was dethroned in 313 BC.
+		Aeacides's son Pyrrhus came to the throne in 295 BC. Pyrrhus, being a skillful general, was encouraged to aid the Greeks of Tarentum and decided to initiate a major offensive in the Italian peninsula and Sicily. Due to its superior martial abilities, the Epirote army defeated the Romans in the Battle of Heraclea (280 BC). Subsequently, Pyrrhus's forces nearly reached the outskirts of Rome, but had to retreat to avoid an unequal conflict with a more numerous Roman army. The following year, Pyrrhus invaded Apulia (279 BC) and the two armies met in the Battle of Asculum where the Epirotes won the eponymous Pyrrhic victory, at a high cost.
+		In 277 BC, Pyrrhus captured the Carthaginian fortress in Eryx, Sicily. This prompted the rest of the Carthaginian-controlled cities to defect to Pyrrhus. Meanwhile, he had begun to display despotic behavior towards the Sicilian Greeks and soon Sicilian opinion became inflamed against him. Though he defeated the Carthaginians in battle, he was forced to abandon Sicily.
+		Pyrrhus's Italian campaign came to an end following the inconclusive Battle of Beneventum (275 BC). 
+		Having lost the vast majority of his army, he decided to return to Epirus, which finally resulted in the loss of all his Italian holdings. Because of his costly victories, the term 'Pyrrhic victory' is often used for a victory with devastating cost to the victor.",
+		"startIntroPart2": "Now is your time to take controll of that powerfull civilization, and shows the world that Pyrrhic Victory, means doom to your enemys, not to your own army.",
+		"declaringWar": "There can be only one king. Prepare for battle!",
+		"attacked": "I think my emissary must have been late, I already declared war on you!",
+		"defeated":  "You were a worthy opponent. The gods will welcome me!",
+		"introduction":  "Welcome to Epirus, friend. I am king Pyrrhus. Are you another expenda... I mean Ally... or perhaps a next target of my army?",
+		"neutralHello": "Greeting",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["I can't accept!","You need to try harder."],
+		"hateYes": ["Let it be.","This offer is too good to reject."],
+		"afterPeace": "Hail, great lord. This was indeed a good fight.",
+		"tradeRequest": "That should do.",
+		"innerColor": [	232, 170, 158],
+		"outerColor": [	94, 50, 0],
+		"uniqueName": "Pyrrhic Victory",
+		"uniqueText": "Can't train Settlers. All military units have + 50% more strength when attacking, but suffer -25% penalty when defending. Gain Free Worker whenever you conquer a new city. +50% Production when constructing military units.",
+		"uniques": ["[Military] units gain the [Pyrrhic Victory] promotion","[+50]% Production when constructing [Military] units [in all cities]", "Cannot build [Settler] units"],
+		"cities": ["Ambracia","Phoenike","Passaron"]
+	},
+	{
 		"name": "Ethiopia",
 		"leaderName": "Haile Selassie",
 		"adjective": ["Ethiopian"],
@@ -655,7 +687,7 @@
 		"outerColor": [17,44,16],
 		"innerColor": [254,31,33],
 		"uniqueName": "Spirit of Adwa",
-		"uniques": ["[+20]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+		"uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama","Mek'ele",
 			"Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena","Nekemte",
 			"Aselia","Dila","Adigrat","Debre Tabor","Sebeta","Shire","Ambo","Negele Arsi","Gambela",
@@ -680,7 +712,7 @@
 		"outerColor": [10, 40, 74],
 		"innerColor": [218, 218, 218],
 		"uniqueName": "Finnish Mobility",
-		"uniques": ["[+1 Culture] from every [City]","[+10]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+		"uniques": ["[+1 Culture] from every [City]","[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa","Uusukaipunki","Kakisalmi"]
 	},
 	{
@@ -841,7 +873,7 @@
 		"outerColor": [181, 232, 232],
 		"innerColor": [68,142,249],
 		"uniqueName": "Hellenic League",
-		"uniques": ["City-State Influence degrades [50]% slower","City-State Influence recovers at twice the normal rate","City-State territory always counts as friendly territory"],
+		"uniques": ["[-50]% City-State Influence degradation","City-State Influence recovers at twice the normal rate","City-State territory always counts as friendly territory"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -935,7 +967,7 @@
 		"outerColor": [253,245,155],
 		"innerColor": [4,144,95],
 		"uniqueName": "Great Andean Road",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","Maintenance on roads & railroads reduced by [50]%",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","[-50]% Maintenance on roads & railroads",
 			"No Maintenance costs for improvements in [Hill] tiles"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
@@ -1400,7 +1432,7 @@
 		"outerColor": [112, 172, 122],
 		"innerColor": [112,13,31],
 		"uniqueName": "Encomienda System",
-		"uniques": ["City-State Influence degrades [20]% slower","Receive free [Worker] when you discover [Pottery]"],
+		"uniques": ["[-20]% City-State Influence degradation","Receive free [Worker] when you discover [Pottery]"],
 		"cities": ["Mexico City","Guadalajara","Tijuana","Juarez","Puebla","Monterrey","Veracruz","Acapulco","Mexicali","Oaxaca","Queretaro","Guadalupe","Merida"]
 	},
 	{
@@ -1678,7 +1710,7 @@
 		"outerColor": [153,5,3],
 		"innerColor": [244,232,54],
 		"uniqueName": "Achaemenid Legacy",
-		"uniques": ["Golden Age length increased by [50]%","[+1] Movement <for [All] units> <during a Golden Age>","[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"uniques": ["[+50]% Golden Age length increased","[+1] Movement <for [All] units> <during a Golden Age>","[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -1728,7 +1760,7 @@
 		"outerColor": [241,3,0],
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
-		"uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
+		"uniques": ["[-10]% Culture cost of adopting new Policies"],
 		"cities": ["Warsaw","Kraków","Łódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
 			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
 			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
@@ -1804,7 +1836,7 @@
 		"innerColor": [0,0,0],
 		"uniqueName": "Army with a State",
 		"uniqueText": "All Land Units may receive unique Promotions upon leveling up. +50% Food and Production from Trade Routes",
-		"uniques": ["[Land] units gain the [Gehorsam] promotion","+[50]% yield from every [Land Trade Route (Food)]","+[50]% yield from every [Land Trade Route (Production)]","+[50]% yield from every [Sea Trade Route (Food)]","+[50]% yield from every [Sea Trade Route (Production)]"],
+		"uniques": ["[Land] units gain the [Gehorsam] promotion","[+50]% Yield from every [Land Trade Route (Food)]","[+50]% Yield from every [Land Trade Route (Production)]","[+50]% Yield from every [Sea Trade Route (Food)]","[+50]% Yield from every [Sea Trade Route (Production)]"],
 		"cities": ["Konigsberg","Danzig","Memel","Stettin","Breslau","Leipzig","Potsdam","Hamburg","Magdeburg","Dresden","Lubeck","Rostock","Berlin","Straslund,","Greifswald","Kolberg","Brandenburg","Freiberg"]
 	},
 							{
@@ -1922,7 +1954,7 @@
 		"uniqueName": "Great Expanse",
 		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land
 		"
-		"uniques": ["[-75]% Culture cost of acquiring tiles [in this city]","[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+		"uniques": ["[-75]% Culture cost of acquiring tiles [in this city]","[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -1946,7 +1978,7 @@
 		"outerColor": [228,208,43],
 		"innerColor": [193,21,17],
 		"uniqueName": "Father Governs Children",
-		"uniques": ["Food and Culture from Friendly City-States are increased by 50%","Military Units gifted from City-States start with [+10] XP"],
+		"uniques": ["[+50]% Food and Culture from Friendly City-States","Military Units gifted from City-States start with [+10] XP"],
 		"cities": ["Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
 			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthuya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
@@ -2045,7 +2077,7 @@
 		"outerColor": [16,74,115],
 		"innerColor": [228,111,87],
 		"uniqueName": "Cradle of Civilization",
-		"uniques": ["[+2 Culture] per turn from cities before [Drama and Poetry]"],
+		"uniques": ["[+2 Culture] [in all cities] <before discovering [Drama and Poetry]>"],
 		"cities": ["Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa","Isin","Shruppak","Nibru"]
 	},
 	{
@@ -2300,7 +2332,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["-[50]% unit maintenance costs for [Melee] units","[Military] units gain [25]% more Experience from combat"],
+		"uniques": ["-[50]% unit maintenance costs for [Melee] units","[50]% XP gained from combat <for [Military] units>"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",

@@ -31,6 +31,16 @@
 		"uniques": ["Can build [Land] improvements on tiles"]
 	},
 	{
+		"name": "General",
+		"unitType": "Civilian",
+		"uniqueTo": "Epirus",
+		"movement": 2,
+		"cost": 100,
+		"uniques": ["Can construct [Citadel]", "Uncapturable"],
+		"hurryCostModifier": 150,
+                "requiredTech": "Construction",
+	},
+	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -96,8 +106,7 @@
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [1] times",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
-			"[+1] Sight", "Unbuildable", "Religious Unit"
-		],
+			"[+1] Sight", "Unbuildable", "Religious Unit"],
 		"movement": 3
 	},
 	{
@@ -111,10 +120,10 @@
 	},
 	{
 		"name": "Cargo Ship", 
-		"unitType": "WaterCivilian",
+		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 75,
-		"uniques": ["Cannot enter ocean tiles <before disovering [Astronomy]>","Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
 			"Can construct [Sea Trade Route (Gold)]","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
 		"requiredTech": "Sailing"
 	},
@@ -2444,7 +2453,7 @@
 		"strength": 15,
 		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Hetairoi"]
 		"upgradesTo": "Knight",
-		"uniques": ["Can construct [Citadel]","Great Person - [War]", "Bonus for units in 2 tile radius 15%", "Unbuildable","Consumes [1] [Horses]"],
+		"uniques": ["Can construct [Citadel]","Bonus for units in 2 tile radius 15%","Uncapturable","Great Person - [War]","Unbuildable"],
 		"movement": 4
 	},
 	{
@@ -2453,8 +2462,7 @@
 		"uniqueTo": "Mongolia",
 		"promotions": ["Medic","Medic II"],
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%",
-			 "Can construct [Citadel]","Uncapturable", "Great Person - [War]", "Unbuildable"],
+		"uniques": ["Can construct [Citadel]","Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%","Uncapturable", "Great Person - [War]","Unbuildable"],
 		"movement": 7
 	},
 	{
@@ -2469,8 +2477,8 @@
 	},
 	{
 		"name": "Great Admiral", 
-		"unitType": "WaterCivilian",
-		"uniques": ["Bonus for units in 2 tile radius 15%","Heal adjacent units for an additional 15 HP per turn","Unbuildable"],
+		"unitType": "Civilian Water",
+		"uniques": ["Bonus for units in 2 tile radius 15%", "Heal adjacent units for an additional 15 HP per turn", "Unbuildable"],
 		"movement": 6
 	}	
 

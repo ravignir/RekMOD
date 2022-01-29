@@ -104,14 +104,14 @@
 					"[+15]% Production when constructing [Library] buildings [in all cities]",
 					"[+15]% Production when constructing [Colosseum] buildings [in all cities]",
 					"[+15]% Production when constructing [Opera House] buildings [in all cities]"]
-			}
-		]
+	}
+	]
 	},
 	{
 		"name": "Honor",
 		"era": "Ancient era",
-		"uniques": ["[+33]% Strength vs [Barbarians]","Earn [33]% of killed [Military] unit's [Strength] as [Culture]",
-			"Notified of new Barbarian encampments","Unlocks building the Temple of Artemis"],
+		"effect": "+25% bonus vs Barbarians; gain Culture when you kill a barbarian unit",
+		"uniques": ["+25% bonus vs Barbarians","Gain Culture when you kill a barbarian unit","Notified of new Barbarian encampments","Unlocks building the Temple of Artemis"],
 		"policies": [
 			{
 				"name": "Warrior Code",
@@ -137,7 +137,7 @@
 			},
 			{
 				"name": "Military Tradition",
-				"uniques": ["Gold cost of upgrading [Military] units reduced by [20]%",
+				"uniques": ["[-20]% Gold cost of upgrading [Military]",
 					"[+100]% Production when constructing [Courthouse] buildings [in all cities]",
 					"[+3 Production, +3 Gold, +3 Food] from every [Courthouse]"],
 				"requires": ["Professional Army","Warrior Code"],
@@ -146,7 +146,7 @@
 			},
 						{
 				"name": "Discipline",
-				"uniques":["[+10]% Strength for [Land] units which have another [Military] unit in an adjacent tile","[Military] units gain [50]% more Experience from combat"],
+				"uniques":["[+10]% Strength <for [Land] units> <when adjacent to a [Meele] unit","[+50]% XP gained from combat <for [Military] units>"],
 				"requires": ["Professional Army"],
 				"row": 2,
 				"column": 5
@@ -182,7 +182,7 @@
 			},
 			{
 				"name": "Theocracy",
-				"uniques": ["+[33]% [Gold] from every [Grand Temple]","[+2 Gold] from every [Temple]","[+3 Gold] from every [Holy site]"],
+				"uniques": ["+[33]% Gold from every [Grand Temple]","[+2 Gold] from every [Temple]","[+3 Gold] from every [Holy site]"],
 				"row": 1,
 				"column": 5
 			},
@@ -195,7 +195,7 @@
 			},
 			{
 				"name": "Religious Tolerance",
-				"uniques": ["[+1 Culture] [in all cities]","+[25]% [Science] from every [Grand Temple]","[+2 Science] from every [Temple]"],
+				"uniques": ["[+1 Culture] [in all cities]","+[25]% Science from every [Grand Temple]","[+2 Science] from every [Temple]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
 				"column": 4
@@ -242,7 +242,7 @@
 			},
 			{
 				"name": "Fine Arts",
-				"uniques": ["[Great Artist] is earned [33]% faster","+[20]% [Culture] from every [Museum]","+[20]% [Culture] from every [Opera House]","+[20]% [Culture] from every [Broadcast Tower]"],
+				"uniques": ["[Great Artist] is earned [33]% faster","+[20]% Culture from every [Museum]","+[20]% Culture from every [Opera House]","+[20]% Culture from every [Broadcast Tower]"],
 				"requires": ["Cultural Exchange","Artistic Genius"],
 				"row": 3,
 				"column": 4
@@ -269,21 +269,21 @@
 			},
 			{
 				"name": "Scholasticism",
-				"uniques":["Allied City-States provide Science equal to [25]% of what they produce for themselves"],
+				"uniques":["Allied City-States provide [Science] equal to [25]% of what they produce for themselves"],
 				"requires": ["Merchant Confederacy"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Cultural Diplomacy",
-				"uniques":["Quantity of Resources gifted by City-States increased by [100]%"],
+				"uniques":["[+100]% Quantity of Resources gifted by City-States"],
 				"requires": ["Merchant Confederacy"],
 				"row": 2,
 				"column": 3
 			},
 			{
 				"name": "Philanthropy",
-				"uniques":["Gifts of Gold to City-States generate [25]% more Influence","City-State Influence degrades [25]% slower"],
+				"uniques":["Gifts of Gold to City-States generate [25]% more Influence ","[-25]% City-State Influence degradation"],
 				"requires": ["Merchant Confederacy"],
 				"row": 2,
 				"column": 5
@@ -403,7 +403,7 @@
 		"policies": [
 			{
 				"name": "Silk Road",
-				"uniques": ["+[25]% yield from every [Land Trade Route (Food)]","+[25]% yield from every [Land Trade Route (Production)]","+[25]% yield from every [Sea Trade Route (Food)]","+[25]% yield from every [Sea Trade Route (Production)]"],
+				"uniques": ["[+25]% yield from every [Land Trade Route (Food)]","[+25]% yield from every [Land Trade Route (Production)]","[+25]% yield from every [Sea Trade Route (Food)]","[+25]% yield from every [Sea Trade Route (Production)]","[+25]% yield from every [Sea Trade Route (Gold)]","[+25]% yield from every [Land Trade Route (Gold)]"]
 				"row": 1,
 				"column": 2
 			},
@@ -415,14 +415,14 @@
 			},
 			{
 				"name": "Entrepreneurship",
-				"uniques": ["Maintenance on roads & railroads reduced by [50]%","Provides 2 Trade Routes"],
+				"uniques": ["[-50]% Maintenance on roads & railroads","Provides 2 Trade Routes"],
 				"requires": ["Silk Road"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Mercantilism",
-				"uniques": ["+[25]% yield from every [Land Trade Route (Food)]","+[25]% yield from every [Land Trade Route (Production)]","+[25]% yield from every [Sea Trade Route (Food)]","+[25]% yield from every [Sea Trade Route (Production)]","[Gold] cost of purchasing items in cities [-20]%","[+2 Science] from every [Mint]",
+				"uniques": ["[+25]% yield from every [Land Trade Route (Food)]","[+25]% yield from every [Land Trade Route (Production)]","[+25]% yield from every [Sea Trade Route (Food)]","[+25]% yield from every [Sea Trade Route (Production)]","[-20]% Gold cost of purchasing items in cities ","[+2 Science] from every [Mint]",
 					"[+2 Science] from every [Market]","[+2 Science] from every [Bank]","[+2 Science] from every [Stock Exchange]"],
 				"requires": ["Silk Road"],
 				"row": 2,
@@ -437,7 +437,7 @@
 			},
 			{
 				"name": "Commerce Complete",
-				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","Double gold from Great Merchant trade missions","May buy [Great Merchamt] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","[+100]% gold from Great Merchant trade missions","May buy [Great Merchamt] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
@@ -461,7 +461,7 @@
 			},
 			{
 				"name": "Patriotic War",
-				"uniques": ["[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+				"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
 				"row": 1,
 				"column": 4
 			},
@@ -474,7 +474,7 @@
 			},
 			{
 				"name": "Workers Faculties",
-				"uniques": ["+[25]% [Science] from every [Factory]",
+				"uniques": ["[+25]% Science from every [Factory]",
 					"[+100]% Production when constructing [Factory] buildings [in all cities]"],
 				"requires": ["Patriotic War","Socialist Realism","Hero of the People"],
 				"row": 2,
@@ -501,7 +501,7 @@
 			{
 				"name": "Skyscrapers",
 				"uniqueText": "Cost of purchasing buildings reduced by [50]%",
-				"uniques": ["Cost of purchasing [Science] buildings reduced by [50]%","Cost of purchasing [Production] buildings reduced by [50]%","Cost of purchasing [Food] buildings reduced by [50]%","Cost of purchasing [Gold] buildings reduced by [50]%","Cost of purchasing [Happiness] buildings reduced by [50]%","Cost of purchasing [Culture] buildings reduced by [50]%"],
+				"uniques": ["[-50]% Gold Cost of purchasing [Non-Military] Buildings"]
 				"requires": ["Young Pioneers"],
 				"row": 2,
 				"column": 1
@@ -567,7 +567,7 @@
 			},
 			{
 				"name": "Universal Suffrage",
-				"uniques": ["Specialists only produce [50]% of normal unhappiness","Golden Age length increased by [50]%"],
+				"uniques": ["Specialists only produce [50]% of normal unhappiness","[+50]% Golden Age length"],
 				"requires": ["Avant Garde","Civil Society","Free Healthcare"],
 				"row": 2,
 				"column": 4
@@ -599,7 +599,7 @@
 			},
 			{
 				"name": "New Deal",
-				"uniques": ["+[100]% yield from every [Great Improvement]"],
+				"uniques": ["[+100]% yield from every [Great Improvement]"],
 				"requires": ["Capitalism"],
 				"row": 2,
 				"column": 3
@@ -613,7 +613,7 @@
 			},
 			{
 				"name": "Media Culture",
-				"uniques": ["+[33]% [Culture] from every [Broadcast Tower]"],
+				"uniques": ["[+33]% Culture from every [Broadcast Tower]"],
 				"requires": ["Democracy","New Deal","Urbanization"],
 				"row": 3,
 				"column": 3

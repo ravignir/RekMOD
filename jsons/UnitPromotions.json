@@ -341,7 +341,7 @@
 	},
 	
 	// Fighter
-{
+	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
@@ -526,7 +526,7 @@
 		"name": "Phoenician Heritage", // Carthage
 		"uniques": ["Can pass through impassable tiles"]
 	},
-{
+	{
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
@@ -546,7 +546,7 @@
 	},
 	{
 		"name": "Quick Study", // only for Keshik and subsequent upgrades
-		"uniques": ["[50]% Bonus XP gain"]
+		"uniques": ["[50]% XP gained from combat <for [Military] units>"]
 	},
 	{
 		"name": "Air Recon", // Air units
@@ -618,17 +618,17 @@
 		"prerequisites": ["Buffalo Chest II"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
-		{
+	{
 		"name": "Epic of Battle",
 		"uniques": ["[+15]% Strength <vs cities>"],
 	},
 	{
-	"name": "Sauna",
-	"uniques": ["+10 HP when healing"],
+		"name": "Sauna",
+		"uniques": ["+10 HP when healing"],
 	},
-		{
-	"name": "Ski Infantry",
-	"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
+	{
+		"name": "Ski Infantry",
+		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
 		"[+25]% Strength <when fighting in [Tundra] tiles>",
 		"[+25]% Strength <when fighting in [Hill] tiles>",
 		"Double movement in [Snow]",
@@ -636,77 +636,82 @@
 		"Double movement in [Hills]"]
 	},
 	{
-	"name": "Drauhtinon",
-	"uniques": ["[+1] Movement","Heals [25] damage if it kills a unit"]
+		"name": "Drauhtinon",
+		"uniques": ["[+1] Movement","Heals [25] damage if it kills a unit"]
 	},
 	{
-	"name": "Hetairoi",
-	"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%","Great Person - [War]"]
+		"name": "Hetairoi",
+		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%","Great Person - [War]"]
 	}
-		{
+	{
 		"name": "Sampy",
 		"uniques": ["Access to special promotions"]
 	},
-		{
+	{
 		"name": "Kelimazala",
 		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-			{
+	{
 		"name": "Ramahavaly",
 		"uniques": ["[+50]% Strength <when defending>","[-50]% Strength <when attacking>"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-				{
+	{
 		"name": "Manjakatsiroa",
 		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-					{
+	{
 		"name": "Mosasa",
 		"uniques": ["[+4] Sight","[+4] Range"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-					{
+	{
 		"name": "Ambohimanambola",
 		"uniques": ["Bonus for units in 2 tile radius 15%"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-						{
+	{
 		"name": "Sehatra",
 		"uniques": ["Heals [100] damage if it kills a unit"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-							{
+	{
 		"name": "Lambamena",
 		"uniques": ["[+100]% Strength <vs cities>"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-								{
+	{
 		"name": "Altitude Training",
 		"uniques": ["Double movement in [Snow]", "Double movement in [Tundra]", "Double movement in [Hills]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	},
-			{
+	{
 		"name": "Swift Charge",
 		"uniques": ["[+50]% Strength <vs [Melee] units>","[+25]% Strength <vs [Gunpowder] units>"],
 	},
-				{
+	{
 		"name": "Dharma",
 		"uniques": ["[-15]% Strength <when attacking>","[+10] HP when healing in [Friendly Land] tiles", "[+15]% Strength <when defending>"]
-				},
-								{
+	},
+	{
 		"name": "Chain of the Earth",
 		"uniques": ["Ignores Zone of Control"]
-				},
+	},
+  	{
+		"name": "Pyrrhic Victory",
+		"uniques": ["[+50]% Strength <when attacking>","[-25]% Strength <when defending>"],
+	},  
+
 // PRUSSIA
-{
+	{
 		"name": "Gehorsam", // only for Kris Swordsman and subsequent upgrades
 		"uniques": ["Access to special promotions"]
 	},
@@ -722,46 +727,46 @@
 		"prerequisites": ["Disziplin"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
-		{
+	{
 		"name": "Tapferkeit",
 		"uniques": ["[+25]% Strength <when defending>"],
 		"prerequisites": ["Disziplin"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
-		{
+	{
 		"name": "Zielstrebigkei",
 		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Fleiss"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
-		{
+	{
 		"name": "Härte",
 		"uniques": ["[+50]% Strength <when defending> <vs [Ranged] units>"],
 		"prerequisites": ["Tapferkeit"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
-		{
+	{
 		"name": "Pünktlichkeit",
 		"uniques": ["[+1] Movement"],
 		"prerequisites": ["Fleiss","Tapferkeit"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
-		{
+	{
 		"name": "Zuverlässigkeit",
 		"uniques": ["Unit will heal every turn, even if it performs an action","Great General provides double combat bonus"],
 		"prerequisites": ["Zielstrebigkei"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
-		{
+	{
 		"name": "Zurückhaltung",
 		"uniques": ["[+30]% Strength <when fighting in [Friendly Land] tiles>"],
 		"prerequisites": ["Härte"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
-			{
+	{
 		"name": "Pflichtbewusstsein",
 		"uniques": ["[+1] Movement","[+50]% Strength <vs [Armor] units>","[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Armored] units>","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"prerequisites": ["Pünktlichkeit"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
-]
+	]
