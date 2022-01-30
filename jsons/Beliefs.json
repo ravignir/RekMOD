@@ -141,7 +141,7 @@
     {
         "name": "Religious Settlements",
         "type": "Pantheon",
-        "uniques": ["[+1 Food]","[-25]% cost of natural border growth"]
+        "uniques": ["[+1 Food]","[-25]% Culture cost of natural border growth [in this city]"]
     },
     {
         "name": "Sacred Path",
@@ -198,7 +198,7 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+2 Faith] from every Wonder"]
+        "uniques": ["[+2 Faith] from every [Wonder]"]
     },
     {
         "name": "Feed the World",
@@ -279,6 +279,7 @@
 	 {
         "name": "Mithraea",
         "type": "Founder",
+        // Note: its only applicable to follower beliefs not founder beliefs
         "uniques": ["[+1]% [Gold] from every follower, up to [20]%"]
     },
  {
@@ -380,7 +381,7 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] with [Printing Press]"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
     },
     {
         "name": "Religious Unity",

@@ -114,7 +114,7 @@
 		"unitType": "WaterCivilian",
 		"movement": 4,
 		"cost": 75,
-		"uniques": ["Cannot enter ocean tiles <before disovering [Astronomy]>","Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
 			"Can construct [Sea Trade Route (Gold)]","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
 		"requiredTech": "Sailing"
 	},

@@ -283,7 +283,7 @@
 			},
 			{
 				"name": "Philanthropy",
-				"uniques":["Gifts of Gold to City-States generate [25]% more Influence","City-State Influence degrades [25]% slower"],
+				"uniques":["Gifts of Gold to City-States generate [25]% more Influence","[-25]% City-State Influence degradation"],
 				"requires": ["Merchant Confederacy"],
 				"row": 2,
 				"column": 5

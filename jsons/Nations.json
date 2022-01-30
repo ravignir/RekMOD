@@ -69,7 +69,7 @@
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for all [{Military} {Land}] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+1] Sight <for [{Military} {Land}] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -344,7 +344,7 @@
 		"uniqueName": "The Great Trek",
 		"uniqueText": "+2 food in all cities before Civil Service, +1 culture from farms after the discovery of Fertilizer
 		",
-		"uniques": ["[+2 Food] per turn from cities before [Civil Service]"]
+		"uniques": ["[+2 Food] [in all cities] <before discovering [Civil Service]>"]
 		"cities": ["Pretoria","Bloemfontein","Johannesburg","Pietermatitzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof","Benoni","Boksburg"]
 	},
 	{
@@ -579,7 +579,7 @@
 		"innerColor": [255,255,102],
 		"uniqueName": "Viking Fury",
 		"uniques": ["[+1 Production] from every [Fish]","[+1] Movement <for [Embarked] units>", "Units pay only 1 movement point to disembark",
-			"Melee units pay no movement cost to pillage"], 
+			"No movement cost to pillage <for [Melee] units>"], 
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
@@ -841,7 +841,7 @@
 		"outerColor": [181, 232, 232],
 		"innerColor": [68,142,249],
 		"uniqueName": "Hellenic League",
-		"uniques": ["City-State Influence degrades [50]% slower","City-State Influence recovers at twice the normal rate","City-State territory always counts as friendly territory"],
+		"uniques": ["[-50]% City-State Influence degradation","City-State Influence recovers at twice the normal rate","City-State territory always counts as friendly territory"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -1400,7 +1400,7 @@
 		"outerColor": [112, 172, 122],
 		"innerColor": [112,13,31],
 		"uniqueName": "Encomienda System",
-		"uniques": ["City-State Influence degrades [20]% slower","Receive free [Worker] when you discover [Pottery]"],
+		"uniques": ["[-20]% City-State Influence degradation","Receive free [Worker] when you discover [Pottery]"],
 		"cities": ["Mexico City","Guadalajara","Tijuana","Juarez","Puebla","Monterrey","Veracruz","Acapulco","Mexicali","Oaxaca","Queretaro","Guadalupe","Merida"]
 	},
 	{
@@ -1728,7 +1728,7 @@
 		"outerColor": [241,3,0],
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
-		"uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
+		"uniques": ["[10]% Culture cost of adopting new Policies"],
 		"cities": ["Warsaw","Kraków","Łódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
 			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
 			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
@@ -2045,7 +2045,7 @@
 		"outerColor": [16,74,115],
 		"innerColor": [228,111,87],
 		"uniqueName": "Cradle of Civilization",
-		"uniques": ["[+2 Culture] per turn from cities before [Drama and Poetry]"],
+		"uniques": ["[+2 Culture] [in all cities] <before discovering [Drama and Poetry]>"],
 		"cities": ["Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa","Isin","Shruppak","Nibru"]
 	},
 	{

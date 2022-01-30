@@ -21,7 +21,7 @@
 		"cost": 0,
 		"culture": 1,
 		"happiness": 1,
-		"uniques": ["Unbuildable","[10]% of food is carried over after population increases"]
+		"uniques": ["Unbuildable","[10]% Food is carried over after population increases [in this city]"]
 	},
 			{
 		"name": "Gurdwara",
@@ -1187,7 +1187,7 @@
         "name": "Aqueduct",
         "maintenance": 1,
         "hurryCostModifier": 0,
-        "uniques": ["[40]% of food is carried over [in this city] after population increases"],
+        "uniques": ["[40]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Engineering"
     },
     {
@@ -1224,7 +1224,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Khmer",
         "cost": 120,
-        "uniques": ["[10]% of food is carried over after population increases","[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>","[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+        "uniques": ["[10]% Food is carried over after population increases [in this city]", "[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>","[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -1306,7 +1306,7 @@
         "happiness": 4,
         "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
-        "uniques": ["Golden Age length increased by [50]%"],
+        "uniques": ["[+50]% Golden Age length"],
         "requiredTech": "Civil Service",
         "quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.'  - The Books of Chilam Balam"
     },
@@ -1935,7 +1935,7 @@
         "cityHealth": 12,
         "isWonder": true,
         "greatPersonPoints": {"Great Scientist": 1},    
-        "uniques": ["Defensive buildings in all cities are 25% more effective"],
+        "uniques": ["[+25]% City Strength from defensive buildings"],
         "requiredTech": "Metallurgy",
         "quote": "'When we build, let us think that we build forever.'   –- John Ruskin"
     },
@@ -2135,7 +2135,7 @@
         "culture": 5,
         "isWonder": true,
         "greatPersonPoints": {"Great Artist": 2},        
-        "uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
+        "uniques": ["[10]% Culture cost of adopting new Policies"],
         "requiredTech": "Plastics",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.'  - New Testament, Matthew 11:28"
     },
@@ -2174,7 +2174,7 @@
         "name": "Medical Lab",
         "maintenance": 3,
         "requiredTech": "Electronics",
-        "uniques": ["[25]% of food is carried over after population increases",
+        "uniques": ["[25]% Food is carried over after population increases [in this city]",
             "Requires a [Hospital] [in this city]"]
     },
     {
