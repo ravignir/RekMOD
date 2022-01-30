@@ -386,7 +386,7 @@
     {
         "name": "Religious Unity",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread to [in City-State cities]"]
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
     },
     {
         "name": "Reliquary",

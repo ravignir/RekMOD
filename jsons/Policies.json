@@ -249,7 +249,7 @@
 			},
 			{
 				"name": "Aesthetics Complete",
-				"uniques": ["[+100]% Production when constructing [Archaeologist] units",
+				"uniques": ["[+100]% Production when constructing [Archaeologist] units [in all cities]",
 					"[+4 Culture] from every [Landmark]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
@@ -548,7 +548,7 @@
 			},
 			{
 				"name": "Civil Society",
-				"uniques": ["[-50]% food consumption by specialists [in all cities]"],
+				"uniques": ["[-50]% Food consumption by specialists [in all cities]"],
 				"row": 1,
 				"column": 3
 			},
