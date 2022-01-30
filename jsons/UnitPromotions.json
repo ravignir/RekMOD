@@ -546,7 +546,7 @@
 	},
 	{
 		"name": "Quick Study", // only for Keshik and subsequent upgrades
-		"uniques": ["[50]% XP gained from combat <for [Military] units>"]
+		"uniques": ["[+50]% XP gained from combat <for [Military] units>"]
 	},
 	{
 		"name": "Air Recon", // Air units
@@ -624,7 +624,7 @@
 	},
 	{
 		"name": "Sauna",
-		"uniques": ["+10 HP when healing"],
+		"uniques": ["[+10] HP when healing"],
 	},
 	{
 		"name": "Ski Infantry",
