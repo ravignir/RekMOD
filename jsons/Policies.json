@@ -146,7 +146,7 @@
 			},
 						{
 				"name": "Discipline",
-				"uniques":["[+10]% Strength <for [Land] units> <when adjacent to a [Meele] unit","[+50]% XP gained from combat <for [Military] units>"],
+				"uniques":["[+10]% Strength <for [Land] units> <when adjacent to a [Melee] unit","[+50]% XP gained from combat <for [Military] units>"],
 				"requires": ["Professional Army"],
 				"row": 2,
 				"column": 5
