@@ -935,7 +935,7 @@
 		"outerColor": [253,245,155],
 		"innerColor": [4,144,95],
 		"uniqueName": "Great Andean Road",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","Maintenance on roads & railroads reduced by [50]%",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","[-50]% maintenance on road & railroads",
 			"No Maintenance costs for improvements in [Hill] tiles"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
@@ -1330,7 +1330,7 @@
 		"outerColor": [254,204,32],
 		"innerColor": [0,55,106],
 		"uniqueName": "Eight Banners",
-		"uniques": ["-[100]% maintenance costs for [Mounted Ranged] units", "-[100]% maintenance costs for [Mounted] units","[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
+		"uniques": ["[-100]% maintenance costs for [Mounted Ranged] units", "[-100]% maintenance costs for [Mounted] units","[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
 		"cities": ["Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling","Ningdota","Siping","Anshan"]
 	},
 		{
@@ -1545,7 +1545,7 @@
 		"innerColor": [255,143,0],
 		"uniqueName": "Castle Builders",
 		"uniqueText": "+10% combat strength outside of friendly territory. +5 defensive Strength in every City."
-		"uniques": ["+[10]% Strength for [Non-City] units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
+		"uniques": ["[+10]% Strength for [Non-City] units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
 		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
 	},
 				{
@@ -1678,7 +1678,7 @@
 		"outerColor": [153,5,3],
 		"innerColor": [244,232,54],
 		"uniqueName": "Achaemenid Legacy",
-		"uniques": ["Golden Age length increased by [50]%","[+1] Movement <for [All] units> <during a Golden Age>","[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"uniques": ["[+50]% Golden Age length","[+1] Movement <for [All] units> <during a Golden Age>","[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -1804,7 +1804,7 @@
 		"innerColor": [0,0,0],
 		"uniqueName": "Army with a State",
 		"uniqueText": "All Land Units may receive unique Promotions upon leveling up. +50% Food and Production from Trade Routes",
-		"uniques": ["[Land] units gain the [Gehorsam] promotion","+[50]% yield from every [Land Trade Route (Food)]","+[50]% yield from every [Land Trade Route (Production)]","+[50]% yield from every [Sea Trade Route (Food)]","+[50]% yield from every [Sea Trade Route (Production)]"],
+		"uniques": ["[Land] units gain the [Gehorsam] promotion","[+50]% Yield from every [Land Trade Route (Food)]","[+50]% Yield from every [Land Trade Route (Production)]","[+50]% Yield from every [Sea Trade Route (Food)]","[+50]% Yield from every [Sea Trade Route (Production)]"],
 		"cities": ["Konigsberg","Danzig","Memel","Stettin","Breslau","Leipzig","Potsdam","Hamburg","Magdeburg","Dresden","Lubeck","Rostock","Berlin","Straslund,","Greifswald","Kolberg","Brandenburg","Freiberg"]
 	},
 							{
@@ -2300,7 +2300,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["-[50]% unit maintenance costs for [Melee] units","[Military] units gain [25]% more Experience from combat"],
+		"uniques": ["[-50]% unit maintenance costs for [Melee] units","[25]% XP gained from combat <for [Military] units>"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",

@@ -546,7 +546,7 @@
 	},
 	{
 		"name": "Quick Study", // only for Keshik and subsequent upgrades
-		"uniques": ["[50]% Bonus XP gain"]
+		"uniques": ["[50]% XP gained from combat"]
 	},
 	{
 		"name": "Air Recon", // Air units
