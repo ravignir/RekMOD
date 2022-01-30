@@ -249,7 +249,7 @@
 			},
 			{
 				"name": "Aesthetics Complete",
-				"uniques": ["[+100]% Production when constructing[Archaeologist] units",
+				"uniques": ["[+100]% Production when constructing [Archaeologist] units",
 					"[+4 Culture] from every [Landmark]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
@@ -304,7 +304,7 @@
 	},
 	{
 		"name": "Exploration",
-		"uniques": ["[+1] Movement for all [{Military} {Water}] units",
+		"uniques": ["[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>","Unlocks building the Louvre","Unlocks Conquistators"],
 		"era": "Medieval era",
 		"policies": [
@@ -345,7 +345,7 @@
 			},
 			{
 				"name": "Exploration Complete",
-				"uniques": ["[3] free [Great Admiral] units appear","[+1] happiness from each type of luxury resource","May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+				"uniques": ["[3] free [Great Admiral] units appear","[+1] Happiness from each type of luxury resource","May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
@@ -548,7 +548,7 @@
 			},
 			{
 				"name": "Civil Society",
-				"uniques": ["[-50]% food consumption by specialists"],
+				"uniques": ["[-50]% food consumption by specialists [in all cities]"],
 				"row": 1,
 				"column": 3
 			},
@@ -657,7 +657,7 @@
 			},
 			{
 				"name": "Total War",
-				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]","New [Military] units start with [15] Experience"],
+				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]","New [Military] units start with [15] Experience [in all cities]"],
 				"requires": ["Fascism","Mobilization","Elite Forces"],
 				"row": 2,
 				"column": 4
@@ -705,7 +705,7 @@
 			},
 			{
 				"name": "Clausewitz's Legacy",
-				"uniques": ["[+25]% attack strength to all [Military] units for [50] turns"],
+				"uniques": ["+[25]% attack strength to all [Military] units for [50] turns"],
 				"requires": ["Nationalism","Third Alternative","Militarism"],				
 				"row": 3,
 				"column": 3
