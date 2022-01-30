@@ -137,7 +137,7 @@
 			},
 			{
 				"name": "Military Tradition",
-				"uniques": ["Gold cost of upgrading [Military] units reduced by [20]%",
+				"uniques": ["[-20]% Gold cost of upgrading <for [Military] units>",
 					"[+100]% Production when constructing [Courthouse] buildings [in all cities]",
 					"[+3 Production, +3 Gold, +3 Food] from every [Courthouse]"],
 				"requires": ["Professional Army","Warrior Code"],
@@ -146,7 +146,7 @@
 			},
 						{
 				"name": "Discipline",
-				"uniques":["[+10]% Strength for [Land] units which have another [Military] unit in an adjacent tile","[50]% XP gained from combat <for [Military] units>"],
+				"uniques":["[+10]% Strength <for [Land] units> <when adjacent to a [Military] unit>","[50]% XP gained from combat <for [Military] units>"],
 				"requires": ["Professional Army"],
 				"row": 2,
 				"column": 5
@@ -437,7 +437,7 @@
 			},
 			{
 				"name": "Commerce Complete",
-				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","Double gold from Great Merchant trade missions","May buy [Great Merchamt] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","[+100]% Gold from Great Merchant trade missions","May buy [Great Merchamt] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},

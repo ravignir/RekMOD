@@ -280,7 +280,7 @@
         "name": "Mithraea",
         "type": "Founder",
         // Note: its only applicable to follower beliefs not founder beliefs
-        "uniques": ["[+1]% [Gold] from every follower, up to [20]%"]
+        "uniques": ["[1]% [Gold] from every follower, up to [20]%"]
     },
  {
         "name": "Tithe",
