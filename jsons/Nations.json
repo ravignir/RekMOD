@@ -169,7 +169,7 @@
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
 		"uniqueName": "Siege Warfare",
-		"uniques": ["[+1] Movement for all [Siege] units","Receive free [Great Artist] when you discover [Philosophy]"]
+		"uniques": ["[+1] Movement <for [Siege] units>","Receive free [Great Artist] when you discover [Philosophy]"]
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -631,7 +631,7 @@
 		"outerColor": [ 114, 0, 0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Sun Never Sets",
-		"uniques": ["[+2] Movement for all [Water] units"],
+		"uniques": ["[+2] Movement <for [Water] units>"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -1215,7 +1215,7 @@
 		"outerColor": [122,62,35],
 		"innerColor": [171,173,97],
 		"uniqueName": "Heart of Africa",
-		"uniques": ["[-33]% Culture cost of acquiring tiles [in all cities]"],
+		"uniques": ["[-33]% Culture cost of natural border growth [in all cities]"],
 		"cities": ["M'banza-Kongo","M'banza-Ngungu","M'banza-Mbata","M'banza-Nsundi","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba","M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila"]
 	},
 	{
@@ -1422,7 +1422,7 @@
 		"outerColor": [81,0,9],
 		"innerColor": [255,120,0],
 		"uniqueName": "Mongol Terror",
-		"uniques": ["+30% Strength when fighting City-State units and cities", "[+1] Movement for all [Mounted] units","[+1] Movement for all [Armor] units","Double quantity of [Horses] produced"],
+		"uniques": ["+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mounted] units>","[+1] Movement <for [Armor] units>","Double quantity of [Horses] produced"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -1921,8 +1921,8 @@
 		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
 		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land
-		"
-		"uniques": ["[-75]% Culture cost of acquiring tiles [in this city]","[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+		",
+		"uniques": ["[-75]% Culture cost of natural border growth [in this city]","[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -2300,7 +2300,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["[-50]% unit maintenance costs for [Melee] units","[25]% XP gained from combat <for [Military] units>"],
+		"uniques": ["[-50]% maintenance costs <for [Melee] units>","[25]% XP gained from combat <for [Military] units>"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",

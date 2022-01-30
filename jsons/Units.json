@@ -941,7 +941,7 @@
 		"requiredTech": "Theology",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Consumes [1] [Iron]","May enter foreign tiles without open borders","[+20]% Strength in [Foreign Land]","Earn [150]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["Consumes [1] [Iron]","May enter foreign tiles without open borders","[+20]% Strength <when fighting in [Foreign Land] tiles>","Earn [150]% of killed [Military] unit's [Strength] as [Faith]"],
 		"attackSound": "metalhit"
 	},
 			{
@@ -1253,7 +1253,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Can build [Farm] improvements on tiles","Can build [Pasture] improvements on tiles",
-			"May withdraw before melee ([50%])","Consumes [1] [Horses]"],
+			"May withdraw before melee ([50]%)","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1357,7 +1357,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Can move after attacking","[+1] Sight","May withdraw before melee","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"],
+		"uniques": ["Can move after attacking","[+1] Sight","May withdraw before melee ([50]%)","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"],
 	},
 	{
 		"name": "Cannon",
