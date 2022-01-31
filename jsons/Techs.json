@@ -546,7 +546,7 @@
 				"name": "Computers",
 				"row": 8,
 				"prerequisites": ["Combined Arms","Radar"],
-				//"uniques": ["+[10]% [Production] [in all cities]","+[10]% [Science] [in all cities]"],
+				//"uniques": ["[+10]% [Production] [in all cities]","[+10]% [Science] [in all cities]"],
 				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			}
 		]

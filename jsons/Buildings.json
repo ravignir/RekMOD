@@ -21,7 +21,7 @@
 		"cost": 0,
 		"culture": 1,
 		"happiness": 1,
-		"uniques": ["Unbuildable","[10]% of food is carried over after population increases"]
+		"uniques": ["Unbuildable","[10]% Food is carried over after population increases [in this city]"]
 	},
 			{
 		"name": "Gurdwara",
@@ -190,7 +190,7 @@
 	{
 		"name": "Great Zimbabwe",
 		"cost": 1,
-		"uniques": ["Destroyed when the city is captured","Unsellable","Unbuildable","Will not be displayed in Civilopedia","[+25]% Production when constructing [Buildings] [in this city]","[+25]% Production when constructing [Military] units [in this city]"]
+		"uniques": ["Destroyed when the city is captured","Unsellable","Unbuildable","Will not be displayed in Civilopedia","[+25]% Production when constructing [All] buildings [in this city]","[+25]% Production when constructing [Military] units [in this city]"]
 	}		
 		{
         "name": "GPBonus",
@@ -555,7 +555,7 @@
         "isWonder": true,
         "greatPersonPoints": {"Great Engineer": 1},
         "requiredTech": "Calendar",
-		"uniques": ["[-25]% Culture cost of acquiring tiles [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]"],
         "quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
     },
     {
@@ -773,7 +773,7 @@
         "uniqueTo": "Russia",
         "hurryCostModifier": 25,
         "maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","[-25]% Culture cost of acquiring tiles [in this city]",
+		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","[-25]% Culture cost of natural border growth [in this city]",
         "[-25]% Gold cost of acquiring tiles [in this city]"],
         "requiredTech": "Bronze Working"
     },
@@ -832,7 +832,7 @@
         "culture": 1,
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
-        "uniques": ["Gain a free [Lighthouse] [in this city]","Must be next to [Coast]", "[+1] Movement for all [{Military} {Water}] units",
+        "uniques": ["Gain a free [Lighthouse] [in this city]","Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>"],
         "requiredTech": "Optics",
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
@@ -1187,7 +1187,7 @@
         "name": "Aqueduct",
         "maintenance": 1,
         "hurryCostModifier": 0,
-        "uniques": ["[40]% of food is carried over [in this city] after population increases"],
+        "uniques": ["[40]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Engineering"
     },
     {
@@ -1224,7 +1224,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Khmer",
         "cost": 120,
-        "uniques": ["[10]% of food is carried over after population increases","[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>","[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+        "uniques": ["[10]% Food is carried over after population increases [in this city]", "[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>","[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -1306,7 +1306,7 @@
         "happiness": 4,
         "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
-        "uniques": ["Golden Age length increased by [50]%"],
+        "uniques": ["[+50]% Golden Age length"],
         "requiredTech": "Civil Service",
         "quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.'  - The Books of Chilam Balam"
     },
@@ -1424,7 +1424,7 @@
         "hurryCostModifier": 25,
         "requiredTech": "Metal Casting",
         "uniques": ["All newly-trained [relevant] units [in this city] receive the [Accuracy I] promotion","[+2 Culture, +1 Production] from [Iron] tiles [in this city]","[+1 Production] from [Coal] tiles [in this city]","[+1 Production] from [Aluminum] tiles [in this city]","[+1 Production] from [Uranium] tiles [in this city]","[+15]% Production when constructing [Land] units [in this city]",
-            "[+15]% Production when constructing [Spaceship part] [in this city]"]
+            "[+15]% Production when constructing [Spaceship part] buildings [in this city]"]
     },
     {
         "name": "Harbor",
@@ -1454,7 +1454,7 @@
 		"uniqueTo": "Phoenicia",
         "maintenance": 2,
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Production] from [Water resource] tiles [in this city]","[+15]% Production when constructing [water units] [in this city]","[+1 Gold] from [Sea Trade Route (Food)] tiles [in this city]",
+        "uniques": ["[+1 Production] from [Water resource] tiles [in this city]","[+15]% Production when constructing [Water] units [in this city]","[+1 Gold] from [Sea Trade Route (Food)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Production)] tiles [in this city]","[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "Connects trade routes over water","Must be next to [Coast]"],
         "requiredTech": "Compass"
@@ -1935,7 +1935,7 @@
         "cityHealth": 12,
         "isWonder": true,
         "greatPersonPoints": {"Great Scientist": 1},    
-        "uniques": ["Defensive buildings in all cities are 25% more effective"],
+        "uniques": ["[+25]% City Strength from defensive buildings"],
         "requiredTech": "Metallurgy",
         "quote": "'When we build, let us think that we build forever.'   –- John Ruskin"
     },
@@ -2135,7 +2135,7 @@
         "culture": 5,
         "isWonder": true,
         "greatPersonPoints": {"Great Artist": 2},        
-        "uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
+        "uniques": ["[10]% Culture cost of adopting new Policies"],
         "requiredTech": "Plastics",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.'  - New Testament, Matthew 11:28"
     },
@@ -2174,7 +2174,7 @@
         "name": "Medical Lab",
         "maintenance": 3,
         "requiredTech": "Electronics",
-        "uniques": ["[25]% of food is carried over after population increases",
+        "uniques": ["[25]% Food is carried over after population increases [in this city]",
             "Requires a [Hospital] [in this city]"]
     },
     {
@@ -2289,7 +2289,7 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": ["Hidden until [6] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled]"],
+			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"],
 	},
 	{
 		"name": "United Nations",

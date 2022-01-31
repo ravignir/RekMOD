@@ -69,7 +69,7 @@
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for all [{Military} {Land}] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+1] Sight <for [{Military} {Land}] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -169,7 +169,7 @@
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
 		"uniqueName": "Siege Warfare",
-		"uniques": ["[+1] Movement for all [Siege] units","Receive free [Great Artist] when you discover [Philosophy]"]
+		"uniques": ["[+1] Movement <for [Siege] units>","Receive free [Great Artist] when you discover [Philosophy]"]
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -344,7 +344,7 @@
 		"uniqueName": "The Great Trek",
 		"uniqueText": "+2 food in all cities before Civil Service, +1 culture from farms after the discovery of Fertilizer
 		",
-		"uniques": ["[+2 Food] per turn from cities before [Civil Service]"]
+		"uniques": ["[+2 Food] [in all cities] <before discovering [Civil Service]>"]
 		"cities": ["Pretoria","Bloemfontein","Johannesburg","Pietermatitzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof","Benoni","Boksburg"]
 	},
 	{
@@ -579,7 +579,7 @@
 		"innerColor": [255,255,102],
 		"uniqueName": "Viking Fury",
 		"uniques": ["[+1 Production] from every [Fish]","[+1] Movement <for [Embarked] units>", "Units pay only 1 movement point to disembark",
-			"Melee units pay no movement cost to pillage"], 
+			"No movement cost to pillage <for [Melee] units>"], 
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
@@ -631,7 +631,7 @@
 		"outerColor": [ 114, 0, 0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Sun Never Sets",
-		"uniques": ["[+2] Movement for all [Water] units"],
+		"uniques": ["[+2] Movement <for [Water] units>"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -841,7 +841,7 @@
 		"outerColor": [181, 232, 232],
 		"innerColor": [68,142,249],
 		"uniqueName": "Hellenic League",
-		"uniques": ["City-State Influence degrades [50]% slower","City-State Influence recovers at twice the normal rate","City-State territory always counts as friendly territory"],
+		"uniques": ["[-50]% City-State Influence degradation","City-State Influence recovers at twice the normal rate","City-State territory always counts as friendly territory"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -935,7 +935,7 @@
 		"outerColor": [253,245,155],
 		"innerColor": [4,144,95],
 		"uniqueName": "Great Andean Road",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","Maintenance on roads & railroads reduced by [50]%",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","[-50]% maintenance on road & railroads",
 			"No Maintenance costs for improvements in [Hill] tiles"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
@@ -1215,7 +1215,7 @@
 		"outerColor": [122,62,35],
 		"innerColor": [171,173,97],
 		"uniqueName": "Heart of Africa",
-		"uniques": ["[-33]% Culture cost of acquiring tiles [in all cities]"],
+		"uniques": ["[-33]% Culture cost of natural border growth [in all cities]"],
 		"cities": ["M'banza-Kongo","M'banza-Ngungu","M'banza-Mbata","M'banza-Nsundi","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba","M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila"]
 	},
 	{
@@ -1330,7 +1330,7 @@
 		"outerColor": [254,204,32],
 		"innerColor": [0,55,106],
 		"uniqueName": "Eight Banners",
-		"uniques": ["-[100]% maintenance costs for [Mounted Ranged] units", "-[100]% maintenance costs for [Mounted] units","[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
+		"uniques": ["[-100]% maintenance costs <for [Mounted Ranged] units>", "[-100]% maintenance costs <for [Mounted] units>","[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion"],
 		"cities": ["Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling","Ningdota","Siping","Anshan"]
 	},
 		{
@@ -1400,7 +1400,7 @@
 		"outerColor": [112, 172, 122],
 		"innerColor": [112,13,31],
 		"uniqueName": "Encomienda System",
-		"uniques": ["City-State Influence degrades [20]% slower","Receive free [Worker] when you discover [Pottery]"],
+		"uniques": ["[-20]% City-State Influence degradation","Receive free [Worker] when you discover [Pottery]"],
 		"cities": ["Mexico City","Guadalajara","Tijuana","Juarez","Puebla","Monterrey","Veracruz","Acapulco","Mexicali","Oaxaca","Queretaro","Guadalupe","Merida"]
 	},
 	{
@@ -1422,7 +1422,7 @@
 		"outerColor": [81,0,9],
 		"innerColor": [255,120,0],
 		"uniqueName": "Mongol Terror",
-		"uniques": ["+30% Strength when fighting City-State units and cities", "[+1] Movement for all [Mounted] units","[+1] Movement for all [Armor] units","Double quantity of [Horses] produced"],
+		"uniques": ["+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mounted] units>","[+1] Movement <for [Armor] units>","Double quantity of [Horses] produced"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -1545,7 +1545,7 @@
 		"innerColor": [255,143,0],
 		"uniqueName": "Castle Builders",
 		"uniqueText": "+10% combat strength outside of friendly territory. +5 defensive Strength in every City."
-		"uniques": ["+[10]% Strength for [Non-City] units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
+		"uniques": ["[+10]% Strength for [Non-City] units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
 		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
 	},
 				{
@@ -1678,7 +1678,7 @@
 		"outerColor": [153,5,3],
 		"innerColor": [244,232,54],
 		"uniqueName": "Achaemenid Legacy",
-		"uniques": ["Golden Age length increased by [50]%","[+1] Movement <for [All] units> <during a Golden Age>","[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"uniques": ["[+50]% Golden Age length","[+1] Movement <for [All] units> <during a Golden Age>","[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -1728,7 +1728,7 @@
 		"outerColor": [241,3,0],
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
-		"uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
+		"uniques": ["[10]% Culture cost of adopting new Policies"],
 		"cities": ["Warsaw","Kraków","Łódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
 			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
 			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
@@ -1804,7 +1804,7 @@
 		"innerColor": [0,0,0],
 		"uniqueName": "Army with a State",
 		"uniqueText": "All Land Units may receive unique Promotions upon leveling up. +50% Food and Production from Trade Routes",
-		"uniques": ["[Land] units gain the [Gehorsam] promotion","+[50]% yield from every [Land Trade Route (Food)]","+[50]% yield from every [Land Trade Route (Production)]","+[50]% yield from every [Sea Trade Route (Food)]","+[50]% yield from every [Sea Trade Route (Production)]"],
+		"uniques": ["[Land] units gain the [Gehorsam] promotion","[+50]% Yield from every [Land Trade Route (Food)]","[+50]% Yield from every [Land Trade Route (Production)]","[+50]% Yield from every [Sea Trade Route (Food)]","[+50]% Yield from every [Sea Trade Route (Production)]"],
 		"cities": ["Konigsberg","Danzig","Memel","Stettin","Breslau","Leipzig","Potsdam","Hamburg","Magdeburg","Dresden","Lubeck","Rostock","Berlin","Straslund,","Greifswald","Kolberg","Brandenburg","Freiberg"]
 	},
 							{
@@ -1873,7 +1873,7 @@
 		"outerColor": [ 53,0,87],
 		"innerColor": [238,201,9],
 		"uniqueName": "The Glory of Rome",
-		"uniques": ["+25% Production towards any buildings that already exist in the Capital"],
+		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -1921,8 +1921,8 @@
 		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
 		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land
-		"
-		"uniques": ["[-75]% Culture cost of acquiring tiles [in this city]","[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+		",
+		"uniques": ["[-75]% Culture cost of natural border growth [in this city]","[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -2045,7 +2045,7 @@
 		"outerColor": [16,74,115],
 		"innerColor": [228,111,87],
 		"uniqueName": "Cradle of Civilization",
-		"uniques": ["[+2 Culture] per turn from cities before [Drama and Poetry]"],
+		"uniques": ["[+2 Culture] [in all cities] <before discovering [Drama and Poetry]>"],
 		"cities": ["Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa","Isin","Shruppak","Nibru"]
 	},
 	{
@@ -2300,7 +2300,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["-[50]% unit maintenance costs for [Melee] units","[Military] units gain [25]% more Experience from combat"],
+		"uniques": ["[-50]% maintenance costs <for [Melee] units>","[25]% XP gained from combat <for [Military] units>"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",
