@@ -149,7 +149,7 @@
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing",
-					"[+5] HP when healing in [Foreign Land] tiles"],
+					"[+5] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Melee","Gunpowder","Mounted","Scout"]
 	},
 	
@@ -177,13 +177,13 @@
 	},
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "[+25]% Strength <when defending>"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "[+25]% Strength <when defending>"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -288,7 +288,7 @@
 	{
 		"name" : "Supply",
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
-		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing in [Foreign Land] tiles"],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["WaterMelee","Melee Water", "WaterRanged", "Ranged Water"]
 	},
 	//helicopters
@@ -699,7 +699,7 @@
 	},
 				{
 		"name": "Dharma",
-		"uniques": ["[-15]% Strength <when attacking>","[+10] HP when healing in [Friendly Land] tiles", "[+15]% Strength <when defending>"]
+		"uniques": ["[-15]% Strength <when attacking>","[+10] HP when healing <in [Friendly Land] tiles>", "[+15]% Strength <when defending>"]
 				},
 								{
 		"name": "Chain of the Earth",

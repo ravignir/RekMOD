@@ -2470,7 +2470,7 @@
 	{
 		"name": "Great Admiral", 
 		"unitType": "WaterCivilian",
-		"uniques": ["Bonus for units in 2 tile radius 15%","Heal adjacent units for an additional 15 HP per turn","Unbuildable"],
+		"uniques": ["Bonus for units in 2 tile radius 15%","All adjacent units heal [+15] HP when healing","Unbuildable"],
 		"movement": 6
 	}	
 
