@@ -444,7 +444,7 @@
 	{
 		"name": "Order",
 		"era": "Modern era",
-		"uniques": ["Free Social Policy","Unlocks Kremlin","Incompatible with [Autocracy]","Incompatible with [Freedom]"],
+		"uniques": ["Free Social Policy","Unlocks Kremlin","Only available <before adopting [Autocracy]> OR <before discovering [Autocracy]> OR <for units without [Autocracy]>","Only available <before adopting [Freedom]> OR <before discovering [Freedom]> OR <for units without [Freedom]>"],
 		"policies": [
 			{
 				"name": "Hero of the People",
@@ -489,7 +489,7 @@
 	{
 		"name": "Order II",
 		"era": "Modern era",
-		"uniques": ["Incompatible with [Autocracy]","Incompatible with [Freedom]","Free Social Policy"],
+		"uniques": ["Only available <before adopting [Autocracy]> OR <before discovering [Autocracy]> OR <for units without [Autocracy]>","Only available <before adopting [Freedom]> OR <before discovering [Freedom]> OR <for units without [Freedom]>","Free Social Policy"],
 		"policies": [
 			{
 				"name": "Young Pioneers",
@@ -538,7 +538,7 @@
 	{
 		"name": "Freedom",
 		"era": "Modern era",
-		"uniques": ["Free Social Policy","Unlocks Statue of Liberty","Incompatible with [Autocracy]","Incompatible with [Order]"],
+		"uniques": ["Free Social Policy","Unlocks Statue of Liberty","Only available <before adopting [Autocracy]> OR <before discovering [Autocracy]> OR <for units without [Autocracy]>","Only available <before adopting [Order]> OR <before discovering [Order]> OR <for units without [Order]>"],
 		"policies": [
 			{
 				"name": "Avant Garde",
@@ -581,7 +581,7 @@
 	{
 		"name": "Freedom II",
 		"era": "Modern era",
-		"uniques": ["Incompatible with [Autocracy]","Free Social Policy","Incompatible with [Order]"],
+		"uniques": ["Only available <before adopting [Autocracy]> OR <before discovering [Autocracy]> OR <for units without [Autocracy]>","Free Social Policy","Only available <before adopting [Order]> OR <before discovering [Order]> OR <for units without [Order]>"],
 		"policies": [				
 			{
 				"name": "Capitalism",
@@ -627,7 +627,7 @@
 	{
 		"name": "Autocracy",
 		"era": "Modern era",
-		"uniques": ["Free Social Policy","Unlocks Prora","Incompatible with [Order]","Incompatible with [Freedom]"],
+		"uniques": ["Free Social Policy","Unlocks Prora","Only available <before adopting [Order]> OR <before discovering [Order]> OR <for units without [Order]>","Only available <before adopting [Freedom]> OR <before discovering [Freedom]> OR <for units without [Freedom]>"],
 		"policies": [
 			{
 				"name": "Elite Forces",
@@ -671,7 +671,7 @@
 		{
 		"name": "Autocracy II",
 		"era": "Modern era",
-		"uniques": ["Free Social Policy","Incompatible with [Freedom]","Incompatible with [Order]"],
+		"uniques": ["Free Social Policy","Only available <before adopting [Freedom]> OR <before discovering [Freedom]> OR <for units without [Freedom]>","Only available <before adopting [Order]> OR <before discovering [Order]> OR <for units without [Order]>"],
 		"policies": [
 			{
 				"name": "Universal Healthcare",
@@ -705,7 +705,7 @@
 			},
 			{
 				"name": "Clausewitz's Legacy",
-				"uniques": ["+[25]% attack strength to all [Military] units for [50] turns"],
+				"uniques": ["[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>"],
 				"requires": ["Nationalism","Third Alternative","Militarism"],				
 				"row": 3,
 				"column": 3

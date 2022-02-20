@@ -88,7 +88,7 @@
         "requiredTech": "Theology",
         "cost": 1,
         "replacementTextForUniques": " ",
-        "uniques": ["Destroyed when the city is captured","Not displayed as an available construction without [Palace]",
+        "uniques": ["Destroyed when the city is captured","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>",
         	"Will not be displayed in Civilopedia","Unsellable"]
     },
     {
@@ -100,17 +100,17 @@
 		    {
         "name": "Classical Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Renaissance Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Modern Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Morocco Classical",
@@ -118,7 +118,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Medieval",
@@ -126,7 +126,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Medieval era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Medieval era]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Renaissance",
@@ -134,14 +134,14 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
     },	    {
         "name": "Morocco Industrial",
 		        "isNationalWonder": true,
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Industrial era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Industrial era]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Modern",
@@ -149,7 +149,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Atomic",
@@ -157,7 +157,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Atomic era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Atomic era]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Information",
@@ -165,7 +165,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Information era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <after adopting [Palace]> OR <with [Palace]> OR <after discovering [Palace]>","Unlocked with [Information era]","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Bonus Trade Routes",
