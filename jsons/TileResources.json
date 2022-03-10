@@ -392,14 +392,6 @@
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 0, "gold": 1}
-	}
-	{
-		"name": "Bison", 
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"food": 1,
-		"improvement": "Camp",
-		"improvementStats": {"food": 1},
 	},
 	{
 		"name": "Citrus", 
