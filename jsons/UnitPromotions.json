@@ -748,7 +748,7 @@
 	},
 		{
 		"name": "Zuverlässigkeit",
-		"uniques": ["Unit will heal every turn, even if it performs an action","Great General provides double combat bonus"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","[+15]% Strength when stacked with [Great General]"],
 		"prerequisites": ["Zielstrebigkei"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","Gunpowder"]
 	},
