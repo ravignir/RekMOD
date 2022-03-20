@@ -24,8 +24,7 @@
 		"outerColor": [84, 103, 159],
 		"innerColor": [181, 142, 43],
 		"uniqueName": "The Great Unification",
-		"uniqueText": " +3 Culture, +2 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.
-		"
+		"uniqueText": " +3 Culture, +2 Happiness and +1 Production from conquered cities. Land units have +15% Combat Bonus in combat with Cities.",
 		"uniques": ["[+2 Happiness, +3 Culture, +1 Production] from every [Courthouse]","[Land] units gain the [Epic of Battle] promotion"],
 		"cities": ["Akkad","Sipar","Kish","Tell Brak","Nippur","Tell Leilan","Marad","Umma","Azupiranu","Nuzi","Eshnunna"]
 	},
@@ -96,8 +95,7 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Trade Caravans",
-		"uniqueText": " +1 Gold from every Trade Route, Double quantity of Oil produced
-		",
+		"uniqueText": " +1 Gold from every Trade Route, Double quantity of Oil produced",
 		"uniques": ["[+1 Gold] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
 			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
 			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]",
@@ -169,7 +167,7 @@
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
 		"uniqueName": "Siege Warfare",
-		"uniques": ["[+1] Movement <for [Siege] units>","Receive free [Great Artist] when you discover [Philosophy]"]
+		"uniques": ["[+1] Movement <for [Siege] units>","Receive free [Great Artist] when you discover [Philosophy]"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -266,8 +264,7 @@
 		"outerColor": [139,32,23],
 		"innerColor": [134,238,214],
 		"uniqueName": "Sacrificial Captives",
-		"uniqueText": " Gains Culture for the empire from each enemy unit killed
-		",
+		"uniqueText": " Gains Culture for the empire from each enemy unit killed",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
@@ -342,9 +339,8 @@
 		"outerColor": [228, 111, 87],
 		"innerColor": [38, 41, 80],
 		"uniqueName": "The Great Trek",
-		"uniqueText": "+2 food in all cities before Civil Service, +1 culture from farms after the discovery of Fertilizer
-		",
-		"uniques": ["[+2 Food] [in all cities] <before discovering [Civil Service]>"]
+		"uniqueText": "+2 food in all cities before Civil Service, +1 culture from farms after the discovery of Fertilizer",
+		"uniques": ["[+2 Food] [in all cities] <before discovering [Civil Service]>"],
 		"cities": ["Pretoria","Bloemfontein","Johannesburg","Pietermatitzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof","Benoni","Boksburg"]
 	},
 	{
@@ -502,8 +498,7 @@
 		"outerColor": [189,189,189],
 		"innerColor": [88,0,154],
 		"uniqueName": "Phoenician Heritage",
-		"uniqueText": " All coastal Cities gain a free Harbor. Units may cross mountains, taking 50 HP damage if they end a turn on a mountain
-		",
+		"uniqueText": "All coastal Cities gain a free Harbor. Units may cross mountains, taking 50 HP damage if they end a turn on a mountain",
 		"uniques": ["Gain a free [Harbor] [in all coastal cities]","[Land] units gain the [Phoenician Heritage] promotion"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
@@ -819,7 +814,7 @@
 		"outerColor": [29, 26, 26],
 		"innerColor": [181, 214, 207],
 		"uniqueName": "Drauhtinon",
-		"uniqueText": "Melee units receive +1 Movement and heal 25 HP after killing an enemy."
+		"uniqueText": "Melee units receive +1 Movement and heal 25 HP after killing an enemy.",
 		"uniques": ["[Melee] units gain the [Drauhtinon] promotion"],
 		"cities": ["Arheimar","Aujum","Potaissa","Apulon","Tyras","Sarmizegetusa","Argidava","Olite","Tolosa","Olbia","Reccopolis","Toletum","Pityus"]
 	},
@@ -985,8 +980,7 @@
 		"outerColor": [101,211,220],
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
-		"uniqueText": " Your first 3 coastal cities each provide 2 copies of unique Luxury Resources
-		",
+		"uniqueText": " Your first 3 coastal cities each provide 2 copies of unique Luxury Resources",
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
 			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
@@ -1192,7 +1186,7 @@
 		"outerColor": [119,59,129],
 		"innerColor": [194,222,155],
 		"uniqueName": "Merchant Economy",
-		"uniqueText": "+10% Growth in all cities. +4 Gold from Food and Production Trade Routes"
+		"uniqueText": "+10% Growth in all cities. +4 Gold from Food and Production Trade Routes",
 		"uniques": ["[+10]% growth [in all cities]","[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]","[+4 Gold] from every [Sea Trade Route (Food)]","[+4 Gold] from every [Sea Trade Route (Production)]"],
 		"cities": ["Kilwa Kiswani","Zanzibar","Mombasa","Malindi","Sofala","Pemba","Mozambique","Mogadishu","Lamu","Mahajanga","Antsiranana","Kismaoyo","Mzizima","Mafia","Bazarula","Pate"]
 	},
@@ -1285,7 +1279,7 @@
 		"outerColor": [92,60,83],
 		"innerColor": [220,190,92],
 		"uniqueName": "Macedonian Discipline",
-		"uniqueText": "Barracks, Armories, and Military Academies provide +1 Food and +1 Culture. Receive a free Hetairoi at Horseback Riding."
+		"uniqueText": "Barracks, Armories, and Military Academies provide +1 Food and +1 Culture. Receive a free Hetairoi at Horseback Riding.",
 		"uniques": ["Receive free [Hetairoi] when you discover [Horseback Riding]","[+1 Food, +1 Culture] from every [Barracks]","[+1 Food, +1 Culture] from every [Military Academy]","[+1 Food, +1 Culture] from every [Armory]"],
 		"cities": ["Pella","Vergina","Amphipolis","Larissa","Ambracia","Methoni","Olynthus","Patidea","Philippopolis","Alexandropolis","Alexandria","Alexandria Latmus","Alexandria Issus","Alexandria Ariana"]
 	},
@@ -1374,8 +1368,7 @@
 		"outerColor": [213,166,120],
 		"innerColor": [43,79,83],
 		"uniqueName": "The Long Count",
-		"uniqueText": " After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years)
-		",
+		"uniqueText": " After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years)",
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna",
 			"Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe",
 			"Cerros","Xumantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas",
@@ -1469,8 +1462,7 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
-		"uniqueText": " +3 Gold and +1 Culture from every gold Trade Route, bonus inceases by +1 Gold and +1 Culture each era
-		",
+		"uniqueText": " +3 Gold and +1 Culture from every gold Trade Route, bonus inceases by +1 Gold and +1 Culture each era",
 		"uniques": ["[+3 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+3 Gold, +1 Culture] from every [Sea Trade Route (Gold)]"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Quarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
@@ -1496,7 +1488,7 @@
 		"outerColor": [47,95,47],
 		"innerColor": [249,249,20],
 		"uniqueName": "Brahmin Elite",
-		"uniqueText": "Specialists provide +1 Food and Production, but generate +50% more Unhappiness"
+		"uniqueText": "Specialists provide +1 Food and Production, but generate +50% more Unhappiness",
 		"uniques": ["[+1 Food] from every specialist [in all cities]","[+1 Production] from every specialist [in all cities]","Specialists only produce [150]% of normal unhappiness"],
 		"cities": ["Mysuru","Hunsur","Bannur","Bengaluru","Nanjanagudu","Periyapatna","Saligrama","Virajpet","Madikeri","Mandya","Maddur","Nagamangala","Narasipura","Arkalgud","Hassan","Belur","Turuvekere","Mudigere","Koppa"]
 	},
@@ -1544,7 +1536,7 @@
 		"outerColor": [234,0,0],
 		"innerColor": [255,143,0],
 		"uniqueName": "Castle Builders",
-		"uniqueText": "+10% combat strength outside of friendly territory. +5 defensive Strength in every City."
+		"uniqueText": "+10% combat strength outside of friendly territory. +5 defensive Strength in every City.",
 		"uniques": ["[+10]% Strength for [Non-City] units fighting in [Foreign Land]","Gain a free [Castle Builders] [in all cities]"],
 		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
 	},
@@ -1611,7 +1603,7 @@
 		"outerColor": [155,44,24],
 		"innerColor": [211,204,27],
 		"uniqueName": "Chain of the Earth",
-		"uniqueText": "All Naval Units ignore Zone of Control movement penalties. Receive a free Seaport in captured Cities"
+		"uniqueText": "All Naval Units ignore Zone of Control movement penalties. Receive a free Seaport in captured Cities",
 		"uniques": ["[Water] units gain the [Chain of the Earth] promotion"],
 		"cities": ["Muscat","Salalah","Nizwa","Sur","Ibra","Bahla","Rustaq","Barka","Muttrah","Sahar","Sahan","Samail","Khasab","Raysut","Jabrin","Al Hamra","Seeb","Duqm"]
 	},
@@ -1877,13 +1869,13 @@
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
-			  "Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria",]
+			  "Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"]
 	},
 	{
 		"name": "Scotland",
 		"leaderName": "Robert the Bruce",
 		"adjective": ["Scottish"],
-		"startBias": ["Hill"]
+		"startBias": ["Hill"],
 //		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
@@ -1898,7 +1890,7 @@
 		"outerColor": [5,60,77],
 		"innerColor": [201,214,217],
 		"uniqueName": "Flower of Scotland",
-		"uniqueText": "+3 Culture, +3 Science, +3 Production from Grand Temple and Hermitage, +33% faster Great Person generation in the Capital."
+		"uniqueText": "+3 Culture, +3 Science, +3 Production from Grand Temple and Hermitage, +33% faster Great Person generation in the Capital.",
 		"uniques": ["[+3 Culture, +3 Science, +3 Production] from every [Grand Temple]","[+3 Culture, +3 Science, +3 Production] from every [Hermitage]","Gain a free [GPBonus] [in capital]"],
 		"cities": ["Edinbourgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries","Lanark","Dumbarton","Falkirk"]
 	},
@@ -1920,8 +1912,7 @@
 		"outerColor": [65,54,42],
 		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
-		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land
-		",
+		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land",
 		"uniques": ["[-75]% Culture cost of natural border growth [in this city]","[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
@@ -1971,8 +1962,7 @@
 		"outerColor": [214,145,19],
 		"innerColor": [90,0,10],
 		"uniqueName": "River Warlord",
-		"uniqueText": " Receive triple Gold from Barbarian encampments and pillaging Cities. Land units gain the War Canoes and Amphibious promotions
-		",
+		"uniqueText": " Receive triple Gold from Barbarian encampments and pillaging Cities. Land units gain the War Canoes and Amphibious promotions",
 		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","[Land] units gain the [Amphibious] promotion",
 			"[Land] units gain the [War Canoes] promotion"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
@@ -1983,7 +1973,7 @@
 		"name": "Sioux",
 		"leaderName": "Sitting Bull",
 		"adjective": ["Sioux"],
-		"startBias": ["Plains"]
+		"startBias": ["Plains"],
 //		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
@@ -2114,7 +2104,7 @@
 		"outerColor": [57,57,57],
 		"innerColor": [255,45,45],
 		"uniqueName": "Ulugh Beg's Observatory",
-		"uniqueText": "+10% Production, +10% Science, +10% Culture, +10% Gold and +5 defensive Strength in capital."
+		"uniqueText": "+10% Production, +10% Science, +10% Culture, +10% Gold and +5 defensive Strength in capital.",
 		"uniques": ["Gain a free [Ulugh Beg's Observatory] [in capital]"],
 		"cities": ["Samarkand","Herat","Balkh","Bukhara","Kabul","Nishapur","Urgench","Merv","Ghazni","Kandahar","Tashkent","Tabriz","Tiflis"]
 	},
@@ -2159,7 +2149,7 @@
 		"outerColor": [255,227,151],
 		"innerColor": [191,24,38],
 		"uniqueName": "Westernization",
-		"uniqueText": "+50% Production when constructing Amphitheaters, Opera Houses, Museums and Broadcast Towers. All of these Buildings provide +1 Science and +1 Production."
+		"uniqueText": "+50% Production when constructing Amphitheaters, Opera Houses, Museums and Broadcast Towers. All of these Buildings provide +1 Science and +1 Production.",
 		"uniques": ["[+1 Culture, +1 Science] from every [Amphitheater]","[+1 Culture, +1 Science] from every [Museum]","[+1 Culture, +1 Science] from every [Opera House]","[+1 Culture, +1 Science] from every [Broadcast Tower]",
 			"[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
 			"[+50]% Production when constructing [Opera House] buildings [in all cities]",
@@ -2207,8 +2197,7 @@
 		"outerColor": [105,34,172],
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
-		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics
-		"
+		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics",
 		"uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]",
 			"Double quantity of [Trade Route] produced","Double quantity of [Trade Route (Count)] produced"],
 		"cities": ["Venice","Ragusa","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato","Veroz","Ravenna","Negroponte","Athens","Burano","Leonessa","Cerigo"]
@@ -2277,7 +2266,7 @@
 		"outerColor": [70,70,82],
 		"innerColor": [205,146,68],
 		"uniqueName": "Great Zimbabwe",
-		"uniqueText": "+25% Production when constructing buildings and military units in capital."
+		"uniqueText": "+25% Production when constructing buildings and military units in capital.",
 		"uniques": ["Gain a free [Great Zimbabwe] [in capital]"],
 		"cities": ["Great Zimbabwe","Khami","Zvongombe","Danamombe","MApangubwe","Mayenne","Harare","Bulawayo","Chitungwiza","Mutare","Epworth","Gweru","Kwekwe","Kadoma"]
 	},
