@@ -675,7 +675,7 @@
 		"outerColor": [10, 40, 74],
 		"innerColor": [218, 218, 218],
 		"uniqueName": "Finnish Mobility",
-		"uniques": ["[+1 Culture] from every [City]","[+10]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+		"uniques": ["[+1 Culture] [in all cities]","[+10]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
 		"cities": ["Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa","Uusukaipunki","Kakisalmi"]
 	},
 	{
@@ -1745,7 +1745,7 @@
 		"outerColor": [225,105,0],
 		"innerColor": [255,255,78],
 		"uniqueName": "Wayfinding",
-		"uniques": ["Can embark and move over Coasts and Oceans immediately","[+1] Sight <for [Embarked] units>","[+10]% Strength if within [2] tiles of a [Moai]","[+1] Movement <for [Embarked] units>"],
+		"uniques": ["Enables embarkation for land units", "Enables [All] units to enter ocean tiles","[+1] Sight <for [Embarked] units>","[+10]% Strength if within [2] tiles of a [Moai]","[+1] Movement <for [Embarked] units>"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
