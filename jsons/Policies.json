@@ -461,7 +461,7 @@
 			},
 			{
 				"name": "Patriotic War",
-				"uniques": ["[+15]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+				"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"],
 				"row": 1,
 				"column": 4
 			},
@@ -631,7 +631,7 @@
 		"policies": [
 			{
 				"name": "Elite Forces",
-				"uniques": ["[+10]% combat bonus for [Non-City] units fighting in [Friendly Land]","[+10]% combat bonus for [Non-City] units fighting in [Foreign Land]"],
+				"uniques": ["[+10]% Strength <for [Military] units> <when attacking>","[+10]% Strength <for [Military] units> <when defending>"],
 				"row": 1,
 				"column": 1
 			},
