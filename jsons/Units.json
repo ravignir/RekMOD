@@ -1915,7 +1915,7 @@
 		"cost": 250,
 		"requiredTech": "Steam Power",
 		"uniques": ["[+3] Sight",
-			"No defensive terrain bonus"],
+			"No defensive terrain bonus", "Normal vision when embarked"],
 		"attackSound": "shot"
 	},
 
