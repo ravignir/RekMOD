@@ -529,7 +529,7 @@
 {
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
 	{
@@ -550,7 +550,7 @@
 	},
 	{
 		"name": "Air Recon", // Air units
-		"uniques": ["6 tiles in every direction always visible"]
+		"uniques": ["[+4] Sight", "Can see over obstacles"]
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
@@ -633,7 +633,7 @@
 		"[+25]% Strength <when fighting in [Hill] tiles>",
 		"Double movement in [Snow]",
 		"Double movement in [Tundra]",
-		"Double movement in [Hills]"]
+		"Double movement in [Hill]"]
 	},
 	{
 	"name": "Drauhtinon",
@@ -642,7 +642,7 @@
 	{
 	"name": "Hetairoi",
 	"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%","Great Person - [War]"]
-	}
+	},
 		{
 		"name": "Sampy",
 		"uniques": ["Access to special promotions"]
@@ -661,41 +661,41 @@
 	},
 				{
 		"name": "Manjakatsiroa",
-		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
 					{
 		"name": "Mosasa",
-		"uniques": ["[+4] Sight","[+4] Range"]
+		"uniques": ["[+4] Sight","[+4] Range"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
 					{
 		"name": "Ambohimanambola",
-		"uniques": ["Bonus for units in 2 tile radius 15%"]
+		"uniques": ["Bonus for units in 2 tile radius 15%"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
 						{
 		"name": "Sehatra",
-		"uniques": ["Heals [100] damage if it kills a unit"]
+		"uniques": ["Heals [100] damage if it kills a unit"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
 							{
 		"name": "Lambamena",
-		"uniques": ["[+100]% Strength <vs cities>"]
+		"uniques": ["[+100]% Strength <vs cities>"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
 								{
 		"name": "Altitude Training",
-		"uniques": ["Double movement in [Snow]", "Double movement in [Tundra]", "Double movement in [Hills]","[+10]% Strength <when fighting in [Hill] tiles>"]
+		"uniques": ["Double movement in [Snow]", "Double movement in [Tundra]", "Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	},
 			{
 		"name": "Swift Charge",
-		"uniques": ["[+50]% Strength <vs [Melee] units>","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["[+50]% Strength <vs [Melee] units>","[+25]% Strength <vs [Gunpowder] units>"]
 	},
 				{
 		"name": "Dharma",
