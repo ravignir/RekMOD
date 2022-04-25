@@ -65,21 +65,21 @@
         "uniqueTo": "Indonesia",
         "isNationalWonder": true, 
         "cost": 1,
-        "uniques": ["Cannot be built with [~limit]","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
     },
     {
         "name": "Nutmeg", // Indonesian luxury
         "uniqueTo": "Indonesia",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Cannot be built with [~limit]","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
     },
     {
         "name": "Pepper", // Indonesian luxury
         "uniqueTo": "Indonesia",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Cannot be built with [~limit]","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
     },
     {
         "name": "Maya Great People Bonus",
@@ -88,7 +88,7 @@
         "requiredTech": "Theology",
         "cost": 1,
         "replacementTextForUniques": " ",
-        "uniques": ["Destroyed when the city is captured","Not displayed as an available construction without [Palace]",
+        "uniques": ["Destroyed when the city is captured","Only available <if [Palace] is constructed>",
         	"Will not be displayed in Civilopedia","Unsellable"]
     },
     {
@@ -100,17 +100,17 @@
 		    {
         "name": "Classical Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <if [Palace] is constructed>","Only available <starting from the [Classical era]>","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Renaissance Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <if [Palace] is constructed>","Only available <starting from the [Renaissance era]>","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Modern Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Not displayed as an available construction without [Palace]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <if [Palace] is constructed>","Only available <starting from the [Modern era]>","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Morocco Classical",
@@ -118,7 +118,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <if [Palace] is constructed>","Only available <starting from the [Classical era]>","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Medieval",
@@ -126,7 +126,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Medieval era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <if [Palace] is constructed>","Only available <starting from the [Medieval era]>","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Renaissance",
@@ -134,14 +134,14 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <if [Palace] is constructed>","Only available <starting from the [Renaissance era]>","Will not be displayed in Civilopedia"]
     },	    {
         "name": "Morocco Industrial",
 		        "isNationalWonder": true,
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Industrial era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <if [Palace] is constructed>","Only available <starting from the [Industrial era]>","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Modern",
@@ -149,7 +149,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <if [Palace] is constructed>","Only available <starting from the [Modern era]>","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Atomic",
@@ -157,7 +157,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Atomic era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <if [Palace] is constructed>","Only available <starting from the [Atomic era]>","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Morocco Information",
@@ -165,7 +165,7 @@
         "uniqueTo": "Morocoo",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Not displayed as an available construction without [Palace]","Unlocked with [Information era]","Will not be displayed in Civilopedia"]
+        "uniques": ["[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)]","Only available <if [Palace] is constructed>","Only available <starting from the [Information era]>","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Bonus Trade Routes",
@@ -195,19 +195,19 @@
 		{
         "name": "GPBonus",
 		"cost": 1,
-        "uniques": ["Destroyed when the city is captured","[+33]% great person generation [in this city]","Unsellable","Unbuildable","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","[+33]% Great Person generation [in this city]","Unsellable","Unbuildable","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Free Burial Tomb",
 		"uniqueTo": "Ayyubids",
         "cost": 1,
-        "uniques": ["Gain a free [Burial Tomb] [in this city]","Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
+        "uniques": ["Gain a free [Burial Tomb] [in this city]","Can only be built [in annexed cities]","Will not be displayed in Civilopedia","Unsellable"]
     },
 	{
         "name": "Free Seaport",
 		"uniqueTo": "Oman",
         "cost": 1,
-        "uniques": ["Gain a free [Seaport] [in this city]","Can only be built in annexed cities","Will not be displayed in Civilopedia","Unsellable"]
+        "uniques": ["Gain a free [Seaport] [in this city]","Can only be built [in annexed cities]","Will not be displayed in Civilopedia","Unsellable"]
     },
 			    {
         "name": "Free Jarliq",
@@ -253,125 +253,125 @@
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Liberty Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Liberty Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Tradition",
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Tradition Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Tradition Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Honor",
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Honor Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Honor Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Piety",
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Piety Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Piety Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Commerce",
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Commerce Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Commerce Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Patronage",
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Patronage Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Patronage Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Aesthetics",
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Aesthetics Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Aesthetics Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Rationalism",
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Rationalism Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Rationalism Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 						    {
         "name": "Italy Exploration",
 		"uniqueTo": "Italy",
         "cost": 1,
 		"isNationalWonder": true,
-        "uniques": ["Unlocked with [Exploration Complete]","Empire enters golden age","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <after adopting [Exploration Complete]>","Empire enters golden age","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Trade Route1",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Animal Husbandry",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route2",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Sailing",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Trade Route3",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Engineering",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route4",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Compass",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route5",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Banking",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route6",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Biology",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route7",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Railroads",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 		    {
         "name": "Trade Route8",
         "isNationalWonder": true,
         "cost": 1,
 		"requiredTech": "Pharmaceuticals",
-        "uniques": ["Cannot be built with [~CS]","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Trade Route9",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Cannot be built with [~CS]","Provides [2] [Trade Route (Count)]","Provides [2] [Trade Route]","Requires [Entrepreneurship]","Will not be displayed in Civilopedia"]
+        "uniques": ["Only available <in cities without a [~CS]>","Provides [2] [Trade Route (Count)]","Provides [2] [Trade Route]","Only available <after adopting [Entrepreneurship]>","Will not be displayed in Civilopedia"]
     },
 	
 	// Buildings & Wonders
@@ -400,7 +400,7 @@
         "cityStrength": 2,
         "culture": 1,
         "cost": 150,
-        "uniques": ["Indicates the capital city","[+25]% great person generation [in this city]","[+10]% Production when constructing [All] buildings [in this city]","[+3 Culture, +3 Production, +3 Food] <after discovering [Chivalry]>"]
+        "uniques": ["Indicates the capital city","[+25]% Great Person generation [in this city]","[+10]% Production when constructing [All] buildings [in this city]","[+3 Culture, +3 Production, +3 Food] <after discovering [Chivalry]>"]
 	"requiredTech": "Mathematics",
     },
     {
@@ -652,7 +652,7 @@
         "isWonder": true,
         "cost": 185,
         "greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["Requires [Honor]","[+10]% [Food] [in all cities]","[+15]% Production when constructing [Ranged] units [in all cities]"],
+        "uniques": ["Only available <after adopting [Honor]>","[+10]% [Food] [in all cities]","[+15]% Production when constructing [Ranged] units [in all cities]"],
         "requiredTech": "Archery",
         "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
     },
@@ -726,7 +726,7 @@
         "culture": 1,
         "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
-        "uniques": ["[-25]% tile improvement construction time","[2] free [Worker] units appear","Requires [Liberty]"],
+        "uniques": ["[-25]% tile improvement construction time","[2] free [Worker] units appear","Only available <after adopting [Liberty]>"],
         "requiredTech": "Masonry",
         "quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.'  - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
     },
@@ -919,7 +919,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "requiredTech": "Mathematics",
-        "uniques": ["Gain a free [Garden] [in this city]","Requires [Tradition]"],
+        "uniques": ["Gain a free [Garden] [in this city]","Only available <after adopting [Tradition]>"],
         "quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
     },
     {
@@ -927,7 +927,7 @@
         "maintenance": 4,
         "hurryCostModifier": 50,
         "uniques": ["Remove extra unhappiness from annexed cities",
-            "Can only be built in annexed cities"],
+            "Can only be built [in annexed cities]"],
         "requiredTech": "Mathematics"
     },
 	    {
@@ -939,7 +939,7 @@
 		"faith": 2,
         "hurryCostModifier": 50,
         "uniques": ["Remove extra unhappiness from annexed cities",
-            "Can only be built in annexed cities"],
+            "Can only be built [in annexed cities]"],
         "requiredTech": "Mathematics"
     },
 	    {
@@ -951,7 +951,7 @@
 		"science": 3,
         "hurryCostModifier": 50,
         "uniques": ["Remove extra unhappiness from annexed cities",
-            "Can only be built in annexed cities","Unsellable","Free [Great Artist] appears"],
+            "Can only be built [in annexed cities]","Unsellable","Free [Great Artist] appears"],
         "requiredTech": "Writing"
     },
     {
@@ -1105,7 +1105,7 @@
         "name": "National Epic",
         "cost": 125,
         "culture": 1,
-        "uniques": ["[+25]% great person generation [in this city]","Cost increases by [30] per owned city",
+        "uniques": ["[+25]% Great Person generation [in this city]","Cost increases by [30] per owned city",
             "Requires a [Monument] in all cities"],
         "isNationalWonder": true,
         "requiredTech": "Drama and Poetry"
@@ -1117,7 +1117,7 @@
         "cost": 125,
         "culture": 4,
 		"faith": 4,
-        "uniques": ["[+25]% great person generation [in this city]","[+2 Food, +1 Gold, +1 Production, +1 Culture] from every [Shrine]","Cost increases by [30] per owned city",
+        "uniques": ["[+25]% Great Person generation [in this city]","[+2 Food, +1 Gold, +1 Production, +1 Culture] from every [Shrine]","Cost increases by [30] per owned city",
             "Requires a [Shrine] in all cities"],
         "isNationalWonder": true,
         "requiredTech": "Drama and Poetry"
@@ -1202,7 +1202,7 @@
 	    {
         "name": "Garden",
         "cost": 120,
-        "uniques": ["[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+        "uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -1214,7 +1214,7 @@
         "cost": 120,
 		"greatPersonPoints": {"Great Artist":1 },
 		"faith": 2,
-        "uniques": ["[+25]% great person generation [in this city]"],
+        "uniques": ["[+25]% Great Person generation [in this city]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -1224,7 +1224,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Khmer",
         "cost": 120,
-        "uniques": ["[10]% Food is carried over after population increases [in this city]", "[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>","[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+        "uniques": ["[10]% Food is carried over after population increases [in this city]", "[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>","[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -1235,7 +1235,7 @@
         "uniqueTo": "Indonesia",
         "cost": 120,
         "faith": 3,
-        "uniques": ["[+25]% great person generation [in this city]"],
+        "uniques": ["[+25]% Great Person generation [in this city]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -1276,7 +1276,7 @@
         "faith": 6,
 		"happiness": 3,
         "isWonder": true,
-        "uniques": ["Gain a free [Mosque] [in this city]","[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times","Requires [Piety]"],
+        "uniques": ["Gain a free [Mosque] [in this city]","[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times","Only available <after adopting [Piety]>"],
         "requiredTech": "Philosophy",
         "quote": "With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.  – Thomas Chalmers"
     },
@@ -1338,7 +1338,7 @@
         "greatPersonPoints": {"Great Merchant": 1},
         "culture": 1,
         "isWonder": true,
-        "uniques": ["Gold from all trade routes +25%","Must have an owned [Mountain] within [2] tiles"],
+        "uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles"],
         "requiredTech": "Guilds",
         "quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.'  - Hiram Bingham"
     },
@@ -1742,7 +1742,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["[-10]% unhappiness from population [in all cities]","Requires [Patronage]"],
+        "uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Only available <after adopting [Patronage]>"],
         "requiredTech": "Banking",
         "quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
     },
@@ -1844,7 +1844,7 @@
         "culture": 1,
         "happiness": 4,
         "isWonder": true, 
-        "uniques": ["[2] free [Great Artist] units appear","Requires [Exploration]"],
+        "uniques": ["[2] free [Great Artist] units appear","Only available <after adopting [Exploration]>"],
         "requiredTech": "Archaeology",
         "quote": "'Every genuine work of art has as much reason for being as the earth and the sun'  - Ralph Waldo Emerson"
     },
@@ -1862,7 +1862,7 @@
         "culture": 2,
         "specialistSlots": {"Artist": 3},
         "isWonder": true,
-        "uniques": ["Free [Great Artist] appears","Requires [Aesthetics]"],
+        "uniques": ["Free [Great Artist] appears","Only available <after adopting [Aesthetics]>"],
         "requiredTech": "Architecture",
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
     },
@@ -1881,7 +1881,7 @@
         "culture": 1,
         "greatPersonPoints": {"Great Scientist": 2},
         "isWonder": true,
-        "uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%","Requires [Rationalism]"],
+        "uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%","Only available <after adopting [Rationalism]>"],
         "requiredTech": "Architecture",
         "quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.'  - James Russell Lowell"
     }, 
@@ -1914,7 +1914,7 @@
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "uniques": ["[+5]% [Production] [in this city]","[+25]% great person generation [in this city]"],
+        "uniques": ["[+5]% [Production] [in this city]","[+25]% Great Person generation [in this city]"],
         "requiredTech": "Economics"     
     },
 	
@@ -1992,7 +1992,7 @@
         "gold": 4,
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
-        "uniques": ["[Gold] cost of purchasing items in cities [-12]%","Requires [Commerce]"],
+        "uniques": ["[Gold] cost of purchasing items in cities [-12]%","Only available <after adopting [Commerce]>"],
         "requiredTech": "Industrialization",
         "quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.'  - Leonard Bernstein"
     },
@@ -2066,7 +2066,7 @@
         "happiness": 2,
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
-        "uniques": ["Provides 1 happiness per 2 additional social policies adopted","Free Social Policy","Requires [Autocracy]"],
+        "uniques": ["Provides 1 happiness per 2 additional social policies adopted","Free Social Policy","Only available <after adopting [Autocracy]>"],
         "requiredTech": "Flight",
         "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
     },
@@ -2102,7 +2102,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"Great Engineer": 2},
-        "uniques": ["[+1 Production] from every specialist [in all cities]","Free Social Policy","Requires [Freedom]"],
+        "uniques": ["[+1 Production] from every specialist [in all cities]","Free Social Policy","Only available <after adopting [Freedom]>"],
         "requiredTech": "Replaceable Parts",
         "quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!'  - Emma Lazarus"
     },
@@ -2145,7 +2145,7 @@
         "isWonder": true,
         "greatPersonPoints": {"Great Scientist": 1},    
         "uniques": ["[+50]% Production when constructing [Armor] units [in all cities]","Free Social Policy",
-            "Requires [Order]"],
+            "Only available <after adopting [Order]>"],
         "requiredTech": "Railroads",
         "quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.'   –- The Prophet Muhammed"
     },
@@ -2181,7 +2181,7 @@
         "name": "Nuclear Plant",
         "production": 5,        
         "maintenance": 3,
-        "uniques": ["[+15]% [Production] [in this city]","Requires a [Factory] [in this city]","Consumes [1] [Uranium]","Cannot be built with [Solar Plant]"],
+        "uniques": ["[+15]% [Production] [in this city]","Requires a [Factory] [in this city]","Consumes [1] [Uranium]","Only available <in cities without a [Solar Plant]>"],
         "requiredTech": "Nuclear Fission"
     },
     {
@@ -2196,7 +2196,7 @@
         "production": 5,        
         "maintenance": 3,
         "requiredTech": "Ecology",
-        "uniques": ["[+15]% [Production] [in this city]","Must be next to [Desert]","Requires a [Factory] [in this city]", "Cannot be built with [Nuclear Plant]"]
+        "uniques": ["[+15]% [Production] [in this city]","Must be next to [Desert]","Requires a [Factory] [in this city]", "Only available <in cities without a [Nuclear Plant]>"]
     },
     {
         "name": "Sydney Opera House",
@@ -2225,12 +2225,6 @@
         "uniques": ["[+50]% Production when constructing [Spaceship Part] buildings [in this city]",
             "Requires a [Factory] [in this city]","Consumes [1] [Aluminum]"],
         "requiredTech": "Robotics"
-    },
-    {
-        "name": "SS Booster",
-        "requiredResource": "Aluminum",
-        "requiredTech": "Advanced Ballistics",
-        "uniques": ["Spaceship part","Cannot be purchased"]
     },
     {
         "name": "Apollo Program",
@@ -2265,24 +2259,6 @@
         "uniques": ["Gain a free [Recycling Center] [in this city]","[+200]% Production when constructing [Spaceship part] buildings [in this city]"],
         "requiredTech": "Satellites",
         "quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.'  - Anatole France"
-    },
-    {
-        "name": "SS Cockpit",
-        "requiredResource": "Aluminum",
-        "requiredTech": "Satellites",
-        "uniques": ["Spaceship part","Cannot be purchased"]
-    },
-    {
-        "name": "SS Engine",
-        "requiredResource": "Aluminum",
-        "requiredTech": "Particle Physics",
-        "uniques": ["Spaceship part","Cannot be purchased"]
-    },
-    {
-        "name": "SS Stasis Chamber",
-        "requiredResource": "Aluminum",
-        "requiredTech": "Nanotechnology",
-        "uniques": ["Spaceship part","Cannot be purchased"]
     },
 		{
 		"name": "Utopia Project",

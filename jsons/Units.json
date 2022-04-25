@@ -1080,7 +1080,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Unlocked with [Mercenary Army]","[+50]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Only available <after adopting [Mercenary Army]>","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
 	},
@@ -1223,7 +1223,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Unlocked with [Exploration]","Can move after attacking","No defensive terrain bonus","Founds a new city",
+		"uniques": ["Only available <after adopting [Exploration]>","Can move after attacking","No defensive terrain bonus","Founds a new city",
 			"[+2] Sight","Defense bonus when embarked","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
@@ -1593,7 +1593,7 @@
 		"movement": 4,
 		"cost": 200,
 		"requiredTech": "Archaeology",
-		"uniques": ["Can construct [Archaeological Dig]","Requires [University]","Cannot be purchased"]
+		"uniques": ["Can construct [Archaeological Dig]","Only available <if [University] is constructed>","Cannot be purchased"]
 	},
 	{
 		"name": "Gatling Gun",
@@ -2071,7 +2071,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"promotions": ["Ambush Formation I"],
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Unlocked with [Mercenary Army]"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Only available <after adopting [Mercenary Army]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -2081,7 +2081,7 @@
 		"strength": 65,
 		"cost": 450,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","No Movement Cost to Pillage"],
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","No movement cost to pillage"],
 		"attackSound": "shot"
 	},
 
@@ -2185,7 +2185,7 @@
 		"range": 12,
 		"cost": 1500,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [2]", "Requires [Manhattan Project]",
+		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]", "Consumes [2] [Uranium]","Cannot be purchased"]
 	},{
 		"name": "Guided Missile",
@@ -2472,6 +2472,55 @@
 		"unitType": "WaterCivilian",
 		"uniques": ["Bonus for units in 2 tile radius 15%","All adjacent units heal [+15] HP when healing","Unbuildable"],
 		"movement": 6
-	}	
+	},
 
+	// Copied from:
+	// https://github.com/yairm210/Unciv/blob/00b1feb2c2feecea8b1a259bc053c47a210ada42/android/assets/jsons/Civ%20V%20-%20Gods%20%26%20Kings/Units.json#L1673-L1716
+
+	// Required for Scientific Victory in the recent versions
+
+	/* Spaceship Parts */
+
+	// Must be transported to the Capital for launch.
+	// Can be destroyed by any hostile military unit walking in their tile.
+	{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Satellites",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	}
 ]
