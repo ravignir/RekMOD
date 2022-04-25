@@ -1381,7 +1381,7 @@
 		"cost": 100,
 		"culture": 1,
         "hurryCostModifier": 25,
-			    	"uniques": ["[+1 Culture] from [Incense, Tobacco, Perfume] tiles [in this city]"],
+			    	"uniques": ["[+1 Culture] from [Incense] tiles [in this city]", "[+1 Culture] from [Tobacco] tiles [in this city]", "[+1 Culture] from [Perfume] tiles [in this city]"],
         "requiredTech": "Theology"
     }, 
 		    {
@@ -1691,7 +1691,7 @@
 		"cost": 100,
 		"food": 1,
         "hurryCostModifier": 25,
-	"uniques": ["[+1 Food] from [Truffles] tiles [in this city]","[+1 Food] from [Spices] tiles [in this city]","[+1 Food] from [Cocoa] tiles [in this city]","[+1 Food] from [Olive] tiles [in this city]","[+1 Food] from [Citrus] tiles [in this city]"],
+	"uniques": ["[+1 Food] from [Truffles] tiles [in this city]","[+1 Food] from [Spices] tiles [in this city]","[+1 Food] from [Cocoa] tiles [in this city]","[+1 Food] from [Olives] tiles [in this city]","[+1 Food] from [Citrus] tiles [in this city]"],
         "requiredTech": "Banking"
     }, 
     {
