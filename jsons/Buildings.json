@@ -995,7 +995,7 @@
         "faith": 2,
         "maintenance": 2,
         "hurryCostModifier": 25,
-        "uniques": ["Requires a [Shrine] [in this city]"],
+        "requiredBuilding": "Shrine",
         "requiredTech": "Philosophy"
     },
 	    {
@@ -1014,7 +1014,8 @@
         "faith": 1,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
-        "uniques": ["Requires a [Shrine] [in this city]","[+1 Faith] from [Water resource] tiles [in this city]"],
+        "requiredBuilding": "Shrine",
+        "uniques": ["[+1 Faith] from [Water resource] tiles [in this city]"],
         "requiredTech": "Philosophy"
     },
     {
@@ -1024,7 +1025,8 @@
         "faith": 2,
         "happiness": 2,
         "hurryCostModifier": 25,
-        "uniques": ["Doubles Gold given to enemy if city is captured","Requires a [Shrine] [in this city]"],
+        "requiredBuilding": "Shrine",
+        "uniques": ["Doubles Gold given to enemy if city is captured"],
         "requiredTech": "Philosophy"
     },
 		    {
@@ -1034,7 +1036,8 @@
         "faith": 2,
         "maintenance": 1,
         "hurryCostModifier": 25,
-		"uniques": ["Requires a [Shrine] [in this city]","[+5]% [Science] [in this city]"],
+        "requiredBuilding": "Shrine",
+        "uniques": ["[+5]% [Science] [in this city]"],
         "requiredTech": "Philosophy"
     },
 	    {
@@ -1045,7 +1048,8 @@
         "gold": 1,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured","Requires a [Monument] [in this city]"],
+        "requiredBuilding": "Monument",
+	"uniques": ["Destroyed when the city is captured"],
         "requiredTech": "Philosophy"
     },
 		    {
@@ -1053,12 +1057,13 @@
         "replaces": "Amphitheater",
         "uniqueTo": "Byzantium",
         "culture": 2,
-		"faith": 2,
-		"happiness": 1,
+	"faith": 2,
+	"happiness": 1,
         "maintenance": 1,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured","Requires a [Monument] [in this city]"],
+        "requiredBuilding": "Monument",
+	"uniques": ["Destroyed when the city is captured"],
         "requiredTech": "Philosophy"
     },
 		    {
@@ -1066,13 +1071,13 @@
         "replaces": "Temple",
         "uniqueTo": "Israel",
         "faith": 2,
-		"cost": 120,
+	"cost": 120,
         "food": 1,
-		"production": 1,
-		"maintenance": 2,
+	"production": 1,
+	"maintenance": 2,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
-        "uniques": ["Requires a [Shrine] [in this city]"],
+        "requiredBuilding": "Shrine",
         "requiredTech": "Philosophy"
     },
     {
@@ -1081,7 +1086,7 @@
         "uniqueTo": "Songhai",
         "faith": 4,
         "hurryCostModifier": 15,
-        "uniques": ["Requires a [Shrine] [in this city]"],
+        "requiredBuilding": "Shrine",
         "requiredTech": "Philosophy"
     },
     {
@@ -1464,8 +1469,8 @@
         "maintenance": 2,
         "hurryCostModifier": 15,
         "specialistSlots": {"Scientist": 2},
-        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+33]% [Science] [in this city]",
-            "Requires a [Library] [in this city]"],
+        "requiredBuilding": "Library",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+33]% [Science] [in this city]"],
         "requiredTech": "Education"
     },
     {
@@ -1477,8 +1482,8 @@
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
-        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+33]% [Science] [in this city]",
-            "Requires a [Library] [in this city]"],
+        "requiredBuilding": "Library",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+33]% [Science] [in this city]"],
         "requiredTech": "Education"
     },
 	    {
@@ -1490,8 +1495,8 @@
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
-        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+2 Science] from [Oasis] tiles [in this city]","[+1 Science] from [Flood plains] tiles [in this city]","[+33]% [Science] [in this city]",
-            "Requires a [Library] [in this city]"],
+        "requiredBuilding": "Library",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+2 Science] from [Oasis] tiles [in this city]","[+1 Science] from [Flood plains] tiles [in this city]","[+33]% [Science] [in this city]"],
         "requiredTech": "Education"
     },
     {
@@ -1509,18 +1514,20 @@
         "cityStrength": 7,
         "cityHealth": 25,
         "hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured","Requires a [Walls] [in this city]"],
+        "requiredBuilding": "Walls",
+	"uniques": ["Destroyed when the city is captured"],
         "requiredTech": "Chivalry"
     },
-	    {
-		"name": "Alcazaba",
-		"uniqueTo": "The Moors",
+    {
+	"name": "Alcazaba",
+	"uniqueTo": "The Moors",
         "replaces": "Castle",
         "cityStrength": 7,
         "cityHealth": 25,
-		"science": 3,
+	"science": 3,
         "hurryCostModifier": 25,
-		"uniques": ["[+10]% growth [in this city]","Destroyed when the city is captured","Requires a [Walls] [in this city]"],
+        "requiredBuilding": "Walls",
+	"uniques": ["[+10]% growth [in this city]","Destroyed when the city is captured"],
         "requiredTech": "Chivalry"
     },
     {
@@ -1588,7 +1595,8 @@
         "name": "Armory",
         "hurryCostModifier": 25,
         "maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","Requires a [Barracks] [in this city]"],
+        "requiredBuilding": "Barracks",
+	"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]"],
         "requiredTech": "Steel"
     },
 	    {
@@ -1628,10 +1636,11 @@
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 10,
         "maintenance": 2,
-		"uniques": ["Destroyed when the city is captured","Requires a [Amphitheater] [in this city]"],
+        "requiredBuilding": "Amphitheater",
+	"uniques": ["Destroyed when the city is captured"],
         "requiredTech": "Acoustics"
     },
-	    {
+    {
         "name": "Ceilidh Hall", 
         "replaces": "Opera House",
         "uniqueTo": "Scotland",
@@ -1641,10 +1650,11 @@
         "cost": 200,
         "hurryCostModifier": 25,
         "maintenance": 2,
-		"uniques": ["Destroyed when the city is captured","Requires a [Amphitheater] [in this city]"],
+        "requiredBuilding": "Amphitheater",
+	"uniques": ["Destroyed when the city is captured"],
         "requiredTech": "Acoustics"
     },
-	    {
+    {
         "name": "Staatsmuseum", 
         "replaces": "Opera House",
         "uniqueTo": "Boers",
@@ -1653,7 +1663,8 @@
         "cost": 200,
         "hurryCostModifier": 25,
         "maintenance": 2,
-		"uniques": ["Destroyed when the city is captured","Requires a [Amphitheater] [in this city]"],
+        "requiredBuilding": "Amphitheater",
+	"uniques": ["Destroyed when the city is captured"],
         "requiredTech": "Acoustics"
     },
     {
