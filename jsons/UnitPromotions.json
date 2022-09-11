@@ -323,19 +323,19 @@
 	},
 	{
 		"name": "Besiege II",
-		"prerequisites": ["Siege I"],
+		"prerequisites": ["Besiege I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Besiege III",
-		"prerequisites": ["Siege II"],
+		"prerequisites": ["Besiege II"],
 		"uniques": ["[+34]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Evasion",
-		"prerequisites": ["Siege II", "Bombardment II"],
+		"prerequisites": ["Besiege II", "Bombardment II"],
 		"uniques": ["Reduces damage taken from interception by 50%"],
 		"unitTypes": ["Bomber"]
 	},
@@ -387,13 +387,13 @@
 	
 	{
 		"name": "Operational Range",
-		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Siege I", "Bombardment I"],
+		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Besiege I", "Bombardment I"],
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Repair",
-			"prerequisites": ["Interception II","Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Interception II","Besiege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
@@ -419,8 +419,7 @@
 	},
 	{
 		"name": "Mobility",
-		"prerequisites": ["Shock II","Drill II","Targeting I",
-			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"prerequisites": ["Shock II","Drill II","Targeting I","Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["+1 Movement"],
 		"unitTypes": ["Mounted","WaterMelee","Melee Water","WaterRanged", "Ranged Water","Armor","Armored","WaterSubmarine","Submarine"]
 	},
@@ -428,12 +427,11 @@
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Melee","Helicopter","Gunpowder","Mounted","WaterRanged", "Ranged Water","Armor","Armored","WaterMelee","Melee Water"]
+		"unitTypes": ["Melee","Helicopter","Gunpowder","Mounted","WaterRanged","Ranged Water","Armor","Armored","WaterMelee","Melee Water"]
 	},
 	{
 		"name": "Logistics",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III", "Bombardment III", "Coastal Raider III", "Boarding Party III","Besiege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Helicopter","Ranged", "Mounted Ranged","Siege","WaterMelee","Melee Water","WaterRanged", "Ranged Water","WaterSubmarine","Submarine","Fighter","Bomber"]
 	},
@@ -496,7 +494,7 @@
 	},
 	{
 		"name": "Targeting I (air)",
-		"prerequisites": ["Interception I",/*"Dogfighting I",*/"Siege I","Bombardment I"],
+		"prerequisites": ["Interception I",/*"Dogfighting I",*/"Besiege I","Bombardment I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
