@@ -122,7 +122,7 @@
 		"unitTypes": ["Mounted","Armor","Armored"]
 	},
 	{
-		"name": "Siege",
+		"name": "Besiege",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Melee","Gunpowder"]
@@ -317,18 +317,18 @@
 
 	// Bomber
 	{
-		"name": "Siege I",
+		"name": "Besiege I",
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
-		"name": "Siege II",
+		"name": "Besiege II",
 		"prerequisites": ["Siege I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
-		"name": "Siege III",
+		"name": "Besiege III",
 		"prerequisites": ["Siege II"],
 		"uniques": ["[+34]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
