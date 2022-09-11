@@ -2219,11 +2219,11 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [0,204,126],
-		"innerColor": [128,3,28],
+		"outerColor": [218,37,29],
+		"innerColor": [255,255,0],
 		"uniqueName": "Tam Giao",
 		"uniques": ["[+2 Food, +1 Production] from every [Marsh]","[+1 Faith] from every [Jungle]"],
-		"cities": ["Ha Noi","Thanh Pho Ho Chi Minh","Hai Phong","Thanh Pho Hue","Can Tho","Da Nang","Bien Hoa","Phan Rang","Quang Ngai","Quang Ninh","Tuyen Quang","Ha Tinh","Tam Ky"]
+		"cities": ["Ha Noi","Tp.Ho Chi Minh","Hai Phong","Thanh Pho Hue","Can Tho","Da Nang","Bien Hoa","Phan Rang","Quang Ngai","Quang Ninh","Tuyen Quang","Ha Tinh","Tam Ky"]
 	},
 								{
 		"name": "Wales",
