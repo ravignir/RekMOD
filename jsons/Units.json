@@ -36,7 +36,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+		"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
 		{
@@ -138,7 +138,7 @@
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 5,
-				"upgradesTo": "Airship",
+		"upgradesTo": "Airship",
 		"range": 3,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
@@ -2115,7 +2115,7 @@
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Nuclear Fission",
 		"promotions": ["Ignore terrain cost"],
-		"uniques": ["Ignore terrain cost","[+25]% Strength <vs [Armored] units>","No movement cost to pillage"]
+		"uniques": ["Ignores terrain cost","[+25]% Strength <vs [Armored] units>","No movement cost to pillage"]
 		"attackSound": "machinegun"
 	},
 	{
