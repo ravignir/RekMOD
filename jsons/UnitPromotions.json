@@ -161,7 +161,7 @@
 	},
 		{
 		"name": "Ignore terrain cost",
-		"uniques": ["Ignore terrain cost"],
+		"uniques": ["Ignores terrain cost"],
 	},
 	{
 		"name": "Scouting II",
@@ -317,25 +317,25 @@
 
 	// Bomber
 	{
-		"name": "Besiege I",
+		"name": "Siege I",
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
-		"name": "Besiege II",
-		"prerequisites": ["Besiege I"],
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
-		"name": "Besiege III",
-		"prerequisites": ["Besiege II"],
+		"name": "Siege III",
+		"prerequisites": ["Siege II"],
 		"uniques": ["[+34]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Evasion",
-		"prerequisites": ["Besiege II", "Bombardment II"],
+		"prerequisites": ["Siege II", "Bombardment II"],
 		"uniques": ["Reduces damage taken from interception by 50%"],
 		"unitTypes": ["Bomber"]
 	},
@@ -387,13 +387,13 @@
 	
 	{
 		"name": "Operational Range",
-		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Besiege I", "Bombardment I"],
+		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Siege I", "Bombardment I"],
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception II","Besiege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Interception II","Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
@@ -431,7 +431,7 @@
 	},
 	{
 		"name": "Logistics",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III", "Bombardment III", "Coastal Raider III", "Boarding Party III","Besiege III", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III", "Bombardment III", "Coastal Raider III", "Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Helicopter","Ranged", "Mounted Ranged","Siege","WaterMelee","Melee Water","WaterRanged", "Ranged Water","WaterSubmarine","Submarine","Fighter","Bomber"]
 	},
@@ -494,7 +494,7 @@
 	},
 	{
 		"name": "Targeting I (air)",
-		"prerequisites": ["Interception I",/*"Dogfighting I",*/"Besiege I","Bombardment I"],
+		"prerequisites": ["Interception I",/*"Dogfighting I",*/"Siege I","Bombardment I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
