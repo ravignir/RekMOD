@@ -126,7 +126,7 @@
 		"cost": 25,
 		"upgradesTo": "Airship",
 		"obsoleteTech": "Scientific Theory",
-				"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
@@ -142,7 +142,7 @@
 		"range": 3,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-				"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
