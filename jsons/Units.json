@@ -1196,7 +1196,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]","1 additional attack per turn"],
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]","1 additional attacks per turn"],
 		"attackSound": "horse"
 	},
 	{
