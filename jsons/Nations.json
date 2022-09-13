@@ -2205,7 +2205,7 @@
 	},
 							{
 		"name": "Vietnam",
-		"leaderName": "Hai Ba Trung",
+		"leaderName": "Pham Van Dong",
 		"adjective": ["Vietnamese"],
 		"startBias": ["Marsh","Flood plains"],
 //		"preferredVictoryType": "Diplomatic",
@@ -2215,15 +2215,15 @@
 		"declaringWar": "Prepare for war!",
 		"attacked": "You shall regret this!",
 		"defeated": "The victory is yours.",
-		"introduction": "Welcome, mighty leader.",
-		"neutralHello": "Greetings.",
+		"introduction": "Xin chao, mighty leader.",
+		"neutralHello": "Xin chao.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
 		"outerColor": [0,204,126],
 		"innerColor": [128,3,28],
 		"uniqueName": "Tam Giao",
 		"uniques": ["[+2 Food, +1 Production] from every [Marsh]","[+1 Faith] from every [Jungle]"],
-		"cities": ["Ha Noi","Thanh Pho Ho Chi Minh","Hai Phong","Thanh Pho Hue","Can Tho","Da Nang","Bien Hoa","Phan Rang","Quang Ngai","Quang Ninh","Tuyen Quang","Ha Tinh","Tam Ky"]
+		"cities": ["Ha Noi","Tp.Ho Chi Minh","Hai Phong","Thanh Pho Hue","Can Tho","Da Nang","Bien Hoa","Khanh Hoa","Vinh","Ha Long","Da Lat","Ha Tinh","My Tho"]
 	},
 								{
 		"name": "Wales",
