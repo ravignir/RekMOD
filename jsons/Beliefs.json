@@ -433,7 +433,7 @@
         "name": "Tithe",
         "type": "Founder",
         "uniques": [
-            "[+1 Gold] for every [4] global followers [in all cities]"
+            "[+1 Gold] from every [4] global followers [in all cities]"
         ]
     },
     {
@@ -483,7 +483,7 @@
         "name": "World Church",
         "type": "Founder",
         "uniques": [
-            "[+1 Culture] for every [2] global followers [in foreign cities]"
+            "[+1 Culture] from every [2] global followers [in foreign cities]"
         ]
     },
     {
