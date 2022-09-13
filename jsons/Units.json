@@ -17,7 +17,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 36,
-		"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"uniques": ["Can build [Land] improvements on tiles"]
 	},
 		{
@@ -36,7 +36,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+		"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
 		{
@@ -56,7 +56,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"]
 	},
@@ -126,7 +126,7 @@
 		"cost": 25,
 		"upgradesTo": "Airship",
 		"obsoleteTech": "Scientific Theory",
-				"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
@@ -138,11 +138,11 @@
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 5,
-				"upgradesTo": "Airship",
+		"upgradesTo": "Airship",
 		"range": 3,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-				"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
@@ -156,7 +156,7 @@
 		"upgradesTo": "Composite Bowman",
 		"cost": 41,
 		"obsoleteTech": "Scientific Theory",
-		"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
@@ -1196,7 +1196,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]","1 additional attack per turn"],
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]","[+1] additional attacks per turn"],
 		"attackSound": "horse"
 	},
 	{
@@ -1451,7 +1451,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"promotions": ["Drill I"],
 		"attackSound": "shot"
 	},
@@ -1746,7 +1746,7 @@
 		"rangedStrength": 70,
 		"cost": 420,
 		"requiredTech": "Electronics",
-        "uniques": ["Can carry [2] [Aircraft] units","Cannot attack"]
+                "uniques": ["Can carry [2] [Aircraft] units","Cannot attack"]
 	},
 	{
 		"name": "Triplane",
@@ -1806,7 +1806,7 @@
 			"[-33]% Strength <vs cities>","[+33]% Strength <vs [Wounded] units>","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
-		{
+	{
 		"name": "Qianlong Cavalry",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
@@ -1822,7 +1822,7 @@
 			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
-{
+        {
 		"name": "Hussar",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
@@ -2114,7 +2114,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Nuclear Fission",
-		"promotions": ["Ignores terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"uniques": ["Ignores terrain cost","[+25]% Strength <vs [Armored] units>","No movement cost to pillage"]
 		"attackSound": "machinegun"
 	},
