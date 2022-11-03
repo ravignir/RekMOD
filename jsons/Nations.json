@@ -130,7 +130,7 @@
 		"name": "Armenia",
 		"leaderName": "Tiridates III",
 		"adjective": ["Armenian"],
-		"startBias": ["Hill","Avoid [Jungle]"],
+		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
