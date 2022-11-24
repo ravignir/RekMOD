@@ -93,24 +93,23 @@
     },
     {
         "name": "~CS",
-        "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Unsellable","Will not be displayed in Civilopedia","Unbuildable"]
+        "uniques": ["Unsellable","Will not be displayed in Civilopedia","Unbuildable","Destroyed when the city is captured"]
     },
 		    {
         "name": "Classical Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <if [Palace] is constructed>","Only available <starting from the [Classical era]>","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)] [in this city]","[+1 Production] from every [Sea Trade Route (Production)] [in this city]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)] [in this city]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)] [in this city]","[+1 Food] from every [Land Trade Route (Food)] [in this city]","[+1 Production] from every [Land Trade Route (Production)] [in this city]","Only available <if [Palace] is constructed>","Only available <starting from the [Classical era]>","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Renaissance Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <if [Palace] is constructed>","Only available <starting from the [Renaissance era]>","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)] [in this city]","[+1 Production] from every [Sea Trade Route (Production)] [in this city]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)] [in this city]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)] [in this city]","[+1 Food] from every [Land Trade Route (Food)] [in this city]","[+1 Production] from every [Land Trade Route (Production)] [in this city]","Only available <if [Palace] is constructed>","Only available <starting from the [Renaissance era]>","Will not be displayed in Civilopedia"]
     },
 			    {
         "name": "Modern Trade Routes",
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)]","[+1 Production] from every [Sea Trade Route (Production)]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)]","[+1 Food] from every [Land Trade Route (Food)]","[+1 Production] from every [Land Trade Route (Production)]","Only available <if [Palace] is constructed>","Only available <starting from the [Modern era]>","Will not be displayed in Civilopedia"]
+        "uniques": ["Destroyed when the city is captured","Unsellable","[+2 Food] from every [Sea Trade Route (Food)] [in this city]","[+1 Production] from every [Sea Trade Route (Production)] [in this city]","[+2 Gold, +1 Science] from every [Sea Trade Route (Gold)] [in this city]","[+1 Gold, +1 Science] from every [Land Trade Route (Gold)] [in this city]","[+1 Food] from every [Land Trade Route (Food)] [in this city]","[+1 Production] from every [Land Trade Route (Production)] [in this city]","Only available <if [Palace] is constructed>","Only available <starting from the [Modern era]>","Will not be displayed in Civilopedia"]
     },
 	    {
         "name": "Morocco Classical",
