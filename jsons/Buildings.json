@@ -1419,7 +1419,7 @@
         "requiredNearbyImprovedResources": ["Iron","Coal","Aluminum","Uranium"],
         "requiredTech": "Metal Casting",
         "uniques": ["[+15]% Production when constructing [Land] units [in this city]",
-            "[+15]% Production when constructing [Spaceship part] buildings [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
+            "[+15]% Production when constructing [Spaceship part] units [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
     },
 	    {
 		"name": "Blast Furnace",
@@ -1429,7 +1429,7 @@
         "hurryCostModifier": 25,
         "requiredTech": "Metal Casting",
         "uniques": ["All newly-trained [relevant] units [in this city] receive the [Accuracy I] promotion","[+2 Culture, +1 Production] from [Iron] tiles [in this city]","[+1 Production] from [Coal] tiles [in this city]","[+1 Production] from [Aluminum] tiles [in this city]","[+1 Production] from [Uranium] tiles [in this city]","[+15]% Production when constructing [Land] units [in this city]",
-            "[+15]% Production when constructing [Spaceship part] buildings [in this city]"]
+            "[+15]% Production when constructing [Spaceship part] units [in this city]"]
     },
     {
         "name": "Harbor",
@@ -2255,7 +2255,7 @@
         "production": 3,
         "cost": 360,
         "requiredBuilding": "Factory",
-        "uniques": ["[+50]% Production when constructing [Spaceship Part] buildings [in this city]","Consumes [1] [Aluminum]"],
+        "uniques": ["[+50]% Production when constructing [Spaceship Part] units [in this city]","Consumes [1] [Aluminum]"],
         "requiredTech": "Robotics"
     },
     {
@@ -2288,7 +2288,7 @@
         "isWonder": true,
 		"science": 10,
         "greatPersonPoints": {"Great Scientist": 3},        
-        "uniques": ["Gain a free [Recycling Center] [in this city]","[+200]% Production when constructing [Spaceship part] buildings [in this city]"],
+        "uniques": ["Gain a free [Recycling Center] [in this city]","[+200]% Production when constructing [Spaceship part] units [in this city]"],
         "requiredTech": "Satellites",
         "quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.'  - Anatole France"
     },
