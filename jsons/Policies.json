@@ -714,6 +714,25 @@
 				"name": "Autocracy II Complete",
 				"uniques": ["Ideology Complete"]
 			}
+
 		]
 	}
+{
+		"name": Temporary Fix",
+		"era": "Modern era",
+		"uniques": ["No effect","Only available <before discovering [Agriculture]>"],
+		"policies": [
+			{
+				"name": "Fix 1",
+				"uniques": ["Just a Fix"],
+				"row": 1,
+				"column": 3
+			},
+			{
+			        "name": "Temporary Fix Complete",
+				"uniques": ["Fix Complete"]
+			}
+		]
+	}
+
 ]
