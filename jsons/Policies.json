@@ -718,7 +718,7 @@
 		]
 	}
 {
-		"name": Temporary Fix",
+		"name": "Temporary Fix",
 		"era": "Modern era",
 		"uniques": ["No effect","Only available <before discovering [Agriculture]>"],
 		"policies": [
@@ -730,7 +730,7 @@
 			},
 			{
 			        "name": "Temporary Fix Complete",
-				"uniques": ["Fix Complete"]
+				"uniques": ["No effect"]
 			}
 		]
 	}
