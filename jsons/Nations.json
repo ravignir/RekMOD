@@ -2289,7 +2289,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["[-50]% maintenance costs <for [Melee] units>","[33]% XP gained from combat <for [Military] units>"],
+		"uniques": ["[-50]% maintenance costs <for [Melee] units>","[50]% XP gained from combat <for [Military] units>"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",
