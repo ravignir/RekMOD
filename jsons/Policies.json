@@ -637,7 +637,7 @@
 			},
 			{
 				"name": "Mobilization",
-				"uniques": ["[Gold] cost of purchasing [All] units [23]%"],
+				"uniques": ["[Gold] cost of purchasing [All] units [-23]%"],
 				"row": 1,
 				"column": 3
 			},
