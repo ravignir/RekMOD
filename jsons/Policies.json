@@ -437,7 +437,7 @@
 			},
 			{
 				"name": "Commerce Complete",
-				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","[+100]% Gold from Great Merchant trade missions","May buy [Great Merchamt] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","[+100]% Gold from Great Merchant trade missions","May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
@@ -567,7 +567,7 @@
 			},
 			{
 				"name": "Universal Suffrage",
-				"uniques": ["Specialists only produce [50]% of normal unhappiness","[+50]% Golden Age length"],
+				"uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]","[+50]% Golden Age length"],
 				"requires": ["Avant Garde","Civil Society","Free Healthcare"],
 				"row": 2,
 				"column": 4
