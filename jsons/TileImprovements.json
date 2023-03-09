@@ -145,7 +145,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
-		"uniques": ["Can be built outside your borders","Costs [1] gold per turn when in your territory"],
+		"uniques": ["Can be built outside your borders","Costs [1] [Gold] per turn when in your territory"],
 		"shortcutKey": "R",
 		        "civilopediaText": [
             {text:"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
@@ -158,7 +158,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Railroads",
-		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"],
+		"uniques": ["Can be built outside your borders","Costs [2] [Gold] per turn when in your territory"],
 		"civilopediaText": [{text:"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
 	},
 	
@@ -269,12 +269,12 @@
 		{
 		"name": "Sacred Grove",
 		"uniqueTo": "Lithuania",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 1,
 		"food": 1,
 		"production": 1,
 		"culture": 1,
-		"uniques": ["Great Improvement","[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Telecommunications]>",
+		"uniques": ["Great Improvement","Removes removable features when built","[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Telecommunications]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Computers]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Plastics]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Archaeology]>",
@@ -285,7 +285,7 @@
 	{
 		"name": "Chateau",
 		"uniqueTo": "France",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 1,
 		"culture": 2,
 		"science": 2,
@@ -317,7 +317,7 @@
 		{
 		"name": "Tibetan Monastery",
 		"uniqueTo": "Tibet",
-		"terrainsCanBeBuiltOn": ["Forest","Hill"],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"culture": 1,
 		"faith": 2,
 		"turnsToBuild": 7,
@@ -369,7 +369,7 @@
 		{
 		"name": "Motte and Bailey",
 		"uniqueTo": "Normandy",
-		"terrainsCanBeBuiltOn": ["Hill","Snow","Tundra","Plains","Grassland","Desert"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
@@ -379,7 +379,7 @@
 	{
 		"name": "Feitoria",
 		"uniqueTo": "Portugal",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 7,
 		"gold": 3,
 		"happiness": 2,

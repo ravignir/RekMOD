@@ -70,16 +70,6 @@
 		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
 		"hurryCostModifier": 20
 	},
-	{
-		"name": "Merchant of Venice", 
-		"uniqueTo": "Venice",
-		"replaces": "Great Merchant",
-		"unitType": "Civilian",
-		"movement": 4,
-		"cost": 250,
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [120] Influence",
-			"Can construct [Customs house]","Double movement in [Coast]","Uncapturable", "Great Person - [Gold]", "Unbuildable"]
-	},
 		
 	{
 		"name": "Missionary",
@@ -105,8 +95,8 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 75,
-		"uniques": ["Can construct [Land Trade Route (Food)]","Can construct [Land Trade Route (Production)]",
-			"Can construct [Land Trade Route (Gold)]","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
+		"uniques": ["Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit>",
+			"Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
 		"requiredTech": "Animal Husbandry"
 	},
 	{
@@ -114,8 +104,8 @@
 		"unitType": "WaterCivilian",
 		"movement": 4,
 		"cost": 75,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
-			"Can construct [Sea Trade Route (Gold)]","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit>",
+			"Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
 		"requiredTech": "Sailing"
 	},
 	{
@@ -295,7 +285,7 @@
 		"strength": 10,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Can construct [Kampong Ayer]","Cannot attack","Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources"]
+		"uniques": ["Can instantly construct a [Kampong Ayer] improvement <by consuming this unit>","Cannot attack","Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources"]
 	},
 	{
 		"name": "Trireme",
@@ -2383,7 +2373,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 4
 	},
 		{
@@ -2391,15 +2381,15 @@
 		"uniqueTo": "Italy",
 		"replaces": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [12]-turn golden age", "Can construct [Landmark]","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 4
 	},
 			{
 		"name": "Dalai Lama",
 		"uniqueTo": "Tibet",
-		"replaces": "Great Artist",
+		"replaces": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [10]-turn golden age", "Can construct [Landmark]","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>","Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [5] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit", "Unbuildable"],
 		"movement": 4
 	},
 			{
@@ -2407,32 +2397,32 @@
 		"replaces": "Great Prophet",
 		"uniqueTo": "Lithuania",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Sacred Grove]", "Great Person - [Faith]", "Unbuildable","Will not be displayed in Civilopedia"],
+		"uniques": ["Can instantly construct a [Sacred Grove] improvement <by consuming this unit>", "Great Person - [Faith]", "Unbuildable"],
 		"movement": 4
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Academy]","Uncapturable", "Great Person - [Science]", "Unbuildable"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>","Uncapturable", "Great Person - [Science]", "Unbuildable"],
 		"movement": 4
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]","Uncapturable", "Great Person - [Gold]", "Unbuildable"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Uncapturable", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 4
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can construct [Manufactory]","Uncapturable", "Great Person - [Production]", "Unbuildable"],
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>","Uncapturable", "Great Person - [Production]", "Unbuildable"],
 		"movement": 4
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable"],
 		"movement": 4
 	},
@@ -2444,8 +2434,18 @@
 		"strength": 15,
 		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Hetairoi"]
 		"upgradesTo": "Knight",
-		"uniques": ["Can construct [Citadel]","Great Person - [War]", "[+15]% Strength bonus for [Military] units within [2] tiles", "Unbuildable","Consumes [1] [Horses]"],
+		"uniques": ["Can instantly construct a [Citadel] improvement <by consuming this unit>","Great Person - [War]", "[+15]% Strength bonus for [Military] units within [2] tiles", "Unbuildable","Consumes [1] [Horses]"],
 		"movement": 4
+	},
+	{
+		"name": "Merchant of Venice", 
+		"uniqueTo": "Venice",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 250,
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [120] Influence",
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Uncapturable", "Great Person - [Gold]", "Unbuildable"]
 	},
 	{
 		"name": "Khan",
@@ -2453,17 +2453,14 @@
 		"uniqueTo": "Mongolia",
 		"promotions": ["Medic","Medic II"],
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles",
-			 "Can construct [Citadel]","Uncapturable", "Great Person - [War]", "Unbuildable"],
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
+			 "Can instantly construct a [Citadel] improvement <by consuming this unit>","Uncapturable", "Great Person - [War]", "Unbuildable"],
 		"movement": 7
 	},
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can construct [Holy site] <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
-			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
-			"Unbuildable", "Religious Unit", "Unbuildable"],
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit", "Unbuildable"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},

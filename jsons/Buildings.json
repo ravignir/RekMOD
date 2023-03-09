@@ -2093,7 +2093,7 @@
         "happiness": 2,
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
-        "uniques": ["Provides 1 happiness per 2 additional social policies adopted","Free Social Policy","Only available <after adopting [Autocracy]>"],
+        "uniques": ["[+1 Happiness] per [2] additional social policies adopted","Free Social Policy","Only available <after adopting [Autocracy]>"],
         "requiredTech": "Flight",
         "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
     },
@@ -2255,7 +2255,7 @@
         "production": 3,
         "cost": 360,
         "requiredBuilding": "Factory",
-        "uniques": ["[+50]% Production when constructing [Spaceship Part] units [in this city]","Consumes [1] [Aluminum]"],
+        "uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]","Consumes [1] [Aluminum]"],
         "requiredTech": "Robotics"
     },
     {
