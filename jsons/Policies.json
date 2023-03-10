@@ -415,7 +415,7 @@
 			},
 			{
 				"name": "Entrepreneurship",
-				"uniques": ["[-50]% maintenance on road & railroads","Provides 2 Trade Routes"],
+				"uniques": ["[-50]% maintenance on road & railroads","Provides [2] [Trade Route (Count)]","Provides [2] [Trade Route]"],
 				"requires": ["Silk Road"],
 				"row": 2,
 				"column": 1

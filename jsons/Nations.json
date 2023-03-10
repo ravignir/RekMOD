@@ -241,8 +241,7 @@
 		"outerColor": [221, 141, 0],
 		"innerColor": [255, 244, 174],
 		"uniqueName": "Justice of Saladin",
-		"uniqueText": "All cities receive a free Burial Tomb upon capture. Workers create improvements 25% faster",
-		"uniques": ["[-25]% tile improvement construction time"],
+		"uniques": ["[-25]% tile improvement construction time","Gain a free [Burial Tomb] [in annexed cities]"],
 		"cities": ["Al-Quahirah","Al-Iskandariyyah","B'Albek","Assuan","Bilbeis","Dimashq","Qus","Adan","Zabid","Beirut","Akhmim","Al-Karak","Madinat Al-Fayyum"]
 	},
 	{
@@ -264,7 +263,6 @@
 		"outerColor": [139,32,23],
 		"innerColor": [134,238,214],
 		"uniqueName": "Sacrificial Captives",
-		"uniqueText": "Gains Culture for the empire from each enemy unit killed",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
@@ -339,8 +337,7 @@
 		"outerColor": [228, 111, 87],
 		"innerColor": [38, 41, 80],
 		"uniqueName": "The Great Trek",
-		"uniqueText": "+2 food in all cities before Civil Service, +1 culture from farms after the discovery of Fertilizer",
-		"uniques": ["[+2 Food] [in all cities] <before discovering [Civil Service]>"],
+		"uniques": ["[+1 Food] from every [Farm] <in [non-fresh water] tiles>", "[+1 Culture] from every [Farm] <after discovering [Fertilizer]>"],
 		"cities": ["Pretoria","Bloemfontein","Johannesburg","Pietermatitzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof","Benoni","Boksburg"]
 	},
 	{
@@ -451,7 +448,7 @@
 		"outerColor": [88,145,228],
 		"innerColor": [80,23,135],
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["[+2 Culture, +2 Gold, +1 Production, +1 Science, +1 Faith] [in capital]"],
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion"],
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson","Sardica",
 			"Ani","Dyrrachium","Edessa","Chalcedon","Naissus","Bari","Iconium","Prilep","Samosata","Kars",
 			"Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Vodena",
@@ -696,8 +693,7 @@
 		"outerColor": [ 38, 98, 255],
 		"innerColor": [239,236,148],
 		"uniqueName": "City of Light",
-		"uniqueText": "+1 Culture in capital, additional +15 Culture upon researching Acoustics. +25% Culture in capital",
-		"uniques": ["[+25]% [Culture] [in capital]","Gain a free [City of Light] [in capital]"],
+		"uniques": ["[+25]% [Culture] [in capital]", "[+1 Culture] [in capital]","[+15 Culture] [in capital] <after discovering [Acoustics]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -792,7 +788,7 @@
 		"outerColor": [55,25,8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Golden Conquest",
-		"uniques": ["Receive a free Great Artist upon completing a Jarliq in a City. After the discovery of Philosophy, receive a free Jarliq in the Capital"],
+		"uniques": ["[+50]% [Production] [in puppeted cities]", "[+50]% [Gold] [in puppeted cities]", "[+50]% [Science] [in puppeted cities]", "[-50]% Unhappiness from [Population] [in puppeted cities]"],
 		"cities": ["Sarai Batu","Sarai Berke","Kazan","Almaty","Makhachkala","Sarai Juk","Ufa","Astana","Itil","Tsaritsyn","Narchik","Aqtobe","Aqtau"]
 	},
 					{
@@ -906,7 +902,6 @@
 		"outerColor": [53, 244, 72],
 		"innerColor": [255, 41, 13],
 		"uniqueName": "Verszerzodes",
-		"uniqueText": "Walls, Castles, Arsenals and Military Bases provide +1 Production and Culture",
 		"uniques": ["[+1 Production, +1 Culture] from every [Walls]","[+1 Production, +1 Culture] from every [Castle]","[+1 Production, +1 Culture] from every [Arsenal]","[+1 Production, +1 Culture] from every [Military Base]"],
 		"cities": ["Buda","Pest","Bratislava","Szeged","Szekesfehervar","Debrecen","Pecs","Miskolc","Esztergom","Visegrad","Temesvar","Obuda","Gyor"]
 	},
@@ -1095,7 +1090,7 @@
 		"outerColor": [41, 87, 0],
 		"innerColor": [205, 205, 205],
 		"uniqueName": "Rinascimento",
-		"uniques": ["[+1 Culture] from every specialist [in all cities]","Enter a Golden Age upon completion of a Policy Tree."],
+		"uniques": ["[+1 Culture] from every specialist [in all cities]", "Empire enters golden age <upon adopting [Tradition Complete]>" ,"Empire enters golden age <upon adopting [Liberty Complete]>", "Empire enters golden age <upon adopting [Honor Complete]>", "Empire enters golden age <upon adopting [Piety Complete]>", "Empire enters golden age <upon adopting [Aesthetics Complete]>", "Empire enters golden age <upon adopting [Patronage Complete]>", "Empire enters golden age <upon adopting [Exploration Complete]>", "Empire enters golden age <upon adopting [Commerce Complete]>", "Empire enters golden age <upon adopting [Rationalism Complete]>"],
 		"cities": ["Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania","Brescia","Messina","Pisa","Bologna","Verona"]
 	},
 	{
@@ -1279,7 +1274,6 @@
 		"outerColor": [92,60,83],
 		"innerColor": [220,190,92],
 		"uniqueName": "Macedonian Discipline",
-		"uniqueText": "Barracks, Armories, and Military Academies provide +1 Food and +1 Culture. Receive a free Hetairoi at Horseback Riding.",
 		"uniques": ["Receive free [Hetairoi] when you discover [Horseback Riding]","[+1 Food, +1 Culture] from every [Barracks]","[+1 Food, +1 Culture] from every [Military Academy]","[+1 Food, +1 Culture] from every [Armory]"],
 		"cities": ["Pella","Vergina","Amphipolis","Larissa","Ambracia","Methoni","Olynthus","Patidea","Philippopolis","Alexandropolis","Alexandria","Alexandria Latmus","Alexandria Issus","Alexandria Ariana"]
 	},
@@ -1368,7 +1362,7 @@
 		"outerColor": [213,166,120],
 		"innerColor": [43,79,83],
 		"uniqueName": "The Long Count",
-		"uniqueText": "After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years)",
+		"uniques": ["After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years)","Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna",
 			"Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe",
 			"Cerros","Xumantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas",
@@ -1463,7 +1457,7 @@
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
 		"uniqueText": "+3 Gold and +1 Culture from every gold Trade Route, bonus inceases by +1 Gold and +1 Culture each era",
-		"uniques": ["[+3 Gold, +1 Culture] from every [Land Trade Route (Gold)]","[+3 Gold, +1 Culture] from every [Sea Trade Route (Gold)]"],
+		"uniques": ["[+3 Gold, +1 Culture] from every [Land Trade Route (Gold)]", "[+1 Gold +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Classical era]>","[+1 Gold +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Medieval era]>", "[+1 Gold +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Renaissance era]>", "[+1 Gold +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Industrial era]>", "[+1 Gold +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Modern era]>", "[+1 Gold +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Atomic era]>", "[+1 Gold +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Information era]>", "[+3 Gold, +1 Culture] from every [Sea Trade Route (Gold)]", "[+1 Gold +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Classical era]>","[+1 Gold +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Medieval era]>", "[+1 Gold +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Renaissance era]>", "[+1 Gold +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Industrial era]>", "[+1 Gold +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Modern era]>", "[+1 Gold +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Atomic era]>", "[+1 Gold +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Information era]>"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Quarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
 			"Taza","Fquih ben Salah","Khouribga","Nador","Settat","Berrechid","Larache","Khemisset","Guelmim","Dakhla",
@@ -1604,7 +1598,7 @@
 		"innerColor": [211,204,27],
 		"uniqueName": "Chain of the Earth",
 		"uniqueText": "All Naval Units ignore Zone of Control movement penalties. Receive a free Seaport in captured Cities",
-		"uniques": ["[Water] units gain the [Chain of the Earth] promotion"],
+		"uniques": ["[Water] units gain the [Chain of the Earth] promotion", "Gain a free [Seaport] [in annexed cities]"],
 		"cities": ["Muscat","Salalah","Nizwa","Sur","Ibra","Bahla","Rustaq","Barka","Muttrah","Sahar","Sahan","Samail","Khasab","Raysut","Jabrin","Al Hamra","Seeb","Duqm"]
 	},
 	{
@@ -1698,7 +1692,7 @@
 		"outerColor": [177,55,73],
 		"innerColor": [234,201,52],
 		"uniqueName": "Skillful Traders",
-		"uniques": ["Gain a free [Bonus Trade Routes] [in capital]","Receive free [Square Sail Ship] when you discover [Pottery]"],
+		"uniques": ["Provides [2] [Trade Route (Count)]", "Provides [2] [Trade Route]","Receive free [Square Sail Ship] when you discover [Pottery]"],
 		"cities": ["Tyre","Sidon","Ugarit","Berytus","Byblos","Arvad","Kition","Tripolis","Baalbek","Sarepta","Dor","Orthosias"]
 	},
 	{
@@ -1891,7 +1885,7 @@
 		"innerColor": [201,214,217],
 		"uniqueName": "Flower of Scotland",
 		"uniqueText": "+3 Culture, +3 Science, +3 Production from Grand Temple and Hermitage, +33% faster Great Person generation in the Capital.",
-		"uniques": ["[+3 Culture, +3 Science, +3 Production] from every [Grand Temple]","[+3 Culture, +3 Science, +3 Production] from every [Hermitage]","Gain a free [GPBonus] [in capital]"],
+		"uniques": ["[+3 Culture, +3 Science, +3 Production] from every [Grand Temple]","[+3 Culture, +3 Science, +3 Production] from every [Hermitage]","[+33]% Great Person generation [in capital]",
 		"cities": ["Edinbourgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries","Lanark","Dumbarton","Falkirk"]
 	},
 	{
@@ -2081,7 +2075,7 @@
 		"innerColor": [39,167,95],
 		"uniqueName": "Eightfold Path to Nirvana",
 		"uniqueText": "Receive +2 Food, Production, Gold, Culture and Science in the capital upon the discovery of Drama and Poetry. +1 to those yields at Education, Acoustics, Industrialization, Radio, Radar and Telecommunications",
-		"uniques": ["Gain a free [Eightfold Path to Nirvana] [in capital]"],
+		"uniques": ["[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] [in capital] <after discovering [Drama and Poetry]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Education]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Acoustics]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Industrialization]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Radio]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Radar]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Telecommunications]>"],
 		"cities": ["Lhasa","Xigaze","Qamdo","Nagqu","Nyingchi","Ngari","Lhoka","Chengguan","Doilungdeqen","Lhunzhub","Damxung","Maizhokunggar","Quxu"]
 	},
 				{
@@ -2175,6 +2169,7 @@
 		"innerColor": [255,233,142],
 		"uniqueName": "The Way of Chumaks",
 		"uniqueText": "+1 Food from Maize, Wheat and Salt resources after researching The Wheel, +2 Gold from each city connected to capital",
+		"uniques": ["[+1 Food] from every [Maize] <after discovering [The Wheel]>","[+1 Food] from every [Wheat] <after discovering [The Wheel]>","[+1 Food] from every [Salt] <after discovering [The Wheel]>", "[+2 Gold] from each Trade Route"]
 		"cities": ["Kiev","Kharkiv","Zaporizhia","Odessa","Dnipropetrovsk","Donetsk","Luhansk","Zhytomyr","Lviv","Kryvyi Rih","Chernihiv","Mariupol","Mykolaiv"]
 	},
 	{
@@ -2266,7 +2261,7 @@
 		"innerColor": [205,146,68],
 		"uniqueName": "Great Zimbabwe",
 		"uniqueText": "+25% Production when constructing buildings and military units in capital.",
-		"uniques": ["Gain a free [Great Zimbabwe] [in capital]"],
+		"uniques": ["[+25]% Production when constructing [All] buildings [in capital]","[+25]% Production when constructing [Military] units [in in capital]"],
 		"cities": ["Great Zimbabwe","Khami","Zvongombe","Danamombe","MApangubwe","Mayenne","Harare","Bulawayo","Chitungwiza","Mutare","Epworth","Gweru","Kwekwe","Kadoma"]
 	},
 	{

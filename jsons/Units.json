@@ -96,7 +96,7 @@
 		"movement": 2,
 		"cost": 75,
 		"uniques": ["Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit>",
-			"Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
+			"Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]", "Only available <in cities without a [~CS]>", "Uncapturable"],
 		"requiredTech": "Animal Husbandry"
 	},
 	{
@@ -105,7 +105,7 @@
 		"movement": 4,
 		"cost": 75,
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit>",
-			"Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]","Uncapturable"],
+			"Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]", "Only available <in cities without a [~CS]>", "Uncapturable"],
 		"requiredTech": "Sailing"
 	},
 	{
@@ -1583,7 +1583,7 @@
 		"movement": 4,
 		"cost": 200,
 		"requiredTech": "Archaeology",
-		"uniques": ["Can construct [Archaeological Dig]","Only available <if [University] is constructed>","Cannot be purchased"]
+		"uniques": ["Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>","Only available <if [University] is constructed>","Cannot be purchased"]
 	},
 	{
 		"name": "Gatling Gun",
@@ -2432,7 +2432,7 @@
 		"uniqueTo": "Macedonia",
 		"unitType": "Mounted",
 		"strength": 15,
-		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Hetairoi"]
+		"promotions": ["Great Generals II","March","Charge","Heavy Charge"]
 		"upgradesTo": "Knight",
 		"uniques": ["Can instantly construct a [Citadel] improvement <by consuming this unit>","Great Person - [War]", "[+15]% Strength bonus for [Military] units within [2] tiles", "Unbuildable","Consumes [1] [Horses]"],
 		"movement": 4

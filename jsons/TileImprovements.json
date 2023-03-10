@@ -93,40 +93,38 @@
 	{
 		"name": "Land Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
-		"food": 1,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
+		"food": 3,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+1 Food] <starting from the [Classical era]>", "[+1 Food] <starting from the [Industrial era]>", "[+1 Food] <starting from the [Modern era]>"]
 	},
 	{
 		"name": "Land Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
-		"production": 1,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
+		"production": 3,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+1 Production] <starting from the [Classical era]>", "[+1 Production] <starting from the [Industrial era]>", "[+1 Production] <starting from the [Modern era]>"]
 	},
 	{
 		"name": "Land Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
-		"gold": 2,
-		"science": 2,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
+		"gold": 3,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+1 Gold] <starting from the [Classical era]>", "[+1 Gold] <starting from the [Industrial era]>", "[+1 Gold] <starting from the [Modern era]>"]
 	},
 	{
 		"name": "Sea Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
-		"food": 2,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
+		"food": 6,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+2 Food] <starting from the [Classical era]>", "[+2 Food] <starting from the [Industrial era]>", "[+2 Food] <starting from the [Modern era]>"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
-		"production": 2,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
+		"production": 6,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+2 Production] <starting from the [Classical era]>", "[+2 Production] <starting from the [Industrial era]>", "[+2 Production] <starting from the [Modern era]>"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
-		"gold": 4,
-		"science": 2,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]"]
+		"gold": 6,
+		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+2 Gold] <starting from the [Classical era]>", "[+2 Gold] <starting from the [Industrial era]>", "[+2 Gold] <starting from the [Modern era]>"]
 	},
 
 	// Military improvements
