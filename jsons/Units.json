@@ -1046,7 +1046,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit",
 	},
 	{
@@ -1060,7 +1060,7 @@
 		"requiredTech": "Philosophy",
 		"uniques": ["[+100]% Strength <vs [Mounted] units>","[+100]% Strength <vs [Mounted Ranged] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit",
 	},
 		{
@@ -1074,7 +1074,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit",
 	},
 		{
@@ -1089,7 +1089,7 @@
 		"promotions": ["Ambush Formation I"],
 		"uniques": ["Consumes [1] [Horses]","[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 	},
 	{
@@ -1988,7 +1988,7 @@
 		"cost": 330,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Electronics",
 		"attackSound": "shot"
 	},
 		{
@@ -2000,7 +2000,7 @@
 		"strength": 50,
 		"cost": 330,
 		"requiredTech": "Replaceable Parts",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Electronics",
 		"upgradesTo": "Infantry",
 		"promotions": ["Ski Infantry","Drill I","Drill II"],
 		"attackSound": "shot"
@@ -2016,7 +2016,7 @@
 		"requiredTech": "Replaceable Parts",
 		"promotions": ["Drill I","Charge"],
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Electronics",
 		"attackSound": "shot"
 	},
 			{
@@ -2030,7 +2030,7 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["[+50]% Strength <when attacking>"]
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Electronics",
 		"attackSound": "shot"
 	},
 			{
@@ -2044,7 +2044,7 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Heals [100] damage if it kills a unit","[+25]% Strength <when defending>","Can build [Farm] improvements on tiles"]
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Electronics",
 		"attackSound": "shot"
 	},
 	{

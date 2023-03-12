@@ -2,7 +2,7 @@
     {
         "name": "freeCulture",
         "notification": "We have discovered cultural artifacts in the ruins! (+10 culture)",
-        "uniques": ["Gain [15] [Culture] <after 10 turns>"]
+        "uniques": ["Gain [15] [Culture] <after [10] turns>"]
     },
     {
         "name": "joinWorker",

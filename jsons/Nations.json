@@ -1313,7 +1313,7 @@
 		"outerColor": [254,204,32],
 		"innerColor": [0,55,106],
 		"uniqueName": "Eight Banners",
-		"uniques": ["[-100]% maintenance costs <for [Mounted Ranged] units>", "[-100]% maintenance costs <for [Mounted] units>", "[-100]% maintenance costs <for [Armor] units>", "[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion","[+100]% Production when constructing [Stable] buildings [in all cities]", "[+1 Gold] from every [Stable]",
+		"uniques": ["[-100]% maintenance costs <for [Mounted Ranged] units>", "[-100]% maintenance costs <for [Mounted] units>", "[-100]% maintenance costs <for [Armor] units>", "[Mounted Ranged] units gain the [Volley] promotion","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion","[+100]% Production when constructing [Stable] buildings [in all cities]", "[+1 Gold] from every [Stable]"],
 		"cities": ["Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling","Ningdota","Siping","Anshan"]
 	},
 		{
@@ -1499,7 +1499,7 @@
 		"outerColor": [254,135,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Dutch East India Company",
-		"uniques": ["[+1 Gold] from every [Luxury resource]", "[1] Happiness from each type of luxury resource]"],
+		"uniques": ["[+1 Gold] from every [Luxury resource]", "[1] Happiness from each type of luxury resource"],
 		"cities": ["Amsterdam","Rotterdam","Utrecht","Groningen","Breda","Nijimegen","Den Haag","Haarlem","Arnhem","Zutphen",
 			"Maastricht","Tilburg","Eindhoven","Dordrecht","Leiden","Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen",
 			"Apeldoorn","Nova Enschede","Sao Bernardo do Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt",
@@ -1876,7 +1876,7 @@
 		"outerColor": [5,60,77],
 		"innerColor": [201,214,217],
 		"uniqueName": "Flower of Scotland",
-		"uniques": ["[+2 Culture, +2 Science, +2 Production] from every [Writer Guild]","[+2 Culture, +2 Science, +2 Production] from every [Artist Guild]","[+2 Culture, +2 Science, +2 Production] from every [Musician Guild]","[+33]% Great Person generation [in capital]",
+		"uniques": ["[+2 Culture, +2 Science, +2 Production] from every [Writer Guild]","[+2 Culture, +2 Science, +2 Production] from every [Artist Guild]","[+2 Culture, +2 Science, +2 Production] from every [Musician Guild]","[+33]% Great Person generation [in capital]"],
 		"cities": ["Edinbourgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries","Lanark","Dumbarton","Falkirk"]
 	},
 	{
@@ -1969,7 +1969,7 @@
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
 		"outerColor": [255,120,0],
-		"innerColor": [77,/32,32],
+		"innerColor": [77,32,32],
 		"uniqueName": "Dwellers of the Plains",
 		"uniques": ["[+15]% Strength <for [Military] units> <in [Plains] tiles>"],
 		"cities": ["Ihankthunwanna","Bdewekhanthunwan","Isanyathi","Sichangju","Oglala","Itazipcho","Assiniboine","Sisithunwan","Wahpekhute","Wahpethunwan","Hunkpapha","Mnikhowozu","Sihasapa"]
@@ -2244,7 +2244,7 @@
 		"outerColor": [70,70,82],
 		"innerColor": [205,146,68],
 		"uniqueName": "Great Zimbabwe",
-		"uniques": ["[+25]% Production when constructing [All] buildings [in capital]","[+25]% Production when constructing [Military] units [in in capital]"],
+		"uniques": ["[+25]% Production when constructing [All] buildings [in capital]","[+25]% Production when constructing [Military] units [in capital]"],
 		"cities": ["Great Zimbabwe","Khami","Zvongombe","Danamombe","MApangubwe","Mayenne","Harare","Bulawayo","Chitungwiza","Mutare","Epworth","Gweru","Kwekwe","Kadoma"]
 	},
 	{
