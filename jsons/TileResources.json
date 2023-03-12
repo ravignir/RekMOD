@@ -129,7 +129,7 @@
 
 {"name": "Iron",
  "resourceType": "Strategic",
- "revealedBy": "Iron Working",
+ "revealedBy": "Mining",
 "terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
  "production": 1,
  "improvement": "Mine",
@@ -160,7 +160,8 @@
  "improvement": "Mine",
  "improvementStats": {"production": 2},
  "uniques":
-  ["Generated with weight [35] <in [Hill] tiles>",
+  ["Guaranteed with Strategic Balance resource option",
+    "Generated with weight [35] <in [Hill] tiles>",
    "Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
    "Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
    "Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
@@ -182,7 +183,8 @@
  "improvement": "Oil well",
  "improvementStats": {"production": 3},
  "uniques":
-  ["Deposits in [Coast] tiles always provide [4] resources",
+  [
+    "Deposits in [Coast] tiles always provide [4] resources",
    "Guaranteed with Strategic Balance resource option",
    "Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
    "Generated with weight [40] <in [Featureless] [Tundra] tiles>",
@@ -205,7 +207,8 @@
  "improvement": "Mine",
  "improvementStats": {"production": 2},
  "uniques":
-  ["Generated with weight [15] <in [Featureless] [Tundra] tiles>",
+  ["Guaranteed with Strategic Balance resource option",
+    "Generated with weight [15] <in [Featureless] [Tundra] tiles>",
    "Generated with weight [15] <in [Featureless] [Snow] tiles>",
    "Generated with weight [39] <in [Hill] tiles>",
    "Minor deposits generated with weight [20] <in [Jungle] tiles>",
@@ -221,7 +224,8 @@
  "improvement": "Mine",
  "improvementStats": {"production": 2},
  "uniques":
-  ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
+  ["Guaranteed with Strategic Balance resource option",
+    "Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
    "Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
    "Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
    "Minor deposits generated with weight [10] <in [Forest] tiles>",

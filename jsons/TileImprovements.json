@@ -247,7 +247,7 @@
 	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Gives a defensive bonus of [100]%","Adjacent units ending their turn take [30] damage","Great Improvement",
+		"uniques": ["Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [30] damage","Great Improvement",
 			"Can be built just outside your borders","Constructing it will take over the tiles around it and assign them to your closest city","Removes removable features when built"],
 			"civilopediaText": [{text:"Constructing it will take over the tiles around it and assign them to your closest city"}]
 	},
@@ -256,7 +256,7 @@
 	{
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] <after discovering [Flight]>",
@@ -272,13 +272,14 @@
 		"food": 1,
 		"production": 1,
 		"culture": 1,
-		"uniques": ["Great Improvement","Removes removable features when built","[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Telecommunications]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Computers]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Plastics]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Archaeology]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Acoustics]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Theology]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Philosophy]>"]
+		"faith": 1,
+		"uniques": ["Great Improvement","Removes removable features when built","[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Computers]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Plastics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>"]
 	},
 	{
 		"name": "Chateau",
@@ -289,18 +290,18 @@
 		"science": 2,
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] <after discovering [Flight]>"]
+		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] <after discovering [Flight]>","Must be next to [Luxury resource]","Cannot be built on [Strategic resource] tiles","Cannot be built on [Luxury resource] tiles","Cannot be built on [Bonus resource] tiles","Only available <with [0] to [0] neighboring [Chateau] tiles>"]
 	},
 		{
 		"name": "Harjis",
 		"uniqueTo": "Goths",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 1,
 		"turnsToBuild":7,
 		"techRequired": "Mining",
 		"uniques": ["[+1 Production] <after discovering [Iron Working]>",
 			"[+1 Production] <after discovering [Gunpowder]>",
-			"[+1 Production] <after discovering [Dynamite]>"]
+			"[+1 Production] <after discovering [Dynamite]>","Must be next to [Luxury resource]","Cannot be built on [Luxury resource] tiles","Only available <with [0] to [0] neighboring [Harjis] tiles>"]
 	},
 	{
 		"name": "Brazilwood Camp",
@@ -320,7 +321,7 @@
 		"faith": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [Mountain]"]
+		"uniques": ["[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [Mountain]", "Does not need removal of [Forest]", "Does not need removal of [Jungle]"]
 	},
 	{
 		"name": "Polder",
@@ -339,8 +340,8 @@
 		"faith": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Food, +1 Gold] <after discovering [Civil Service]>",
-			"[+1 Faith] <after discovering [Theology]>"]
+		"uniques": ["Must be next to [Luxury resource]","[+1 Food] <after discovering [Civil Service]>",
+			"[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [City center]","[+1 Gold] <in [River] tiles>"],
 	},
 	{
 		"name": "Kasbah",
@@ -372,17 +373,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Engineering",
-		"uniques": ["Gives a defensive bonus of [25]%","[+2 Culture] <after discovering [Flight]>"]
-	},
-	{
-		"name": "Feitoria",
-		"uniqueTo": "Portugal",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 7,
-		"gold": 3,
-		"happiness": 2,
-		"techRequired": "Navigation",
-		"uniques": ["Gives a defensive bonus of [50]%","Can only be built on [Coastal] tiles"]
+		"uniques": ["Gives a defensive bonus of [25]%","[+2 Culture] <after discovering [Flight]>","Only available <with [0] to [0] neighboring [Motte and Bailey] tiles>"]
 	},
 		{
 		"name": "Kampong Ayer",
@@ -392,7 +383,7 @@
 		"gold": 1,
 		"culture": 1,
 		"techRequired": "Optics",
-		"uniques": ["[+1 Production] <after discovering [Astronomy]>",
+		"uniques": ["[+1 Production] <after discovering [Navigation]>",
 			"[+1 Culture] <after discovering [Flight]>"]
 	},
 	{

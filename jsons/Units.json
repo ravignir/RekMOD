@@ -53,22 +53,14 @@
 		"name": "Pioneer", 
 		"uniqueTo": "America",
 		"replaces": "Settler",
+		"strength": 5,
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
 		"promotions": ["Ignore terrain cost"],
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"]
-	},
-		{
-		"name": "Venice Settler",
-		"unitType": "Civilian",
-		"uniqueTo": "Venice",
-		"replaces": "Settler",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
-		"hurryCostModifier": 20
+			"Requires at least [2] population"],
+		"attackSound": "nonmetalhit"
 	},
 		
 	{
@@ -89,6 +81,21 @@
 			"[+1] Sight", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
+	},
+	{
+		"name": "Mpiambina", 
+		"uniqueTo": "Madagascar",
+		"unitType": "Ranged",
+		"replaces": "Inquisitor",
+		"movement": 3,
+		"range": 1,
+		"strength": 8,
+		"rangedStrength": 14,
+    "uniques": ["Prevents spreading of religion to the city it is next to",
+      "Can [Remove Foreign religions from your own cities] [1] times","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]", "Unbuildable", "Religious Unit"
+		],
+		"promotions": ["Sampy"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Caravan", 
@@ -123,7 +130,7 @@
 		{
 		"name": "Apedemaks Bow",
 		"replaces": "Scout",
-		"unitType": "Scout",
+		"unitType": "Ranged",
 		"uniqueTo": "Nubia",
 		"movement": 2,
 		"strength": 5,
@@ -133,8 +140,7 @@
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"promotions": ["Ignore terrain cost"],
-		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Pathfinder", 
@@ -171,6 +177,7 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects","Can build [Farm] improvements on tiles","Can build [Quarry] improvements on tiles"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -182,7 +189,7 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"],
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit","May upgrade to [Spearman] through ruins-like effects","Ignores terrain cost <in [Forest] tiles>","Ignores terrain cost <in [Jungle] tiles>"],
 		"promotions": ["Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -228,7 +235,7 @@
 		{
 		"name": "Matato'a",
 		"unitType": "Ranged",
-		"movement": 2,
+		"movement": 3,
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
@@ -236,7 +243,7 @@
 		"replaces": "Archer",
 		"uniqueTo": "Tonga",
 		"upgradesTo": "Composite Bowman",
-		"uniques": ["[+1] Sight","[+1] Movement"],
+		"uniques": ["[+1] Sight"],
 		"attackSound": "arrow"
 	},
 	{
@@ -313,26 +320,70 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
-	{
-		"name": "Galley", 
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
-		"movement": 3,
-		"strength": 7,
-		"cost": 40,
-		"uniques": ["Can move after attacking","Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
-		"attackSound": "nonmetalhit"
-	},
 		{
 		"name": "Longship", 
 		"unitType": "Melee Water",
+		"replaces": "Trireme",
 		"uniqueTo": "Denmark",
 		"movement": 6,
 		"strength": 10,
 		"cost": 45,
 		"uniques": ["Cannot enter ocean tiles","Can move after attacking"],
-		"upgradesTo": "Trireme",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Galley", 
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength": 8,
+		"cost": 40,
+		"requiredTech": "Optics",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Compass",
+		"attackSound": "nonmetalhit"
+	},
+		{
+		"name": "Dromon", 
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength": 9,
+		"cost": 56,
+		"requiredTech": "Optics",
+		"uniques": ["Cannot enter ocean tiles","[+45]% Strength <vs [Water] units>","Unbuildable"],
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+		{
+		"name": "Baghlah",
+		"uniqueTo": "Oman",
+		"replaces": "Galley", 
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 8,
+		"rangedStrength": 12,
+		"cost": 56,
+		"requiredTech": "Optics",
+		"promotions": ["Coastal Raider I"],
+		"uniques": ["Cannot enter ocean tiles","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Compass",
+		"attackSound": "nonmetalhit"
+	},
+		{
+		"name": "Quinquereme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 13,
+		"requiredTech": "Sailing",
+		"uniques": ["Can move after attacking","Unbuildable"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -371,7 +422,7 @@
 		"movement": 5,
 		"strength": 6,
 		"rangedStrength": 10,
-		"cost": 56,
+		"cost": 55,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -403,7 +454,7 @@
 		"strength": 9,
 		"rangedStrength": 9,
 		"range": 1,
-		"cost": 56,
+		"cost": 55,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"attackSound": "nonmetalhit"
@@ -416,7 +467,7 @@
 		"movement": 4,
 		"strength": 7,
 		"rangedStrength": 10,
-		"cost": 56,
+		"cost": 55,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -429,7 +480,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 11,
-		"cost": 56,
+		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
@@ -443,11 +494,11 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 11,
-		"cost": 54,
+		"cost": 45,
 		"requiredTech": "Mining",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>", "[+50]% to Flank Attack bonuses"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -457,7 +508,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 14,
-		"cost": 56,
+		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
@@ -471,7 +522,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 13,
-		"cost": 56,
+		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
@@ -485,7 +536,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 12,
-		"cost": 56,
+		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
@@ -497,25 +548,14 @@
 		"name": "Pictish Warrior", 
 		"unitType": "Melee",
 		"uniqueTo": "Celts",
-		"replaces": "Warrior",
+		"replaces": "Spearman",
 		"movement": 2,
-		"strength": 10,
+		"strength": 12,
 		"cost": 45,
+		"requiredTech":"Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Swordsman",
-		"uniques":["Earn [100]% of killed [Military] unit's [Strength] as [Faith]","May upgrade to [Pictish Swordsman] through ruins-like effects"],
-		"attackSound": "metalhit"
-	},
-		{
-		"name": "Pictish Swordsman", 
-		"unitType": "Melee",
-		"uniqueTo": "Celts",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Longswordsman",
-		"uniques":["Unbuildable","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
+		"upgradesTo": "Pikeman",
+		"uniques":["Earn [100]% of killed [Military] unit's [Strength] as [Faith]","[+20]% Strength <when fighting in [Foreign Land] tiles>","No movement cost to pillage"],
 		"attackSound": "metalhit"
 	},
 	
@@ -532,7 +572,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 		"attackSound": "throw"
 	},
 	{
@@ -549,7 +589,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","[-1] Sight"],
 		"attackSound": "throw"
 	},	
 	{
@@ -567,35 +607,6 @@
 		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Can only attack [City] units"],
 		"promotions": ["Cover I"],
 		"attackSound": "metalhit"
-	},
-		{
-		"name": "Dromon", 
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 6,
-		"rangedStrength": 9,
-		"cost": 56,
-		"requiredTech": "Optics",
-		"uniques": ["Cannot enter ocean tiles","[+45]% Strength <vs [Water] units>"],
-		"upgradesTo": "Frigate",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-	},
-			{
-		"name": "Baghlah",
-		"uniqueTo": "Oman",
-		"replaces": "Dromon", 
-		"unitType": "Ranged Water",
-		"movement": 4,
-		"strength": 8,
-		"rangedStrength": 9,
-		"cost": 56,
-		"requiredTech": "Optics",
-		"promotions": ["Coastal Raider I"],
-		"uniques": ["Cannot enter ocean tiles","[+45]% Strength <vs [Water] units>","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
-		"upgradesTo": "Frigate",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Composite Bowman",
@@ -619,22 +630,9 @@
 		"rangedStrength": 12,
 		"cost": 75,
 		"requiredTech": "Construction",
+		"uniques": ["Can build [Tipi] improvements on tiles"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
-	},
-		{
-		"name": "Mpiambina", 
-		"uniqueTo": "Madagascar",
-		"unitType": "Ranged",
-		"replaces": "Inquisitor",
-		"movement": 3,
-		"range": 1,
-		"strength": 8,
-		"rangedStrength": 14,
-                "uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]", "Unbuildable", "Religious Unit"
-		],
-		"promotions": ["Sampy"],
 		"attackSound": "arrow"
 	},
 	{
@@ -661,7 +659,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Consumes [1] [Iron]","[+100]% Strength <when defending> <vs [Ranged] units>","Cannot attack"],
+		"uniques": ["[+100]% Strength <when defending> <vs [Ranged] units>","Cannot attack"],
 		"obsoleteTech": "Steel",
 		"attackSound": "metalhit"
 	},
@@ -686,7 +684,7 @@
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 17,
+		"strength": 16,
 		"cost": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
@@ -787,19 +785,21 @@
 		"promotions": ["Feared Elephant","Great Generals II"],
 		"attackSound": "horse"		
 	},
-			{
-		"name": "Sarissophoroi",
-		"uniqueTo": "Macedonia",
-		"replaces": "Pikeman",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 14,
-		"cost": 87,
-		"requiredTech": "Philosophy",
-		"uniques": ["[+100]% Strength <vs [Mounted] units>","[+100]% Strength <vs [Mounted Ranged] units>"],
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"attackSound": "metalhit",
+		{
+		"name": "Marathi Rider",
+		"replaces": "Horseman",
+		"uniqueTo": "Timurids",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 19,
+		"rangedStrength": 19,
+		"range": 5,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Knight",
+		"uniques": ["Consumes [1] [Horses]"],
+		"attackSound": "horse"
 	},
 	
 	// Medieval Era
@@ -843,23 +843,6 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Logistics"],
-		"attackSound": "arrow"
-	},
-		{
-		"name": "Ballista Elephant",
-		"unitType": "Mounted Ranged",
-		"uniqueTo": "Khmer",
-		"movement": 3,
-		"strength": 20,
-		"rangedStrength": 20,
-		"replaces": "Crossbowman",
-		"cost": 110,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"promotions": ["Feared Elephant"],
-		"uniques": ["[+100]% Strength <vs cities>","No defensive terrain bonus",
-			"Must set up to ranged attack"],
 		"attackSound": "arrow"
 	},
 	{
@@ -908,6 +891,23 @@
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
+		{
+		"name": "Ballista Elephant",
+		"unitType": "Mounted Ranged",
+		"uniqueTo": "Khmer",
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 20,
+		"replaces": "Trebuchet",
+		"cost": 110,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Cannon",
+		"obsoleteTech": "Chemistry",
+		"promotions": ["Feared Elephant"],
+		"uniques": ["[+100]% Strength <vs cities>","No defensive terrain bonus",
+			"Must set up to ranged attack"],
+		"attackSound": "arrow"
+	},
 	{
 		"name": "Longswordsman",
 		"unitType": "Melee",
@@ -931,7 +931,7 @@
 		"requiredTech": "Theology",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Consumes [1] [Iron]","May enter foreign tiles without open borders","[+20]% Strength <when fighting in [Foreign Land] tiles>","Earn [150]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["Consumes [1] [Iron]","May enter foreign tiles without open borders","[+20]% Strength <when fighting in [Foreign Land] tiles>","Earn [200]% of killed [Military] unit's [Strength] as [Faith]"],
 		"attackSound": "metalhit"
 	},
 			{
@@ -940,13 +940,13 @@
 		"uniqueTo": "Normandy",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 18,
+		"strength": 20,
 		"cost": 115,
 		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
 		"promotions": ["Shock I"],
-		"uniques": ["Consumes [1] [Iron]",],
+		"uniques": ["Consumes [1] [Iron]","Can build [Motte and Bailey] improvements on tiles"],
 		"attackSound": "metalhit"
 	},
 				{
@@ -1049,6 +1049,20 @@
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit",
 	},
+	{
+		"name": "Sarissophoroi",
+		"uniqueTo": "Macedonia",
+		"replaces": "Pikeman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 14,
+		"cost": 87,
+		"requiredTech": "Philosophy",
+		"uniques": ["[+100]% Strength <vs [Mounted] units>","[+100]% Strength <vs [Mounted Ranged] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit",
+	},
 		{
 		"name": "Pestininkas",
 		"uniqueTo": "Lithuania",
@@ -1062,31 +1076,6 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit",
-	},
-	{
-		"name": "Landsknecht",
-		"unitType": "Melee",
-		"movement": 3,
-		"strength": 16,
-		"cost": 45,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Only available <after adopting [Mercenary Army]>","[+50]% Strength <vs [Mounted Ranged] units>"],
-		"upgradesTo": "Lancer",
-		"attackSound": "metalhit"
-	},
-		{
-		"name": "Swiss Guard",
-		"uniqueTo": "Papal State",
-		"replaces": "Landsknecht",
-		"unitType": "Melee",
-		"movement": 3,
-		"strength": 25,
-		"cost": 65,
-		"requiredTech": "Economics",
-		"promotions": ["Medic","Medic II"],
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
-		"upgradesTo": "Rifleman",
-		"attackSound": "metalhit"
 	},
 		{
 		"name": "Ulan",
@@ -1115,6 +1104,31 @@
 		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","[+50]% Strength <vs [Mounted] units>","[1] additional attacks per turn","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Landsknecht",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Only available <after adopting [Mercenary Army]>","[+50]% Strength <vs [Mounted Ranged] units>"],
+		"upgradesTo": "Lancer",
+		"attackSound": "metalhit"
+	},
+		{
+		"name": "Swiss Guard",
+		"uniqueTo": "Papal State",
+		"replaces": "Landsknecht",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 25,
+		"cost": 65,
+		"requiredTech": "Economics",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"upgradesTo": "Rifleman",
 		"attackSound": "metalhit"
 	},
 	{
@@ -1159,34 +1173,19 @@
 		"attackSound": "horse"
 	},
 		{
-		"name": "Marathi Rider",
-		"replaces": "Horseman",
-		"uniqueTo": "Timurids",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 21,
-		"rangedStrength": 21,
-		"range": 4,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Flight",
-		"upgradesTo": "Great War Bomber",
-		"uniques": ["Consumes [1] [Horses]"],
-		"attackSound": "horse"
-	},
-		{
 		"name": "Konnitsa",
 		"uniqueTo": "Bulgaria",
 		"replaces": "Knight",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 20,
+		"rangedStrength": 20,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]","[+1] additional attacks per turn"],
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1203,19 +1202,6 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Horses]"],
 		"attackSound": "arrow"
-	},
-	{
-		"name": "Conquistador",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 20,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"uniques": ["Only available <after adopting [Exploration]>","Can move after attacking","No defensive terrain bonus","Founds a new city",
-			"[+2] Sight","Defense bonus when embarked","Consumes [1] [Horses]"],
-		"attackSound": "horse"
 	},
 		{
 		"name": "Mamluk",
@@ -1291,20 +1277,17 @@
 		"promotions": ["Great Generals I","Quick Study"],
 		"attackSound": "arrow"
 	},
-		{
-		"name": "Dhow",
-		"replaces": "Caravel",
-		"uniqueTo": "Kilwa",
-		"unitType": "Melee Water",
+	{
+		"name": "Conquistador",
+		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 17,
-		"cost": 105,
-		"hurryCostModifier": 30,
-		"requiredTech": "Compass",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"promotions": ["Boarding Party I"],
-		"uniques": ["[+1] Sight","Can move after attacking","May withdraw before melee ([50]%)"],
+		"strength": 20,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Only available <after adopting [Exploration]>","Can move after attacking","No defensive terrain bonus","Founds a new city",
+			"[+2] Sight","Defense bonus when embarked","Consumes [1] [Horses]"],
+		"attackSound": "horse"
 	},
 	
 	// Rennaisance Era
@@ -1335,12 +1318,27 @@
 		"obsoleteTech": "Combustion",
 		"uniques": ["Can move after attacking","Cannot enter ocean tiles"],
 	},
+		{
+		"name": "Dhow",
+		"replaces": "Caravel",
+		"uniqueTo": "Kilwa",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 17,
+		"cost": 105,
+		"hurryCostModifier": 30,
+		"requiredTech": "Compass",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"promotions": ["Boarding Party I"],
+		"uniques": ["[+1] Sight","Can move after attacking","May withdraw before melee ([50]%)"],
+	},
 	{
 		"name": "Nau", 
 		"uniqueTo": "Portugal",
 		"replaces": "Caravel",
 		"unitType": "Melee Water",
-		"movement": 5,
+		"movement": 6,
 		"strength": 20,
 		"cost": 120,
 		"hurryCostModifier": 30,
@@ -1459,11 +1457,25 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Mounted Ranged] units>"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Carolean", 
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Sweden",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
 {
 		"name": "Privateer",
 		"unitType": "Melee Water",
 		"movement": 5,
-		"strength": 27,
+		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
@@ -1481,7 +1493,7 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
+		"promotions": ["Boarding Party I", "Coastal Raider I", "Supply"],
 		"uniques": ["May capture killed [Water] units"]
 	},
 	{
@@ -1571,7 +1583,7 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
-		"promotions": ["Shock I","Ambush Formation I","Heavy Charge"],
+		"promotions": ["Ambush Formation I","Heavy Charge"],
 		"attackSound": "horse"
 	},
 	
@@ -1606,7 +1618,7 @@
 		"range": 2,
 		"movement": 2,
 		"strength": 31,
-		"rangedStrength": 30,
+		"rangedStrength": 31,
 		"cost": 225,
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
@@ -1646,7 +1658,7 @@
 		"replaces": "Rifleman",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 29,
+		"strength": 32,
 		"cost": 180,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Replaceable Parts",
@@ -1661,7 +1673,7 @@
 		"replaces": "Rifleman",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 29,
+		"strength": 35,
 		"cost": 180,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Replaceable Parts",
@@ -1681,22 +1693,8 @@
 		"requiredTech": "Industrialization",
 		"obsoleteTech": "Replaceable Parts",
 		"replacementTextForUniques": "Can construct Roads, Railroads, Forts and remove: Forest, Marsh and Jungle tiles", 
-		"uniques": ["Can build [All Road] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Remove Marsh] improvements on tiles",],
+		"uniques": ["Can build [All Road] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Remove Marsh] improvements on tiles","Can build [Remove Jungle] improvements on tiles","Can build [Remove Forest] improvements on tiles"],
 		"upgradesTo": "Great War Infantry",
-		"attackSound": "shot"
-	},	
-	{
-		"name": "Carolean", 
-		"replaces": "Musketman",
-		"unitType": "Gunpowder",
-		"uniqueTo": "Sweden",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["March"],
 		"attackSound": "shot"
 	},
 	{
@@ -1720,23 +1718,21 @@
 		"uniqueTo": "Ireland",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 34,
+		"strength": 40,
 		"cost": 165,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
-		"strength": 70,
-		"rangedStrength": 70,
-		"cost": 420,
+		"strength": 40,
+		"cost": 375,
 		"requiredTech": "Electronics",
-                "uniques": ["Can carry [2] [Aircraft] units","Cannot attack"]
+    "uniques": ["Can carry [2] [Aircraft] units","Cannot attack"]
 	},
 	{
 		"name": "Triplane",
@@ -1746,7 +1742,7 @@
 		"rangedStrength": 35,
 		"range": 5,
 		"interceptRange": 5,
-		"cost": 330,
+		"cost": 325,
 		"requiredTech": "Flight",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
@@ -1761,7 +1757,7 @@
 		"strength": 50,
 		"rangedStrength": 50,
 		"range": 6,
-		"cost": 330,
+		"cost": 325,
 		"requiredTech": "Flight",
 		"obsoleteTech": "Radar",
 		"upgradesTo": "Bomber",
@@ -1793,7 +1789,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","[+33]% Strength <vs [Wounded] units>","Consumes [1] [Horses]"],
+			"[-33]% Strength <vs cities>","[+25]% Strength <vs [Wounded] units>","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1802,7 +1798,7 @@
 		"replaces": "Cavalry",
 		"uniqueTo": "Manchuria",
 		"movement": 5,
-		"strength": 34,
+		"strength": 36,
 		"cost": 225,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
@@ -1877,13 +1873,13 @@
 		"replaces": "Artillery",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 24,
+		"strength": 23,
 		"rangedStrength": 28,
 		"range": 3,
 		"cost": 250,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["[+200]% Strength <vs cities>","[+25]% Strength <vs [Melee] units>","[+25]% Strength <vs [Gunpowder] units>","No defensive terrain bonus",
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus",
 			"[-1] Sight","Ranged attacks may be performed over obstacles"]
 	},
 	{
@@ -1918,7 +1914,7 @@
 		"rangedStrength": 45,
 		"range": 8,
 		"interceptRange": 8,
-		"cost": 420,
+		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Fighter",
 		"promotions": ["Air Recon"],
@@ -1933,7 +1929,7 @@
 		"strength": 65,
 		"rangedStrength": 65,
 		"range": 10,
-		"cost": 420,
+		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "Stealth Bomber",
 		"uniques": ["Consumes [1] [Oil]"],
@@ -1948,7 +1944,7 @@
 		"requiredTech": "Combustion",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Tank",
-		"uniques": ["Can move after attacking","[+50]% Strength <vs [Land] units>","No defensive terrain bonus","Consumes [1] [Oil]"]
+		"uniques": ["Can move after attacking","[+50]% Strength <vs [Land] units>","[-33]% Strength <vs cities>","No defensive terrain bonus","Consumes [1] [Oil]"]
 	},
 	{
 		"name": "Destroyer",
@@ -1965,12 +1961,11 @@
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 55,
-		"rangedStrength": 55,
+		"rangedStrength": 65,
 		"range": 3,
-		"cost": 420,
+		"cost": 375,
 		"requiredTech": "Electronics",
-		"uniques": ["Ranged attacks may be performed over obstacles","[+100]% Strength <vs [Submarine] units>",
-			"[+30]% Strength <vs cities>","Consumes [1] [Oil]"]
+		"uniques": ["Ranged attacks may be performed over obstacles","Consumes [1] [Oil]"]
 	},
 	{
 		"name": "Submarine",
@@ -1978,7 +1973,7 @@
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 60,
-		"cost": 360,
+		"cost": 325,
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"obsoleteTech": "Telecommunications",
@@ -2033,7 +2028,7 @@
 		"strength": 47,
 		"cost": 330,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["[+15]% Strength <when attacking>"]
+		"uniques": ["[+50]% Strength <when attacking>"]
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
@@ -2130,7 +2125,7 @@
 		"requiredTech": "Combined Arms",
 		"obsoleteTech": "Lasers",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","[+50]% Strength <vs [Land] units>","No defensive terrain bonus","Consumes [1] [Oil]"]
+		"uniques": ["Can move after attacking","[+50]% Strength <vs [Land] units>","[-33]% Strength <vs cities>","No defensive terrain bonus","Consumes [1] [Oil]"]
 	},
 	{
 		"name": "Panzer",
@@ -2142,7 +2137,7 @@
 		"cost": 450,
 		"requiredTech": "Combined Arms",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Land] units>","Consumes [1] [Oil]"]
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","[+50]% Strength <vs [Land] units>","Consumes [1] [Oil]"]
 	},
 	{
 		"name": "Anti-Tank Gun",
@@ -2256,7 +2251,7 @@
 		"movement": 3,
 		"interceptRange": 2,
 		"strength": 65,
-		"cost": 510,
+		"cost": 425,
 		"requiredTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>"],
 		"attackSound": "machinegun"
@@ -2266,7 +2261,7 @@
 		"unitType": "Helicopter",
 		"movement": 6,
 		"strength": 60,
-		"cost": 510,
+		"cost": 425,
 		"requiredTech": "Computers",
 		"uniques": ["[+200]% Strength <vs [Armored] units>","All tiles costs 1",
 			"No defensive terrain bonus","Can move after attacking",
@@ -2279,7 +2274,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
-		"cost": 450,
+		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
@@ -2288,10 +2283,10 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 100,
-		"cost": 540,
+		"cost": 425,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking","[+50]% Strength <vs [Land] units>","No defensive terrain bonus","Consumes [1] [Aluminum]"]
+		"uniques": ["Can move after attacking","[+50]% Strength <vs [Land] units>","[-33]% Strength <vs cities>","No defensive terrain bonus","Consumes [1] [Aluminum]"]
 	},
 	{
 		"name": "Nuclear Submarine", 
@@ -2300,7 +2295,7 @@
 		"strength": 50,
 		"range": 3,
 		"rangedStrength": 85,
-		"cost": 510,
+		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"uniques": ["[+75]% Strength <when attacking>", "Invisible to others", 
 			"Can only attack [Water] tiles", "Can see invisible [Submarine] units", "Can enter ice tiles", 
@@ -2314,20 +2309,20 @@
 		"rangedStrength": 100,
 		"range": 3,
 		"interceptRange": 2,
-		"cost": 510,
+		"cost": 425,
 		"requiredTech": "Robotics",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["[100]% chance to intercept air attacks","Can see invisible [Submarine] units","Can carry [2] [Missile] units"]
+		"uniques": ["[100]% chance to intercept air attacks","Can see invisible [Submarine] units","Can carry [3] [Missile] units"]
 	},
 	{
 		"name": "Jet Fighter", 
 		"unitType": "Fighter",
-		"movement": 2,
-		"strength": 45,
+		"movement": 1,
+		"strength": 75,
 		"rangedStrength": 75,
 		"range": 10,
 		"interceptRange": 10,
-		"cost": 540,
+		"cost": 425,
 		"requiredTech": "Lasers",
 		"uniques": ["[+150]% Strength <vs [Helicopter] units>","[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","Consumes [1] [Aluminum]"],
 		"promotions": ["Air Recon"]
@@ -2337,11 +2332,11 @@
 		"unitType": "Bomber",
 		"movement": 2,
 		"strength": 85,
-		"rangedStrength": 65,
+		"rangedStrength": 85,
 		"range": 20,
-		"cost": 540,
+		"cost": 425,
 		"requiredTech": "Stealth",
-		"promotions": ["Evasion"],
+		"promotions": ["Evasion","Air Recon"],
 		"uniques": ["Consumes [1] [Aluminum]"],
 		"attackSound": "shot"
 	},
@@ -2350,10 +2345,10 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
-		"cost": 600,
+		"cost": 425,
 		"requiredTech": "Nuclear Fusion",
 		"promotions": ["Interception III"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Land] units>","Consumes [1] [Uranium]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","[+50]% Strength <vs [Land] units>","Consumes [1] [Uranium]"],
 		"attackSound": "shot"
 	},
 		{
@@ -2361,7 +2356,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 100,
-		"cost": 510,
+		"cost": 400,
 		"requiredTech": "Nanotechnology",
 		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory"],
 		"attackSound": "shot"
@@ -2383,6 +2378,13 @@
 		"unitType": "Civilian",
 		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 4
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit", "Unbuildable"],
+		"movement": 4,
+		"religiousStrength": 1000
 	},
 			{
 		"name": "Dalai Lama",
@@ -2438,16 +2440,6 @@
 		"movement": 4
 	},
 	{
-		"name": "Merchant of Venice", 
-		"uniqueTo": "Venice",
-		"replaces": "Great Merchant",
-		"unitType": "Civilian",
-		"movement": 4,
-		"cost": 250,
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [120] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Uncapturable", "Great Person - [Gold]", "Unbuildable"]
-	},
-	{
 		"name": "Khan",
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
@@ -2456,13 +2448,6 @@
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
 			 "Can instantly construct a [Citadel] improvement <by consuming this unit>","Uncapturable", "Great Person - [War]", "Unbuildable"],
 		"movement": 7
-	},
-	{
-		"name": "Great Prophet",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit", "Unbuildable"],
-		"movement": 4,
-		"religiousStrength": 1000
 	},
 	{
 		"name": "Great Admiral", 
