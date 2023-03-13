@@ -616,13 +616,9 @@
 		"prerequisites": ["Buffalo Chest II"],
 		"unitTypes": ["Melee","Gunpowder"]
 	},
-		{
-		"name": "Epic of Battle",
-		"uniques": ["[+15]% Strength <vs cities>"],
-	},
 	{
 	"name": "Sauna",
-	"uniques": ["+10 HP when healing"],
+	"uniques": ["+10 HP when healing <in Friendly Land tiles>"],
 	},
 		{
 	"name": "Ski Infantry",
@@ -635,74 +631,70 @@
 	},
 	{
 	"name": "Drauhtinon",
-	"uniques": ["[+1] Movement","Heals [25] damage if it kills a unit"]
+	"uniques": ["[+1] Movement"]
 	},
 	{
-	"name": "Hetairoi",
-	"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles","Great Person - [War]"]
-	}
-		{
 		"name": "Sampy",
 		"uniques": ["Access to special promotions"]
 	},
-		{
+	{
 		"name": "Kelimazala",
 		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-			{
+	{
 		"name": "Ramahavaly",
 		"uniques": ["[+50]% Strength <when defending>","[-50]% Strength <when attacking>"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-				{
+	{
 		"name": "Manjakatsiroa",
 		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-					{
+	{
 		"name": "Mosasa",
 		"uniques": ["[+4] Sight","[+4] Range"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-					{
+	{
 		"name": "Ambohimanambola",
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-						{
+	{
 		"name": "Sehatra",
 		"uniques": ["Heals [100] damage if it kills a unit"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-							{
+	{
 		"name": "Lambamena",
 		"uniques": ["[+100]% Strength <vs cities>"]
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Ranged", "Mounted Ranged"]
 	},
-								{
+	{
 		"name": "Altitude Training",
 		"uniques": ["Double movement in [Snow]", "Double movement in [Tundra]", "Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	},
-			{
+	{
 		"name": "Swift Charge",
 		"uniques": ["[+50]% Strength <vs [Melee] units>","[+25]% Strength <vs [Gunpowder] units>"],
 	},
-				{
+	{
 		"name": "Dharma",
-		"uniques": ["[-15]% Strength <when attacking>","[+10] HP when healing <in [Friendly Land] tiles>", "[+15]% Strength <when defending>"]
-				},
-								{
+		"uniques": ["[-15]% Strength <when attacking>", "[+15]% Strength <when defending>"]
+	},
+	{
 		"name": "Chain of the Earth",
 		"uniques": ["Ignores Zone of Control"]
-				},
+	},
 // PRUSSIA
 {
 		"name": "Gehorsam", // only for Kris Swordsman and subsequent upgrades

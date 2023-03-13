@@ -1,8 +1,8 @@
 [
     {
         "name": "freeCulture",
-        "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
-        "uniques": ["Gain [20] [Culture]"]
+        "notification": "We have discovered cultural artifacts in the ruins! (+10 culture)",
+        "uniques": ["Gain [15] [Culture] <after [10] turns>"]
     },
     {
         "name": "joinWorker",
@@ -15,11 +15,6 @@
         "notification": "A [Settler] has joined us!",
         "uniques": ["Free [Settler] found in the ruins"],
         "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
-    },
-    {
-        "name": "freeXP",
-        "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [10] XP"]
     },
     {
         "name": "freePop",
@@ -42,23 +37,13 @@
         "uniques": ["This Unit upgrades for free including special upgrades"]
     },
     {
-        "name": "barbCampsRevealed",
-        "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
-        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
-    },
-    {
         "name": "crudelyDrawnMap",
         "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"]
+        "uniques": ["Reveal up to [All] [All] within a [6] tile radius"]
     },
     {
         "name": "holySymbols",
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon"]
+        "uniques": ["Hidden when religion is disabled", "Gain [20] [Faith] <after [10] turns>"]
     },
-    {
-        "name": "prophecy",
-        "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for [33]% of a Great Prophet", "Hidden after generating a Great Prophet"]
-    }
 ]
