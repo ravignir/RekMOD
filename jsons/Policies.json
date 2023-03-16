@@ -186,7 +186,7 @@
 			},
 			{
 				"name": "Reformation",
-				"uniques": ["[-15]% Culture cost of natural border growth [in all cities]","May choose [1] additional belief(s) of any type when [enhancing] a religion"],
+				"uniques": ["[-15]% Culture cost of natural border growth [in all cities]","Gain a free [Enhancer] belief <after founding a religion>", "Gain a free [Enhancer] belief <upon founding a Religion>"],
 				"requires": ["Organized Religion"],
 				"row": 2,
 				"column": 2
@@ -240,7 +240,7 @@
 			},
 			{
 				"name": "Fine Arts",
-				"uniques": ["[Great Artist] is earned [33]% faster","[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]"],
+				"uniques": ["[Great Artist] is earned [33]% faster","[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]","Provides a [Fine Art Specialist] in your first [4] cities for free"],
 				"requires": ["Cultural Exchange","Artistic Genius"],
 				"row": 3,
 				"column": 4
@@ -259,8 +259,7 @@
 		"policies": [
 			{
 				"name": "Merchant Confederacy",
-				"uniques": ["[+2 Gold, +2 Production, +2 Food] from every [Land Trade Route (Gold)]","[+2 Gold, +2 Production, +2 Food] from every [Sea Trade Route (Food)]",
-					"[+2 Gold] from every [Sea Trade Route (Production)]","[+2 Gold] from every [Sea Trade Route (Gold)]"],
+				"uniques": ["[+2 Gold, +2 Production, +2 Food] from every [Land Trade Route (Gold)]","[+2 Gold, +2 Production, +2 Food] from every [Sea Trade Route (Gold)]"],
 				"row": 1,
 				"column": 3
 			},
@@ -412,7 +411,7 @@
 			},
 			{
 				"name": "Entrepreneurship",
-				"uniques": ["[-50]% maintenance on road & railroads","[-25]% maintenance cost for buildings [in all cities]","Provides [2] [Trade Route (Count)]","Provides [2] [Trade Route]"],
+				"uniques": ["[-50]% maintenance on road & railroads","[-25]% maintenance cost for buildings [in all cities]","Provides [2] [Trade Route]"],
 				"requires": ["Silk Road"],
 				"row": 2,
 				"column": 1
@@ -595,7 +594,7 @@
 			},
 			{
 				"name": "New Deal",
-				"uniques": ["[+5 Science] from every [Academy]","[+5 Production] from every [Manufactory]","[+5 Faith] from every [Holy site]","[+5 Culture] from every [Landmark]","[+5 Gold] from every [Customs house]", "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Sacred Grove]"],
+				"uniques": ["[+5 Science] from every [Academy]","[+5 Production] from every [Manufactory]","[+5 Faith] from every [Holy site]","[+5 Culture] from every [Landmark]","[+5 Gold] from every [Customs house]", "[+2 Culture, +2 Science, +2 Faith, +2 Production, +2 Food] from every [Sacred Grove]"],
 				"requires": ["Capitalism"],
 				"row": 2,
 				"column": 3

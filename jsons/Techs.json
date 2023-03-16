@@ -9,7 +9,7 @@
 				"name": "Agriculture",
 				"row": 5,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
-				"uniques": ["Starting tech","Enables Open Borders agreements", "Notified of new Barbarian encampments", "[+1 Food] [in all cities] <in tiles without [Hill]>"]
+				"uniques": ["Starting tech","Enables Open Borders agreements", "Notified of new Barbarian encampments"]
 			}
 		]	
 	},
@@ -30,7 +30,7 @@
 				"row": 5,
 				"prerequisites": ["Agriculture"],
 				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
-				"uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]"],
+				"uniques": ["Provides [1] [Trade Route]"],
 			},
 			{
 				"name": "Archery",
@@ -59,7 +59,7 @@
 				"row": 1,
 				"prerequisites": ["Pottery"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
-				"uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]"],
+				"uniques": ["Provides [1] [Trade Route]","Enables embarkation for land units"],
 			},
 			{
 				"name": "Calendar",
@@ -111,7 +111,7 @@
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
@@ -165,7 +165,7 @@
 				"prerequisites": ["Mathematics","Construction"],
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
-				"uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]"],
+				"uniques": ["Provides [1] [Trade Route]","Roads connect tiles across rivers"],
 			},
 			{
 				"name": "Iron Working",
@@ -222,13 +222,13 @@
 				"row": 1,
 				"prerequisites": ["Optics","Theology"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
-				"uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]"],
+				"uniques": ["Provides [1] [Trade Route]","[+1] Movement <for [Embarked] units>","[+1] Sight <for [Embarked] units>"],
 			},
 			{
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Theology","Civil Service"],
-				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
+				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
@@ -268,7 +268,7 @@
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles <starting from the [Ancient era]>"],
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
@@ -283,7 +283,7 @@
 				"row": 6,
 				"prerequisites": ["Chivalry","Education"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
-				"uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]"],
+				"uniques": ["Provides [1] [Trade Route]"],
 			},
 			{
 				"name": "Printing Press",
@@ -310,6 +310,7 @@
 				"name": "Navigation",
 				"row": 2,
 				"prerequisites": ["Astronomy"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
@@ -395,7 +396,7 @@
 				"row": 2,
 				"prerequisites": ["Archaeology","Scientific Theory"],
 				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
-				"uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]"],
+				"uniques": ["Provides [1] [Trade Route]"],
 			},
 			{
 				"name": "Electricity",
@@ -406,7 +407,7 @@
 			{
 				"name": "Steam Power",
 				"row": 6,
-				"uniques": ["[+1] Movement <for [Embarked] units>"],
+				"uniques": [],
 				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
@@ -454,7 +455,7 @@
 				"row": 8,
 				"prerequisites": ["Steam Power","Dynamite"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
-				"uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]"],
+				"uniques": ["Provides [1] [Trade Route]"],
 			}
 		]	
 	},
@@ -503,7 +504,7 @@
 				"row": 2,
 				"prerequisites": ["Plastics","Refrigeration"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
-				"uniques": ["Provides [1] [Trade Route (Count)]","Provides [1] [Trade Route]"],
+				"uniques": ["Provides [1] [Trade Route]"],
 			},
 			{
 				"name": "Atomic Theory",

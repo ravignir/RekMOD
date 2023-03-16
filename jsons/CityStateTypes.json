@@ -4,19 +4,19 @@
         "friendBonusUniques": [
             "[+3 Culture] <before the [Medieval era]>",
             "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Culture] <starting from the [Industrial era]>"
+            "[+10 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>"
+            "[+20 Culture] <starting from the [Industrial era]>"
         ],
         "color": [139, 96, 255]
     },
     {
         "name": "Maritime",
         "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "allyBonusUniques": ["[+3 Food] [in capital]", "[+1 Food] [in all cities]"],
         "color": [56, 255, 112]
     },
     {
@@ -34,21 +34,25 @@
     },
     {
         "name": "Militaristic",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "friendBonusUniques": ["Provides military units every ≈[15] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[9] turns"],
         "color": [255, 0, 0]
     },
     {
         "name": "Religious",
         "friendBonusUniques":  [
-            "[+3 Faith] <before the [Medieval era]>",
-            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>"
+            "[+2 Faith] <before the [Classical era]>",
+            "[+4 Faith] <starting from the [Classical era]> <before the [Medieval era]>",
+            "[+6 Faith] <starting from the [Medieval era]> <before the [Renaissance era]>",
+            "[+8 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
+            "[+10 Faith] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith] <before the [Medieval era]>",
-            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>"
+            "[+5 Faith] <before the [Classical era]>",
+            "[+8 Faith] <starting from the [Classical era]> <before the [Medieval era]>",
+            "[+11 Faith] <starting from the [Medieval era]> <before the [Renaissance era]>",
+            "[+14 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
+            "[+18 Faith] <starting from the [Industrial era]>"
         ],
         "color": [255, 255, 255]
     }
