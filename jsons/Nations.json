@@ -405,7 +405,7 @@
 		"outerColor": [125, 71, 113],
 		"innerColor": [82, 19, 36],
 		"uniqueName": "Cyrillic Script",
-		"uniques": ["[+3 Science] from every [Artist]","[+1 Culture] from all [Science] buildings"],
+		"uniques": ["[+3 Science] from every [Artist]","[+1 Culture] from every [Library]","[+1 Culture] from every [University]","[+1 Culture] from every [Public School]","[+1 Culture] from every [Research Lab]"],
 		"cities": ["Pliska","Preslav","Tarnovo","Plovdiv","Prilep","Sofia","Vidin","Nis","Kastoria","Skopje","Ohrid","Glavinitsa","Varna"]
 	},
 		{
@@ -1684,7 +1684,7 @@
 		"outerColor": [177,55,73],
 		"innerColor": [234,201,52],
 		"uniqueName": "Skillful Traders",
-		"uniques": ["Provides [2] [Trade Route (Count)]", "Provides [2] [Trade Route]","Receive free [Square Sail Ship] when you discover [Sailing]"],
+		"uniques": ["Provides [2] [Trade Route]","Receive free [Square Sail Ship] when you discover [Sailing]"],
 		"cities": ["Tyre","Sidon","Ugarit","Berytus","Byblos","Arvad","Kition","Tripolis","Baalbek","Sarepta","Dor","Orthosias"]
 	},
 	{
@@ -2108,7 +2108,7 @@
 		"outerColor": [167,2,71],
 		"innerColor": [218,218,218],
 		"uniqueName": "The Friendly Islands",
-		"uniques": ["[+1 Gold, +1 Science] per [5] population in all cities"],
+		"uniques": [/*"[+1 Gold, +1 Science] per [5] population in all cities"*/"[+1] Sight <for [All] units>"],
 		"cities": ["Mu'a","Nuku'alofa","Neiafu","Haveluoto","Vaini","Pangai","Ohonua","Agaha","Kolonga","Hihifo","Tafahi","Petani","Holonga"]
 	},
 					{
@@ -2177,7 +2177,7 @@
 		"outerColor": [105,34,172],
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
-		"uniques": ["Provides [1] [Trade Route (Count)] <upon discovering [Compass]>","Provides [1] [Trade Route] <upon discovering [Compass]>", "Free [Cargo Ship] appears <upon discovering [Compass]>"],
+		"uniques": ["Provides [1] [Trade Route] <upon discovering [Compass]>", "Free [Cargo Ship] appears <upon discovering [Compass]>"],
 		"cities": ["Venice","Ragusa","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato","Veroz","Ravenna","Negroponte","Athens","Burano","Leonessa","Cerigo"]
 		
 	},

@@ -2,7 +2,7 @@
     {
         "name": "freeCulture",
         "notification": "We have discovered cultural artifacts in the ruins! (+10 culture)",
-        "uniques": ["Gain [15] [Culture] <after [10] turns>"]
+        "uniques": ["Gain [15] [Culture] <after [15] turns>"]
     },
     {
         "name": "joinWorker",
@@ -44,6 +44,6 @@
     {
         "name": "holySymbols",
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain [20] [Faith] <after [10] turns>"]
+        "uniques": ["Hidden when religion is disabled", "Gain [20] [Faith] <after [15] turns>"]
     },
 ]

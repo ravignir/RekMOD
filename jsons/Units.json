@@ -103,7 +103,7 @@
 		"movement": 2,
 		"cost": 75,
 		"uniques": ["Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit>",
-			"Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]", "Only available <in cities without a [~CS]>", "Uncapturable"],
+			"Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]", "Only available <in cities without a [~CS]>", "Uncapturable"],
 		"requiredTech": "Animal Husbandry"
 	},
 	{
@@ -112,7 +112,7 @@
 		"movement": 4,
 		"cost": 75,
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit>",
-			"Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]","Consumes [1] [Trade Route (Count)]", "Only available <in cities without a [~CS]>", "Uncapturable"],
+			"Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]", "Only available <in cities without a [~CS]>", "Uncapturable"],
 		"requiredTech": "Sailing"
 	},
 	{
@@ -283,17 +283,6 @@
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources","Uncapturable"]
 	},
-		{
-		"name": "Nelayan",
-		"replaces": "Work Boats",
-		"uniqueTo": "Brunei",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 10,
-		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Can instantly construct a [Kampong Ayer] improvement <by consuming this unit>","Cannot attack","Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources"]
-	},
 	{
 		"name": "Trireme",
 		"unitType": "Melee Water",
@@ -353,10 +342,8 @@
 		"strength": 6,
 		"rangedStrength": 9,
 		"cost": 56,
-		"requiredTech": "Optics",
 		"uniques": ["Cannot enter ocean tiles","[+45]% Strength <vs [Water] units>","Unbuildable"],
 		"upgradesTo": "Frigate",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 		{
@@ -380,10 +367,8 @@
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 13,
-		"requiredTech": "Sailing",
 		"uniques": ["Can move after attacking","Unbuildable"],
 		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -796,8 +781,8 @@
 		"range": 5,
 		"cost": 120,
 		"requiredTech": "Chivalry",
-		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Knight",
+		"obsoleteTech": "Flight",
+		"upgradesTo": "Great War Bomber",
 		"uniques": ["Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
@@ -972,7 +957,7 @@
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
 		"uniques": ["May create improvements on water resources","Consumes [1] [Iron]"],
 		"promotions": ["Shock I","Great Generals II"],
@@ -2382,7 +2367,7 @@
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit", "Unbuildable"],
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit", "Unbuildable", "Hidden when religion is disabled ", "Takes your religion over the one in their birth city"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -2391,15 +2376,16 @@
 		"uniqueTo": "Tibet",
 		"replaces": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>","Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [5] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit", "Unbuildable"],
-		"movement": 4
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>","Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [5] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", "May enter foreign tiles without open borders", "Great Person - [Faith]", "Religious Unit", "Unbuildable", "Hidden when religion is disabled ", "Takes your religion over the one in their birth city"],
+		"movement": 4,
+		"religiousStrength": 1000
 	},
 			{
 		"name": "Krivis",
 		"replaces": "Great Prophet",
 		"uniqueTo": "Lithuania",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Sacred Grove] improvement <by consuming this unit>", "Great Person - [Faith]", "Unbuildable"],
+		"uniques": ["Can instantly construct a [Sacred Grove] improvement <by consuming this unit>", "Great Person - [Faith]", "Unbuildable", "Hidden when religion is disabled "],
 		"movement": 4
 	},
 	{
@@ -2455,11 +2441,6 @@
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles","All adjacent units heal [+15] HP when healing","Unbuildable"],
 		"movement": 6
 	},
-
-	// Copied from:
-	// https://github.com/yairm210/Unciv/blob/00b1feb2c2feecea8b1a259bc053c47a210ada42/android/assets/jsons/Civ%20V%20-%20Gods%20%26%20Kings/Units.json#L1673-L1716
-
-	// Required for Scientific Victory in the recent versions
 
 	/* Spaceship Parts */
 
