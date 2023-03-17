@@ -16,8 +16,21 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Bronze Working",
-		"uniques": ["[+1 Production] <after discovering [Steel]>"],
+		"uniques": ["[+1 Production] <after discovering [Steel]>","Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"techRequired": "Refrigeration",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "P"
 	},
 	{
 		"name": "Mine",
@@ -25,7 +38,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 	{
@@ -34,7 +47,7 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
 	
@@ -43,7 +56,7 @@
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>","Can only be built to improve a resource"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
 	},
 	{
@@ -51,36 +64,34 @@
 		"turnsToBuild": 9,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Biology",
-		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Refrigeration]>"],
+		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Refrigeration]>","Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>","Can only be built to improve a resource"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Plantation",
 		"turnsToBuild": 6,
-		"gold": 1,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>","Can only be built to improve a resource"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>","Can only be built to improve a resource"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
 	{
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>"]
+		"uniques": ["[+1 Gold] <after discovering [Compass]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 
 	// Special improvement
@@ -88,52 +99,52 @@
 		"name": "Archaeological Dig",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Forest","Jungle","Desert"],
 		"culture": 1,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Land Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"food": 3,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+1 Food] <starting from the [Classical era]>", "[+1 Food] <starting from the [Industrial era]>", "[+1 Food] <starting from the [Modern era]>"]
+		"uniques": ["Provides [-1] [Trade Route]","[+1 Food] <starting from the [Classical era]>", "[+1 Food] <starting from the [Industrial era]>", "[+1 Food] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Land Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"production": 3,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+1 Production] <starting from the [Classical era]>", "[+1 Production] <starting from the [Industrial era]>", "[+1 Production] <starting from the [Modern era]>"]
+		"uniques": ["Provides [-1] [Trade Route]","[+1 Production] <starting from the [Classical era]>", "[+1 Production] <starting from the [Industrial era]>", "[+1 Production] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Land Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"gold": 3,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+1 Gold] <starting from the [Classical era]>", "[+1 Gold] <starting from the [Industrial era]>", "[+1 Gold] <starting from the [Modern era]>"]
+		"uniques": ["Provides [-1] [Trade Route]","[+1 Gold] <starting from the [Classical era]>", "[+1 Gold] <starting from the [Industrial era]>", "[+1 Gold] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Sea Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"food": 6,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+2 Food] <starting from the [Classical era]>", "[+2 Food] <starting from the [Industrial era]>", "[+2 Food] <starting from the [Modern era]>"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Food] <starting from the [Classical era]>", "[+2 Food] <starting from the [Industrial era]>", "[+2 Food] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"production": 6,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+2 Production] <starting from the [Classical era]>", "[+2 Production] <starting from the [Industrial era]>", "[+2 Production] <starting from the [Modern era]>"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Production] <starting from the [Classical era]>", "[+2 Production] <starting from the [Industrial era]>", "[+2 Production] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"gold": 6,
-		"uniques": ["Provides [-1] [Trade Route]","Provides [-1] [Trade Route (Count)]","[+2 Gold] <starting from the [Classical era]>", "[+2 Gold] <starting from the [Industrial era]>", "[+2 Gold] <starting from the [Modern era]>"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Gold] <starting from the [Classical era]>", "[+2 Gold] <starting from the [Industrial era]>", "[+2 Gold] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 
-	// Military improvements
+	// Military improvement
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
-		"uniques": ["Gives a defensive bonus of [50]%","Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
 		"shortcutKey": "O"
 	},
 
@@ -143,12 +154,12 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
-		"uniques": ["Can be built outside your borders","Costs [1] [Gold] per turn when in your territory"],
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
-		        "civilopediaText": [
-            {text:"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {text:"Reduces movement cost to ⅓ with Machinery",link:"Technology/Machinery"},
-            {text:"Requires Engineering to bridge rivers",link:"Technology/Engineering"}
+        "civilopediaText": [
+            {"text":"Reduces movement cost to 1/2 if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to 1/3 with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
         ]
 	},
 	{
@@ -156,40 +167,39 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Railroads",
-		"uniques": ["Can be built outside your borders","Costs [2] [Gold] per turn when in your territory"],
-		"civilopediaText": [{text:"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [{"text":"Reduces movement cost to 1/10 if the other tile also has a Railroad"}]
 	},
-	
+
 	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
-		"terrainsCanBeBuiltOn": ["Forest"],
 		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X",
-		"civilopediaText": [{text:"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Jungle"],
 		"techRequired": "Bronze Working",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout",
-		"turnsToBuild": 8,
-		"terrainsCanBeBuiltOn": ["Fallout"],
-		"techRequired": "Atomic Theory",
+		"turnsToBuild": 2,
+		// Has no tech requirements as it can always be built
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
-		"terrainsCanBeBuiltOn": ["Marsh"],
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
@@ -208,8 +218,18 @@
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
 	},
+    // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+    {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
 	
 	// Great Person improvements
 	{
@@ -217,39 +237,38 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"uniques": ["Great Improvement","[+2 Science] <after discovering [Scientific Theory]>",
-			"[+2 Science] <after discovering [Atomic Theory]>","Removes removable features when built"]
+			"[+2 Science] <after discovering [Atomic Theory]>","Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
-		"uniques": ["Great Improvement","Removes removable features when built"]
+		"uniques": ["Great Improvement","Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
-		"uniques": ["Great Improvement","Removes removable features when built"]
+		"uniques": ["Great Improvement","Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 6,
 		"food": 1,
-		"uniques": ["Great Improvement","[+3 Production] <after discovering [Chemistry]>","Removes removable features when built"]
+		"uniques": ["Great Improvement","[+3 Production] <after discovering [Chemistry]>","Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
-		"uniques": ["Great Improvement","[+4 Gold] <after discovering [Economics]>","Removes removable features when built"]
+		"uniques": ["Great Improvement","[+4 Gold] <after discovering [Economics]>","Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [30] damage","Great Improvement",
 			"Can be built just outside your borders","Constructing it will take over the tiles around it and assign them to your closest city","Removes removable features when built"],
-			"civilopediaText": [{text:"Constructing it will take over the tiles around it and assign them to your closest city"}]
 	},
 
 	//Civilization unique improvements
@@ -260,11 +279,11 @@
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] <after discovering [Flight]>",
-			"Can only be built on [Coastal] tiles"],
+			"Can only be built on [Coastal] tiles","Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
-		{
+	{
 		"name": "Sacred Grove",
 		"uniqueTo": "Lithuania",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -273,13 +292,15 @@
 		"production": 1,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["Great Improvement","Removes removable features when built","[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
+		"uniques": ["Great Improvement","Removes removable features when built",
+		"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Computers]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Plastics]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>"]
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>"
+			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Chateau",
@@ -290,7 +311,7 @@
 		"science": 2,
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] <after discovering [Flight]>","Must be next to [Luxury resource]","Cannot be built on [Strategic resource] tiles","Cannot be built on [Luxury resource] tiles","Cannot be built on [Bonus resource] tiles","Only available <with [0] to [0] neighboring [Chateau] tiles>"]
+		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] <after discovering [Flight]>","Must be next to [Luxury resource]","Cannot be built on [Strategic resource] tiles","Cannot be built on [Luxury resource] tiles","Cannot be built on [Bonus resource] tiles","Only available <with [0] to [0] neighboring [Chateau] tiles>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 		{
 		"name": "Harjis",
@@ -301,7 +322,7 @@
 		"techRequired": "Mining",
 		"uniques": ["[+1 Production] <after discovering [Iron Working]>",
 			"[+1 Production] <after discovering [Gunpowder]>",
-			"[+1 Production] <after discovering [Dynamite]>","Must be next to [Luxury resource]","Cannot be built on [Luxury resource] tiles","Only available <with [0] to [0] neighboring [Harjis] tiles>"]
+			"[+1 Production] <after discovering [Dynamite]>","Must be next to [Luxury resource]","Cannot be built on [Luxury resource] tiles","Only available <with [0] to [0] neighboring [Harjis] tiles>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Brazilwood Camp",
@@ -311,7 +332,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Bronze Working",
 		"uniques": ["[+2 Gold] <after discovering [Machinery]>",
-			"[+2 Culture] <after discovering [Acoustics]>"]
+			"[+2 Culture] <after discovering [Acoustics]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 		{
 		"name": "Tibetan Monastery",
@@ -321,7 +342,7 @@
 		"faith": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [Mountain]", "Does not need removal of [Forest]", "Does not need removal of [Jungle]"]
+		"uniques": ["[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [Mountain]", "Does not need removal of [Forest]", "Does not need removal of [Jungle]","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Polder",
@@ -330,7 +351,7 @@
 		"food": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Production, +2 Gold] <after discovering [Economics]>"]
+		"uniques": ["[+1 Production, +2 Gold] <after discovering [Economics]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 		{
 		"name": "Tipi",
@@ -341,7 +362,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": ["Must be next to [Luxury resource]","[+1 Food] <after discovering [Civil Service]>",
-			"[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [City center]","[+1 Gold] <in [River] tiles>"],
+			"[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [City center]","[+1 Gold] <in [River] tiles>","Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
 		"name": "Kasbah",
@@ -352,7 +373,7 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%"]
+		"uniques": ["Gives a defensive bonus of [50]%","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 			{
 		"name": "Caer",
@@ -363,7 +384,7 @@
 		"culture": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Metal Casting",
-		"uniques": ["Gives a defensive bonus of [25]%","[+1 Culture] <after discovering [Acoustics]>"]
+		"uniques": ["Gives a defensive bonus of [25]%","[+1 Culture] <after discovering [Acoustics]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 		{
 		"name": "Motte and Bailey",
@@ -373,7 +394,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Engineering",
-		"uniques": ["Gives a defensive bonus of [25]%","[+2 Culture] <after discovering [Flight]>","Only available <with [0] to [0] neighboring [Motte and Bailey] tiles>"]
+		"uniques": ["Gives a defensive bonus of [25]%","[+2 Culture] <after discovering [Flight]>","Only available <with [0] to [0] neighboring [Motte and Bailey] tiles>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 		{
 		"name": "Kampong Ayer",
@@ -384,7 +405,7 @@
 		"culture": 1,
 		"techRequired": "Optics",
 		"uniques": ["[+1 Production] <after discovering [Navigation]>",
-			"[+1 Culture] <after discovering [Flight]>"]
+			"[+1 Culture] <after discovering [Flight]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Terrace farm",
@@ -394,16 +415,38 @@
 		"turnsToBuild": 7,
 		"uniques": ["[+1 Food] for each adjacent [Mountain]","Cannot be built on bonus resource",
 			"[+1 Food] on [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] on [non-fresh water] tiles <after discovering [Fertilizer]>"],
+			"[+1 Food] on [non-fresh water] tiles <after discovering [Fertilizer]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},
-	{ "name": "Ancient ruins", "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow"], "uniques": ["Unpillagable", "Provides a random bonus when entered"],
-        "civilopediaText": [{text:"Ancient ruins provide a one-time random bonus when explored"}] },
-	{ "name": "City ruins", "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow"], "uniques": ["Unpillagable"],
-        "civilopediaText": [{text:"A bleak reminder of the destruction wreaked by War"}] },
-	{ "name": "City center", "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow"], "uniques": ["Unpillagable", "Irremovable"],
-        "civilopediaText": [{text:"Marks the center of a city"},{text:"Appearance changes with the technological era of the owning civilization"}] },
-	{ "name": "Barbarian encampment", "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow"], "uniques": ["Unpillagable"],
-        "civilopediaText": [{text:"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}] }
+
+	// Unbuildable improvements
+	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +2 Production] <in [Hill] tiles>",
+		"Ensures a minimum tile yield of [+3 Food, +1 Production] <in tiles without [Hill]>",
+            "Unpillagable", "Irremovable", "Unbuildable"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
 ]
