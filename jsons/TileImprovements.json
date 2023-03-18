@@ -123,19 +123,19 @@
 		"name": "Sea Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"food": 6,
-		"uniques": ["Provides [-1] [Trade Route]","[+2 Food] <starting from the [Classical era]>", "[+2 Food] <starting from the [Industrial era]>", "[+2 Food] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Food] <starting from the [Classical era]>", "[+2 Food] <starting from the [Industrial era]>", "[+2 Food] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]","Unbuildable"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"production": 6,
-		"uniques": ["Provides [-1] [Trade Route]","[+2 Production] <starting from the [Classical era]>", "[+2 Production] <starting from the [Industrial era]>", "[+2 Production] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Production] <starting from the [Classical era]>", "[+2 Production] <starting from the [Industrial era]>", "[+2 Production] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]","Unbuildable"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"gold": 6,
-		"uniques": ["Provides [-1] [Trade Route]","[+2 Gold] <starting from the [Classical era]>", "[+2 Gold] <starting from the [Industrial era]>", "[+2 Gold] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Gold] <starting from the [Classical era]>", "[+2 Gold] <starting from the [Industrial era]>", "[+2 Gold] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]","Unbuildable"]
 	},
 
 	// Military improvement
