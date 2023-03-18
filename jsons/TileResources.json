@@ -45,9 +45,9 @@
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
-		"food": 1,
+		"food": 3,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 3},
+		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [10] tiles <in [Jungle] tiles>"]
 	},
 	{
@@ -551,7 +551,7 @@
 		      "Generated with weight [30] <in [Hill] Regions>",
 		      "Generated with weight [30] <in [Hybrid] Regions>",
 					"Generated near City States with weight [5]",
-					"[-10]% Production when constructing [Melee] units [in all cities] <before the [Renaissance era]>""],
+					"[-10]% Production when constructing [Sword] units [in all cities]"]
 	},
 		{
 		"name": "Perfume",
@@ -732,6 +732,12 @@
 	},
 	{
 		"name": "Porcelain",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Glass",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
