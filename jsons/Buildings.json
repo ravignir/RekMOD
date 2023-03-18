@@ -853,7 +853,7 @@
       "culture": 4,
 		  "faith": 4,
 		  "specialistSlots": {"Artist": 1},
-      "uniques": ["[+25]% Great Person generation [in this city]","[+2 Food, +1 Gold, +1 Production, +1 Faith] from every [Shrine] [in all cities]","Cost increases by [30] per owned city",
+      "uniques": ["[+25]% Great Person generation [in this city]","[+2 Food, +1 Gold, +1 Production, +1 Faith] from every [Shrine]","Cost increases by [30] per owned city",
             "Requires a [Shrine] in all cities"],
       "isNationalWonder": true,
       "requiredTech": "Drama and Poetry"

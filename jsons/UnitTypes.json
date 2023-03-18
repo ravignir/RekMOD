@@ -4,11 +4,24 @@
         "movementType": "Land"
     },
     {
+        "name": "Sword",
+        "movementType": "Land"
+    },
+    {
         "name": "Gunpowder",
         "movementType": "Land"
     },
     {
-        "name": "Mounted Ranged",
+        "name": "Paratrooping",
+        "movementType": "Land",
+        "uniques":["Gunpowder"]
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder",
         "movementType": "Land"
     },
     {
@@ -18,6 +31,11 @@
     {
         "name": "Mounted",
         "movementType": "Land"
+    },
+    {
+        "name": "Mounted Ranged",
+        "movementType": "Land",
+        "uniques": ["Mounted"]
     },
     {
         "name": "Armored",
@@ -33,8 +51,7 @@
     },
     {
         "name": "Melee Water",
-        "movementType": "Water",
-		"uniques": ["Can move after attacking"]
+        "movementType": "Water"
     },
     {
         "name": "Ranged Water",
@@ -43,7 +60,7 @@
     {
         "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to others"]
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
     {
         "name": "Aircraft Carrier",
@@ -52,7 +69,7 @@
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
     },
     {
         "name": "Bomber",
@@ -72,7 +89,7 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Ignores Zone of Control","Can pass through impassable tiles","Unable to capture cities"]
+        "uniques": ["Can pass through impassable tiles","Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked"]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
@@ -83,18 +100,6 @@
     },
     {
         "name": "Ranged",
-        "movementType": "Land"
-    },
-    {
-        "name": "Archery",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Gunpowder",
-        "movementType": "Land"
-    },
-    {
-        "name": "Sword",
         "movementType": "Land"
     },
     {
