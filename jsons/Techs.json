@@ -349,7 +349,7 @@
 			{
 				"name": "Archaeology",
 				"row": 2,
-				"prerequisites": ["Navigation","Architecture"],
+				"prerequisites": ["Navigation"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
@@ -407,8 +407,7 @@
 			{
 				"name": "Steam Power",
 				"row": 6,
-				"uniques": [],
-				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
+				"prerequisites": ["Industrialization","Rifling"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
