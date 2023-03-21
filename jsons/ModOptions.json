@@ -1,1 +1,11 @@
-{isBaseRuleset:true}
+{
+  "constants":
+  {
+    "maxLakeSize": 5,
+    "riverCountMultiplier": 0.015,
+    "religionLimitBase": 0,
+    "religionLimitMultiplier": 1,
+    "unitSupplyPerPopulation": 10
+  },
+  "isBaseRuleset": true
+}

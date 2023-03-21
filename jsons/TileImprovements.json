@@ -29,16 +29,15 @@
 	{
 		"name": "Offshore Platform",
 		"techRequired": "Refrigeration",
-		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]", "FishBoat"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>","Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>","[+1 Production] <in tiles without [Luxury resource]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 	{
@@ -58,13 +57,6 @@
 		"techRequired": "Trapping",
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
-	},
-	{
-		"name": "Oil well",
-		"turnsToBuild": 9,
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"techRequired": "Biology",
-		"uniques": ["Cannot be built on [Coast] tiles <before discovering [Refrigeration]>","Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
 		"name": "Pasture",
@@ -89,6 +81,7 @@
 	},
 	{
 		"name": "Fishing Boats",
+		"turnsToBuild": 6,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Sailing",
 		"uniques": ["[+1 Gold] <after discovering [Compass]>","Pillaging this improvement yields approximately [+20 Gold]"]
@@ -98,7 +91,9 @@
 	{
 		"name": "Archaeological Dig",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Forest","Jungle","Desert"],
-		"culture": 1,
+		"culture": 6,
+		"gold": 2,
+		"science": 2,
 		"uniques": ["Can be built outside your borders","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -123,19 +118,19 @@
 		"name": "Sea Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"food": 6,
-		"uniques": ["Provides [-1] [Trade Route]","[+2 Food] <starting from the [Classical era]>", "[+2 Food] <starting from the [Industrial era]>", "[+2 Food] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]","Unbuildable"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Food] <starting from the [Classical era]>", "[+2 Food] <starting from the [Industrial era]>", "[+2 Food] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"production": 6,
-		"uniques": ["Provides [-1] [Trade Route]","[+2 Production] <starting from the [Classical era]>", "[+2 Production] <starting from the [Industrial era]>", "[+2 Production] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]","Unbuildable"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Production] <starting from the [Classical era]>", "[+2 Production] <starting from the [Industrial era]>", "[+2 Production] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"gold": 6,
-		"uniques": ["Provides [-1] [Trade Route]","[+2 Gold] <starting from the [Classical era]>", "[+2 Gold] <starting from the [Industrial era]>", "[+2 Gold] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]","Unbuildable"]
+		"uniques": ["Provides [-1] [Trade Route]","[+2 Gold] <starting from the [Classical era]>", "[+2 Gold] <starting from the [Industrial era]>", "[+2 Gold] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 
 	// Military improvement
@@ -248,8 +243,8 @@
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 6,
-		"uniques": ["Great Improvement","Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
+		"culture": 4,
+		"uniques": ["Great Improvement","Removes removable features when built","[+2 Culture] <after discovering [Radio]>","[+2 Gold] <after discovering [Electricity]>","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
@@ -337,12 +332,12 @@
 		{
 		"name": "Tibetan Monastery",
 		"uniqueTo": "Tibet",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Hill","Jungle","Forest"],
 		"culture": 1,
 		"faith": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [Mountain]", "Does not need removal of [Forest]", "Does not need removal of [Jungle]","Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [Mountain]", "Can only be built on [Hill] tiles","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Polder",
@@ -360,7 +355,7 @@
 		"food": 1,
 		"faith": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Guilds",
+		"techRequired": "Trapping",
 		"uniques": ["Must be next to [Luxury resource]","[+1 Food] <after discovering [Civil Service]>",
 			"[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [City center]","[+1 Gold] <in [River] tiles>","Pillaging this improvement yields approximately [+20 Gold]"],
 	},
@@ -403,6 +398,7 @@
 		"food": 1,
 		"gold": 1,
 		"culture": 1,
+		"turnsToBuild": 7,
 		"techRequired": "Optics",
 		"uniques": ["[+1 Production] <after discovering [Navigation]>",
 			"[+1 Culture] <after discovering [Flight]>","Pillaging this improvement yields approximately [+20 Gold]"]
