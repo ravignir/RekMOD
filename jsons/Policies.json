@@ -155,7 +155,7 @@
 				"uniques": ["[+10]% [Food] [in all cities]",
 					"Earn [33]% of killed [Military] unit's [Strength] as [Science]",
 					"[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
-					"[+4 Production, +4 Gold, +4 Culture] from every [Heroic Epic]","May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
+					"[+4 Production, +4 Gold, +4 Culture] from every [Heroic Epic]","May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
@@ -168,7 +168,7 @@
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
-				"uniques": ["[+1 Happiness] from every [Temple]","[+1 Faith] [in capital]","Cost of purchasing [Faith] buildings reduced by [20]%"],
+				"uniques": ["[+1 Happiness] from every [Temple]","[+1 Faith] [in capital]","[Faith] cost of purchasing items in cities [-20]%"],
 				"row": 1,
 				"column": 1
 			},
@@ -200,18 +200,26 @@
 			},
 			{
 				"name": "Piety Complete",
-				"uniques": ["Free [Great Prophet] appears","[+1 Food] from every [Holy site]","[+3 Culture] from every [Holy site]","Provides a [Garden] in your first [4] cities for free"]
+				"uniques": ["Free [Great Prophet] appears","[+1 Food] from every [Holy site]","[+3 Culture] from every [Holy site]","Provides a [Garden] in your first [4] cities for free",
+				"May buy [Great Engineer] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
+				"May buy [Great General] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
+				"May buy [Great Artist] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
+				"May buy [Great Writer] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
+				"May buy [Great Musician] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
+				"May buy [Great Admiral] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
+				"May buy [Great Merchant] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
 	{
 		"name": "Aesthetics",
 		"era": "Classical era",
-		"uniques": ["[Great Artist] is earned [33]% faster","Unlocks building the Uffizi"],
+		"uniques": ["[Great Artist] is earned [33]% faster","[Great Writer] is earned [33]% faster","[Great Musician] is earned [33]% faster","Unlocks building the Uffizi"],
 		"policies": [
 			{
 				"name": "Cultural Centers",
-				"uniques": ["[+100]% Production when constructing [Opera House] buildings [in all cities]",
+				"uniques": ["[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
+				  "[+100]% Production when constructing [Opera House] buildings [in all cities]",
 					"[+100]% Production when constructing [Museum] buildings [in all cities]",
 					"[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]"],
 				"row": 1,
@@ -219,28 +227,28 @@
 			},
 			{
 				"name": "Cultural Exchange",
-				"uniques": ["[+1 Culture] from every [Great Improvement]","[+1 Culture] from every [Trading post]","[+1 Culture] from every [Brazilwood Camp]","[+1 Culture] from every [Caer]","[+1 Culture] from every [Moai]","[+1 Culture] from every [Chateau]"],
+				"uniques": ["Free [Great Writer] appears","[+1 Culture] from every [Great Improvement]","[+1 Culture] from every [Trading post]","[+1 Culture] from every [Brazilwood Camp]","[+1 Culture] from every [Caer]","[+1 Culture] from every [Moai]","[+1 Culture] from every [Chateau]"],
 				"requires": ["Cultural Centers"],
 				"row": 2,
 				"column": 2
 			},
 						{
 				"name": "Artistic Genius",
-				"uniques": ["Free [Great Artist] appears","[+2 Science] from every [Museum]","[+2 Science] from every [Amphitheater]","[+2 Science] from every [Opera House]","[+2 Science] from every [Broadcast Tower]"],
+				"uniques": ["Free [Great Artist] appears","[+1 Science] from every [Museum]","[+1 Science] from every [Amphitheater]","[+1 Science] from every [Opera House]","[+1 Science] from every [Broadcast Tower]","[+3 Science] from every [Artist]","[+3 Science] from every [Writer]","[+3 Science] from every [Musician]","[+2 Science] from every [Landmark]"],
 				"requires": ["Cultural Centers"],
 				"row": 2,
 				"column": 4
 			},
 			{
 				"name": "Flourishing of the Arts",
-				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","Empire enters golden age"],
+				"uniques": ["[+2 Culture] from every [Artist]","[+2 Culture] from every [Writer]","[+2 Culture] from every [Musician]","[+2 Culture] from every [World Wonder]","Empire enters golden age"],
 				"requires": ["Cultural Exchange"],
 				"row": 3,
 				"column": 2
 			},
 			{
 				"name": "Fine Arts",
-				"uniques": ["[Great Artist] is earned [33]% faster","[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]","Provides a [Fine Art Specialist] in your first [4] cities for free"],
+				"uniques": ["[+10]% [Culture] <in cities with a [Amphitheater]>","[+10]% [Culture] <in cities with a [Opera House]>","[+10]% [Culture] <in cities with a [Museum]>","[+10]% [Culture] <in cities with a [Broadcast Tower]>","Provides a [Fine Art Specialist] in your first [4] cities for free"],
 				"requires": ["Cultural Exchange","Artistic Genius"],
 				"row": 3,
 				"column": 4
@@ -248,7 +256,7 @@
 			{
 				"name": "Aesthetics Complete",
 				"uniques": ["[+100]% Production when constructing [Archaeologist] units [in all cities]",
-					"[+4 Culture] from every [Landmark]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+					"[+1 Culture] from every [World Wonder]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>","May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>","May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
@@ -259,7 +267,7 @@
 		"policies": [
 			{
 				"name": "Merchant Confederacy",
-				"uniques": ["[+2 Gold, +2 Production, +2 Food] from every [Land Trade Route (Gold)]","[+2 Gold, +2 Production, +2 Food] from every [Sea Trade Route (Gold)]"],
+				"uniques": ["[+2 Production, +2 Food] from every [Land Trade Route (Gold)]","[+2 Production, +2 Food] from every [Sea Trade Route (Gold)]"],
 				"row": 1,
 				"column": 3
 			},
@@ -294,7 +302,7 @@
 
 			{
 				"name": "Patronage Complete",
-				"uniques": ["[+75]% [Culture] from City-States","[+75]% [Faith] from City-States","[+75]% [Food] from City-States","Free Great Person"],
+				"uniques": ["[+75]% [Culture] from City-States","[+75]% [Faith] from City-States","[+75]% [Food] from City-States","Free Great Person"]
 			}
 		]
 	},
@@ -321,13 +329,13 @@
 			},
 			{
 				"name": "Colonialism",
-				"uniques": [ "[1] population [in all cities]","[+1 Happiness] [in all cities]","Free [Worker] appears"],
+				"uniques": [ "[+1] population [in all cities]","[+1 Happiness] [in all cities]","Free [Worker] appears"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Navigation School",
-				"uniques": ["[+3 Science] [in all coastal cities]"],
+				"uniques": ["[+2 Science] [in all coastal cities]"],
 				"requires": ["Maritime Infrastructure","Naval Tradition"],
 				"row": 2,
 				"column": 3
@@ -342,6 +350,51 @@
 			{
 				"name": "Exploration Complete",
 				"uniques": ["[3] free [Great Admiral] units appear","[+1] Happiness from each type of luxury resource","May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+			}
+		]
+	},
+	{
+		"name": "Commerce",
+		"uniques": ["[Great Merchant] is earned [33]% faster","Unlocks building the Big Ben"],
+		"era": "Medieval era",
+		"policies": [
+			{
+				"name": "Silk Road",
+				"uniques": ["[+25]% Yield from every [Land Trade Route (Food)]","[+25]% Yield from every [Land Trade Route (Production)]","[+25]% Yield from every [Sea Trade Route (Food)]","[+25]% Yield from every [Sea Trade Route (Production)]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Mercenary Army",
+				"uniques": ["Allows the purchasing of Landsknechts at Civil Service and Foreign Legions at Replaceable Parts"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Entrepreneurship",
+				"uniques": ["[-50]% maintenance on road & railroads","[-25]% maintenance cost for buildings [in all cities]","Provides [2] [Trade Route]"],
+				"requires": ["Silk Road"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Mercantilism",
+				"uniques": ["[+25]% Yield from every [Land Trade Route (Food)]","[+25]% Yield from every [Land Trade Route (Production)]","[+25]% Yield from every [Sea Trade Route (Food)]","[+25]% Yield from every [Sea Trade Route (Production)]","[Gold] cost of purchasing items in cities [-20]%","[+2 Science] from every [Mint]",
+					"[+2 Science] from every [Market]","[+2 Science] from every [Bank]","[+2 Science] from every [Stock Exchange]"],
+				"requires": ["Silk Road"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Protectionism",
+				"uniques": ["[+1 Food, +4 Gold] from every [Customs house]","[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]"],
+				"requires": ["Mercantilism"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Commerce Complete",
+				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","[+100]% Gold from Great Merchant trade missions","May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
@@ -393,51 +446,6 @@
 		]
 	},
 	{
-		"name": "Commerce",
-		"uniques": ["[Great Merchant] is earned [33]% faster","Unlocks building the Big Ben"],
-		"era": "Medieval era",
-		"policies": [
-			{
-				"name": "Silk Road",
-				"uniques": ["[+25]% Yield from every [Land Trade Route (Food)]","[+25]% Yield from every [Land Trade Route (Production)]","[+25]% Yield from every [Sea Trade Route (Food)]","[+25]% Yield from every [Sea Trade Route (Production)]"],
-				"row": 1,
-				"column": 2
-			},
-			{
-				"name": "Mercenary Army",
-				"uniques": ["Allows the purchasing of Landsknechts at Civil Service and Foreign Legions at Replaceable Parts"],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Entrepreneurship",
-				"uniques": ["[-50]% maintenance on road & railroads","[-25]% maintenance cost for buildings [in all cities]","Provides [2] [Trade Route]"],
-				"requires": ["Silk Road"],
-				"row": 2,
-				"column": 1
-			},
-			{
-				"name": "Mercantilism",
-				"uniques": ["[+25]% Yield from every [Land Trade Route (Food)]","[+25]% Yield from every [Land Trade Route (Production)]","[+25]% Yield from every [Sea Trade Route (Food)]","[+25]% Yield from every [Sea Trade Route (Production)]","[Gold] cost of purchasing items in cities [-20]%","[+2 Science] from every [Mint]",
-					"[+2 Science] from every [Market]","[+2 Science] from every [Bank]","[+2 Science] from every [Stock Exchange]"],
-				"requires": ["Silk Road"],
-				"row": 2,
-				"column": 3
-			},
-			{
-				"name": "Protectionism",
-				"uniques": ["[+1 Food, +4 Gold] from every [Customs house]","[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]",],
-				"requires": ["Mercantilism"],
-				"row": 3,
-				"column": 3
-			},
-			{
-				"name": "Commerce Complete",
-				"uniques": ["[2] free [Great Merchant] units appear","[+1 Food] from every [Trading post]","[+1 Food] from every [Caer]","[+100]% Gold from Great Merchant trade missions","May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
-			}
-		]
-	},
-	{
 		"name": "Order",
 		"era": "Modern era",
 		"uniques": ["Free Social Policy","Unlocks Kremlin","Only available <before adopting [Autocracy]>","Only available <before adopting [Freedom]>"],
@@ -459,7 +467,7 @@
 				"name": "Patriotic War",
 				"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"],
 				"row": 1,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Academy of Sciences",
@@ -496,8 +504,8 @@
 			},
 			{
 				"name": "Skyscrapers",
-				"uniqueText": "Cost of purchasing buildings reduced by [50]%",
-				"uniques": ["[Gold] cost of purchasing [All] buildings [-50]%"],
+				"uniqueText": "Cost of purchasing buildings reduced by [33]%",
+				"uniques": ["[Gold] cost of purchasing [All] buildings [-33]%"],
 				"requires": ["Young Pioneers"],
 				"row": 2,
 				"column": 1
@@ -513,7 +521,6 @@
 				"name": "Five-Year Plan",
 				"uniques": ["[+2 Production] [in all cities]","[+1 Production] from every [Mine]","[+1 Production] from every [Quarry]"],
 				"requires": ["Patriotic War","Socialist Realism","Hero of the People"],
-				"requires": ["Young Pioneers"],
 				"row": 2,
 				"column": 5
 			},
@@ -537,7 +544,7 @@
 		"policies": [
 			{
 				"name": "Avant Garde",
-				"uniques": ["[+25]% great person generation in all cities"],
+				"uniques": ["[+20]% great person generation in all cities"],
 				"row": 1,
 				"column": 1
 			},
@@ -594,7 +601,7 @@
 			},
 			{
 				"name": "New Deal",
-				"uniques": ["[+5 Science] from every [Academy]","[+5 Production] from every [Manufactory]","[+5 Faith] from every [Holy site]","[+5 Culture] from every [Landmark]","[+5 Gold] from every [Customs house]", "[+2 Culture, +2 Science, +2 Faith, +2 Production, +2 Food] from every [Sacred Grove]"],
+				"uniques": ["[+5 Science] from every [Academy]","[+5 Production] from every [Manufactory]","[+5 Faith] from every [Holy site]","[+5 Culture] from every [Landmark]","[+5 Gold] from every [Customs house]", "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Sacred Grove]"],
 				"requires": ["Capitalism"],
 				"row": 2,
 				"column": 3
@@ -662,8 +669,8 @@
 				"uniques": ["Autocracy I Complete"]
 			}
 		]
-	}
-		{
+	},
+	{
 		"name": "Autocracy II",
 		"era": "Modern era",
 		"uniques": ["Free Social Policy","Only available <before adopting [Freedom]>","Only available <before adopting [Order]>"],

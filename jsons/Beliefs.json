@@ -394,11 +394,6 @@
         "uniques": ["May buy [Mandir] buildings for [270] [Faith] [in cities following this religion]"]
     },
     {
-        "name": "Monasteries",
-        "type": "Follower",
-        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
-    },
-    {
         "name": "Mosques",
         "type": "Follower",
         "uniques": ["May buy [Mosque] buildings for [150] [Faith] [in cities following this religion]"]
