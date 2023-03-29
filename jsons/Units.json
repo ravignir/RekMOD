@@ -850,6 +850,7 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 45,
+		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can be purchased with [Gold] [in all cities] <after adopting [Mercenary Army]>","Unbuildable"],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
@@ -1957,11 +1958,11 @@
 		"movement": 3,
 		"strength": 50,
 		"cost": 350,
-		//"requiredTech": "Replaceable Parts",
+		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		//"obsoleteTech": "Plastics",
 		"promotions": ["Ambush Formation I"],
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Unbuildable"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Unbuildable", "Only available <after adopting [Mercenary Army]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -2408,9 +2409,49 @@
 		"movement": 4
 	},
 	{
+		"name": "Great Writer",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
 		"name": "Pittore",
 		"uniqueTo": "Italy",
 		"replaces": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [11]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "Pittore Musician",
+		"uniqueTo": "Italy",
+		"replaces": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [11]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "Pittore Writer",
+		"uniqueTo": "Italy",
+		"replaces": "Great Writer",
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [11]-turn Golden Age <by consuming this unit>",
