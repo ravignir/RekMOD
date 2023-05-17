@@ -61,19 +61,19 @@
 	},
 	{
 		"name": "Volley",
-		"prerequisites": ["Accuracy I","Barrage I"],
+		"prerequisites": ["Accuracy I","Barrage I","Anti-Naval I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"],
 	},
 	{
 		"name": "Extended Range",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II"],
+		"prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting II","Bombardment II"],
 		"uniques": ["[+1] Range"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"],
 	},
 	{
 		"name": "Indirect Fire",
-		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"prerequisites": ["Accuracy III", "Barrage III","Anti-Naval III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Archery","Mounted Ranged","Ranged Gunpowder","Siege","Ranged Water"],
 	},
@@ -231,11 +231,11 @@
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
 	},
-	{
+	/*{
 		"name": "Landing Party",
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Melee Water"],
-	},
+		"unitTypes": ["Melee Water"]
+	},*/
 
 	// Water Ranged
 	{
@@ -341,7 +341,7 @@
 	},
 	{
 		"name": "Evasion",
-		"prerequisites": ["Siege II", "Bombardment II"],
+		"prerequisites": ["Siege II", "Bombardment II","Air Targeting II"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["Bomber"],
 	},
@@ -383,7 +383,6 @@
 	},
 	{
 		"name": "Air Targeting I",
-		"prerequisites": ["Interception I","Siege I","Bombardment I","Dogfighting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"],
 	},
@@ -415,7 +414,7 @@
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception III", "Dogfighting III", "Siege III", "Bombardment III", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Interception III","Dogfighting III","Siege III","Bombardment III","Air Targeting III","Mobility II","Ambush Formation II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
 	},
@@ -432,7 +431,7 @@
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Helicopter"],
 	},
-	{
+	/*{
 		"name": "Anti-Armor I",
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"],
@@ -442,7 +441,7 @@
 		"prerequisites": ["Anti-Armor I"],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"],
-	},
+	},*/
 
 	// Mixed
 	{
@@ -479,7 +478,7 @@
 	},
 	{
 		"name": "Logistics",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
+		"prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III","Ambush Formation II","Air Targeting III","Mobility II"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
 		"unitTypes": ["Archery","Mounted Ranged","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Bomber","Helicopter"],
@@ -610,7 +609,7 @@
 	{
 		"name": "Leadership",
 		"uniques": [
-            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles","Great Person - [War]"]
+		  "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles","Great Person - [War]"]
 	}
 	{
 		"name": "Dojo", // Japan
@@ -652,19 +651,19 @@
 		"name": "Ambition",
 		"uniques": ["[+50]% Strength <when attacking>"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Invulnerability",
 		"uniques": ["All healing effects doubled"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Restlessness",
 		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Buffalo Horns I", // only for Ikanda
@@ -674,13 +673,13 @@
 		"name": "Buffalo Chest II",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+5]% Strength"],
 		"prerequisites": ["Buffalo Horns I"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Buffalo Loins III",
 		"uniques": ["[+15]% Strength"],
 		"prerequisites": ["Buffalo Chest II"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 	"name": "Sauna",
@@ -698,43 +697,43 @@
 		"name": "Kelimazala",
 		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Sampy"],
-		"unitTypes": ["Ranged", "Mounted Ranged"]
+		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Ramahavaly",
 		"uniques": ["[+50]% Strength <when defending>","[-50]% Strength <when attacking>"],
 		"prerequisites": ["Sampy"],
-		"unitTypes": ["Ranged", "Mounted Ranged"]
+		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Manjakatsiroa",
 		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
 		"prerequisites": ["Sampy"],
-		"unitTypes": ["Ranged", "Mounted Ranged"]
+		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Mosasa",
 		"uniques": ["[+4] Sight","[+4] Range"]
 		"prerequisites": ["Sampy"],
-		"unitTypes": ["Ranged", "Mounted Ranged"]
+		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Ambohimanambola",
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
 		"prerequisites": ["Sampy"],
-		"unitTypes": ["Ranged", "Mounted Ranged"]
+		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Sehatra",
 		"uniques": ["Heals [100] damage if it kills a unit"]
 		"prerequisites": ["Sampy"],
-		"unitTypes": ["Ranged", "Mounted Ranged"]
+		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Lambamena",
 		"uniques": ["[+100]% Strength <vs cities>"]
 		"prerequisites": ["Sampy"],
-		"unitTypes": ["Ranged", "Mounted Ranged"]
+		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Altitude Training",

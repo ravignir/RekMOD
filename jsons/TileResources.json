@@ -552,6 +552,23 @@
 					"Generated near City States with weight [5]",
 					"[+10]% Production when constructing [Sword] units [in all cities]"]
 	},
+	{
+		"name": "Rubber",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill","Jungle","Forest","Marsh"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated with weight [40] <in [Jungle] Regions>",
+		      "Generated with weight [10] <in [Forest] Regions>",
+		      "Generated with weight [5] <in [Hybrid] Regions>",
+		      "Generated with weight [5] <in [Marsh] Regions>",
+					"Generated near City States with weight [5]",
+					"Doesn't generate naturally <in [Tundra] tiles>",
+					"Doesn't generate naturally <in [Flood plains] tiles>",
+					"Doesn't generate naturally <in [Desert] tiles>",
+					"[+10]% Production when constructing [All] units [in all cities] <starting from the [Industrial era]>"]
+	},
 		{
 		"name": "Perfume",
 		"resourceType": "Luxury",
@@ -606,10 +623,25 @@
 		"food": 1,
 		"improvementStats": {"food": 1,"gold": 1},
 		"improvement": "Plantation",
-		
 		"uniques": ["Generated with weight [40] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated with weight [10] <in [Marsh] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [5]",
+					"Doesn't generate naturally <in [Tundra] tiles>",
+					"Doesn't generate naturally <in [Flood plains] tiles>",
+					"Doesn't generate naturally <in [Desert] tiles>"]
+	},
+	{
+		"name": "Coconut",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [],
+		"food": 1,
+		"improvementStats": {"food": 1,"gold": 1},
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [40] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [30] <in [Marsh] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [5]",
 					"Doesn't generate naturally <in [Tundra] tiles>",
@@ -745,8 +777,44 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert"],
 		"improvement": "Archaeological Dig",
 	},
-		{
+	{
 		"name": "Trade Route", 
 		"resourceType": "Strategic",
+		"uniques": []
+	},
+	{
+		"name": "Factories", 
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Policies", 
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Level 1 Ideology", 
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Level 2 Ideology", 
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Great Work of Writing", 
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled"]
+	},
+	{
+		"name": "Great Work of Art", 
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled"]
+	},
+	{
+		"name": "Great Work of Music", 
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled"]
 	},
 ]

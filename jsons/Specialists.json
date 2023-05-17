@@ -15,19 +15,19 @@
 	{
 		"name": "Artist",
 		"culture": 3,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Artist": 3},
 		"color": [160,32,240]
 	},
 	{
 		"name": "Writer",
 		"culture": 3,
-		"greatPersonPoints": {"Great Writer": 1},
+		"greatPersonPoints": {"Great Writer": 3},
 		"color": [160,32,240]
 	},
 	{
 		"name": "Musician",
 		"culture": 3,
-		"greatPersonPoints": {"Great Musician": 1},
+		"greatPersonPoints": {"Great Musician": 3},
 		"color": [160,32,240]
 	},
 	{
