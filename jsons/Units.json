@@ -7,7 +7,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","Can build [Fishing Boats] improvements on tiles","Can build [Offshore Platform] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles","Can build [Fishing Boats] improvements on tiles","Can build [Offshore Platform] improvements on tiles","Can build [Kampong Ayer] improvements on tiles", "Automation is a primary action"],
 		"cost": 48
 	},
 	{
@@ -17,7 +17,7 @@
 		"unitType": "Civilian",
 		"movement": 3,
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action","[+1] Movement <in [Water] tiles>"],
+		"uniques": ["Can build [Land] improvements on tiles","Can build [Fishing Boats] improvements on tiles","Can build [Offshore Platform] improvements on tiles", "Automation is a primary action","[+1] Movement <in [Water] tiles>"],
 		"cost": 48
 	}
 	{
@@ -26,7 +26,7 @@
 		"uniqueTo": "Maurya",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action","Ignores terrain cost"],
+		"uniques": ["Can build [Land] improvements on tiles","Can build [Fishing Boats] improvements on tiles","Can build [Offshore Platform] improvements on tiles", "Automation is a primary action","Ignores terrain cost"],
 		"cost": 48
 	},
 	{
@@ -232,6 +232,7 @@
 		"cost": 75,
 		"uniques": ["Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit>",
 			"Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]", "Only available <in cities without a [~CS]>", "Uncapturable"],
+		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Animal Husbandry"
 	},
 	{
@@ -239,7 +240,7 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 90,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit>","Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit>",
 			"Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit>","Consumes [1] [Trade Route]", "Only available <in cities without a [~CS]>", "Uncapturable"],
 		"requiredTech": "Sailing"
 	},
@@ -250,6 +251,7 @@
 		"cost": 20,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>",
+		        "Can instantly construct a [Kampong Ayer] improvement <by consuming this unit>",
             "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
@@ -851,7 +853,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can be purchased with [Gold] [in all cities] <after adopting [Mercenary Army]>","Unbuildable"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can be purchased with [Gold] [in all cities]","Only available <after adopting [Mercenary Army]>","Unbuildable"],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
@@ -1029,10 +1031,8 @@
 		"cost": 135,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Only available <after adopting [Exploration]>","Can move after attacking","No defensive terrain bonus", "Founds a new city <by consuming this unit>", "[+2] Sight"],
+		"uniques": ["Only available <after adopting [Exploration]>","Can move after attacking","No defensive terrain bonus", "Founds a new city <by consuming this unit>", "[+2] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "horse"
-		//Conquistador should have no penalty attacking cities
-		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
 	},
 	{
 		"name": "Crossbowman",
@@ -1962,7 +1962,7 @@
 		"upgradesTo": "Infantry",
 		//"obsoleteTech": "Plastics",
 		"promotions": ["Ambush Formation I"],
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Unbuildable", "Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Can be purchased with [Gold] [in all cities]","Only available <after adopting [Mercenary Army]>","Unbuildable"],
 		"attackSound": "shot"
 	},
 	{
@@ -2025,11 +2025,11 @@
 		"replaces": "Infantry",
 		"uniqueTo": "Vietnam",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 70,
+		"movement": 3,
+		"strength": 75,
 		"cost": 350,
 		"requiredTech": "Electronics",
-		"uniques": ["Invisible to non-adjacent units","Can pass through impassable tiles"],
+		"uniques": ["Can pass through impassable tiles"],
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
@@ -2404,7 +2404,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Art] <by consuming this unit>"
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -2413,6 +2413,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Writing] <by consuming this unit>"
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -2421,7 +2422,7 @@
 		"name": "Great Musician",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Music] <by consuming this unit>"
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -2432,29 +2433,8 @@
 		"replaces": "Great Artist",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [11]-turn Golden Age <by consuming this unit>",
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
-            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "Pittore Musician",
-		"uniqueTo": "Italy",
-		"replaces": "Great Musician",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [11]-turn Golden Age <by consuming this unit>",
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
-            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "Pittore Writer",
-		"uniqueTo": "Italy",
-		"replaces": "Great Writer",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [11]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [12]-turn Golden Age <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Art] <by consuming this unit>"
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -2493,8 +2473,7 @@
 			"Removes other religions when spreading religion",
             "May found a religion",
             "May enhance a religion",
-			"May enter foreign tiles without open borders", "Great Person - [Faith]",
-			"[-1] Sight","Unbuildable","Uncapturable", "Religious Unit", "Hidden when religion is disabled",
+			"May enter foreign tiles without open borders", "Great Person - [Faith]","Unbuildable","Uncapturable", "Religious Unit", "Hidden when religion is disabled",
 			"Takes your religion over the one in their birth city"],
 		"movement": 4,
 		"religiousStrength": 1000
@@ -2505,7 +2484,7 @@
 		"replaces": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [9]-turn Golden Age <by consuming this unit>","Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Empire enters a [11]-turn Golden Age <by consuming this unit>","Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can [Spread Religion] [5] times",
 			"Removes other religions when spreading religion",
             "May found a religion",
@@ -2567,7 +2546,7 @@
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
 		"uniques": [
-            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles", "Unbuildable", "Uncapturable"],
+            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles","Unbuildable","Uncapturable","Great Person - [Navy]","Can instantly construct a [Dry Dock] improvement <by consuming this unit>"],
 		"movement": 6
 	},
 	{
@@ -2604,7 +2583,7 @@
 		"name": "Mpiambina", 
 		"uniqueTo": "Madagascar",
 		"replaces": "Inquisitor",
-		"unitType": "Civilian",
+		"unitType": "Archery",
 		"range": 1,
 		"strength": 8,
 		"rangedStrength": 14,
