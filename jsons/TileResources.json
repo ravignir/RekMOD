@@ -18,7 +18,7 @@
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [15] tiles <in [Featureless] [Plains] tiles>",
-		"Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",]
+		"Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>"]
 	},
 	{
 		"name": "Sheep",
@@ -272,7 +272,7 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [5]",
 					"Doesn't generate naturally <in [Desert] tiles>",
-					"Doesn't generate naturally <in [Flood plains] tiles>",]
+					"Doesn't generate naturally <in [Flood plains] tiles>"]
 	},
 	{
 		"name": "Gems",
@@ -286,7 +286,7 @@
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [20] <in [Marsh] Regions>",
 					"Generated with weight [30] <in [Hybrid] Regions>",
-					"Generated near City States with weight [5]",]
+					"Generated near City States with weight [5]"]
 	},
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
@@ -313,7 +313,7 @@
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [20] <in [Marsh] Regions>",
 					"Generated with weight [30] <in [Hybrid] Regions>",
-					"Generated near City States with weight [5]",
+					"Generated near City States with weight [5]"
 		]
 	},
 	{
@@ -355,7 +355,7 @@
 		      "Generated with weight [10] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [30] <in [Hybrid] Regions>",
-					"Generated near City States with weight [5]",
+					"Generated near City States with weight [5]"
 		]
 	},
 	{
@@ -369,7 +369,7 @@
 		      "Generated with weight [40] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [30] <in [Hybrid] Regions>",
-					"Generated near City States with weight [5]",
+					"Generated near City States with weight [5]"
 		]
 	},
 	{
@@ -396,7 +396,7 @@
 		      "Generated with weight [40] <in [Plains] Regions>",
 		      "Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [5]",
-					"Doesn't generate naturally <in [Tundra] tiles>",]
+					"Doesn't generate naturally <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Ivory",
@@ -409,7 +409,7 @@
 		      "Generated with weight [10] <in [Grassland] Regions>",
 		      "Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [5]",
-					"Doesn't generate naturally <in [Tundra] tiles>",]
+					"Doesn't generate naturally <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Silk",
@@ -663,7 +663,7 @@
 					"Doesn't generate naturally <in [Tundra] tiles>",
 					"Doesn't generate naturally <in [Flood plains] tiles>",
 					"Doesn't generate naturally <in [Desert] tiles>"]
-	}
+	},
 	{
 		"name": "Whales",
 		"resourceType": "Luxury",
@@ -743,12 +743,12 @@
 	{
 		"name": "Cloves", 
 		"gold": 2,
-		"resourceType": "Luxury",
+		"resourceType": "Luxury"
 	},
 	{
 		"name": "Pepper", 
 		"gold": 2,
-		"resourceType": "Luxury",
+		"resourceType": "Luxury"
 	},
 	{
 		"name": "Jewelry",
@@ -774,7 +774,7 @@
 		"name": "Antiquity Site", 
 		"resourceType": "Bonus",
 		"revealedBy": "Archaeology",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert","Hill","Snow","Tundra"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
 		"improvement": "Archaeological Dig",
 		"uniques": ["Generated on every [150] tiles"]
 	},
@@ -817,5 +817,5 @@
 		"name": "Great Work of Music", 
 		"resourceType": "Strategic",
 		"uniques": ["Stockpiled"]
-	},
+	}
 ]

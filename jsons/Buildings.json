@@ -744,7 +744,7 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
+		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Burial Tomb",
@@ -778,7 +778,7 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
+		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Stave Church",
@@ -789,7 +789,7 @@
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["[+1 Faith] from [Water resource] tiles [in this city]"],
+		"uniques": ["[+1 Faith] from [Water resource] tiles [in this city]"]
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -810,7 +810,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 10},
-		"requiredTech": "Philosophy",
+		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "National College",
@@ -1159,7 +1159,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Lakes]","[+2 Culture, +2 Food] from [Lakes] tiles [in this city]"],
-		"requiredTech": "Civil Service",
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Brewery",
@@ -1279,7 +1279,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["Must be next to [Tundra]", "[+1 Culture, +1 Production] from [Tundra] tiles [in this city]"],
-		"requiredTech": "Metal Casting",
+		"requiredTech": "Metal Casting"
 	},
 	// Column 6
 	{

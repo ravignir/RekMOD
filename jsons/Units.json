@@ -1813,7 +1813,7 @@
 		"strength": 15,
 		"cost": 150,
 		"requiredTech": "Steam Power",
-		"uniques": ["No defensive terrain bonus", "Can move after attacking", "Unable to capture cities","[+1] Sight"],
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "Unable to capture cities","[+2] Sight"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1969,7 +1969,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","[+4] Sight","Can see over obstacles"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2001,7 +2001,6 @@
 		"name": "Pracinha", 
 		"unitType": "Gunpowder",
 		"uniqueTo": "Brazil",
-		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 80,
 		"cost": 410,
@@ -2144,7 +2143,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","[+4] Sight","Can see over obstacles"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2360,7 +2359,7 @@
 		"cost": 550,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","[+4] Sight","Can see over obstacles"],
 		"attackSound": "jetgun"
 	},
 	{
