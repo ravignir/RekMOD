@@ -84,22 +84,22 @@
         "name": "Cloves", // Indonesian luxury
         "uniqueTo": "Indonesia",
         "isNationalWonder": true, 
-        
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
+        "cost": 0,
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"]
     },
     {
         "name": "Nutmeg", // Indonesian luxury
         "uniqueTo": "Indonesia",
         "isNationalWonder": true,
-        
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
+        "cost": 0,
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"]
     },
     {
         "name": "Pepper", // Indonesian luxury
         "uniqueTo": "Indonesia",
         "isNationalWonder": true,
-        
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
+        "cost": 0,
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"]
     },
     {
         "name": "~CS",
