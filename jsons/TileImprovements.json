@@ -175,7 +175,7 @@
 	{
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 1,
+		"turnsToBuild": 0,
 		"techRequired": "Railroads",
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",

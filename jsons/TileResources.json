@@ -32,7 +32,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
@@ -774,33 +774,34 @@
 		"name": "Antiquity Site", 
 		"resourceType": "Bonus",
 		"revealedBy": "Archaeology",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert","Hill","Snow","Tundra"],
 		"improvement": "Archaeological Dig",
+		"uniques": ["Generated on every [150] tiles"]
 	},
 	{
 		"name": "Trade Route", 
 		"resourceType": "Strategic",
-		"uniques": []
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Factories", 
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen","Cannot be traded"]
 	},
 	{
 		"name": "Policies", 
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen","Cannot be traded"]
 	},
 	{
 		"name": "Level 1 Ideology", 
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen","Cannot be traded"]
 	},
 	{
 		"name": "Level 2 Ideology", 
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen","Cannot be traded"]
 	},
 	{
 		"name": "Great Work of Writing", 

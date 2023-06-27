@@ -220,7 +220,7 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 30,
-		"uniques": ["[+1] Sight"]
+		"uniques": ["[+1] Sight"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
@@ -506,7 +506,6 @@
 		"strength": 17,
 		"cost": 120,
 		"requiredTech": "Horseback Riding",
-		//"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"uniques": ["Consumes [2] [Horses]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+15]% Strength bonus for [Military] units within [2] tiles"],
 		"hurryCostModifier": 20,
@@ -767,10 +766,9 @@
 		"cost": 60,
 		"requiredTech": "Optics",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]","Cannot enter ocean tiles"],
 		"obsoleteTech": "Compass",
 		"upgradesTo": "Galleass",
-		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
 	},
 
@@ -928,7 +926,6 @@
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "arrow"
-		//Camel Archer should have no penalty attacking cities
 	},
 	{
 		"name": "Gaucho",
@@ -992,7 +989,6 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
-		// Keshik should have no penalty attacking cities
 	},
 	{
 		"name": "Naresuan's Elephant",
@@ -1164,7 +1160,6 @@
 		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
-		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
 	},
 	{
 		"name": "Seaxman", 
@@ -1223,7 +1218,6 @@
 		"promotions": ["Shock I", "Great Generals II"],
 		"uniques": ["Can build [Fishing Boats] improvements on tiles"],
 		"attackSound": "metalhit"
-		//Samurai should also create Fishing Boats (not now, surely)
 	},
 	{
 		"name": "Crusader",
@@ -1438,7 +1432,6 @@
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["Can move after attacking"],
 		"attackSound": "cannon"
-		//"May capture killed [Water] units",
 	},
 	{
 		"name": "Sea Beggar",
@@ -1447,7 +1440,6 @@
 		"uniqueTo": "The Netherlands",
 		"movement": 5,
 		"strength": 27,
-		//Don't change
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
@@ -1821,8 +1813,7 @@
 		"strength": 15,
 		"cost": 150,
 		"requiredTech": "Steam Power",
-		"uniques": ["No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities","[+1] Sight"],
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "Unable to capture cities","[+1] Sight"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1905,7 +1896,7 @@
 		"strength": 50,
 		"cost": 300,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Heals [100] damage if it kills a unit","[+25]% Strength <when defending>","Can build [Farm] improvements on tiles"]
+		"uniques": ["Heals [100] damage if it kills a unit","[+25]% Strength <when defending>","Can build [Farm] improvements on tiles"],
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Electronics",
 		"attackSound": "shot"
@@ -2138,7 +2129,7 @@
 		"cost": 480,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -2217,7 +2208,21 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Land] units>"],
 		"attackSound": "tankshot"
-		//German unique unit, stronger than Tank
+	},
+	{
+		"name": "M-84",
+		"uniqueTo": "Yugoslavia",
+		"replaces": "Tank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 70,
+		"cost": 450,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"promotions": ["[M-84] ability"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Land] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Rocket Artillery",
@@ -2283,8 +2288,6 @@
 		"attackSound": "nuke"
 	},
 	{
-		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
-		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
 		"movement": 6,
@@ -2292,8 +2295,7 @@
 		"cost": 510,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
@@ -2404,7 +2406,8 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Instantly provides [1] [Great Work of Art] <by consuming this unit>"
+            "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
+            "Is part of Great Person group [Artist]",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -2412,9 +2415,9 @@
 		"name": "Great Writer",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Instantly provides [1] [Great Work of Writing] <by consuming this unit>"
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Gain [500] [Culture] <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
+            "Is part of Great Person group [Writer]",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -2422,8 +2425,9 @@
 		"name": "Great Musician",
 		"unitType": "Civilian",
 		"uniques": [
-            "Instantly provides [1] [Great Work of Music] <by consuming this unit>"
+            "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Is part of Great Person group [Musician]",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -2434,8 +2438,8 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [12]-turn Golden Age <by consuming this unit>",
-            "Instantly provides [1] [Great Work of Art] <by consuming this unit>"
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
+            "Is part of Great Person group [Artist]",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -2445,6 +2449,7 @@
 		"uniques": [
             "Can hurry technology research",
             "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Is part of Great Person group [Scientist]",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -2452,7 +2457,8 @@
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+		"Can instantly construct a [Customs house] improvement <by consuming this unit>",
+		"Is part of Great Person group [Merchant]",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -2461,6 +2467,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Can speed up construction of a building",
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Is part of Great Person group [Engineer]",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -2503,7 +2510,7 @@
 		"uniques": [
             "Can instantly construct a [Sacred Grove] improvement <by consuming this unit> <if it hasn't used other actions yet>","Great Person - [Faith]",
 			"Uncapturable","Unbuildable", "Hidden when religion is disabled",],
-		"movement": 4,
+		"movement": 4
 	},
 	{
 		"name": "Great General",
@@ -2515,13 +2522,13 @@
 		"movement": 4
 	},
 	{
-		"name": "Hetairoi"
+		"name": "Hetairoi",
 		"replaces": "Great General",
 		"uniqueTo": "Macedonia",
 		"unitType": "Mounted",
 		"strength": 15,
 		"requiredResource": "Horses",
-		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Leadership"]
+		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Leadership"],
 		"upgradesTo": "Knight",
 		"uniques": [
             "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",

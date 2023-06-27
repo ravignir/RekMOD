@@ -446,7 +446,7 @@
 	// Mixed
 	{
 		"name": "Cover I",
-		"prerequisites": ["Shock I","Drill I","Accuracy I","Barrage I"],
+		"prerequisites": ["Shock I","Drill I","Accuracy I","Barrage I","Anti-Naval I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"],
 	},
@@ -459,7 +459,7 @@
 
 	{
 		"name": "March",
-		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"prerequisites": ["Accuracy II","Barrage II","Anti-Naval II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Mounted"],
 	},
@@ -472,7 +472,7 @@
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"],
 	},
@@ -606,6 +606,11 @@
         "name": "[Chu-Ko-Nu] ability",
         "uniques": ["[1] additional attacks per turn"]
     }
+  
+	{
+		"name": "[M-84] ability",
+		"uniques": ["Ignores Zone of Control"]
+	},
 	{
 		"name": "Leadership",
 		"uniques": [

@@ -103,8 +103,9 @@
 					"[+15]% Production when constructing [Amphitheater] buildings [in all cities]",
 					"[+15]% Production when constructing [Barracks] buildings [in all cities]",
 					"[+15]% Production when constructing [Library] buildings [in all cities]",
+					"[+15]% Production when constructing [Temple] buildings [in all cities]",
 					"[+15]% Production when constructing [Colosseum] buildings [in all cities]",
-					"[+15]% Production when constructing [Opera House] buildings [in all cities]"
+					"[+15]% Production when constructing [Opera House] buildings [in all cities]",
 					"[+15]% Production when constructing [Factory] buildings [in all cities]"]
 			}
 		]
@@ -188,7 +189,7 @@
 			},
 			{
 				"name": "Reformation",
-				"uniques": ["[-15]% Culture cost of natural border growth [in all cities]","Gain a free [Enhancer] belief <after founding a religion>", "Gain a free [Enhancer] belief <upon founding a Religion>","Provides [1] [Policies]"],
+				"uniques": ["[-15]% Culture cost of natural border growth [in all cities]","May choose [1] additional [Enhancer] beliefs when [founding] a religion", "Gain a free [Enhancer] belief <after founding a religion>","Provides [1] [Policies]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
 				"column": 2
@@ -258,7 +259,7 @@
 			{
 				"name": "Aesthetics Complete",
 				"uniques": ["[+100]% Production when constructing [Archaeologist] units [in all cities]",
-					"[+1 Culture] from every [World Wonder]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>","May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>","May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+					"[+1 Culture] from every [Great Work]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>","May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>","May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
