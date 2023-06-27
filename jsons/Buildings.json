@@ -52,23 +52,28 @@
 		"name": "Art Hall",
 		"culture": 2,
 		"faith": 1,
-    "specialistSlots": {"Artist": 1},
+    	"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable"]
 	},
 	{
 		"name": "Writing Auditorium",
 		"culture": 2,
 		"faith": 1,
-    "specialistSlots": {"Writer": 1},
+    	"specialistSlots": {"Writer": 1},
 		"uniques": ["Unbuildable"]
 	},
 	{
 		"name": "Vocal Chamber",
 		"culture": 2,
 		"faith": 1,
-    "specialistSlots": {"Musician": 1},
+    	"specialistSlots": {"Musician": 1},
 		"uniques": ["Unbuildable"]
 	},
+    {
+    	"name": "Fine Art Specialist",
+		"specialistSlots": {"Artist": 1,"Writer": 1,"Musician": 1},
+		"uniques": ["Unbuildable"]
+    },
     {
         "name": "~limit",
 	    "gold": 2,
@@ -82,11 +87,6 @@
         
         "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
     },
-    {
-      "name": "Fine Art Specialist",
-		  "specialistSlots": {"Artist": 1,"Writer": 1,"Musician": 1},
-		  "uniques": ["Unbuildable"]
-    }
     {
         "name": "Nutmeg", // Indonesian luxury
         "uniqueTo": "Indonesia",
@@ -103,30 +103,27 @@
     },
     {
         "name": "~CS",
-        
         "uniques": ["Unsellable","Will not be displayed in Civilopedia","Unbuildable","Destroyed when the city is captured"]
     },
-	    {
+	{
         "name": "Watch Tower",
         "cityStrength": 7,
         "cityHealth": 50,
         "hurryCostModifier": 25,
 		"uniques": ["Unbuildable"]
     },
-	    {
+	{
         "name": "Castle Builders",
         "cityStrength": 5,
-		    
-		    "uniqueTo": "Normandy",
+		"uniqueTo": "Normandy",
         "uniques": ["Unsellable","Unbuildable"]
     },
-		    {
+	{
         "name": "Ulugh Beg's Observatory",
         "cityStrength": 5,
         "uniqueTo": "Timurids",
-		    "isNationalWonder": true,
-		    "percentStatBonus": {"science": 10, "production": 10, "gold": 10, "culture": 10},
-		    
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 10, "production": 10, "gold": 10, "culture": 10},
         "uniques": ["Unbuildable"]
     },
 	
@@ -147,7 +144,7 @@
 	{
 		"name": "Palace Great Writing Slot",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Palace]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]"]
 	},
@@ -357,7 +354,7 @@
 		"name": "Royal Library Great Writing Slot",
 		"uniqueTo": "Assyria",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Royal Library]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]"]
 	},
@@ -383,14 +380,14 @@
 	{
 		"name": "Great Library Great Writing Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [The Great Library]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]","[+1 Culture] <in cities with a [Great Library Great Writing Slot 2]>"]
 	},
 	{
 		"name": "Great Library Great Writing Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [The Great Library]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]","[+1 Culture] <in cities with a [Great Library Great Writing Slot 1]>"]
 	},
@@ -854,7 +851,7 @@
 	{
 		"name": "Amphitheater Great Writing Slot",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Amphitheater]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]"]
 	},
@@ -936,7 +933,7 @@
 	{
 		"name": "National Epic Great Writing Slot",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [National Epic]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]"]
 	},
@@ -971,7 +968,7 @@
 	{
 		"name": "Parthenon Great Writing Slot",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Parthenon]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]"]
 	},
@@ -1063,7 +1060,7 @@
 	{
 		"name": "Heroic Epic Great Writing Slot",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Heroic Epic]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]"]
 	},
@@ -1368,14 +1365,14 @@
 	{
 		"name": "Oxford University Great Writing Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Oxford University]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]","[+1 Culture] <in cities with a [Oxford University Great Writing Slot 2]>"]
 	},
 	{
 		"name": "Oxford University Great Writing Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Oxford University]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]","[+1 Culture] <in cities with a [Oxford University Great Writing Slot 1]>"]
 	},
@@ -1526,7 +1523,7 @@
 	{
 		"name": "Opera House Great Music Slot",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Music",
 		"uniques": ["Great Work","GW Music","Only available <in cities with a [Opera House]>","Provides [1] [Great Work of Music]","Instantly consumes [1] [Great Work of Music]"]
 	},
@@ -1575,14 +1572,14 @@
 	{
 		"name": "Sistine Chapel Great Art Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Sistine Chapel]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Sistine Chapel Great Art Slot 2]>"]
 	},
 	{
 		"name": "Sistine Chapel Great Art Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Sistine Chapel]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Sistine Chapel Great Art Slot 1]>"]
 	},
@@ -1714,14 +1711,14 @@
 	{
 		"name": "Globe Theatre Great Writing Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Globe Theatre]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]","[+1 Culture] <in cities with a [Globe Theatre Great Writing Slot 2]>"]
 	},
 	{
 		"name": "Globe Theatre Great Writing Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Writing",
 		"uniques": ["Great Work","GW Writing","Only available <in cities with a [Globe Theatre]>","Provides [1] [Great Work of Writing]","Instantly consumes [1] [Great Work of Writing]","[+1 Culture] <in cities with a [Globe Theatre Great Writing Slot 1]>"]
 	},
@@ -1757,21 +1754,21 @@
 	{
 		"name": "Hermitage Great Art Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Hermitage]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Hermitage Great Art Slot 2]> <in cities with a [Hermitage Great Art Slot 3]>"]
 	},
 	{
 		"name": "Hermitage Great Art Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Hermitage]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Hermitage Great Art Slot 1]> <in cities with a [Hermitage Great Art Slot 3]>"]
 	},
 	{
 		"name": "Hermitage Great Art Slot 3",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Hermitage]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Hermitage Great Art Slot 1]> <in cities with a [Hermitage Great Art Slot 2]>"]
 	},
@@ -1818,21 +1815,21 @@
 	{
 		"name": "Uffizi Great Art Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Uffizi]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Uffizi Great Art Slot 2]> <in cities with a [Uffizi Great Art Slot 3]>"]
 	},
 	{
 		"name": "Uffizi Great Art Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Uffizi]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Uffizi Great Art Slot 1]> <in cities with a [Uffizi Great Art Slot 3]>"]
 	},
 	{
 		"name": "Uffizi Great Art Slot 3",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Uffizi]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Uffizi Great Art Slot 2]> <in cities with a [Uffizi Great Art Slot 1]>"]
 	},
@@ -1916,14 +1913,14 @@
 	{
 		"name": "Museum Great Art Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Museum]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Museum Great Art Slot 2]>"]
 	},
 	{
 		"name": "Museum Great Art Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [Museum]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Museum Great Art Slot 1]>"]
 	},
@@ -1964,28 +1961,28 @@
 	{
 		"name": "Louvre Great Art Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [The Louvre]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Louvre Great Art Slot 2]> <in cities with a [Louvre Great Art Slot 3]> <in cities with a [Louvre Great Art Slot 4]>"]
 	},
 	{
 		"name": "Louvre Great Art Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [The Louvre]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Louvre Great Art Slot 1]> <in cities with a [Louvre Great Art Slot 3]> <in cities with a [Louvre Great Art Slot 4]>"]
 	},
 	{
 		"name": "Louvre Great Art Slot 3",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [The Louvre]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Louvre Great Art Slot 2]> <in cities with a [Louvre Great Art Slot 1]> <in cities with a [Louvre Great Art Slot 4]>"]
 	},
 	{
 		"name": "Louvre Great Art Slot 4",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Art",
 		"uniques": ["Great Work","GW Art","Only available <in cities with a [The Louvre]>","Provides [1] [Great Work of Art]","Instantly consumes [1] [Great Work of Art]","[+1 Culture] <in cities with a [Louvre Great Art Slot 2]> <in cities with a [Louvre Great Art Slot 3]> <in cities with a [Louvre Great Art Slot 1]>"]
 	},
@@ -2177,7 +2174,7 @@
 	{
 		"name": "Broadcast Tower Great Music Slot",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Music",
 		"uniques": ["Great Work","GW Music","Only available <in cities with a [Broadcast Tower]>","Provides [1] [Great Work of Music]","Instantly consumes [1] [Great Work of Music]"]
 	},
@@ -2203,21 +2200,21 @@
 	{
 		"name": "Broadway Great Music Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Music",
 		"uniques": ["Great Work","GW Music","Only available <in cities with a [Broadway]>","Provides [1] [Great Work of Music]","Instantly consumes [1] [Great Work of Music]","[+1 Culture] <in cities with a [Broadway Great Music Slot 2]> <in cities with a [Broadway Great Music Slot 3]>"]
 	},
 	{
 		"name": "Broadway Great Music Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Music",
 		"uniques": ["Great Work","GW Music","Only available <in cities with a [Broadway]>","Provides [1] [Great Work of Music]","Instantly consumes [1] [Great Work of Music]","[+1 Culture] <in cities with a [Broadway Great Music Slot 1]> <in cities with a [Broadway Great Music Slot 3]>"]
 	},
 	{
 		"name": "Broadway Great Music Slot 3",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Music",
 		"uniques": ["Great Work","GW Music","Only available <in cities with a [Broadway]>","Provides [1] [Great Work of Music]","Instantly consumes [1] [Great Work of Music]","[+1 Culture] <in cities with a [Broadway Great Music Slot 2]> <in cities with a [Broadway Great Music Slot 1]>"]
 	},
@@ -2353,14 +2350,14 @@
 	{
 		"name": "Sydney Great Music Slot 1",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Music",
 		"uniques": ["Great Work","GW Music","Only available <in cities with a [Sydney Opera House]>","Provides [1] [Great Work of Music]","Instantly consumes [1] [Great Work of Music]","[+1 Culture] <in cities with a [Sydney Great Music Slot 2]>"]
 	},
 	{
 		"name": "Sydney Great Music Slot 2",
 		"culture": 2,
-		
+		"cost": 0,
 		"requiredResource": "Great Work of Music",
 		"uniques": ["Great Work","GW Music","Only available <in cities with a [Sydney Opera House]>","Provides [1] [Great Work of Music]","Instantly consumes [1] [Great Work of Music]","[+1 Culture] <in cities with a [Sydney Great Music Slot 1]>"]
 	},
