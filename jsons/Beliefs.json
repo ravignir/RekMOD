@@ -142,7 +142,7 @@
         "name": "Oral Tradition",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Plantation]"]
-    }
+    },
     {
         "name": "Rain Dancing",
         "type": "Pantheon",
@@ -259,9 +259,9 @@
           "[+1 Faith] from every [Tobacco]",
           "[+1 Faith] from every [Citrus]",
           "[+1 Faith] from every [Olives]",
-          "[+1 Faith] from every [Cocoa]"
+          "[+1 Faith] from every [Cocoa]",
           "[+1 Faith] from every [Rubber]",
-          "[+1 Faith] from every [Coconut]",
+          "[+1 Faith] from every [Coconut]"
           ]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
@@ -343,7 +343,7 @@
     {
         "name": "Devoted Elite",
         "type": "Follower",
-        "uniques": ["[+3 Production, +3 Gold, -1 Happiness] [in cities following this religion] <in cities with at least [10] [Population]>",]
+        "uniques": ["[+3 Production, +3 Gold, -1 Happiness] [in cities following this religion] <in cities with at least [10] [Population]>"]
     },
     {
         "name": "Devout Performers",
@@ -498,7 +498,7 @@
           "May buy [University] buildings with [Faith] [in cities following this religion]",
           "May buy [Observatory] buildings with [Faith] [in cities following this religion]",
           "May buy [Public School] buildings with [Faith] [in cities following this religion]",
-          "May buy [Research Lab] buildings with [Faith] [in cities following this religion]",
+          "May buy [Research Lab] buildings with [Faith] [in cities following this religion]"
           ]
     },
     {
@@ -539,7 +539,7 @@
             "[+2 Gold, +2 Culture] from every [Mandir]",
             "[+2 Gold, +2 Culture] from every [Mosque]",
             "[+2 Gold, +2 Culture] from every [Pagoda]",
-            "[+2 Gold, +2 Culture] from every [Synagogue]",
+            "[+2 Gold, +2 Culture] from every [Synagogue]"
         ]
     },
     {
@@ -555,7 +555,7 @@
           "May buy [Workshop] buildings with [Faith] [in cities following this religion]",
           "May buy [Factory] buildings with [Faith] [in cities following this religion]",
           "May buy [Windmill] buildings with [Faith] [in cities following this religion]",
-          "May buy [Hydro Plant] buildings with [Faith] [in cities following this religion]",
+          "May buy [Hydro Plant] buildings with [Faith] [in cities following this religion]"
           ]
     },
     {
@@ -567,5 +567,5 @@
         "name": "Unity of the Prophets",
         "type": "Enhancer",
         "uniques": ["[+6 Faith, +2 Production] from every [Holy site]"]
-    },
+    }
 ]

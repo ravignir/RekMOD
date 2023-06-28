@@ -103,7 +103,7 @@
 	// Special improvement
 	{
 		"name": "Archaeological Dig",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Forest","Jungle","Desert"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
 		"culture": 6,
 		"gold": 2,
 		"science": 2,
@@ -175,7 +175,7 @@
 	{
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 1,
+		"turnsToBuild": 0,
 		"techRequired": "Railroads",
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",
@@ -216,15 +216,15 @@
 	},
 	{
 		"name": "Remove Land Trade Route (Production)",
-		"turnsToBuild": 1,
+		"turnsToBuild": 1
 	},
 	{
 		"name": "Remove Land Trade Route (Food)",
-		"turnsToBuild": 1,
+		"turnsToBuild": 1
 	},
 	{
 		"name": "Remove Land Trade Route (Gold)",
-		"turnsToBuild": 1,
+		"turnsToBuild": 1
 	},
 
 	// These are unique and have unique in-game checks related to them
@@ -335,7 +335,7 @@
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>"
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Improvement"]
 	},
@@ -405,7 +405,7 @@
 		"techRequired": "Trapping",
 		"uniques": ["Must be next to [Luxury resource]","[+1 Food] <after discovering [Civil Service]>",
 			"[+1 Faith] <after discovering [Theology]>","[+1 Culture] for each adjacent [City center]","[+1 Gold] <in [River] tiles>","Pillaging this improvement yields approximately [+20 Gold]",
-			"Improvement"],
+			"Improvement"]
 	},
 	{
 		"name": "Kasbah",

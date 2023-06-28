@@ -4,6 +4,7 @@
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
+		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Agriculture",
@@ -428,7 +429,7 @@
 			{
 				"name": "Refrigeration",
 				"row": 2,
-				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
+				"prerequisites": ["Biology", "Electricity"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
@@ -453,8 +454,8 @@
 				"name": "Railroads",
 				"row": 8,
 				"prerequisites": ["Steam Power","Dynamite"],
-				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
-				"uniques": ["Provides [1] [Trade Route]"],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson",
+				"uniques": ["Provides [1] [Trade Route]"]
 			}
 		]	
 	},
@@ -502,8 +503,8 @@
 				"name": "Pharmaceuticals",
 				"row": 2,
 				"prerequisites": ["Plastics","Refrigeration"],
-				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
-				"uniques": ["Provides [1] [Trade Route]"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero",
+				"uniques": ["Provides [1] [Trade Route]"]
 			},
 			{
 				"name": "Atomic Theory",
@@ -554,7 +555,6 @@
 				"name": "Computers",
 				"row": 8,
 				"prerequisites": ["Combined Arms","Radar"],
-				//"uniques": ["[+10]% [Production] [in all cities]","[+10]% [Science] [in all cities]"],
 				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			}
 		]
@@ -656,9 +656,9 @@
 				"name": "Future Tech",
 				"row": 5,
 				"prerequisites": ["Nanotechnology","Particle Physics","Nuclear Fusion","Stealth"],
-				"uniques": [/*"Who knows what the future holds?",*/"Can be continually researched"],
+				"uniques": ["Who knows what the future holds?","Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]	
-	},
+	}
 ]

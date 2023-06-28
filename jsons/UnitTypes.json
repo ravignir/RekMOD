@@ -89,7 +89,7 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Normal vision when embarked","[1] Movement point cost to disembark","[1] Movement point cost to embark","May attack when embarked","Defense bonus when embarked","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","This Unit gains the [Heli] promotion"]
+        "uniques": ["May travel on Water tiles without embarking","All tiles cost 1 movement","Can pass through impassable tiles"]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work

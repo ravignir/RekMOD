@@ -3,7 +3,6 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
 	},
 //nations
 	{
@@ -103,11 +102,10 @@
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]
 	},
-			{
+	{
 		"name": "Argentina",
 		"leaderName": "Eva Peron",
 		"adjective": ["Argentinan"],
-//		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": " ",
@@ -125,7 +123,7 @@
 		"uniques": ["[-30]% tile improvement construction time"],
 		"cities": ["Buenos Aires","La Plata","San Luis","Posadas","Catamarca","Cordoba","Formosa","San Juan","Parana","Salta","Neeuquen","Jujuy","La Rioja"]
 	},
-				{
+	{
 		"name": "Armenia",
 		"leaderName": "Tiridates III",
 		"adjective": ["Armenian"],
@@ -221,7 +219,7 @@
 			"Kapfenberg", "Hallein", "Bischofshofen", "Waidhofen", "Saalbach", "Lienz", "Steyr"
 		]
 	},
-							{
+	{
 		"name": "Ayyubids",
 		"leaderName": "Saladin",
 		"adjective": ["Ayyubid"],
@@ -295,12 +293,10 @@
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"]
 	},
-								{
+	{
 		"name": "Belgium",
 		"leaderName": "Leopold II",
 		"adjective": ["Belgian"],
-//		"startBias": ["Desert"],
-//		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -317,11 +313,10 @@
 		"uniques": ["[+1 Production] from every [Plantation]","[+1 Gold] from every [Strategic resource]"],
 		"cities": ["Brussels","Antwerp","Ghent","Charleroi","Bruges","Liege","Ypres","Schaerbeek","Leuven","Namur","Mons","Mechelen","Anderlecht"]
 	},
-									{
+	{
 		"name": "Boers",
 		"leaderName": "Stephanus Johannes Paulus Kruger",
 		"adjective": ["Boers"],
-//		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
@@ -364,7 +359,7 @@
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
 			"Feira de Santana","Juiz de Fora","Joinville","Jundiaí"]			
 	},
-									{
+	{
 		"name": "Brunei",
 		"leaderName": "Bolkiah",
 		"adjective": ["Brunei"],
@@ -390,7 +385,6 @@
 		"name": "Bulgaria",
 		"leaderName": "Asparukh Khan",
 		"adjective": ["Bulgarian"],
-//		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": " ",
@@ -408,12 +402,10 @@
 		"uniques": ["[+3 Science] from every [Artist]","[+3 Science] from every [Writer]","[+3 Science] from every [Musician]","[+1 Culture] from every [Library]","[+1 Culture] from every [University]","[+1 Culture] from every [Observatory]","[+1 Culture] from every [Public School]","[+1 Culture] from every [Research Lab]"],
 		"cities": ["Pliska","Preslav","Tarnovo","Plovdiv","Prilep","Sofia","Vidin","Nis","Kastoria","Skopje","Ohrid","Glavinitsa","Varna"]
 	},
-		{
+	{
 		"name": "Burma",
 		"leaderName": "Anawratha",
 		"adjective": ["Burma"],
-//		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -453,12 +445,10 @@
 			"Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Vodena",
 			"Caesarea Maritima","Traianoupoli","Constantia","Korinthos","Patra"]
 	},
-			{
+	{
 		"name": "Canada",
 		"leaderName": "John A. MacDonald",
 		"adjective": ["Canadian"],
-//		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -696,11 +686,10 @@
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
 	},
-		{
+	{
 		"name": "Franks",
 		"leaderName": "Charlemagne",
 		"adjective": ["Frankish"],
-//		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -718,7 +707,7 @@
 		"uniques": ["[+1 Faith] from every [Farm]"],
 		"cities": ["Aachen","Cologne","Duisburg","Metz","Regensburg","Luxembourg","Strasbourg","Nuremberg","Ulm","Fulda","Rheims","Verdun","Mainz"]
 	},
-			{
+	{
 		"name": "Gaul",
 		"leaderName": "Vercingetorix",
 		"adjective": ["Gaul"],
@@ -766,11 +755,10 @@
 			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg",
 			"Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
 	},
-				{
+	{
 		"name": "Golden Horde",
 		"leaderName": "Batu Khan",
 		"adjective": ["Golden Horde"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -788,11 +776,10 @@
 		"uniques": ["[+50]% [Production] [in puppeted cities]", "[+50]% [Gold] [in puppeted cities]", "[+50]% [Science] [in puppeted cities]", "[-50]% Unhappiness from [Population] [in puppeted cities]"],
 		"cities": ["Sarai Batu","Sarai Berke","Kazan","Almaty","Makhachkala","Sarai Juk","Ufa","Astana","Itil","Tsaritsyn","Narchik","Aqtobe","Aqtau"]
 	},
-					{
+	{
 		"name": "Goths",
 		"leaderName": "Alaric I",
 		"adjective": ["Goth"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -835,11 +822,10 @@
 			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
 			"Patras","Lamia","Nafplion","Apolyton"]
 	},
-						{
+	{
 		"name": "Hittites",
 		"leaderName": "Muwatallis",
 		"adjective": ["Hittite"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -879,11 +865,10 @@
 		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Attila's Court"]
 	},
-		{
+	{
 		"name": "Hungary",
 		"leaderName": "Andras II",
 		"adjective": ["Hungarian"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -947,7 +932,7 @@
 		"outerColor": [14,113,4],
 		"innerColor": [255,163,71],
 		"uniqueName": "Population Growth",
-		"uniques": ["Unhappiness from number of Cities doubled","[-50]% Unhappiness from [Population] [in all cities]"],
+		"uniques": ["[+100]% unhappiness from the number of cities","[-50]% Unhappiness from [Population] [in all cities]"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]
@@ -978,12 +963,10 @@
 			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
 			"Yogyakarta","Bima","Sorong"]
 	},
-			{
+	{
 		"name": "Ireland",
 		"leaderName": "Michael Collins",
 		"adjective": ["Irish"],
-//		"startBias": ["Forest"],
-//		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1000,6 +983,7 @@
 		"uniqueText": "+2 Happiness from all National Wonders (excluding the Palace). +15% Production towards constructing buildings required for National Wonders.",
 		"uniques": ["[+15]% Production when constructing [Monument] buildings [in all cities]",
 			//"[+15]% Production when constructing [Hotel] buildings [in all cities]",
+			"[+15]% Production when constructing [Temple] buildings [in all cities]",
 			"[+15]% Production when constructing [University] buildings [in all cities]",
 			"[+15]% Production when constructing [Market] buildings [in all cities]",
 			"[+15]% Production when constructing [Workshop] buildings [in all cities]",
@@ -1046,11 +1030,10 @@
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
 			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"]
 	},
-							{
+	{
 		"name": "Israel",
 		"leaderName": "David",
 		"adjective": ["Israeli"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
@@ -1072,7 +1055,6 @@
 		"name": "Italy",
 		"leaderName": "Vittorio Emanuele III",
 		"adjective": ["Italian"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
@@ -1115,11 +1097,10 @@
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
-		{
+	{
 		"name": "Jerusalem",
 		"leaderName": "Fulk V",
 		"adjective": ["Jerusalem"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -1137,12 +1118,10 @@
 		"uniques": ["[+1 Faith] from every [Luxury resource]"],
 		"cities": ["Jerusalem","Acre","Edessa","Antioch","Beirut","Ascalon","Tripoli","Cilica","Turbessel","Tarsus","Arduf","Hattin"]
 	},
-			{
+	{
 		"name": "Khmer",
 		"leaderName": "Suryavarman II",
 		"adjective": ["Khmer"],
-//		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1159,12 +1138,11 @@
 		"uniques": ["Gain a free [Baray] [in capital]"],
 		"cities": ["Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Bhavapura","Vyadhapura","Dviradapura","Amarendrapura","Lavodayapura"]
 	},
-				{
+	{
 		"name": "Kilwa",
 		"leaderName": "Ali ibn al-Hassan Shirazi",
 		"adjective": ["Kilwa"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1182,7 +1160,7 @@
 		"uniques": ["[+10]% growth [in all cities]","[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]","[+4 Gold] from every [Sea Trade Route (Food)]","[+4 Gold] from every [Sea Trade Route (Production)]"],
 		"cities": ["Kilwa Kiswani","Zanzibar","Mombasa","Malindi","Sofala","Pemba","Mozambique","Mogadishu","Lamu","Mahajanga","Antsiranana","Kismaoyo","Mzizima","Mafia","Bazarula","Pate"]
 	},
-					{
+	{
 		"name": "Kongo",
 		"leaderName": "Mvemba a Nzinga",
 		"adjective": ["Kongo"],
@@ -1233,7 +1211,6 @@
 		"name": "Lithuania",
 		"leaderName": "Vytautas",
 		"adjective": ["Lithuania"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
@@ -1255,7 +1232,6 @@
 		"name": "Macedonia",
 		"leaderName": "Alexander",
 		"adjective": ["Macedonian"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -1277,8 +1253,6 @@
 		"name": "Madagascar",
 		"leaderName": "Ralambo",
 		"adjective": ["Madagascar"],
-//		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1299,7 +1273,6 @@
 		"name": "Manchuria",
 		"leaderName": "Nurhaci",
 		"adjective": ["Manchurian"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -1317,11 +1290,10 @@
 		"uniques": ["[-100]% maintenance costs <for [Mounted] units>", "[-100]% maintenance costs <for [Armor] units>","[Mounted] units gain the [Volley] promotion","[Armor] units gain the [Volley] promotion","[+100]% Production when constructing [Stable] buildings [in all cities]", "[+1 Gold] from every [Stable]"],
 		"cities": ["Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling","Ningdota","Siping","Anshan"]
 	},
-		{
+	{
 		"name": "Maurya",
 		"leaderName": "Ashoka",
 		"adjective": ["Mauryan"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -1364,12 +1336,10 @@
 			"Cerros","Xumantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas",
 			"Mayapan","Ixinche","Zaculeu","Kabah"]	
 	},
-		{
+	{
 		"name": "Mexico",
 		"leaderName": "Benito Juarez",
 		"adjective": ["Mexican"],
-//		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1411,11 +1381,10 @@
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
 			"Har-Ayrag","Nalayh","Tes"]
 	},
-			{
+	{
 		"name": "The Moors",
 		"leaderName": "Abd-ar-Rahman III",
 		"adjective": ["Moorish"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": " ",
@@ -1452,14 +1421,14 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
-		"uniqueText": "+3 Gold and +1 Culture from every gold Trade Route, bonus inceases by +1 Gold and +1 Culture each era",
+		"uniqueText": "+4 Gold and +2 Culture from every gold Trade Route, bonus inceases by +1 Gold and +1 Culture each era",
 		"uniques": ["[+4 Gold, +2 Culture] from every [Land Trade Route (Gold)]", "[+1 Gold] from every [Land Trade Route (Gold)] <starting from the [Classical era]>","[+1 Gold] from every [Land Trade Route (Gold)] <starting from the [Medieval era]>", "[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Renaissance era]>", "[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Industrial era]>", "[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Modern era]>", "[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Atomic era]>", "[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Information era]>", "[+4 Gold, +2 Culture] from every [Sea Trade Route (Gold)]", "[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Classical era]>","[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Medieval era]>", "[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Renaissance era]>", "[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Industrial era]>", "[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Modern era]>", "[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Atomic era]>", "[+1 Gold, +1 Culture] from every [Sea Trade Route (Gold)] <starting from the [Information era]>"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Quarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
 			"Taza","Fquih ben Salah","Khouribga","Nador","Settat","Berrechid","Larache","Khemisset","Guelmim","Dakhla",
 			"Chefchaouen","Ben Guerir","Eli Kelaa des Sraghna","Erfoud"]			
 	},
-				{
+	{
 		"name": "Mysore",
 		"leaderName": "Hyder Ali",
 		"adjective": ["Mysorean"],
@@ -1486,7 +1455,6 @@
 		"leaderName": "William I",
 		"adjective": ["Dutch"],
 		"startBias": ["Coast","Marsh","Flood plains"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "Hail stalwart Prince William of Orange, liberator of the Netherlands and hero to the Dutch people. It was your courageous effort in the 1568 rebellion against Spanish dominion that led the Dutch to freedom, and ultimately resulted in the Eighty Years' War. Your undertaking allowed for the creation of one of Europe's first modern republics, the Seven United Provinces. You gave your life to the rebellion, falling at the hands of an assassin in 1584, but your death would only serve to embolden the people's charge, and your legacy as 'Father of the Fatherland' will stand as a symbol of Dutch independence for all time.",
 		"startIntroPart2": "Brave prince, the people again yearn for the wise stewardship your wisdom afforded them. Can you once again secure the sovereignty of your kingdom and lead your people to greatness? Can you build a civilization that stands the test of time?",
@@ -1506,11 +1474,10 @@
 			"Apeldoorn","Nova Enschede","Sao Bernardo do Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt",
 			"Weesp","Coevorden","Kerkrade"]			
 	},
-			{
+	{
 		"name": "Normandy",
 		"leaderName": "William the Conqueror",
 		"adjective": ["Norman"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
@@ -1528,12 +1495,11 @@
 		"uniques": ["[+20]% Strength <for [Military] units> <in [Foreign Land] tiles>","Gain a free [Castle Builders] [in all cities]"],
 		"cities": ["Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne","Beauvais","Fecamp","Dreux"]
 	},
-				{
+	{
 		"name": "Norway",
 		"leaderName": "Harald Hardrada",
 		"adjective": ["Norwegian"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1550,12 +1516,11 @@
 		"uniques": ["[+1 Production] from every [Tundra]","[+1 Food, +1 Production] from every [Snow]"],
 		"cities": ["Oslo","Bergen","Trondheim","Stavanger","Tromso","Sarpsborg","Kristiansand","Fredrikstad","Tunsberg","Sandefjord","Sandnes","Skien","Drammen"]
 	},
-					{
+	{
 		"name": "Nubia",
 		"leaderName": "Amanitore",
 		"adjective": ["Nubian"],
 		"startBias": ["Desert"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1572,7 +1537,7 @@
 		"uniques": ["Receive free [Apedemaks Bow] when you discover [Pottery]"],
 		"cities": ["Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe","Shaat","Heh","Dengeil"]
 	},
-						{
+	{
 		"name": "Oman",
 		"leaderName": "Saif bin Sultan",
 		"adjective": ["Omani"],
@@ -1618,7 +1583,7 @@
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarhisar",
 			"Bitlis","Yalova"]
 	},
-								{
+	{
 		"name": "Papal State",
 		"leaderName": "Urban II",
 		"adjective": ["Vatican"],
@@ -1666,12 +1631,11 @@
 			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
 			"Paishiyauvada","Patigrbana","Phrada"]
 	},
-						{
+	{
 		"name": "Phoenicia",
 		"leaderName": "Hiram",
 		"adjective": ["Phoenician"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1743,7 +1707,6 @@
 		"leaderName": "Maria I",
 		"adjective": ["Portuguese"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
 		"startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
@@ -1764,7 +1727,7 @@
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego",
 			"Ponta Delgada"]			
 	},
-								{
+	{
 		"name": "Prussia",
 		"leaderName": "Frederick",
 		"adjective": ["Prussian"],
@@ -1786,7 +1749,7 @@
 		"uniques": ["[Land] units gain the [Gehorsam] promotion","[+50]% Yield from every [Land Trade Route (Food)]","[+50]% Yield from every [Land Trade Route (Production)]","[+50]% Yield from every [Sea Trade Route (Food)]","[+50]% Yield from every [Sea Trade Route (Production)]"],
 		"cities": ["Konigsberg","Danzig","Memel","Stettin","Breslau","Leipzig","Potsdam","Hamburg","Magdeburg","Dresden","Lubeck","Rostock","Berlin","Straslund,","Greifswald","Kolberg","Brandenburg","Freiberg"]
 	},
-							{
+	{
 		"name": "Romania",
 		"leaderName": "Carol I",
 		"adjective": ["Romanian"],
@@ -1863,7 +1826,6 @@
 		"leaderName": "Robert the Bruce",
 		"adjective": ["Scottish"],
 		"startBias": ["Hill"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -1884,7 +1846,6 @@
 		"name": "Shoshone",
 		"leaderName": "Pocatello",
 		"adjective": ["Shoshone"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "Blessings be upon you, wise and fearsome Chief Pocatello, revered leader of the Shoshone people. As the young chieftain of the Shoshone, you rose to face a wave of encroaching American settlements across the western United States. Forced to defend the Shoshone ancestral lands from a seemingly endless stream of new emigrants, your war band struck fear into those who would claim the sacred lands of your people. After years of strife, you skillfully avoided a direct conflict with the armies of the U.S. government, and negotiated a series of treaties in the hopes of establishing a lasting peace for the Shoshone.",
 		"startIntroPart2": "Most esteemed Pocatello, your people once again look to you for guidance. Will you conquer your enemies, driving them far from your lands? Or will you seek out peaceful diplomacy and trade? Will you build a civilization that stands the test of time?",
@@ -1908,7 +1869,6 @@
 		"leaderName": "Ramkhamhaeng",
 		"adjective": ["Siamese"],
 		"startBias": ["Avoid [Forest]"],
-//		"preferredVictoryType":"Diplomatic",
 		
 		"startIntroPart1": "Greetings to you, Great King Ramkhamhaeng, leader of the glorious Siamese people! O mighty King, your people bow down before you in awe and fear! You are the ruler of Siam, an ancient country in the heart of Southeast Asia, a beautiful and mysterious land. Surrounded by foes, beset by bloody war and grinding poverty, the clever and loyal Siamese people have endured and trumphed. King Ramkhamhaeng, your empire was once part of the Khmer Empire, until the 13th century AD, when your ancestors revolted, forming the small Sukhothai kingdom. Through successful battle and cunning diplomacy, the tiny kingdom grew into a mighty empire, an empire which would dominate South East Asia for more than a century!",
 		"startIntroPart2": "Oh, wise and puissant King Ramkhamhaeng, your people need you to once again lead them to greatness! Cann you use your wits and strenght of arms to protect your people and defeat your foes? Can you build a civilization that will stand the test of time?",
@@ -1953,12 +1913,11 @@
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
 			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"]
 	},
-		{
+	{
 		"name": "Sioux",
 		"leaderName": "Sitting Bull",
 		"adjective": ["Sioux"],
 		"startBias": ["Plains"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2000,7 +1959,7 @@
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
 			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"]
 	},
-			{
+	{
 		"name": "Sumeria",
 		"leaderName": "Gilgamesh",
 		"adjective": ["Sumer"],
@@ -2046,7 +2005,7 @@
 			"Örebro","Lahti","Helsingborg","Jönköping","Kuopio","Norrköping","Sundsvall","Kouvola","Karlstad","Umeå",
 			"Pori","Ystad","Paviken","Vaasa"]
 	},
-				{
+	{
 		"name": "Tibet",
 		"leaderName": "Ngawang Lobsang Gyatso",
 		"adjective": ["Tibetan"],
@@ -2068,12 +2027,10 @@
 		"uniques": ["[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] [in capital] <after discovering [Drama and Poetry]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Education]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Acoustics]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Industrialization]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Radio]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Radar]>","[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] <after discovering [Telecommunications]>"],
 		"cities": ["Lhasa","Xigaze","Qamdo","Nagqu","Nyingchi","Ngari","Lhoka","Chengguan","Doilungdeqen","Lhunzhub","Damxung","Maizhokunggar","Quxu"]
 	},
-				{
+	{
 		"name": "Timurids",
 		"leaderName": "Timur",
 		"adjective": ["Timurid"],
-//		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2090,12 +2047,11 @@
 		"uniques": ["Gain a free [Ulugh Beg's Observatory] [in capital]"],
 		"cities": ["Samarkand","Herat","Balkh","Bukhara","Kabul","Nishapur","Urgench","Merv","Ghazni","Kandahar","Tashkent","Tabriz","Tiflis"]
 	},
-					{
+	{
 		"name": "Tonga",
 		"leaderName": "'Aho'eitu",
 		"adjective": ["Tonga"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2109,15 +2065,13 @@
 		"outerColor": [167,2,71],
 		"innerColor": [218,218,218],
 		"uniqueName": "The Friendly Islands",
-		"uniques": [/*"[+1 Gold, +1 Science] per [5] population in all cities"*/"[+1] Sight <for [All] units>"],
+		"uniques": ["[+1] Sight <for [All] units>"],
 		"cities": ["Mu'a","Nuku'alofa","Neiafu","Haveluoto","Vaini","Pangai","Ohonua","Agaha","Kolonga","Hihifo","Tafahi","Petani","Holonga"]
 	},
-					{
+	{
 		"name": "Turkey",
 		"leaderName": "Ataturk",
 		"adjective": ["Turkish"],
-//		"startBias": ["Forest"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2138,11 +2092,10 @@
 			"[+50]% Production when constructing [Broadcast Tower] buildings [in all cities]"],
 		"cities": ["Ankara","Istambul","Izmir","Bursa","Adana","Gaziantep","Konya","Antalya","Diyarbakir","Mersin","Kayseri","Eskisehir","Gebze"]
 	},
-						{
+	{
 		"name": "Ukraine",
 		"leaderName": "Yaroslav I",
 		"adjective": ["Ukrainian"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2156,7 +2109,7 @@
 		"outerColor": [21,34,78],
 		"innerColor": [255,233,142],
 		"uniqueName": "The Way of Chumaks",
-		"uniques": ["[+1 Food] from every [Maize] <after discovering [The Wheel]>","[+1 Food] from every [Wheat] <after discovering [The Wheel]>","[+1 Food] from every [Salt] <after discovering [The Wheel]>", "[+2 Gold] from each Trade Route"]
+		"uniques": ["[+1 Food] from every [Maize] <after discovering [The Wheel]>","[+1 Food] from every [Wheat] <after discovering [The Wheel]>","[+1 Food] from every [Salt] <after discovering [The Wheel]>", "[+2 Gold] from each Trade Route"],
 		"cities": ["Kiev","Kharkiv","Zaporizhia","Odessa","Dnipropetrovsk","Donetsk","Luhansk","Zhytomyr","Lviv","Kryvyi Rih","Chernihiv","Mariupol","Mykolaiv"]
 	},
 	{
@@ -2164,7 +2117,6 @@
 		"leaderName": "Enrico Dandolo",
 		"adjective": ["Venetian"],
 		"startBias": ["Coast"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "Greetings, most astute Doge Enrico Dandolo of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
 		"startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
@@ -2182,12 +2134,11 @@
 		"cities": ["Venice","Ragusa","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato","Veroz","Ravenna","Negroponte","Athens","Burano","Leonessa","Cerigo"]
 		
 	},
-							{
+	{
 		"name": "Vietnam",
 		"leaderName": "Pham Van Dong",
 		"adjective": ["Vietnamese"],
 		"startBias": ["Marsh","Flood plains"],
-//		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2209,7 +2160,6 @@
 		"leaderName": "Owain Glyndwr",
 		"adjective": ["Welsh"],
 		"startBias": ["Hill"],
-//		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
@@ -2226,11 +2176,34 @@
 		"uniques": ["[+1 Food, +1 Gold] from every [Sheep]","[+15]% combat bonus for [Non-City] units fighting in [Hill]"],
 		"cities": ["Cardiff","Swansea","Casnewydd","Wrecsam","Y Barri","Cwmbran","Pen-y-bont ar Ogwr","Lianelli","Penrhyndeudraeth","Caerffili","Ynysybwl","Pont-y-pwl","Cefn-Mawr","Coed Duon"]
 	},
-					{
+	{
+		"name": "Yugoslavia",
+		"leaderName": "Aleksandar I",
+		"adjective": ["Yugoslav"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome, mighty leader.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [26,49,119],
+		"innerColor": [220,88,83],
+		"uniqueName": "Non-Aligned Doctrine",
+		"uniques": ["Free Social Policy <upon adopting [Ideology]>",
+		"[+1 Gold] from every specialist [in all cities] <after adopting [Autocracy]>","[+2 Production, +2 Science] [in all cities] <after adopting [Autocracy]>",
+		"[+15]% Production when constructing [Land] units [in all cities] <after adopting [Freedom]>","[+2 Production, +2 Science] [in all cities] <after adopting [Freedom]>",
+		"[+15]% Production when constructing [Land] units [in all cities] <after adopting [Order]>","[+1 Gold] from every specialist [in all cities] <after adopting [Order]>"],
+		"cities": ["Belgrade","Zagreb","Sarajevo","Skopje","Ljubljana","Split","Pristina","Novi Sad","Nis","Banja","Rijeka","Maribor","Mostar","Osijek","Zadar","Kragujeva","Tuzla","Subotica","Pula","Prizren"]
+	},
+	{
 		"name": "Zimbabwe",
 		"leaderName": "Nyatsimba Mutota",
 		"adjective": ["Zimbabwe"],
-//		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": " ",
@@ -2275,460 +2248,765 @@
 	},	        	
 	//City-States
 	{
-		"name": "Djibouti",
-		"adjective": ["Djibouti"],
-		"cityStateType": "Cultured",
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [185,132,66],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Djibouti"]
-	},
-	{
-		"name": "Florence",
-		"adjective": ["Florentine"],
-		"cityStateType": "Cultured",
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "And so the flower of Florence falls to barbaric hands...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [62,197,252],
-			"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Florence"]
-	},
-	{
-		"name": "Mombasa",
-		"adjective": ["Kenyan"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "Our tribe must prosper... and you must fall.",
-		"attacked": "We always like a good challenge. I'm lookingforward to see your pathetic armies being ginded to dust!",
-		"defeated": "Very well, then... we shall serve you forevermore.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211, 220, 103],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Mombasa"]
-	},
-	{
-		"name": "Vaduz",
-		"adjective": ["Vaduz"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [194,97,255],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Vaduz"]
-	},
-	{
-		"name": "Belgrade",
-		"adjective": ["Serbian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "My ambitions are too big to be contained... And it is a shame that I have to use them to destroy you.",
-		"attacked": "Go ahead then! You will die before setting one foot in our country!",
-		"defeated": "Pathetic... We can prosper as much as we want, yet we can ultimately fall, no matter what.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211,180,113],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Belgrade"]
-	},
-	{
-		"name": "Mohenjo-Daro",
-		"adjective": ["Mohenjo-Daro"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,97,255],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Mohenjo-Daro"]
-	},
-	{
-		"name": "Bangkok",
-		"adjective": ["Bangkok"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
-		"defeated": "What treachery has struck us? No, what evil?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,69,0],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Bangkok"]
-	},
-	{
-		"name": "Tallinn",
-		"adjective": ["Tallinn"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [45,255,86],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Tallinn"]
-	},
-	{
-		"name": "Brussels",
-		"adjective": ["Bruxellois"],
-		"cityStateType": "Cultured",
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,255,51],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Brussels"]
-	},
-	{
-		"name": "Kabul",
-		"adjective": ["Kabul"],
-		"cityStateType": "Cultured",
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [168,38,102],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Kabul"]
-	},
-	{
-		"name": "Meroe",
-		"adjective": ["Meroese"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "What a fine battle! Sidon is willing to serve you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [250,128,114],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Meroe"]
-	},
-	{
-		"name": "Almaty",
-		"adjective": ["Almaty"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How could we fall to the likes of you?!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [152,0,241],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Almaty"]
-	},
-	{
-		"name": "Havana",
-		"adjective": ["Havana"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
-		"attacked": "Traitorous man! The Bulgarian peoples will not stand for such wanton abuse and slander - I shall have your head!",
-		"defeated": "Vile ruler, know that you 'won' this war in name only!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Havana"]
-	},
-	{
-		"name": "Singapore",
-		"adjective": ["Singaporean"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps, in another world, we could have been friends...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,0],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Singapore"]
-	},
-	{
-		"name": "Zanzibar",
-		"adjective": ["Zanzibar"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,255],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Zanzibar"]
-	},
-	{
-		"name": "Phnom Penh",
-		"adjective": ["Phnom Penh"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
-		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
-		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,204,204],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Phnom Penh"]
-	},
-	{
-		"name": "Cape Town",
-		"adjective": ["Cape Town"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,153],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Cape Town"]
-	},
-	{
-		"name": "Kathmandu",
-		"adjective": ["Kathmandu"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [151,125,0],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Kathmandu"]
-	},
-	{
-		"name": "Hanoi",
-		"adjective": ["Hanoi"],
+		"name": "Baku",
+		"adjective": ["Azerbaijani"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [51,51,255],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Hanoi"]
+		"innerColor": [128, 179, 255],
+		"uniques": [],
+		"cities": ["Baku"]
+	},
+	{
+	  "name": "Chaco Canyon",
+	  "adjective": ["Chacoan"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 217, 143],
+	  "uniques": [],
+	  "cities": ["Chaco Canyon"]
+	},
+	{
+	  "name": "Djibouti",
+	  "adjective": ["Djiboutian"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [230, 166, 82],
+	  "uniques": [],
+	  "cities": ["Djibouti"]
+	},
+	{
+	  "name": "Kuala Lumpur",
+	  "adjective": ["Kuala Lumpur"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 255, 43],
+	  "uniques": [],
+	  "cities": ["Kuala Lumpur"]
+	},
+	{
+		"name": "Kuwait City",
+		"adjective": ["Kuwati"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [230,230,230],
+		"uniques": [],
+		"cities": ["Kuwait City"]
+	},
+	{
+	  "name": "Kyzyl",
+	  "adjective": ["Kyzyl"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [0, 163, 181],
+	  "uniques": [],
+	  "cities": ["Kyzyl"]
+	},
+	{
+	  "name": "Ljubljana",
+	  "adjective": ["Slovenian"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [18,204,245],
+	  "uniques": [],
+	  "cities": ["Ljubljana"]
+	},
+	{
+	  "name": "Luxembourg",
+	  "adjective": ["Luxembourg"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [54, 102, 255],
+	  "uniques": [],
+	  "cities": ["Luxembourg"]
+	},
+	{
+	  "name": "Monaco",
+	  "adjective": ["Monaco"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [196, 87, 255],
+	  "uniques": [],
+	  "cities": ["Monaco"]
+	},
+	{
+	  "name": "Montevideo",
+	  "adjective": ["Montevidean"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [125, 224, 0],
+	  "uniques": [],
+	  "cities": ["Montevideo"]
+	},
+	{
+	  "name": "Nicosia",
+	  "adjective": ["Nicosia"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [172, 30, 185],
+	  "uniques": [],
+	  "cities": ["Nicosia"]
+	},
+	{
+	  "name": "Reykjavik",
+	  "adjective": ["Reykjavik"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [128,255,128],
+	  "uniques": [],
+	  "cities": ["Reykjavik"]
+	},
+	{
+	  "name": "Teheran",
+	  "adjective": ["Teheranian"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [172, 30, 185],
+	  "uniques": [],
+	  "cities": ["Teheran"]
+	},
+	{
+	  "name": "Thimphu",
+	  "adjective": ["Thimphuan"],
+	  "cityStateType": "Cultured",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [54, 102, 255],
+	  "uniques": [],
+	  "cities": ["Thimphu"]
+	},
+	{
+	  "name": "Bangkok",
+	  "adjective": ["Bangkokian"],
+	  "cityStateType": "Maritime",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [179, 154, 255],
+	  "uniques": [],
+	  "cities": ["Bangkok"]
+	},
+	{
+	  "name": "Cape Town",
+	  "adjective": ["Cape"],
+	  "cityStateType": "Maritime",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [230, 166, 82],
+	  "uniques": [],
+	  "cities": ["Cape Town"]
 	},
 	{
 		"name": "Islamabad",
-		"adjective": ["Islamabad"],
-		"cityStateType": "Cultured",
+		"adjective": ["Islamabadi"],
+		"cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
+    "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [51,102,0],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
+		"innerColor": [54,102,255],
+		"uniques": [],
 		"cities": ["Islamabad"]
 	},
 	{
-		"name": "Hong Kong",
-		"adjective": ["Hong Kong"],
-		"cityStateType": "Maritime",
+	  "name": "Kampala",
+	  "adjective": ["Kampalan"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,178,102],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Hong Kong"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [172, 30, 185],
+	  "uniques": [],
+	  "cities": ["Kampala"]
 	},
 	{
-		"name": "Kuala Lumpur",
-		"adjective": ["KLite"],
-		"cityStateType": "Cultured",
+	  "name": "Lima",
+	  "adjective": ["Liman"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Today, the Malay people obey you, but do not think this is over...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Kuala Lumpur"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [196, 87, 255],
+	  "uniques": [],
+	  "cities": ["Lima"]
 	},
 	{
-		"name": "Manila",
-		"adjective": ["Manilan"],
-		"cityStateType": "Maritime",
+	  "name": "Lusaka",
+	  "adjective": ["Lusakan"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Ah, Gods! Why have you forsaken us?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [96,96,96],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Manila"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [125, 224, 0],
+	  "uniques": [],
+	  "cities": ["Lusaka"]
 	},
 	{
-		"name": "Lhasa",
-		"translatedName": "Lhasa",
-		"adjective": ["tibetano"],
-		"cityStateType": "Religious",
+	  "name": "Mogadishu",
+	  "adjective": ["Mogadishu"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [204,102,0],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Lhasa"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [128, 179, 255],
+	  "uniques": [],
+	  "cities": ["Mogadishu"]
 	},
 	{
-		"name": "Lima",
-		"translatedName": "Lima",
-		"adjective": ["Lima"],
-		"cityStateType": "Maritime",
+	  "name": "Ormus",
+	  "adjective": ["Ormus"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
-		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
-		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,255,128],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Lima"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [179, 179, 179],
+	  "uniques": [],
+	  "cities": ["Ormus"]
 	},
 	{
-		"name": "M'Banza-Kongo",
-		"adjective": ["M'Banza-Kongo"],
-		"cityStateType": "Militaristic",
+	  "name": "Panama City",
+	  "adjective": ["Panamanian"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
-		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
-		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,128,0],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["M'Banza-Kongo"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 255, 128],
+	  "uniques": [],
+	  "cities": ["Panama City"]
 	},
 	{
-		"name": "Mogadishu",
-		"adjective": ["Mogadishu"],
-		"cityStateType": "Maritime",
+	  "name": "Paramaribo",
+	  "adjective": ["Paramaribos"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conquerer. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [224,224,224],
-		"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Mogadishu"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 217, 143],
+	  "uniques": [],
+	  "cities": ["Paramaribo"]
 	},
 	{
-		"name": "Bratislava",
-		"adjective": ["Bratislava"],
-		"cityStateType": "Religious",
+	  "name": "Phnom Penh",
+	  "adjective": ["Phnom Penher"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "I didn't want to do this. We declare war.",
-		"attacked": "I will fear no evil. For god is with me!",
-		"defeated": "Why have you forsaken us my lord?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,255],
-				"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Bratislava"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [25,75,235],
+	  "uniques": [],
+	  "cities": ["Phnom Penh"]
 	},
 	{
-		"name": "Cahokia",
-		"adjective": ["Cahokia"],
-		"cityStateType": "Religious",
+	  "name": "Port-au-Prince",
+	  "adjective": ["Haitian"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [203, 253, 232],
-				"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Cahokia"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [128, 255, 128],
+	  "uniques": [],
+	  "cities": ["Port-au-Prince"]
 	},
 	{
-		"name": "Teipei",
-		"adjective": ["Teipei"],
-		"cityStateType": "Religious",
+	  "name": "Riga",
+	  "adjective": ["Rigan"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [198,255,192],
-				"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Teipei"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [18,204,245],
+	  "uniques": [],
+	  "cities": ["Riga"]
 	},
-		{
-		"name": "La Venta",
-		"adjective": ["Olmec"],
-		"cityStateType": "Religious",
+	{
+	  "name": "Santo Domingo",
+	  "adjective": ["Dominican"],
+	  "cityStateType": "Maritime",
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [95,202,232],
-				"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["La Venta"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [0,163,181],
+	  "uniques": [],
+	  "cities": ["Santo Domingo"]
 	},
-		{
-		"name": "Ife",
-		"adjective": ["Nigerian"],
-		"cityStateType": "Religious",
+	{
+	  "name": "Cahokia",
+	  "adjective": ["Cahokia"],
+	  "cityStateType": "Mercantile",
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [184,184,184],
-				"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Ife"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [230, 230, 230],
+	  "uniques": [],
+	  "cities": ["Cahokia"]
 	},
-			{
-		"name": "Wittenberg",
-		"adjective": ["Wittenbergian"],
-		"cityStateType": "Religious",
+	{
+	  "name": "Colombo",
+	  "adjective": ["Colombo"],
+	  "cityStateType": "Mercantile",
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [156,206,214],
-				"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Wittenberg"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [179, 154, 255],
+	  "uniques": [],
+	  "cities": ["Colombo"]
 	},
-			{
-		"name": "Geneva",
-		"adjective": ["Swiss"],
-		"cityStateType": "Religious",
+	{
+	  "name": "Dubai",
+	  "adjective": ["Emirati"],
+	  "cityStateType": "Mercantile",
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [27,90,192],
-				"uniques": ["Gain a free [~CS] [in all cities]"],
-		"cities": ["Geneva"]
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [25, 75, 235],
+	  "uniques": [],
+	  "cities": ["Dubai"]
+	},
+	{
+	  "name": "Gaborone",
+	  "adjective": ["Gaboronian"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 217, 143],
+	  "uniques": [],
+	  "cities": ["Gaborone"]
+	},
+	{
+	  "name": "Hong Kong",
+	  "adjective": ["Hong Kong"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [54, 102, 255],
+	  "uniques": [],
+	  "cities": ["Hong Kong"]
+	},
+	{
+	  "name": "Lagos",
+	  "adjective": ["Lagosian"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [128, 255, 128],
+	  "uniques": [],
+	  "cities": ["Lagos"]
+	},
+	{
+	  "name": "Malacca",
+	  "adjective": ["Malacca"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [18, 204, 245],
+	  "uniques": [],
+	  "cities": ["Malacca"]
+	},
+	{
+	  "name": "Maseru",
+	  "adjective": ["Maseru"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [128, 179, 255],
+	  "uniques": [],
+	  "cities": ["Maseru"]
+	},
+	{
+	  "name": "Mohenjo-Daro",
+	  "adjective": ["Mohenjo"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [125, 224, 0],
+	  "uniques": [],
+	  "cities": ["Mohenjo-Daro"]
+	},
+	{
+	  "name": "Singapore",
+	  "adjective": ["Singaporean"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 255, 128],
+	  "uniques": [],
+	  "cities": ["Singapore"]
+	},
+	{
+	  "name": "Tallinn",
+	  "adjective": ["Tallinner"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [0, 163, 181],
+	  "uniques": [],
+	  "cities": ["Tallinn"]
+	},
+	{
+	  "name": "Trieste",
+	  "adjective": ["Triestian"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [230, 166, 82],
+	  "uniques": [],
+	  "cities": ["Trieste"]
+	},
+	{
+	  "name": "Vaduz",
+	  "adjective": ["Liechtensteiner"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [196, 87, 255],
+	  "uniques": [],
+	  "cities": ["Vaduz"]
+	},
+	{
+	  "name": "Zurich",
+	  "adjective": ["Zurich"],
+	  "cityStateType": "Mercantile",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [179, 179, 179],
+	  "uniques": [],
+	  "cities": ["Zurich"]
+	},
+	{
+	  "name": "Andorra",
+	  "adjective": ["Andorran"],
+	  "cityStateType": "Militaristic",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [230, 166, 82],
+	  "uniques": [],
+	  "cities": ["Andorra"]
+	},
+	{
+	  "name": "Colchis",
+	  "adjective": ["Colchis"],
+	  "cityStateType": "Militaristic",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [172, 30, 185],
+	  "uniques": [],
+	  "cities": ["Colchis"]
+	},
+	{
+	  "name": "Cyrene",
+	  "adjective": ["Cyreni"],
+	  "cityStateType": "Militaristic",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [18, 204, 245],
+	  "uniques": [],
+	  "cities": ["Cyrene"]
+	},
+	{
+	  "name": "Harappa",
+	  "adjective": ["Harappan"],
+	  "cityStateType": "Militaristic",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [179, 154, 255],
+	  "uniques": [],
+	  "cities": ["Harappa"]
+	},
+	{
+	  "name": "Havana",
+	  "adjective": ["Habanero"],
+	  "cityStateType": "Militaristic",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [128, 255, 128],
+	  "uniques": [],
+	  "cities": ["Havana"]
+	},
+	{
+	  "name": "Tirana",
+	  "adjective": ["Tirana"],
+	  "cityStateType": "Militaristic",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [125, 224, 0],
+	  "uniques": [],
+	  "cities": ["Tinana"]
+	},
+	{
+	  "name": "Troy",
+	  "adjective": ["Trojan"],
+	  "cityStateType": "Militaristic",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [179, 179, 179],
+	  "uniques": [],
+	  "cities": ["Troy"]
+	},
+	{
+	  "name": "Valletta",
+	  "adjective": ["Valletta"],
+	  "cityStateType": "Militaristic",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 255, 43],
+	  "uniques": [],
+	  "cities": ["Valletta"]
+	},
+	{
+	  "name": "Geneva",
+	  "adjective": ["Geneva"],
+	  "cityStateType": "Religious",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [25, 75, 235],
+	  "uniques": [],
+	  "cities": ["Geneva"]
+	},
+	{
+	  "name": "Ife",
+	  "adjective": ["Ife"],
+	  "cityStateType": "Religious",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [179, 179, 179],
+	  "uniques": [],
+	  "cities": ["Ife"]
+	},
+	{
+	  "name": "Kathmandu",
+	  "adjective": ["Kathmandu"],
+	  "cityStateType": "Religious",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [196, 87, 255],
+	  "uniques": [],
+	  "cities": ["Kathmandu"]
+	},
+	{
+	  "name": "La Venta",
+	  "adjective": ["La Venta"],
+	  "cityStateType": "Religious",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [18, 204, 245],
+	  "uniques": [],
+	  "cities": ["La Venta"]
+	},
+	{
+	  "name": "Qufu",
+	  "adjective": ["Qufu"],
+	  "cityStateType": "Religious",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 255, 128],
+	  "uniques": [],
+	  "cities": ["Qufu"]
+	},
+	{
+	  "name": "Sarajevo",
+	  "adjective": ["Sarajlija"],
+	  "cityStateType": "Religious",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [128, 255, 128],
+	  "uniques": [],
+	  "cities": ["Sarajevo"]
+	},
+	{
+	  "name": "Taipei",
+	  "adjective": ["Taipei"],
+	  "cityStateType": "Religious",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [230, 230, 230],
+	  "uniques": [],
+	  "cities": ["Taipei"]
+	},
+	{
+	  "name": "Wittenberg",
+	  "adjective": ["Wittenberg"],
+	  "cityStateType": "Religious",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [179, 154, 255],
+	  "uniques": [],
+	  "cities": ["Wittenberg"]
 	},
 
 	//Barbarian
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [185,12,12],
+		"innerColor": [184,0,0],
 		"uniques": ["Can only heal by pillaging"]
 	}
 ]

@@ -3,195 +3,195 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Mounted Ranged","Paratrooping"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Mounted Ranged","Paratrooping"]
     },
 
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Mounted Ranged"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Mounted Ranged"]
     },
 	{
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
     },
 	{
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
     },
 
 	{
 		"name": "Barrage I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
 	},
 	{
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
 	},
 	{
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
 	},
 	{
 		"name": "Anti-Naval I",
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"],
+		"unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
 	},
 	{
 		"name": "Anti-Naval II",
 		"prerequisites": ["Anti-Naval I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"],
+		"unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
 	},
 	{
 		"name": "Anti-Naval III",
 		"prerequisites": ["Anti-Naval II"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"],
+		"unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
 	},
 	{
 		"name": "Volley",
 		"prerequisites": ["Accuracy I","Barrage I","Anti-Naval I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
 	},
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting II","Bombardment II"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"]
 	},
 	{
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III", "Barrage III","Anti-Naval III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","Mounted Ranged","Ranged Gunpowder","Siege","Ranged Water"],
+		"unitTypes": ["Archery","Mounted Ranged","Ranged Gunpowder","Siege","Ranged Water"]
 	},
 
 	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
 	},
 
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
 	},
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Armored"],
+		"unitTypes": ["Mounted","Armored"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping"]
 	},
 
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
 	},
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping"]
 	},
 	{
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping"]
 	},
 	{
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
 	},
 
 	// Scout
 	{
 		"name": "Scouting I",
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"],
+		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"],
+		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Scout"],
+		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Survivalism I",
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout"],
+		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout"],
+		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
-		"unitTypes": ["Scout"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([50]%)"],
+		"unitTypes": ["Scout"]
 	},
 
 
@@ -199,37 +199,37 @@
 	{
 		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Melee Water"]
 	},
 
 	{
 		"name": "Coastal Raider I",
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Melee Water"]
 	},
 	/*{
 		"name": "Landing Party",
@@ -241,76 +241,74 @@
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","Submarine"],
+		"unitTypes": ["Ranged Water","Submarine"]
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","Submarine"],
+		"unitTypes": ["Ranged Water","Submarine"]
 	},
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","Submarine"],
+		"unitTypes": ["Ranged Water","Submarine"]
 	},
 
 	// Submarine
 	{
 		"name": "Wolfpack I",
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
+		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
+		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
+		"unitTypes": ["Submarine"]
 	},
 
 	// Aircraft Carrier
 	{
 		"name": "Armor Plating I",
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier"],
-        "column": 15,
-        "row": 2
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Flight Deck I",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Flight Deck II",
 		"prerequisites": ["Flight Deck I"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Flight Deck III",
 		"prerequisites": ["Flight Deck II"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 
 	// Mixed Water
@@ -318,118 +316,118 @@
 		"name" : "Supply",
 		"prerequisites": ["Bombardment II", "Targeting II", "Boarding Party II", "Coastal Raider II","Wolfpack II","Flight Deck II","Armor Plating II"],
 		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
-		"unitTypes": ["Melee Water", "Ranged Water","Aircraft Carrier","Submarine"],
+		"unitTypes": ["Melee Water", "Ranged Water","Aircraft Carrier","Submarine"]
 	},
 
 	// Bomber
 	{
 		"name": "Siege I",
 		"uniques": ["[+33]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
 		"uniques": ["[+34]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Evasion",
 		"prerequisites": ["Siege II", "Bombardment II","Air Targeting II"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber"]
 	},
 
 	// Aircraft
 	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
 		"uniques": ["[+34]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Dogfighting I",
 		"uniques": ["[+33]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Dogfighting II",
 		"prerequisites": ["Dogfighting I"],
 		"uniques": ["[+33]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Dogfighting III",
 		"prerequisites": ["Dogfighting II"],
 		"uniques": ["[+34]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Air Targeting I",
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Fighter","Bomber"],
+		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Fighter","Bomber"],
+		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Targeting III",
 		"prerequisites": ["Air Targeting II"],
 		"uniques": ["[+34]% Strength <vs [Water] units>"],
-		"unitTypes": ["Fighter","Bomber"],
+		"unitTypes": ["Fighter","Bomber"]
 	},
 
 	{
 		"name": "Sortie",
 		"prerequisites": ["Interception II", "Dogfighting II"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Fighter"]
 	},
 
 	{
 		"name": "Operational Range",
 		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Bombardment I","Air Targeting I"],
 		"uniques": ["[+2] Range"],
-		"unitTypes": ["Fighter","Bomber"],
+		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Repair",
 		"prerequisites": ["Interception III","Dogfighting III","Siege III","Bombardment III","Air Targeting III","Mobility II","Ambush Formation II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 
 	// Helicopter
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter"]
 	},
 	{
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter"]
 	},
 	/*{
 		"name": "Anti-Armor I",
@@ -446,42 +444,42 @@
 	// Mixed
 	{
 		"name": "Cover I",
-		"prerequisites": ["Shock I","Drill I","Accuracy I","Barrage I"],
+		"prerequisites": ["Shock I","Drill I","Accuracy I","Barrage I","Anti-Naval I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"]
 	},
 	{
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"]
 	},
 
 	{
 		"name": "March",
-		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"prerequisites": ["Accuracy II","Barrage II","Anti-Naval II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Mounted"]
 	},
 	{
 		"name": "Mobility",
 		"prerequisites": ["Shock III","Drill III","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier"],
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier"]
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
 	},
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III","Ambush Formation II","Air Targeting III","Mobility II"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","Mounted Ranged","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Bomber","Helicopter"],
+		"unitTypes": ["Archery","Mounted Ranged","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Bomber","Helicopter"]
 	},
 	{
 		"name": "Heli",
@@ -491,13 +489,13 @@
 		"name": "Ambush Formation I",
 		"prerequisites": ["Drill I","Shock I","Interception I","Dogfighting I","Siege I","Bombardment I","Heli"],
 		"uniques": ["[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
 	},
 	{
 		"name": "Ambush Formation II",
 		"prerequisites": ["Ambush Formation I"],
 		"uniques": ["[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
 	},
 
 
@@ -505,19 +503,19 @@
 	{
 		"name": "Bombardment I",
 		"uniques": ["[+25]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
 		"uniques": ["[+25]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
 		"uniques": ["[+25]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 
 	// Uniques that should be kept on upgrades
@@ -605,12 +603,17 @@
     {
         "name": "[Chu-Ko-Nu] ability",
         "uniques": ["[1] additional attacks per turn"]
-    }
+    },
+  
+	{
+		"name": "[M-84] ability",
+		"uniques": ["Ignores Zone of Control"]
+	},
 	{
 		"name": "Leadership",
 		"uniques": [
 		  "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles","Great Person - [War]"]
-	}
+	},
 	{
 		"name": "Dojo", // Japan
 		"uniques": ["[+10]% Strength"]
@@ -622,10 +625,6 @@
 	{
 		"name": "War Canoes", // Songhai
 		"uniques": ["Defense bonus when embarked"]
-	},
-	{
-		"name": "Air Recon", // Air units
-		"uniques": ["[+4] Sight", "Can see over obstacles"]
 	},
 	{
 		"name": "Homeland Guardian", // only for Berber Cavalry and subsequent upgrades
@@ -707,31 +706,31 @@
 	},
 	{
 		"name": "Manjakatsiroa",
-		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Mosasa",
-		"uniques": ["[+4] Sight","[+4] Range"]
+		"uniques": ["[+4] Sight","[+4] Range"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Ambohimanambola",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Sehatra",
-		"uniques": ["Heals [100] damage if it kills a unit"]
+		"uniques": ["Heals [100] damage if it kills a unit"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
 	{
 		"name": "Lambamena",
-		"uniques": ["[+100]% Strength <vs cities>"]
+		"uniques": ["[+100]% Strength <vs cities>"],
 		"prerequisites": ["Sampy"],
 		"unitTypes": ["Archery", "Mounted Ranged"]
 	},
@@ -809,6 +808,6 @@
 		"uniques": ["[+1] Movement","[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Armored] units>"],
 		"prerequisites": ["Pünktlichkeit"],
 		"unitTypes": ["Sword","Mounted","Scout","Siege","Archery", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
-	},
+	}
 
 ]
