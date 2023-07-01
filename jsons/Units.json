@@ -863,7 +863,7 @@
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 25,
-		"cost": 118,
+		"cost": 65,
 		"requiredTech": "Civil Service",
 		"promotions": ["Medic","Medic II"],
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","Unbuildable","Can be purchased with [Gold] [in all cities]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],

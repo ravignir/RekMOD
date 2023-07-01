@@ -649,19 +649,19 @@
 	{
 		"name": "Ambition",
 		"uniques": ["[+50]% Strength <when attacking>"],
-		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
+		"prerequisites": ["Mystic Blade"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Invulnerability",
 		"uniques": ["All healing effects doubled"],
-		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
+		"prerequisites": ["Mystic Blade"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Restlessness",
 		"uniques": ["[1] additional attacks per turn"],
-		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
+		"prerequisites": ["Mystic Blade"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
