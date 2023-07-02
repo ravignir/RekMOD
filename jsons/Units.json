@@ -2569,6 +2569,7 @@
 	{
 		"name": "Missionary",
 		"unitType": "Civilian",
+		"cost": 100,
 		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
@@ -2578,6 +2579,7 @@
 	{
 		"name": "Inquisitor",
 		"unitType": "Civilian",
+		"cost": 100,
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [1] times",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
@@ -2593,6 +2595,7 @@
 		"range": 1,
 		"strength": 8,
 		"rangedStrength": 14,
+		"cost": 100,
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [1] times",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
