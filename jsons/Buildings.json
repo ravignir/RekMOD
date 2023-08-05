@@ -225,6 +225,7 @@
 		"name": "Mala'e",
 		"replaces": "Granary",
 		"uniqueTo": "Tonga",
+		"faith": 1,
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -233,7 +234,7 @@
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Maize] tiles [in this city]",
-			"[+2 Food, +2 Faith, +2 Culture] <with [3] to [6] neighboring [Coast] tiles>"],
+			"[+2 Food, +2 Culture] <with [3] to [6] neighboring [Coast] tiles>"],
 		"requiredTech": "Sailing"
 	},
 	{
@@ -892,6 +893,7 @@
 		"name": "Candi", 
 		"replaces": "Garden",
 		"uniqueTo": "Indonesia",
+		"cost": 90,
 		"faith": 6,
 		"uniques": ["[+20]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
@@ -1458,7 +1460,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city","[+1 Production] from [Hill] tiles [in this city]","[+6 Culture] <after discovering [Flight]>"],
-		"requiredTech": "Machinery"
+		"requiredTech": "Metal Casting"
 	},
 	{
 		"name": "Notre Dame",

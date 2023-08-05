@@ -10,7 +10,6 @@
 		"leaderName": "Sargon",
 		"adjective": ["Akkadian"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "If you are truly a worthy ruler yourself, then prepare for war!",
@@ -26,13 +25,12 @@
 		"uniques": ["[+2 Happiness, +3 Culture, +1 Production] [in annexed cities]","[+15]% Strength <for [Land] units> <vs cities>"],
 		"cities": ["Akkad","Sipar","Kish","Tell Brak","Nippur","Tell Leilan","Marad","Umma","Azupiranu","Nuzi","Eshnunna"]
 	},
-		{
+	{
 		"name": "Aksum",
 		"leaderName": "Ezana",
 		"adjective": ["Aksumite"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "I had a vision from God himself, and he has told me to smite you down!",
@@ -53,7 +51,6 @@
 		"leaderName": "George Washington",
 		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "Welcome President Washington! You lead the industrious American civilization! Formed in the conflagration of revolution in the 18th century, within a hundred years, the young nation became embroiled in a terrible civil war that nearly tore the country apart, but it was just a few short years later in the 20th century that the United States reached the height of its power, emerging triumphant and mighty from the two terrible wars that destroyed so many other great nations. The United States is a nation of immigrants, filled with optimism and determination. They lack only a leader to help them fulfill their promise.",
 		"startIntroPart2": "President Washington, can you lead the American people to greatness? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
@@ -80,7 +77,6 @@
 		"adjective": ["Arabian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "Blessings of God be upon you oh great caliph Harun al-Rashid, leader of the pious Arabian people! The Muslim empire, the Caliphate was born in the turbulent years after the death of the prophet Muhammad in 632 AD, as his followers sought to extend the rule of God to all of the people of the earth. The caliphate grew mighty indeed at the height of its power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia. An empire as great as or even greater than that of Rome. The arts and sciences flourished in Arabia during the Middle Ages, even as the countries of Europe descended into ignorance and chaos. The Caliphate survived for six hundred years, until finally succumbing to attack from the Mongols, those destroyers of Empires.",
 		"startIntroPart2": "Great Caliph Harun al Rashid, your people look to you to return them to greatness! To make Arabia once again an enlightened land of arts and knowledge, a powerful nation who needs fear no enemy! Oh Caliph, will you take up the challenge? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "The world will be more beautiful without you. Prepare for war.",
@@ -107,7 +103,6 @@
 		"leaderName": "Eva Peron",
 		"adjective": ["Argentinan"],
 		"preferredVictoryType": "Scientific",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -129,7 +124,6 @@
 		"adjective": ["Armenian"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "The angels's trumpet has blown! The holy blades of my soldiers shall be your demise!",
@@ -151,7 +145,6 @@
 		"adjective": ["Assyrian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": "The people bow to your esteemed will, o wise and illustrious King Ashurbanipal of Assyria. Across the world, you are known as both a scholar and a warrior, and yet the legends represent merely a glimmer of your true ambition. Although your enemies cowered at the thought of your ferocity in conquest, you were most proud of your intellectual pursuits. Your thirst for knowledge led to your establishment of the royal library at Nineveh, which came to represent one of the greatest collections of ancient texts and tablets found anywhere in the world - securing your legacy as one of Assyria's greatest kings.",
 		"startIntroPart2": "Wise and fearsome king, the time has come for you to return the kingdom of Assyria to its greatest heights. Will you once again strive to acquire the knowledge and histories of all the world's peoples? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "I fear there is no other choice but to remove you from this world!",
@@ -175,7 +168,6 @@
 		"adjective": ["Australian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "The Commonwealth of Australia formally declare war on you!",
@@ -197,15 +189,12 @@
 		"adjective": ["Austrian"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Diplomatic",
-
 		"startIntroPart1": "Noble and virtuous Queen Maria Theresa, Holy Roman Empress and sovereign of Austria, the people bow to your gracious will. Following the death of your father King Charles VI, you ascended the thone of Austria during a time of great instability, but the empty coffers and diminished military did litle to dissuade your ambitions. Faced with war almost immediately upon your succession to the thron, you managed to fend off your foes, and in naming your husband Francis Stephen co-ruler, assured your place as Empress of the Holy Roman Empire. During your reigh, you guided Austria on a new path of reform - strengthening the military, replenishing the treasury, and improving the educational system of the kingdom.",
 		"startIntroPart2": "Oh great queen, bold and dignified, the time has come for you to rise and guide the kingdom once again. Can you return your people to the height of prosperity and splendor? Will you build a civilization that stands the test of time?",
-
 		"declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely.",
 		"attacked": "What a fool ye are! Ye will end swiftly and miserably.",
 		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
 		"introduction": "The archduchess of Austria welcomes your Eminence to... Oh let's get this over with! I have a luncheon at four o'clock.",
-
 		"neutralHello": "Hello!",
 		"hateHello": "Oh, it's ye!",
 		"tradeRequest": "I see you admire my new damask. Nobody should say that I am an unjust woman. Let's reach an agreement!",
@@ -225,7 +214,6 @@
 		"adjective": ["Ayyubid"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "The time has come to meet your end! For the Ayyubid Dynasty!",
@@ -247,7 +235,6 @@
 		"adjective": ["Aztec"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
-		
 		"startIntroPart1": "Welcome, O divine Montezuma! We grovel in awe at your magnificence! May the heaven shower all manner of good things upon you all the days of your life! Your are the leader of the mighty Aztec people, wandering nomads from a lost home in the north who in the 12th century came to live in the mesa central in the heart of what would come to be call Mexico. Surrounded by many tribes fighting to control the rich land surrounding the sacred lakes of Texoco, Xaltocan and Zampango. Through cunning alliances and martial prowess, within a mere two hundred years, the Aztecs came to dominate the Central American basin, ruling a mighty empire stretching from sea to sea. But the empire fell soon under the assault of the accursed Spaniards, wielding fiendish weapons the likes of which your faithful warriors had never seen.",
 		"startIntroPart2": "O great king Montezuma, your people call upon you once more, to rise up and lead them to glory, bring them wealth and power, and give them dominion over their foes and rivals. Will you answer their call, glorious leader? Will you build a civilization that stands the test of time?",
 		"declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
@@ -268,13 +255,11 @@
 			"Itzapalapa","Ayotzinco","Iztapam"]
 	},
 	{
-		
 		"name": "Babylon",
 		"leaderName": "Nebuchadnezzar II",
 		"adjective": ["Babylonian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "May the blessings of heaven be upon you, O great Nebuchadnezzar, father of mighty and ancient Babylon! Young was the world when Sargon built Babylon some five thousand years ago, long did it grow and prosper, gaining its first empire the eighteenth century BC, under godlike Hammurabi, the giver of law. Although conquered by the Kassites and then by the Assyrians, Babylon endured, emerging phoenix-like from its ashes of destruction and regaining its independence despite its many enemies. Truly was Babylon the center of arts and learning in the ancient world. O Nebuchadnezzar, your empire endured but a short time after your death, falling to the mighty Persians, and then to the Greeks, until the great city was destroyed by 141 BC.",
 		"startIntroPart2": "But is Babylon indeed gone forever, great Nebuchadnezzar? Your people look to you to bring the empire back to life once more. Will you accept the challenge? Will you build a civilization that will stand the test of time?",		
 		"declaringWar": "The demon wants the blood of soldiers!",
@@ -297,7 +282,6 @@
 		"name": "Belgium",
 		"leaderName": "Leopold II",
 		"adjective": ["Belgian"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -318,7 +302,6 @@
 		"leaderName": "Stephanus Johannes Paulus Kruger",
 		"adjective": ["Boers"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -340,7 +323,6 @@
 		"adjective": ["Brazilian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": "All Hail his most respected and magnanimous Emperor, Pedro II of Brazil. It was with great insight and unshakeable dignity that you ruled the Brazilian empire for over 50 years, ushering in a time of lasting peace and prosperity. Your reputation as a stern, but fair leader was never blemished by controversy, as your unwavering dedication to the people of Brazil provided hope and established the kingdom's position in South America. Your scholarly pursuits and staunch defense of freedom of speech led to the creation of several institutions of higher learning, strengthening Brazil's sense of national identity.",
 		"startIntroPart2": "Revered Emperor Pedro, your people long for a return to the peaceful days when you walked among them, hearing their stories and reassuring them of a bright future. Will you once again lead your kingdom to prosperity? Can you build a civilization that stands the test of time?",
 		"declaringWar": "Your reign will be better under MY domain.",
@@ -365,7 +347,6 @@
 		"adjective": ["Brunei"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -386,7 +367,6 @@
 		"leaderName": "Asparukh Khan",
 		"adjective": ["Bulgarian"],
 		"preferredVictoryType": "Scientific",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "I will enjoy watching your cities fall, one by one.",
@@ -399,14 +379,13 @@
 		"outerColor": [16, 106, 53],
 		"innerColor": [242, 251, 245],
 		"uniqueName": "Cyrillic Script",
-		"uniques": ["[+3 Science] from every [Artist]","[+3 Science] from every [Writer]","[+3 Science] from every [Musician]","[+1 Culture] from every [Library]","[+1 Culture] from every [University]","[+1 Culture] from every [Observatory]","[+1 Culture] from every [Public School]","[+1 Culture] from every [Research Lab]"],
+		"uniques": ["[+5 Science] from every [Artist]","[+5 Science] from every [Writer]","[+5 Science] from every [Musician]","[+1 Culture] from every [Library]","[+1 Culture] from every [University]","[+1 Culture] from every [Observatory]","[+1 Culture] from every [Public School]","[+1 Culture] from every [Research Lab]"],
 		"cities": ["Pliska","Preslav","Tarnovo","Plovdiv","Prilep","Sofia","Vidin","Nis","Kastoria","Skopje","Ohrid","Glavinitsa","Varna"]
 	},
 	{
 		"name": "Burma",
 		"leaderName": "Anawratha",
 		"adjective": ["Burma"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -427,7 +406,6 @@
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": "All hail the most magnificent and magnanimous Empress Theodora, beloved of Byzantium and of Rome! From the lowly ranks of actress and courtesan you became the most powerful woman in the Roman Empire, consort to Justinian I. Starting in the late 520's AD, you joined your husband in a series of important spiritual and legal reforms, creating many laws which elevated the status of and promoted equal treatment of women in the empire. You also aided in the restoration and construction of many aqueducts, bridges and churches across Constantinople, culminating in the creation of the Hagia Sophia, one of the most splendid architectural wonders of the world.",
 		"startIntroPart2": "Beautiful Empress, Byzantium is in need of your wisdom and strength - her people are lost without your light to lead them. The Byzantine Empire may have fallen once, but its spirit is still intact waiting to be reborn anew. Can you return Byzantium to the heights of glory it once enjoyed? Can you create a civilization to stand the test of time?",
 		"declaringWar": "It has always been a shame throwing away beauty. Thankfully, not like that.",
@@ -449,7 +427,6 @@
 		"name": "Canada",
 		"leaderName": "John A. MacDonald",
 		"adjective": ["Canadian"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -471,7 +448,6 @@
 		"adjective": ["Carthaginian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": "Blessings and salutations to you, revered Queen Dido, founder of the legendary kingdom of Carthage. Chronicled by the words of the great poet Virgil, your husband Acerbas was murdered at the hands of your own brother, King Pygmalion of Tyre, who subsequently claimed the treasures of Acerbas that were now rightfully yours. Fearing the lengths from which your brother would pursue this vast wealth, you and your compatriots sailed for new lands. Arriving on the shores of North Africa, you tricked the local king with the simple manipulation of an ox hide, laying out a vast expanse of territory for your new home, the future kingdom of Carthage.",
 		"startIntroPart2": "Clever and inquisitive Dido, the world longs for a leader who can provide a shelter from the coming storm, guided by brilliant intuition and cunning. Can you lead the people in the creation of a new kingdom to rival that of once mighty Carthage? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "Tell me, do you all know how numerous my armies, elephants and the gdadons are? No? Today, you shall find out!",
@@ -496,7 +472,6 @@
 		"adjective": ["Celtic"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": "Eternal glory and praise for you, fierce and vengeful Warrior Queen! In a time dominated by men, you not only secured your throne and sovereign rule, but also successfully defied the power of the Roman Empire. After suffering terrible punishment and humiliation at the hand of the Roman invaders, you rallied your people in a bloody and terrifying revolt. Legions fell under your chariot wheels and the city of London burned. While in the end the Romans retained ownership of the isles, you alone made Nero consider withdrawing all troops and leaving Briton forever.",
 		"startIntroPart2": "Oh sleeping lioness, your people desire that you rise and lead them again in the calling that is your namesake. Will you meet their challenge on the open field and lead the Celts to everlasting victory? Will you restore your lands and build an empire to stand the test of time?",
 		"declaringWar": "I've been watching you, you devious pigs! To guard patriots! March to war!",
@@ -520,7 +495,6 @@
 		"leaderName": "Wu Zetian",
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "The Blessings of Heaven be upon you. Empress Wu Zetian, most beautiful and haughty ruler of China! Oh great Empress, whose shadow causes the flowers to blossom and the rivers to flow! You are the leader of the Chinese, the oldest and the greatest civilization that humanity has ever produced. China's history stretches back into the mists of time, its people achieving many great things long before the other upstart civilizations were even conceived. China's contributions to the arts and sciences are too many and too wondrous to do justice to - the printing press, gunpowder, the works of Confucius - these are but a few of the gifts China has given to an undeserving world!",
 		"startIntroPart2": "You, great Queen, who, with cunning and beauty, rose from the position of lowly concubine to that of Divine Empress - your people call out to you to lead them! Great China is once again beset on all sides by barbarians. Can you defeat all your many foes and return your country to greatness? Can you build a civilization to stand the test of time?",
 		"declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
@@ -545,7 +519,6 @@
 		"adjective": ["Danish"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		
 		"startIntroPart1": "Honor and glory be yours, Harald Bluetooth Gormsson, mighty heir of King Gorm of the Old and Thryra Dannebod. Not only were you victorious on the battlefield against the armies of Norway, you also completed massive construction project across the land - numerous Ring Fortresses to protect the populace from invasion and internal strife. You successfully drove off waves of German settlers in 983 AD and sheltered your kingdom from unwanted foreign influence.",
 		"startIntroPart2": "Stalwart Viking, the time for greatness is upon you once more. You are called to rise up and lead your people to renewed power and trumph! Will you make the world shudder once more at the very thought of your great armies of the Northsmen? Will you let the Viking battle cry ring out across the crashing waved? Will you build a civilization to stand the test of time?",
 		"declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
@@ -572,7 +545,6 @@
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
 		"preferredVictoryType": "Cultural",
-		
 		"startIntroPart1": "We greet thee, oh great Ramesses, Pharaoh of Egypt, who causes the sun to rise and the Nile to flow, and who blesses his fortunate people with all the good things of life! Oh great lord, from time immemorial your people lived on the banks of the Nile river, where they brought writing to the world, and advanced mathematics, sculpture, and architecture. Thousands of years ago they created the great monuments which still stand tall and proud.",
 		"startIntroPart2": "Oh, Ramesses, for uncounted years your people endured, as other petty nations around them have risen and then fallen into dust. They look to you to lead them once more into greatness. Can you honor the gods and bring Egypt back to her rightful place at the very center of the world? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
@@ -598,7 +570,6 @@
 		"adjective": ["English"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-	
 		"startIntroPart1": "Praises upon her serene highness, Queen Elizabeth Gloriana. You lead and protect the celebrated maritime nation of England. England is an ancient land, settled as early as 35,000 years ago. The island has seen countless waves of invaders, each in turn becoming a part of the fabric of the people. Although England is a small island, for many years your people dominated the world stage. Their matchless navy, brilliant artists and shrewd merchants, giving them power and influence far in excess of their mere numbers.",
 		"startIntroPart2": "Queen Elizabeth, will you bring about a new golden age for the English people? They look to you once more to return peace and prosperity to the nation. Will you take up the mantle of greatness? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "By the grace of God, your days are numbered.",
@@ -622,7 +593,6 @@
 		"leaderName": "Haile Selassie",
 		"adjective": ["Ethiopian"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": "Blessings be upon you, honorable and righteous Emperor of Ethiopia, Haile Selassie. Your legacy as one of Ethiopia's greatest rulers, and as the spiritual leader to the Rastafarian movement, is outshone only by the influence you had on diplomacy and political cooperation throughout the world. In introducing Ethiopia's first written constitution, you planted the seeds of democracy that would take root over the coming years, and your infinitely wise grasp of global affairs secured Ethiopia's place as a charter member of the United Nations. Spearheading efforts to reform and modernize the nation during your reign, you changed the course of Ethiopian history forever.",
 		"startIntroPart2": "Revered king, your composed demeanor once protected the people from the many conflicts that plague the nations of men, and the kingdom looks to you to assure peace once again. Will you lead the people with courage and authority, moving forward into a new age? Will you build a civilization that stands the test of time?",
 		"declaringWar": "I tried so many ways but you continue doing craziness. I wish you a fast ending.",
@@ -646,7 +616,6 @@
 		"leaderName": "Mannerheim",
 		"adjective": ["Finnish"],
 		"preferredVictoryType": "Diplomatic",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -667,7 +636,6 @@
 		"leaderName": "Napoleon",
 		"adjective": ["French"],
 		"preferredVictoryType": "Cultural",
-		
 		"startIntroPart1": "Long life and triumph to you, First Consul and Emperor of France, Napoleon I, ruler of the French people. France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
 		"startIntroPart2": "Napoleon Bonaparte, France yearns for you to rebuild your empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement. Emperor, will you ride once more against your foes? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "You're disturbing us, prepare for war.",
@@ -691,7 +659,6 @@
 		"leaderName": "Charlemagne",
 		"adjective": ["Frankish"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -713,7 +680,6 @@
 		"adjective": ["Gaul"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "What a worthless country, you're just like the other weak tribes!",
@@ -734,7 +700,6 @@
 		"leaderName": "Otto von Bismarck",
 		"adjective": ["German"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "Hail mighty Bismarck, first canchellor of Germany and her empire! Germany is an upstart nation, fashioned from the ruins of the Holy Roman Empire and finally unified in 1871, a little more than a century ago. The German people have proven themselves to be creative, industrious a ferocious warriors. Despite enduring great catastrophes in the first half of the 20th century, Germany remains a worldwide economic, artistic and technological leader.",
 		"startIntroPart2": "Great Prince Bismarck, the German people look up too you to lead them to greater days of glory. Their determination is strong, and now they turn to you, their beloved iron chancellor, to guide them once more. Will you rile and conquer through blood and iron, or foster the Germanic arts and industry? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
@@ -760,7 +725,6 @@
 		"leaderName": "Batu Khan",
 		"adjective": ["Golden Horde"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "The Horde has come! We will destroy you!",
@@ -781,7 +745,6 @@
 		"leaderName": "Alaric I",
 		"adjective": ["Goth"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -802,7 +765,6 @@
 		"leaderName": "Pericles",
 		"adjective": ["Greek"],
 		"preferredVictoryType":"Diplomatic",
-		
 		"startIntroPart1": "May the blessings of the gods be upon you, oh great King Alexander! You are the ruler of the mighty Greek nation. Your people lived for so many years in isolated city-states - legendary cities such as Athens, Sparta, Thebes - where they gave the world many great things, such as democracy, philosophy, ragedy, art and architecture, the very foundation of Western Civilization. Although few in number and often hostile to each other, in the 5th century BC they were able to defeat their much larger neighbor, Persia, on land and sea.",
 		"startIntroPart2": "Alexander, your people stand ready to march to war, to spread the great Greek culture to millions and to bring you everlasting glory. Are you ready to accept your destiny, King Alexander? Will you lead your people to triumph and greatness? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "You are a threat to democracy. Therefore, i must dispose of you from this world!",
@@ -827,7 +789,6 @@
 		"leaderName": "Muwatallis",
 		"adjective": ["Hittite"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -849,7 +810,6 @@
 		"adjective": ["Hunnic"],
 		"startBias": ["Avoid [Forest]", "Avoid [Jungle]"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": "Your men stand proudly to greet you, Great Attila, grand warrior and ruler of the Hunnic empire. Together with your brother Bleda you expanded the boundaries of your empire, becoming the most powerful and frightening force of the 5th century. You bowed the Eastern Roman Emperors to your will and took kingdom after kingdom along the Danube and Nisava Rivers. As the sovereign ruler of the Huns, you marched your army across Europe into Gaul, planning to extend your already impressive lands all the way to the Atlantic Ocean. Your untimely death led to the quick disintegration and downfall of your empire, but your name and deeds have created an everlasting legacy for your people.",
 		"startIntroPart2": "Fearsome General, your people call for the recreation of a new Hunnic Empire, one which will make the exploits and histories of the former seem like the faded dreaming of a dying sun. Will you answer their call to regain your rightful prominence and glory? Will mount your steadfast steed and lead your armies to victory? Will you build a civilization that stands the test of time?",
 		"declaringWar": "I'm getting bored of this throne of mine. I will take YOURS instead.",
@@ -870,7 +830,6 @@
 		"leaderName": "Andras II",
 		"adjective": ["Hungarian"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -892,7 +851,6 @@
 		"adjective": ["Incan"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
-		
 		"startIntroPart1": "Oh ye who remakes the world, your loyal subjects greet you, King Pachacuti Sapa Inca, ruler of Tawantinsuyu and the Inca people! From the beginnings in the small state of Cusco, the Incans displayed their potential for greatness, marching to war against their many enemies, crushing their armies into dust and carving for themselves a mighty empire stretching from Ecuador to Chile. Indeed, they build the greatest empire ever seen in all pre-Columbian Americas. More than mere soldiers, your people were great builders and artists as well, and the remnants of their works still awe and inspire the world today.",
 		"startIntroPart2": "Oh King Pachacuti, truly are you called 'Earth Shaker'! Will you once again call upon the ground itself to a fight at your side? Your armies await your signal. Will you restore the glory of your empire? Can you build a civilization that will stand the test of time?",	
 		"declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
@@ -919,7 +877,6 @@
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
-		
 		"startIntroPart1": "Greetings, President Mahatma Gandhi, great souled leader of India! You are the ruler of one of the oldest countries in the world with history stretching back almost 10'000 years. A spiritual country, India is the birthplace of three of the world's great religions - Hinduism, Buddhism and Jainism. This is a passionate land of music and color, a land of great wealth and grinding poverty. For centuries, India was divided into kingdoms who fought constantly with each other and against outside invaders. That was, horever, after empires such as Maratha, Maurya and Gupta. In the 12th century AD, India was conquered by Muslim Turks fled from the Mongols. In the early 17th century, the English arrived, and thought a combination of shrewd diplomacy and technological supeiority, they conquered your fragmented nation. England remained in power for some two centuries until driven out by a rising wave of Indian nationalism, a peaceful rebellion unlike any before seen in history, one led by you!",
 		"startIntroPart2": "Gandhi, your people look to you to lead them to even greater heights of glory! Can you help your people realize their great potential, to once again become the world's center of arts, culture and religion? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
@@ -943,7 +900,6 @@
 		"adjective": ["Indonesian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
 		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
 		"declaringWar": "Don't mean to stand in your way, but I have to protect them!",
@@ -967,7 +923,6 @@
 		"name": "Ireland",
 		"leaderName": "Michael Collins",
 		"adjective": ["Irish"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1011,7 +966,6 @@
 		"adjective": ["Irochese"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Long have your people lived near the great and holy lake Ontario in the land that has come to be known as the New York state in North America. In the mists of antiquity, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida united into one nation, the Haudenosaunee, the Iroquois. With no written language, the wise men of your nation created the great law of peace, the model for many contitutions including that of the United States. For many years, your people battled great enemies, such as the Huron, and the French and English invaders. Tought outnumbered and facing weapons far more advanced than the ones your warriors wielded, the Iroquois survived and prospered, until they were finally overwhelmed by the mighty armies of the new United States.",
 		"startIntroPart2": "Oh noble Hiawatha, listen to the cries of your people! They call out to you to lead them in peace and war, to rebuild the great longhouse and unite the tribes once again. Will you accept this challenge, great leader? Will you build a civilization that will stand the test of time?",
 		"declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
@@ -1035,7 +989,6 @@
 		"leaderName": "David",
 		"adjective": ["Israeli"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1056,7 +1009,6 @@
 		"leaderName": "Vittorio Emanuele III",
 		"adjective": ["Italian"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1078,7 +1030,6 @@
 		"adjective": ["Japanese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		
 		"startIntroPart1": "Blessings upon you, noble Oda Nobunaga, ruler of Japan, the land of the Rising Sun! May you long walk among its flowering blossoms. The Japanese are an island people, proud and pious with a rich culture of arts and letters. Your civilization stretches back thousands of years, years of bloody warfare, expansion and isolation, great wealth and great poverty. In addition to their prowess on the field of battle, your people are also immensely industrious, and their technological innovation and mighty factories are the envy of lesser people everywhere.",
 		"startIntroPart2": "Legendary damiyo, will you grab the reins of destiny? Will you bring your family and people the honor and glory they deserve? Will you once again pick up the sword and march to triumph? Will you build a civilization that stands the test of time?",
 		"declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
@@ -1102,7 +1053,6 @@
 		"leaderName": "Fulk V",
 		"adjective": ["Jerusalem"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1122,7 +1072,6 @@
 		"name": "Khmer",
 		"leaderName": "Suryavarman II",
 		"adjective": ["Khmer"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1143,7 +1092,6 @@
 		"leaderName": "Ali ibn al-Hassan Shirazi",
 		"adjective": ["Kilwa"],
 		"startBias": ["Coast"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1166,7 +1114,6 @@
 		"adjective": ["Kongo"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1188,14 +1135,12 @@
 		"adjective": ["Korean"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "Greetings to you, exalted King Sejong the Great, servant to the people and protector of the Choson Dynasty! Your glorious vision of prosperity and overwhelming benevolence towards the common man made you the most beloved of all Korean kings. From the earliest days of your reign, the effort you took to provide a fair and just society for all was surpassed only by the technological advances spurred onwards by your unquenched thirst for knowledge. Guided by your wisdom, the scholars of the Jade Hall developed Korea's first written language, Hangul, bringing the light of literature and science to the masses after centuries of literary darkness.",
 		"startIntroPart2": "Honorable Sejong, once more the people look to your for guidance. Will you rise to the occasion, bringing harmony and understanding to the people? Can you once again advance your kingdom's standing to such wondrous heights? Can you build a civilization that stands the test of time?",
 		"declaringWar": "Jip-hyun-jun (Hall of Worthies) will no longer tolerate your irksome behavior. We will liberate the citizens under your oppression even with force, and enlighten them!",
 		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
 		"defeated": "Now the question is who will protect my people. A dark age has come.",
 		"introduction": "Welcome to the palace of Choson, stranger. I am the learned King Sejong, who looks after his great people.",
-		
 		"neutralHello": "Hello.",
 		"hateHello": "Oh, it's you",
 		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
@@ -1212,7 +1157,6 @@
 		"leaderName": "Vytautas",
 		"adjective": ["Lithuania"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1233,7 +1177,6 @@
 		"leaderName": "Alexander",
 		"adjective": ["Macedonian"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1253,7 +1196,6 @@
 		"name": "Madagascar",
 		"leaderName": "Ralambo",
 		"adjective": ["Madagascar"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1274,7 +1216,6 @@
 		"leaderName": "Nurhaci",
 		"adjective": ["Manchurian"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1295,7 +1236,6 @@
 		"leaderName": "Ashoka",
 		"adjective": ["Mauryan"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1317,7 +1257,6 @@
 		"leaderName": "Pacal",
 		"adjective": ["Mayan"],
 		"preferredVictoryType": "Scientific",
-
 		"startIntroPart1": "Your people kneel before you, exalted King Pacal the Great, favored son of the gods and shield to the citizens of the Palenque domain. After years of strife at the hands of your neighboring rivals, you struck back at the enemies of your people, sacrificing their leaders in retribution for the insults dealt to your predecessors. The glory of Palenque was restored only by the guidance afforded by your wisdom, as you orchestrated vast reconstruction efforts within the city, creating some of the greatest monuments and architecture your people - and the world - have ever known.",
 		"startIntroPart2": "Illustrious King, your people once again look to you for leadership and counsel in the coming days. Will you channel the will of the gods and restore your once proud kingdom to its greatest heights? Will you build new monuments to forever enshrine the memories of your people? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "A sacrifice unlike all others must be made!",
@@ -1340,7 +1279,6 @@
 		"name": "Mexico",
 		"leaderName": "Benito Juarez",
 		"adjective": ["Mexican"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1362,7 +1300,6 @@
 		"adjective": ["Mongolian"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": "Greetings, o great Temujin, immortal emperor of the mighty Mongol Empire! Your fists shatter walls of cities and your voice brings despair to your enemies. O Khan! You united the warring tribes of Northern Asia into a mighty people, creating the greatest cavalry force the world has ever witnessed. Your people's cunning diplomacy divided their enemies, making them weak and helpless before Mongolia's conquering armies. In a few short years, your people soldiers conquered most of China and Eastern Asia, and the empire continued to grow until it reached west into Europe and south to Korea. Indeed, it was the greatest empire ever seen, dwarfing those pathetic conquests of the Romans of the Greeks.",
 		"startIntroPart2": "Temujin, your people cann upon you once more to lead them to battle and conquest. Will the world once again trembe at the thunderous sound of your cavalry, sweeping down from the steppes? Will you build a civilization that stands the test of time?",
 		"declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
@@ -1386,7 +1323,6 @@
 		"leaderName": "Abd-ar-Rahman III",
 		"adjective": ["Moorish"],
 		"preferredVictoryType": "Scientific",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1408,7 +1344,6 @@
 		"adjective": ["Moroccan"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": "The people of Morocco await your guidance, great Sultan Ahmad al-Mansur of the Saadi Dynasty. Well known for your skill as both a negotiator and a diplomat, your careful words allowed the forging of new alliances, securing the sovereignty of your nation and its people for decades. And still, when words failed, you found equal success in conquest, leading the Moroccan armies to victory on the battlefield while greatly expanding the grasp of your empire.",
 		"startIntroPart2": "Wise and respected Sultan, the people look to you for leadership. Can your diplomacy match that of your rivals, or will you meet them sword in hand? Your once great kingdom yearns for that former glory - can you build a civilization that stands the test of time?",
 		"declaringWar": "The gain from the war, what will you get out of it?",
@@ -1434,7 +1369,6 @@
 		"adjective": ["Mysorean"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1455,7 +1389,6 @@
 		"leaderName": "William I",
 		"adjective": ["Dutch"],
 		"startBias": ["Coast","Marsh","Flood plains"],
-
 		"startIntroPart1": "Hail stalwart Prince William of Orange, liberator of the Netherlands and hero to the Dutch people. It was your courageous effort in the 1568 rebellion against Spanish dominion that led the Dutch to freedom, and ultimately resulted in the Eighty Years' War. Your undertaking allowed for the creation of one of Europe's first modern republics, the Seven United Provinces. You gave your life to the rebellion, falling at the hands of an assassin in 1584, but your death would only serve to embolden the people's charge, and your legacy as 'Father of the Fatherland' will stand as a symbol of Dutch independence for all time.",
 		"startIntroPart2": "Brave prince, the people again yearn for the wise stewardship your wisdom afforded them. Can you once again secure the sovereignty of your kingdom and lead your people to greatness? Can you build a civilization that stands the test of time?",
 		"declaringWar": "As much as I despise war, I consider it a, hahaha, contribution to the common cause to erase your existence.",
@@ -1479,7 +1412,6 @@
 		"leaderName": "William the Conqueror",
 		"adjective": ["Norman"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1500,7 +1432,6 @@
 		"leaderName": "Harald Hardrada",
 		"adjective": ["Norwegian"],
 		"startBias": ["Coast"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1513,7 +1444,7 @@
 		"outerColor": [8,30,87],
 		"innerColor": [238,180,0],
 		"uniqueName": "Nordic Bounty",
-		"uniques": ["[+1 Production] from every [Tundra]","[+1 Food, +1 Production] from every [Snow]"],
+		"uniques": ["[+1 Faith] from every [Water resource]","[+2 Food, +1 Production] from every [Snow]"],
 		"cities": ["Oslo","Bergen","Trondheim","Stavanger","Tromso","Sarpsborg","Kristiansand","Fredrikstad","Tunsberg","Sandefjord","Sandnes","Skien","Drammen"]
 	},
 	{
@@ -1521,7 +1452,6 @@
 		"leaderName": "Amanitore",
 		"adjective": ["Nubian"],
 		"startBias": ["Desert"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1543,7 +1473,6 @@
 		"adjective": ["Omani"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1564,7 +1493,6 @@
 		"leaderName": "Suleiman I",
 		"adjective": ["Ottoman"],
 		"preferredVictoryType": "Domination",
-		
 		"startIntroPart1": "Blessings of God be upon you, oh Great Emperor Suleiman! Your power, wealth and generosity awe the world! Truly, are you called 'Magnificent!' Your empire began in Bithynia, a small country in Eastern Anatolia in 12th century. Taking advantage in the decline of the great Selkuj Sultanate of Rum, King Osman I of Bithynia expanded west into Anatolia. Over the next century, your subjects brought down the empire of Byzantium, taking its holdings in Turkey and then the Balkans. In the mid 15th century, the Ottomans captured ancient Constantinople, gaining control of the strategic link between Europe and the Middle East. Your people's empire would continue to expand for centuries governing much of North Africa, the Middle East and Eastern Europe at its height.",
 		"startIntroPart2": "Mighty Sultan, heed the call of your people! Bring your empire back to the height of its power and glory and once again the world will look upon your greatness with awe and admiration! Will you accept the challenge, great emperor? Will you build an empire that will stand the test of time?",
 		"declaringWar": "Your continued insolence and failure to recognize and preeminence leads us to war.",
@@ -1588,7 +1516,6 @@
 		"leaderName": "Urban II",
 		"adjective": ["Vatican"],
 		"preferredVictoryType": "Diplomatic",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1609,7 +1536,6 @@
 		"leaderName": "Darius I",
 		"adjective": ["Persian"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "The blessings of heaven be upon you, beloved king Darius of Persia! You lead a strong and wise people. In the morning of the world, the great Persian leader Cyrus revolted against the mighty Median empire and by 550 BC, the Medes were no more. Through cunning diplomacy and military prowess, great Cyrus conquered wealthy Lydia and powerful Babylon. His son conquering proud Egypt some years later. Over time, Persian might expanded into far away Macedonia, at the very door of the upstart Greek city-states. Long would Persia prosper until the upstart villain Alexander of Macedon, destroyed the great empire in one shocking campaign.",
 		"startIntroPart2": "Darius, your people look to you to once again bring back the days of power and glory for Persia! The empire of your ancestors must emerge again, to triumph over its foes and to bring peace and order to the world! O king, will you answer the call? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "Your continue existence is an embarrassment to all leaders everywhere! You must be destroyed!",
@@ -1636,7 +1562,6 @@
 		"leaderName": "Hiram",
 		"adjective": ["Phoenician"],
 		"startBias": ["Coast"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1658,7 +1583,6 @@
 		"adjective": ["Polish"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": "All hail noble King Casimir the Great, protector and sovereign of the Kingdom of Poland. You ascended to the throne during a time of great turmoil, with the nation's economy in shambles and its people demoralized by the wars of your predecessor. And yet, your reign marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
 		"startIntroPart2": "Honored king Casimir, the people have long admired the steady hand of governance you wield. Can you return your kingdom and its subjects to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "I have decided to end you!",
@@ -1683,7 +1607,6 @@
 		"adjective": ["Polynesia"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
-		
 		"startIntroPart1": "Greetings and blessings be upon you, Kamehameha the Great, chosen by the heavens to unite your scattered peoples. Oh mighty King, you were the first to bring the Big Island of Hawai'I under one solitary rule in 1791 AD. This was followed by the merging of all the remaining islands under your standard in 1810. As the first King of Hawai'I, you standardized the legal and taxation systems and instituted the Mamalahoe Kawanai, an edict protecting civilians in times of war. You ensured the continued unification and sovereignty of the islands by your strong laws and deeds, even after your death in 1819.",
 		"startIntroPart2": "Oh wise and exalted King, your people wish for a kingdom of their own once more and require a leader of unparalleled greatness! Will you answer their call and don the mantle of the Lion of the Pacific? Will you build a kingdom that stands the test of time?",
 		"declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
@@ -1707,7 +1630,6 @@
 		"leaderName": "Maria I",
 		"adjective": ["Portuguese"],
 		"startBias": ["Coast"],
-
 		"startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
 		"startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "I'm afraid I cannot allow your kingdom to exist for much longer! I hope you won't mind...",
@@ -1732,7 +1654,6 @@
 		"leaderName": "Frederick",
 		"adjective": ["Prussian"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1754,7 +1675,6 @@
 		"leaderName": "Carol I",
 		"adjective": ["Romanian"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1776,7 +1696,6 @@
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Scientific",
-	
 		"startIntroPart1": "Greetings upon thee, Your Imperial Majesty Catherine, wondrous Empress of all the Russias. At your command lies the largest country in the world. Mighty Russia stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic Russian people survive and prosper, their artists and scientists among the best in the world. The Empire today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.",
 		"startIntroPart2": "Catherine, your people look to you to bring forth glorious days for Russia and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once more into greatness? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
@@ -1802,7 +1721,6 @@
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "The blessings of the gods be upon you, Caesar Augustus, emperor of Rome and all her holdings. Your empire was the greatest and longest lived of all in Western civilization. And your people single handedly shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean from Spain in the west to Syria in the east. And her dominion would eventually expand to cover much of England and northern Germany. Roman art and architecture still awe and inspire the world. And she remains the envy of all lesser civilizations who have followed.",
 		"startIntroPart2": "O mighty emperor, your people turn to you to once more reclaim the glory of Rome! Will you see to it that your empire rises again, bringing peace and order to all? Will you make Rome once again center of the world? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "My treasury contains little and my soldiers are getting impatient... <sigh> ...therefore you must die.",
@@ -1826,7 +1744,6 @@
 		"leaderName": "Robert the Bruce",
 		"adjective": ["Scottish"],
 		"startBias": ["Hill"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1846,7 +1763,6 @@
 		"name": "Shoshone",
 		"leaderName": "Pocatello",
 		"adjective": ["Shoshone"],
-
 		"startIntroPart1": "Blessings be upon you, wise and fearsome Chief Pocatello, revered leader of the Shoshone people. As the young chieftain of the Shoshone, you rose to face a wave of encroaching American settlements across the western United States. Forced to defend the Shoshone ancestral lands from a seemingly endless stream of new emigrants, your war band struck fear into those who would claim the sacred lands of your people. After years of strife, you skillfully avoided a direct conflict with the armies of the U.S. government, and negotiated a series of treaties in the hopes of establishing a lasting peace for the Shoshone.",
 		"startIntroPart2": "Most esteemed Pocatello, your people once again look to you for guidance. Will you conquer your enemies, driving them far from your lands? Or will you seek out peaceful diplomacy and trade? Will you build a civilization that stands the test of time?",
 		"declaringWar": "Shoshone!, We will kill the white man!",
@@ -1868,8 +1784,7 @@
 		"name": "Siam",
 		"leaderName": "Ramkhamhaeng",
 		"adjective": ["Siamese"],
-		"startBias": ["Avoid [Forest]"],
-		
+		"startBias": ["River"],
 		"startIntroPart1": "Greetings to you, Great King Ramkhamhaeng, leader of the glorious Siamese people! O mighty King, your people bow down before you in awe and fear! You are the ruler of Siam, an ancient country in the heart of Southeast Asia, a beautiful and mysterious land. Surrounded by foes, beset by bloody war and grinding poverty, the clever and loyal Siamese people have endured and trumphed. King Ramkhamhaeng, your empire was once part of the Khmer Empire, until the 13th century AD, when your ancestors revolted, forming the small Sukhothai kingdom. Through successful battle and cunning diplomacy, the tiny kingdom grew into a mighty empire, an empire which would dominate South East Asia for more than a century!",
 		"startIntroPart2": "Oh, wise and puissant King Ramkhamhaeng, your people need you to once again lead them to greatness! Cann you use your wits and strenght of arms to protect your people and defeat your foes? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "You lowly, arrogant fool! I will make you regret of your insolence!",
@@ -1894,7 +1809,6 @@
 		"adjective": ["Songhai"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": "May the blessings of God, who is greatest of all, be upon you Askia, leader of the Songhai people! For many years your kingdom was a vassal of the mighty West African state of Mali, until the middle of the 14th century, when King Sunni Ali Ber wrested independence from the Mali, conquering much territory and fighting off numerous foes who sought to destroy him. Ultimately, his conquest of the wealthy cities of Timbuktu and Jenne gave the growing Songhai empire the economic power to survive for some 100 years, until the empire was destroyed by foes with advanced technology - muskets against spearmen.",
 		"startIntroPart2": "King Askia, your people look yo you to lead them to glory. To make them powerful and wealthy, to keep them supplied with the weapons they need to defeat any foe. Can you save them from destruction, oh King? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "You are an abomination to heaven and earth, the chief of ignorant savages! You must be destroyed!",
@@ -1918,7 +1832,6 @@
 		"leaderName": "Sitting Bull",
 		"adjective": ["Sioux"],
 		"startBias": ["Plains"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1940,7 +1853,6 @@
 		"adjective": ["Spanish"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-
 		"startIntroPart1": "Blessed Isabella, servant of God, holy queen of Castille and Leòn! Your people greet and welcome you. You are the ruler of Spain, a beautiful and ancient country at the crossroads of the world between Europe and Africa, one shor on the Mediterranean and the other on the mighty Atlantic Ocean. The Spanish are a multicultural people with roots in the Muslim and Christian worlds. A seafaring race, Spanish explorers found and conquered much of the New World, and, for many centuries, its gold and silver brought Spain unrivalled wealth and power, making the Spanish court the  envy of the world.",
 		"startIntroPart2": "O fair and virtuous Isabella! Will you rebuld the Spanish empire and show the world again the greatness of your people? Will your take up the mantle of the holy monarchy, and vanquish your foes under heaven's watchful eyes? Your adoring subjects await your command! Will you build a civilization that stands the test of time?",
 		"declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
@@ -1964,7 +1876,6 @@
 		"leaderName": "Gilgamesh",
 		"adjective": ["Sumer"],
 		"preferredVictoryType": "Scientific",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -1986,7 +1897,6 @@
 		"adjective": ["Swedish"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Diplomatic",
-
 		"startIntroPart1": "All hail the transcendent King Gustavus Adolphus, founder of the Swedish Empire and her most distinguished military tactician. It was during your reign that Sweden emerged as one of the greatest powers in Europe, due in no small part to your wisdom, both on and off the battlefield. As king, you initiated a number of domestic reforms that ensured the economic stability and prosperity of your people. As the general who came to be known as the 'Lion of the North', your visionary designs in warfare gained the admiration of military commanders the world over. Thanks to your triumphs in the Thirty Years' War, you were assured a legacy as one of history's greatest generals.",
 		"startIntroPart2": "Oh noble King, the people long for your prudent leadership, hopeful that once again they will see your kingdom rise to glory. Will you devise daring new strategies, leading your armies to victory on the theater of war? Will you build a civilization that stands the test of time?",
 		"declaringWar": "The Hakkapeliittas will ride again and your men will fall just at the sight of my cavalry!",
@@ -1999,7 +1909,7 @@
 		"outerColor": [39,59,146],
 		"innerColor": [250,250,27],
 		"uniqueName": "Nobel Prize",
-		"uniques": ["[+20]% great person generation in all cities"],
+		"uniques": ["[+20]% great person generation in all cities","Gain [100] Influence with a [Great Person] gift to a City-State"],
 		"cities": ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö",
 			"Vantaa","Visby","Strängnäs","Tampere","Skara","Lödöse","Oulu","Växjö","Jyväskylä","Gothenburg",
 			"Örebro","Lahti","Helsingborg","Jönköping","Kuopio","Norrköping","Sundsvall","Kouvola","Karlstad","Umeå",
@@ -2010,7 +1920,6 @@
 		"leaderName": "Ngawang Lobsang Gyatso",
 		"adjective": ["Tibetan"],
 		"preferredVictoryType": "Cultural",
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -2031,7 +1940,6 @@
 		"name": "Timurids",
 		"leaderName": "Timur",
 		"adjective": ["Timurid"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -2052,7 +1960,6 @@
 		"leaderName": "'Aho'eitu",
 		"adjective": ["Tonga"],
 		"startBias": ["Coast"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -2065,14 +1972,13 @@
 		"outerColor": [167,2,71],
 		"innerColor": [218,218,218],
 		"uniqueName": "The Friendly Islands",
-		"uniques": ["[+1] Sight <for [All] units>"],
+		"uniques": ["Reveal up to [All] [Coastal] within a [10] tile radius","Reveal up to [All] [Coast] within a [10] tile radius"],
 		"cities": ["Mu'a","Nuku'alofa","Neiafu","Haveluoto","Vaini","Pangai","Ohonua","Agaha","Kolonga","Hihifo","Tafahi","Petani","Holonga"]
 	},
 	{
 		"name": "Turkey",
 		"leaderName": "Ataturk",
 		"adjective": ["Turkish"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -2096,7 +2002,6 @@
 		"name": "Ukraine",
 		"leaderName": "Yaroslav I",
 		"adjective": ["Ukrainian"],
-
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "Prepare for war!",
@@ -2251,7 +2156,6 @@
 		"name": "Baku",
 		"adjective": ["Azerbaijani"],
 		"cityStateType": "Cultured",
-
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
@@ -2264,7 +2168,6 @@
 	  "name": "Chaco Canyon",
 	  "adjective": ["Chacoan"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2277,7 +2180,6 @@
 	  "name": "Djibouti",
 	  "adjective": ["Djiboutian"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2290,7 +2192,6 @@
 	  "name": "Kuala Lumpur",
 	  "adjective": ["Kuala Lumpur"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2303,7 +2204,6 @@
 		"name": "Kuwait City",
 		"adjective": ["Kuwati"],
 		"cityStateType": "Cultured",
-
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
@@ -2316,7 +2216,6 @@
 	  "name": "Kyzyl",
 	  "adjective": ["Kyzyl"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2329,7 +2228,6 @@
 	  "name": "Ljubljana",
 	  "adjective": ["Slovenian"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2342,7 +2240,6 @@
 	  "name": "Luxembourg",
 	  "adjective": ["Luxembourg"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2355,7 +2252,6 @@
 	  "name": "Monaco",
 	  "adjective": ["Monaco"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2368,7 +2264,6 @@
 	  "name": "Montevideo",
 	  "adjective": ["Montevidean"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2381,7 +2276,6 @@
 	  "name": "Nicosia",
 	  "adjective": ["Nicosia"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2394,7 +2288,6 @@
 	  "name": "Reykjavik",
 	  "adjective": ["Reykjavik"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2407,7 +2300,6 @@
 	  "name": "Teheran",
 	  "adjective": ["Teheranian"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2420,7 +2312,6 @@
 	  "name": "Thimphu",
 	  "adjective": ["Thimphuan"],
 	  "cityStateType": "Cultured",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2433,7 +2324,6 @@
 	  "name": "Bangkok",
 	  "adjective": ["Bangkokian"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2446,7 +2336,6 @@
 	  "name": "Cape Town",
 	  "adjective": ["Cape"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2459,10 +2348,9 @@
 		"name": "Islamabad",
 		"adjective": ["Islamabadi"],
 		"cityStateType": "Maritime",
-
-    "declaringWar": "We have wanted this for a LONG time. War it shall be.",
-	  "attacked": "Very well, we will kick you back to the ancient era!",
-	  "defeated": "This isn't how it is supposed to be!",
+    	"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  	"attacked": "Very well, we will kick you back to the ancient era!",
+	  	"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [54,102,255],
 		"uniques": [],
@@ -2472,7 +2360,6 @@
 	  "name": "Kampala",
 	  "adjective": ["Kampalan"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2485,7 +2372,6 @@
 	  "name": "Lima",
 	  "adjective": ["Liman"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2498,7 +2384,6 @@
 	  "name": "Lusaka",
 	  "adjective": ["Lusakan"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2511,7 +2396,6 @@
 	  "name": "Mogadishu",
 	  "adjective": ["Mogadishu"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2524,7 +2408,6 @@
 	  "name": "Ormus",
 	  "adjective": ["Ormus"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2537,7 +2420,6 @@
 	  "name": "Panama City",
 	  "adjective": ["Panamanian"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2550,7 +2432,6 @@
 	  "name": "Paramaribo",
 	  "adjective": ["Paramaribos"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2563,7 +2444,6 @@
 	  "name": "Phnom Penh",
 	  "adjective": ["Phnom Penher"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2576,7 +2456,6 @@
 	  "name": "Port-au-Prince",
 	  "adjective": ["Haitian"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2589,7 +2468,6 @@
 	  "name": "Riga",
 	  "adjective": ["Rigan"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2602,7 +2480,6 @@
 	  "name": "Santo Domingo",
 	  "adjective": ["Dominican"],
 	  "cityStateType": "Maritime",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2615,7 +2492,6 @@
 	  "name": "Cahokia",
 	  "adjective": ["Cahokia"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2628,7 +2504,6 @@
 	  "name": "Colombo",
 	  "adjective": ["Colombo"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2641,7 +2516,6 @@
 	  "name": "Dubai",
 	  "adjective": ["Emirati"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2654,7 +2528,6 @@
 	  "name": "Gaborone",
 	  "adjective": ["Gaboronian"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2667,7 +2540,6 @@
 	  "name": "Hong Kong",
 	  "adjective": ["Hong Kong"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2680,7 +2552,6 @@
 	  "name": "Lagos",
 	  "adjective": ["Lagosian"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2693,7 +2564,6 @@
 	  "name": "Malacca",
 	  "adjective": ["Malacca"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2706,7 +2576,6 @@
 	  "name": "Maseru",
 	  "adjective": ["Maseru"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2719,7 +2588,6 @@
 	  "name": "Mohenjo-Daro",
 	  "adjective": ["Mohenjo"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2732,7 +2600,6 @@
 	  "name": "Singapore",
 	  "adjective": ["Singaporean"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2745,7 +2612,6 @@
 	  "name": "Tallinn",
 	  "adjective": ["Tallinner"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2758,7 +2624,6 @@
 	  "name": "Trieste",
 	  "adjective": ["Triestian"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2771,7 +2636,6 @@
 	  "name": "Vaduz",
 	  "adjective": ["Liechtensteiner"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2784,7 +2648,6 @@
 	  "name": "Zurich",
 	  "adjective": ["Zurich"],
 	  "cityStateType": "Mercantile",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2797,7 +2660,6 @@
 	  "name": "Andorra",
 	  "adjective": ["Andorran"],
 	  "cityStateType": "Militaristic",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2810,7 +2672,6 @@
 	  "name": "Colchis",
 	  "adjective": ["Colchis"],
 	  "cityStateType": "Militaristic",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2823,7 +2684,6 @@
 	  "name": "Cyrene",
 	  "adjective": ["Cyreni"],
 	  "cityStateType": "Militaristic",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2836,7 +2696,6 @@
 	  "name": "Harappa",
 	  "adjective": ["Harappan"],
 	  "cityStateType": "Militaristic",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2849,7 +2708,6 @@
 	  "name": "Havana",
 	  "adjective": ["Habanero"],
 	  "cityStateType": "Militaristic",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2862,7 +2720,6 @@
 	  "name": "Tirana",
 	  "adjective": ["Tirana"],
 	  "cityStateType": "Militaristic",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2875,7 +2732,6 @@
 	  "name": "Troy",
 	  "adjective": ["Trojan"],
 	  "cityStateType": "Militaristic",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2888,7 +2744,6 @@
 	  "name": "Valletta",
 	  "adjective": ["Valletta"],
 	  "cityStateType": "Militaristic",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2901,7 +2756,6 @@
 	  "name": "Geneva",
 	  "adjective": ["Geneva"],
 	  "cityStateType": "Religious",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2914,7 +2768,6 @@
 	  "name": "Ife",
 	  "adjective": ["Ife"],
 	  "cityStateType": "Religious",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2927,7 +2780,6 @@
 	  "name": "Kathmandu",
 	  "adjective": ["Kathmandu"],
 	  "cityStateType": "Religious",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2940,7 +2792,6 @@
 	  "name": "La Venta",
 	  "adjective": ["La Venta"],
 	  "cityStateType": "Religious",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2953,7 +2804,6 @@
 	  "name": "Qufu",
 	  "adjective": ["Qufu"],
 	  "cityStateType": "Religious",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2966,7 +2816,6 @@
 	  "name": "Sarajevo",
 	  "adjective": ["Sarajlija"],
 	  "cityStateType": "Religious",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2979,7 +2828,6 @@
 	  "name": "Taipei",
 	  "adjective": ["Taipei"],
 	  "cityStateType": "Religious",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
@@ -2992,7 +2840,6 @@
 	  "name": "Wittenberg",
 	  "adjective": ["Wittenberg"],
 	  "cityStateType": "Religious",
-
 	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
 	  "attacked": "Very well, we will kick you back to the ancient era!",
 	  "defeated": "This isn't how it is supposed to be!",
