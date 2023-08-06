@@ -846,15 +846,13 @@
 	{
 		"name": "Landsknecht",
 		"unitType": "Sword",
-		"replaces": "Pikeman",
-		"movement": 2,
+		"movement": 3,
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can be purchased with [Gold] [in all cities]","Only available <after adopting [Mercenary Army]>","Unbuildable"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","No movement cost to pillage","Can be purchased with [Gold] [in all cities]","Only available <after adopting [Mercenary Army]>","Unbuildable"],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
-		//"Requires [Mercenary Army]" in BNW
 	},
 	{
 		"name": "Swiss Guard",
@@ -866,7 +864,7 @@
 		"cost": 65,
 		"requiredTech": "Civil Service",
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Unbuildable","Can be purchased with [Gold] [in all cities]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","No movement cost to pillage","Unbuildable","Can be purchased with [Gold] [in all cities]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
 		"upgradesTo": "Rifleman",
 		"attackSound": "metalhit"
 	},
@@ -1488,7 +1486,7 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted] units>","Never appears as a Barbarian unit"],
 		"upgradesTo": "Anti-Tank Rifle",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -1504,7 +1502,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted] units>"],
 		"promotions": ["Heavy Charge"],
 		"upgradesTo": "Anti-Tank Rifle",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -1521,7 +1519,7 @@
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus"],
 		"upgradesTo": "Anti-Tank Rifle",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -1538,7 +1536,7 @@
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability"],
 		"upgradesTo": "Anti-Tank Rifle",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{

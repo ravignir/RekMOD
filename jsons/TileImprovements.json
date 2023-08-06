@@ -258,9 +258,13 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement","[+2 Science] <after discovering [Scientific Theory]>",
-			"[+2 Science] <after discovering [Atomic Theory]>","Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]",
-			"Improvement"]
+		"uniques": [
+			"Great Improvement","[+2 Science] <after discovering [Scientific Theory]>",
+			"[+2 Science] <after discovering [Atomic Theory]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Improvement"
+		]
 	},
 	{
 		"name": "Holy site",
@@ -328,14 +332,15 @@
 		"production": 1,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["Great Improvement","Removes removable features when built",
-		"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Computers]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Plastics]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
+		"uniques": [
+			"Great Improvement","Removes removable features when built",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Plastics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Computers]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Improvement"]
 	},
