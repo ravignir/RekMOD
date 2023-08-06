@@ -126,6 +126,11 @@
 		"percentStatBonus": {"science": 10, "production": 10, "gold": 10, "culture": 10},
         "uniques": ["Unbuildable"]
     },
+	{
+		"name": "Governor's Mansion",
+		"happiness": 1,
+		"uniques": ["Unbuildable","[+1] population [in this city]"]
+	},
 	
 	// Ancient Era
 
