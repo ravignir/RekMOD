@@ -99,7 +99,7 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Trade Caravans",
-		"uniqueText": "[+1 Gold] from every Trade Route\nDouble quantity of [Oil] produced",
+		"uniqueText": "[+1 Gold] from every Trade Route\n\nDouble quantity of [Oil] produced",
 		"uniques": [
 			"[+1 Gold] from every [Land Trade Route (Food)]",
 			"[+1 Gold] from every [Land Trade Route (Production)]",
@@ -1031,7 +1031,7 @@
 		"outerColor": [238,231,221],
 		"innerColor": [65,143,35],
 		"uniqueName": "Gaelic Revival",
-		"uniqueText": "[+2 Happiness] from all National Wonders (excluding the Palace).\n+15% [Production] towards constructing buildings required for National Wonders.",
+		"uniqueText": "[+2 Happiness] from all National Wonders (excluding the Palace).\n\n+15% [Production] towards constructing buildings required for National Wonders.",
 		"uniques": [
 			"[+15]% Production when constructing [Monument] buildings [in all cities]",
 			//"[+15]% Production when constructing [Hotel] buildings [in all cities]",
@@ -1216,7 +1216,7 @@
 		"outerColor": [119,59,129],
 		"innerColor": [194,222,155],
 		"uniqueName": "Merchant Economy",
-		//"uniqueText": "+10% Growth in all cities.\n[+4 Gold] from [Food] and [Production] Trade Routes",
+		//"uniqueText": "+10% Growth in all cities.\n\n[+4 Gold] from [Food] and [Production] Trade Routes",
 		"uniques": [
 			"[+10]% growth [in all cities]",
 			"[+4 Gold] from every [Land Trade Route (Food)]",
@@ -2165,7 +2165,7 @@
 		"outerColor": [223,223,223],
 		"innerColor": [33,141,80],
 		"uniqueName": "Eightfold Path to Nirvana",
-		"uniqueText": "Receive [+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] in the capital after discovering [Drama and Poetry].\n[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] after discovering [Education], [Acoustics], [Industrialization], [Radio], [Radar] and [Telecommunications]",
+		"uniqueText": "Receive [+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] in the capital after discovering [Drama and Poetry].\n\n[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] after discovering [Education], [Acoustics], [Industrialization], [Radio], [Radar] and [Telecommunications]",
 		"uniques": [
 			"[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] [in capital] <after discovering [Drama and Poetry]>",
 			"[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Education]>",
