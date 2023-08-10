@@ -1,7 +1,5 @@
 [
-
-	// Religious buildings
-
+    // Religious buildings
 	{
 		"name": "Cathedral",
 		"faith": 1,
@@ -59,51 +57,85 @@
 		"name": "Writing Auditorium",
 		"culture": 2,
 		"faith": 1,
-    	"specialistSlots": {"Writer": 1},
+		"specialistSlots": {"Writer": 1},
 		"uniques": ["Unbuildable"]
 	},
 	{
 		"name": "Vocal Chamber",
 		"culture": 2,
 		"faith": 1,
-    	"specialistSlots": {"Musician": 1},
+		"specialistSlots": {"Musician": 1},
 		"uniques": ["Unbuildable"]
 	},
     {
-    	"name": "Fine Art Specialist",
-		"specialistSlots": {"Artist": 1,"Writer": 1,"Musician": 1},
-		"uniques": ["Unbuildable"]
+        "name": "Fine Art Specialist",
+        "specialistSlots": {"Artist": 1, "Writer": 1, "Musician": 1},
+        "uniques": ["Unbuildable"]
     },
     {
         "name": "~limit",
 	    "gold": 2,
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+        "uniques": [
+            "Never destroyed when the city is captured",
+            "Will not be displayed in Civilopedia",
+            "Unbuildable",
+            "Unsellable"
+        ],
     },
     {
         "name": "Cloves", // Indonesian luxury
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true, 
         "cost": 0,
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"]
+        "uniques": [
+            "Provides [2] [Cloves]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Only available <in cities without a [~limit]>",
+            "Gain a free [~limit] [in this city]",
+            "Must be next to [Coast]",
+            "Limited to [1] per Civilization",
+            "Will not be displayed in Civilopedia"
+        ]
     },
     {
         "name": "Nutmeg", // Indonesian luxury
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
         "cost": 0,
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"]
+        "uniques": [
+            "Provides [2] [Nutmeg]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Only available <in cities without a [~limit]>",
+            "Gain a free [~limit] [in this city]",
+            "Must be next to [Coast]",
+            "Limited to [1] per Civilization",
+            "Will not be displayed in Civilopedia"
+        ]
     },
     {
         "name": "Pepper", // Indonesian luxury
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
         "cost": 0,
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"]
+        "uniques": [
+            "Provides [2] [Pepper]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Only available <in cities without a [~limit]>",
+            "Gain a free [~limit] [in this city]",
+            "Must be next to [Coast]",
+            "Limited to [1] per Civilization",
+            "Will not be displayed in Civilopedia"
+        ]
     },
     {
         "name": "~CS",
-        "uniques": ["Unsellable","Will not be displayed in Civilopedia","Unbuildable","Destroyed when the city is captured"]
+        "uniques": [
+            "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Unbuildable",
+            "Destroyed when the city is captured"
+        ]
     },
 	{
         "name": "Watch Tower",
@@ -122,9 +154,8 @@
         "name": "Ulugh Beg's Observatory",
         "cityStrength": 5,
         "uniqueTo": "Timurids",
-		"isNationalWonder": true,
 		"percentStatBonus": {"science": 10, "production": 10, "gold": 10, "culture": 10},
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable", "Only available <in cities with a [Palace]>"]
     },
 	{
 		"name": "Governor's Mansion",
