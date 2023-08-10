@@ -1382,7 +1382,7 @@
 		"outerColor": [216,103,12],
 		"innerColor": [76,31,7],
 		"uniqueName": "Insriptions of the Dharma",
-		"uniqueText": "All non-Air Units receive a -15% Combat Penalty when attacking, a +15% Combat Bonus when defending",
+		"uniqueText": "Non-Air Units receive a -15% Combat Penalty when attacking, and a +15% Combat Bonus when defending",
 		"uniques": [
 			"[Land] units gain the [Dharma] promotion",
 			"[Water] units gain the [Dharma] promotion"
@@ -1505,7 +1505,7 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
-		"uniqueText": "[+4 Gold, +2 Culture] from every [Gold] Trade Route, bonus inceases by [+1 Gold, +1 Culture] each era",
+		"uniqueText": "[+4 Gold, +2 Culture] from every [Gold] Trade Route\n\n[+1 Gold, +1 Culture] from every [Gold] Trade Route from each era",
 		"uniques": [
 		    "[+4 Gold, +2 Culture] from every [Land Trade Route (Gold)]",
 		    "[+1 Gold, +1 Culture] from every [Land Trade Route (Gold)] <starting from the [Classical era]>",
@@ -1866,7 +1866,7 @@
 		"outerColor": [35,104,156],
 		"innerColor": [0,0,0],
 		"uniqueName": "Army with a State",
-		"uniqueText": "All Land Units may receive unique Promotions upon leveling up. +50% [Food] and [Production] from Trade Routes",
+		"uniqueText": "All Land Units may receive unique Promotions upon leveling up.\n\n+50% Yield from [Food] and [Production] from Trade Routes",
 		"uniques": [
 			"[Land] units gain the [Gehorsam] promotion",
 			"[+50]% Yield from every [Land Trade Route (Food)]",
@@ -2165,7 +2165,7 @@
 		"outerColor": [223,223,223],
 		"innerColor": [33,141,80],
 		"uniqueName": "Eightfold Path to Nirvana",
-		"uniqueText": "Receive [+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] in the capital after discovering [Drama and Poetry].\n\n[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] after discovering [Education], [Acoustics], [Industrialization], [Radio], [Radar] and [Telecommunications]",
+		"uniqueText": "[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] in the capital after discovering [Drama and Poetry].\n\n[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] in the capital after discovering [Education], [Acoustics], [Industrialization], [Radio], [Radar] and [Telecommunications]",
 		"uniques": [
 			"[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] [in capital] <after discovering [Drama and Poetry]>",
 			"[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Education]>",
