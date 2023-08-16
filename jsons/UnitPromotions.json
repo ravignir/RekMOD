@@ -484,7 +484,7 @@
 		"prerequisites": ["Shock III","Drill III","Ambush Formation III","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier"]
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
 	},
 	{
 		"name": "Sentry",
