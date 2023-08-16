@@ -31,7 +31,7 @@
 		"culture": 1,
 		"faith": 2,
 		"production": 1,
-		"uniques": ["Unbuildable","[+10]% Production when constructing [All] buildings [in this city]","Hidden when religion is disabled"]
+		"uniques": ["Unbuildable","[+15]% Production when constructing [All] buildings [in this city]","Hidden when religion is disabled"]
 	},
 	{
 		"name": "Vihara",

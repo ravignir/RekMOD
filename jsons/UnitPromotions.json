@@ -554,6 +554,10 @@
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
+		"name": "Sea Nomads",
+		"uniques": ["[-33]% maintenance costs","May heal outside of friendly territory","Can build [Water] improvements on tiles"]
+	},
+	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
 		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},

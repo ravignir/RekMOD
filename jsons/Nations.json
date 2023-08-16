@@ -394,8 +394,9 @@
 		"tradeRequest": "Come, let us sign a trade agreement!",
 		"outerColor": [72, 20, 20],
 		"innerColor": [196, 180, 72],
-		"uniqueName": "Austronesian Thalassocracy",
-		"uniques": ["May heal outside of friendly territory <for [Water] units>"],
+		"uniqueName": "Sea Nomads",
+		"uniqueText": "-33% maintenance costs for Water units\n\nWater units may heal outside of friendly territory\n\nWater units can build [Water] improvements on tiles for ",
+		"uniques": ["[Water] units gain the [Sea Nomads] promotion"],
 		"cities": ["Bandar Brunei","Manila","Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Mal-I","Madja-As","Butuan","Lanao","Dapitan"]
 	},
 	{
