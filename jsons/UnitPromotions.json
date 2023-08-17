@@ -501,19 +501,19 @@
 	},
 	{
 		"name": "Ambush Formation I",
-		"uniques": ["[+25]% Strength <vs [Armored] units>","[+25]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+15]% Strength <vs [Armored] units>","[+15]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
 	},
 	{
 		"name": "Ambush Formation II",
 		"prerequisites": ["Ambush Formation I"],
-		"uniques": ["[+25]% Strength <vs [Armored] units>","[+25]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+15]% Strength <vs [Armored] units>","[+15]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
 	},
 	{
 		"name": "Ambush Formation III",
 		"prerequisites": ["Ambush Formation II"],
-		"uniques": ["[+25]% Strength <vs [Armored] units>","[+25]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+30]% Strength <vs [Armored] units>","[+30]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
 	},
 
