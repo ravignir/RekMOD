@@ -155,7 +155,7 @@
         "cityStrength": 5,
         "uniqueTo": "Timurids",
 		"percentStatBonus": {"science": 10, "production": 10, "gold": 10, "culture": 10},
-        "uniques": ["Unbuildable", "Only available <in cities with a [Palace]>"]
+        "uniques": ["Unbuildable", "Only available <in cities with a [Palace]>", "Destroyed when the city is captured"]
     },
 	{
 		"name": "Governor's Mansion",
