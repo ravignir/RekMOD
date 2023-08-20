@@ -1808,7 +1808,7 @@
 	{
 		"name": "Airship",
 		"unitType": "Helicopter",
-		"movement": 8,
+		"movement": 6,
 		"strength": 15,
 		"cost": 150,
 		"requiredTech": "Steam Power",
