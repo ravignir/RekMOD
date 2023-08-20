@@ -413,7 +413,7 @@
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception III","Dogfighting III","Ambush Formation III","Heli Anti-Naval III","Siege III","Bombardment III","Air Targeting III","Ambush Formation II"],
+		"prerequisites": ["Interception III","Dogfighting III","Ambush Formation III","Heli Anti-Naval III","Siege III","Bombardment III","Air Targeting III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
