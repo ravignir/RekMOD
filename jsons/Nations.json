@@ -400,8 +400,8 @@
 		"outerColor": [72, 20, 20],
 		"innerColor": [196, 180, 72],
 		"uniqueName": "Sea Nomads",
-		"uniqueText": "-33% maintenance costs for Melee Water units\n\nMelee Water units may heal outside of friendly territory\n\nMelee Water units can build [Water] improvements on tiles for ",
-		"uniques": ["[{Melee} {Water}] units gain the [Sea Nomads] promotion"],
+		"uniqueText": "-33% maintenance costs for Water units\n\nWater units may heal outside of friendly territory\n\nWater units can build Water improvements on tiles",
+		"uniques": ["[Water] units gain the [Sea Nomads] promotion"],
 		"cities": ["Bandar Brunei","Manila","Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Mal-I","Madja-As","Butuan","Lanao","Dapitan"]
 	},
 	{
