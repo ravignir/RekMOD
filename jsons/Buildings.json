@@ -245,7 +245,7 @@
 		"name": "Khambar",
 		"uniqueTo": "Bulgaria",
 		"replaces": "Granary", 
-		"cost": 55,
+		"cost": 48,
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -823,7 +823,10 @@
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["[+1 Faith] from [Water resource] tiles [in this city]"]
+		"uniques": [
+			"[+1 Production] from [Tundra] tiles [in this city]",
+			"[+1 Production] from [Snow] tiles [in this city]"
+	]
 	},
 	{
 		"name": "Mud Pyramid Mosque",
