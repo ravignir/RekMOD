@@ -1,7 +1,5 @@
 [
-
-	// Religious buildings
-
+    // Religious buildings
 	{
 		"name": "Cathedral",
 		"faith": 1,
@@ -33,7 +31,7 @@
 		"culture": 1,
 		"faith": 2,
 		"production": 1,
-		"uniques": ["Unbuildable","[+10]% Production when constructing [All] buildings [in this city]","Hidden when religion is disabled"]
+		"uniques": ["Unbuildable","[+15]% Production when constructing [All] buildings [in this city]","Hidden when religion is disabled"]
 	},
 	{
 		"name": "Vihara",
@@ -59,51 +57,85 @@
 		"name": "Writing Auditorium",
 		"culture": 2,
 		"faith": 1,
-    	"specialistSlots": {"Writer": 1},
+		"specialistSlots": {"Writer": 1},
 		"uniques": ["Unbuildable"]
 	},
 	{
 		"name": "Vocal Chamber",
 		"culture": 2,
 		"faith": 1,
-    	"specialistSlots": {"Musician": 1},
+		"specialistSlots": {"Musician": 1},
 		"uniques": ["Unbuildable"]
 	},
     {
-    	"name": "Fine Art Specialist",
-		"specialistSlots": {"Artist": 1,"Writer": 1,"Musician": 1},
-		"uniques": ["Unbuildable"]
+        "name": "Fine Art Specialist",
+        "specialistSlots": {"Artist": 1, "Writer": 1, "Musician": 1},
+        "uniques": ["Unbuildable"]
     },
     {
         "name": "~limit",
 	    "gold": 2,
         "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+        "uniques": [
+            "Never destroyed when the city is captured",
+            "Will not be displayed in Civilopedia",
+            "Unbuildable",
+            "Unsellable"
+        ],
     },
     {
         "name": "Cloves", // Indonesian luxury
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true, 
         "cost": 0,
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"]
+        "uniques": [
+            "Provides [2] [Cloves]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Only available <in cities without a [~limit]>",
+            "Gain a free [~limit] [in this city]",
+            "Must be next to [Coast]",
+            "Limited to [1] per Civilization",
+            "Will not be displayed in Civilopedia"
+        ]
     },
     {
         "name": "Nutmeg", // Indonesian luxury
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
         "cost": 0,
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"]
+        "uniques": [
+            "Provides [2] [Nutmeg]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Only available <in cities without a [~limit]>",
+            "Gain a free [~limit] [in this city]",
+            "Must be next to [Coast]",
+            "Limited to [1] per Civilization",
+            "Will not be displayed in Civilopedia"
+        ]
     },
     {
         "name": "Pepper", // Indonesian luxury
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
         "cost": 0,
-        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"]
+        "uniques": [
+            "Provides [2] [Pepper]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Only available <in cities without a [~limit]>",
+            "Gain a free [~limit] [in this city]",
+            "Must be next to [Coast]",
+            "Limited to [1] per Civilization",
+            "Will not be displayed in Civilopedia"
+        ]
     },
     {
         "name": "~CS",
-        "uniques": ["Unsellable","Will not be displayed in Civilopedia","Unbuildable","Destroyed when the city is captured"]
+        "uniques": [
+            "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Unbuildable",
+            "Destroyed when the city is captured"
+        ]
     },
 	{
         "name": "Watch Tower",
@@ -122,10 +154,14 @@
         "name": "Ulugh Beg's Observatory",
         "cityStrength": 5,
         "uniqueTo": "Timurids",
-		"isNationalWonder": true,
 		"percentStatBonus": {"science": 10, "production": 10, "gold": 10, "culture": 10},
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable", "Only available <in cities with a [Palace]>", "Destroyed when the city is captured"]
     },
+	{
+		"name": "Governor's Mansion",
+		"happiness": 1,
+		"uniques": ["Unbuildable","[+1] population [in this city]"]
+	},
 	
 	// Ancient Era
 
@@ -209,7 +245,7 @@
 		"name": "Khambar",
 		"uniqueTo": "Bulgaria",
 		"replaces": "Granary", 
-		"cost": 55,
+		"cost": 48,
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -225,6 +261,7 @@
 		"name": "Mala'e",
 		"replaces": "Granary",
 		"uniqueTo": "Tonga",
+		"faith": 1,
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -233,7 +270,7 @@
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Maize] tiles [in this city]",
-			"[+2 Food, +2 Faith, +2 Culture] <with [3] to [6] neighboring [Coast] tiles>"],
+			"[+2 Food, +2 Culture] <with [3] to [6] neighboring [Coast] tiles>"],
 		"requiredTech": "Sailing"
 	},
 	{
@@ -786,7 +823,10 @@
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["[+1 Faith] from [Water resource] tiles [in this city]"]
+		"uniques": [
+			"[+1 Production] from [Tundra] tiles [in this city]",
+			"[+1 Production] from [Snow] tiles [in this city]"
+	]
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -892,6 +932,7 @@
 		"name": "Candi", 
 		"replaces": "Garden",
 		"uniqueTo": "Indonesia",
+		"cost": 90,
 		"faith": 6,
 		"uniques": ["[+20]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
@@ -1458,7 +1499,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city","[+1 Production] from [Hill] tiles [in this city]","[+6 Culture] <after discovering [Flight]>"],
-		"requiredTech": "Machinery"
+		"requiredTech": "Metal Casting"
 	},
 	{
 		"name": "Notre Dame",

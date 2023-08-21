@@ -107,44 +107,84 @@
 		"culture": 6,
 		"gold": 2,
 		"science": 2,
-		"uniques": ["Can be built outside your borders","Pillaging this improvement yields approximately [+20 Gold]",
+		"uniques": ["Can be built outside your borders","Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",
 		"Improvement"]
 	},
 	{
 		"name": "Land Trade Route (Food)",
 		"food": 3,
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
-		"uniques": ["Provides [-1] [Trade Route]","[-3 Food] <in cities without a [Granary]>","[+1 Food] <starting from the [Classical era]>", "[+1 Food] <starting from the [Industrial era]>", "[+1 Food] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": [
+            "Provides [-1] [Trade Route]",
+            "[-3 Food] <in cities without a [Granary]>",
+            "[+1 Food] <starting from the [Classical era]>",
+            "[+1 Food] <starting from the [Industrial era]>",
+            "[+1 Food] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
 	},
 	{
 		"name": "Land Trade Route (Production)",
 		"production": 3,
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
-		"uniques": ["Provides [-1] [Trade Route]","[-3 Production] <in cities without a [Workshop]>","[+1 Production] <starting from the [Classical era]>", "[+1 Production] <starting from the [Industrial era]>", "[+1 Production] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": [
+            "Provides [-1] [Trade Route]",
+            "[-3 Production] <in cities without a [Workshop]>",
+            "[+1 Production] <starting from the [Classical era]>",
+            "[+1 Production] <starting from the [Industrial era]>",
+            "[+1 Production] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
 	},
 	{
 		"name": "Land Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
-		"gold": 3,
-		"uniques": ["Provides [-1] [Trade Route]","[+1 Gold] <starting from the [Classical era]>", "[+1 Gold] <starting from the [Industrial era]>", "[+1 Gold] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"gold": 6,
+		"uniques": [
+            "Provides [-1] [Trade Route]",
+            "[+2 Gold] <starting from the [Classical era]>",
+            "[+2 Gold] <starting from the [Industrial era]>",
+            "[+2 Gold] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
 	},
 	{
 		"name": "Sea Trade Route (Food)",
 		"food": 6,
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
-		"uniques": ["Provides [-1] [Trade Route]","[-6 Food] <in cities without a [Granary]>","[+2 Food] <starting from the [Classical era]>", "[+2 Food] <starting from the [Industrial era]>", "[+2 Food] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": [
+            "Provides [-1] [Trade Route]",
+            "[-6 Food] <in cities without a [Granary]>",
+            "[+2 Food] <starting from the [Classical era]>",
+            "[+2 Food] <starting from the [Industrial era]>",
+            "[+2 Food] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
 		"production": 6,
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
-		"uniques": ["Provides [-1] [Trade Route]","[-6 Production] <in cities without a [Workshop]>","[+2 Production] <starting from the [Classical era]>", "[+2 Production] <starting from the [Industrial era]>", "[+2 Production] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": [
+            "Provides [-1] [Trade Route]",
+            "[-6 Production] <in cities without a [Workshop]>",
+            "[+2 Production] <starting from the [Classical era]>",
+            "[+2 Production] <starting from the [Industrial era]>",
+            "[+2 Production] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
-		"gold": 6,
-		"uniques": ["Provides [-1] [Trade Route]","[+2 Gold] <starting from the [Classical era]>", "[+2 Gold] <starting from the [Industrial era]>", "[+2 Gold] <starting from the [Modern era]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"gold": 12,
+		"uniques": [
+            "Provides [-1] [Trade Route]",
+            "[+4 Gold] <starting from the [Classical era]>", 
+            "[+4 Gold] <starting from the [Industrial era]>",
+            "[+4 Gold] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
 	},
 
 	// Military improvement
@@ -258,9 +298,13 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement","[+2 Science] <after discovering [Scientific Theory]>",
-			"[+2 Science] <after discovering [Atomic Theory]>","Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]",
-			"Improvement"]
+		"uniques": [
+			"Great Improvement","[+2 Science] <after discovering [Scientific Theory]>",
+			"[+2 Science] <after discovering [Atomic Theory]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Improvement"
+		]
 	},
 	{
 		"name": "Holy site",
@@ -328,14 +372,15 @@
 		"production": 1,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["Great Improvement","Removes removable features when built",
-		"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Computers]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Plastics]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
+		"uniques": [
+			"Great Improvement","Removes removable features when built",
 			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Plastics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Computers]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Improvement"]
 	},

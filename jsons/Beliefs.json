@@ -78,15 +78,15 @@
         "name": "Goddess of Festivals",
         "type": "Pantheon",
         "uniques": [
-          "[+1 Culture, +1 Faith] from every [Wine]",
-          "[+1 Culture, +1 Faith] from every [Sugar]",
-          "[+1 Culture, +1 Faith] from every [Spices]"
+          "[+1 Production] from every [Wine]",
+          "[+1 Production] from every [Sugar]",
+          "[+1 Production] from every [Spices]"
           ]
     },
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] <in cities with at least [3] [Population]>"]
+        "uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [3] [Population]>"]
     },
     {
         "name": "Goddess of Protection",
@@ -97,10 +97,10 @@
         "name": "Goddess of the Fields",
         "type": "Pantheon",
         "uniques": [
-          "[+1 Culture, +1 Faith] from every [Incense]",
-          "[+1 Culture, +1 Faith] from every [Cotton]",
-          "[+1 Culture, +1 Faith] from every [Tea]",
-          "[+1 Culture, +1 Faith] from every [Coffee]"
+          "[+2 Faith] from every [Incense]",
+          "[+2 Faith] from every [Cotton]",
+          "[+2 Faith] from every [Tea]",
+          "[+2 Faith] from every [Coffee]"
           ]
     },
     {
@@ -122,10 +122,10 @@
         "name": "Mystic Rituals",
         "type": "Pantheon",
         "uniques": [
-          "[+1 Culture, +1 Faith] from every [Silk]",
-          "[+1 Culture, +1 Faith] from every [Dyes]",
-          "[+1 Culture, +1 Faith] from every [Perfume]",
-          "[+1 Culture, +1 Faith] from every [Tobacco]"
+          "[+1 Culture, +1 Food] from every [Silk]",
+          "[+1 Culture, +1 Food] from every [Dyes]",
+          "[+1 Culture, +1 Food] from every [Perfume]",
+          "[+1 Culture, +1 Food] from every [Tobacco]"
           ]
     },
     {
@@ -171,9 +171,9 @@
         "name": "Ritual Sacrifice",
         "type": "Pantheon",
         "uniques": [
-          "[+1 Culture, +1 Faith] from every [Ivory]",
-          "[+1 Culture, +1 Faith] from every [Furs]",
-          "[+1 Culture, +1 Faith] from every [Truffles]"
+          "[+1 Culture, +2 Gold] from every [Ivory]",
+          "[+1 Culture, +2 Gold] from every [Furs]",
+          "[+1 Culture, +2 Gold] from every [Truffles]"
           ]
     },
     {
@@ -213,27 +213,31 @@
     {
         "name": "Stone Circles",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +2 Faith] from every [Quarry]"]
+        "uniques": [
+            "[+1 Production, +1 Faith] from every [Quarry]",
+            "[+1 Faith] from every [Marble]",
+            "[+1 Faith] from every [Obsidian]"
+        ]
     },
     {
         "name": "Sun God",
         "type": "Pantheon",
         "uniques": [
           "[+1 Food] from every [Bananas]",
-          "[+1 Food] from every [Citrus]",
-          "[+1 Food] from every [Olives]",
-          "[+1 Food] from every [Cocoa]",
-          "[+1 Food] from every [Coconut]"
+          "[+1 Food, +1 Gold] from every [Citrus]",
+          "[+1 Food, +1 Gold] from every [Olives]",
+          "[+1 Food, +1 Gold] from every [Cocoa]",
+          "[+1 Food, +1 Gold] from every [Coconut]"
           ]
     },
     {
         "name": "Tears of the Gods",
         "type": "Pantheon",
         "uniques": [
-          "[+1 Culture, +1 Faith] from every [Gems]",
-          "[+1 Culture, +1 Faith] from every [Amber]",
-          "[+1 Culture, +1 Faith] from every [Lapis Lazuli]",
-          "[+1 Culture, +1 Faith] from every [Jade]"
+          "[+1 Faith, +2 Gold] from every [Gems]",
+          "[+1 Faith, +2 Gold] from every [Amber]",
+          "[+1 Faith, +2 Gold] from every [Lapis Lazuli]",
+          "[+1 Faith, +2 Gold] from every [Jade]"
           ]
     },
     {
@@ -375,12 +379,12 @@
     {
         "name": "Gurdwaras",
         "type": "Follower",
-        "uniques": ["May buy [Gurdwara] buildings for [195] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Gurdwara] buildings for [200] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+1 Production, +2 Food] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+1 Production, +2 Food, +1 Gold] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
     },
     {
         "name": "Holy Warriors",
@@ -405,7 +409,7 @@
     {
         "name": "Pagodas",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings for [195] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Pagoda] buildings for [200] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Peace Gardens",
@@ -435,7 +439,7 @@
     {
         "name": "Synagogues",
         "type": "Follower",
-        "uniques": ["May buy [Synagogue] buildings for [195] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Synagogue] buildings for [200] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Viharas",
@@ -452,7 +456,7 @@
     {
         "name": "City of God",
         "type": "Enhancer",
-        "uniques": ["[+2 Food, +1 Science, +2 Culture] from every [Holy site]","Free [Great Prophet] appears"]
+        "uniques": ["[+2 Food, +1 Science] from every [Holy site]","Free [Great Prophet] appears"]
     },
     {
         "name": "Defender of the Faith",
@@ -494,11 +498,11 @@
         "name": "Jesuit Education",
         "type": "Enhancer",
         "uniques": [
-          "May buy [Library] buildings with [Faith] [in cities following this religion]",
-          "May buy [University] buildings with [Faith] [in cities following this religion]",
-          "May buy [Observatory] buildings with [Faith] [in cities following this religion]",
-          "May buy [Public School] buildings with [Faith] [in cities following this religion]",
-          "May buy [Research Lab] buildings with [Faith] [in cities following this religion]"
+            "May buy [Library] buildings for [150] [Faith] [in cities following this religion]",
+            "May buy [University] buildings for [220] [Faith] [in cities following this religion]",
+            "May buy [Observatory] buildings for [260] [Faith] [in cities following this religion]",
+            "May buy [Public School] buildings for [380] [Faith] [in cities following this religion]",
+            "May buy [Research Lab] buildings for [630] [Faith] [in cities following this religion]"
           ]
     },
     {
@@ -552,10 +556,10 @@
         "name": "Work Ethic",
         "type": "Enhancer",
         "uniques": [
-          "May buy [Workshop] buildings with [Faith] [in cities following this religion]",
-          "May buy [Factory] buildings with [Faith] [in cities following this religion]",
-          "May buy [Windmill] buildings with [Faith] [in cities following this religion]",
-          "May buy [Hydro Plant] buildings with [Faith] [in cities following this religion]"
+            "May buy [Workshop] buildings for [200] [Faith] [in cities following this religion]",
+            "May buy [Factory] buildings for [450] [Faith] [in cities following this religion]",
+            "May buy [Windmill] buildings for [320] [Faith] [in cities following this religion]",
+            "May buy [Hydro Plant] buildings for [520] [Faith] [in cities following this religion]"
           ]
     },
     {

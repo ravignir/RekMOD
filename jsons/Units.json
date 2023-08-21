@@ -7,7 +7,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","Can build [Fishing Boats] improvements on tiles","Can build [Offshore Platform] improvements on tiles","Can build [Kampong Ayer] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [All] improvements on tiles","Automation is a primary action"],
 		"cost": 48
 	},
 	{
@@ -17,7 +17,7 @@
 		"unitType": "Civilian",
 		"movement": 3,
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["Can build [Land] improvements on tiles","Can build [Fishing Boats] improvements on tiles","Can build [Offshore Platform] improvements on tiles", "Automation is a primary action","[+1] Movement <in [Water] tiles>"],
+		"uniques": ["Can build [All] improvements on tiles","Automation is a primary action","[+1] Movement <in [Water] tiles>"],
 		"cost": 48
 	}
 	{
@@ -26,7 +26,7 @@
 		"uniqueTo": "Maurya",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","Can build [Fishing Boats] improvements on tiles","Can build [Offshore Platform] improvements on tiles", "Automation is a primary action","Ignores terrain cost"],
+		"uniques": ["Can build [All] improvements on tiles","Automation is a primary action","Ignores terrain cost"],
 		"cost": 48
 	},
 	{
@@ -355,7 +355,7 @@
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
-		"strength": 9,
+		"strength": 8,
 		"rangedStrength": 11,
 		"cost": 70,
 		"requiredTech": "The Wheel",
@@ -414,8 +414,8 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Akkad",
 		"unitType": "Sword",
-		"movement": 2,
-		"strength": 13,
+		"movement": 3,
+		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
@@ -846,15 +846,13 @@
 	{
 		"name": "Landsknecht",
 		"unitType": "Sword",
-		"replaces": "Pikeman",
-		"movement": 2,
+		"movement": 3,
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can be purchased with [Gold] [in all cities]","Only available <after adopting [Mercenary Army]>","Unbuildable"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","No movement cost to pillage","Can be purchased with [Gold] [in all cities]","Only available <after adopting [Mercenary Army]>","Unbuildable"],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
-		//"Requires [Mercenary Army]" in BNW
 	},
 	{
 		"name": "Swiss Guard",
@@ -866,7 +864,7 @@
 		"cost": 65,
 		"requiredTech": "Civil Service",
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Unbuildable","Can be purchased with [Gold] [in all cities]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","No movement cost to pillage","Unbuildable","Can be purchased with [Gold] [in all cities]","Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
 		"upgradesTo": "Rifleman",
 		"attackSound": "metalhit"
 	},
@@ -932,7 +930,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Argentina",
 		"unitType": "Mounted",
-		"movement": 5,
+		"movement": 4,
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Chivalry",
@@ -1108,7 +1106,7 @@
 		"unitType": "Siege",
 		"movement": 3,
 		"strength": 20,
-		"rangedStrength": 20,
+		"rangedStrength": 18,
 		"cost": 135,
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Chemistry",
@@ -1398,7 +1396,7 @@
 		"replaces": "Musketman",
 		"uniqueTo": "Sweden",
 		"unitType": "Gunpowder",
-		"movement": 2,
+		"movement": 3,
 		"strength": 24,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
@@ -1487,8 +1485,8 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted] units>","Never appears as a Barbarian unit"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Anti-Tank Rifle",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -1503,8 +1501,8 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted] units>"],
 		"promotions": ["Heavy Charge"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Anti-Tank Rifle",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -1520,8 +1518,8 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Anti-Tank Rifle",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -1537,8 +1535,8 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+33]% Strength <vs [Armored] units>","[+33]% Strength <vs [Mounted] units>",
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Anti-Tank Rifle",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -1676,10 +1674,11 @@
 		"uniqueTo": "Prussia",
 		"replaces": "Rifleman",
 		"unitType": "Gunpowder",
-		"movement": 2,
+		"movement": 3,
 		"strength": 34,
 		"cost": 225,
 		"promotions": ["Blitz","Quick Study"],
+		"uniques": ["Transfer Movement to [All]"],
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
@@ -1809,7 +1808,7 @@
 	{
 		"name": "Airship",
 		"unitType": "Helicopter",
-		"movement": 4,
+		"movement": 6,
 		"strength": 15,
 		"cost": 150,
 		"requiredTech": "Steam Power",
@@ -1864,7 +1863,7 @@
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
-	/*{
+	{
 		"name": "Anti-Tank Rifle",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1875,7 +1874,7 @@
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["[+200]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
-	},*/
+	},
 	{
 		"name": "Great War Infantry",
 		"unitType": "Gunpowder",
@@ -2016,7 +2015,7 @@
 		"uniqueTo": "Vietnam",
 		"unitType": "Gunpowder",
 		"movement": 3,
-		"strength": 75,
+		"strength": 70,
 		"cost": 350,
 		"requiredTech": "Electronics",
 		"uniques": ["Can pass through impassable tiles"],
@@ -2109,7 +2108,7 @@
 		"name": "Destroyer",
 		"unitType": "Melee Water",
 		"movement": 6,
-		"strength": 55,
+		"strength": 60,
 		"interceptRange": 2,
 		"cost": 410,
 		"requiredTech": "Combustion",
@@ -2152,7 +2151,7 @@
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
-		"range": 12,
+		"range": 10,
 		"cost": 450,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
@@ -2289,8 +2288,8 @@
 	{
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
-		"movement": 6,
-		"strength": 60,
+		"movement": 8,
+		"strength": 70,
 		"cost": 510,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
@@ -2358,7 +2357,6 @@
 		"interceptRange": 10,
 		"cost": 550,
 		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","[+4] Sight","Can see over obstacles"],
 		"attackSound": "jetgun"
 	},
@@ -2390,7 +2388,7 @@
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
-		"range": 24,
+		"range": 20,
 		"cost": 550,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
@@ -2527,7 +2525,7 @@
 		"unitType": "Mounted",
 		"strength": 15,
 		"requiredResource": "Horses",
-		"promotions": ["Great Generals II","March","Charge","Heavy Charge","Leadership"],
+		"promotions": ["Great Generals II","Charge","Heavy Charge","Leadership"],
 		"upgradesTo": "Knight",
 		"uniques": [
             "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
@@ -2571,7 +2569,7 @@
 		"unitType": "Civilian",
 		"cost": 100,
 		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
 		"movement": 4,
 		"religiousStrength": 1000
@@ -2582,7 +2580,7 @@
 		"cost": 100,
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [1] times",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
@@ -2598,7 +2596,7 @@
 		"cost": 100,
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [1] times",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3,
