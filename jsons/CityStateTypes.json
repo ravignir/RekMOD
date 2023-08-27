@@ -1,59 +1,59 @@
 [
-  {
-    "name": "Cultured",
-    "friendBonusUniques": [
+    {
+        "name": "Cultured",
+        "friendBonusUniques": [
             "[+3 Culture] <before the [Medieval era]>",
             "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+12 Culture] <starting from the [Industrial era]>"
         ],
-    "allyBonusUniques": [
+        "allyBonusUniques": [
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+24 Culture] <starting from the [Industrial era]>"
         ],
-    "color": [139, 96, 255]
+        "color": [139, 96, 255]
     },
-  {
-    "name": "Maritime",
-    "friendBonusUniques": ["[+2 Food] [in capital]"],
-    "allyBonusUniques": ["[+3 Food] [in capital]", "[+1 Food] [in all cities]"],
-    "color": [56, 255, 112]
+    {
+        "name": "Maritime",
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": ["[+3 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "color": [56, 255, 112]
     },
-  {
-    "name": "Mercantile",
-    "friendBonusUniques": [
+    {
+        "name": "Mercantile",
+        "friendBonusUniques": [
             "[+2 Happiness] <before the [Medieval era]>",
             "[+4 Happiness] <starting from the [Medieval era]>"
         ],
-    "allyBonusUniques": [
+        "allyBonusUniques": [
             "[+2 Happiness] <before the [Medieval era]>",
             "[+4 Happiness] <starting from the [Medieval era]>",
             "Provides a unique luxury"
         ],
-    "color": [255, 216, 0]
+        "color": [255, 216, 0]
     },
-  {
-    "name": "Militaristic",
-    "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-    "allyBonusUniques": ["Provides military units every ≈[13] turns"],
-    "color": [255, 0, 0]
+    {
+        "name": "Militaristic",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[13] turns"],
+        "color": [255, 0, 0]
     },
-  {
-    "name": "Religious",
-    "friendBonusUniques": [
+    {
+        "name": "Religious",
+        "friendBonusUniques": [
             "[+2 Faith] <before the [Classical era]>",
             "[+3 Faith] <starting from the [Classical era]> <before the [Medieval era]>",
             "[+4 Faith] <starting from the [Medieval era]> <before the [Renaissance era]>",
             "[+6 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
             "[+8 Faith] <starting from the [Industrial era]>"
         ],
-    "allyBonusUniques": [
+      "allyBonusUniques": [
             "[+4 Faith] <before the [Classical era]>",
             "[+6 Faith] <starting from the [Classical era]> <before the [Medieval era]>",
             "[+8 Faith] <starting from the [Medieval era]> <before the [Renaissance era]>",
             "[+12 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
             "[+16 Faith] <starting from the [Industrial era]>"
         ],
-    "color": [255, 255, 255]
+      "color": [255, 255, 255]
     }
 ]

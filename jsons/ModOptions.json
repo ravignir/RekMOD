@@ -1,13 +1,13 @@
 {
-  "constants":
-  {
-    "maxLakeSize": 5,
-    "riverCountMultiplier": 0.015,
-    "religionLimitBase": 0,
-    "religionLimitMultiplier": 1,
-    "unitSupplyPerPopulation": 10,
-    "pantheonBase": 15,
-    "pantheonGrowth": 0
-  },
-  "isBaseRuleset": true
+    "constants":
+    {
+        "maxLakeSize": 5,
+        "riverCountMultiplier": 0.015,
+        "religionLimitBase": 0,
+        "religionLimitMultiplier": 1,
+        "unitSupplyPerPopulation": 10,
+        "pantheonBase": 15,
+        "pantheonGrowth": 0
+    },
+    "isBaseRuleset": true
 }
