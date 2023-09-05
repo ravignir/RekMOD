@@ -48,7 +48,7 @@
         // So we just write down the entire long list (sorted by era!) every time instead.
         "startingObsoleteWonders": [
             "Temple of Artemis", "Stonehenge", "The Great Library", "The Pyramids", "Mausoleum of Halicarnassus", "Statue of Zeus"
-],
+        ],
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
         "startPercent": 25,
@@ -98,7 +98,8 @@
         "startPercent": 50,
         "citySound": "cityIndustrial",
         "iconRGB": [63, 81, 182],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
@@ -118,7 +119,7 @@
         "startingObsoleteWonders": [
             "Temple of Artemis", "Stonehenge", "The Great Library", "The Pyramids", "Mausoleum of Halicarnassus", "Statue of Zeus",
             "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Mosque of Djenne", "Parthenon", "Petra", "Great Wall", "Colossus",
-            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame", 
+            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame",
             "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Globe Theatre", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Uffizi", "Red Fort"
         ],
         "baseUnitBuyCost": 600,
@@ -147,7 +148,7 @@
         "startingObsoleteWonders": [
             "Temple of Artemis", "Stonehenge", "The Great Library", "The Pyramids", "Mausoleum of Halicarnassus", "Statue of Zeus",
             "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Mosque of Djenne", "Parthenon", "Petra", "Great Wall", "Colossus",
-            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame", 
+            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame",
             "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Globe Theatre", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Uffizi", "Red Fort",
             "The Louvre", "Big Ben", "Neuschwanstein", "Brandenburg Gate"
         ],
@@ -156,7 +157,8 @@
         "startPercent": 65,
         "citySound": "cityAtomic",
         "iconRGB": [0, 150, 136],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
@@ -176,7 +178,7 @@
         "startingObsoleteWonders": [
             "Temple of Artemis", "Stonehenge", "The Great Library", "The Pyramids", "Mausoleum of Halicarnassus", "Statue of Zeus",
             "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Mosque of Djenne", "Parthenon", "Petra", "Great Wall", "Colossus",
-            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame", 
+            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame",
             "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Globe Theatre", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Uffizi", "Red Fort",
             "The Louvre", "Big Ben", "Neuschwanstein", "Brandenburg Gate",
             "Eiffel Tower", "Broadway", "Statue of Liberty", "Prora", "Kremlin", "Panama Canal", "Cristo Redentor"
@@ -184,18 +186,18 @@
         "baseUnitBuyCost": 1000,
         "embarkDefense": 20,
         "startPercent": 80,
-
         "citySound": "cityInformation",
         "iconRGB": [76, 176, 81],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
     },
     { // Technically, this Era doesn't exist in the original game.
-      // But as it is _really_ usefull to have for testing, I'd like to keep it.
-      // The stats are just copy-pasted from the information era.
+        // But as it is _really_ usefull to have for testing, I'd like to keep it.
+        // The stats are just copy-pasted from the information era.
         "name": "Future era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
@@ -209,7 +211,7 @@
         "startingObsoleteWonders": [
             "Temple of Artemis", "Stonehenge", "The Great Library", "The Pyramids", "Mausoleum of Halicarnassus", "Statue of Zeus",
             "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Mosque of Djenne", "Parthenon", "Petra", "Great Wall", "Colossus",
-            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame", 
+            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame",
             "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Globe Theatre", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Uffizi", "Red Fort",
             "The Louvre", "Big Ben", "Neuschwanstein", "Brandenburg Gate",
             "Eiffel Tower", "Broadway", "Statue of Liberty", "Prora", "Kremlin", "Panama Canal", "Cristo Redentor"
@@ -219,7 +221,8 @@
         "startPercent": 80,
         "citySound": "cityFuture",
         "iconRGB": [76, 176, 81],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
