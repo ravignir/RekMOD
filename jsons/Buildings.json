@@ -1641,7 +1641,7 @@
             "[+1 Production, +2 Culture] from [Iron] tiles [in this city]",
             "All newly-trained [Ranged] units [in this city] receive the [Accuracy I] promotion",
             "All newly-trained [Scout] units [in this city] receive the [Accuracy I] promotion",
-            "All newly-trained [Siege] units [in this city] receive the [Accuracy I] promotion",
+            "All newly-trained [Siege] units [in this city] receive the [Accuracy I] promotion"
         ]
     },
     {
@@ -2978,7 +2978,7 @@
             "Free [Great Merchant] appears",
             "[+4 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
-        "requiredTech": "Railroads",
+        "requiredTech": "Railroads"
     },
     // Column 12
     {
