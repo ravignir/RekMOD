@@ -199,7 +199,7 @@
         "uniqueName": "Siege Warfare",
         "uniques": [
             "[+1] Movement <for [Siege] units>",
-            "Receive free [Great Writer] when you discover [Philosophy]",
+            "Free [Great Writer] appears <upon discovering [Philosophy]>",
             "Instantly provides [1] [Great Work of Writing] <upon constructing [Royal Library] [in capital]>"
         ],
         "cities": [
@@ -336,7 +336,7 @@
         "innerColor": [213,249,255],
         "uniqueName": "Ingenuity",
         "uniques": [
-            "Receive free [Great Scientist] when you discover [Philosophy]",
+            "Free [Great Scientist] appears <upon discovering [Philosophy]>",
             "[Great Scientist] is earned [25]% faster"
         ],
         "cities": [
@@ -1515,7 +1515,7 @@
         "innerColor": [220,190,92],
         "uniqueName": "Macedonian Discipline",
         "uniques": [
-            "Receive free [Hetairoi] when you discover [Horseback Riding]",
+            "Free [Hetairoi] appears <upon discovering [Horseback Riding]>",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Military Academy]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]"
@@ -1659,7 +1659,7 @@
         "uniqueName": "Encomienda System",
         "uniques": [
             "[-20]% City-State Influence degradation",
-            "Receive free [Worker] when you discover [Pottery]"
+            "Free [Worker] appears <upon discovering [Pottery]>"
         ],
         "cities": [
             "Mexico City","Guadalajara","Tijuana","Juarez","Puebla","Monterrey","Veracruz","Acapulco","Mexicali","Oaxaca",
@@ -1900,7 +1900,7 @@
         "outerColor": [184,179,112],
         "innerColor": [105,73,45],
         "uniqueName": "Ta-Seti",
-        "uniques": ["Receive free [Apedemaks Bow] when you discover [Pottery]"],
+        "uniques": ["Free [Apedemaks Bow] appears <upon discovering [Pottery]>"],
         "cities": [
             "Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe",
             "Shaat","Heh","Dengeil","Miam","Tombos","Kurgus","Debba","Bugdumbush","Ukma","Defeia",
@@ -2039,7 +2039,7 @@
         "uniqueName": "Skillful Traders",
         "uniques": [
             "Provides [2] [Trade Route]",
-            "Receive free [Square Sail Ship] when you discover [Sailing]"
+            "Free [Square Sail Ship] appears <upon discovering [Sailing]>"
         ],
         "cities": [
             "Tyre","Sidon","Ugarit","Berytus","Byblos","Arvad","Akko","Kition","Tripolis","Baalbek",
