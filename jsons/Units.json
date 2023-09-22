@@ -25,7 +25,7 @@
             "[+1] Movement <in [Water] tiles>"
         ],
         "cost": 48
-    }
+    },
     {
         "name": "Fast Worker",
         "replaces": "Worker",
@@ -1564,7 +1564,7 @@
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
-        "promotions": ["Drill I","Ignores terrain cost"],
+        "promotions": ["Drill I","Ignore terrain cost"],
         "attackSound": "shot"
     },
     {
@@ -2691,7 +2691,7 @@
         "strength": 50,
         "range": 3,
         "rangedStrength": 85,
-        "cost": 550,
+        "cost": 510,
         "requiredTech": "Telecommunications",
         "uniques": [
             "[+75]% Strength <when attacking>",
@@ -2707,7 +2707,7 @@
         "unitType": "Gunpowder",
         "movement": 3,
         "strength": 90,
-        "cost": 488,
+        "cost": 450,
         "requiredTech": "Mobile Tactics",
         "uniques": ["Never appears as a Barbarian unit"],
         "attackSound": "tankshot"
@@ -2720,7 +2720,7 @@
         "rangedStrength": 100,
         "range": 3,
         "interceptRange": 2,
-        "cost": 550,
+        "cost": 510,
         "requiredTech": "Robotics",
         "requiredResource": "Aluminum",
         "uniques": [
@@ -2736,7 +2736,7 @@
         "unitType": "Armored",
         "movement": 5,
         "strength": 100,
-        "cost": 550,
+        "cost": 540,
         "requiredTech": "Lasers",
         "requiredResource": "Aluminum",
         "uniques": [
@@ -2755,7 +2755,7 @@
         "rangedStrength": 75,
         "range": 10,
         "interceptRange": 10,
-        "cost": 550,
+        "cost": 540,
         "requiredTech": "Lasers",
         "uniques": [
             "[100]% chance to intercept air attacks",
@@ -2787,7 +2787,7 @@
         "unitType": "Paratrooping",
         "movement": 2,
         "strength": 100,
-        "cost": 520,
+        "cost": 510,
         "requiredTech": "Nanotechnology",
         "uniques": [
             "May Paradrop up to [40] tiles from inside friendly territory",
@@ -2802,7 +2802,7 @@
         "strength": 85,
         "rangedStrength": 85,
         "range": 20,
-        "cost": 550,
+        "cost": 540,
         "requiredTech": "Stealth",
         "requiredResource": "Aluminum",
         "uniques": [
