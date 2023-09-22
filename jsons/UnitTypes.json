@@ -60,7 +60,7 @@
     {
         "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+        "uniques": ["Can enter ice tiles","Invisible to non-adjacent units","Can see invisible [Submarine] units"]
     },
     {
         "name": "Aircraft Carrier",
@@ -69,7 +69,7 @@
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+        "uniques": ["Aircraft", "Can perform Air Sweep"]
     },
     {
         "name": "Bomber",
@@ -84,12 +84,16 @@
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking","Cannot be intercepted"]
     },
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["May travel on Water tiles without embarking","All tiles cost 1 movement","Can pass through impassable tiles"]
+        "uniques": [
+            "May travel on Water tiles without embarking",
+            "All tiles cost 1 movement",
+            "Can pass through impassable tiles"
+        ]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work

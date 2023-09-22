@@ -672,19 +672,92 @@
     },
     {
         "name": "Ambition",
-        "uniques": ["[+50]% Strength <when attacking>"],
+        "uniques": [
+            "[+50]% Strength <when attacking>", "[-20]% Strength <when defending>",
+            "Only available <for units without [Ambition]>",
+            "Only available <for units without [Invulnerability]>",
+            "Only available <for units without [Restlessness]>",
+            "Only available <for units without [Sneak Attack]>",
+            "Only available <for units without [Recruitment]>",
+            "Only available <for units without [Heroism]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
     {
         "name": "Invulnerability",
-        "uniques": ["All healing effects doubled"],
+        "uniques": [
+            "[+20] HP when healing", "[+30]% Strength <when defending>",
+            "Only available <for units without [Ambition]>",
+            "Only available <for units without [Invulnerability]>",
+            "Only available <for units without [Restlessness]>",
+            "Only available <for units without [Sneak Attack]>",
+            "Only available <for units without [Recruitment]>",
+            "Only available <for units without [Heroism]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
     {
         "name": "Restlessness",
-        "uniques": ["[1] additional attacks per turn"],
+        "uniques": [
+            "[1] additional attacks per turn", "[+1] Movement",
+            "Only available <for units without [Ambition]>",
+            "Only available <for units without [Invulnerability]>",
+            "Only available <for units without [Restlessness]>",
+            "Only available <for units without [Sneak Attack]>",
+            "Only available <for units without [Recruitment]>",
+            "Only available <for units without [Heroism]>",
+            "This Promotion is free"
+        ],
+        "prerequisites": ["Mystic Blade"],
+        "unitTypes": ["Sword","Gunpowder"]
+    },
+    {
+        "name": "Sneak Attack",
+        "uniques": [
+            "[+50]% to Flank Attack bonuses",
+            "Only available <for units without [Ambition]>",
+            "Only available <for units without [Invulnerability]>",
+            "Only available <for units without [Restlessness]>",
+            "Only available <for units without [Sneak Attack]>",
+            "Only available <for units without [Recruitment]>",
+            "Only available <for units without [Heroism]>",
+            "This Promotion is free"
+        ],
+        "prerequisites": ["Mystic Blade"],
+        "unitTypes": ["Sword","Gunpowder"]
+    },
+    {
+        "name": "Recruitment",
+        "uniques": [
+            "Heal this unit by [50] HP <upon defeating a [Major] unit>",
+            "Heal this unit by [50] HP <upon defeating a [City-State] unit>",
+            "Only available <for units without [Ambition]>",
+            "Only available <for units without [Invulnerability]>",
+            "Only available <for units without [Restlessness]>",
+            "Only available <for units without [Sneak Attack]>",
+            "Only available <for units without [Recruitment]>",
+            "Only available <for units without [Heroism]>",
+            "This Promotion is free"
+        ],
+        "prerequisites": ["Mystic Blade"],
+        "unitTypes": ["Sword","Gunpowder"]
+    },
+    {
+        "name": "Heroism",
+        "uniques": [
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Only available <for units without [Ambition]>",
+            "Only available <for units without [Invulnerability]>",
+            "Only available <for units without [Restlessness]>",
+            "Only available <for units without [Sneak Attack]>",
+            "Only available <for units without [Recruitment]>",
+            "Only available <for units without [Heroism]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
@@ -719,43 +792,222 @@
     },
     {
         "name": "Kelimazala",
-        "uniques": ["[1] additional attacks per turn"],
+        "uniques": [
+            "[1] additional attacks per turn",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Sampy"],
         "unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Ramahavaly",
-        "uniques": ["[+50]% Strength <when defending>","[-50]% Strength <when attacking>"],
+        "uniques": [
+            "[+50]% Strength <when defending>","[-50]% Strength <when attacking>",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Sampy"],
         "unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Manjakatsiroa",
-        "uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+        "uniques": [
+            "[+25]% Strength <when fighting in [Friendly Land] tiles>",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Sampy"],
         "unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Mosasa",
-        "uniques": ["[+4] Sight","[+4] Range"],
+        "uniques": [
+            "[+2] Sight","[+3] Range",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
+        "prerequisites": ["Sampy"],
+        "unitTypes": ["Archery", "Mounted Ranged"]
+    },
+    {
+        "name": "Rafantaka",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action",
+            "All adjacent units heal [10] HP when healing",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
+        "prerequisites": ["Sampy"],
+        "unitTypes": ["Archery", "Mounted Ranged"]
+    },
+    {
+        "name": "Rabehaza",
+        "uniques": [
+            "May capture killed [Military] units",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Sampy"],
         "unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Ambohimanambola",
-        "uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"],
+        "uniques": [
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Sampy"],
         "unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Sehatra",
-        "uniques": ["Heals [100] damage if it kills a unit"],
+        "uniques": [
+            "Heals [100] damage if it kills a unit",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Sampy"],
         "unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Lambamena",
-        "uniques": ["[+100]% Strength <vs cities>"],
+        "uniques": [
+            "[+100]% Strength <vs cities> <when attacking>",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
+        "prerequisites": ["Sampy"],
+        "unitTypes": ["Archery", "Mounted Ranged"]
+    },
+    {
+        "name": "Razana",
+        "uniques": [
+            "[+3] Movement",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
+        "prerequisites": ["Sampy"],
+        "unitTypes": ["Archery", "Mounted Ranged"]
+    },
+    {
+        "name": "Masina",
+        "uniques": [
+            "[+75]% Strength <vs [Wounded] units>",
+            "Only available <for units without [Kelimazala]>",
+            "Only available <for units without [Ramahavaly]>",
+            "Only available <for units without [Manjakatsiroa]>",
+            "Only available <for units without [Mosasa]>",
+            "Only available <for units without [Rafantaka]>",
+            "Only available <for units without [Rabehaza]>",
+            "Only available <for units without [Ambohimanambola]>",
+            "Only available <for units without [Sehatra]>",
+            "Only available <for units without [Lambamena]>",
+            "Only available <for units without [Razana]>",
+            "Only available <for units without [Masina]>",
+            "This Promotion is free"
+        ],
         "prerequisites": ["Sampy"],
         "unitTypes": ["Archery", "Mounted Ranged"]
     },

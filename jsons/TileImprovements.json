@@ -6,10 +6,9 @@
         "turnsToBuild": 7,
         "techRequired": "Agriculture",
         "uniques": [
-            "Can also be built on tiles adjacent to fresh water",
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
             "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            "Improvement",
             "Pillaging this improvement yields approximately [+18 Gold]"
         ],
         "shortcutKey": "F"
@@ -151,7 +150,7 @@
         "food": 3,
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Provides [-1] [Trade Route]",
+            "Consumes [1] [Trade Route]",
             "[-3 Food] <in cities without a [Granary]>",
             "[+1 Food] <starting from the [Classical era]>",
             "[+1 Food] <starting from the [Industrial era]>",
@@ -164,7 +163,7 @@
         "production": 3,
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Provides [-1] [Trade Route]",
+            "Consumes [1] [Trade Route]",
             "[-3 Production] <in cities without a [Workshop]>",
             "[+1 Production] <starting from the [Classical era]>",
             "[+1 Production] <starting from the [Industrial era]>",
@@ -177,7 +176,7 @@
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "gold": 6,
         "uniques": [
-            "Provides [-1] [Trade Route]",
+            "Consumes [1] [Trade Route]",
             "[+2 Gold] <starting from the [Classical era]>",
             "[+2 Gold] <starting from the [Industrial era]>",
             "[+2 Gold] <starting from the [Modern era]>",
@@ -189,7 +188,7 @@
         "food": 6,
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
-            "Provides [-1] [Trade Route]",
+            "Consumes [1] [Trade Route]",
             "[-6 Food] <in cities without a [Granary]>",
             "[+2 Food] <starting from the [Classical era]>",
             "[+2 Food] <starting from the [Industrial era]>",
@@ -202,7 +201,7 @@
         "production": 6,
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
-            "Provides [-1] [Trade Route]",
+            "Consumes [1] [Trade Route]",
             "[-6 Production] <in cities without a [Workshop]>",
             "[+2 Production] <starting from the [Classical era]>",
             "[+2 Production] <starting from the [Industrial era]>",
@@ -215,8 +214,8 @@
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "gold": 12,
         "uniques": [
-            "Provides [-1] [Trade Route]",
-            "[+4 Gold] <starting from the [Classical era]>", 
+            "Consumes [1] [Trade Route]",
+            "[+4 Gold] <starting from the [Classical era]>",
             "[+4 Gold] <starting from the [Industrial era]>",
             "[+4 Gold] <starting from the [Modern era]>",
             "Pillaging this improvement yields approximately [+20 Gold]"
@@ -248,9 +247,17 @@
         ],
         "shortcutKey": "R",
         "civilopediaText": [
-            {"text":"Reduces movement cost to 1/2 if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to 1/3 with Machinery", "link":"Technology/Machinery"},
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+            {
+                "text": "Reduces movement cost to 1/2 if the other tile also has a Road or Railroad"
+            },
+            {
+                "text": "Reduces movement cost to 1/3 with Machinery",
+                "link": "Technology/Machinery"
+            },
+            {
+                "text": "Requires Engineering to bridge rivers",
+                "link": "Technology/Engineering"
+            }
         ]
     },
     {
@@ -263,9 +270,13 @@
             "Costs [2] [Gold] per turn"
         ],
         "shortcutKey": "R",
-        "civilopediaText": [{"text":"Reduces movement cost to 1/10 if the other tile also has a Railroad"}]
+        "civilopediaText": [
+            {
+                "text": "Reduces movement cost to 1/10 if the other tile also has a Railroad"
+            }
+        ]
     },
-
+    
     // Removals
     // Any improvement that starts with 'Remove ' is automatically changed into
     // the improvement that removes the terrainfeature after it.
@@ -275,7 +286,11 @@
         "techRequired": "Mining",
         "uniques": ["Can be built outside your borders"],
         "shortcutKey": "X",
-        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+        "civilopediaText": [
+            {
+                "text": "Provides a one-time Production bonus depending on distance to the closest city once finished"
+            }
+        ]
     },
     {
         "name": "Remove Jungle",
@@ -336,7 +351,7 @@
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
-    
+
     // Great Person improvements
     {
         "name": "Academy",
@@ -440,12 +455,13 @@
         "uniqueTo": "Lithuania",
         "terrainsCanBeBuiltOn": ["Land"],
         "science": 1,
-        "food": 1,
         "production": 1,
         "culture": 1,
+        "food": 1,
         "faith": 1,
         "uniques": [
-            "Great Improvement","Removes removable features when built",
+            "Great Improvement",
+            "Removes removable features when built",
             "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>",
             "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
             "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
@@ -463,7 +479,7 @@
         "gold": 1,
         "culture": 2,
         "science": 2,
-        "turnsToBuild":7,
+        "turnsToBuild": 7,
         "techRequired": "Chivalry",
         "uniques": [
             "Gives a defensive bonus of [50]%",
@@ -476,12 +492,12 @@
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
-        {
+    {
         "name": "Harjis",
         "uniqueTo": "Goths",
         "terrainsCanBeBuiltOn": ["Land"],
         "production": 1,
-        "turnsToBuild":7,
+        "turnsToBuild": 7,
         "techRequired": "Mining",
         "uniques": [
             "[+1 Production] <after discovering [Iron Working]>",
@@ -506,7 +522,7 @@
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
-        {
+    {
         "name": "Tibetan Monastery",
         "uniqueTo": "Tibet",
         "terrainsCanBeBuiltOn": ["Hill","Jungle","Forest"],
@@ -533,7 +549,7 @@
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
-        {
+    {
         "name": "Tipi",
         "uniqueTo": "Sioux",
         "terrainsCanBeBuiltOn": ["Plains"],
@@ -564,7 +580,7 @@
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
-            {
+    {
         "name": "Caer",
         "uniqueTo": "Wales",
         "terrainsCanBeBuiltOn": ["Hill"],
@@ -579,7 +595,7 @@
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
-        {
+    {
         "name": "Motte and Bailey",
         "uniqueTo": "Normandy",
         "terrainsCanBeBuiltOn": ["Land"],
@@ -594,7 +610,7 @@
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
-        {
+    {
         "name": "Kampong Ayer",
         "uniqueTo": "Brunei",
         "terrainsCanBeBuiltOn": ["Coast"],
@@ -630,29 +646,56 @@
     {
         "name": "Ancient ruins",
         "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+        "uniques": [
+            "Unpillagable",
+            "Provides a random bonus when entered",
+            "Unbuildable"
+        ]
     },
     {
         "name": "City ruins",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
-        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+        "terrainsCanBeBuiltOn": [ "Land"],
+        "uniques": [
+            "Unpillagable",
+            "Unbuildable",
+            "Will be replaced by automated workers"
+        ],
+        "civilopediaText": [
+            {
+                "text": "A bleak reminder of the destruction wreaked by War"
+            }
+        ]
     },
     {
         "name": "City center",
         "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Ensures a minimum tile yield of [+2 Food, +2 Production] <in [Hill] tiles>",
-        "Ensures a minimum tile yield of [+3 Food, +1 Production] <in tiles without [Hill]>",
-            "Unpillagable", "Irremovable", "Unbuildable"],
+        "uniques": [
+            "Ensures a minimum tile yield of [+2 Food, +2 Production] <in [Hill] tiles>",
+            "Ensures a minimum tile yield of [+3 Food, +1 Production] <in tiles without [Hill]>",
+            "Unpillagable",
+            "Irremovable",
+            "Unbuildable"
+        ],
         "civilopediaText": [
-            {"text":"Marks the center of a city"},
-            {"text":"Appearance changes with the technological era of the owning civilization"}
+            {
+                "text": "Marks the center of a city"
+            },
+            {
+                "text": "Appearance changes with the technological era of the owning civilization"
+            }
         ]
     },
     {
         "name": "Barbarian encampment",
         "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable", "Unbuildable"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+        "uniques": [
+            "Unpillagable",
+            "Unbuildable"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Home to uncivilized barbarians, will spawn a hostile unit from time to time"
+            }
+        ]
     }
 ]
