@@ -168,7 +168,7 @@
         "cityStrength": 7,
         "cityHealth": 50,
         "hurryCostModifier": 25,
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unsellable", "Unbuildable"]
     },
     {
         "name": "Castle Builders",
@@ -182,7 +182,7 @@
         "uniqueTo": "Timurids",
         "percentStatBonus": {"science": 10,"production": 10,"gold": 10,"culture": 10},
         "uniques": [
-            "Unbuildable",
+            "Unsellable", "Unbuildable",
             "Only available <in cities with a [Palace]>",
             "Destroyed when the city is captured"
         ]
@@ -191,7 +191,7 @@
         "name": "Governor's Mansion",
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unsellable", "Unbuildable",
             "[+1] population [in this city]"
         ]
     },
