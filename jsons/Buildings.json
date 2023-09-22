@@ -497,7 +497,7 @@
         "uniques": [
             "Free Technology",
             "Gain a free [Library] [in this city]",
-            "Has 2 Great Work of Writing Slots"
+            "Has [2] Great Work of Writing Slots"
         ],
         "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
     },
@@ -1766,7 +1766,7 @@
             "Requires a [University] in all cities",
             "Free Technology",
             "Cost increases by [30] per owned city",
-            "Has 2 Great Work of Writing Slots"
+            "Has [2] Great Work of Writing Slots"
         ],
         "requiredTech": "Education"
     },
@@ -2036,7 +2036,7 @@
         "isWonder": true,
         "uniques": [
             "[+25]% [Culture] [in all cities]",
-            "Has 2 Great Work of Art Slots"
+            "Has [2] Great Work of Art Slots"
         ],
         "requiredTech": "Acoustics",
         "quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
@@ -2204,7 +2204,7 @@
         "greatPersonPoints": {"Great Writer": 1},
         "uniques": [
             "Free [Great Writer] appears",
-            "Has 2 Great Work of Writing Slots"
+            "Has [2] Great Work of Writing Slots"
         ],
         "requiredTech": "Printing Press",
         "quote": "'Totus mundus agit histrionem.' - Inscription above main entrance to the Globe Theatre"
@@ -2269,7 +2269,7 @@
         "uniques": [
             "Requires a [Opera House] in all cities",
             "Cost increases by [30] per owned city",
-            "Has 3 Great Work of Art Slots"
+            "Has [3] Great Work of Art Slots"
         ],
         "requiredTech": "Architecture"
     },
@@ -2358,7 +2358,7 @@
         "uniques": [
             "Free [Great Artist] appears",
             "Only available <after adopting [Aesthetics]>",
-            "Has 3 Great Work of Art Slot"
+            "Has [3] Great Work of Art Slot"
         ],
         "requiredTech": "Architecture",
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.' - Marcel Paquet"
@@ -2498,7 +2498,7 @@
         "requiredTech": "Archaeology",
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 2 Great Work of Art Slots"
+            "Has [2] Great Work of Art Slots"
         ]
     },
     {
@@ -2541,7 +2541,7 @@
         "uniques": [
             "Destroyed when the city is captured",
             "[+20]% Great Person generation [in this city]",
-            "Has 2 Great Work of Art Slots"
+            "Has [2] Great Work of Art Slots"
         ]
     },
     {
@@ -2556,7 +2556,7 @@
         "requiredTech": "Archaeology",
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 2 Great Work of Art Slots"
+            "Has [2] Great Work of Art Slots"
         ]
     },
     {
@@ -2567,7 +2567,7 @@
         "uniques": [
             "Free [Great Artist] appears",
             "Only available <after adopting [Exploration]>",
-            "Has 4 Great Work of Art Slots"
+            "Has [4] Great Work of Art Slots"
         ],
         "requiredTech": "Archaeology",
         "quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
@@ -2877,7 +2877,7 @@
         "greatPersonPoints": {"Great Musician": 1},
         "uniques": [
             "Free [Great Musician] appears",
-            "Has 3 Great Work of Music Slots"
+            "Has [3] Great Work of Music Slots"
         ],
         "requiredTech": "Radio",
         "quote": "'Broadway is a main artery of New York cultural life - the hardened artery.' - Walter Winchell"
@@ -3081,7 +3081,7 @@
         "percentStatBonus": {"culture": 50},
         "uniques": [
             "Free Social Policy",
-            "Has 2 Great Work of Music Slots"
+            "Has [2] Great Work of Music Slots"
         ],
         "requiredTech": "Ecology",
         "quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
