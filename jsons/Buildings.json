@@ -96,7 +96,7 @@
         "specialistSlots": {"Artist": 1, "Writer": 1,"Musician": 1},
         "uniques": ["Unbuildable"]
     },
-    {
+    /*{
         "name": "~limit",
         "gold": 2,
         "cost": -1,
@@ -105,7 +105,7 @@
             "Will not be displayed in Civilopedia",
             "Unbuildable", "Unsellable"
         ]
-    },
+    },*/
     {
         "name": "Cloves", // Indonesian luxury
         "uniqueTo": "Indonesia",
@@ -114,8 +114,9 @@
             "Provides [2] [Cloves]",
             "Never destroyed when the city is captured",
             "Unsellable",
-            "Only available <in cities without a [~limit]>",
-            "Gain a free [~limit] [in this city]",
+            "Only available <in cities without a [Cloves]>",
+            "Only available <in cities without a [Nutmeg]>",
+            "Only available <in cities without a [Pepper]>",
             "Must be next to [Coast]",
             "Limited to [1] per Civilization",
             "Will not be displayed in Civilopedia"
@@ -129,8 +130,9 @@
             "Provides [2] [Nutmeg]",
             "Never destroyed when the city is captured",
             "Unsellable",
-            "Only available <in cities without a [~limit]>",
-            "Gain a free [~limit] [in this city]",
+            "Only available <in cities without a [Cloves]>",
+            "Only available <in cities without a [Nutmeg]>",
+            "Only available <in cities without a [Pepper]>",
             "Must be next to [Coast]",
             "Limited to [1] per Civilization",
             "Will not be displayed in Civilopedia"
@@ -144,8 +146,9 @@
             "Provides [2] [Pepper]",
             "Never destroyed when the city is captured",
             "Unsellable",
-            "Only available <in cities without a [~limit]>",
-            "Gain a free [~limit] [in this city]",
+            "Only available <in cities without a [Cloves]>",
+            "Only available <in cities without a [Nutmeg]>",
+            "Only available <in cities without a [Pepper]>",
             "Must be next to [Coast]",
             "Limited to [1] per Civilization",
             "Will not be displayed in Civilopedia"
