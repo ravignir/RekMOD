@@ -1212,9 +1212,9 @@
             {
                 "name": "Futurism",
                 "uniques": [
-                    "Gain [250] Culture <upon gaining a [Great Artist] unit>",
-                    "Gain [250] Culture <upon gaining a [Great Writer] unit>",
-                    "Gain [250] Culture <upon gaining a [Great Musician] unit>",
+                    "Gain [250] [Culture] <upon gaining a [Great Artist] unit>",
+                    "Gain [250] [Culture] <upon gaining a [Great Writer] unit>",
+                    "Gain [250] [Culture] <upon gaining a [Great Musician] unit>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],

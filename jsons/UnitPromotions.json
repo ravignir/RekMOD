@@ -660,7 +660,7 @@
     },
     {
         "name": "Feared Elephant", // only for Maori Warrior and subsequent upgrades
-        "uniques": ["-10% combat strength for adjacent enemy units"]
+        "uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
     },
     {
         "name": "Heavy Charge", // only for Winged Hussar and subsequent upgrades
@@ -779,7 +779,7 @@
     },
     {
     "name": "Sauna",
-    "uniques": ["+10 HP when healing <in Friendly Land tiles>"],
+    "uniques": ["[+10] HP when healing<in Friendly Land tiles>"]
     },
     {
     "name": "Drauhtinon",
@@ -1030,7 +1030,7 @@
     },
 // PRUSSIA
     {
-        "name": "Gehorsam", // only for Kris Swordsman and subsequent upgrades
+        "name": "Gehorsam",
         "uniques": ["Access to special promotions"]
     },
     {

@@ -261,9 +261,9 @@
         "movement": 2,
         "cost": 75,
         "uniques": [
-            "Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit>",
-            "Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit>",
-            "Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit>",
+            "Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Consumes [1] [Trade Route]",
             "Only available <in cities without a [~CS]>",
             "Uncapturable"
@@ -277,9 +277,9 @@
         "movement": 4,
         "cost": 90,
         "uniques": [
-            "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit>",
-            "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit>",
-            "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit>",
+            "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Consumes [1] [Trade Route]",
             "Only available <in cities without a [~CS]>",
             "Uncapturable"
@@ -850,7 +850,7 @@
         "requiredTech": "Cartography",
         "uniques": [
             "Cannot enter ocean tiles",
-            [+200]% Strength <vs cities> <when attacking>"
+            "[+200]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Frigate",
         "obsoleteTech": "Navigation",
