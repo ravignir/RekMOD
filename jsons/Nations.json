@@ -763,7 +763,7 @@
         "outerColor": [17,44,16],
         "innerColor": [254,31,33],
         "uniqueName": "Spirit of Adwa",
-        "uniques": ["[+20]% combat bonus for [Non-City] units fighting in [Friendly Land]"],
+        "uniques": ["[+20]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>"],
         "cities": [
             "Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama","Mek'ele",
             "Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena","Nekemte",
@@ -791,7 +791,7 @@
         "uniqueName": "Finnish Mobility",
         "uniques": [
             "[+1 Culture] from every [Forest] <in tiles without [Improvement]>",
-            "[+10]% combat bonus for [Non-City] units fighting in [Friendly Land]"
+            "[+50]% to Flank Attack bonuses"
         ],
         "cities": [
             "Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa",
@@ -1847,7 +1847,7 @@
         "innerColor": [255,159,38],
         "uniqueName": "Castle Builders",
         "uniques": [
-            "[+20]% Strength <for [Military] units> <in [Foreign Land] tiles>",
+            "[+10]% Strength <for [Military] units> <in [Foreign Land] tiles>",
             "Gain a free [Castle Builders] [in all cities]"
         ],
         "cities": [
@@ -2304,7 +2304,7 @@
         "outerColor": [65,54,42],
         "innerColor": [78,244,234],
         "uniqueName": "Great Expanse",
-        "uniques": ["[+20]% Strength <for [Military] units> <in [Friendly Land] tiles>"],
+        "uniques": ["[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>"],
         "cities": [
             "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
             "Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",

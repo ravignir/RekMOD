@@ -481,7 +481,7 @@
         "type": "Follower",
         "uniques": [
             "[+2 Faith, +1 Food] from every [Garden]",
-            "[+1 Happiness][in cities following this religion] <in [River] tiles>"
+            "[+1 Happiness] [in cities following this religion] <in [River] tiles>"
         ]
     },
     {

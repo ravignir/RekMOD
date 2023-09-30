@@ -150,7 +150,7 @@
         "food": 3,
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Consumes [1] [Trade Route]",
+            "Provides [1] [Trade Route]",
             "[-3 Food] <in cities without a [Granary]>",
             "[+1 Food] <starting from the [Classical era]>",
             "[+1 Food] <starting from the [Industrial era]>",
@@ -163,7 +163,7 @@
         "production": 3,
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Consumes [1] [Trade Route]",
+            "Provides [1] [Trade Route]",
             "[-3 Production] <in cities without a [Workshop]>",
             "[+1 Production] <starting from the [Classical era]>",
             "[+1 Production] <starting from the [Industrial era]>",
@@ -176,7 +176,7 @@
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "gold": 6,
         "uniques": [
-            "Consumes [1] [Trade Route]",
+            "Provides [1] [Trade Route]",
             "[+2 Gold] <starting from the [Classical era]>",
             "[+2 Gold] <starting from the [Industrial era]>",
             "[+2 Gold] <starting from the [Modern era]>",
@@ -188,7 +188,7 @@
         "food": 6,
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
-            "Consumes [1] [Trade Route]",
+            "Provides [1] [Trade Route]",
             "[-6 Food] <in cities without a [Granary]>",
             "[+2 Food] <starting from the [Classical era]>",
             "[+2 Food] <starting from the [Industrial era]>",
@@ -201,7 +201,7 @@
         "production": 6,
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
-            "Consumes [1] [Trade Route]",
+            "Provides [1] [Trade Route]",
             "[-6 Production] <in cities without a [Workshop]>",
             "[+2 Production] <starting from the [Classical era]>",
             "[+2 Production] <starting from the [Industrial era]>",
@@ -214,7 +214,7 @@
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "gold": 12,
         "uniques": [
-            "Consumes [1] [Trade Route]",
+            "Provides [1] [Trade Route]",
             "[+4 Gold] <starting from the [Classical era]>",
             "[+4 Gold] <starting from the [Industrial era]>",
             "[+4 Gold] <starting from the [Modern era]>",
@@ -633,8 +633,8 @@
         "turnsToBuild": 7,
         "uniques": [
             "[+1 Food] for each adjacent [Mountain]",
-            "[+1 Food] on [Fresh water] tiles <after discovering [Civil Service]>",
-            "[+1 Food] on [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+            "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
             "Cannot be built on bonus resource",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ],
