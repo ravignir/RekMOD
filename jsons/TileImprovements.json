@@ -635,7 +635,7 @@
             "[+1 Food] for each adjacent [Mountain]",
             "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
             "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            "Cannot be built on bonus resource",
+            "Cannot be built on [Bonus resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ],
         "techRequired": "Construction",

@@ -2471,7 +2471,7 @@
         "innerColor": [250,250,27],
         "uniqueName": "Nobel Prize",
         "uniques": [
-            "[+20]% great person generation in all cities",
+            "[+20]% great person generation [in all cities]",
             "Gain [100] Influence with a [Great Person] gift to a City-State"
         ],
         "cities": [
@@ -2701,7 +2701,7 @@
         "uniqueName": "Hafod a Hendref",
         "uniques": [
             "[+1 Food, +1 Gold] from every [Sheep]",
-            "[+15]% combat bonus for [Non-City] units fighting in [Hill]"
+            "[+10]% Strength <in [Hill] tiles>"
         ],
         "cities": [// Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
             "Cardiff","Swansea","Casnewydd","Wrecsam","Y Barri","Cwmbran","Pen-y-bont ar Ogwr","Lianelli","Penrhyndeudraeth","Caerffili",
