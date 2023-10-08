@@ -569,7 +569,7 @@
     {
         "name": "Kasbah",
         "uniqueTo": "Morocco",
-        "terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+        "terrainsCanBeBuiltOn": ["Desert","Flood plains","Hill"],
         "food": 2,
         "production": 1,
         "gold": 1,
@@ -577,7 +577,11 @@
         "techRequired": "Chivalry",
         "uniques": [
             "Gives a defensive bonus of [50]%",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Cannot be built on [Hill] tiles <in [Grassland] [Hill] tiles>",
+            "Cannot be built on [Hill] tiles <in [Plains] [Hill] tiles>",
+            "Cannot be built on [Hill] tiles <in [Tundra] [Hill] tiles>",
+            "Cannot be built on [Hill] tiles <in [Snow] [Hill] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
         ]
     },
     {
