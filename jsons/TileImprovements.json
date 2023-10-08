@@ -569,13 +569,14 @@
     {
         "name": "Kasbah",
         "uniqueTo": "Morocco",
-        "terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+        "terrainsCanBeBuiltOn": ["Desert","Flood plains","Hill"],
         "food": 2,
         "production": 1,
         "gold": 1,
         "turnsToBuild": 7,
         "techRequired": "Chivalry",
         "uniques": [
+            "Can only be built on [Desert] tiles <in [Hill] tiles>",
             "Gives a defensive bonus of [50]%",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
