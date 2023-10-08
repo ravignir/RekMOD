@@ -3108,7 +3108,7 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Spaceship part",
-            "Cannot be purchased",
+            "Cannot be purchased <before adopting [Space Procurements]>",
             "Only available <if [Apollo Program] is constructed>",
             "Uncapturable",
             "Can be added to [The Spaceship] in the Capital",
@@ -3125,7 +3125,7 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Spaceship part",
-            "Cannot be purchased",
+            "Cannot be purchased <before adopting [Space Procurements]>",
             "Only available <if [Apollo Program] is constructed>",
             "Uncapturable",
             "Can be added to [The Spaceship] in the Capital",
@@ -3142,7 +3142,7 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Spaceship part",
-            "Cannot be purchased",
+            "Cannot be purchased <before adopting [Space Procurements]>",
             "Only available <if [Apollo Program] is constructed>",
             "Uncapturable",
             "Can be added to [The Spaceship] in the Capital",
@@ -3159,7 +3159,7 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Spaceship part",
-            "Cannot be purchased",
+            "Cannot be purchased <before adopting [Space Procurements]>",
             "Only available <if [Apollo Program] is constructed>",
             "Uncapturable",
             "Can be added to [The Spaceship] in the Capital",

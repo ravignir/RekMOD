@@ -177,7 +177,7 @@
         "era": "Ancient era",
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [33]% of killed [Military] unit's [Strength] as [Culture]",
+            "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
             "Unlocks [Temple of Artemis]",
             "Provides [1] [Policies]"
         ],
@@ -186,7 +186,7 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[2] free [Warrior] units appear",
-                    "Earn [33]% of killed [Military] unit's [Strength] as [Gold]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
                     "[4] units cost no maintenance",
                     "Provides [1] [Policies]"
                 ],
@@ -246,7 +246,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "[+10]% [Food] [in all cities]",
-                    "Earn [33]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -1148,7 +1148,7 @@
                 "column": 5
             },
             {
-                "name": "Space Procurments",
+                "name": "Space Procurements",
                 "uniques": [
                     "May buy [Spaceship part] units with [Gold] [in all cities]",
                     "Provides [-1] [Level 2 Ideology]",
