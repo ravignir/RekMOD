@@ -1197,8 +1197,8 @@
         "name": "Conquistador",
         "unitType": "Mounted",
         "movement": 4,
-        "strength": 20,
-        "cost": 135,
+        "strength": 16,
+        "cost": 32,
         "requiredTech": "Chivalry",
         "requiredResource": "Horses",
         "uniques": [
@@ -1209,6 +1209,7 @@
             "[+2] Sight",
             "Never appears as a Barbarian unit"
         ],
+        "promotions":["[Conquistador] ability"],
         "attackSound": "horse"
     },
     {
@@ -2913,16 +2914,17 @@
         "unitType": "Civilian",
         "uniques": [
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can [Spread Religion] [4] times",
-            "Removes other religions when spreading religion",
-            "May found a religion",
-            "May enhance a religion",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
             "May enter foreign tiles without open borders",
             "Great Person - [Faith]",
             "Unbuildable",
             "Uncapturable",
             "Religious Unit",
             "Hidden when religion is disabled",
+            "[-1] Sight",
             "Takes your religion over the one in their birth city"
         ],
         "movement": 4,
@@ -2936,10 +2938,10 @@
         "uniques": [
             "Empire enters a [11]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can [Spread Religion] [5] times",
-            "Removes other religions when spreading religion",
-            "May found a religion",
-            "May enhance a religion",
+            "Can Spread Religion <for [2] movement> <[5] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
             "May enter foreign tiles without open borders",
             "Great Person - [Faith]",
             "Unbuildable",
@@ -3045,7 +3047,7 @@
         "unitType": "Civilian",
         "cost": 100,
         "uniques": [
-            "Can [Spread Religion] [2] times",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
             "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
             "[-1] Sight",
@@ -3062,7 +3064,7 @@
         "cost": 100,
         "uniques": [
             "Prevents spreading of religion to the city it is next to",
-            "Can [Remove Foreign religions from your own cities] [1] times",
+			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "[+1] Sight",
             "Hidden when religion is disabled",
@@ -3082,7 +3084,7 @@
         "cost": 100,
         "uniques": [
             "Prevents spreading of religion to the city it is next to",
-            "Can [Remove Foreign religions from your own cities] [1] times",
+			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "[+1] Sight",
             "Hidden when religion is disabled",

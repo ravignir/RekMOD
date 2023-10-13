@@ -168,13 +168,19 @@
         "cityStrength": 7,
         "cityHealth": 50,
         "hurryCostModifier": 25,
-        "uniques": ["Unsellable", "Unbuildable"]
+        "uniques": [
+            "Unsellable", "Unbuildable",
+            "Cannot be purchased"
+    ]
     },
     {
         "name": "Castle Builders",
         "cityStrength": 5,
         "uniqueTo": "Normandy",
-        "uniques": ["Unsellable", "Unbuildable"]
+        "uniques": [
+            "Unsellable", "Unbuildable",
+            "Cannot be purchased"
+        ]
     },
     {
         "name": "Ulugh Beg's Observatory",
@@ -183,6 +189,7 @@
         "percentStatBonus": {"science": 10,"production": 10,"gold": 10,"culture": 10},
         "uniques": [
             "Unsellable", "Unbuildable",
+            "Cannot be purchased",
             "Only available <in cities with a [Palace]>",
             "Destroyed when the city is captured"
         ]
@@ -973,7 +980,11 @@
     {
         "name": "Ayyubid Burial Tomb",
         "uniqueTo": "Ayyubids",
-        "uniques": ["Doubles Gold given to enemy if city is captured"],
+        "uniques": [
+            "Doubles Gold given to enemy if city is captured",
+            "Cannot be purchased",
+            "Unbuildable", "Unsellable"
+        ],
         "faith": 2,
         "happiness": 2,
         "requiredBuilding": "Shrine",
@@ -1060,8 +1071,8 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "uniques": [
-            "[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
-            "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
+            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion",
+            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
             "Only available <after adopting [Piety]>"
         ],
         "requiredTech": "Philosophy",
