@@ -323,7 +323,7 @@
         "type": "Founder",
         "uniques": [
             "[Faith] cost of purchasing [Missionary] units [-50]%",
-            "[Missionary] units built [in cities following this religion] can [Spread Religion] [1] extra times"
+            "All newly-trained [Missionary] units [in this city] receive the [Missionary Zeal] promotion"
         ]
     },
     {

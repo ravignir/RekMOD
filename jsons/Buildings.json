@@ -1071,8 +1071,8 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "uniques": [
-            "[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
-            "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
+            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion",
+            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
             "Only available <after adopting [Piety]>"
         ],
         "requiredTech": "Philosophy",
