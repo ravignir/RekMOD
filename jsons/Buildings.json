@@ -93,8 +93,13 @@
     },
     {
         "name": "Fine Art Specialist",
+        "culture": 1,
+        "happiness": 1,
         "specialistSlots": {"Artist": 1, "Writer": 1,"Musician": 1},
-        "uniques": ["Unbuildable"]
+        "uniques": [
+            "Unbuildable",
+            "Never destroyed when the city is captured",
+        ]
     },
     /*{
         "name": "~limit",

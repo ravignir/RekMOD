@@ -8,6 +8,7 @@
         "movement": 2,
         "uniques": [
             "Can build [All] improvements on tiles",
+            "Can build [Land] improvements on tiles",
             "Automation is a primary action"
         ],
         "cost": 48
@@ -21,6 +22,7 @@
         "promotions": ["Medic","Medic II"],
         "uniques": [
             "Can build [All] improvements on tiles",
+            "Can build [Land] improvements on tiles",
             "Automation is a primary action",
             "[+1] Movement <in [Water] tiles>"
         ],
@@ -34,6 +36,7 @@
         "movement": 2,
         "uniques": [
             "Can build [All] improvements on tiles",
+            "Can build [Land] improvements on tiles",
             "Automation is a primary action",
             "Ignores terrain cost"
         ],
@@ -1198,7 +1201,7 @@
         "unitType": "Mounted",
         "movement": 4,
         "strength": 16,
-        "cost": 32,
+        "cost": 135,
         "requiredTech": "Chivalry",
         "requiredResource": "Horses",
         "uniques": [
