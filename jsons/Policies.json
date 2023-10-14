@@ -462,7 +462,7 @@
                 "name": "Cultural Diplomacy",
                 "uniques": [
                     "[+100]% resources gifted by City-States",
-                    "[+50]% [Happiness] from City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Merchant Confederacy"],
@@ -486,16 +486,17 @@
                     "Resting point for Influence with City-States is increased by [20]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Scholasticism"],
+                "requires": ["Cultural Diplomacy"],
                 "row": 3,
                 "column": 3
             },
             {
                 "name": "Patronage Complete",
                 "uniques": [
-                    "[+75]% [Culture] from City-States",
-                    "[+75]% [Faith] from City-States",
-                    "[+75]% [Food] from City-States",
+                    "[+50]% [Culture] from City-States",
+                    "[+50]% [Faith] from City-States",
+                    "[+50]% [Food] from City-States",
+                    "[+50]% [Happiness] from City-States",
                     "Allied City-States will occasionally gift Great People"
                 ]
             }
@@ -624,12 +625,11 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[+25]% Yield from every [Land Trade Route (Food)]",
+                    /*"[+25]% Yield from every [Land Trade Route (Food)]",
                     "[+25]% Yield from every [Land Trade Route (Production)]",
                     "[+25]% Yield from every [Sea Trade Route (Food)]",
-                    "[+25]% Yield from every [Sea Trade Route (Production)]",
+                    "[+25]% Yield from every [Sea Trade Route (Production)]",*/
                     "[Gold] cost of purchasing items in cities [-20]%",
-                    "[+2 Science] from every [Mint]",
                     "[+2 Science] from every [Market]",
                     "[+2 Science] from every [Bank]",
                     "[+2 Science] from every [Stock Exchange]",
@@ -646,9 +646,7 @@
                     "[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": [
-                    "Mercantilism"
-                ],
+                "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 3
             },
@@ -676,7 +674,11 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-                    "[+1 Gold] from all [Science] buildings",
+                    "[+1 Gold] from every [Library]",
+                    "[+1 Gold] from every [University]",
+                    "[+1 Gold] from every [Observatory]",
+                    "[+1 Gold] from every [Research Lab]",
+                    "[+1 Gold] from every [Public School]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
