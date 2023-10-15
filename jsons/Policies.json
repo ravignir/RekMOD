@@ -541,7 +541,7 @@
                 "uniques": [
                     "[+1] population [in all cities]",
                     "[+1 Happiness] [in all cities]",
-                    "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
+                    /*"Gain a free [Governor's Mansion] [in this city] <upon founding a city>",*/
                     "Free [Worker] appears <upon founding a city>",
                     "Provides [1] [Policies]"
                 ],

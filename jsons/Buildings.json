@@ -5,7 +5,7 @@
         "faith": 1,
         "culture": 4,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
         ]
     },
@@ -15,7 +15,7 @@
         "faith": 3,
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
         ]
     },
@@ -24,7 +24,7 @@
         "culture": 1,
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "[10]% Food is carried over after population increases [in this city]",
             "Hidden when religion is disabled"
         ]
@@ -35,7 +35,7 @@
         "faith": 5,
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
         ]
     },
@@ -45,7 +45,7 @@
         "faith": 2,
         "production": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "[+15]% Production when constructing [All] buildings [in this city]",
             "Hidden when religion is disabled"
         ]
@@ -55,7 +55,7 @@
         "faith": 1,
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
             "Hidden when religion is disabled"
         ]
@@ -63,7 +63,7 @@
     {
         "name": "Mandir",
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
             "Hidden when religion is disabled"
         ]
@@ -75,21 +75,21 @@
         "culture": 2,
         "faith": 1,
         "specialistSlots": {"Artist": 1},
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Writing Auditorium",
         "culture": 2,
         "faith": 1,
         "specialistSlots": {"Writer": 1},
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Vocal Chamber",
         "culture": 2,
         "faith": 1,
         "specialistSlots": {"Musician": 1},
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Fine Art Specialist",
@@ -97,8 +97,8 @@
         "happiness": 1,
         "specialistSlots": {"Artist": 1, "Writer": 1,"Musician": 1},
         "uniques": [
-            "Unbuildable",
-            "Never destroyed when the city is captured",
+            "Unbuildable","Unsellable",
+            "Never destroyed when the city is captured"
         ]
     },
     /*{
@@ -199,14 +199,14 @@
             "Destroyed when the city is captured"
         ]
     },
-    {
+    /*{
         "name": "Governor's Mansion",
         "happiness": 1,
         "uniques": [
             "Unsellable", "Unbuildable",
             "[+1] population [in this city]"
         ]
-    },
+    },*/
 
     // Ancient Era
     // Always available
@@ -2707,9 +2707,10 @@
     },
     {
         "name": "Center of Progress",
-        "cost": 30,
+        "cost": 0,
         "isNationalWonder": true,
         "uniques": [
+            "Can be purchased with [Gold] [in all cities]",
             "Requires a [Factory] in all cities",
             "Cost increases by [30] per owned city",
             "Adopt [Ideology]"
