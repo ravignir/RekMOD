@@ -2780,6 +2780,8 @@
         "requiredResource": "Uranium",
         "promotions": ["Interception III"],
         "uniques": [
+            //"[100]% chance to intercept air attacks",
+            "[+50]% Strength <vs [Land] units>",
             "Can move after attacking",
             "No defensive terrain bonus",
             "Never appears as a Barbarian unit"
