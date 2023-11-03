@@ -330,11 +330,6 @@
         "name": "Mithraea",
         "type": "Founder",
         "uniques": ["[+1]% [Gold] from every follower, up to [20]%"]
-        // Am aware that the game says this is a bug.
-        // Normally this effect is only seen on follower style beliefs. 
-        // Technically this means I'm using it incorrectly.
-        // However it does technically work (if incorrectly) and it is a belief in Rekmod in order to have more gold beliefs
-        // As such, not a bug. Won't fix
     },
     {
         "name": "Religious Unity",
