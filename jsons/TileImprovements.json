@@ -541,7 +541,7 @@
         "name": "Polder",
         "uniqueTo": "The Netherlands",
         "terrainsCanBeBuiltOn": ["Marsh","Flood plains","Coast","Lakes"],
-        "food": 3,
+        "food": 2,
         "turnsToBuild": 7,
         "techRequired": "Guilds",
         "uniques": [
