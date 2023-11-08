@@ -544,7 +544,8 @@
         "food": 2,
         "turnsToBuild": 7,
         "techRequired": "Guilds",
-        "uniques": [
+        "uniques": 
+            "[+1 Food] from [Marsh] tiles",
             "[+1 Production, +2 Gold] <after discovering [Economics]>",
             "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
