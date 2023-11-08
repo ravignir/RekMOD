@@ -1,1 +1,13 @@
-{"isBaseRuleset":true,"lastUpdated":"2023-11-03T22:00:38Z","modUrl":"https://github.com/ravignir/RekMOD","author":"ravignir","modSize":6966,"topics":["unciv-mod","unciv-mod-rulesets"],"constants":{"unitSupplyPerPopulation":10,"unitUpgradeCost":{},"maxLakeSize":5,"riverCountMultiplier":0.015,"religionLimitBase":0,"religionLimitMultiplier":1,"pantheonBase":15,"pantheonGrowth":0}}
+{
+    "constants":
+    {
+        "maxLakeSize": 5,
+        "riverCountMultiplier": 0.015,
+        "religionLimitBase": 0,
+        "religionLimitMultiplier": 1,
+        "unitSupplyPerPopulation": 10,
+        "pantheonBase": 15,
+        "pantheonGrowth": 0
+    },
+    "isBaseRuleset": true
+}
