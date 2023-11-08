@@ -755,7 +755,7 @@
     {
         "name": "Homeland Guardian",
         "uniques": [
-            "[+20]% Strength <when fighting in [Foreign Land] tiles>"
+            "[+20]% Strength <when fighting in [Friendly Land] tiles>"
         ]
     },
     {
@@ -801,8 +801,8 @@
     {
         "name": "Dharma",
         "uniques": [
-            "[-15]% Strength <when attacking>",
-            "[+15]% Strength <when defending>"
+            "[-10]% Strength <when attacking>",
+            "[+10]% Strength <when defending>"
         ]
     },
     {
@@ -930,15 +930,16 @@
         "name": "Buffalo Horns I", // only for Ikanda
         "uniques": [
             "[+1] Movement",
-            "[+5]% Strength",
-            "[+33]% Strength <when defending> <vs [Ranged] units>"
+            "[+25]% to Flank Attack bonuses",
+            "[+10]% Strength <when defending> <vs [Ranged] units>"
         ]
     },
     {
         "name": "Buffalo Chest II",
         "uniques": [
             "[+10]% Strength <when fighting in [Open terrain] tiles>",
-            "[+5]% Strength"
+            "[+25]% to Flank Attack bonuses",
+            "[+10]% Strength <when defending> <vs [Ranged] units>"
         ],
         "prerequisites": ["Buffalo Horns I"],
         "unitTypes": ["Sword","Gunpowder"]
@@ -946,7 +947,9 @@
     {
         "name": "Buffalo Loins III",
         "uniques": [
-            "[+15]% Strength"
+            "[+10]% Strength",
+            "[+25]% to Flank Attack bonuses",
+            "[+10]% Strength <when defending> <vs [Ranged] units>"
         ],
         "prerequisites": ["Buffalo Chest II"],
         "unitTypes": ["Sword","Gunpowder"]
