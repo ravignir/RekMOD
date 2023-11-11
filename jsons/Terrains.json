@@ -4,7 +4,6 @@
         "name": "Ocean",
         "type": "Water",
         "food": 1,
-        "gold": 1,
         "movementCost": 1,
         "RGB": [45,108,145]
     },
@@ -122,7 +121,6 @@
         "name": "Lakes",
         "type": "Water",
         "food": 3,
-        "gold": 1,
         "RGB": [ 123, 202, 226],
         "uniques": [
             "Fresh water",
