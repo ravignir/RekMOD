@@ -392,7 +392,7 @@
         "innerColor": [38, 41, 80],
         "uniqueName": "The Great Trek",
         "uniques": [
-            "[+1 Food] from every [Farm] <in [non-fresh water] tiles>",
+            "[+1 Food] from every [Farm] <in tiles without [Fresh Water]>",
             "[+1 Culture] from every [Farm] <after discovering [Fertilizer]>"
         ],
         "cities": [ //Tweebuffelsmeteenskootmorsdoodgeskietfontein
@@ -873,7 +873,7 @@
         "outerColor": [65, 58, 21],
         "innerColor": [157, 201, 107],
         "uniqueName": "Oppidum of Bibracte",
-        "uniques": ["Gain a free [Murus Gallicus] [in capital] <upon discovering [Mining]>"],
+        "uniques": ["Gain a free [Murus Gallicus] [in capital] <upon discovering [Mining]> <after discovering [Mining]>"],
         "cities": [
             "Bibracte","Gergovia","Tolosa","Lugdunum","Durocortorum","Bagacum","Nemetocenna","Luteria","Samarobriva","Entremont",
             "Burdigala","Nemausus","Vienne","Brixia","Sinigaglia","Numantia","Termantia","Alesia","Genevensis","Tricassium",
@@ -1190,27 +1190,26 @@
         "uniqueText": "[+2 Happiness] from all National Wonders (excluding the Palace).\n\n+15% [Production] towards constructing buildings required for National Wonders.",
         "uniques": [
             "[+15]% Production when constructing [Monument] buildings [in all cities]",
-            //"[+15]% Production when constructing [Hotel] buildings [in all cities]",
-            "[+15]% Production when constructing [Temple] buildings [in all cities]",
-            "[+15]% Production when constructing [University] buildings [in all cities]",
-            "[+15]% Production when constructing [Market] buildings [in all cities]",
-            "[+15]% Production when constructing [Workshop] buildings [in all cities]",
-            "[+15]% Production when constructing [Amphitheater] buildings [in all cities]",
-            "[+15]% Production when constructing [Barracks] buildings [in all cities]",
             "[+15]% Production when constructing [Library] buildings [in all cities]",
             "[+15]% Production when constructing [Colosseum] buildings [in all cities]",
-            "[+15]% Production when constructing [Opera House] buildings [in all cities]",
+            "[+15]% Production when constructing [Barracks] buildings [in all cities]",
+            "[+15]% Production when constructing [Market] buildings [in all cities]",
+            "[+15]% Production when constructing [Temple] buildings [in all cities]",
+            "[+15]% Production when constructing [Workshop] buildings [in all cities]",
             "[+15]% Production when constructing [Factory] buildings [in all cities]",
-            "[+2 Happiness] from every [East India Company]",
-            //"[+2 Happiness] from every [National Visitor's Center]",
-            "[+2 Happiness] from every [Oxford University]",
-            "[+2 Happiness] from every [Hermitage]",
-            "[+2 Happiness] from every [Ironworks]",
-            "[+2 Happiness] from every [Grand Temple]",
+            "[+15]% Production when constructing [University] buildings [in all cities]",
+            "[+15]% Production when constructing [Opera House] buildings [in all cities]",
+            //"[+15]% Production when constructing [Hotel] buildings [in all cities]",
             "[+2 Happiness] from every [National Epic]",
             "[+2 Happiness] from every [National College]",
+            "[+2 Happiness] from every [Circus Maximus]",
             "[+2 Happiness] from every [Heroic Epic]",
-            "[+2 Happiness] from every [Circus Maximus]"
+            "[+2 Happiness] from every [East India Company]",
+            "[+2 Happiness] from every [Grand Temple]",
+            "[+2 Happiness] from every [Ironworks]",
+            "[+2 Happiness] from every [Oxford University]",
+            "[+2 Happiness] from every [Hermitage]"
+            //"[+2 Happiness] from every [National Visitor's Center]",
         ],
         "cities": [
             "Dublin","Cork","Galway","Wexford","Kilkenny","Tralee","Limerick","Castlebar","Lifford","Clonmel",
@@ -3377,7 +3376,7 @@
         "outerColor": [0, 0, 0],
         "innerColor": [125, 224, 0],
         "uniques": [],
-        "cities": ["Tinana"]
+        "cities": ["Tirana"]
     },
     {
         "name": "Troy",
