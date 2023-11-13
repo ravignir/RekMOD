@@ -142,7 +142,8 @@
             "Can be built outside your borders",
             "Can only be built to improve a resource",
             "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
         ]
     },
     {
@@ -155,7 +156,8 @@
             "[+1 Food] <starting from the [Classical era]>",
             "[+1 Food] <starting from the [Industrial era]>",
             "[+1 Food] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
         ]
     },
     {
@@ -168,7 +170,8 @@
             "[+1 Production] <starting from the [Classical era]>",
             "[+1 Production] <starting from the [Industrial era]>",
             "[+1 Production] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
         ]
     },
     {
@@ -180,7 +183,8 @@
             "[+2 Gold] <starting from the [Classical era]>",
             "[+2 Gold] <starting from the [Industrial era]>",
             "[+2 Gold] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
         ]
     },
     {
@@ -193,7 +197,8 @@
             "[+2 Food] <starting from the [Classical era]>",
             "[+2 Food] <starting from the [Industrial era]>",
             "[+2 Food] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
         ]
     },
     {
@@ -206,7 +211,8 @@
             "[+2 Production] <starting from the [Classical era]>",
             "[+2 Production] <starting from the [Industrial era]>",
             "[+2 Production] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
         ]
     },
     {
@@ -218,7 +224,8 @@
             "[+4 Gold] <starting from the [Classical era]>",
             "[+4 Gold] <starting from the [Industrial era]>",
             "[+4 Gold] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
         ]
     },
 
@@ -284,7 +291,10 @@
         "name": "Remove Forest",
         "turnsToBuild": 4,
         "techRequired": "Mining",
-        "uniques": ["Can be built outside your borders"],
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ],
         "shortcutKey": "X",
         "civilopediaText": [
             {
@@ -296,33 +306,54 @@
         "name": "Remove Jungle",
         "turnsToBuild": 7,
         "techRequired": "Bronze Working",
-        "uniques": ["Can be built outside your borders"],
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ],
         "shortcutKey": "X"
     },
     {
         "name": "Remove Fallout",
         "turnsToBuild": 2,
         // Has no tech requirements as it can always be built
-        "uniques": ["Can be built outside your borders"],
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ],
         "shortcutKey": "X"
     },
     {
         "name": "Remove Marsh",
         "turnsToBuild": 6,
         "techRequired": "Masonry",
-        "uniques": ["Can be built outside your borders"],
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ],
         "shortcutKey": "X"
     },
     {
         "name": "Remove Land Trade Route (Production)",
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 1
     },
     {
         "name": "Remove Land Trade Route (Food)",
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 1
     },
     {
         "name": "Remove Land Trade Route (Gold)",
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 1
     },
 
@@ -330,16 +361,25 @@
     {
         "name": "Remove Road",
         "turnsToBuild": 2,
-        "uniques": ["Can be built outside your borders"]
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ]
     },
     {
         "name": "Remove Railroad",
         "turnsToBuild": 2,
-        "uniques": ["Can be built outside your borders"]
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ]
     },
     {
         "name": "Cancel improvement order",
-        "uniques": ["Can be built outside your borders"],
+        "uniques": [
+            "Can be built outside your borders",
+            "Excluded from map editor"
+        ],
         "shortcutKey": "."
     },
     // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
@@ -348,7 +388,10 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "turnsToBuild": 2,
         "shortcutKey": "E",
-        "uniques": ["Unbuildable"],
+        "uniques": [
+            "Unbuildable",
+            "Excluded from map editor"
+        ],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 
