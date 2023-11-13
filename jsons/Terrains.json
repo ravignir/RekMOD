@@ -330,6 +330,29 @@
         "uniques": ["Rare feature"]
     },
 
+    // Virtual River entry, used for stats, Uniques and Civilopedia
+    // Modders take heed:
+    // * This never exists on the map, it's a placeholder to allow you to mod the actual river's stats.
+    // * The name is hardcoded to apply stats and the Stats Unique when a tile has one or more edges with an actual river.
+    // * No other Unique is implemented and will work - for now.
+    {
+        "name": "River",
+        "type": "TerrainFeature",
+        "movementCost": 0,  // So Civilopedia won't display a cost of 1
+        "uniques": [
+            "Doesn't generate naturally",
+            "Excluded from map editor"
+        ],
+        "civilopediaText": [
+            {"text": "Rivers exist on tile edges, not as terrain feature per se."},
+            {"text": "The tile has access to fresh water, allowing farming where it would otherwise not be possible."},
+            {"text": "Movement across rivers takes all remaining movement points of a unit unless there is a bridge."},
+            // See BattleConstants.ATTACKING_ACROSS_RIVER_MALUS:
+            {"text": "When attacking across a river, the attacker gets a -20% strength malus."},
+            // Related Buildings are automatically linked
+        ]
+    },
+
     // Natural Wonders
     {
         "name": "Great Barrier Reef",
