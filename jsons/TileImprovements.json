@@ -592,6 +592,8 @@
             "[+1 Food] from [Flood plains] tiles",
             "[+1 Production, +2 Gold] <after discovering [Economics]>",
             "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
+            "Cannot be built on [Bonus resource] tiles",
+            "Cannot be built on [Luxury resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
