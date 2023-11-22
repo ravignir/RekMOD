@@ -629,6 +629,7 @@
             "[+1 Faith] <after discovering [Theology]>",
             "[+1 Culture] for each adjacent [City center]",
             "[+1 Gold] <in [River] tiles>",
+            "Cannot be built on [Hill] tiles",
             "Can only be built to improve a resource <in [Strategic resource] tiles>",
             "Can only be built to improve a resource <in [Bonus resource] tiles>",
             "Can only be built to improve a resource <in [Luxury resource] tiles>",
