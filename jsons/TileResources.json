@@ -17,7 +17,7 @@
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": ["Grassland","Plains"],
         "food": 1,
-        "improvement": "Camp",
+        "improvedBy": ["Camp", "Tipi"],
         "improvementStats": {"production": 1},
         "uniques": [
             "Generated on every [15] tiles <in [Featureless] [Plains] tiles>",
@@ -38,7 +38,7 @@
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": ["Forest","Tundra"],
         "food": 1,
-        "improvement": "Camp",
+        "improvedBy": ["Camp", "Tipi"],
         "improvementStats": {"production": 1},
         "uniques": [
             "Generated on every [8] tiles <in [Featureless] [Tundra] tiles>",
