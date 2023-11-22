@@ -646,7 +646,7 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "uniques": [
-            "[-25]% tile improvement construction time",
+            "[-25]% construction time for [All] improvements",
             "[2] free [Worker] units appear",
             "Only available <after adopting [Liberty]>"
         ],
