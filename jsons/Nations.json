@@ -2417,7 +2417,7 @@
         "innerColor": [255,102,102],
         "uniqueName": "Seven Cities of Gold",
         "uniques": [
-            "Gain [100] [Gold] <upon discovering a Natural Wonder>",
+            "Gain [100] [Gold] (modified by game speed)<upon discovering a Natural Wonder>",
             "[+1 Happiness] for every known Natural Wonder",
             "[+100]% Yield from every [Natural Wonder]"
         ],
