@@ -624,6 +624,8 @@
         "turnsToBuild": 7,
         "techRequired": "Trapping",
         "uniques": [
+            "Does not need removal of [Forest]",
+            "Does not need removal of [Jungle]",
             "Must be next to [Luxury resource]",
             "[+1 Food] <after discovering [Civil Service]>",
             "[+1 Faith] <after discovering [Theology]>",
