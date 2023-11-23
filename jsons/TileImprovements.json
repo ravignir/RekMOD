@@ -573,9 +573,6 @@
         "uniques": [
             "[+2 Gold] <after discovering [Machinery]>",
             "[+2 Culture] <after discovering [Acoustics]>",
-            "Cannot be built on [Strategic resource] tiles",
-            "Cannot be built on [Luxury resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
