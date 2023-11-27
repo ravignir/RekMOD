@@ -1584,7 +1584,7 @@
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
     },
-    {
+    { // Note for downstream forks: and longswordman image is provided for a "Black Legion varient of this unit
         "name": "Black Arquebusier",
         "unitType": "Gunpowder",
         "replaces": "Musketman",
@@ -1594,7 +1594,7 @@
         "cost": 135,
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
-        "promotions": ["Shock I"],
+        "promotions": ["Accuracy I"],
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
     },
