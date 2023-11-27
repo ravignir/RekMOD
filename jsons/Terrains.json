@@ -114,7 +114,7 @@
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Considered [Desirable] when determining start locations <in [Desert] Regions>",
-            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
+            "Every [11] tiles with this terrain will receive a major deposit of a strategic resource."
         ]
     },
     {
@@ -156,7 +156,7 @@
             "[-2] to Fertility for Map Generation",
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
-            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>"
         ]
     },
@@ -252,7 +252,7 @@
             "A Region is formed with at least [11]% [Marsh] tiles, with priority [5]",
             "Provides a one-time Production bonus to the closest city when cut down",
             "[-2] to Fertility for Map Generation",
-            "Every [9] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Considered [Undesirable] when determining start locations <in all except [Marsh] Regions>",
             "Considered [Desirable] when determining start locations <in [Marsh] Regions>"
         ],
