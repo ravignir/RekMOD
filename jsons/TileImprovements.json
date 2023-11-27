@@ -9,6 +9,9 @@
             "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
             "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Can only be built to improve a resource <in [Strategic resource] tiles>",
+            "Can only be built to improve a resource <in [Bonus resource] tiles>",
+            "Can only be built to improve a resource <in [Luxury resource] tiles>",
             "Pillaging this improvement yields approximately [+18 Gold]"
         ],
         "shortcutKey": "F"
@@ -21,6 +24,9 @@
         "techRequired": "Bronze Working",
         "uniques": [
             "[+1 Production] <after discovering [Steel]>",
+            "Can only be built to improve a resource <in [Strategic resource] tiles>",
+            "Can only be built to improve a resource <in [Bonus resource] tiles>",
+            "Can only be built to improve a resource <in [Luxury resource] tiles>",
             "Pillaging this improvement yields approximately [+10 Gold]"
         ],
         "shortcutKey": "L"
@@ -55,6 +61,9 @@
         "uniques": [
             "[+1 Production] <after discovering [Chemistry]>",
             "[+1 Production] <in tiles without [Luxury resource]>",
+            "Can only be built to improve a resource <in [Strategic resource] tiles>",
+            "Can only be built to improve a resource <in [Bonus resource] tiles>",
+            "Can only be built to improve a resource <in [Luxury resource] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ],
         "shortcutKey": "M"
@@ -547,7 +556,9 @@
             "[+1 Production] <after discovering [Gunpowder]>",
             "[+1 Production] <after discovering [Dynamite]>",
             "Must be next to [Luxury resource]",
+            "Cannot be built on [Strategic resource] tiles",
             "Cannot be built on [Luxury resource] tiles",
+            "Cannot be built on [Bonus resource] tiles",
             "Only available <with [0] to [0] neighboring [Harjis] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
@@ -577,6 +588,9 @@
             "[+1 Faith] <after discovering [Theology]>",
             "[+1 Culture] for each adjacent [Mountain]",
             "Can only be built on [Hill] tiles",
+            "Cannot be built on [Strategic resource] tiles",
+            "Cannot be built on [Luxury resource] tiles",
+            "Cannot be built on [Bonus resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
@@ -592,6 +606,7 @@
             "[+1 Food] from [Flood plains] tiles",
             "[+1 Production, +2 Gold] <after discovering [Economics]>",
             "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
+            "Cannot be built on [Strategic resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
             "Cannot be built on [Luxury resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
@@ -606,11 +621,17 @@
         "turnsToBuild": 7,
         "techRequired": "Trapping",
         "uniques": [
+            "Does not need removal of [Forest]",
+            "Does not need removal of [Jungle]",
             "Must be next to [Luxury resource]",
             "[+1 Food] <after discovering [Civil Service]>",
             "[+1 Faith] <after discovering [Theology]>",
             "[+1 Culture] for each adjacent [City center]",
             "[+1 Gold] <in [River] tiles>",
+            "Cannot be built on [Hill] tiles",
+            "Can only be built to improve a resource <in [Strategic resource] tiles>",
+            "Can only be built to improve a resource <in [Bonus resource] tiles>",
+            "Can only be built to improve a resource <in [Luxury resource] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
@@ -625,6 +646,9 @@
         "techRequired": "Chivalry",
         "uniques": [
             "Can only be built on [Desert] tiles <in [Hill] tiles>",
+            "Cannot be built on [Strategic resource] tiles",
+            "Cannot be built on [Luxury resource] tiles",
+            "Cannot be built on [Bonus resource] tiles",
             "Gives a defensive bonus of [50]%",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
@@ -641,6 +665,9 @@
         "uniques": [
             "Gives a defensive bonus of [25]%",
             "[+1 Culture] <after discovering [Acoustics]>",
+            "Cannot be built on [Strategic resource] tiles",
+            "Cannot be built on [Luxury resource] tiles",
+            "Cannot be built on [Bonus resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
@@ -671,6 +698,9 @@
         "uniques": [
             "[+1 Production] <after discovering [Navigation]>",
             "[+1 Culture] <after discovering [Flight]>",
+            "Cannot be built on [Strategic resource] tiles",
+            "Cannot be built on [Luxury resource] tiles",
+            "Cannot be built on [Bonus resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
@@ -684,6 +714,8 @@
             "[+1 Food] for each adjacent [Mountain]",
             "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
             "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Cannot be built on [Strategic resource] tiles",
+            "Cannot be built on [Luxury resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ],

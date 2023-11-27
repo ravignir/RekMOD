@@ -147,7 +147,10 @@
         "outerColor": [64, 138, 178],
         "innerColor": [244, 244, 86],
         "uniqueName": "Pride of the People",
-        "uniques": ["[-30]% tile improvement construction time"],
+        "uniques": [
+            "[-50]% construction time for [Pasture] improvements",
+            "[-50]% construction time for [Farm] improvements"
+        ],
         "cities": [
             "Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
             "Salta","San Juan","San Luis","Santa Fe","Santiago del Estero","Ushuaia","Tucuman","Resistencia","Rawson","Santa Rosa","Viedma",
@@ -280,7 +283,7 @@
         "innerColor": [159, 4, 4],
         "uniqueName": "Justice of Saladin",
         "uniques": [
-            "[-25]% tile improvement construction time",
+            "[-25]% construction time for [All] improvements",
             "Gain a free [Ayyubid Burial Tomb] [in annexed cities]",
             "Gain a free [Ayyubid Burial Tomb] [in puppeted cities]"
         ],
@@ -2414,7 +2417,7 @@
         "innerColor": [255,102,102],
         "uniqueName": "Seven Cities of Gold",
         "uniques": [
-            "Gain [100] [Gold] <upon discovering a Natural Wonder>",
+            "Gain [100] [Gold] (modified by game speed)<upon discovering a Natural Wonder>",
             "[+1 Happiness] for every known Natural Wonder",
             "[+100]% Yield from every [Natural Wonder]"
         ],

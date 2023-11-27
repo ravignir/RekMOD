@@ -1584,7 +1584,7 @@
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
     },
-    {
+    { // Note for downstream forks: and longswordman image is provided for a "Black Legion varient of this unit
         "name": "Black Arquebusier",
         "unitType": "Gunpowder",
         "replaces": "Musketman",
@@ -1594,7 +1594,7 @@
         "cost": 135,
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
-        "promotions": ["Shock I"],
+        "promotions": ["Accuracy I"],
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
     },
@@ -2838,7 +2838,12 @@
         "name": "Great Writer",
         "unitType": "Civilian",
         "uniques": [
-            "Gain [500] [Culture] <by consuming this unit>",
+            "Gain [250] [Culture] (modified by game speed) <by consuming this unit> <during the [Ancient era]>",
+            "Gain [500] [Culture] (modified by game speed) <by consuming this unit> <during the [Classical era]>",
+            "Gain [600] [Culture] (modified by game speed) <by consuming this unit> <during the [Medieval era]>",
+            "Gain [850] [Culture] (modified by game speed) <by consuming this unit> <during the [Renaissance era]>",
+            "Gain [1000] [Culture] (modified by game speed) <by consuming this unit> <during the [Industrial era]>",
+            "Gain [1400] [Culture] (modified by game speed) <by consuming this unit> <starting from the [Modern era]>",
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
