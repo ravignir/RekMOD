@@ -2549,7 +2549,6 @@
         "culture": 2,
         "specialistSlots": {"Artist": 2},
         "greatPersonPoints": {"Great Artist": 2},
-        "requiredBuilding": "Amphitheater",
         "maintenance": 3,
         "hurryCostModifier": 0,
         "requiredTech": "Industrialization",
