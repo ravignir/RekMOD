@@ -2,6 +2,13 @@
     {
         "name": "Tradition",
         "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 50,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]",
@@ -81,6 +88,13 @@
     {
         "name": "Liberty",
         "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 50,
+            "Domination": 10,
+            "Scientific": 50
+        },
         "uniques": [
             "[+1 Culture] [in all cities]",
             "Unlocks [The Pyramids]",
@@ -174,6 +188,13 @@
     {
         "name": "Honor",
         "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 50,
+            "Scientific": 10
+        },
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
@@ -254,6 +275,13 @@
     {
         "name": "Piety",
         "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
@@ -341,6 +369,13 @@
     {
         "name": "Aesthetics",
         "era": "Classical era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 40,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [
             "[Great Artist] is earned [33]% faster",
             "[Great Writer] is earned [33]% faster",
@@ -431,6 +466,13 @@
     {
         "name": "Patronage",
         "era": "Classical era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 40,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [
             "Resting point for Influence with City-States is increased by [20]",
             "Unlocks [Forbidden Palace]",
@@ -503,6 +545,14 @@
     },
     {
         "name": "Exploration",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 20,
+            "Diplomatic": 20,
+            "Domination": 20,
+            "Scientific": 20
+        },
         "uniques": [
             "[+1] Movement <for [{Military} {Water}] units>",
             "[+1] Sight <for [{Military} {Water}] units>",
@@ -510,7 +560,6 @@
             "Unlocks [Conquistador]",
             "Provides [1] [Policies]"
         ],
-        "era": "Medieval era",
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -580,12 +629,19 @@
     },
     {
         "name": "Commerce",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 40,
+            "Scientific": 10
+        },
         "uniques": [
             "[Great Merchant] is earned [33]% faster",
             "Unlocks [Big Ben]",
             "Provides [1] [Policies]"
         ],
-        "era": "Medieval era",
         "policies": [
             {
                 "name": "Silk Road",
@@ -664,6 +720,13 @@
     {
         "name": "Rationalism",
         "era": "Renaissance era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 40
+        },
         "uniques": [
             "[Great Scientist] is earned [20]% faster",
             "Unlocks [Porcelain Tower]",
@@ -741,6 +804,13 @@
     {
         "name": "Order",
         "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 30,
+            "Domination": 10,
+            "Scientific": 30
+        },
         "uniques": [
             "Free Social Policy",
             "Unlocks [Kremlin]",
@@ -957,6 +1027,13 @@
     {
         "name": "Freedom",
         "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 30,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [
             "Free Social Policy",
             "Unlocks [Statue of Liberty]",
@@ -1170,6 +1247,13 @@
     {
         "name": "Autocracy",
         "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 30,
+            "Scientific": 10
+        },
         "uniques": [
             "Free Social Policy",
             "Unlocks [Prora]",
