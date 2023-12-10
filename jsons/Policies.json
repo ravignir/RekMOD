@@ -551,7 +551,7 @@
             "Cultural": 20,
             "Diplomatic": 20,
             "Domination": 20,
-            "Scientific": 20
+            "Scientific": 10
         },
         "uniques": [
             "[+1] Movement <for [{Military} {Water}] units>",
@@ -635,7 +635,7 @@
             "Cultural": 10,
             "Diplomatic": 10,
             "Domination": 40,
-            "Scientific": 10
+            "Scientific": 20
         },
         "uniques": [
             "[Great Merchant] is earned [33]% faster",
