@@ -342,28 +342,28 @@
         "shortcutKey": "X"
     },
     {
-        "name": "Remove Land Trade Route (Production)",
+        "name": "Land Trade Route (Production) Removal",
         "uniques": [
-            "Can be built outside your borders",
+            "Only available <on [Land Trade Route (Production)] tiles",
             "Excluded from map editor"
         ],
-        "turnsToBuild": 1
+        "turnsToBuild": 0
     },
     {
-        "name": "Remove Land Trade Route (Food)",
+        "name": "Land Trade Route (Food) Removal",
         "uniques": [
-            "Can be built outside your borders",
+            "Only available <on [Land Trade Route (Food)] tiles",
             "Excluded from map editor"
         ],
-        "turnsToBuild": 1
+        "turnsToBuild": 0
     },
     {
-        "name": "Remove Land Trade Route (Gold)",
+        "name": "Land Trade Route (Gold) Removal",
         "uniques": [
-            "Can be built outside your borders",
+            "Only available <on [Land Trade Route (Gold)] tiles",
             "Excluded from map editor"
         ],
-        "turnsToBuild": 1
+        "turnsToBuild": 0
     },
 
     // These are unique and have unique in-game checks related to them
