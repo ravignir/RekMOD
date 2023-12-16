@@ -345,6 +345,7 @@
         "name": "Land Trade Route (Production) Removal",
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
+            "Unpillagable",
             "Only available <in [Land Trade Route (Production)] tiles>",
             "Excluded from map editor"
         ],
@@ -354,6 +355,7 @@
         "name": "Land Trade Route (Food) Removal",
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
+            "Unpillagable",
             "Only available <in [Land Trade Route (Food)] tiles>",
             "Excluded from map editor"
         ],
@@ -363,6 +365,7 @@
         "name": "Land Trade Route (Gold) Removal",
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
+            "Unpillagable",
             "Only available <in [Land Trade Route (Gold)] tiles>",
             "Excluded from map editor"
         ],
@@ -372,6 +375,7 @@
         "name": "Sea Trade Route (Production) Removal",
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
+            "Unpillagable",
             "Only available <in [Sea Trade Route (Production)] tiles>",
             "Excluded from map editor"
         ],
@@ -381,6 +385,7 @@
         "name": "Sea Trade Route (Food) Removal",
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
+            "Unpillagable",
             "Only available <in [Sea Trade Route (Food)] tiles>",
             "Excluded from map editor"
         ],
@@ -390,6 +395,7 @@
         "name": "Sea Trade Route (Gold) Removal",
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
+            "Unpillagable",
             "Only available <in [Sea Trade Route (Gold)] tiles>",
             "Excluded from map editor"
         ],
