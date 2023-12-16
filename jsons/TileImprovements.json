@@ -343,6 +343,7 @@
     },
     {
         "name": "Land Trade Route (Production) Removal",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
             "Only available <on [Land Trade Route (Production)] tiles>",
             "Excluded from map editor"
@@ -351,6 +352,7 @@
     },
     {
         "name": "Land Trade Route (Food) Removal",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
             "Only available <on [Land Trade Route (Food)] tiles>",
             "Excluded from map editor"
@@ -359,6 +361,7 @@
     },
     {
         "name": "Land Trade Route (Gold) Removal",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
             "Only available <on [Land Trade Route (Gold)] tiles>",
             "Excluded from map editor"
