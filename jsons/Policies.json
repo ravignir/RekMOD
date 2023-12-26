@@ -23,15 +23,15 @@
                 "name": "Legalism",
                 "uniques": [
                     "Provides the cheapest [Culture] building in your first [4] cities for free",
-                    "[+2 Culture] from every [East India Company]",
-                    "[+2 Culture] from every [Oxford University]",
-                    "[+2 Culture] from every [Hermitage]",
-                    "[+2 Culture] from every [Ironworks]",
-                    "[+2 Culture] from every [Grand Temple]",
                     "[+2 Culture] from every [National Epic]",
                     "[+2 Culture] from every [National College]",
-                    "[+2 Culture] from every [Heroic Epic]",
                     "[+2 Culture] from every [Circus Maximus]",
+                    "[+2 Culture] from every [Heroic Epic]",
+                    "[+2 Culture] from every [East India Company]",
+                    "[+2 Culture] from every [Grand Temple]",
+                    "[+2 Culture] from every [Ironworks]",
+                    "[+2 Culture] from every [Oxford University]",
+                    "[+2 Culture] from every [Hermitage]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -538,9 +538,9 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[+1] population [in all cities]",
-                    "[+1 Happiness] [in all cities]",
-                    /*"Gain a free [Governor's Mansion] [in this city] <upon founding a city>",*/
+                    //"[+1] population [in all cities]",
+                    //"[+1 Happiness] [in all cities]",
+                    "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>",
                     "Provides [1] [Policies]"
                 ],
