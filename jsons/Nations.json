@@ -1574,9 +1574,9 @@
             "[-100]% maintenance costs <for [Mounted] units>",
             "[-100]% maintenance costs <for [Armor] units>",
             "[Mounted] units gain the [Volley] promotion",
-            "[Armor] units gain the [Volley] promotion",
-            "[+100]% Production when constructing [Stable] buildings [in all cities]",
-            "[+1 Gold] from every [Stable]"
+            "[Armor] units gain the [Volley] promotion"
+            //"[+100]% Production when constructing [Stable] buildings [in all cities]",
+            //"[+1 Gold] from every [Stable]"
         ],
         "cities": [
             "Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling",
@@ -1983,7 +1983,11 @@
         "outerColor": [243,243,38],
         "innerColor": [130,130,130],
         "uniqueName": "The Holy See",
-        "uniques": ["[+1 Culture, +1 Faith, +1 Production, +1 Food, +1 Gold, +1 Science] from every [Holy site]"],
+        "uniques": [
+            "[+1 Culture, +1 Food, +1 Gold] from every [Great Improvement]",
+            "Gain a free [Courthouse] [in annexed cities]",
+            "Gain a free [Courthouse] [in puppeted cities]"
+        ],
         "cities": [
             "Vatican City","Benevento","Pontecorvo","San Marino","Terracina","Narni","Spoleto","Assisi","Arpino","Perugia",
             "Macerata","Ancona","Forli","Rimini","Ascoli","Pesaro","Ferrara","Latina","Frosinone","Rieti",
@@ -2558,6 +2562,7 @@
         "innerColor": [218,218,218],
         "uniqueName": "The Friendly Islands",
         "uniques": [
+            "Resting point for Influence with City-States is increased by [5]",
             "Reveal up to [All] [Coastal] within a [10] tile radius",
             "Reveal up to [All] [Coast] within a [10] tile radius"
         ],
