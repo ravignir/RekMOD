@@ -2845,12 +2845,7 @@
         "name": "Great Writer",
         "unitType": "Civilian",
         "uniques": [
-            "Gain [250] [Culture] (modified by game speed) <by consuming this unit> <during the [Ancient era]>",
-            "Gain [500] [Culture] (modified by game speed) <by consuming this unit> <during the [Classical era]>",
-            "Gain [600] [Culture] (modified by game speed) <by consuming this unit> <during the [Medieval era]>",
-            "Gain [850] [Culture] (modified by game speed) <by consuming this unit> <during the [Renaissance era]>",
-            "Gain [1000] [Culture] (modified by game speed) <by consuming this unit> <during the [Industrial era]>",
-            "Gain [1400] [Culture] (modified by game speed) <by consuming this unit> <starting from the [Modern era]>",
+            "Can generate a large amount of culture",
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
@@ -2990,6 +2985,7 @@
         "uniques": [
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
             "Great Person - [War]",
             "Unbuildable",
             "Uncapturable"
@@ -3010,6 +3006,7 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
             "Great Person - [War]",
             "Unbuildable",
             "Uncapturable"
@@ -3027,6 +3024,7 @@
             "All adjacent units heal [+15] HP when healing",
             "[+15] HP when healing",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
             "Great Person - [War]",
             "Unbuildable",
             "Uncapturable"
@@ -3040,6 +3038,7 @@
             "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
             "Unbuildable",
             "Uncapturable",
+            "Can be earned through combat <for [Water] units>",
             "Great Person - [Navy]",
             "Can instantly construct a [Dry Dock] improvement <by consuming this unit>"
         ],
