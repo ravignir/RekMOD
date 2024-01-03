@@ -235,7 +235,7 @@
                 "uniques": [
                     "[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
                     "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
-                    "[50]% XP gained from combat <for [Military] units>",
+                    "[50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Policies]"
                 ],
                 "row": 2,
@@ -571,7 +571,8 @@
             {
                 "name": "Exploration Complete",
                 "uniques": [
-                    "[3] free [Great Admiral] units appear",
+                    "[Great Admiral] is earned [100]% faster",
+                    "Free [Great Admiral] appears",
                     "[+1] Happiness from each type of luxury resource",
                     "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -774,7 +775,7 @@
                 "name": "Patriotic War",
                 "uniques": [
                     "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-                    "[+50]% XP gained from combat <for [All] units>",
+                    "[+50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1330,7 +1331,7 @@
                     "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[+50]% XP gained from combat <for [All] units>",
+                    "[+50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
