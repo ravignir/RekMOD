@@ -342,61 +342,49 @@
         "shortcutKey": "X"
     },
     {
-        "name": "Land Trade Route (Production) Removal",
+        "name": "Remove Land Trade Route (Production)",
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Unpillagable",
-            "Only available <in [Land Trade Route (Production)] tiles>",
             "Excluded from map editor"
         ],
         "turnsToBuild": 0
     },
     {
-        "name": "Land Trade Route (Food) Removal",
+        "name": "Remove Land Trade Route (Food)",
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Unpillagable",
-            "Only available <in [Land Trade Route (Food)] tiles>",
             "Excluded from map editor"
         ],
         "turnsToBuild": 0
     },
     {
-        "name": "Land Trade Route (Gold) Removal",
+        "name": "Remove Land Trade Route (Gold)",
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Unpillagable",
-            "Only available <in [Land Trade Route (Gold)] tiles>",
             "Excluded from map editor"
         ],
         "turnsToBuild": 0
     },
     {
-        "name": "Sea Trade Route (Production) Removal",
+        "name": "Remove Sea Trade Route (Production)",
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
-            "Unpillagable",
-            "Only available <in [Sea Trade Route (Production)] tiles>",
             "Excluded from map editor"
         ],
         "turnsToBuild": 0
     },
     {
-        "name": "Sea Trade Route (Food) Removal",
+        "name": "Remove Sea Trade Route (Food)",
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
-            "Unpillagable",
-            "Only available <in [Sea Trade Route (Food)] tiles>",
             "Excluded from map editor"
         ],
         "turnsToBuild": 0
     },
     {
-        "name": "Sea Trade Route (Gold) Removal",
+        "name": "Remove Sea Trade Route (Gold)",
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
-            "Unpillagable",
-            "Only available <in [Sea Trade Route (Gold)] tiles>",
             "Excluded from map editor"
         ],
         "turnsToBuild": 0
