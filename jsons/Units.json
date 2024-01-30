@@ -2325,6 +2325,7 @@
     },
     {
         "name": "Pracinha",
+        "replaces": "Infantry",
         "unitType": "Gunpowder",
         "uniqueTo": "Brazil",
         "movement": 2,
