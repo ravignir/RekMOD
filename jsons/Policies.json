@@ -152,7 +152,6 @@
                     "[+33]% Production when constructing [East India Company] wonders [in all cities]",
                     "[+33]% Production when constructing [Grand Temple] wonders [in all cities]",
                     "[+33]% Production when constructing [Ironworks] wonders [in all cities]",
-                    "[+33]% Production when constructing [Center of Progress] wonders [in all cities]",
                     "[+33]% Production when constructing [Oxford University] wonders [in all cities]",
                     "[+33]% Production when constructing [Hermitage] wonders [in all cities]",
                     //"[+33]% Production when constructing [National Visitor's Center] wonders [in all cities]",
@@ -163,7 +162,6 @@
                     "[+15]% Production when constructing [Market] buildings [in all cities]",
                     "[+15]% Production when constructing [Temple] buildings [in all cities]",
                     "[+15]% Production when constructing [Workshop] buildings [in all cities]",
-                    "[+15]% Production when constructing [Factory] buildings [in all cities]",
                     "[+15]% Production when constructing [University] buildings [in all cities]",
                     "[+15]% Production when constructing [Opera House] buildings [in all cities]"
                     //"[+15]% Production when constructing [Hotel] buildings [in all cities]",
@@ -356,6 +354,9 @@
                     "[+100]% Production when constructing [Opera House] buildings [in all cities]",
                     "[+100]% Production when constructing [Museum] buildings [in all cities]",
                     "[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]",
+                    "[+1 Happiness] from every [Writer Guild]",
+                    "[+1 Happiness] from every [Artist Guild]",
+                    "[+1 Happiness] from every [Musician Guild]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -408,7 +409,7 @@
             {
                 "name": "Fine Arts",
                 "uniques": [
-                    "Provides a [Fine Art Specialist] in your first [4] cities for free",
+                    "Gain a free [Fine Art Specialist] [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Cultural Exchange","Artistic Genius"],
@@ -591,10 +592,9 @@
             {
                 "name": "Silk Road",
                 "uniques": [
-                    "[+25]% Yield from every [Land Trade Route (Food)]",
-                    "[+25]% Yield from every [Land Trade Route (Production)]",
-                    "[+25]% Yield from every [Sea Trade Route (Food)]",
-                    "[+25]% Yield from every [Sea Trade Route (Production)]",
+                    "[+100]% Production when constructing [Market] buildings [in all cities]",
+                    "[+100]% Production when constructing [Bank] buildings [in all cities]",
+                    "[+100]% Production when constructing [Stock Exchange] buildings [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -613,7 +613,7 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": [
-                    "[-50]% maintenance on road & railroads",
+                    "[-25]% maintenance on road & railroads",
                     "[-25]% maintenance cost for buildings [in all cities]",
                     "Provides [2] [Trade Route]",
                     "Provides [1] [Policies]"

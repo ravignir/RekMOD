@@ -279,7 +279,7 @@
         "name": "Cargo Ship",
         "unitType": "Civilian Water",
         "movement": 4,
-        "cost": 90,
+        "cost": 100,
         "uniques": [
             "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
@@ -1489,6 +1489,7 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1509,6 +1510,7 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1527,6 +1529,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "Cannot enter ocean tiles",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1546,6 +1549,7 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1654,7 +1658,10 @@
         "requiredTech": "Navigation",
         "upgradesTo": "Destroyer",
         "promotions": ["Coastal Raider I"],
-        "uniques": ["Can move after attacking"],
+        "uniques": [
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Can move after attacking"
+        ],
         "attackSound": "cannon"
     },
     {
@@ -1668,7 +1675,10 @@
         "requiredTech": "Navigation",
         "upgradesTo": "Destroyer",
         "promotions": ["Supply","Coastal Raider I","Boarding Party I"],
-        "uniques": ["Can move after attacking"],
+        "uniques": [
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Can move after attacking"
+        ],
         "attackSound": "cannon"
     },
     {
@@ -2091,6 +2101,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Double movement in [Coast]",
             "Never appears as a Barbarian unit"
         ],
@@ -2108,6 +2119,7 @@
             "Can move after attacking",
             "Unable to capture cities",
             "Unable to pillage tiles",
+            "Cannot attack",
             "[+2] Sight"
         ],
         "attackSound": "machinegun"
@@ -2461,6 +2473,7 @@
             "Can see invisible [Submarine] units",
             "[100]% chance to intercept air attacks",
             "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>",
             "May withdraw before melee ([80]%)",
             "[+100]% Strength <vs [Submarine] units>"
         ],

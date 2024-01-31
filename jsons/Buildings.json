@@ -2,8 +2,7 @@
     // Religious buildings
     {
         "name": "Cathedral",
-        "faith": 1,
-        "culture": 4,
+        "culture": 5,
         "uniques": [
             "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
@@ -32,7 +31,8 @@
     {
         "name": "Gurdwara",
         "culture": 1,
-        "faith": 5,
+        "faith": 4,
+        "science": 4,
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
@@ -2706,12 +2706,13 @@
     {
         "name": "Center of Progress",
         "cost": 0,
-        "isNationalWonder": true,
         "uniques": [
             "Can be purchased with [Gold] [in all cities]",
             "Requires a [Factory] in all cities",
-            "Cost increases by [30] per owned city",
-            "Adopt [Ideology]"
+            "Adopt [Ideology]",
+            "Unbuildable",
+            "Automatically built in all cities where it is buildable",
+            "Only available <in [Capital] cities>"
         ],
         "requiredTech": "Industrialization"
     },
