@@ -809,6 +809,13 @@
         ]
     },
     {
+        "name": "Mountaineer",
+        "uniques": [
+            "[+10]% Strength <with [1] to [6] neighboring [Mountain] tiles>",
+            "[+1] Movement <with [1] to [6] neighboring [Mountain] tiles>"
+        ]
+    },
+    {
         "name": "Missionary Zeal",
         "uniques": [
             "Can Spread Religion <[1] additional time(s)>"

@@ -2488,6 +2488,31 @@
         ]
     },
     {
+        "name": "Switzerland",
+        "leaderName": "Henri Dufour",
+        "adjective": ["Swiss"],
+        "startBias": ["Avoid [Coast]","Hill"],
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+        "outerColor": [241,222,222],
+        "innerColor": [195,49,73],
+        "uniqueName": "Swiss Banking",
+        "uniques": [
+            "[+2 Science, +2 Gold, +2 Production] from every [Merchant]"
+        ],
+        "cities": [
+            "Bern","Zurich","Geneve","Basel","Lausanne","Winterthur","Sankt Gallen","Lugano","Luzern","Koniz","Biel",
+            "Thun","Rapperswil","Schaffhausen","Fribourg","Chur","Neuchatel","Vernier","Sitten","Lancy","Emmen"
+        ]
+    },
+    {
         "name": "Tibet",
         "leaderName": "Ngawang Lobsang Gyatso",
         "adjective": ["Tibetan"],

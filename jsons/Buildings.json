@@ -1937,6 +1937,21 @@
         "requiredTech": "Steel"
     },
     {
+        "name": "Reislaufer Post",
+        "replaces": "Armory",
+        "uniqueTo": "Switzerland",
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredBuilding": "Barracks",
+        "uniques": [
+            "Free [Reislaufer] appears",
+            "New [Military] units start with [15] Experience [in this city]",
+            "All newly-trained [{Land} {Military}] units [in this city] receive the [Mountaineer] promotion",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Steel"
+    },
+    {
         "name": "Vo Khi",
         "replaces": "Armory",
         "uniqueTo": "Vietnam",
@@ -2840,6 +2855,18 @@
         "requiredBuilding": "Zoo",
         "maintenance": 2,
         "requiredTech": "Refrigeration"
+    },
+    {
+        "name": "Ski Resort",
+        "replaces": "Stadium",
+        "uniqueTo": "Switzerland",
+        "happiness": 3,
+        "culture": 3,
+        "cost": 250,
+        "uniques": [
+            "[+2 Gold] from [Mountain] tiles [in this city]"
+        ],
+        "requiredTech": "Electricity"
     },
     /*{
         "name": "Hotel",

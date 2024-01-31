@@ -644,7 +644,7 @@
         "attackSound": "elephant"
     },
     {
-        "name": "Marathi Rider",
+        "name": "Timurid Rider",
         "replaces": "Horseman",
         "uniqueTo": "Timurids",
         "unitType": "Bomber",
@@ -1336,6 +1336,25 @@
             "Must set up to ranged attack"
         ],
         "attackSound": "throw"
+    },
+    {
+        "name": "Reislaufer",
+        "uniqueTo": "Switzerland",
+        "unitType": "Sword",
+        "movement": 3,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Steel",
+        "upgradesTo": "Rifleman",
+        "promotions": [
+            "Mountaineer"
+        ],
+        "uniques": [
+            "Earn [200]% of killed [Military] unit's [Strength] as [Gold]",
+            "Only available <in cities with a [Reislauder Post]>",
+            "Cannot be purchased"
+        ],
+        "attackSound": "metalhit"
     },
     {
         "name": "Longswordsman",
