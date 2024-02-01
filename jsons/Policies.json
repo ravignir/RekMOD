@@ -202,7 +202,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Military Caste",
@@ -219,14 +219,15 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[-20]% Gold cost of upgrading <for [Military] units>",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    //"[-20]% Gold cost of upgrading <for [Military] units>",
+                    "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[+3 Production, +3 Gold, +3 Food] from every [Courthouse]",
+                    "[+1 Food, +2 Science, +2 Culture] from every [Citadel]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Professional Army","Warrior Code"],
+                "requires": ["Professional Army"],
                 "row": 2,
-                "column": 3
+                "column": 5
             },
             {
                 "name": "Discipline",
@@ -236,13 +237,14 @@
                     "[50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Policies]"
                 ],
+                "requires": ["Warrior Code"]
                 "row": 2,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "[+10]% [Food] [in all cities]",
+                    //"[+10]% [Food] [in all cities]",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
