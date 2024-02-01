@@ -237,14 +237,14 @@
                     "[50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Warrior Code"]
+                "requires": ["Warrior Code"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    //"[+10]% [Food] [in all cities]",
+                    "[+10]% [Food] [in all cities]",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
