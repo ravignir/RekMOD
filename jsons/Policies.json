@@ -5,7 +5,7 @@
         "uniques": [
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]",
-            "Unlocks [Hanging Gardens]",
+            "Comment [Unlocks [Hanging Gardens]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -83,7 +83,7 @@
         "era": "Ancient era",
         "uniques": [
             "[+1 Culture] [in all cities]",
-            "Unlocks [The Pyramids]",
+            "Comment [Unlocks [The Pyramids]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -175,7 +175,7 @@
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
-            "Unlocks [Temple of Artemis]",
+            "Comment [Unlocks [Temple of Artemis]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -258,7 +258,7 @@
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+1 Culture, +1 Faith] [in capital]",
-            "Unlocks [Great Mosque of Djenne]",
+            "Comment [Unlocks [Great Mosque of Djenne]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -345,7 +345,7 @@
             "[Great Artist] is earned [33]% faster",
             "[Great Writer] is earned [33]% faster",
             "[Great Musician] is earned [33]% faster",
-            "Unlocks [Uffizi]",
+            "Comment [Unlocks [Uffizi]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -436,7 +436,7 @@
         "era": "Classical era",
         "uniques": [
             "Resting point for Influence with City-States is increased by [20]",
-            "Unlocks [Forbidden Palace]",
+            "Comment [Unlocks [Forbidden Palace]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -509,8 +509,8 @@
         "uniques": [
             "[+1] Movement <for [{Military} {Water}] units>",
             "[+1] Sight <for [{Military} {Water}] units>",
-            "Unlocks [The Louvre]",
-            "Unlocks [Conquistador]",
+            "Comment [Unlocks [The Louvre]]",
+            "Comment [Unlocks [Conquistador]]",
             "Provides [1] [Policies]"
         ],
         "era": "Medieval era",
@@ -586,7 +586,7 @@
         "name": "Commerce",
         "uniques": [
             "[Great Merchant] is earned [33]% faster",
-            "Unlocks [Big Ben]",
+            "Comment [Unlocks [Big Ben]]",
             "Provides [1] [Policies]"
         ],
         "era": "Medieval era",
@@ -605,8 +605,8 @@
             {
                 "name": "Mercenary Army",
                 "uniques": [
-                    "Allows purchasing [Landsknecht] at [Civil Service]",
-                    "Allows purchasing [Foreign Legion] at [Replaceable Parts]",
+                    "Comment [Allows purchasing [Landsknecht] at [Civil Service]]",
+                    "Comment [Allows purchasing [Foreign Legion] at [Replaceable Parts]]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -669,7 +669,7 @@
         "era": "Renaissance era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster",
-            "Unlocks [Porcelain Tower]",
+            "Comment [Unlocks [Porcelain Tower]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -746,7 +746,7 @@
         "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
-            "Unlocks [Kremlin]",
+            "Comment [Unlocks [Kremlin]]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>",
             "Only available <after adopting [Ideology]>"
@@ -952,7 +952,6 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "Order I Complete"
                 ]
             }
         ]
@@ -962,7 +961,7 @@
         "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
-            "Unlocks [Statue of Liberty]",
+            "Comment [Unlocks [Statue of Liberty]]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>",
             "Only available <after adopting [Ideology]>"
@@ -1165,7 +1164,6 @@
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                    "Freedom I Complete"
                 ]
             }
         ]
@@ -1175,7 +1173,7 @@
         "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
-            "Unlocks [Prora]",
+            "Comment [Unlocks [Prora]]",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>",
             "Only available <after adopting [Ideology]>"
@@ -1378,7 +1376,6 @@
             {
                 "name": "Autocracy Complete",
                 "uniques": [
-                    "Autocracy I Complete"
                 ]
             }
         ]
@@ -1388,13 +1385,13 @@
         "era": "Modern era",
         "uniques": [
             "Free Social Policy",
-            "Only available <after discovering [Future Tech]>"
+            "Unavailable"
         ],
         "policies": [
             {
                 "name": "Ideology Complete",
                 "uniques": [
-                    "Report as error if you adopt this"
+                    "Comment [Report as error if you adopt this]"
                 ]
             }
         ]
