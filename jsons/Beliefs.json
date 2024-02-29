@@ -15,7 +15,7 @@
         "name": "Ancestor Worship",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture] from every [Shrine]",
+            "[+2 Culture] from every [Shrine]",
             "[+1 Faith] from every [Monument]"
         ]
     },
@@ -30,18 +30,20 @@
         "uniques": ["[+1 Faith] from every [Desert]"]
     },
     {
+        "name": "Divine Judgement",
+        "type": "Pantheon",
+        "uniques": [
+            "[+2 Faith] from every [Barracks]",
+            "[+2 Faith] from every [Courthouse]",
+            "[+2 Happiness] from every [Palace]",
+        ]
+    },
+    {
         "name": "Earth Mother",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith] from every [Iron]",
-            "[+1 Faith] from every [Gems]",
-            "[+1 Faith] from every [Gold Ore]",
-            "[+1 Faith] from every [Silver]",
-            "[+1 Faith] from every [Lapis Lazuli]",
-            "[+1 Faith] from every [Amber]",
-            "[+1 Faith] from every [Jade]",
-            "[+1 Faith] from every [Copper]",
-            "[+1 Faith] from every [Salt]"
+            "[+2 Faith] from every [Iron]",
+            "[+1 Faith] from every [Mine]"
         ]
     },
     {
@@ -244,10 +246,10 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Food] from every [Bananas]",
-            "[+1 Food, +1 Gold] from every [Citrus]",
-            "[+1 Food, +1 Gold] from every [Olives]",
-            "[+1 Food, +1 Gold] from every [Cocoa]",
-            "[+1 Food, +1 Gold] from every [Coconut]"
+            "[+1 Food] from every [Citrus]",
+            "[+1 Food] from every [Olives]",
+            "[+1 Food] from every [Cocoa]",
+            "[+1 Food] from every [Coconut]"
         ]
     },
     {
@@ -298,7 +300,7 @@
     {
         "name": "Church Property",
         "type": "Founder",
-        "uniques": ["[+2 Gold] for each global city following this religion"]
+        "uniques": ["[+2 Gold, +1 Faith] for each global city following this religion"]
     },
     {
         "name": "Dawah",
@@ -336,7 +338,7 @@
         "type": "Founder",
         "uniques": [
             "[+100]% Natural religion spread [in City-State cities]",
-            "Resting point for Influence with City-States following this religion [+15]"
+            "Resting point for Influence with City-States following this religion [+45]"
         ]
     },
     {
@@ -352,7 +354,7 @@
     {
         "name": "World Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [7] global followers [in foreign cities]"]
+        "uniques": ["[+1 Culture] from every [5] global followers [in foreign cities]"]
     },
     {
         "name": "Zakat",
@@ -413,7 +415,7 @@
     {
         "name": "Gurdwaras",
         "type": "Follower",
-        "uniques": ["May buy [Gurdwara] buildings for [200] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Gurdwara] buildings for [270] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Guruship",
@@ -453,7 +455,7 @@
         "type": "Follower",
         "uniques": [
             "[+1 Happiness] from every [Garden]",
-            "[+1 Production, +1 Gold] from every [Water Mill]"
+            "[+1 Production, +2 Gold] from every [Water Mill]"
         ]
     },
     {
@@ -587,13 +589,20 @@
         "name": "Sacred Sites",
         "type": "Enhancer",
         "uniques": [
-            "[+2 Gold, +2 Culture] from every [Vihara]",
-            "[+2 Gold, +2 Culture] from every [Cathedral]",
-            "[+2 Gold, +2 Culture] from every [Gurdwara]",
-            "[+2 Gold, +2 Culture] from every [Mandir]",
-            "[+2 Gold, +2 Culture] from every [Mosque]",
-            "[+2 Gold, +2 Culture] from every [Pagoda]",
-            "[+2 Gold, +2 Culture] from every [Synagogue]"
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Vihara]",
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Cathedral]",
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Gurdwara]",
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Mandir]",
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Mosque]",
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Pagoda]",
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Synagogue]"
+        ]
+    },
+    {
+        "name": "Sanctified Innovations",
+        "type": "Enhancer",
+        "uniques": [
+            "[+1 Faith, +1 Production, +1 Science] from every [National Wonder]"
         ]
     },
     {
@@ -615,11 +624,11 @@
     {
         "name": "Underground Sect",
         "type": "Enhancer",
-        "uniques": ["[+1 Science] from every [5] global followers [in cities following this religion]"]
+        "uniques": ["[+1 Science] from every [4] global followers [in cities following this religion]"]
     },
     {
         "name": "Unity of the Prophets",
         "type": "Enhancer",
-        "uniques": ["[+6 Faith, +2 Production] from every [Holy site]"]
+        "uniques": ["[+4 Faith, +2 Production] from every [Holy site]"]
     }
 ]

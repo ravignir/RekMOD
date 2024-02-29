@@ -2,8 +2,7 @@
     // Religious buildings
     {
         "name": "Cathedral",
-        "faith": 1,
-        "culture": 4,
+        "culture": 5,
         "uniques": [
             "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
@@ -32,7 +31,8 @@
     {
         "name": "Gurdwara",
         "culture": 1,
-        "faith": 5,
+        "faith": 4,
+        "science": 4,
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
@@ -221,7 +221,7 @@
         "cost": 0,
         "uniques": [
             "Indicates the capital city",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ]
     },
     {
@@ -230,7 +230,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Palace]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -253,7 +253,7 @@
             "[+25]% Great Person generation [in this city]",
             "[+10]% Production when constructing [All] buildings [in this city]",
             "Limited to [2] per Civilization",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ]
     },
     {
@@ -472,7 +472,7 @@
         "maintenance": 1,
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
-            "Has 1 Great Work of Writing Slot",
+            "Comment [Has 1 Great Work of Writing Slot]",
             "New [Military] units start with [15] Experience [in this city] <in cities with a [Royal Library Great Writing Slot]>"
         ],
         "requiredTech": "Writing"
@@ -484,7 +484,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Royal Library]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -509,7 +509,7 @@
         "uniques": [
             "Free Technology",
             "Gain a free [Library] [in this city]",
-            "Has [2] Great Work of Writing Slots"
+            "Comment [Has [2] Great Work of Writing Slots]"
         ],
         "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
     },
@@ -519,7 +519,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [The Great Library]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -532,7 +532,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [The Great Library]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -1091,7 +1091,7 @@
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Drama and Poetry"
     },
@@ -1101,7 +1101,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Amphitheater]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -1120,7 +1120,7 @@
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Drama and Poetry"
     },
@@ -1135,7 +1135,7 @@
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Drama and Poetry"
     },
@@ -1195,7 +1195,7 @@
             "Requires a [Monument] in all cities",
             "[+25]% Great Person generation [in this city]",
             "Cost increases by [30] per owned city",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Drama and Poetry"
     },
@@ -1205,7 +1205,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [National Epic]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -1224,7 +1224,7 @@
             "[+25]% Great Person generation [in this city]",
             "[+2 Food, +1 Gold, +1 Production, +1 Faith] from every [Shrine]",
             "Cost increases by [30] per owned city",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Drama and Poetry"
     },
@@ -1244,7 +1244,7 @@
         "requiredTech": "Drama and Poetry",
         "uniques": [
             "Instantly provides [1] [Great Work of Writing]",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
     },
@@ -1254,7 +1254,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Parthenon]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -1374,7 +1374,7 @@
             "Requires a [Barracks] in all cities",
             "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
             "Cost increases by [30] per owned city",
-            "Has 1 Great Work of Writing Slot"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Iron Working"
     },
@@ -1384,7 +1384,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Heroic Epic]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -1781,7 +1781,7 @@
             "Requires a [University] in all cities",
             "Free Technology",
             "Cost increases by [30] per owned city",
-            "Has [2] Great Work of Writing Slots"
+            "Comment [Has [2] Great Work of Writing Slots]"
         ],
         "requiredTech": "Education"
     },
@@ -1791,7 +1791,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Oxford University]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -1804,7 +1804,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Oxford University]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -1937,6 +1937,21 @@
         "requiredTech": "Steel"
     },
     {
+        "name": "Reislaufer Post",
+        "replaces": "Armory",
+        "uniqueTo": "Switzerland",
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredBuilding": "Barracks",
+        "uniques": [
+            "Free [Reislaufer] appears",
+            "New [Military] units start with [15] Experience [in this city]",
+            "All newly-trained [{Land} {Military}] units [in this city] receive the [Mountaineer] promotion",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Steel"
+    },
+    {
         "name": "Vo Khi",
         "replaces": "Armory",
         "uniqueTo": "Vietnam",
@@ -1990,7 +2005,7 @@
         "requiredTech": "Acoustics",
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 1 Great Work of Music Slot"
+            "Comment [Has 1 Great Work of Music Slot]"
         ]
     },
     {
@@ -1999,7 +2014,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Great Work", "GW Music",
+            "Comment [Great Work]", "Comment [GW Music]",
             "Only available <in cities with a [Opera House]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]"
@@ -2018,7 +2033,7 @@
         "requiredTech": "Acoustics",
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 1 Great Work of Music Slot"
+            "Comment [Has 1 Great Work of Music Slot]"
         ]
     },
     {
@@ -2033,7 +2048,7 @@
         "requiredTech": "Acoustics",
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 1 Great Work of Music Slot"
+            "Comment [Has 1 Great Work of Music Slot]"
         ]
     },
     {
@@ -2051,7 +2066,7 @@
         "isWonder": true,
         "uniques": [
             "[+25]% [Culture] [in all cities]",
-            "Has [2] Great Work of Art Slots"
+            "Comment [Has [2] Great Work of Art Slots]"
         ],
         "requiredTech": "Acoustics",
         "quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
@@ -2062,7 +2077,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Sistine Chapel]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2075,7 +2090,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Sistine Chapel]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2219,7 +2234,7 @@
         "greatPersonPoints": {"Great Writer": 1},
         "uniques": [
             "Free [Great Writer] appears",
-            "Has [2] Great Work of Writing Slots"
+            "Comment [Has [2] Great Work of Writing Slots]"
         ],
         "requiredTech": "Printing Press",
         "quote": "'Totus mundus agit histrionem.' - Inscription above main entrance to the Globe Theatre"
@@ -2230,7 +2245,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Globe Theatre]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -2243,7 +2258,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Great Work", "GW Writing",
+            "Comment [Great Work]", "Comment [GW Writing]",
             "Only available <in cities with a [Globe Theatre]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -2284,7 +2299,7 @@
         "uniques": [
             "Requires a [Opera House] in all cities",
             "Cost increases by [30] per owned city",
-            "Has [3] Great Work of Art Slots"
+            "Comment [Has [3] Great Work of Art Slots]"
         ],
         "requiredTech": "Architecture"
     },
@@ -2294,7 +2309,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Hermitage]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2307,7 +2322,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Hermitage]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2320,7 +2335,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Hermitage]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2373,7 +2388,7 @@
         "uniques": [
             "Free [Great Artist] appears",
             "Only available <after adopting [Aesthetics]>",
-            "Has [3] Great Work of Art Slot"
+            "Comment [Has [3] Great Work of Art Slot]"
         ],
         "requiredTech": "Architecture",
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.' - Marcel Paquet"
@@ -2384,7 +2399,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Uffizi]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2397,7 +2412,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Uffizi]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2410,7 +2425,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Uffizi]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2513,7 +2528,7 @@
         "requiredTech": "Archaeology",
         "uniques": [
             "Destroyed when the city is captured",
-            "Has [2] Great Work of Art Slots"
+            "Comment [Has [2] Great Work of Art Slots]"
         ]
     },
     {
@@ -2522,7 +2537,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Museum]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2535,7 +2550,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [Museum]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2555,7 +2570,7 @@
         "uniques": [
             "Destroyed when the city is captured",
             "[+20]% Great Person generation [in this city]",
-            "Has [2] Great Work of Art Slots"
+            "Comment [Has [2] Great Work of Art Slots]"
         ]
     },
     {
@@ -2570,7 +2585,7 @@
         "requiredTech": "Archaeology",
         "uniques": [
             "Destroyed when the city is captured",
-            "Has [2] Great Work of Art Slots"
+            "Comment [Has [2] Great Work of Art Slots]"
         ]
     },
     {
@@ -2581,7 +2596,7 @@
         "uniques": [
             "Free [Great Artist] appears",
             "Only available <after adopting [Exploration]>",
-            "Has [4] Great Work of Art Slots"
+            "Comment [Has [4] Great Work of Art Slots]"
         ],
         "requiredTech": "Archaeology",
         "quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
@@ -2592,7 +2607,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [The Louvre]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2605,7 +2620,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [The Louvre]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2618,7 +2633,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [The Louvre]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2631,7 +2646,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Great Work", "GW Art",
+            "Comment [Great Work]", "Comment [GW Art]",
             "Only available <in cities with a [The Louvre]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2706,12 +2721,12 @@
     {
         "name": "Center of Progress",
         "cost": 0,
-        "isNationalWonder": true,
         "uniques": [
             "Can be purchased with [Gold] [in all cities]",
             "Requires a [Factory] in all cities",
-            "Cost increases by [30] per owned city",
-            "Adopt [Ideology]"
+            "Adopt [Ideology]",
+            "Automatically built in all cities where it is buildable",
+            "Only available <in [Capital] cities>"
         ],
         "requiredTech": "Industrialization"
     },
@@ -2840,6 +2855,18 @@
         "maintenance": 2,
         "requiredTech": "Refrigeration"
     },
+    {
+        "name": "Ski Resort",
+        "replaces": "Stadium",
+        "uniqueTo": "Switzerland",
+        "happiness": 3,
+        "culture": 3,
+        "cost": 250,
+        "uniques": [
+            "[+2 Gold] from [Mountain] tiles [in this city]"
+        ],
+        "requiredTech": "Electricity"
+    },
     /*{
         "name": "Hotel",
         "cost": 300,
@@ -2858,7 +2885,7 @@
         "requiredTech": "Radio",
         "uniques": [
             "Destroyed when the city is captured",
-            "Has 1 Great Work of Music Slot"
+            "Comment [Has 1 Great Work of Music Slot]"
         ]
     },
     {
@@ -2867,7 +2894,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Great Work", "GW Music",
+            "Comment [Great Work]", "Comment [GW Music]",
             "Only available <in cities with a [Broadcast Tower]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]"
@@ -2892,7 +2919,7 @@
         "greatPersonPoints": {"Great Musician": 1},
         "uniques": [
             "Free [Great Musician] appears",
-            "Has [3] Great Work of Music Slots"
+            "Comment [Has [3] Great Work of Music Slots]"
         ],
         "requiredTech": "Radio",
         "quote": "'Broadway is a main artery of New York cultural life - the hardened artery.' - Walter Winchell"
@@ -2903,7 +2930,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Great Work", "GW Music",
+            "Comment [Great Work]", "Comment [GW Music]",
             "Only available <in cities with a [Broadway]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -2916,7 +2943,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Great Work", "GW Music",
+            "Comment [Great Work]", "Comment [GW Music]",
             "Only available <in cities with a [Broadway]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -2929,7 +2956,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Great Work", "GW Music",
+            "Comment [Great Work]", "Comment [GW Music]",
             "Only available <in cities with a [Broadway]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -3096,7 +3123,7 @@
         "percentStatBonus": {"culture": 50},
         "uniques": [
             "Free Social Policy",
-            "Has [2] Great Work of Music Slots"
+            "Comment [Has [2] Great Work of Music Slots]"
         ],
         "requiredTech": "Ecology",
         "quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
@@ -3107,7 +3134,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Great Work", "GW Music",
+            "Comment [Great Work]", "Comment [GW Music]",
             "Only available <in cities with a [Sydney Opera House]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -3120,7 +3147,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Great Work", "GW Music",
+            "Comment [Great Work]", "Comment [GW Music]",
             "Only available <in cities with a [Sydney Opera House]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",

@@ -279,7 +279,7 @@
         "name": "Cargo Ship",
         "unitType": "Civilian Water",
         "movement": 4,
-        "cost": 90,
+        "cost": 100,
         "uniques": [
             "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
@@ -644,7 +644,7 @@
         "attackSound": "elephant"
     },
     {
-        "name": "Marathi Rider",
+        "name": "Timurid Rider",
         "replaces": "Horseman",
         "uniqueTo": "Timurids",
         "unitType": "Bomber",
@@ -1338,6 +1338,25 @@
         "attackSound": "throw"
     },
     {
+        "name": "Reislaufer",
+        "uniqueTo": "Switzerland",
+        "unitType": "Sword",
+        "movement": 3,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Steel",
+        "upgradesTo": "Rifleman",
+        "promotions": [
+            "Mountaineer"
+        ],
+        "uniques": [
+            "Earn [200]% of killed [Military] unit's [Strength] as [Gold]",
+            "Only available <in cities with a [Reislauder Post]>",
+            "Cannot be purchased"
+        ],
+        "attackSound": "metalhit"
+    },
+    {
         "name": "Longswordsman",
         "unitType": "Sword",
         "movement": 2,
@@ -1489,6 +1508,7 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1509,6 +1529,7 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1527,6 +1548,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "Cannot enter ocean tiles",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1546,6 +1568,7 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1654,7 +1677,10 @@
         "requiredTech": "Navigation",
         "upgradesTo": "Destroyer",
         "promotions": ["Coastal Raider I"],
-        "uniques": ["Can move after attacking"],
+        "uniques": [
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Can move after attacking"
+        ],
         "attackSound": "cannon"
     },
     {
@@ -1668,7 +1694,10 @@
         "requiredTech": "Navigation",
         "upgradesTo": "Destroyer",
         "promotions": ["Supply","Coastal Raider I","Boarding Party I"],
-        "uniques": ["Can move after attacking"],
+        "uniques": [
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Can move after attacking"
+        ],
         "attackSound": "cannon"
     },
     {
@@ -2091,6 +2120,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>",
             "Double movement in [Coast]",
             "Never appears as a Barbarian unit"
         ],
@@ -2108,6 +2138,7 @@
             "Can move after attacking",
             "Unable to capture cities",
             "Unable to pillage tiles",
+            "Cannot attack",
             "[+2] Sight"
         ],
         "attackSound": "machinegun"
@@ -2461,6 +2492,7 @@
             "Can see invisible [Submarine] units",
             "[100]% chance to intercept air attacks",
             "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>",
             "May withdraw before melee ([80]%)",
             "[+100]% Strength <vs [Submarine] units>"
         ],
@@ -2927,7 +2959,7 @@
         "unitType": "Civilian",
         "uniques": [
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+            "Can Spread Religion <for [8] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
@@ -2951,7 +2983,7 @@
         "uniques": [
             "Empire enters a [11]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can Spread Religion <for [2] movement> <[5] times> <after which this unit is consumed>",
+            "Can Spread Religion <for [8] movement> <[5] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",

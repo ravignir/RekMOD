@@ -5,7 +5,7 @@
         "uniques": [
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]",
-            "Unlocks [Hanging Gardens]",
+            "Comment [Unlocks [Hanging Gardens]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -83,7 +83,7 @@
         "era": "Ancient era",
         "uniques": [
             "[+1 Culture] [in all cities]",
-            "Unlocks [The Pyramids]",
+            "Comment [Unlocks [The Pyramids]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -152,7 +152,6 @@
                     "[+33]% Production when constructing [East India Company] wonders [in all cities]",
                     "[+33]% Production when constructing [Grand Temple] wonders [in all cities]",
                     "[+33]% Production when constructing [Ironworks] wonders [in all cities]",
-                    "[+33]% Production when constructing [Center of Progress] wonders [in all cities]",
                     "[+33]% Production when constructing [Oxford University] wonders [in all cities]",
                     "[+33]% Production when constructing [Hermitage] wonders [in all cities]",
                     //"[+33]% Production when constructing [National Visitor's Center] wonders [in all cities]",
@@ -163,7 +162,6 @@
                     "[+15]% Production when constructing [Market] buildings [in all cities]",
                     "[+15]% Production when constructing [Temple] buildings [in all cities]",
                     "[+15]% Production when constructing [Workshop] buildings [in all cities]",
-                    "[+15]% Production when constructing [Factory] buildings [in all cities]",
                     "[+15]% Production when constructing [University] buildings [in all cities]",
                     "[+15]% Production when constructing [Opera House] buildings [in all cities]"
                     //"[+15]% Production when constructing [Hotel] buildings [in all cities]",
@@ -177,7 +175,7 @@
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
-            "Unlocks [Temple of Artemis]",
+            "Comment [Unlocks [Temple of Artemis]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -204,7 +202,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Military Caste",
@@ -221,14 +219,15 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[-20]% Gold cost of upgrading <for [Military] units>",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    //"[-20]% Gold cost of upgrading <for [Military] units>",
+                    "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[+3 Production, +3 Gold, +3 Food] from every [Courthouse]",
+                    "[+1 Food, +2 Science, +2 Culture] from every [Citadel]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Professional Army","Warrior Code"],
+                "requires": ["Professional Army"],
                 "row": 2,
-                "column": 3
+                "column": 5
             },
             {
                 "name": "Discipline",
@@ -238,8 +237,9 @@
                     "[50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Policies]"
                 ],
+                "requires": ["Warrior Code"],
                 "row": 2,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Honor Complete",
@@ -258,7 +258,7 @@
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+1 Culture, +1 Faith] [in capital]",
-            "Unlocks [Great Mosque of Djenne]",
+            "Comment [Unlocks [Great Mosque of Djenne]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -345,7 +345,7 @@
             "[Great Artist] is earned [33]% faster",
             "[Great Writer] is earned [33]% faster",
             "[Great Musician] is earned [33]% faster",
-            "Unlocks [Uffizi]",
+            "Comment [Unlocks [Uffizi]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -356,6 +356,9 @@
                     "[+100]% Production when constructing [Opera House] buildings [in all cities]",
                     "[+100]% Production when constructing [Museum] buildings [in all cities]",
                     "[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]",
+                    "[+1 Happiness] from every [Writer Guild]",
+                    "[+1 Happiness] from every [Artist Guild]",
+                    "[+1 Happiness] from every [Musician Guild]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -408,7 +411,7 @@
             {
                 "name": "Fine Arts",
                 "uniques": [
-                    "Provides a [Fine Art Specialist] in your first [4] cities for free",
+                    "Gain a free [Fine Art Specialist] [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Cultural Exchange","Artistic Genius"],
@@ -433,7 +436,7 @@
         "era": "Classical era",
         "uniques": [
             "Resting point for Influence with City-States is increased by [20]",
-            "Unlocks [Forbidden Palace]",
+            "Comment [Unlocks [Forbidden Palace]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -506,8 +509,8 @@
         "uniques": [
             "[+1] Movement <for [{Military} {Water}] units>",
             "[+1] Sight <for [{Military} {Water}] units>",
-            "Unlocks [The Louvre]",
-            "Unlocks [Conquistador]",
+            "Comment [Unlocks [The Louvre]]",
+            "Comment [Unlocks [Conquistador]]",
             "Provides [1] [Policies]"
         ],
         "era": "Medieval era",
@@ -583,7 +586,7 @@
         "name": "Commerce",
         "uniques": [
             "[Great Merchant] is earned [33]% faster",
-            "Unlocks [Big Ben]",
+            "Comment [Unlocks [Big Ben]]",
             "Provides [1] [Policies]"
         ],
         "era": "Medieval era",
@@ -591,10 +594,9 @@
             {
                 "name": "Silk Road",
                 "uniques": [
-                    "[+25]% Yield from every [Land Trade Route (Food)]",
-                    "[+25]% Yield from every [Land Trade Route (Production)]",
-                    "[+25]% Yield from every [Sea Trade Route (Food)]",
-                    "[+25]% Yield from every [Sea Trade Route (Production)]",
+                    "[+100]% Production when constructing [Market] buildings [in all cities]",
+                    "[+100]% Production when constructing [Bank] buildings [in all cities]",
+                    "[+100]% Production when constructing [Stock Exchange] buildings [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -603,8 +605,8 @@
             {
                 "name": "Mercenary Army",
                 "uniques": [
-                    "Allows purchasing [Landsknecht] at [Civil Service]",
-                    "Allows purchasing [Foreign Legion] at [Replaceable Parts]",
+                    "Comment [Allows purchasing [Landsknecht] at [Civil Service]]",
+                    "Comment [Allows purchasing [Foreign Legion] at [Replaceable Parts]]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -613,7 +615,7 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": [
-                    "[-50]% maintenance on road & railroads",
+                    "[-25]% maintenance on road & railroads",
                     "[-25]% maintenance cost for buildings [in all cities]",
                     "Provides [2] [Trade Route]",
                     "Provides [1] [Policies]"
@@ -667,7 +669,7 @@
         "era": "Renaissance era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster",
-            "Unlocks [Porcelain Tower]",
+            "Comment [Unlocks [Porcelain Tower]]",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -744,7 +746,7 @@
         "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
-            "Unlocks [Kremlin]",
+            "Comment [Unlocks [Kremlin]]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>",
             "Only available <after adopting [Ideology]>"
@@ -950,7 +952,6 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "Order I Complete"
                 ]
             }
         ]
@@ -960,7 +961,7 @@
         "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
-            "Unlocks [Statue of Liberty]",
+            "Comment [Unlocks [Statue of Liberty]]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>",
             "Only available <after adopting [Ideology]>"
@@ -1163,7 +1164,6 @@
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                    "Freedom I Complete"
                 ]
             }
         ]
@@ -1173,7 +1173,7 @@
         "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
-            "Unlocks [Prora]",
+            "Comment [Unlocks [Prora]]",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>",
             "Only available <after adopting [Ideology]>"
@@ -1376,7 +1376,6 @@
             {
                 "name": "Autocracy Complete",
                 "uniques": [
-                    "Autocracy I Complete"
                 ]
             }
         ]
@@ -1386,13 +1385,13 @@
         "era": "Modern era",
         "uniques": [
             "Free Social Policy",
-            "Only available <after discovering [Future Tech]>"
+            "Unavailable"
         ],
         "policies": [
             {
                 "name": "Ideology Complete",
                 "uniques": [
-                    "Report as error if you adopt this"
+                    "Comment [Report as error if you adopt this]"
                 ]
             }
         ]
