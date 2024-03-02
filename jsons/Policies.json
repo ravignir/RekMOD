@@ -3,7 +3,7 @@
         "name": "Tradition",
         "era": "Ancient era",
         "uniques": [
-            "[+3 Culture] [in capital]",
+            "[+3 Culture] from every [Palace]",
             "[-25]% Culture cost of natural border growth [in all cities]",
             "Comment [Unlocks [Hanging Gardens]]",
             "Provides [1] [Policies]"
@@ -50,7 +50,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+10]% growth [in capital]",
+                    "[+15]% growth [in capital]",
                     "[+2 Food] [in capital]",
                     "Provides [1] [Policies]"
                 ],
