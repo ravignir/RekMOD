@@ -2410,12 +2410,15 @@
         "name": "Machine Gun",
         "unitType": "Ranged Gunpowder",
         "range": 1,
-        "movement": 3,
+        "movement": 2,
         "strength": 50,
         "rangedStrength": 50,
         "cost": 385,
         "requiredTech": "Ballistics",
         "promotions": ["Logistics"],
+        "uniques": [
+            "[+33]% Strength <vs [Gunpowder] units>"
+        ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
         "attackSound": "machinegun"
@@ -2434,7 +2437,8 @@
         "promotions": ["Ignore terrain cost"],
         "uniques": [
             "[+25]% Strength <vs [Armored] units>",
-            "No movement cost to pillage"
+            "No movement cost to pillage",
+            "[+33]% Strength <vs [Gunpowder] units>"
         ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
@@ -2666,11 +2670,14 @@
         "name": "Bazooka",
         "unitType": "Ranged Gunpowder",
         "range": 1,
-        "movement": 3,
+        "movement": 2,
         "strength": 80,
         "rangedStrength": 80,
         "cost": 450,
         "requiredTech": "Nuclear Fission",
+        "uniques": [
+            "[+33]% Strength <vs [Gunpowder] units>"
+        ],
         "promotions": ["Logistics"],
         "attackSound": "machinegun"
     },
