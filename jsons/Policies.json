@@ -594,9 +594,9 @@
             {
                 "name": "Silk Road",
                 "uniques": [
-                    "[+100]% Production when constructing [Market] buildings [in all cities]",
-                    "[+100]% Production when constructing [Bank] buildings [in all cities]",
-                    "[+100]% Production when constructing [Stock Exchange] buildings [in all cities]",
+                    "[+50]% Production when constructing [Market] buildings [in all cities]",
+                    "[+50]% Production when constructing [Bank] buildings [in all cities]",
+                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
