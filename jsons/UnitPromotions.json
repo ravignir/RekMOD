@@ -232,7 +232,8 @@
     {
         "name": "Coastal Raider I",
         "uniques": [
-            "[+25]% Strength <vs [Wounded] units>"
+            "[+15]% Strength <vs cities>",
+            "Earn [33]% of the damage done to [City] units as [Gold]"
         ],
         "unitTypes": ["Melee Water"]
     },
@@ -240,7 +241,8 @@
         "name": "Coastal Raider II",
         "prerequisites": ["Coastal Raider I"],
         "uniques": [
-            "[+25]% Strength <vs [Wounded] units>"
+            "[+15]% Strength <vs cities>",
+            "Earn [33]% of the damage done to [City] units as [Gold]"
         ],
         "unitTypes": ["Melee Water"]
     },
@@ -248,7 +250,8 @@
         "name": "Coastal Raider III",
         "prerequisites": ["Coastal Raider II"],
         "uniques": [
-            "Heals [25] damage if it kills a unit"
+            "[+20]% Strength <vs cities>",
+            "Earn [33]% of the damage done to [City] units as [Gold]"
         ],
         "unitTypes": ["Melee Water"]
     },
