@@ -877,7 +877,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Colosseum] in all cities",
+            "Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
         ],
         "requiredTech": "Horseback Riding"
@@ -1052,7 +1052,7 @@
         "isNationalWonder": true,
         "percentStatBonus": {"science": 50},
         "uniques": [
-            "Requires a [Library] in all cities",
+            "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
         ],
         "requiredTech": "Philosophy"
@@ -1192,7 +1192,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Monument] in all cities",
+            "Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
             "[+25]% Great Person generation [in this city]",
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
@@ -1220,7 +1220,7 @@
         "faith": 4,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Shrine] in all cities",
+            "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
             "[+25]% Great Person generation [in this city]",
             "[+2 Food, +1 Gold, +1 Production, +1 Faith] from every [Shrine]",
             "Cost increases by [30] per owned city",
@@ -1371,7 +1371,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Barracks] in all cities",
+            "Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
             "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
@@ -1442,7 +1442,7 @@
         "culture": 1,
         "faith": 8,
         "uniques": [
-            "Requires a [Temple] in all cities",
+            "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
             "Hidden when religion is disabled",
@@ -1459,7 +1459,7 @@
         "culture": 1,
         "faith": 8,
         "uniques": [
-            "Requires a [Temple] in all cities",
+            "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "Hidden when religion is disabled"
         ],
@@ -1474,7 +1474,7 @@
         "culture": 1,
         "faith": 8,
         "uniques": [
-            "Requires a [Temple] in all cities",
+            "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
             "Hidden when religion is disabled",
@@ -1543,7 +1543,7 @@
         "percentStatBonus": {"gold": 10},
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Market] in all cities",
+            "Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "Provides [1] [Trade Route]",
             "[+4 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
@@ -1778,7 +1778,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [University] in all cities",
+            "Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
             "Free Technology",
             "Cost increases by [30] per owned city",
             "Comment [Has [2] Great Work of Writing Slots]"
@@ -1895,7 +1895,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Workshop] in all cities",
+            "Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
         ],
         "requiredTech": "Machinery"
@@ -1909,7 +1909,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Workshop] in all cities",
+            "Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+1 Production] from [Hill] tiles [in this city]",
             "[+6 Culture] <after discovering [Flight]>"
@@ -2297,7 +2297,7 @@
         "culture": 5,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Opera House] in all cities",
+            "Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "Comment [Has [3] Great Work of Art Slots]"
         ],
@@ -2354,7 +2354,7 @@
         "gold": 3,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Walls] in all cities",
+            "Only available <if [Walls] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "Empire enters golden age"
         ],
@@ -2723,7 +2723,7 @@
         "cost": 0,
         "uniques": [
             "Can be purchased with [Gold] [in all cities]",
-            "Requires a [Factory] in all cities",
+            "Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>",
             "Adopt [Ideology]",
             "Automatically built in all cities where it is buildable",
             "Only available <in [Capital] cities>"

@@ -15,8 +15,7 @@
         "name": "Ancestor Worship",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Culture] from every [Shrine]",
-            "[+1 Faith] from every [Monument]"
+            "[+2 Culture] from every [Shrine]"
         ]
     },
     {
@@ -354,7 +353,7 @@
     {
         "name": "World Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [5] global followers [in foreign cities]"]
+        "uniques": ["[+1 Culture] from every [6] global followers [in foreign cities]"]
     },
     {
         "name": "Zakat",

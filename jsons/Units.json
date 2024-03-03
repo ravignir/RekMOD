@@ -1508,7 +1508,6 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
-            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1529,7 +1528,6 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
-            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1548,7 +1546,6 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "Cannot enter ocean tiles",
-            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1568,7 +1565,6 @@
         "uniques": [
             "[+1] Sight",
             "May withdraw before melee ([80]%)",
-            "[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1678,7 +1674,7 @@
         "upgradesTo": "Destroyer",
         "promotions": ["Coastal Raider I"],
         "uniques": [
-            "[-33]% Strength <vs cities> <when attacking>",
+            //"[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "attackSound": "cannon"
@@ -1695,7 +1691,7 @@
         "upgradesTo": "Destroyer",
         "promotions": ["Supply","Coastal Raider I","Boarding Party I"],
         "uniques": [
-            "[-33]% Strength <vs cities> <when attacking>",
+            //"[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
         ],
         "attackSound": "cannon"
@@ -2120,7 +2116,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "Can move after attacking",
-            "[-33]% Strength <vs cities> <when attacking>",
+            "[+33]% Strength <vs cities> <when attacking>",
             "Double movement in [Coast]",
             "Never appears as a Barbarian unit"
         ],
@@ -2414,12 +2410,15 @@
         "name": "Machine Gun",
         "unitType": "Ranged Gunpowder",
         "range": 1,
-        "movement": 3,
+        "movement": 2,
         "strength": 50,
         "rangedStrength": 50,
         "cost": 385,
         "requiredTech": "Ballistics",
         "promotions": ["Logistics"],
+        "uniques": [
+            "[+33]% Strength <vs [Gunpowder] units>"
+        ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
         "attackSound": "machinegun"
@@ -2438,7 +2437,8 @@
         "promotions": ["Ignore terrain cost"],
         "uniques": [
             "[+25]% Strength <vs [Armored] units>",
-            "No movement cost to pillage"
+            "No movement cost to pillage",
+            "[+33]% Strength <vs [Gunpowder] units>"
         ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
@@ -2492,7 +2492,6 @@
             "Can see invisible [Submarine] units",
             "[100]% chance to intercept air attacks",
             "Can move after attacking",
-            "[-33]% Strength <vs cities> <when attacking>",
             "May withdraw before melee ([80]%)",
             "[+100]% Strength <vs [Submarine] units>"
         ],
@@ -2671,11 +2670,14 @@
         "name": "Bazooka",
         "unitType": "Ranged Gunpowder",
         "range": 1,
-        "movement": 3,
+        "movement": 2,
         "strength": 80,
         "rangedStrength": 80,
         "cost": 450,
         "requiredTech": "Nuclear Fission",
+        "uniques": [
+            "[+33]% Strength <vs [Gunpowder] units>"
+        ],
         "promotions": ["Logistics"],
         "attackSound": "machinegun"
     },
