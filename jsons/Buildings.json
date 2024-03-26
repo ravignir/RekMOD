@@ -371,11 +371,12 @@
     },
     {
         "name": "Temple of Artemis",
-        "culture": 1,
+        "culture": 3,
+        "gold": 3,
+        "production": 3,
         "isWonder": true,
         "greatPersonPoints": {"Great Engineer": 1},
         "uniques": [
-            "[+10]% [Food] [in all cities]",
             "[+15]% Production when constructing [Ranged] units [in this city]",
             "Only available <after adopting [Honor]>"
         ],
