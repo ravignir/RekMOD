@@ -176,7 +176,7 @@
         "uniques": [
             "Unsellable", "Unbuildable",
             "Cannot be purchased"
-    ]
+        ]
     },
     {
         "name": "Castle Builders",
@@ -230,7 +230,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Palace]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -485,7 +485,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Royal Library]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -520,7 +520,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [The Great Library]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -533,7 +533,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [The Great Library]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -1102,7 +1102,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Amphitheater]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -1206,7 +1206,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [National Epic]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -1255,7 +1255,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Parthenon]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -1385,7 +1385,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Heroic Epic]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]"
@@ -1792,7 +1792,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Oxford University]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -1805,7 +1805,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Oxford University]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -2015,7 +2015,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Music]",
+            "Great Work", "GW Music",
             "Only available <in cities with a [Opera House]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]"
@@ -2078,7 +2078,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Sistine Chapel]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2091,7 +2091,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Sistine Chapel]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2246,7 +2246,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Globe Theatre]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -2259,7 +2259,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Writing",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Writing]",
+            "Great Work", "GW Writing",
             "Only available <in cities with a [Globe Theatre]>",
             "Provides [1] [Great Work of Writing]",
             "Instantly consumes [1] [Great Work of Writing]",
@@ -2310,7 +2310,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Hermitage]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2323,7 +2323,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Hermitage]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2336,7 +2336,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Hermitage]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2400,7 +2400,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Uffizi]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2413,7 +2413,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Uffizi]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2426,7 +2426,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Uffizi]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2538,7 +2538,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Museum]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2551,7 +2551,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [Museum]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2608,7 +2608,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [The Louvre]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2621,7 +2621,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [The Louvre]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2634,7 +2634,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [The Louvre]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2647,7 +2647,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Art",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Art]",
+            "Great Work", "GW Art",
             "Only available <in cities with a [The Louvre]>",
             "Provides [1] [Great Work of Art]",
             "Instantly consumes [1] [Great Work of Art]",
@@ -2895,7 +2895,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Music]",
+            "Great Work", "GW Music",
             "Only available <in cities with a [Broadcast Tower]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]"
@@ -2931,7 +2931,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Music]",
+            "Great Work", "GW Music",
             "Only available <in cities with a [Broadway]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -2944,7 +2944,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Music]",
+            "Great Work", "GW Music",
             "Only available <in cities with a [Broadway]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -2957,7 +2957,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Music]",
+            "Great Work", "GW Music",
             "Only available <in cities with a [Broadway]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -3041,7 +3041,6 @@
         "requiredTech": "Plastics",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
     },
-
     // Atomic Era
     // Column 13
     {
@@ -3135,7 +3134,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Music]",
+            "Great Work", "GW Music",
             "Only available <in cities with a [Sydney Opera House]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -3148,7 +3147,7 @@
         "cost": 0,
         "requiredResource": "Great Work of Music",
         "uniques": [
-            "Comment [Great Work]", "Comment [GW Music]",
+            "Great Work", "GW Music",
             "Only available <in cities with a [Sydney Opera House]>",
             "Provides [1] [Great Work of Music]",
             "Instantly consumes [1] [Great Work of Music]",
@@ -3229,7 +3228,7 @@
         ],
         "quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
     },
-    
+
     // All Eras
     {
         "name": "Utopia Project",
