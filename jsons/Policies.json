@@ -32,6 +32,7 @@
                     "[+2 Culture] from every [Ironworks]",
                     "[+2 Culture] from every [Oxford University]",
                     "[+2 Culture] from every [Hermitage]",
+                    "[+2 Culture] from every [National Intelligence Agency]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -154,7 +155,9 @@
                     "[+33]% Production when constructing [Ironworks] wonders [in all cities]",
                     "[+33]% Production when constructing [Oxford University] wonders [in all cities]",
                     "[+33]% Production when constructing [Hermitage] wonders [in all cities]",
+                    "[+33]% Production when constructing [National Intelligence Agency] wonders [in all cities]",
                     //"[+33]% Production when constructing [National Visitor's Center] wonders [in all cities]",
+                    
                     "[+15]% Production when constructing [Monument] buildings [in all cities]",
                     "[+15]% Production when constructing [Library] buildings [in all cities]",
                     "[+15]% Production when constructing [Colosseum] buildings [in all cities]",
@@ -163,7 +166,8 @@
                     "[+15]% Production when constructing [Temple] buildings [in all cities]",
                     "[+15]% Production when constructing [Workshop] buildings [in all cities]",
                     "[+15]% Production when constructing [University] buildings [in all cities]",
-                    "[+15]% Production when constructing [Opera House] buildings [in all cities]"
+                    "[+15]% Production when constructing [Opera House] buildings [in all cities]",
+                    "[+15]% Production when constructing [Constabulary] buildings [in all cities]",
                     //"[+15]% Production when constructing [Hotel] buildings [in all cities]",
                 ]
             }
@@ -787,6 +791,7 @@
             {
                 "name": "Double Agents",
                 "uniques": [
+                    //Unique for increasing chance of killing spy
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1000,6 +1005,8 @@
             {
                 "name": "Covert Action",
                 "uniques": [
+                    //Unique for rigging elections
+                    "Gain an extra spy"
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1226,6 +1233,7 @@
             {
                 "name": "Industrial Espionage",
                 "uniques": [
+                    "[+100]% spy effectiveness [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1272,8 +1280,12 @@
             {
                 "name": "Police State",
                 "uniques": [
-                    "[+3 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[+2 Happiness] from every [Courthouse]",
+                    "[+2 Happiness] from every [Police Station]",
+                    "[+2 Happiness] from every [Constabulary]",
+                    "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[+50]% Production when constructing [Police Station] buildings [in all cities]",
+                    "[+50]% Production when constructing [Constabulary] buildings [in all cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",

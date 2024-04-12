@@ -230,6 +230,7 @@
         "innerColor": [225, 148, 26],
         "uniqueName": "Dreamtime",
         "uniques": [
+            //"[+1 Faith] from every [{non-[Flood plains]} {Desert}]",
             "[+5 Faith] from every [Natural Wonder]",
             "Gain [10] [Faith] <upon discovering a Natural Wonder>"
         ],
@@ -743,7 +744,11 @@
         "uniqueName": "Sun Never Sets",
         "uniques": [
             "[+2] Movement <for [Water] units>",
-            "[+2] Movement <for [Embarked] units>"
+            "[+2] Movement <for [Embarked] units>",
+            "[+1 Happiness] from every [Police Station]",
+            "[+1 Happiness] from every [Constabulary]",
+            "[+100]% Production when constructing [Police Station] buildings [in all cities]",
+            "[+100]% Production when constructing [Constabulary] buildings [in all cities]"
         ],
         "cities": [
             "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -1206,6 +1211,7 @@
             "[+15]% Production when constructing [Workshop] buildings [in all cities] <hidden from users>",
             "[+15]% Production when constructing [University] buildings [in all cities] <hidden from users>",
             "[+15]% Production when constructing [Opera House] buildings [in all cities] <hidden from users>",
+            "[+15]% Production when constructing [Constabulary] buildings [in all cities]",
             //"[+15]% Production when constructing [Hotel] buildings [in all cities] <hidden from users>",
             "[+2 Happiness] from every [National Epic] <hidden from users>",
             "[+2 Happiness] from every [National College] <hidden from users>",
@@ -1215,7 +1221,8 @@
             "[+2 Happiness] from every [Grand Temple] <hidden from users>",
             "[+2 Happiness] from every [Ironworks] <hidden from users>",
             "[+2 Happiness] from every [Oxford University] <hidden from users>",
-            "[+2 Happiness] from every [Hermitage] <hidden from users>"
+            "[+2 Happiness] from every [Hermitage] <hidden from users>",
+            "[+2 Happiness] from every [National Intelligence Agency] <hidden from users>"
             //"[+2 Happiness] from every [National Visitor's Center] <hidden from users>",
         ],
         "cities": [
