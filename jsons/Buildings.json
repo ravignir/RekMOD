@@ -2994,7 +2994,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Hidden when espionage is disabled",
+            //"Hidden when espionage is disabled",
             "Gain an extra spy",
             "Promotes all spies",
             "[-15]% enemy spy effectiveness [in this city]",
