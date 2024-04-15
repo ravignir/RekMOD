@@ -33,6 +33,9 @@
             "Nippur","Girsu","Uruk","Lagash","Ur","Mari","Gasul","Tuttul","Harran","Eridu",
             "Shushan","Ebla","Tell Mozan","Tell Beydar","Gerrha","Adab","Akshak","Nineveh","Halab","Ugarit",
             "Carchemish","Assur","Babylon","Tell Halaf"
+        ],
+        "spyNames": [
+            "Naram-Sin","Mulagunnuna","Telel","Nabua","Adini","Enheduanna","Tashlultum","Astarte","Inanna","Nin-Marki"
         ]
     },
     {
@@ -62,6 +65,9 @@
             "Tokonda","Tiya","Deira","Berbera","Melazo","Hawila","Fikya","Sabea","Kaskase","Debre Berhan",
             "Adwa","Gabaza","Harar","Kubar","Tegulat","Mekele","Dahlak Kebir","Gondar","Magdala","Ankober",
             "Jimma","Jijiga"
+        ],
+        "spyNames": [
+            "Mulu Ken","Wendimu","Li'ol","Demeke","Mulu Alem","Abebech","Zema","Mihret","Kebedech","Alemnesh"
         ]
     },
     {
@@ -93,6 +99,9 @@
             "Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia","Spokane",
             "Jacksonville","Savannah","Charleston","San Antonio","Omaha","Honolulu","Anchorage","Sacramento","Salt Lake City","Reno",
             "Boise","Milwaukee","Santa Cruz","Monterey","Santa Monica","Little Rock","Columbus","Le Bam"
+        ],
+        "spyNames": [
+            "Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
         ]
     },
     {
@@ -127,6 +136,9 @@
             "Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
             "Aden","Yamama","Muscat","Mansura","Bukhara","Shiraz","Merw","Balkh","Mosul","Aydab",
             "Bayt Ras","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"
+        ],
+        "spyNames": [
+            "Solhofaat","Khenzeer","Zarafah","Temsaah","Abyadh","Mostafa","Yusuf","Waddah","Sameera","Gamal"
         ]
     },
     {
@@ -155,6 +167,9 @@
             "Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
             "Salta","San Juan","San Luis","Santa Fe","Santiago del Estero","Ushuaia","Tucuman","Resistencia","Rawson","Santa Rosa","Viedma",
             "Ushuaia"
+        ],
+        "spyNames": [
+            "Cortázar","Fontanarrosa","Borges","Laiseca","Crossa","Aira","Piazzolla","Valcárcel","Shakespear","Sabato"
         ]
     },
     {
@@ -180,6 +195,9 @@
             "Yerevan","Artaxata","Tigranocerta","Dvin","Ararat","Kars","Shirakavan","Vagharshapat","Bagaran","Yervandashat",
             "Stepanakert","Ani","Sis","Tushpa","Gyumri","Vanadzor","Abovyan","Kapan","Hrazdan","Ijevan",
             "Gavar","Goris","Charentsavan","Masis","Artik","Ashtarak","Sevan","Diliijan","Alaverdi"
+        ],
+        "spyNames": [
+            "Solhofaat","Khenzeer","Zarafah","Temsaah","Abyadh","Mostafa","Yusuf","Waddah","Sameera","Gamal"
         ]
     },
     {
@@ -209,6 +227,9 @@
             "Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
             "Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
             "Turuspa","Nasibina","Arpad","Kelashin","Tadmor","Urartu","Sabata","Hit"
+        ],
+        "spyNames": [
+            "Adapa","Kubaba","Nabu","Nergal","Ninlil","Ninurta","Nisroch","Shamash","Pazuzu","Qingu"
         ]
     },
     {
@@ -230,6 +251,7 @@
         "innerColor": [225, 148, 26],
         "uniqueName": "Dreamtime",
         "uniques": [
+            //"[+1 Faith] from every [{non-[Flood plains]} {Desert}]",
             "[+5 Faith] from every [Natural Wonder]",
             "Gain [10] [Faith] <upon discovering a Natural Wonder>"
         ],
@@ -237,6 +259,9 @@
             "Canberra","Sydney","Melbourne","Brisbane","Gold Coast","Adelaide","Perth","Newcastle","Sunshine Coast","Wollongong",
             "Hobart","Geelong","Cairns","Darwin","Toowoomba","Albury","Queanbeyan","Rockhampton","Bunbury","Bundaberg",
             "Wagga Wagga","Bendigo","Ballarat","Mittagong"
+        ],
+        "spyNames": [
+            "Metztli","Xitllali","Chimalli","Quauhtli","Teyacapan","Yaotl","Coatl","Huitzilin","Itzli","Tepin"
         ]
     },
     {
@@ -262,6 +287,9 @@
             "Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Innsbruck","Kitzbühel","St. Pölten","Eisenstadt",
             "Villach","Zwettl","Traun","Wels","Dornbirn","Feldkirch","Amstetten","Bad Ischl","Wolfsberg","Kufstein",
             "Leoben","Klosterneuburg","Leonding","Kapfenberg","Hallein","Bischofshofen","Waidhofen","Saalbach","Lienz","Steyr"
+        ],
+        "spyNames": [
+            "Ferdinand","Johanna","Franz-Josef","Astrid","Anna","Hubert","Alois","Natter","Georg","Arnold"
         ]
     },
     {
@@ -292,6 +320,9 @@
             "Beirut","Madinat Al-Fayyum","Al-Karak","Ta'izz","Sana'a","Yanbu","Al-Raqqah","Al-Madinah","Makkah","Sur",
             "Abbasa","Al-Bahnasa","Mayyafariqin","Dimyat","Timis","Al-Shawbak","Ayla","Al-Quds","Hamat","Homs",
             "Al-Ta'if","A'zaz","Dvin","Kafr Sabt","Jaffa","Jazirat ibn Umar","Harad"
+        ],
+        "spyNames": [
+            "Solhofaat","Khenzeer","Zarafah","Temsaah","Abyadh","Mostafa","Yusuf","Waddah","Sameera","Gamal"
         ]
     },
     {
@@ -318,6 +349,9 @@
             "Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco","Ixtapaluca","Huexotla","Tepexpan",
             "Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac","Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec",
             "Chalchiuites","Chiauhita","Chapultepec","Itzapalapa","Ayotzinco","Iztapam"
+        ],
+        "spyNames": [
+            "Metztli","Xitllali","Chimalli","Quauhtli","Teyacapan","Yaotl","Coatl","Huitzilin","Itzli","Tepin"
         ]
     },
     {
@@ -347,6 +381,9 @@
             "Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
             "Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
             "Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"
+        ],
+        "spyNames": [
+            "Rim-Sin II","Smerdis","Ilum-ma-ili","Peshgaldaramesh","Ur-zigurumaš","Semiramis","Em","Ishtar","Bilit Taauth","Aruru"
         ]
     },
     {
@@ -374,6 +411,9 @@
             "Brussels","Antwerp","Ghent","Liege","Bruges","Charleroi","Anderlecht","Schaerbeek","Namur","Leuven",
             "Mons","Ypres","Mechelen","Aalst","Ixelles","Ukkel","Kortrijk","Hasselt","Ostend","Dendermonde",
             "Verviers","La Louviere","Tournai","Genk","Mouscron","Vorst","Seraing","Roeselare","Beveren"
+        ],
+        "spyNames": [
+            "Jean-Paul","Martine","Lucien","François","Augustine","Monsieur X","Dr. Dupont","Vipère","Yvette","Renard"
         ]
     },
     {
@@ -402,6 +442,9 @@
             "Pretoria","Bloemfontein","Johannesburg","Pietermaritzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof",
             "Benoni","Boksburg","Welkom","Klein Vrystaat","Tweebuffels","Kimberley","Lichtenburg","Vereeniging","Goedehoop","Ventersdorp",
             "Steenbokpan","Leeudoringstad","Jan Kempdorp","Koopmansfontein"
+        ],
+        "spyNames": [
+            "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
     {
@@ -432,6 +475,9 @@
             "Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
             "Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
             "Cuiaba","Feira de Santana","Juiz de Fora","Joinville","Macapa"
+        ],
+        "spyNames": [
+            "Antonio","Bartolomeu","Domingos","Estevao","Fernao","Francisco","Pascoal","Salvador","Tome","Bianca"
         ]
     },
     {
@@ -462,6 +508,9 @@
             "Bandar Brunei","Manila","Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Ma-I","Madja-As",
             "Butuan","Lanao","Dapitan","Banjarmasin","Pontianak","Cainta","Caboloan","Samtoy","Ibalon","Igorot",
             "Idjang","Maimbung","Palawan","Kota Batu","Santubong","Kuching","Labuan","Seludong","Pampanga","Laguna"
+        ],
+        "spyNames": [
+            "Adityawarman","Airlangga","Citra","Halayudha","Jayakatwang","Lingga","Mahendradatta","Prapana","Raden","Devi"
         ]
     },
     {
@@ -494,6 +543,9 @@
             "Pliska","Preslav","Tarnovo","Plovdiv","Prilep","Sofia","Vidin","Nis","Kastoria","Skopje",
             "Ohrid","Glavinitsa","Varna","Constanta","Silistra","Boyana","Mezek","Ihtiman","Mosinopol","Beroe",
             "Debelt","Nova Zagora","Nesebar","Pleven","Lovech","Pereyaslavets","Cherven"
+        ],
+        "spyNames": [
+            "Alexei","Lena","Dmitry","Anastasia","Tatiana","Boris","Doktor Seriy","Mikhail","Natacha","Zmeya"
         ]
     },
     {
@@ -519,6 +571,9 @@
             "Minbu","Kyaukse","Bago","Mergui","Arakan","Prome","Bhamo","Thaton","Bassein","Mrauk U",
             "Nyaung U","Dala","Martaban","Nyaungshwe","Thibaw","Mohnyin","Kale","Mogaung","Theinni","Mone",
             "Shwebo","Mandalay","Hsipaw","Ngapali","Chaungtha","Kyaikto","Kyaikkami","Naypyidaw"
+        ],
+        "spyNames": [
+            "Adityawarman","Airlangga","Citra","Halayudha","Jayakatwang","Lingga","Mahendradatta","Prapana","Raden","Devi"
         ]
     },
     {
@@ -544,6 +599,9 @@
             "Ani","Dyrrachium","Edessa","Chalcedon","Naissus","Bari","Iconium","Prilep","Samosata","Kars",
             "Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Corycus",
             "Vodena","Caesarea Maritima","Traianoupoli","Constantia"
+        ],
+        "spyNames": [
+            "Basil","Nikophoros","Demetrios","Philippos","Theophylaktos","Simonis","Zoe","Ioanno","Xene","Euphrosyne"
         ]
     },
     {
@@ -572,6 +630,9 @@
             "Saskatoon","Regina","Brampton","Hamilton","Fredericton","Laval","Surrey","Yellowknife","Whitehorse","Iqaluit",
             "London","Victoria","Chilliwack","Markham","Windsor","Vaughan","Gatineau","Longueuil","St. John's","Burnaby",
             "Kitchener","Richmond"
+        ],
+        "spyNames": [
+            "Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
         ]
     },
     {
@@ -601,7 +662,9 @@
             "Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Tharros","Leptis Parva","Soluntum","Lixus",
             "Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
             "Saldae"
-            
+        ],
+        "spyNames": [
+            "Hamilcar","Mago","Baalhaan","Sophoniba","Yzebel","Similce","Kandaulo","Zinnridi","Gisgo","Fierelus"
         ]
     },
     {
@@ -631,6 +694,9 @@
             "Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen","Belfast",
             "Caernafon","Newquay","Saint-Nazarre","Castletown","Stirling","Galway","Conwy","St. Austell","Saint-Malo","Onchan",
             "Dundee","Londonberry","Llanfairpwllgwyngyll","Falmouth","Lorient"
+        ],
+        "spyNames": [
+            "Crìsdean","Siobhán","Seamus","Ffion","Pádraig","Deirdre","Mr. Quinn","Éadaoin","Alwyn","Col Ceathar"
         ]
     },
     {
@@ -661,6 +727,9 @@
             "Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan",
             "Liaoning","Hubei","Gansu","Huangshi","Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang",
             "Gaoyu","Nantong","Weifang","Xikang"
+        ],
+        "spyNames": [
+            "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
         ]
     },
     {
@@ -693,6 +762,9 @@
             "Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad",
             "Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen","Hillerod",
             "Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"
+        ],
+        "spyNames": [
+            "Jørgen","Mette","Henrik","Niels","Helle","Frederik","Ida","Thea","Freja","Morten"
         ]
     },
     {
@@ -721,6 +793,9 @@
             "Balat","Ellahun","Kom Medinet Ghurab","Hawara","Dashur","Raqote","Damanhur","Merimde","Abusir","Herakleopolis",
             "Akoris","Benihasan","Tasa","Badari","Hermopolis","Amrah","Negade","Koptos","Hermonthis","Ombos",
             "Aniba","Soleb","Semna","Amara"
+        ],
+        "spyNames": [
+            "Refaat","Heba","Salah","Ahmed","Zakaria","Bastet","Ma'at","Nebhet","Tefenet","Neuth"
         ]
     },
     {
@@ -743,13 +818,20 @@
         "uniqueName": "Sun Never Sets",
         "uniques": [
             "[+2] Movement <for [Water] units>",
-            "[+2] Movement <for [Embarked] units>"
+            "[+2] Movement <for [Embarked] units>",
+            "[+1 Happiness] from every [Police Station]",
+            "[+1 Happiness] from every [Constabulary]",
+            "[+100]% Production when constructing [Police Station] buildings [in all cities]",
+            "[+100]% Production when constructing [Constabulary] buildings [in all cities]"
         ],
         "cities": [
             "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
             "Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Exeter","Cambridge","Gloucester","Manchester",
             "Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton","Sheffield",
             "Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"
+        ],
+        "spyNames": [
+            "James","Scarlett","Mycroft","Charlotte","Gwendolyn","Mr. Eks","Dr. Grey","Andrew","Scott","Anne"
         ]
     },
     {
@@ -776,6 +858,9 @@
             "Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena","Nekemte",
             "Aselia","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta","Shire","Ambo","Negele Arsi",
             "Gambela","Ziway","Weldiya"
+        ],
+        "spyNames": [
+            "Mulu Ken","Wendimu","Li'ol","Demeke","Mulu Alem","Abebech","Zema","Mihret","Kebedech","Alemnesh"
         ]
     },
     {
@@ -805,6 +890,9 @@
             "Uusukaipunki","Kakisalmi","Taipale","Kokkola","Uusikaarlepyy","Tornio","Tammisaari","Sortavala","Hämeenlinna","Savonlinna",
             "Lappeenranta","Kristiinankaupunki","Kajaani","Lieksa","Kuopio","Pietarsaari","Hamina","Loviisa","Kaskinen","Jyväskylä",
             "Mikkeli","Heinola","Joensuu","Maarianhamina","Kemi","Hanko","Kotka","Iisalmi","Lahti"
+        ],
+        "spyNames": [
+            "Ahti","Vilho","Väinö","Gösta","Rudolf","Antti","Maria","Aino","Jenny","Kristiina"
         ]
     },
     {
@@ -835,6 +923,9 @@
             "Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
             "Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen",
             "Toulon","Nimes","Le Havre","Lourdes","Carcassonne","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"
+        ],
+        "spyNames": [
+            "Jean-Paul","Martine","Lucien","François","Augustine","Monsieur X","Dr. Dupont","Vipère","Yvette","Renard"
         ]
     },
     {
@@ -860,6 +951,9 @@
             "Aachen","Cologne","Duisburg","Metz","Regensburg","Luxembourg","Strasbourg","Nuremberg","Ulm","Fulda",
             "Rheims","Verdun","Mainz","Worms","Lubeck","Brandenburg","Heidelberg","Tongres","Betuwe","Tieling",
             "Magdeburg","Langres","Boulogne","Trier","Spire","Bale","Deutz","Doesburg","Saarbrucken"
+        ],
+        "spyNames": [
+            "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
     {
@@ -886,6 +980,9 @@
             "Burdigala","Nemausus","Vienne","Brixia","Sinigaglia","Numantia","Termantia","Alesia","Genevensis","Tricassium",
             "Gesoriacum","Namnetum","Rotomagus","Avennio","Cularo","Lemonum","Nanterre","Turones","Cenabum","Argantorate",
             "Catumagos","Coriovallon","Uxellodunum","Vesontio","Agendincum","Cavillonum","Decetia","Gorgobina","Metlosedum","Narbo"
+        ],
+        "spyNames": [
+            "Caturix","Ioimaros","Malorix","Pixtilos","Andala","Orcetirix","Vidiacos","Dunohorix","Novantico","Auctiona"
         ]
     },
     {
@@ -920,6 +1017,9 @@
             "Erfurt","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Potsdam","Solingen","Osnabruck","Ludwingshafen",
             "Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gottingen","Wolfsburg",
             "Koblenz","Hildesheim","Erlangen"
+        ],
+        "spyNames": [
+            "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
     {
@@ -950,6 +1050,9 @@
             "Sarai Batu","Sarai Berke","Kazan","Almaty","Makhachkala","Sarai Juk","Ufa","Astana","Itil",
             "Tsaritsyn","Narchik","Aqtobe","Aqtau","Bolghar","Tiflis","Qaffa","Sarkel","Tmutorokan","Elista",
             "Maykop","Magas","Cherkessk","Bugulma","Yelabuga","Samara","Yoshkar Ola"
+        ],
+        "spyNames": [
+            "Asashōryū","Tömöriin","Zevegiin","Jigjidiin","Enkhbat","Mönkhbayar","Gündegmaa","Ssima","Batachikhan","Chulunny"
         ]
     },
     {
@@ -975,6 +1078,9 @@
             "Arheimar","Aujum","Potaissa","Apulon","Tyras","Sarmizegetusa","Argidava","Olite","Tolosa","Olbia",
             "Reccopolis","Toletum","Pityus","Burdigala","Gerunda","Aiadava","Thessalonica","Victoriacum","Carnuntum","Sirmium",
             "Massalia","Naissus","Salona","Durostorum","Marcianopolis","Tomis","Histria","Arles","Cantabria"
+        ],
+        "spyNames": [
+            "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
         ]
     },
     {
@@ -1005,6 +1111,9 @@
             "Paros","Tegea","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
             "Sicyon","Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis","Patras",
             "Lamia","Nafplion","Apolyton"
+        ],
+        "spyNames": [
+            "Jason","Helena","Alexa","Cletus","Kassandra","Andres","Desdemona","Anthea","Aeneas","Leander"
         ]
     },
     {
@@ -1033,6 +1142,9 @@
             "Hattusa","Nesa","Kussara","Tuwanuwa","Hupisna","Purushanda","Samuha","Lusna","Alacohoyuk","Sapinuwa",
             "Tunip","Kadesh","Aleppo","Alalakh","Ullama","Nenassa","Nerik","Landa","Hakpis","Arinna",
             "Hanhana","Gaziura","Sarissa","Kummani","Catalhoyuk","Ankuwa","Karhoyuk","Alisarhoyuk","Zippalanda"
+        ],
+        "spyNames": [
+            "Ibrahim","Bayezid","Sokollu","Mahmut","Uveys","Roxelana","Safiye","Hafsa","Kosem","Nurbanu"
         ]
     },
     {
@@ -1059,7 +1171,10 @@
             "Starts with [Animal Husbandry]",
             "\"Borrows\" city names from other civilizations in the game"
         ],
-        "cities": ["Attila's Court"]
+        "cities": ["Attila's Court"],
+        "spyNames": [
+            "Balamber","Uldin","Donatus","Charato","Octar","Bleda","Ellac","Dengizik","Hildico","Gudrun"
+        ]
     },
     {
         "name": "Hungary",
@@ -1090,6 +1205,9 @@
             "Temesvar","Obuda","Gyor","Nyiregyhaza","Kecskemet","Szombathely","Becs","Erd","Tatabanya","Kaposvar",
             "Sopron","Veszprem","Bekescsaba","Zalaegerszeg","Eger","Nagykanizsa","Dunaujvaros","Hodmezovasarhely","Szigetszentmiklos","Dunakeszi",
             "Cegled","Salgotarjan","Ozd","Vac","Mosonmagyarovar","Szekszard","Papa","Hajduboszormeny","Kiskunfelegyhaza"
+        ],
+        "spyNames": [
+            "Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
         ]
     },
     {
@@ -1121,6 +1239,9 @@
             "Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
             "Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
             "Llactapata","Pisac","Kuelap","Pajaten","Chucuito"
+        ],
+        "spyNames": [
+            "Amaru","Apichu","Pariapichiu","Puma","Quenti","Suyuntu","Uturuncu","Uturuncu","Purutu","Ozcollo"
         ]
     },
     {
@@ -1150,6 +1271,9 @@
             "Madurai","Ahmedabad","Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur",
             "Rajagriha","Sravasti","Tiruchirapalli","Thanjavur","Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur",
             "Karachi"
+        ],
+        "spyNames": [
+            "Ashok","Shanx","Hormis","Sanjeev","Ananda","Rani","Parvati","Mukta","Karishma","Jyotsna"
         ]
     },
     {
@@ -1175,6 +1299,9 @@
             "Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
             "Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
             "Malang","Padang","Samarinda","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo"
+        ],
+        "spyNames": [
+            "Adityawarman","Airlangga","Citra","Halayudha","Jayakatwang","Lingga","Mahendradatta","Prapana","Raden","Devi"
         ]
     },
     {
@@ -1206,6 +1333,7 @@
             "[+15]% Production when constructing [Workshop] buildings [in all cities] <hidden from users>",
             "[+15]% Production when constructing [University] buildings [in all cities] <hidden from users>",
             "[+15]% Production when constructing [Opera House] buildings [in all cities] <hidden from users>",
+            "[+15]% Production when constructing [Constabulary] buildings [in all cities]",
             //"[+15]% Production when constructing [Hotel] buildings [in all cities] <hidden from users>",
             "[+2 Happiness] from every [National Epic] <hidden from users>",
             "[+2 Happiness] from every [National College] <hidden from users>",
@@ -1215,7 +1343,8 @@
             "[+2 Happiness] from every [Grand Temple] <hidden from users>",
             "[+2 Happiness] from every [Ironworks] <hidden from users>",
             "[+2 Happiness] from every [Oxford University] <hidden from users>",
-            "[+2 Happiness] from every [Hermitage] <hidden from users>"
+            "[+2 Happiness] from every [Hermitage] <hidden from users>",
+            "[+2 Happiness] from every [National Intelligence Agency] <hidden from users>"
             //"[+2 Happiness] from every [National Visitor's Center] <hidden from users>",
         ],
         "cities": [
@@ -1223,6 +1352,9 @@
             "Ennis","Roscommon","Cavan","Waterford","Nenagh","Sligo","Monaghan","Naas","Navan","Dundalk",
             "Carrick-on-Shannon","Wicklow","Tullamore","Mullingar","Portlaoighise","Swords","Bray","Carlow","Armagh","Ballinna",
             "Letterkenny","Athlone","Celbridge"
+        ],
+        "spyNames": [
+            "Patrick","James","Thomas","Michael","William","Timothy","Dennis","Margaret","Bridget","Ann"
         ]
     },
     {
@@ -1249,6 +1381,9 @@
             "Salamanca","Gowanda","Buffalo","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle","Chondote","Canajoharie",
             "Nedrow","Syracuse","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley","Schoharie","Bay of Quinte","Kanawale",
             "Kanatsiokareke","Tyendinaga","Hahta"
+        ],
+        "spyNames": [
+            "Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"
         ]
     },
     {
@@ -1273,6 +1408,9 @@
         "cities": [
             "Yerushalayim","Hebron","Jericho","Sidon","Bethlehem","Tyre","Nazareth","Kadesh","Zeboim","Admah",
             "Gaza","Megiddo","Nineveh","Gomorrah","Avaris"
+        ],
+        "spyNames": [
+            "Josue","Esther","Judas","Rut","Shammua","Shaphat","Caleb","Joshua","Ammiel","Geuel"
         ]
     },
     {
@@ -1310,6 +1448,9 @@
             "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
             "Brescia","Messina","Bologna","Pisa","Verona","Taranto","Trieste","Rimini","Modena","Pescara",
             "Vicenza","Ancona","Perugia","Lecce","Reggio","Parma"
+        ],
+        "spyNames": [
+            "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
         ]
     },
     {
@@ -1340,6 +1481,9 @@
             "Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
             "Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
             "Kamakura","Kochi","Naha"
+        ],
+        "spyNames": [
+            "Akaishi","Oki","Hattori","Morozumi","Momochi","Kawashima","Orin","Sakanishi","Kaede","Mochizuki"
         ]
     },
     {
@@ -1365,6 +1509,9 @@
             "Jerusalem","Tyre","Acre","Sidon","Byblos","Edessa","Antioch","Beirut","Ascalon","Tripoli",
             "Cilica","Turbessel","Tarsus","Arduf","Hattin","Nicosia","Limasol","Caesarea","Jaffa","Daron",
             "Azotus"
+        ],
+        "spyNames": [
+            "Jason","Helena","Alexa","Cletus","Kassandra","Andres","Desdemona","Anthea","Aeneas","Leander"
         ]
     },
     {
@@ -1389,6 +1536,9 @@
             "Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Vyadhapura",
             "Dviradapura","Amarendrapura","Lavodayapura","Shrestapura","Aninditapura","Isanapura","Banteay Kdei","Chaturmukha","Phetchaburi","Preah Vihear",
             "Kompong Svay","Chaiya","Beng Melea","Muang Tam"
+        ],
+        "spyNames": [
+            "Aran","Chanarong","Kiet","Niran","Virote","Kulap","Mayuree","Phueng","Ratana","Tola"
         ]
     },
     {
@@ -1420,6 +1570,9 @@
             "Kilwa Kiswani","Zanzibar","Mombasa","Malindi","Sofala","Pemba","Mozambique","Mogadishu","Lamu","Mahajanga",
             "Antsiranana","Kismaoyo","Mzizima","Inhambane","Mafia","Comoro","Songo Mnara","Bazarula","Pate","Gedi",
             "Chilane","Primeiras","Angosha","Mayotta","Kerimba","Anzwani","Mohilla"
+        ],
+        "spyNames": [
+            "Daud","Talut","Sabhatx","Khalid","Al-Fudail","Adilah","Kamaria","Sanaa","Hasana","Taariq"
         ]
     },
     {
@@ -1446,6 +1599,9 @@
             "M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila","M'banza-Soyo","M'banza-Kwango","M'banza-Bakavu","M'banza-Sanga","M'banza-Katango","M'banza-Nkunga",
             "M'banza-Nkondo","M'banza-Ndongo","M'banza-Lembabula","M'banza-Kibangu","M'banza-Manga","M'banza-Mulumbi","M'banza-Mbandaka","M'banza-Kindu","M'banza-Makuta","M'banza-Zombo",
             "M'banza-Matadi","M'banza-Lubumbashi","M'banza-Kalemie","M'banza-Kikwit","M'banza-Popokabaka","M'banza-Kinshasa","M'banza-Loango"
+        ],
+        "spyNames": [
+            "Gumede","Jama","Mageba","Malanda","Mnguni","Ndaba","Phunga","Senzangakhona","Balungile","Samkelisiwe"
         ]
     },
     {
@@ -1475,6 +1631,9 @@
             "Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
             "Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
             "Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"
+        ],
+        "spyNames": [
+            "Kim","Park","Han","Na","Kong","Yu","Ahn","Na","Da","Eun"
         ]
     },
     {
@@ -1501,6 +1660,9 @@
             "Raseiniai","Kernave","Siauliai","Panevezys","Alytus","Marijampole","Mazeikiai","Jonava","Utena","Kedainiai",
             "Krakow","Lviv","Poznan","Belgorod","Turov","Lyubech","Pereyaslavl","Bilhorod","Volynsky","Chernigov",
             "Daugava"
+        ],
+        "spyNames": [
+            "Wincenty","Roman","Benita","Jan","Kazimierz","Josef","Krystyna Skarbek","Tarnowski","Marian","Alenka"
         ]
     },
     {
@@ -1531,6 +1693,9 @@
             "Pella","Vergina","Amphipolis","Larissa","Ambracia","Methoni","Olynthus","Potidea","Philippopolis","Alexandropolis",
             "Alexandria","Alexandria Latmus","Alexandria Issus","Alexandria Ariana","Alexandria Prophthasia","Alexandria Arachosia","Alexandria Eschate","Alexandria Oxus","Alexandria Margiana","Alexandria Bucephalous",
             "Alexandria Hyphasis","Alexandria Indus","Alexandria Orietai","Alexandria Carmania","Alexandria Susiana","Alexandria Opiania","Alexandria Troas"
+        ],
+        "spyNames": [
+            "Jason","Helena","Alexa","Cletus","Kassandra","Andres","Desdemona","Anthea","Aeneas","Leander"
         ]
     },
     {
@@ -1555,6 +1720,9 @@
             "Antananarivo","Ambohimanga","Ambohitrabiby","Ambohidratrimo","Analamanga","Antsahadinta","Ambatofinandrahana","Ambohimahamasina","Amparafaravola","Antsirambazaha",
             "Arivonimamo","Ambohijoky","Antongona","Antsirabe","Antsiranana","Ambovombe","Ambalavao","Ambatondrazaka","Tsinjoarivo","Imerimanjaka",
             "Imerimandroso","Namehana","Toamasina","Mahajanga","Fianarantsoa","Befandriana Avaratra","Manjakandriana","Soavinandriana","Tsiroanomandidy","Vangaindrano"
+        ],
+        "spyNames": [
+            "Adityawarman","Airlangga","Citra","Halayudha","Jayakatwang","Lingga","Mahendradatta","Prapana","Raden","Devi"
         ]
     },
     {
@@ -1587,6 +1755,9 @@
             "Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling",
             "Ningdota","Siping","Anshan","Lushun","Liaoyuan","Gulian","Yanxi","Fengtian","Harbin","Qiqihar",
             "Suiha","Daqing","Jiamusi","Yichun","Jixi","Jilin","Songyuan","Baicheng","Yanbian","Nanling"
+        ],
+        "spyNames": [
+            "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
         ]
     },
     {
@@ -1616,6 +1787,9 @@
             "Pataliputra","Sarnath","Ujjain","Mathura","Indraprastha","Suvarnagiri","Tamralipti","Varanasi","Lumbini","Toshali",
             "Sanchi","Kausambi","Amaravati","Lauriya-Araraj","Bodh Gaya","Sopara","Lalitapatna","Jaugada","Sannathi","Lauriya-Nandangarh",
             "Yerragudi","Dhauli","Meerut","Taxila","Kapilvastu","Shabazgarhi","Mahaan Sehra","Pattala","Kopasi","Kalsi"
+        ],
+        "spyNames": [
+            "Janamejaya","Vaisampayana","Arjuna","Bhishma","Ashvattama","Yudhisthira","Dritharashtra","Saraswati","Sadhvi","Kali"
         ]
     },
     {
@@ -1645,6 +1819,9 @@
             "Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe",
             "Cerros","Xumantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas",
             "Mayapan","Ixinche","Zaculeu","Kabah"
+        ],
+        "spyNames": [
+            "Camazotz","Coyopa","Gukumatz","Hunahpu","Huracan","Ixchel","Ixtab","Kukulkán","Xbalanque","Zipacna"
         ]
     },
     {
@@ -1673,6 +1850,9 @@
             "Queretaro","Guadalupe","Merida","Tampico","Cancun","Chihuahua","Tuxtla Gutierrez","Campeche","Hermosillo","Durango",
             "Durazzo","Villahermosa","Aguascalientes","Matamoros","San Luis Potosi","Zacatecas","Saltillo","Puerto Vallarta","Cuernavaca","Zapopan",
             "Nogales","Mazatlan","Manzanillo","Tepic","Pachuca","Reyhosa","Morelia"
+        ],
+        "spyNames": [
+            "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Topolino","Serpiente","Garcia","El Lobo"
         ]
     },
     {
@@ -1705,6 +1885,9 @@
             "Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
             "Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
             "Har-Ayrag","Nalayh","Tes"
+        ],
+        "spyNames": [
+            "Asashōryū","Tömöriin","Zevegiin","Jigjidiin","Enkhbat","Mönkhbayar","Gündegmaa","Ssima","Batachikhan","Chulunny"
         ]
     },
     {
@@ -1733,6 +1916,9 @@
             "Córdoba","Granada","Valencia","Murcia","Toledo","Zaragoza","Seville","Malága","Almeria","Salamanca",
             "Huelva","Merida","Badajoz","Tortosa","Kulumriyya","Cadiz","Segovia","Tangier","Algeciras","Tarragona",
             "Cuenca","Larida","Beja","Silves","Lisbon","Denia"
+        ],
+        "spyNames": [
+            "Khalifa","Mohammed","Sultan","Hamad","Saud","Humaid","Hassa","Shamsa","Khalid","Hassan"
         ]
     },
     {
@@ -1779,6 +1965,9 @@
             "Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
             "Taza","Fquih ben Salah","Khouribga","Nador","Settat","Berrechid","Larache","Khemisset","Guelmim","Dakhla",
             "Chefchaouen","Ben Guerir","Eli Kelaa des Sraghna","Erfoud"
+        ],
+        "spyNames": [
+            "el-Krim","ibn-Battuta","al-Jazzar","al-Kahina","Hayyuj","Kusayla","al-Idrisi","Salih","Tariq","Dihya"
         ]
     },
     {
@@ -1806,6 +1995,9 @@
         "cities": [
             "Mysuru","Hunsur","Bannur","Bengaluru","Nanjanagudu","Periyapatna","Saligrama","Virajpet","Madikeri","Mandya",
             "Maddur","Nagamangala","Narasipura","Arkalgud","Hassan","Belur","Turuvekere","Mudigere","Koppa","Sira"
+        ],
+        "spyNames": [
+            "Zahir","Babur","Jalal","Faaiz","Qutb","Humayun","Mirza","Muhy","Shere","Gauhar"
         ]
     },
     {
@@ -1834,6 +2026,9 @@
             "Maastricht","Tilburg","Eindhoven","Dordrecht","'s-Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen","Apeldoorn",
             "Enschede","Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt","Weesp",
             "Coevorden","Kerkrade"
+        ],
+        "spyNames": [
+            "Joost","Hendrika","Marten","Anke","Guus","Mr. X","Dr Grijs","Willem","Thijs","Neef"
         ]
     },
     {
@@ -1862,6 +2057,9 @@
             "Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne",
             "Beauvais","Fecamp","Dreux","Fougeres","Douvres","Flamanville","Lisieux","Vire","Etretat","Dieppe",
             "Saint-Lo","Alencon","Avranches","Granville","Le Treport","Giverny"
+        ],
+        "spyNames": [
+            "Jean-Paul","Martine","Lucien","François","Augustine","Monsieur X","Dr. Dupont","Vipère","Yvette","Renard"
         ]
     },
     {
@@ -1889,6 +2087,9 @@
             "Oslo","Bergen","Trondheim","Stavanger","Tromso","Sarpsborg","Kristiansand","Fredrikstad","Tunsberg","Sandefjord",
             "Sandnes","Skien","Drammen","Bodo","Alesund","Larvik","Arendal","Gjovik","Narvik","Porsgrunn",
             "Halden","Hammerfest","Longyearbyen","Haugesund","Kongsberg","Horten"
+        ],
+        "spyNames": [
+            "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
     {
@@ -1913,6 +2114,9 @@
             "Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe",
             "Shaat","Heh","Dengeil","Miam","Tombos","Kurgus","Debba","Bugdumbush","Ukma","Defeia",
             "Soleb","Masawwrat Es-Sufra","Abu Simbel","El Fura","Wad Ban Naqa"
+        ],
+        "spyNames": [
+            "Solhofaat","Khenzeer","Zarafah","Temsaah","Abyadh","Mostafa","Yusuf","Waddah","Sameera","Gamal"
         ]
     },
     {
@@ -1943,6 +2147,9 @@
             "Sahan","Samail","Khasab","Raysut","Jabrin","Al Hamra","Seeb","Duqm","Thumrait","Shinas",
             "Manah","Madha","Zanzibar","Qurayyat","Suwayq","Bidiyah","Saiq","Malindi","Mogadishu","Merca",
             "Mombasa"
+        ],
+        "spyNames": [
+            "Qaboos","Al-Khalil","Azzan","Makhzum","Ya'arab","Salim","Thuwaini","Ahmad","Faisal","Turki"
         ]
     },
     {
@@ -1969,6 +2176,9 @@
             "Marsin","Antalya","Zonguldak","Denizli","Ordu","Mugia","Eskishehir","Inebolu","Sinop","Adana","Tarsus",
             "Artuin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit",
             "Afyonkarahisar","Bitlis","Marmaris"
+        ],
+        "spyNames": [
+            "Ibrahim","Bayezid","Sokollu","Mahmut","Uveys","Roxelana","Safiye","Hafsa","Kosem","Nurbanu"
         ]
     },
     {
@@ -1998,6 +2208,9 @@
             "Vatican City","Benevento","Pontecorvo","San Marino","Terracina","Narni","Spoleto","Assisi","Arpino","Perugia",
             "Macerata","Ancona","Forli","Rimini","Ascoli","Pesaro","Ferrara","Latina","Frosinone","Rieti",
             "Terni","Arezzo"
+        ],
+        "spyNames": [
+            "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
         ]
     },
     {
@@ -2030,6 +2243,9 @@
             "Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
             "Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
             "Paishiyauvada","Patigrbana","Phrada"
+        ],
+        "spyNames": [
+            "Azi","Dabir","Firuz","Gaspar","Shahzad","Aga","Marjane","Peri","Sartaj","Yasmin"
         ]
     },
     {
@@ -2058,6 +2274,9 @@
             "Sarepta","Dor","Orthosias","Irqata","Sumur","Porphyreon","Achziv","Antaradus","Amrit","Ramitha",
             "Atlit","Phoenicus","Batroun","Safita","Amioun","Labweh","Anfeh","Myriandrus","Anqoun","Ushu",
             "Batroumine","Tunip","Marion","Dhali","Afqa","Pyrgos","Jeffa","Sianut","Khaldeh","Kumidi"
+        ],
+        "spyNames": [
+            "Belshazzar","Tanith","Adad","Hyrum","Asherah","Abibaal","Sikarbaal","Coriander","Azmelqart","Batnoam"
         ]
     },
     {
@@ -2084,6 +2303,9 @@
             "Katowice","Bialystok","Gdynia","Schweidnitz","Czestochowa","Radom","Torun","Kielce","Gliwice","Klaipeda",
             "Bytom","Olsztyn","Rzeszow","Bielsko-Biala","Ruda Slaska","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
             "Siauliai","Walbrzych","Zielona Gora","Wloclawek"
+        ],
+        "spyNames": [
+            "Wincenty","Roman","Benita","Jan","Kazimierz","Josef","Krystyna Skarbek","Tarnowski","Marian","Alenka"
         ]
     },
     {
@@ -2117,6 +2339,9 @@
             "Suva","Funafuti","Tupua'i","Rikitea","Tabwakea","Luaniua","Alofi","Waitangi","Vaitape","Mata-Utu",
             "Rakahanga","Alo","Ahau","Atafu","Lahaina","Matamoana","Matautu","Makata","Vila","Honiara","Tarawa",
             "Majuro","Palikir","Koror","Yaren","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"
+        ],
+        "spyNames": [
+            "Tiki","Hotu Matua","Rongo-ma-tane","Kupe","Haloti","Degei","Babamik","Kulu Lau","Nangananga","Turua"
         ]
     },
     {
@@ -2146,6 +2371,9 @@
             "Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
             "Maputo","Tavira","Figueira da Foz","Viana do Castelo","Sao Tome and Principe","Silves","Sintra","Dili","Lamego",
             "Ponta Delgada"
+        ],
+        "spyNames": [
+            "Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
         ]
     },
     {
@@ -2180,6 +2408,9 @@
             "Dresden","Lubeck","Rostock","Straslund,","Greifswald","Kolberg","Brandenburg","Freiberg","Stolp","Dorpt",
             "Wismar","Warschau","Rugenwalde","Brunswick","Erfurt","Elbing","Thorn","Stargard","Gdingen","Dirschau",
             "Neubrandenburg","Graudenz","Sluck"
+        ],
+        "spyNames": [
+            "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
     {
@@ -2209,6 +2440,9 @@
             "Suceava","Buzau","Piatra Neamt","Focsani","Giurgiu","Targoviste","Vaslui","Campulung","Roman","Tulcea",
             "Barlad","Slatina","Curtea de Arges","Alexandria","Husi","Medgidia","Targu Jiu","Onesti","Falticeni","Oltenita",
             "Caracal","Slobozia","Fetesti","Tecuci","Rusii de Vede","Ramnicu Sarat","Carachioi","Turnu Magurele","Campina"
+        ],
+        "spyNames": [
+            "Atanase","Cezar","Ciprian","Emilian","Matei","Camelia","Brandusa","Constanta","Doina","Ilinica"
         ]
     },
     {
@@ -2237,6 +2471,9 @@
             "Londinium","Eburacum","Gordion","Agrippina","Lugdunum","Verona","Corfinium","Treverii","Sirmium","Augustadorum",
             "Bagacum","Lauriacum","Teurnia","Curia","Fregellae","Alba Fucens","Sora","Interrama","Suessa","Saticula",
             "Luceria","Arminium","Sena Gallica","Castrum Novum","Adria"
+        ],
+        "spyNames": [
+            "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
         ]
     },
     {
@@ -2268,6 +2505,9 @@
             "Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
             "Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
             "Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"
+        ],
+        "spyNames": [
+            "Alexei","Lena","Dmitry","Anastasia","Tatiana","Boris","Doktor Seriy","Mikhail","Natacha","Zmeya"
         ]
     },
     {
@@ -2298,6 +2538,9 @@
             "Lanark","Dumbarton","Falkirk","Arbroath","Linlithgow","Kirkcaldy","Forfar","Saint Andrews","Tain","Lerwick",
             "Ayr","Wick","Thurso","Stranraer","Portree","Melrose","Berwick","Oban","Ullapool","Aviemore",
             "Gallowglass"
+        ],
+        "spyNames": [
+            "Robert","William","Angus","Ewan","Alastair","Ian","Wallace","Fiona","Ilsa","Nessie"
         ]
     },
     {
@@ -2322,6 +2565,9 @@
             "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
             "Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
             "Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"
+        ],
+        "spyNames": [
+            "Cameahwait","Ondongarte","Queenah","Pugweenee","Sacajawea","Sagwitch","Sanpitch","Tuziyammo","Mugwayan"
         ]
     },
     {
@@ -2354,6 +2600,9 @@
             "Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
             "Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthuya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
             "Ban Phai","Loci","Khon Kaen","Surin"
+        ],
+        "spyNames": [
+            "Aran","Chanarong","Kiet","Niran","Virote","Kulap","Mayuree","Phueng","Ratana","Tola"
         ]
     },
     {
@@ -2378,6 +2627,9 @@
             "Ihankthunwanna","Bdewekhanthunwan","Isanyathi","Sichangju","Oglala","Itazipcho","Assiniboine","Sisithunwan","Wahpekhute","Wahpethunwan",
             "Hunkpapha","Mnikhowozu","Sihasapa","Oohenunpa","Mnicoujou","Winnebago","Brule","Anishinabe","Iowa","Pawnee",
             "Omaha"
+        ],
+        "spyNames": [
+            "Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"
         ]
     },
     {
@@ -2407,6 +2659,9 @@
             "Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
             "Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
             "Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"
+        ],
+        "spyNames": [
+            "Ahmadou","Ayub","Badru","Bokhari","Guedado","Adhiambo","Chinaka","Laila","Mariama","Oni"
         ]
     },
     {
@@ -2437,6 +2692,9 @@
             "Vitoria","Santander","Asturias","Jaen","Logrono","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
             "Lugo","Alicante","Cadiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruna","Oviedo","Bilbao",
             "San Sebastian","Granada","Merida","Huelva","Ibiza","Las Palmas","Tenerife"
+        ],
+        "spyNames": [
+            "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Topolino","Serpiente","Garcia","El Lobo"
         ]
     },
     {
@@ -2463,6 +2721,9 @@
             "Isin","Shruppak","Nibru","Zimbir","Girsu","Zabalam","Kisiga","Adab","Jemdet Nasr","Nina",
             "Dilbat","Kutu","Marad","Enegi","Abu Salabikh","Ki-an","Pazurish-Dagan","Dabrum","Kissura","Kutallu",
             "Nagsu","Kesh","Aratta","Der","Urukag","Hamazi","Apisada","Ubaid"
+        ],
+        "spyNames": [
+            "Azi","Dabir","Firuz","Gaspar","Shahzad","Aga","Marjane","Peri","Sartaj","Yasmin"
         ]
     },
     {
@@ -2492,6 +2753,9 @@
             "Vantaa","Visby","Strängnäs","Tampere","Skara","Lödöse","Oulu","Växjö","Jyväskylä","Gothenburg",
             "Örebro","Lahti","Helsingborg","Jönköping","Kuopio","Norrköping","Sundsvall","Kouvola","Karlstad","Umeå",
             "Pori","Ystad","Paviken","Vaasa"
+        ],
+        "spyNames": [
+            "Leif","Ingegard","Sören","Ragnhild","Lars","Lina","Herr Grå","Magnus","Vilma","Kusin"
         ]
     },
     {
@@ -2517,6 +2781,9 @@
         "cities": [
             "Bern","Zurich","Geneve","Basel","Lausanne","Winterthur","Sankt Gallen","Lugano","Luzern","Koniz","Biel",
             "Thun","Rapperswil","Schaffhausen","Fribourg","Chur","Neuchatel","Vernier","Sitten","Lancy","Emmen"
+        ],
+        "spyNames": [
+            "Felix","Amelie","Finn","Emilia","Conrad","Clarissa","Hans","Jean","Gigi","Lukas"
         ]
     },
     {
@@ -2550,6 +2817,9 @@
         "cities": [
             "Lhasa","Xigaze","Qamdo","Nagqu","Lhoka","Nyingchi","Ngari","Chengguan","Doilungdeqen","Lhunzhub",
             "Damxung","Maizhokunggar","Quxu","Nyemo","Dagze","Samzhubze","Namling","Gyantse","Tengru","Xaitongmoin"
+        ],
+        "spyNames": [
+            "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
         ]
     },
     {
@@ -2574,6 +2844,9 @@
             "Samarkand","Herat","Balkh","Bukhara","Kabul","Nishapur","Urgench","Merv","Ghazni","Kandahar",
             "Tashkent","Tabriz","Tiflis","Isfahan","Tehran","Kashgar","Peshawar","Multan","Lahore","Mosul",
             "Hanadan","Ray","Kirman","Zarani","Shirazv","Baghdad","Basra","Ashgabat","Bishkek","Dushanbe"
+        ],
+        "spyNames": [
+            "Adapa","Kubaba","Nabu","Nergal","Ninlil","Ninurta","Nisroch","Shamash","Pazuzu","Qingu"
         ]
     },
     {
@@ -2603,6 +2876,9 @@
             "Tafahi","Petani","Holonga","Apia","Ata","Falevai","Falaleu","Malapo","Nomuka","Fonoifua",
             "Matuku","O'ua","Tungua","Vaipoa","Ovaka","Salega","Talau","Popua","Kotu","Tofua",
             "Kao","Lotofoa","Lofanga","Uiha","Fakahiku","Alofi","Ha'afeva"
+        ],
+        "spyNames": [
+            "Lo'au","Kae","Longopoa","Sinialu","Fasi'apule","Toiukamae","Salote","Papiloa","Lolofonua","Sangone"
         ]
     },
     {
@@ -2637,6 +2913,9 @@
             "Ankara","Istambul","Izmir","Bursa","Adana","Gaziantep","Konya","Antalya","Diyarbakir","Mersin",
             "Kayseri","Eskisehir","Gebze","Sanliurfa","Denizli","Samsun","Kahramanmaras","Trabzon","Adapazari","Malatya",
             "Erzurum","Van","Batman","Elazig","Izmit","Manisa","Tarsus","Sivas"
+        ],
+        "spyNames": [
+            "Ibrahim","Bayezid","Sokollu","Mahmut","Uveys","Roxelana","Safiye","Hafsa","Kosem","Nurbanu"
         ]
     },
     {
@@ -2666,6 +2945,9 @@
             "Kiev","Kharkiv","Odessa","Dnipropetrovsk","Donetsk","Luhansk","Zhytomyr","Lviv","Kryvyi Rih","Chernihiv",
             "Mariupol","Mykolaiv","Zaporizhia","Kherson","Sevastopol","Makiivka","Simferopol","Poltava","Cherkasy","Vinnytsia",
             "Sumy","Kamianske","Kropyvnytskyi","Khmelnytskyi","Rivne","Chernivtsi","Kremenchuk","Ternopil","Lutsk","Melitopol"
+        ],
+        "spyNames": [
+            "Alexei","Lena","Dmitry","Anastasia","Tatiana","Boris","Doktor Seriy","Mikhail","Natacha","Zmeya"
         ]
     },
     {
@@ -2692,6 +2974,9 @@
         "cities": [
             "Venice","Ragusa","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato",
             "Veroz","Ravenna","Negroponte","Athens","Burano","Leonessa","Cerigo","Corfu","Epirus","Zante"
+        ],
+        "spyNames": [
+            "Gasparo","Giosafat","Ambrogio","Niccolo","Marino","Cesare","Francesco","Giovanni","Bertolome","Filomena"
         ]
     },
     {
@@ -2719,6 +3004,9 @@
             "Hà Noi","Thành Pho Ho Chí Minh","Hai Phòng","Thành Pho Hue","Can Tho","Dà Nang","Biên Hòa","Phan Rang","Quang Ngãi","Quang Ninh",
             "Tuyên Quang","Ha Tinh","Tam Ky","Phu Lý","Hung Yên","Bà Ria","Vinh Yên","Bac Giang","Cam Ranh","Ninh Bình",
             "Trà Vinh","Son La","Kon Tum","Ben Tre","Vinh Long","Lang Son","Cao Lãnh"
+        ],
+        "spyNames": [
+            "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
         ]
     },
     {
@@ -2746,6 +3034,9 @@
             "Cardiff","Swansea","Casnewydd","Wrecsam","Y Barri","Cwmbran","Pen-y-bont ar Ogwr","Lianelli","Penrhyndeudraeth","Caerffili",
             "Llanfairpwllgwyngyll","Ynysybwl","Pont-y-pwl","Bro Morgannwg","Cefn-Mawr","Coed Duon","Bwcle","Ystrad Mynach","Maesteg","Glyn Ebwy",
             "Aberystwyth","Bangor","Senghenydd","Tumble","Ystradgynlais","Pontypridd","Bethesda"
+        ],
+        "spyNames": [
+            "Gwaelod","Ap Tudur","Ap Gruffudd","Fawr","Madog","Abberffraw","Hywel Dda","Mawr","Llewelyn","Bryn"
         ]
     },
     {
@@ -2780,6 +3071,9 @@
         "cities": [
             "Belgrade","Zagreb","Sarajevo","Skopje","Ljubljana","Split","Pristina","Novi Sad","Nis","Banja",
             "Rijeka","Maribor","Mostar","Osijek","Zadar","Kragujeva","Tuzla","Subotica","Pula","Prizren"
+        ],
+        "spyNames": [
+            "Andrej","Bojana","Cvetko","Isidora","Gavro","Ana","Ivan","Josip","Marija","Marko"
         ]
     },
     {
@@ -2809,6 +3103,9 @@
             "Gweru","Kwekwe","Kadoma","Masvingo","Chinhoyi","Norton","Marondera","Ruwa","Chegutu","Zvishavane",
             "Bindura","Beitbridge","Redcliff","Victoria Falls","Rusape","Chiredzi","Kariba","Karoi","Chipinge","Gokwe",
             "Shurugwi"
+        ],
+        "spyNames": [
+            "Chemwapuwa","Vimbainashe","Chipo","Gamuchirai","Daya","Gamba","Farai","Duniisai","Chamakomo","Banga"
         ]
     },
     {
@@ -2838,6 +3135,9 @@
             "KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
             "Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",
             "Mthatha","Maseru","Lobamba","Qunu"
+        ],
+        "spyNames": [
+            "Gumede","Jama","Mageba","Malanda","Mnguni","Ndaba","Phunga","Senzangakhona","Balungile","Samkelisiwe"
         ]
     },
 

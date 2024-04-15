@@ -2108,19 +2108,6 @@
         "requiredTech": "Banking"
     },
     {
-        "name": "Convict Penitentiary",
-        "replaces": "Bank",
-        "uniqueTo": "Australia",
-        "cost": 150,
-        "gold": 4,
-        "production": 1,
-        "specialistSlots": {"Merchant": 1},
-        "hurryCostModifier": 15,
-        "percentStatBonus": {"gold": 30,"production": 5},
-        "requiredBuilding": "Market",
-        "requiredTech": "Machinery"
-    },
-    {
         "name": "Hanse",
         "replaces": "Bank",
         "uniqueTo": "Germany",
@@ -2155,6 +2142,31 @@
         "percentStatBonus": {"gold": 25},
         "requiredBuilding": "Market",
         "requiredTech": "Banking"
+    },
+    {
+        "name": "Constabulary",
+        "cost": 160,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            //"Hidden when espionage is disabled",
+            "[-25]% enemy spy effectiveness [in this city]"
+        ],
+        "requiredTech": "Banking"
+    },
+    {
+        "name": "Convict Penitentiary",
+        "replaces": "Constabulary",
+        "uniqueTo": "Australia",
+        "cost": 120,
+        "gold": 1,
+        "production": 1,
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"gold": 5,"production": 5},
+        "uniques": [
+            //"Hidden when espionage is disabled",
+            "[-25]% enemy spy effectiveness [in this city]"
+        ]
     },
     {
         "name": "Grocer",
@@ -2846,6 +2858,18 @@
         ],
         "requiredTech": "Electricity"
     },
+    {
+        "name": "Police Station",
+        "cost": 300,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            //"Hidden when espionage is disabled",
+            "[-25]% enemy spy effectiveness [in this city]"
+        ],
+        "requiredBuilding": "Constabulary",
+        "requiredTech": "Electricity"
+    },
 
     // Modern Era
     // Column 11
@@ -2963,6 +2987,21 @@
             "Instantly consumes [1] [Great Work of Music]",
             "[+1 Culture] <in cities with a [Broadway Great Music Slot 2]> <in cities with a [Broadway Great Music Slot 1]>"
         ]
+    },
+    {
+        "name": "National Intelligence Agency",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            //"Hidden when espionage is disabled",
+            "Gain an extra spy",
+            "Promotes all spies",
+            "[-15]% enemy spy effectiveness [in this city]",
+            "Only available <if [Constabulary] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city"
+        ],
+        "requiredTech": "Radio"
     },
     {
         "name": "Military Base",
@@ -3175,6 +3214,16 @@
             "Cannot be hurried"
         ],
         "requiredTech": "Rocketry"
+    },
+    {
+        "name": "Great Firewall",
+        "isWonder": true,
+        "uniques": [
+            //"Hidden when espionage is disabled",
+            "[-99]% enemy spy effectiveness [in this city]",
+            "[-25]% enemy spy effectiveness [in all cities]"
+        ],
+        "requiredTech": "Computers"
     },
 
     // Information Era
