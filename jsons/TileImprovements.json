@@ -154,6 +154,7 @@
         "food": 3,
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
+            "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[-3 Food] <in cities without a [Granary]>",
             "[+1 Food] <starting from the [Classical era]>",
@@ -168,6 +169,7 @@
         "production": 3,
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
+            "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[-3 Production] <in cities without a [Workshop]>",
             "[+1 Production] <starting from the [Classical era]>",
@@ -182,6 +184,7 @@
         "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "gold": 6,
         "uniques": [
+            "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[+2 Gold] <starting from the [Classical era]>",
             "[+2 Gold] <starting from the [Industrial era]>",
@@ -195,6 +198,7 @@
         "food": 6,
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
+            "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[-6 Food] <in cities without a [Granary]>",
             "[+2 Food] <starting from the [Classical era]>",
@@ -209,6 +213,7 @@
         "production": 6,
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "uniques": [
+            "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[-6 Production] <in cities without a [Workshop]>",
             "[+2 Production] <starting from the [Classical era]>",
@@ -223,6 +228,7 @@
         "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
         "gold": 12,
         "uniques": [
+            "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[+4 Gold] <starting from the [Classical era]>",
             "[+4 Gold] <starting from the [Industrial era]>",
