@@ -220,7 +220,7 @@
         "uniqueName": "Siege Warfare",
         "uniques": [
             "[+1] Movement <for [Siege] units>",
-            "Free [Great Writer] appears <upon discovering [Philosophy]>",
+            "Free [Great Writer] appears <upon discovering [Philosophy] technology>",
             "Instantly provides [1] [Great Work of Writing] <upon constructing [Royal Library] [in capital]>"
         ],
         "cities": [
@@ -373,7 +373,7 @@
         "innerColor": [213,249,255],
         "uniqueName": "Ingenuity",
         "uniques": [
-            "Free [Great Scientist] appears <upon discovering [Philosophy]>",
+            "Free [Great Scientist] appears <upon discovering [Philosophy] technology>",
             "[Great Scientist] is earned [25]% faster"
         ],
         "cities": [
@@ -974,7 +974,7 @@
         "outerColor": [65, 58, 21],
         "innerColor": [157, 201, 107],
         "uniqueName": "Oppidum of Bibracte",
-        "uniques": ["Gain a free [Murus Gallicus] [in capital] <upon discovering [Mining]>"],
+        "uniques": ["Gain a free [Murus Gallicus] [in capital] <upon discovering [Mining] technology>"],
         "cities": [
             "Bibracte","Gergovia","Tolosa","Lugdunum","Durocortorum","Bagacum","Nemetocenna","Luteria","Samarobriva","Entremont",
             "Burdigala","Nemausus","Vienne","Brixia","Sinigaglia","Numantia","Termantia","Alesia","Genevensis","Tricassium",
@@ -1684,7 +1684,7 @@
         "innerColor": [220,190,92],
         "uniqueName": "Macedonian Discipline",
         "uniques": [
-            "Free [Hetairoi] appears <upon discovering [Horseback Riding]>",
+            "Free [Hetairoi] appears <upon discovering [Horseback Riding] technology>",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Military Academy]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]"
@@ -1843,7 +1843,7 @@
         "uniqueName": "Encomienda System",
         "uniques": [
             "[-20]% City-State Influence degradation",
-            "Free [Worker] appears <upon discovering [Pottery]>"
+            "Free [Worker] appears <upon discovering [Pottery] technology>"
         ],
         "cities": [
             "Mexico City","Guadalajara","Tijuana","Juarez","Puebla","Monterrey","Veracruz","Acapulco","Mexicali","Oaxaca",
@@ -2109,7 +2109,7 @@
         "outerColor": [193,159,86],
         "innerColor": [0,0,0],
         "uniqueName": "Ta-Seti",
-        "uniques": ["Free [Apedemaks Bow] appears <upon discovering [Pottery]>"],
+        "uniques": ["Free [Apedemaks Bow] appears <upon discovering [Pottery] technology>"],
         "cities": [
             "Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe",
             "Shaat","Heh","Dengeil","Miam","Tombos","Kurgus","Debba","Bugdumbush","Ukma","Defeia",
@@ -2267,7 +2267,7 @@
         "uniqueName": "Skillful Traders",
         "uniques": [
             "Provides [2] [Trade Route]",
-            "Free [Square Sail Ship] appears <upon discovering [Sailing]>"
+            "Free [Square Sail Ship] appears <upon discovering [Sailing] technology>"
         ],
         "cities": [
             "Tyre","Sidon","Ugarit","Berytus","Byblos","Arvad","Akko","Kition","Tripolis","Baalbek",
@@ -2968,8 +2968,8 @@
         "innerColor": [255,254,231],
         "uniqueName": "Serenissima",
         "uniques": [
-            "Provides [1] [Trade Route] <upon discovering [Compass]>",
-            "Free [Cargo Ship] appears <upon discovering [Compass]>"
+            "Provides [1] [Trade Route] <upon discovering [Compass] technology>",
+            "Free [Cargo Ship] appears <upon discovering [Compass] technology>"
         ],
         "cities": [
             "Venice","Ragusa","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato",
