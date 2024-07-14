@@ -1097,7 +1097,7 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "Can build [Pasture] improvements on tiles",
-            "May withdraw before melee ([50]%)"
+            "Withdraws before melee combat <with [50]% chance>"
         ],
         "attackSound": "horse"
     },
@@ -1507,7 +1507,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1527,7 +1527,7 @@
         "promotions": ["Boarding Party I"],
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1564,7 +1564,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -2492,7 +2492,7 @@
             "Can see invisible [Submarine] units",
             "[100]% chance to intercept air attacks",
             "Can move after attacking",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "[+100]% Strength <vs [Submarine] units>"
         ],
         "attackSound": "shipguns"

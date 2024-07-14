@@ -207,7 +207,7 @@
         "prerequisites": ["Survivalism II"],
         "uniques": [
             "Unit will heal every turn, even if it performs an action",
-            "May withdraw before melee ([50]%)"
+            "Withdraws before melee combat <with [50]% chance>"
         ],
         "unitTypes": ["Scout"]
     },
@@ -622,7 +622,7 @@
     {
         "name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
         "uniques": [
-            "May withdraw before melee ([80]%)"
+            "Withdraws before melee combat <with [80]% chance>"
         ]
     },
     {
