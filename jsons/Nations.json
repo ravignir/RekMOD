@@ -1472,7 +1472,7 @@
         "innerColor": [184,0,0],
         "uniqueName": "Bushido",
         "uniques": [
-            "Damage is ignored when determining unit Strength <for [All] units>",
+            "No damage penalty for wounded units <for [All] units>",
             "[+1 Culture] from every [Fishing Boats]",
             "[+2 Culture] from every [Atoll]"
         ],
@@ -2683,7 +2683,7 @@
         "innerColor": [255,102,102],
         "uniqueName": "Seven Cities of Gold",
         "uniques": [
-            "Gain [100] [Gold] (modified by game speed) <upon discovering a Natural Wonder>",
+            "Gain [100] [Gold] <(modified by game speed)> <upon discovering a Natural Wonder>",
             "[+1 Happiness] for every known Natural Wonder",
             "[+100]% Yield from every [Natural Wonder]"
         ],
