@@ -1021,8 +1021,8 @@
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
-                "row": 2,
-                "column": 2
+                "row": 1,
+                "column": 6
             },
             {
                 "name": "Covert Action",
@@ -1134,8 +1134,8 @@
                     "Only available <when above [1] [Level 1 Ideology]>",
                     "Provides [1] [Policies]"
                 ],
-                "row": 1,
-                "column": 13
+                "row": 2,
+                "column": 11
             },
             {
                 "name": "Universal Healthcare",
