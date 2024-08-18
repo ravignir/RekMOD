@@ -204,7 +204,8 @@
         "happiness": 2,
         "uniques": [
             "Unsellable", "Unbuildable",
-            "[+2] population [in this city]"
+            "[+2] population [in this city]",
+            "[-25]% Culture cost of natural border growth [in this city]"
         ]
     },
 
