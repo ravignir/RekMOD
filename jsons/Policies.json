@@ -167,7 +167,7 @@
                     "[+15]% Production when constructing [Workshop] buildings [in all cities]",
                     "[+15]% Production when constructing [University] buildings [in all cities]",
                     "[+15]% Production when constructing [Opera House] buildings [in all cities]",
-                    "[+15]% Production when constructing [Constabulary] buildings [in all cities]",
+                    "[+15]% Production when constructing [Constabulary] buildings [in all cities]"
                     //"[+15]% Production when constructing [Hotel] buildings [in all cities]",
                 ]
             }
@@ -331,14 +331,13 @@
                     "Free [Great Prophet] appears",
                     "[+1 Food, +3 Culture] from every [Holy site]",
                     "Provides a [Garden] in your first [4] cities for free",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great General] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Artist] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Writer] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Musician] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Admiral] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Merchant] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>"
-                ]
+                    "May buy [Great Engineer] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Tradition Complete]>",
+                    "May buy [Great General] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Honor Complete]>",
+                    "May buy [Great Artist] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Aesthetics Complete]>",
+                    "May buy [Great Writer] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Aesthetics Complete]>",
+                    "May buy [Great Musician] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Aesthetics Complete]>",
+                    "May buy [Great Admiral] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Exploration Complete]>",
+                    "May buy [Great Merchant] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Commerce Complete]>"                ]
             }
         ]
     },
@@ -346,9 +345,9 @@
         "name": "Aesthetics",
         "era": "Classical era",
         "uniques": [
-            "[Great Artist] is earned [33]% faster",
-            "[Great Writer] is earned [33]% faster",
-            "[Great Musician] is earned [33]% faster",
+            "[Great Artist] is earned [25]% faster",
+            "[Great Writer] is earned [25]% faster",
+            "[Great Musician] is earned [25]% faster",
             "Comment [Unlocks [Uffizi]]",
             "Provides [1] [Policies]"
         ],
@@ -427,6 +426,8 @@
                 "uniques": [
                     "[+100]% Production when constructing [Archaeologist] units [in all cities]",
                     "[+1 Culture] from every [Great Work]",
+                    "[+2 Culture, +2 Science] from every [Archaeological Dig]",
+                    //can't add "Shows Hidden Antiquity Sites", buff then
                     "Free Social Policy",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -449,6 +450,8 @@
                 "uniques": [
                     "[+2 Production, +2 Food] from every [Land Trade Route (Gold)]",
                     "[+2 Production, +2 Food] from every [Sea Trade Route (Gold)]",
+                    "Gifts of Gold to City-States generate [10]% more Influence",
+                    //cant add "+1 Influence per turn from trade routes to City States, buff gift then"
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -499,10 +502,9 @@
             {
                 "name": "Patronage Complete",
                 "uniques": [
-                    "[+50]% [Culture] from City-States",
-                    "[+50]% [Faith] from City-States",
-                    "[+50]% [Food] from City-States",
-                    "[+50]% [Happiness] from City-States",
+                    "[+75]% [Culture] from City-States",
+                    "[+75]% [Faith] from City-States",
+                    "[+75]% [Food] from City-States",
                     "Allied City-States will occasionally gift Great People"
                 ]
             }
@@ -557,7 +559,8 @@
             {
                 "name": "Navigation School",
                 "uniques": [
-                    "[+2 Science] [in all coastal cities]",
+                    "[+3 Science] [in all coastal cities]",
+                    "[+10]% Strength <for [Water] units>",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Maritime Infrastructure","Naval Tradition"],
@@ -567,7 +570,7 @@
             {
                 "name": "Treasure Fleets",
                 "uniques": [
-                    "[+1 Gold, +1 Production, +1 Food] from every [Coast]",
+                    "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [Bonus resource]> <in tiles without [Luxury resource]>",
                     "[+1 Gold, +1 Production, +1 Food] from every [Ocean]",
                     "Provides [1] [Policies]"
                 ],
@@ -598,9 +601,10 @@
             {
                 "name": "Silk Road",
                 "uniques": [
-                    "[+50]% Production when constructing [Market] buildings [in all cities]",
-                    "[+50]% Production when constructing [Bank] buildings [in all cities]",
-                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]",
+                    "[+25]% Yield from every [Land Trade Route (Food)]",
+                    "[+25]% Yield from every [Land Trade Route (Production)]",
+                    "[+25]% Yield from every [Sea Trade Route (Food)]",
+                    "[+25]% Yield from every [Sea Trade Route (Production)]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -619,7 +623,7 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": [
-                    "[-25]% maintenance on road & railroads",
+                    "[-50]% maintenance on road & railroads",
                     "[-25]% maintenance cost for buildings [in all cities]",
                     "Provides [2] [Trade Route]",
                     "Provides [1] [Policies]"
@@ -697,6 +701,7 @@
                     "[+1 Science] from every [Chateau]",
                     "[+1 Science] from every [Caer]",
                     "[+1 Science] from every [Brazilwood Camp]",
+                    "[+1 Science] from every [Moai]",
                     "[+4 Science] from every [Customs house]",
                     "[+4 Science] from every [Academy]",
                     "Provides [1] [Policies]"
@@ -781,7 +786,6 @@
                 "name": "Patriotic War",
                 "uniques": [
                     "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-                    "[+50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -791,6 +795,7 @@
             {
                 "name": "Double Agents",
                 "uniques": [
+                    "[-100]% enemy spy effectiveness [in all cities connected to capital]",
                     //Unique for increasing chance of killing spy
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -825,6 +830,7 @@
             {
                 "name": "Resettlements",
                 "uniques": [
+                    "[+4] population [in this city] <upon founding a city>",
                     "Gain a free [Workshop] [in all cities]",
                     "Gain a free [Monument] [in all cities]",
                     "Gain a free [Granary] [in all cities]",
@@ -947,6 +953,8 @@
                 "uniques": [
                     "Free [Great Scientist] appears",
                     "Free [Great Engineer] appears",
+                    "[+20]% Production when constructing [Spaceship part] buildings [in all cities]",
+                    //can't add "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -985,7 +993,8 @@
             {
                 "name": "Creative Expression",
                 "uniques": [
-                    "[+2 Culture] from every [Great Work]",
+                    "[+3 Culture] from every [Great Work]",
+                    //no turism, so +1 culture
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1006,7 +1015,7 @@
                 "name": "Covert Action",
                 "uniques": [
                     //Unique for rigging elections
-                    "Gain an extra spy"
+                    "Gain an extra spy",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1038,8 +1047,8 @@
             {
                 "name": "Arsenal of Democracy",
                 "uniques": [
-                    "[+20]% Production when constructing [Air] units [in all cities]",
-                    "[+20]% Production when constructing [Nuclear Missile] units [in all cities]",
+                    "[+25]% Production when constructing [Air] units [in all cities]",
+                    "[+25]% Production when constructing [Nuclear Missile] units [in all cities]",
                     "[+25]% Strength for cities",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -1127,6 +1136,9 @@
                 "uniques": [
                     "[+100]% Production when constructing [Medical Lab] buildings [in capital]",
                     "[+100]% Production when constructing [Hospital] buildings [in capital]",
+                    "[+3 Science] from every [Medical Lab]",
+                    "[+3 Science] from every [Hospital]",
+                    "[+5 Food] [in capital]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
