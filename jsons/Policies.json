@@ -338,6 +338,7 @@
                     "May buy [Great Musician] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Aesthetics Complete]>",
                     "May buy [Great Admiral] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Exploration Complete]>",
                     "May buy [Great Merchant] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]> <before adopting [Commerce Complete]>"
+                    // quess here need more elegant solution to make a limit for every great person = 1
                 ]
             }
         ]
