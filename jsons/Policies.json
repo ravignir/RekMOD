@@ -428,8 +428,7 @@
                 "uniques": [
                     "[+100]% Production when constructing [Archaeologist] units [in all cities]",
                     "[+1 Culture] from every [Great Work]",
-                    "[+2 Culture, +2 Science] from every [Archaeological Dig]",
-                    //can't add "Shows Hidden Antiquity Sites", buff then
+                    //need implement "Shows Hidden Antiquity Sites"
                     "Free Social Policy",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -452,8 +451,6 @@
                 "uniques": [
                     "[+2 Production, +2 Food] from every [Land Trade Route (Gold)]",
                     "[+2 Production, +2 Food] from every [Sea Trade Route (Gold)]",
-                    "Gifts of Gold to City-States generate [10]% more Influence",
-                    //cant add "+1 Influence per turn from trade routes to City States, buff gift then"
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -573,7 +570,7 @@
             {
                 "name": "Treasure Fleets",
                 "uniques": [
-                    "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [Bonus resource]> <in tiles without [Luxury resource]> <in tiles without [Strategic resource]> <in tiles without [Improvement]>",
+                    "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [resource]> <in tiles without [Improvement]>",
                     "[+1 Gold, +1 Production, +1 Food] from every [Ocean]",
                     "Provides [1] [Policies]"
                 ],
@@ -955,8 +952,7 @@
                 "uniques": [
                     "Free [Great Scientist] appears",
                     "Free [Great Engineer] appears",
-                    "[+20]% Production when constructing [Spaceship part] buildings [in all cities]",
-                    //can't add "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
+                    //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -995,7 +991,7 @@
             {
                 "name": "Creative Expression",
                 "uniques": [
-                    "[+3 Culture] from every [Great Work]",
+                    "[+2 Culture] from every [Great Work]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
