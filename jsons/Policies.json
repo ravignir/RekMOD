@@ -331,14 +331,13 @@
                     "Free [Great Prophet] appears",
                     "[+1 Food, +3 Culture] from every [Holy site]",
                     "Provides a [Garden] in your first [4] cities for free",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]>",
-                    "May buy [Great General] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]>",
-                    "May buy [Great Artist] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]>",
-                    "May buy [Great Writer] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]>",
-                    "May buy [Great Musician] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]>",
-                    "May buy [Great Admiral] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]>",
-                    "May buy [Great Merchant] units for [1000] [Faith] [in capital] at an increasing price ([1500]) <starting from the [Industrial era]>"
-                    // quess here need more elegant solution to make a limit for every great person = 1
+                    "May buy [Great Engineer Altar] buildings for [1000] [Faith] [in capital]",
+                    "May buy [Great General Altar] buildings for [1000] [Faith] [in capital]",
+                    "May buy [Great Artist Altar] buildings for [1000] [Faith] [in capital]",
+                    "May buy [Great Writer Altar] buildings for [1000] [Faith] [in capital]",
+                    "May buy [Great Musician Altar] buildings for [1000] [Faith] [in capital]",
+                    "May buy [Great Admiral Altar] buildings for [1000] [Faith] [in capital]",
+                    "May buy [Great Merchant Altar] buildings for [1000] [Faith] [in capital]"
                 ]
             }
         ]

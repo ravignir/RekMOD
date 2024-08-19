@@ -204,9 +204,65 @@
         "happiness": 2,
         "uniques": [
             "Unsellable", "Unbuildable",
-            "[+2] population [in this city]",
-            "[-25]% Culture cost of natural border growth [in this city]"
+            "[+2] population [in this city]"
             // need request for a new Unciv unique and implement "+6 hexes in new city"
+        ]
+    },
+    {
+        "name": "Great Engineer Altar",
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Only available <after adopting [Piety Complete]>",
+            "Free [Great Engineer] appears"
+        ]
+    },
+    {
+        "name": "Great General Altar",
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Only available <after adopting [Piety Complete]>",
+            "Free [Great General] appears"
+        ]
+    },
+    {
+        "name": "Great Artist Altar",
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Only available <after adopting [Piety Complete]>",
+            "Free [Great Artist] appears"
+        ]
+    },
+    {
+        "name": "Great Writer Altar",
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Only available <after adopting [Piety Complete]>",
+            "Free [Great Writer] appears"
+        ]
+    },
+    {
+        "name": "Great Musician Altar",
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Only available <after adopting [Piety Complete]>",
+            "Free [Great Musician] appears"
+        ]
+    },
+    {
+        "name": "Great Admiral Altar",
+        "uniques": [
+            "Must be next to [Coast]",
+            "Unbuildable","Unsellable",
+            "Only available <after adopting [Piety Complete]>",
+            "Free [Great Admiral] appears"
+        ]
+    },
+    {
+        "name": "Great Merchant Altar",
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Only available <after adopting [Piety Complete]>",
+            "Free [Great Merchant] appears"
         ]
     },
 
