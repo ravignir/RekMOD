@@ -206,6 +206,7 @@
             "Unsellable", "Unbuildable",
             "[+2] population [in this city]",
             "[-25]% Culture cost of natural border growth [in this city]"
+            // need request for a new Unciv unique and implement "+6 hexes in new city"
         ]
     },
 
