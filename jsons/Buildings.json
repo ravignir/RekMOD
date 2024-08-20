@@ -3290,5 +3290,176 @@
             "Hidden when [Cultural] Victory is disabled",
             "Cannot be hurried"
         ]
+    },
+
+    //Piety Complete
+    {
+        "name": "Purchase Great General",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Free [Great General] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great General purchased] is constructed>",
+            "Only available <in [Capital] cities>",
+            "Provides a [Great General purchased] in your first [99] cities for free",
+            "Remove [Purchase Great General] [in this city]",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great General purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Destroyed when the city is captured",
+            "Provides a [Great General purchased] in your first [99] cities for free"
+        ]
+    },
+    {
+        "name": "Purchase Great Artist",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Free [Great Artist] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Artist purchased] is constructed>",
+            "Only available <in [Capital] cities>",
+            "Provides a [Great Artist purchased] in your first [99] cities for free",
+            "Remove [Purchase Great Artist] [in this city]",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Artist purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Destroyed when the city is captured",
+            "Provides a [Great Artist purchased] in your first [99] cities for free"
+        ]
+    },
+    {
+        "name": "Purchase Great Writer",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Free [Great Writer] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Writer purchased] is constructed>",
+            "Only available <in [Capital] cities>",
+            "Provides a [Great Writer purchased] in your first [99] cities for free",
+            "Remove [Purchase Great Writer] [in this city]",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Writer purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Destroyed when the city is captured",
+            "Provides a [Great Writer purchased] in your first [99] cities for free"
+        ]
+    },
+    {
+        "name": "Purchase Great Musician",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Free [Great Musician] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Musician purchased] is constructed>",
+            "Only available <in [Capital] cities>",
+            "Provides a [Great Musician purchased] in your first [99] cities for free",
+            "Remove [Purchase Great Musician] [in this city]",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Musician purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Destroyed when the city is captured",
+            "Provides a [Great Musician purchased] in your first [99] cities for free"
+        ]
+    },
+    {
+        "name": "Purchase Great Merchant",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Free [Great Merchant] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Merchant purchased] is constructed>",
+            "Only available <in [Capital] cities>",
+            "Provides a [Great Merchant purchased] in your first [99] cities for free",
+            "Remove [Purchase Great Merchant] [in this city]",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Merchant purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Destroyed when the city is captured",
+            "Provides a [Great Merchant purchased] in your first [99] cities for free"
+        ]
+    },
+    {
+        "name": "Purchase Great Engineer",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Free [Great Engineer] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Engineer purchased] is constructed>",
+            "Only available <in [Capital] cities>",
+            "Provides a [Great Engineer purchased] in your first [99] cities for free",
+            "Remove [Purchase Great Engineer] [in this city]",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Engineer purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Destroyed when the city is captured",
+            "Provides a [Great Engineer purchased] in your first [99] cities for free"
+        ]
+    },
+    {
+        "name": "Purchase Great Prophet",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Free [Great Prophet] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Prophet purchased] is constructed>",
+            "Only available <in [Capital] cities>",
+            "Provides a [Great Prophet purchased] in your first [99] cities for free",
+            "Remove [Purchase Great Prophet] [in this city]",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Prophet purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Destroyed when the city is captured",
+            "Provides a [Great Prophet purchased] in your first [99] cities for free"
+        ]
+    },
+    {
+        "name": "Purchase Great Admiral",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Free [Great Admiral] appears",
+            "Only available <in [Coastal] cities>",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Admiral purchased] is constructed>",
+            "Only available <in [Capital] cities>",
+            "Provides a [Great Admiral purchased] in your first [99] cities for free",
+            "Remove [Purchase Great Admiral] [in this city]",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Admiral purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Destroyed when the city is captured",
+            "Provides a [Great Admiral purchased] in your first [99] cities for free"
+        ]
     }
 ]
