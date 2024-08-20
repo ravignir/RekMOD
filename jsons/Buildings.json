@@ -204,8 +204,8 @@
         "happiness": 2,
         "uniques": [
             "Unsellable", "Unbuildable",
-            "[+2] population [in this city]"
-            // need request for a new Unciv unique and implement "+6 hexes in new city"
+            "[+2] population [in this city]",
+            "Gain control over [Water] tiles in a [2]-tile radius"
         ]
     },
     {
