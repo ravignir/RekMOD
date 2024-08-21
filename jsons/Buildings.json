@@ -208,63 +208,6 @@
             "Gain control over [Water] tiles in a [2]-tile radius"
         ]
     },
-    {
-        "name": "Great Engineer Altar",
-        "uniques": [
-            "Unbuildable","Unsellable",
-            "Only available <after adopting [Piety Complete]>",
-            "Free [Great Engineer] appears"
-        ]
-    },
-    {
-        "name": "Great General Altar",
-        "uniques": [
-            "Unbuildable","Unsellable",
-            "Only available <after adopting [Piety Complete]>",
-            "Free [Great General] appears"
-        ]
-    },
-    {
-        "name": "Great Artist Altar",
-        "uniques": [
-            "Unbuildable","Unsellable",
-            "Only available <after adopting [Piety Complete]>",
-            "Free [Great Artist] appears"
-        ]
-    },
-    {
-        "name": "Great Writer Altar",
-        "uniques": [
-            "Unbuildable","Unsellable",
-            "Only available <after adopting [Piety Complete]>",
-            "Free [Great Writer] appears"
-        ]
-    },
-    {
-        "name": "Great Musician Altar",
-        "uniques": [
-            "Unbuildable","Unsellable",
-            "Only available <after adopting [Piety Complete]>",
-            "Free [Great Musician] appears"
-        ]
-    },
-    {
-        "name": "Great Admiral Altar",
-        "uniques": [
-            "Must be next to [Coast]",
-            "Unbuildable","Unsellable",
-            "Only available <after adopting [Piety Complete]>",
-            "Free [Great Admiral] appears"
-        ]
-    },
-    {
-        "name": "Great Merchant Altar",
-        "uniques": [
-            "Unbuildable","Unsellable",
-            "Only available <after adopting [Piety Complete]>",
-            "Free [Great Merchant] appears"
-        ]
-    },
 
     // Ancient Era
     // Always available
