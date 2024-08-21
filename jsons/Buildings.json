@@ -3297,6 +3297,7 @@
         "name": "Purchase Great General",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Free [Great General] appears",
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great General purchased] is constructed>",
@@ -3310,6 +3311,7 @@
         "name": "Great General purchased",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
             "Provides a [Great General purchased] in your first [99] cities for free"
         ]
@@ -3318,6 +3320,7 @@
         "name": "Purchase Great Artist",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Free [Great Artist] appears",
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Artist purchased] is constructed>",
@@ -3331,6 +3334,7 @@
         "name": "Great Artist purchased",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
             "Provides a [Great Artist purchased] in your first [99] cities for free"
         ]
@@ -3339,6 +3343,7 @@
         "name": "Purchase Great Writer",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Free [Great Writer] appears",
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Writer purchased] is constructed>",
@@ -3352,6 +3357,7 @@
         "name": "Great Writer purchased",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
             "Provides a [Great Writer purchased] in your first [99] cities for free"
         ]
@@ -3360,6 +3366,7 @@
         "name": "Purchase Great Musician",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Free [Great Musician] appears",
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Musician purchased] is constructed>",
@@ -3373,6 +3380,7 @@
         "name": "Great Musician purchased",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
             "Provides a [Great Musician purchased] in your first [99] cities for free"
         ]
@@ -3381,6 +3389,7 @@
         "name": "Purchase Great Merchant",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Free [Great Merchant] appears",
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Merchant purchased] is constructed>",
@@ -3394,6 +3403,7 @@
         "name": "Great Merchant purchased",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
             "Provides a [Great Merchant purchased] in your first [99] cities for free"
         ]
@@ -3402,6 +3412,7 @@
         "name": "Purchase Great Engineer",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Free [Great Engineer] appears",
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Engineer purchased] is constructed>",
@@ -3415,6 +3426,7 @@
         "name": "Great Engineer purchased",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
             "Provides a [Great Engineer purchased] in your first [99] cities for free"
         ]
@@ -3423,6 +3435,7 @@
         "name": "Purchase Great Prophet",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Free [Great Prophet] appears",
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Prophet purchased] is constructed>",
@@ -3436,6 +3449,7 @@
         "name": "Great Prophet purchased",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
             "Provides a [Great Prophet purchased] in your first [99] cities for free"
         ]
@@ -3444,6 +3458,7 @@
         "name": "Purchase Great Admiral",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Free [Great Admiral] appears",
             "Only available <in [Coastal] cities>",
             "Only available <after adopting [Piety Complete]>",
@@ -3458,6 +3473,7 @@
         "name": "Great Admiral purchased",
         "uniques": [
             "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
             "Provides a [Great Admiral purchased] in your first [99] cities for free"
         ]
