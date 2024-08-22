@@ -1,4 +1,168 @@
 [
+    //Piety Complete
+    {
+        "name": "Purchase Great General",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great General] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great General purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great General purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great General] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great General purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great General purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Artist",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Artist] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Artist purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Artist purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Artist] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Artist purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Artist purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Writer",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Writer] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Writer purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Writer purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Writer] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Writer purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Writer purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Musician",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Musician] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Musician purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Musician purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Musician] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Musician purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Musician purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Merchant",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Merchant] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Merchant purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Merchant purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Merchant] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Merchant purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Merchant purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Engineer",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Engineer] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Engineer purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Engineer purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Engineer] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Engineer purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Engineer purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Admiral",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Admiral] appears",
+            "Only available <in [Coastal] cities>",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Admiral purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Admiral purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Admiral] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Admiral purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Admiral purchased] [in all cities] <hidden from users>"
+        ]
+    },
+
     // Religious buildings
     {
         "name": "Cathedral",
@@ -3289,170 +3453,6 @@
             "Triggers a Cultural Victory upon completion",
             "Hidden when [Cultural] Victory is disabled",
             "Cannot be hurried"
-        ]
-    },
-
-    //Piety Complete
-    {
-        "name": "Purchase Great General",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Free [Great General] appears",
-            "Only available <after adopting [Piety Complete]>",
-            "Unavailable <if [Great General purchased] is constructed> <hidden from users>",
-            "Only available <in [Capital] cities>",
-            "Gain a free [Great General purchased] [in all cities] <hidden from users>",
-            "Remove [Purchase Great General] [in this city] <hidden from users>",
-            "Piety Complete Building"
-        ]
-    },
-    {
-        "name": "Great General purchased",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Destroyed when the city is captured",
-            "Gain a free [Great General purchased] [in all cities] <hidden from users>"
-        ]
-    },
-    {
-        "name": "Purchase Great Artist",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Free [Great Artist] appears",
-            "Only available <after adopting [Piety Complete]>",
-            "Unavailable <if [Great Artist purchased] is constructed> <hidden from users>",
-            "Only available <in [Capital] cities>",
-            "Gain a free [Great Artist purchased] [in all cities] <hidden from users>",
-            "Remove [Purchase Great Artist] [in this city] <hidden from users>",
-            "Piety Complete Building"
-        ]
-    },
-    {
-        "name": "Great Artist purchased",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Destroyed when the city is captured",
-            "Gain a free [Great Artist purchased] [in all cities] <hidden from users>"
-        ]
-    },
-    {
-        "name": "Purchase Great Writer",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Free [Great Writer] appears",
-            "Only available <after adopting [Piety Complete]>",
-            "Unavailable <if [Great Writer purchased] is constructed> <hidden from users>",
-            "Only available <in [Capital] cities>",
-            "Gain a free [Great Writer purchased] [in all cities] <hidden from users>",
-            "Remove [Purchase Great Writer] [in this city] <hidden from users>",
-            "Piety Complete Building"
-        ]
-    },
-    {
-        "name": "Great Writer purchased",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Destroyed when the city is captured",
-            "Gain a free [Great Writer purchased] [in all cities] <hidden from users>"
-        ]
-    },
-    {
-        "name": "Purchase Great Musician",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Free [Great Musician] appears",
-            "Only available <after adopting [Piety Complete]>",
-            "Unavailable <if [Great Musician purchased] is constructed> <hidden from users>",
-            "Only available <in [Capital] cities>",
-            "Gain a free [Great Musician purchased] [in all cities] <hidden from users>",
-            "Remove [Purchase Great Musician] [in this city] <hidden from users>",
-            "Piety Complete Building"
-        ]
-    },
-    {
-        "name": "Great Musician purchased",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Destroyed when the city is captured",
-            "Gain a free [Great Musician purchased] [in all cities] <hidden from users>"
-        ]
-    },
-    {
-        "name": "Purchase Great Merchant",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Free [Great Merchant] appears",
-            "Only available <after adopting [Piety Complete]>",
-            "Unavailable <if [Great Merchant purchased] is constructed> <hidden from users>",
-            "Only available <in [Capital] cities>",
-            "Gain a free [Great Merchant purchased] [in all cities] <hidden from users>",
-            "Remove [Purchase Great Merchant] [in this city] <hidden from users>",
-            "Piety Complete Building"
-        ]
-    },
-    {
-        "name": "Great Merchant purchased",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Destroyed when the city is captured",
-            "Gain a free [Great Merchant purchased] [in all cities] <hidden from users>"
-        ]
-    },
-    {
-        "name": "Purchase Great Engineer",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Free [Great Engineer] appears",
-            "Only available <after adopting [Piety Complete]>",
-            "Unavailable <if [Great Engineer purchased] is constructed> <hidden from users>",
-            "Only available <in [Capital] cities>",
-            "Gain a free [Great Engineer purchased] [in all cities] <hidden from users>",
-            "Remove [Purchase Great Engineer] [in this city] <hidden from users>",
-            "Piety Complete Building"
-        ]
-    },
-    {
-        "name": "Great Engineer purchased",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Destroyed when the city is captured",
-            "Gain a free [Great Engineer purchased] [in all cities] <hidden from users>"
-        ]
-    },
-    {
-        "name": "Purchase Great Admiral",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Free [Great Admiral] appears",
-            "Only available <in [Coastal] cities>",
-            "Only available <after adopting [Piety Complete]>",
-            "Unavailable <if [Great Admiral purchased] is constructed> <hidden from users>",
-            "Only available <in [Capital] cities>",
-            "Gain a free [Great Admiral purchased] [in all cities] <hidden from users>",
-            "Remove [Purchase Great Admiral] [in this city] <hidden from users>",
-            "Piety Complete Building"
-        ]
-    },
-    {
-        "name": "Great Admiral purchased",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Destroyed when the city is captured",
-            "Gain a free [Great Admiral purchased] [in all cities] <hidden from users>"
         ]
     }
 ]
