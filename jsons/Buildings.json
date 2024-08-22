@@ -3432,29 +3432,6 @@
         ]
     },
     {
-        "name": "Purchase Great Prophet",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Free [Great Prophet] appears",
-            "Only available <after adopting [Piety Complete]>",
-            "Unavailable <if [Great Prophet purchased] is constructed> <hidden from users>",
-            "Only available <in [Capital] cities>",
-            "Provides a [Great Prophet purchased] in your first [99] cities for free <hidden from users>",
-            "Remove [Purchase Great Prophet] [in this city] <hidden from users>",
-            "Piety Complete Building"
-        ]
-    },
-    {
-        "name": "Great Prophet purchased",
-        "uniques": [
-            "Unbuildable", "Unsellable",
-            "Will not be displayed in Civilopedia",
-            "Destroyed when the city is captured",
-            "Provides a [Great Prophet purchased] in your first [99] cities for free <hidden from users>"
-        ]
-    },
-    {
         "name": "Purchase Great Admiral",
         "uniques": [
             "Unbuildable", "Unsellable",
