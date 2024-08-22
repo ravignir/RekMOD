@@ -3302,7 +3302,7 @@
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great General purchased] is constructed> <hidden from users>",
             "Only available <in [Capital] cities>",
-            "Provides a [Great General purchased] in your first [99] cities for free <hidden from users>",
+            "Gain a free [Great General purchased] [in all cities] <hidden from users>",
             "Remove [Purchase Great General] [in this city] <hidden from users>",
             "Piety Complete Building"
         ]
@@ -3313,7 +3313,7 @@
             "Unbuildable", "Unsellable",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
-            "Provides a [Great General purchased] in your first [99] cities for free <hidden from users>"
+            "Gain a free [Great General purchased] [in all cities] <hidden from users>"
         ]
     },
     {
@@ -3325,7 +3325,7 @@
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Artist purchased] is constructed> <hidden from users>",
             "Only available <in [Capital] cities>",
-            "Provides a [Great Artist purchased] in your first [99] cities for free <hidden from users>",
+            "Gain a free [Great Artist purchased] [in all cities] <hidden from users>",
             "Remove [Purchase Great Artist] [in this city] <hidden from users>",
             "Piety Complete Building"
         ]
@@ -3336,7 +3336,7 @@
             "Unbuildable", "Unsellable",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
-            "Provides a [Great Artist purchased] in your first [99] cities for free <hidden from users>"
+            "Gain a free [Great Artist purchased] [in all cities] <hidden from users>"
         ]
     },
     {
@@ -3348,7 +3348,7 @@
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Writer purchased] is constructed> <hidden from users>",
             "Only available <in [Capital] cities>",
-            "Provides a [Great Writer purchased] in your first [99] cities for free <hidden from users>",
+            "Gain a free [Great Writer purchased] [in all cities] <hidden from users>",
             "Remove [Purchase Great Writer] [in this city] <hidden from users>",
             "Piety Complete Building"
         ]
@@ -3359,7 +3359,7 @@
             "Unbuildable", "Unsellable",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
-            "Provides a [Great Writer purchased] in your first [99] cities for free <hidden from users>"
+            "Gain a free [Great Writer purchased] [in all cities] <hidden from users>"
         ]
     },
     {
@@ -3371,7 +3371,7 @@
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Musician purchased] is constructed> <hidden from users>",
             "Only available <in [Capital] cities>",
-            "Provides a [Great Musician purchased] in your first [99] cities for free <hidden from users>",
+            "Gain a free [Great Musician purchased] [in all cities] <hidden from users>",
             "Remove [Purchase Great Musician] [in this city] <hidden from users>",
             "Piety Complete Building"
         ]
@@ -3382,7 +3382,7 @@
             "Unbuildable", "Unsellable",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
-            "Provides a [Great Musician purchased] in your first [99] cities for free <hidden from users>"
+            "Gain a free [Great Musician purchased] [in all cities] <hidden from users>"
         ]
     },
     {
@@ -3394,7 +3394,7 @@
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Merchant purchased] is constructed> <hidden from users>",
             "Only available <in [Capital] cities>",
-            "Provides a [Great Merchant purchased] in your first [99] cities for free <hidden from users>",
+            "Gain a free [Great Merchant purchased] [in all cities] <hidden from users>",
             "Remove [Purchase Great Merchant] [in this city] <hidden from users>",
             "Piety Complete Building"
         ]
@@ -3405,7 +3405,7 @@
             "Unbuildable", "Unsellable",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
-            "Provides a [Great Merchant purchased] in your first [99] cities for free <hidden from users>"
+            "Gain a free [Great Merchant purchased] [in all cities] <hidden from users>"
         ]
     },
     {
@@ -3417,7 +3417,7 @@
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Engineer purchased] is constructed> <hidden from users>",
             "Only available <in [Capital] cities>",
-            "Provides a [Great Engineer purchased] in your first [99] cities for free <hidden from users>",
+            "Gain a free [Great Engineer purchased] [in all cities] <hidden from users>",
             "Remove [Purchase Great Engineer] [in this city] <hidden from users>",
             "Piety Complete Building"
         ]
@@ -3428,7 +3428,7 @@
             "Unbuildable", "Unsellable",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
-            "Provides a [Great Engineer purchased] in your first [99] cities for free <hidden from users>"
+            "Gain a free [Great Engineer purchased] [in all cities] <hidden from users>"
         ]
     },
     {
@@ -3441,7 +3441,7 @@
             "Only available <after adopting [Piety Complete]>",
             "Unavailable <if [Great Admiral purchased] is constructed> <hidden from users>",
             "Only available <in [Capital] cities>",
-            "Provides a [Great Admiral purchased] in your first [99] cities for free <hidden from users>",
+            "Gain a free [Great Admiral purchased] [in all cities] <hidden from users>",
             "Remove [Purchase Great Admiral] [in this city] <hidden from users>",
             "Piety Complete Building"
         ]
@@ -3452,7 +3452,7 @@
             "Unbuildable", "Unsellable",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured",
-            "Provides a [Great Admiral purchased] in your first [99] cities for free <hidden from users>"
+            "Gain a free [Great Admiral purchased] [in all cities] <hidden from users>"
         ]
     }
 ]
