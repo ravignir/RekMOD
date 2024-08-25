@@ -2,7 +2,7 @@
     {
         "name": "Heal Instantly",
         "uniques": [
-            "Heal this unit by [50] HP",
+            "[This Unit] heals [50] HP",
             "Doing so will consume this opportunity to choose a Promotion"
         ],
         "unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Mounted Ranged","Paratrooping"],
@@ -904,8 +904,8 @@
     {
         "name": "Recruitment",
         "uniques": [
-            "Heal this unit by [50] HP <upon defeating a [Major] unit>",
-            "Heal this unit by [50] HP <upon defeating a [City-State] unit>",
+            "[This Unit] heals [50] HP <upon defeating a [Major] unit>",
+            "[This Unit] heals [50] HP <upon defeating a [City-State] unit>",
             "Only available <for units without [Ambition]>",
             "Only available <for units without [Invulnerability]>",
             "Only available <for units without [Restlessness]>",
