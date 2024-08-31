@@ -495,14 +495,18 @@
     {
         "name": "Apostolic Palace",
         "type": "Enhancer",
-        "uniques": ["[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]"]
+        "uniques": [
+            "[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]",
+            "Only available <after adopting [Reformation]>"
+        ]
     },
     {
         "name": "City of God",
         "type": "Enhancer",
         "uniques": [
             "[+2 Food, +1 Science] from every [Holy site]",
-            "Free [Great Prophet] appears"
+            "Free [Great Prophet] appears",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
@@ -532,14 +536,18 @@
         "uniques": [
             "May buy [Art Hall] buildings for [150] [Faith] [in cities following this religion]",
             "May buy [Writing Auditorium] buildings for [150] [Faith] [in cities following this religion]",
-            "May buy [Vocal Chamber] buildings for [150] [Faith] [in cities following this religion]"
+            "May buy [Vocal Chamber] buildings for [150] [Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
         "name": "Indulgences",
         "type": "Enhancer",
-        "uniques": ["[+1 Food, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in cities following this religion]"]
-        //Should be for all cities following the religion, but I can't do so as an enhancer
+        "uniques": [
+            //Should be for all cities following the religion, but I can't do so as an enhancer
+            "[+1 Food, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
+        ]
     },
     {
         "name": "Jesuit Education",
@@ -549,7 +557,8 @@
             "May buy [University] buildings for [220] [Faith] [in cities following this religion]",
             "May buy [Observatory] buildings for [260] [Faith] [in cities following this religion]",
             "May buy [Public School] buildings for [380] [Faith] [in cities following this religion]",
-            "May buy [Research Lab] buildings for [630] [Faith] [in cities following this religion]"
+            "May buy [Research Lab] buildings for [630] [Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
@@ -594,7 +603,8 @@
             "[+2 Gold, +2 Culture, +2 Faith] from every [Mandir]",
             "[+2 Gold, +2 Culture, +2 Faith] from every [Mosque]",
             "[+2 Gold, +2 Culture, +2 Faith] from every [Pagoda]",
-            "[+2 Gold, +2 Culture, +2 Faith] from every [Synagogue]"
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Synagogue]",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
@@ -607,8 +617,11 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Enhancer",
-        "uniques": ["[+20]% growth [in cities following this religion]"]
-        //Should be for all cities following the religion, but I can't do so as an enhancer
+        "uniques": [
+            //Should be for all cities following the religion, but I can't do so as an enhancer
+            "[+20]% growth [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
+        ]
     },
     {
         "name": "Work Ethic",
@@ -617,13 +630,17 @@
             "May buy [Workshop] buildings for [200] [Faith] [in cities following this religion]",
             "May buy [Factory] buildings for [450] [Faith] [in cities following this religion]",
             "May buy [Windmill] buildings for [320] [Faith] [in cities following this religion]",
-            "May buy [Hydro Plant] buildings for [520] [Faith] [in cities following this religion]"
+            "May buy [Hydro Plant] buildings for [520] [Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
         "name": "Underground Sect",
         "type": "Enhancer",
-        "uniques": ["[+1 Science] from every [4] global followers [in cities following this religion]"]
+        "uniques": [
+            "[+1 Science] from every [4] global followers [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
+        ]
     },
     {
         "name": "Unity of the Prophets",
