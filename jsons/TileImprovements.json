@@ -728,6 +728,23 @@
         "techRequired": "Construction",
         "shortcutKey": "F"
     },
+    {
+        // NOTE: NEEDS A SPRITE
+        "name": "Rock-hewn church",
+        "uniqueTo": "Inca",
+        "terrainsCanBeBuiltOn": ["Hill"],
+        "faith": 1,
+        "turnsToBuild": 7,
+        "uniques": [
+            "[+1 Food] for each adjacent [Mountain]",
+            "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+            "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Cannot be built on [resource] tiles",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ],
+        "techRequired": "Construction",
+        "shortcutKey": "F"
+    },
 
     // Unbuildable improvements
     {

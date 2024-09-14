@@ -1385,9 +1385,9 @@
         "faith": 4,
         "isNationalWonder": true,
         "uniques": [
-            "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
+            "Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
             "[+25]% Great Person generation [in this city]",
-            "[+2 Food, +1 Gold, +1 Production, +1 Faith] from every [Shrine]",
+            "[+1 Food, +1 Gold, +1 Production, +1 Faith] from every [Monument]",
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
