@@ -255,6 +255,26 @@
         ],
         "unitTypes": ["Melee Water"]
     },
+    {
+        "name": "Naval Interception I",
+        "uniques": ["[+25]% Damage when intercepting"],
+        "unitTypes": ["Melee Water"]
+    },
+    {
+        "name": "Naval Interception II",
+        "prerequisites": ["Naval Interception I"],
+        "uniques": ["[+25]% Damage when intercepting"],
+        "unitTypes": ["Melee Water"]
+    },
+    {
+        "name": "Naval Interception III",
+        "prerequisites": ["Naval Interception II"],
+        "uniques": [
+            "[+100]% Strength <vs [Bomber] units>",
+            "[+100]% Strength <vs [Fighter] units>"
+        ],
+        "unitTypes": ["Melee Water"]
+    },
     /*{
         "name": "Landing Party",
         "uniques": ["Eliminates combat penalty for attacking across a coast"],
@@ -334,7 +354,7 @@
     // Mixed Water
     {
         "name" : "Supply",
-        "prerequisites": ["Bombardment II", "Targeting II", "Boarding Party II", "Coastal Raider II","Wolfpack II","Flight Deck II","Armor Plating II"],
+        "prerequisites": ["Bombardment II", "Targeting II", "Boarding Party II", "Naval Interception II", "Coastal Raider II","Wolfpack II","Flight Deck II","Armor Plating II"],
         "uniques": [
             "May heal outside of friendly territory",
             "[+15] HP when healing <in [Foreign Land] tiles>"
@@ -511,20 +531,20 @@
     {
         "name": "Mobility",
         "prerequisites": ["Shock III","Drill III","Ambush Formation III","Targeting I",
-            "Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
+            "Bombardment I","Boarding Party I","Naval Interception I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
         "uniques": ["[+1] Movement"],
         "unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
     },
     {
         "name": "Sentry",
-        "prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Ambush Formation II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+        "prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Ambush Formation II","Bombardment I","Targeting I","Boarding Party I","Naval Interception I","Coastal Raider I"],
         "uniques": ["[+1] Sight"],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
     },
     {
         "name": "Logistics",
         "prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting III", "Wolfpack III",
-            "Bombardment III", "Coastal Raider III","Boarding Party III","Siege III","Ambush Formation III","Heli Anti-Naval III","Air Targeting III"],
+            "Bombardment III","Naval Interception III", "Coastal Raider III","Boarding Party III","Siege III","Ambush Formation III","Heli Anti-Naval III","Air Targeting III"],
         "uniques": [
             "[1] additional attacks per turn",
             "Can move after attacking"

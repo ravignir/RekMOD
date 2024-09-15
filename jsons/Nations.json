@@ -57,8 +57,9 @@
         "innerColor": [190, 146, 61],
         "uniqueName": "Saint Elesbaan's Blessing",
         "uniques": [
-            "[+1 Production, +2 Faith] from every [Quarry]",
-            "[+1 Faith] from every [Quarry] <after discovering [Theology]>"
+            // Something Something Religion goes to every city immedietely
+            // Something Something Religion doesn't spread to other cities
+            //Note: this requires a unique regarding what it spreads to, not from
         ],
         "cities": [
             "Aksum","Adulis","Qohaito","Matara","Yeha","Hawulti","Massawa","Zeila","Lalibela","Addi Galamo",
@@ -435,8 +436,10 @@
         "innerColor": [38, 41, 80],
         "uniqueName": "The Great Trek",
         "uniques": [
-            "[+1 Food] from every [Farm] <in tiles without [Fresh Water]>",
-            "[+1 Culture] from every [Farm] <after discovering [Fertilizer]>"
+            "[+1 Food] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
+            "[+1 Gold] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
+            "[+1 Production] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>",
+            "[+1 Culture, +1 Science] from every [Farm] <with [6] to [6] neighboring [Farm] tiles>"
         ],
         "cities": [ //Tweebuffelsmeteenskootmorsdoodgeskietfontein
             "Pretoria","Bloemfontein","Johannesburg","Pietermaritzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof",
@@ -469,6 +472,7 @@
             "[Great Artist] is earned [100]% faster <during a Golden Age>",
             "[Great Writer] is earned [100]% faster <during a Golden Age>",
             "[Great Musician] is earned [100]% faster <during a Golden Age>"
+            // Golden Age points from kills
         ],
         "cities": [
             "Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -1136,7 +1140,8 @@
         "uniqueName": "Bronze and Iron",
         "uniques": [
             "Starts with [Mining]",
-            "[+1 Gold] from every [Mine]"
+            "[+1 Gold] from every [Mine]",
+            "[+2 Gold] from every [Mine] <with [3] to [6] neighboring [Mine] tiles>"
         ],
         "cities": [
             "Hattusa","Nesa","Kussara","Tuwanuwa","Hupisna","Purushanda","Samuha","Lusna","Alacohoyuk","Sapinuwa",
@@ -1715,7 +1720,17 @@
         "outerColor": [255,246,13],
         "innerColor": [8,117,46],
         "uniqueName": "Sacred Hills of Imerina",
-        "uniques": ["[+6 Culture, +6 Faith] from every [Holy site]"],
+        "uniques": [
+            "[Faith] cost of purchasing items in cities [-33]%",
+            "[+1 Culture, +1 Faith] from every [Holy site]",
+            "Comment [[[+1 Culture, +1 Faith] from every [Holy site]] [from each adjecent [Holy site]]]",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [1] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [2] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [3] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [4] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [5] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [6] to [6] neighboring [Holy site] tiles> <hidden from users>"
+        ],
         "cities": [
             "Antananarivo","Ambohimanga","Ambohitrabiby","Ambohidratrimo","Analamanga","Antsahadinta","Ambatofinandrahana","Ambohimahamasina","Amparafaravola","Antsirambazaha",
             "Arivonimamo","Ambohijoky","Antongona","Antsirabe","Antsiranana","Ambovombe","Ambalavao","Ambatondrazaka","Tsinjoarivo","Imerimanjaka",
@@ -2266,7 +2281,8 @@
         "innerColor": [234,201,52],
         "uniqueName": "Skillful Traders",
         "uniques": [
-            "Provides [2] [Trade Route]",
+            "Gain [50] [Gold] <(modified by game speed)> <upon founding a city> <after discovering [Optics]>",
+            "[+1] population [in this city] <upon founding a city> <after discovering [Optics]>",
             "Free [Square Sail Ship] appears <upon discovering [Sailing] technology>"
         ],
         "cities": [
@@ -2806,13 +2822,13 @@
         "uniqueName": "Eightfold Path to Nirvana",
         "uniques": [
             "[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] [in capital] <after discovering [Drama and Poetry]>",
-            "Comment [[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] in capital after discovering [Education], [Acoustics], [Industrialization], [Radio], [Radar] and [Telecommunications]]",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Education]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Acoustics]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Industrialization]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Radio]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Radar]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Telecommunications]> <hidden from users>"
+            "Comment [[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] [for every era after [Classical era]]]",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Medieval era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Renaissance era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Industrial era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Modern era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Atomic era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Information era]> <hidden from users>"
         ],
         "cities": [
             "Lhasa","Xigaze","Qamdo","Nagqu","Lhoka","Nyingchi","Ngari","Chengguan","Doilungdeqen","Lhunzhub",
