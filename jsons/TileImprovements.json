@@ -731,18 +731,19 @@
     {
         // NOTE: NEEDS A SPRITE
         "name": "Rock-hewn church",
-        "uniqueTo": "Inca",
-        "terrainsCanBeBuiltOn": ["Hill"],
-        "faith": 1,
+        "uniqueTo": "Aksum",
+        "techRequired": "Masonry",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "faith": 2,
         "turnsToBuild": 7,
         "uniques": [
-            "[+1 Food] for each adjacent [Mountain]",
-            "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-            "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "[+1 Faith] <after discovering [Theology]>",
+            "Comment[[+1 Faith] to every adjacent [Quarry]]",  // Implemented in Global temporarily
+            //"Comment[[+2 Faith] to every unit ending their turn]", // Lacking good support
             "Cannot be built on [resource] tiles",
+            "Only available <with [0] to [0] neighboring [Rock-hewn church] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ],
-        "techRequired": "Construction",
         "shortcutKey": "F"
     },
 

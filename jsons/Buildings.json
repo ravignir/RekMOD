@@ -797,13 +797,16 @@
         "name": "Rova",
         "replaces": "Walls",
         "uniqueTo": "Madagascar",
-        "faith": 3,
-        "happiness": 1,
+        "faith": 2,
+        "food": 2,
         "cityStrength": 5,
         "cityHealth": 50,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
-        "uniques": ["Destroyed when the city is captured"]
+        "uniques": [
+            "Can be purchased for [225] [Faith] [in all cities]",
+            "Destroyed when the city is captured"
+        ]
     },
     {
         "name": "The Pyramids",
@@ -1095,7 +1098,6 @@
         "name": "Mead Hall",
         "replaces": "Colosseum",
         "uniqueTo": "Franks",
-        "maintenance": 1,
         "happiness": 3,
         "culture": 1,
         "hurryCostModifier": 25,
@@ -1162,19 +1164,6 @@
         "requiredTech": "Philosophy"
     },
     {
-        "name": "Yeshiva",
-        "replaces": "Temple",
-        "uniqueTo": "Israel",
-        "cost": 120,
-        "food": 1,
-        "production": 1,
-        "faith": 2,
-        "requiredBuilding": "Shrine",
-        "maintenance": 2,
-        "hurryCostModifier": 25,
-        "requiredTech": "Philosophy"
-    },
-    {
         "name": "Stave Church",
         "replaces": "Temple",
         "uniqueTo": "Norway",
@@ -1221,6 +1210,26 @@
             "Cost increases by [30] per owned city"
         ],
         "requiredTech": "Philosophy"
+    },
+    {
+        "name": "King Soloman's Temple",
+        "replaces": "National College",
+        "uniqueTo": "Israel",
+        "cost": 125,
+        "science": 3,
+        "faith": 3,
+        "culture": 1,
+        "percentStatBonus": {"science": 50},
+        "isNationalWonder": true,
+        "requiredTech": "Philosophy",
+        "uniques": [
+            "Unbuildable",
+            "Can be purchased for [450] [Gold] [in all cities]",
+            "Can be purchased for [390] [Faith] [in all cities]",
+            "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+            "Gain [75] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
+            "Gain [75] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>"
+        ]
     },
     {
         "name": "The Oracle",

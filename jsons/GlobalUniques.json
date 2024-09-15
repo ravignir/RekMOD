@@ -25,5 +25,13 @@
         // "[+20]% [Production] [in cities connected via railroad]"
 
         // something something unit supply
+
+        // Temporary "Needs actual support" uniques
+        "[+1 Faith] from every [Quarry] <with [1] to [6] neighboring [Rock-hewn church] tiles>",
+        "[+1 Faith] from every [Quarry] <with [2] to [6] neighboring [Rock-hewn church] tiles>",
+        "[+1 Faith] from every [Quarry] <with [3] to [6] neighboring [Rock-hewn church] tiles>",
+        "[+1 Faith] from every [Quarry] <with [4] to [6] neighboring [Rock-hewn church] tiles>",
+        "[+1 Faith] from every [Quarry] <with [5] to [6] neighboring [Rock-hewn church] tiles>",
+        "[+1 Faith] from every [Quarry] <with [6] to [6] neighboring [Rock-hewn church] tiles>"
     ]
 }
