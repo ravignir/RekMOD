@@ -738,7 +738,7 @@
         "turnsToBuild": 7,
         "uniques": [
             "[+1 Faith] <after discovering [Theology]>",
-            "Comment[[+1 Faith] to every adjacent [Quarry]]",  // Implemented in Global temporarily
+            "Comment [[+1 Faith] to every adjacent [Quarry]]",  // Implemented in Global temporarily
             //"Comment[[+2 Faith] to every unit ending their turn]", // Lacking good support
             "Cannot be built on [resource] tiles",
             "Only available <with [0] to [0] neighboring [Rock-hewn church] tiles>",
