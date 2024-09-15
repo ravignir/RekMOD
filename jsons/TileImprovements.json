@@ -743,8 +743,7 @@
             "Cannot be built on [resource] tiles",
             "Only available <with [0] to [0] neighboring [Rock-hewn church] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
-        ],
-        "shortcutKey": "F"
+        ]
     },
 
     // Unbuildable improvements
