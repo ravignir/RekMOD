@@ -268,7 +268,7 @@
             "Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Consumes [1] [Trade Route]",
-            "Only available <for [non-[City-States]]>",
+            "Only available <for [non-[City-States]] Civilizations>",
             "Uncapturable",
             "No Sight"
         ],
@@ -285,7 +285,7 @@
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Consumes [1] [Trade Route]",
-            "Only available <for [non-[City-States]]>",
+            "Only available <for [non-[City-States]] Civilizations>",
             "Uncapturable",
             "No Sight"
         ],
