@@ -44,6 +44,6 @@
     {
         "name": "holySymbols",
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain [20] [Faith] <(modified by game speed)> <after turn number [15]>"]
+        "uniques": ["Only available <when religion is enabled>", "Gain [20] [Faith] <(modified by game speed)> <after turn number [15]>"]
         }
 ]

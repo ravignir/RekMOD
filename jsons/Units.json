@@ -2970,7 +2970,7 @@
             "Unbuildable",
             "Uncapturable",
             "Religious Unit",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "[-1] Sight",
             "Takes your religion over the one in their birth city"
         ],
@@ -2994,7 +2994,7 @@
             "Unbuildable",
             "Uncapturable",
             "Religious Unit",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Takes your religion over the one in their birth city"
         ],
         "movement": 4,
@@ -3010,7 +3010,7 @@
             "Great Person - [Faith]",
             "Uncapturable",
             "Unbuildable",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
         ],
         "movement": 4
     },
@@ -3104,7 +3104,7 @@
             "[-1] Sight",
             "Unbuildable",
             "Religious Unit",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "movement": 4,
         "religiousStrength": 1000
@@ -3118,7 +3118,7 @@
 			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "[+1] Sight",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit"
         ],
@@ -3138,7 +3138,7 @@
 			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "[+1] Sight",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit"
         ],
