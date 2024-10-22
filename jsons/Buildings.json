@@ -1223,6 +1223,7 @@
         "isNationalWonder": true,
         "requiredTech": "Philosophy",
         "uniques": [
+            "Shown while unbuilable",
             "Unbuildable",
             "Can be purchased for [450] [Gold] [in all cities]",
             "Can be purchased for [390] [Faith] [in all cities]",
