@@ -2323,7 +2323,7 @@
         "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ],
         "requiredTech": "Banking"
@@ -2338,7 +2338,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 5,"production": 5},
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ]
     },
@@ -3038,7 +3038,7 @@
         "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ],
         "requiredBuilding": "Constabulary",
@@ -3168,7 +3168,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "Gain an extra spy",
             "Promotes all spies",
             "[-15]% enemy spy effectiveness [in this city]",
@@ -3393,7 +3393,7 @@
         "name": "Great Firewall",
         "isWonder": true,
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in all cities]"
         ],
