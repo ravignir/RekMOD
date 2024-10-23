@@ -1427,6 +1427,9 @@
         "requiredTech": "Steel",
         "upgradesTo": "Musketman",
         "obsoleteTech": "Gunpowder",
+        "uniques" :[
+            "[This Unit] heals [25] HP <upon defeating a [All] unit>"
+        ],
         "attackSound": "metalhit"
     },
     {
@@ -2128,6 +2131,7 @@
         "movement": 6,
         "strength": 15,
         "cost": 150,
+        "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Steam Power",
         "uniques": [
             "No defensive terrain bonus",
@@ -2135,7 +2139,8 @@
             "Unable to capture cities",
             "Unable to pillage tiles",
             "Cannot attack",
-            "[+2] Sight"
+            "[+2] Sight",
+            "May upgrade to [Airship] through ruins-like effects"
         ],
         "attackSound": "machinegun"
     },
@@ -2359,7 +2364,10 @@
         "strength": 80,
         "cost": 410,
         "requiredTech": "Electronics",
-        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+        "uniques": [
+            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
+            "Can move after attacking"
+        ],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
@@ -2483,17 +2491,20 @@
     {
         "name": "Destroyer",
         "unitType": "Melee Water",
-        "movement": 6,
+        "movement": 7,
         "strength": 60,
         "interceptRange": 2,
-        "cost": 410,
+        "cost": 420,
         "requiredTech": "Combustion",
+        "obsoleteTech": "Lasers",
+        "upgradesTo": "Heavy Cruiser",
         "uniques": [
             "Can see invisible [Submarine] units",
             "[100]% chance to intercept air attacks",
             "Can move after attacking",
             "Withdraws before melee combat <with [80]% chance>",
-            "[+100]% Strength <vs [Submarine] units>"
+            "[+100]% Strength <vs [Submarine] units>",
+            "[-50]% Damage when intercepting"
         ],
         "attackSound": "shipguns"
     },
@@ -2765,12 +2776,12 @@
         "strength": 80,
         "rangedStrength": 100,
         "range": 3,
-        "interceptRange": 2,
+        //"interceptRange": 3,
         "cost": 510,
         "requiredTech": "Robotics",
         "requiredResource": "Aluminum",
         "uniques": [
-            "[100]% chance to intercept air attacks",
+            //"[100]% chance to intercept air attacks",
             "Can carry [3] [Missile] units",
             "Never appears as a Barbarian unit"
         ],
@@ -2811,6 +2822,25 @@
             "Can see over obstacles"
         ],
         "attackSound": "jetgun"
+    },
+    {
+        //NOTE: NEEDS A SPRITE
+        "name": "Heavy Cruiser",
+        "unitType": "Melee Water",
+        "movement": 8,
+        "strength": 80,
+        "interceptRange": 2,
+        "cost": 465,
+        "requiredTech": "Lasers",
+        "uniques": [
+            "Can see invisible [Submarine] units",
+            "[100]% chance to intercept air attacks",
+            "Can move after attacking",
+            "Withdraws before melee combat <with [80]% chance>",
+            "[+100]% Strength <vs [Submarine] units>",
+            "[-50]% Damage when intercepting"
+        ],
+        "attackSound": "shipguns"
     },
     {
         "name": "Giant Death Robot",
