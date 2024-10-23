@@ -2770,7 +2770,6 @@
         "attackSound": "tankshot"
     },
     {
-        //NOTE: NEEDS A SPRITE
         "name": "Missile Cruiser",
         "unitType": "Ranged Water",
         "movement": 7,
@@ -2825,6 +2824,7 @@
         "attackSound": "jetgun"
     },
     {
+        //NOTE: NEEDS A SPRITE
         "name": "Heavy Cruiser",
         "unitType": "Melee Water",
         "movement": 8,
