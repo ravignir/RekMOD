@@ -9,3 +9,23 @@ Contains stuff from mods:
 - FantasyHex Black Arquebusier art done by Sacafan
 - [Feather](https://thenounproject.com/term/feather/1628/) By Eduardo Souza for Constitution
 - Violin by SHAHAREA from [Noun Project](https://thenounproject.com/browse/icons/term/violin/) (CC BY 3.0)
+- [Revolution Fist](https://thenounproject.com/icon/revolution-fist-398854/) by Jarem Frye for Cultural Revolution
+- [Explore](https://thenounproject.com/icon/explore-6697620/) by Creative Iconix for Exploration
+- [spy](https://thenounproject.com/icon/spy-5040795/) by Zeeshan Afzal for Double Agents
+- [Army Helmet](https://thenounproject.com/icon/army-helmet-5803647/) by 4ubrand for People's Army
+- [Pilot](https://thenounproject.com/icon/pilot-6304259/) by sulis setiyo for Arsenal of Democracy
+- [Baby](https://thenounproject.com/icon/baby-6996109/) by Humam for Resettlements
+- [Space Ship](https://thenounproject.com/icon/space-ship-357760/) by Ralf Schmitzer for Spaceflight Pioneers
+- [Incognito](https://thenounproject.com/icon/incognito-43596/) by Alen Krummenacher for Covert Action
+- [Art](https://thenounproject.com/icon/art-7296246/) by indah rusiati for Creative Expression
+- [Money](https://thenounproject.com/icon/money-7316401/) by icon 5 for Economic Union
+- [Mind](https://thenounproject.com/icon/mind-4602116/) by Ilham Fitrotul Hayat for Free Mind
+- [Start Up](https://thenounproject.com/icon/start-up-5993269/) by my for Space Procurements
+- [Specialist](https://thenounproject.com/icon/specialist-2762906/) by visual language for Treaty Organization
+- [all seeing eye](https://thenounproject.com/icon/all-seeing-eye-96280/) by Kyle Tezak for Cult of Personality
+- [Future](https://thenounproject.com/icon/future-6004550/) by iconmas for Futurism
+- [Knife](https://thenounproject.com/icon/knife-302762/) by parkjisun for Gunboat Diplomacy
+- [Preview Pane](https://thenounproject.com/icon/preview-pane-5625396/) by M. Oki Orlando for Industrial Espionage
+- [Fist](https://thenounproject.com/icon/fist-7312433/) by Annisa for Iron Fist
+- [Lightning](https://thenounproject.com/icon/lightning-5178353/) by MihiMihi for Lightning Warfare
+- [Idea](https://thenounproject.com/icon/idea-7336528/) by NAPISAH for Ideology
