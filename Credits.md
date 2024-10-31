@@ -50,6 +50,7 @@ Contains stuff from mods:
 
 - [Factory](https://thenounproject.com/icon/factory-1559700/) by iconsphere for Factories
 - [Policy](https://thenounproject.com/icon/policy-6460485/) by Dewanata Visuals for Policies
+- [Coconut](https://thenounproject.com/icon/coconut-3418890/) by yandi kiem lie
 
 ## Units
 
