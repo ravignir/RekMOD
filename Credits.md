@@ -29,3 +29,32 @@ Contains stuff from mods:
 - [Fist](https://thenounproject.com/icon/fist-7312433/) by Annisa for Iron Fist
 - [Lightning](https://thenounproject.com/icon/lightning-5178353/) by MihiMihi for Lightning Warfare
 - [Idea](https://thenounproject.com/icon/idea-7336528/) by NAPISAH for Ideology
+
+## Buildings
+
+- [Poem](https://thenounproject.com/icon/poem-7114623/) by WR Graphic Garage for Amphitheater Great Writing Slot
+- [Museum](https://thenounproject.com/icon/museum-7343753/) by Ali Nur Rohman for Art Hall
+- [Tomb](https://thenounproject.com/icon/tomb-3984836/) by Icon Market for Ayyubid Burial Tomb
+- [Castle](https://thenounproject.com/icon/castle-7264302/) by ahmadwil for Feitoria
+- [Idea](https://thenounproject.com/icon/idea-7336528/) by NAPISAH for Center of Progress
+- [Art](https://thenounproject.com/icon/art-7296246/) by indah rusiati for Fine Art Specialist
+- [Ski](https://thenounproject.com/icon/ski-4704572/) by Flowicon for Ski Resort
+- [Kosmaj](https://thenounproject.com/icon/kosmaj-4484884/) by Marin for Spomenik
+- [Donkey](https://thenounproject.com/icon/donkey-7259233/) by Iconiyo for Yam Route
+- [Artist](https://thenounproject.com/icon/artist-7290494/) by Serena for Artist Guild
+- [Borobudur](https://thenounproject.com/icon/borobudur-5532295/) by Selot Lo
+- [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu for Broadway
+- [Temple](https://thenounproject.com/icon/temple-7321361/) by Fauzi Arts for King Soloman's Temple
+
+## Resources
+
+- [Factory](https://thenounproject.com/icon/factory-1559700/) by iconsphere for Factories
+- [Policy](https://thenounproject.com/icon/policy-6460485/) by Dewanata Visuals for Policies
+- [Coconut](https://thenounproject.com/icon/coconut-3418890/) by yandi kiem lie
+
+## Units
+
+- [Rifle](https://thenounproject.com/icon/rifle-4424066/) by ka reemov for Anti-Tank Rifle
+- [War Ship](https://thenounproject.com/icon/war-ship-5307671/) by SHAHAREA for Heavy Cruiser
+- [Tank](https://thenounproject.com/icon/tank-7284085/) by Taewon Kang for M-84
+- [Halberd](https://thenounproject.com/icon/halberd-440848/) by Parkjisun for Reislaufer
