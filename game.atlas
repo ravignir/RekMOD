@@ -801,6 +801,20 @@ UnitIcons/Heavy Cruiser
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Hetairoi
+  rotate: false
+  xy: 420, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hetairoi
+  rotate: false
+  xy: 420, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Koa
   rotate: false
   xy: 212, 628
@@ -1018,20 +1032,6 @@ UnitIcons/Swiss Guard
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Hetairoi
-  rotate: false
-  xy: 420, 1460
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Hetairoi
-  rotate: false
-  xy: 420, 1460
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 
 game3.png
 size: 2048, 2048
@@ -1089,28 +1089,28 @@ BuildingIcons/Candi
   index: -1
 BuildingIcons/Caravan
   rotate: false
-  xy: 517, 548
+  xy: 536, 440
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Land Trade Route (Food)
   rotate: false
-  xy: 517, 548
+  xy: 536, 440
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Land Trade Route (Gold)
   rotate: false
-  xy: 517, 548
+  xy: 536, 440
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Land Trade Route (Production)
   rotate: false
-  xy: 517, 548
+  xy: 536, 440
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1124,28 +1124,28 @@ BuildingIcons/Caravansary
   index: -1
 BuildingIcons/Cargo Ship
   rotate: false
-  xy: 595, 224
+  xy: 595, 116
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sea Trade Route (Food)
   rotate: false
-  xy: 595, 224
+  xy: 595, 116
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sea Trade Route (Gold)
   rotate: false
-  xy: 595, 224
+  xy: 595, 116
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sea Trade Route (Production)
   rotate: false
-  xy: 595, 224
+  xy: 595, 116
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1153,20 +1153,6 @@ ImprovementIcons/Sea Trade Route (Production)
 BuildingIcons/Censer Maker
   rotate: false
   xy: 528, 1519
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Cloves
-  rotate: false
-  xy: 528, 1303
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cloves
-  rotate: false
-  xy: 528, 1303
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1311,20 +1297,6 @@ BuildingIcons/National Visitor's Center
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nutmeg
-  rotate: false
-  xy: 1027, 7
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Nutmeg
-  rotate: false
-  xy: 1027, 7
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Ocupada Estable
   rotate: false
   xy: 1068, 1735
@@ -1377,20 +1349,6 @@ BuildingIcons/Painted Monastery
 BuildingIcons/Parthenon
   rotate: false
   xy: 960, 979
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pepper
-  rotate: false
-  xy: 960, 763
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Pepper
-  rotate: false
-  xy: 960, 763
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2151,6 +2109,20 @@ ResourceIcons/Bison
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Cloves
+  rotate: false
+  xy: 528, 1303
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cloves
+  rotate: false
+  xy: 528, 1303
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Cocoa
   rotate: false
   xy: 528, 1195
@@ -2200,9 +2172,37 @@ ResourceIcons/Maize
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Nutmeg
+  rotate: false
+  xy: 1027, 7
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nutmeg
+  rotate: false
+  xy: 1027, 7
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Olives
   rotate: false
   xy: 960, 1411
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Pepper
+  rotate: false
+  xy: 960, 763
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pepper
+  rotate: false
+  xy: 960, 763
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3301,7 +3301,7 @@ TileSets/5Hex/Units/Ulan-3
   index: -1
 TileSets/AbsoluteUnits/Units/Anti-Tank Rifle
   rotate: false
-  xy: 1469, 1583
+  xy: 1551, 11
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3679,7 +3679,7 @@ TileSets/HexaRealm/Tiles/Sea Trade Route (Production)-Renaissance era
   index: -1
 TileSets/HexaRealm/Units/Anti-Tank Rifle
   rotate: false
-  xy: 1551, 11
+  xy: 1469, 1583
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3749,14 +3749,14 @@ UnitIcons/Black Arquebusier
   index: -1
 UnitIcons/Caravan
   rotate: false
-  xy: 536, 440
+  xy: 517, 548
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cargo Ship
   rotate: false
-  xy: 595, 116
+  xy: 595, 224
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3953,6 +3953,20 @@ UnitIcons/Pracinha
 UnitIcons/Siege Tower
   rotate: false
   xy: 1068, 1087
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ski Infantry
+  rotate: false
+  xy: 1068, 871
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ski Infantry
+  rotate: false
+  xy: 1068, 871
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -4158,20 +4172,6 @@ UnitPromotionIcons/Mystic Blade
   xy: 1988, 1051
   size: 50, 50
   orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ski Infantry
-  rotate: false
-  xy: 1068, 871
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ski Infantry
-  rotate: false
-  xy: 1068, 871
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/War Canoes
