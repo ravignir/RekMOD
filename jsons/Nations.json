@@ -2345,7 +2345,7 @@
         "uniques": [
             "Enables embarkation for land units",
             "Enables [All] units to enter ocean tiles",
-            "Defense bonus when embarked <for [All] units>",
+            "[+100]% Strength <when defending> <when [Embarked]> <for [All] units>",
             "[+1] Movement <for [Embarked] units>",
             "[+2] Sight <for [Embarked] units>",
             "[+10]% Strength <within [2] tiles of a [Moai]>"
