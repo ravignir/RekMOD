@@ -32,7 +32,7 @@ Contains stuff from mods:
 
 ## Buildings
 
-- [Poem](https://thenounproject.com/icon/poem-7114623/) by WR Graphic Garage for Amphitheater Great Writing Slot
+- [Poem](https://thenounproject.com/icon/poem-7114623/) by WR Graphic Garage for Great Writing Slots
 - [Museum](https://thenounproject.com/icon/museum-7343753/) by Ali Nur Rohman for Art Hall
 - [Tomb](https://thenounproject.com/icon/tomb-3984836/) by Icon Market for Ayyubid Burial Tomb
 - [Castle](https://thenounproject.com/icon/castle-7264302/) by ahmadwil for Feitoria
@@ -45,6 +45,16 @@ Contains stuff from mods:
 - [Borobudur](https://thenounproject.com/icon/borobudur-5532295/) by Selot Lo
 - [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu for Broadway
 - [Temple](https://thenounproject.com/icon/temple-7321361/) by Fauzi Arts for King Soloman's Temple
+- [Mansion](https://thenounproject.com/icon/mansion-1961039/) by Smalllike for Governor's Mansion
+- [Music Book](https://thenounproject.com/icon/music-book-5459277/) by Brickclay for Great Music Slots
+- [History Book](https://thenounproject.com/icon/history-book-6890075/) by Designing Hub for Writing Auditorim
+- [Drawing](https://www.freepik.com/icon/drawing_9014817#fromView=search&page=2&position=73&uuid=7026c7ed-a47e-4f25-b545-6840bce063f1) by kmg design for Great Art Slots
+- [Oil Factory](https://thenounproject.com/icon/oil-factory-6694218/) by BinikSol for BMPC Plant
+- [Globe Theatre](https://thenounproject.com/icon/globe-theatre-5286089/) by Lia Thompson for Globe Theatre
+- [Hermitage](https://thenounproject.com/icon/russian-museum-4944136/) by Amethyst Studio for Hermitage GW slots
+- [Blue mosque](https://www.freepik.com/icon/blue-mosque_763021) by Freepik for Vocal Chamber
+- [Palace](https://www.freepik.com/icon/palace_5897551#fromView=search&page=1&position=7&uuid=d03c19a5-f888-474b-95ab-338464228e1f) by Kanyanee Watanajitkasem for Great Canal of Venice
+- [Castle](https://thenounproject.com/icon/castle-7245381/) by Amir Ali for Castle Builders
 
 ## Resources
 
