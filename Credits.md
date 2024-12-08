@@ -29,10 +29,12 @@ Contains stuff from mods:
 - [Fist](https://thenounproject.com/icon/fist-7312433/) by Annisa for Iron Fist
 - [Lightning](https://thenounproject.com/icon/lightning-5178353/) by MihiMihi for Lightning Warfare
 - [Idea](https://thenounproject.com/icon/idea-7336528/) by NAPISAH for Ideology
+- [Teamwork](https://www.freepik.com/icon/teamwork_6321379#fromView=search&page=1&position=30&uuid=ae02d268-a17d-4a63-bd6b-724cba646173) by Aficons studio for Cultural Revolution
+- [Tools](https://www.freepik.com/icon/construction-tools_10364500#fromView=search&page=1&position=0&uuid=d7e23f69-0cca-4044-8f4d-3e8b7a64a30e) by IconMarketPK for Worker Faculties
 
 ## Buildings
 
-- [Poem](https://thenounproject.com/icon/poem-7114623/) by WR Graphic Garage for Amphitheater Great Writing Slot
+- [Poem](https://thenounproject.com/icon/poem-7114623/) by WR Graphic Garage for Great Writing Slots
 - [Museum](https://thenounproject.com/icon/museum-7343753/) by Ali Nur Rohman for Art Hall
 - [Tomb](https://thenounproject.com/icon/tomb-3984836/) by Icon Market for Ayyubid Burial Tomb
 - [Castle](https://thenounproject.com/icon/castle-7264302/) by ahmadwil for Feitoria
@@ -45,6 +47,23 @@ Contains stuff from mods:
 - [Borobudur](https://thenounproject.com/icon/borobudur-5532295/) by Selot Lo
 - [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu for Broadway
 - [Temple](https://thenounproject.com/icon/temple-7321361/) by Fauzi Arts for King Soloman's Temple
+- [Mansion](https://thenounproject.com/icon/mansion-1961039/) by Smalllike for Governor's Mansion
+- [Music Book](https://thenounproject.com/icon/music-book-5459277/) by Brickclay for Great Music Slots
+- [History Book](https://thenounproject.com/icon/history-book-6890075/) by Designing Hub for Writing Auditorim
+- [Drawing](https://www.freepik.com/icon/drawing_9014817#fromView=search&page=2&position=73&uuid=7026c7ed-a47e-4f25-b545-6840bce063f1) by kmg design for Great Art Slots
+- [Oil Factory](https://thenounproject.com/icon/oil-factory-6694218/) by BinikSol for BMPC Plant
+- [Globe Theatre](https://thenounproject.com/icon/globe-theatre-5286089/) by Lia Thompson for Globe Theatre
+- [Hermitage](https://thenounproject.com/icon/russian-museum-4944136/) by Amethyst Studio for Hermitage GW slots
+- [Blue mosque](https://www.freepik.com/icon/blue-mosque_763021) by Freepik for Vocal Chamber
+- [Palace](https://www.freepik.com/icon/palace_5897551#fromView=search&page=1&position=7&uuid=d03c19a5-f888-474b-95ab-338464228e1f) by Kanyanee Watanajitkasem for Great Canal of Venice
+- [Castle](https://thenounproject.com/icon/castle-7245381/) by Amir Ali for Castle Builders
+- [Cathedral](https://www.freepik.com/icon/christ-church_5389472#fromView=search&page=2&position=12&uuid=7bf75c9e-4568-44af-be88-758293ee8b25) by Amethyst prime for Cathedral of Vilnius
+- [Temple](https://www.freepik.com/icon/temple_5967676#fromView=search&page=7&position=6&uuid=62989b46-b1ed-4e91-8811-0a27cf5833e5) by Freepik for Huey Teocalli
+- [Violin](https://www.freepik.com/icon/violin_1667732#fromView=search&page=1&position=23&uuid=d0b64c46-14d1-4da6-aef4-7400f2bb9d7d) by andinur for Musician Guild
+- [Scroll](https://www.freepik.com/icon/scroll_2328602#fromView=search&page=2&position=5&uuid=31ce2c47-a2a0-43b7-89c6-ef301c99663b) by Eucalyp for Writing Guild
+- [Igloo](https://www.freepik.com/icon/igloo_7658414#fromView=search&page=2&position=21&uuid=79b64564-ec97-4883-94a9-a867e1860917) by Freepik for Rocke-hewn church
+- [Minar](https://www.freepik.com/icon/qutb-minar_3186670#fromView=search&page=1&position=20&uuid=b5a934d7-7209-4ba9-8158-43954e56a2a1) by surang for Minaa
+- [Dock](https://thenounproject.com/icon/dock-4489742/) by Flowicon for Dry Dock
 
 ## Resources
 
