@@ -1159,28 +1159,28 @@ BuildingIcons/Candi
   index: -1
 BuildingIcons/Caravan
   rotate: false
-  xy: 112, 444
+  xy: 220, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Land Trade Route (Food)
   rotate: false
-  xy: 112, 444
+  xy: 220, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Land Trade Route (Gold)
   rotate: false
-  xy: 112, 444
+  xy: 220, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Land Trade Route (Production)
   rotate: false
-  xy: 112, 444
+  xy: 220, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1194,28 +1194,28 @@ BuildingIcons/Caravansary
   index: -1
 BuildingIcons/Cargo Ship
   rotate: false
-  xy: 436, 444
+  xy: 544, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sea Trade Route (Food)
   rotate: false
-  xy: 436, 444
+  xy: 544, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sea Trade Route (Gold)
   rotate: false
-  xy: 436, 444
+  xy: 544, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sea Trade Route (Production)
   rotate: false
-  xy: 436, 444
+  xy: 544, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1223,20 +1223,6 @@ ImprovementIcons/Sea Trade Route (Production)
 BuildingIcons/Censer Maker
   rotate: false
   xy: 976, 444
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Cloves
-  rotate: false
-  xy: 1673, 437
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cloves
-  rotate: false
-  xy: 1673, 437
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1374,20 +1360,6 @@ BuildingIcons/National Visitor's Center
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nutmeg
-  rotate: false
-  xy: 112, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Nutmeg
-  rotate: false
-  xy: 112, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Ocupada Estable
   rotate: false
   xy: 220, 12
@@ -1440,20 +1412,6 @@ BuildingIcons/Painted Monastery
 BuildingIcons/Parthenon
   rotate: false
   xy: 1084, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pepper
-  rotate: false
-  xy: 1192, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Pepper
-  rotate: false
-  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1578,6 +1536,13 @@ BuildingIcons/The Way of Chumaks
   offset: 0, 0
   index: -1
 BuildingIcons/Trade Harbor
+  rotate: false
+  xy: 628, 968
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trade Harbour
   rotate: false
   xy: 628, 968
   size: 200, 200
@@ -1962,6 +1927,20 @@ ResourceIcons/Bison
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Cloves
+  rotate: false
+  xy: 1673, 437
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cloves
+  rotate: false
+  xy: 1673, 437
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Cocoa
   rotate: false
   xy: 1192, 436
@@ -2011,9 +1990,37 @@ ResourceIcons/Maize
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Nutmeg
+  rotate: false
+  xy: 112, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nutmeg
+  rotate: false
+  xy: 112, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Olives
   rotate: false
   xy: 652, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Pepper
+  rotate: false
+  xy: 1192, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pepper
+  rotate: false
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2125,14 +2132,14 @@ UnitIcons/Black Arquebusier
   index: -1
 UnitIcons/Caravan
   rotate: false
-  xy: 220, 444
+  xy: 112, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cargo Ship
   rotate: false
-  xy: 544, 444
+  xy: 436, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
