@@ -169,7 +169,20 @@
         "culture": 5,
         "uniques": [
             "Unbuildable","Unsellable",
+            "Comment [Has 1 Great Work of Art Slot]",
             "Only available <when religion is enabled>"
+        ]
+    },
+    {
+        "name": "Cathedral Great Art Slot",
+        "culture": 2,
+        "cost": 0,
+        "requiredResource": "Great Work of Art",
+        "uniques": [
+            "Great Work", "GW Art",
+            "Only available <in cities with a [Cathedral]>",
+            "Provides [1] [Great Work of Art]",
+            "Instantly consumes [1] [Great Work of Art]"
         ]
     },
     {
@@ -184,6 +197,7 @@
     },
     {
         "name": "Pagoda",
+        "faith": 2,
         "culture": 1,
         "happiness": 1,
         "uniques": [
@@ -218,6 +232,7 @@
         "name": "Vihara",
         "faith": 1,
         "happiness": 1,
+        "specialistSlots": {"Merchant": 1},
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
