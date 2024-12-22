@@ -161,8 +161,8 @@
         "innerColor": [244, 244, 86],
         "uniqueName": "Pride of the People",
         "uniques": [
-            "[-50]% construction time for [Pasture] improvements",
-            "[-50]% construction time for [Farm] improvements"
+            "Can build [Pasture] improvements at a [+50]% rate",
+            "Can build [Farm] improvements at a [+50]% rate"
         ],
         "cities": [
             "Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
@@ -312,7 +312,7 @@
         "innerColor": [184, 75, 0],
         "uniqueName": "Justice of Saladin",
         "uniques": [
-            "[-25]% construction time for [All] improvements",
+            "Can build [all] improvements at a [+25]% rate",
             "Gain a free [Ayyubid Burial Tomb] [in annexed cities]",
             "Gain a free [Ayyubid Burial Tomb] [in puppeted cities]"
         ],
