@@ -101,7 +101,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements",
+                    "Can build [all] improvements at a [+25]% rate",
                     "Free [Worker] appears",
                     "Provides [1] [Policies]"
                 ],
@@ -123,6 +123,7 @@
                 "name": "Representation",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
+                    "[+1 Gold] from every [Monument]",
                     "Empire enters golden age",
                     "Provides [1] [Policies]"
                 ],
