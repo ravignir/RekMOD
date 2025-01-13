@@ -389,7 +389,7 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Wonder]"]
+        "uniques": ["[+1 Faith, +1 Culture] from every [Wonder]","[+1 Faith, +1 Culture] from every [Natural Wonder]"]
     },
     {
         "name": "Feed the World",
