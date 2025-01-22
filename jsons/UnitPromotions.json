@@ -844,6 +844,12 @@
             "Can Spread Religion <[1] additional time(s)>"
         ]
     },
+    {
+        "name": "Golden Age from Victories",
+        "uniques": [
+            "Earn [100]% of killed [Military] unit's [Strength] as [GoldenAgePoints]"
+        ]
+    },
 
     // Section Kris Swordsmen
     {

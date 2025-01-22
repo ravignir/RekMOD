@@ -1595,7 +1595,7 @@
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
-        "promotions": ["Drill I","Ignore terrain cost"],
+        "promotions": ["Drill I","Ignore terrain cost", "Golden Age from Victories"],
         "attackSound": "shot"
     },
     {
