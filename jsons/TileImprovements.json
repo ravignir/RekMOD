@@ -341,9 +341,10 @@
         ],
         "shortcutKey": "X"
     },
+    // temporarily remove the oasis for the caravan, there is no solution yet.
     {
         "name": "Remove Land Trade Route (Production)",
-        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh"],
         "uniques": [
             "Excluded from map editor"
         ],
@@ -351,7 +352,7 @@
     },
     {
         "name": "Remove Land Trade Route (Food)",
-        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh"],
         "uniques": [
             "Excluded from map editor"
         ],
@@ -359,7 +360,7 @@
     },
     {
         "name": "Remove Land Trade Route (Gold)",
-        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh"],
         "uniques": [
             "Excluded from map editor"
         ],
