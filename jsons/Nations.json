@@ -826,7 +826,8 @@
             "[+1 Happiness] from every [Police Station]",
             "[+1 Happiness] from every [Constabulary]",
             "[+100]% Production when constructing [Police Station] buildings [in all cities]",
-            "[+100]% Production when constructing [Constabulary] buildings [in all cities]"
+            "[+100]% Production when constructing [Constabulary] buildings [in all cities]",
+            "Gain an extra spy <upon entering the [Renaissance]>"
         ],
         "cities": [
             "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",

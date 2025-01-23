@@ -850,7 +850,10 @@
             "Earn [100]% of killed [Military] unit's [Strength] as [GoldenAgePoints]"
         ]
     },
-
+    {
+        "name": "Extra Sight",
+        "uniques": ["[+1] Sight"]
+    },
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",

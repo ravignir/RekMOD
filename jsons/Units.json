@@ -1727,6 +1727,7 @@
         "requiredTech": "Navigation",
         "obsoleteTech": "Electronics",
         "upgradesTo": "Battleship",
+        "promotions": ["Extra Sight"],
         "hurryCostModifier": 20,
         "attackSound": "cannon"
     },
