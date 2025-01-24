@@ -691,11 +691,10 @@
         "requiredTech": "Mathematics",
         "obsoleteTech": "Physics",
         "upgradesTo": "Trebuchet",
-        "promotions": ["Cover I"],
+        "promotions": ["Cover I", "Extra Sight"],
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus",
-            "[-1] Sight"
+            "No defensive terrain bonus"
         ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
