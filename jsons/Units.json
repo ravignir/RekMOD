@@ -593,12 +593,12 @@
         "cost": 120,
         "requiredTech": "Horseback Riding",
         "upgradesTo": "Knight",
+        "promotions": ["Leadership"],
         "uniques": [
             "Consumes [2] [Horses]",
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles"
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "horse"
@@ -1113,12 +1113,11 @@
         "obsoleteTech": "Military Science",
         "upgradesTo": "Cavalry",
         "requiredResource": "Horses",
+        "promotions": ["Swift Charge"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
-            "[+50]% Strength <vs [Sword] units>",
-            "[+25]% Strength <vs [Gunpowder] units>"
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "attackSound": "horse"
     },
@@ -1408,10 +1407,7 @@
         "strength": 20,
         "cost": 120,
         "requiredTech": "Steel",
-        "uniques": [
-            "[+33]% Strength <when attacking>",
-            "[+50]% Strength <when fighting in [Forest] tiles>"
-        ],
+        "promotions": ["Forest native"],
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
         "attackSound": "metalhit"
@@ -1427,9 +1423,7 @@
         "requiredTech": "Steel",
         "upgradesTo": "Musketman",
         "obsoleteTech": "Gunpowder",
-        "uniques" :[
-            "[This Unit] heals [25] HP <upon defeating a [All] unit>"
-        ],
+        "promotions": ["Heals 25 Damage If Kill a Unit"],
         "attackSound": "metalhit"
     },
     {
@@ -1723,7 +1717,6 @@
         "rangedStrength": 30,
         "cost": 185,
         "requiredResource": "Iron",
-        "uniques": ["[+1] Sight"],
         "requiredTech": "Navigation",
         "obsoleteTech": "Electronics",
         "upgradesTo": "Battleship",
@@ -1768,7 +1761,7 @@
             "[+33]% Strength <vs [Armored] units>",
             "[+33]% Strength <vs [Mounted] units>"
         ],
-        "promotions": ["Heavy Charge"],
+        "promotions": ["Heavy Charge", "Extra Sight", "Extra Movement"],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"

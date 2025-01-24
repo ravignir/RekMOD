@@ -1078,7 +1078,10 @@
         "outerColor": [29, 26, 26],
         "innerColor": [181, 214, 207],
         "uniqueName": "Drauhtinon",
-        "uniques": ["[+1] Movement <for [Melee] units>"],
+        "uniques": [
+            "[+1] Movement <for [Sword] units>",
+            "[+1] Movement <for [Gunpowder] units>"
+        ],
         "cities": [
             "Arheimar","Aujum","Potaissa","Apulon","Tyras","Sarmizegetusa","Argidava","Olite","Tolosa","Olbia",
             "Reccopolis","Toletum","Pityus","Burdigala","Gerunda","Aiadava","Thessalonica","Victoriacum","Carnuntum","Sirmium",

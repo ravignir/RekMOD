@@ -854,6 +854,20 @@
         "name": "Extra Sight",
         "uniques": ["[+1] Sight"]
     },
+    {
+        "name": "Extra Movement",
+        "uniques": ["[+1] Movement"]
+    },
+    {
+        "name": "Forest native",
+        "uniques": [
+            "[+33]% Strength <when attacking>",
+            "[+50]% Strength <when fighting in [Forest] tiles>"]
+    },
+    {
+        "name": "Heals 25 Damage If Kill a Unit",
+        "uniques": ["[This Unit] heals [25] HP <upon defeating a [All] unit>"]
+    },
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",
