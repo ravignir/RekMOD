@@ -283,7 +283,7 @@
         "outerColor": [234,0,0],
         "innerColor": [255,255,255],
         "uniqueName": "Diplomatic Marriage",
-        "uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+        "uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"],
         "cities": [
             "Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Innsbruck","Kitzbühel","St. Pölten","Eisenstadt",
             "Villach","Zwettl","Traun","Wels","Dornbirn","Feldkirch","Amstetten","Bad Ischl","Wolfsberg","Kufstein",
@@ -471,8 +471,8 @@
         "uniques": [
             "[Great Artist] is earned [100]% faster <during a Golden Age>",
             "[Great Writer] is earned [100]% faster <during a Golden Age>",
-            "[Great Musician] is earned [100]% faster <during a Golden Age>"
-            // Golden Age points from kills
+            "[Great Musician] is earned [100]% faster <during a Golden Age>",
+            "Earn [100]% of killed [Military] unit's [Strength] as [GoldenAgePoints]"
         ],
         "cities": [
             "Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -1438,16 +1438,34 @@
         "uniqueName": "Rinascimento",
         "uniques": [
             "[+1 Culture] from every specialist [in all cities]",
-            "Comment [Empire enters golden age upon completing a policy branch]",
-            "Empire enters golden age <upon adopting [Tradition Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Liberty Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Honor Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Piety Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Aesthetics Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Patronage Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Exploration Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Commerce Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Rationalism Complete]> <hidden from users>"
+            "Comment [Receive a burst of Golden Age points upon completion of a Policy Tree, and if already in a Golden Age, extend it instead.]",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Tradition Complete]> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Liberty Complete]> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Honor Complete]> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Piety Complete]> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Aesthetics Complete]> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Patronage Complete]> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Exploration Complete]> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Commerce Complete]> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Rationalism Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
+            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
+            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
+            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
+            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
+            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
+            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
+            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
+            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>"
+            //maybe need better solution for condition
         ],
         "cities": [
             "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",

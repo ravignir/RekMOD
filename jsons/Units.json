@@ -633,7 +633,7 @@
         "requiredTech": "Horseback Riding",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "promotions": ["Great Generals II","Feared Elephant"],
+        "promotions": ["Great Generals II"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -1309,7 +1309,7 @@
         "requiredTech": "Machinery",
         "obsoleteTech": "Chemistry",
         "upgradesTo": "Cannon",
-        "promotions": ["Indirect Fire","Feared Elephant"],
+        "promotions": ["Indirect Fire"],
         "uniques": [
             "[+100]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
@@ -1595,7 +1595,7 @@
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
-        "promotions": ["Drill I","Ignore terrain cost"],
+        "promotions": ["Drill I","Ignore terrain cost", "Golden Age from Victories"],
         "attackSound": "shot"
     },
     {
