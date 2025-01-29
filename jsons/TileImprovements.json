@@ -708,6 +708,7 @@
         "uniques": [
             "[+1 Production] <after discovering [Navigation]>",
             "[+1 Culture] <after discovering [Flight]>",
+            "Must be next to [Land]",
             "Cannot be built on [resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]

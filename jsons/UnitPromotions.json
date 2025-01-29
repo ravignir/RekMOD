@@ -868,6 +868,26 @@
         "name": "Heals 25 Damage If Kill a Unit",
         "uniques": ["[This Unit] heals [25] HP <upon defeating a [All] unit>"]
     },
+    {
+        "name": "Overseer", // only for Laputtu and subsequent upgrades
+        "uniques": ["Transfer Movement to [Civilian]"]
+    },
+    {
+        "name": "Heals Completely Upon Killing", //only for Voortrekker and subsequent upgrades
+        "uniques": ["Heals [100] damage if it kills a unit"]
+    },
+    {
+        "name": "Strong Defence", //only for Voortrekker and subsequent upgrades
+        "uniques": ["[+25]% Strength <when defending>"]
+    },
+    {
+        "name": "Can Move After Attacking", //only for Pracinha and subsequent upgrades
+        "uniques": ["Can move after attacking"]
+    },
+    {
+        "name": "Foreign Land Bonus", //only for Pracinha and subsequent upgrades
+        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+    },
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",

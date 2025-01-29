@@ -497,6 +497,7 @@
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
         "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+        "promotions": ["Overseer"],
         "attackSound": "metalhit"
     },
     {
@@ -2231,11 +2232,8 @@
         "strength": 50,
         "cost": 300,
         "requiredTech": "Replaceable Parts",
-        "uniques": [
-            "Heals [100] damage if it kills a unit",
-            "[+25]% Strength <when defending>",
-            "Can build [Farm] improvements on tiles"
-        ],
+        "uniques": ["Can build [Farm] improvements on tiles"],
+        "promotions": ["Heals Completely Upon Killing","Strong Defence"],
         "upgradesTo": "Infantry",
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2357,10 +2355,7 @@
         "strength": 80,
         "cost": 410,
         "requiredTech": "Electronics",
-        "uniques": [
-            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
-            "Can move after attacking"
-        ],
+        "promotions": ["Can move after attacking", "Foreign Land Bonus"],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
