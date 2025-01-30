@@ -1017,7 +1017,8 @@
             "[+15]% Production when constructing [Mounted] units [in this city]",
             "[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Food] from [Horses] tiles [in this city]",
-            "[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
+            "[+1 Production, +1 Food] from [Sheep] tiles [in this city]",
+            "[+1 Production, +1 Food] from [Maize] tiles [in this city]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -1112,6 +1113,7 @@
         "name": "Mead Hall",
         "replaces": "Colosseum",
         "uniqueTo": "Franks",
+        "cost": 50,
         "happiness": 3,
         "culture": 1,
         "hurryCostModifier": 25,

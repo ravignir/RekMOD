@@ -634,7 +634,7 @@
         "requiredTech": "Horseback Riding",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "promotions": ["Great Generals II"],
+        "promotions": ["Great Generals II","Heavy Charge"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -1435,7 +1435,7 @@
         "strength": 21,
         "cost": 120,
         "requiredTech": "Steel",
-        "upgradesTo": "Musketman",
+        "upgradesTo": "Rifleman",
         "obsoleteTech": "Gunpowder",
         "requiredResource": "Iron",
         "promotions": ["Shock I", "Great Generals II"],
@@ -1451,9 +1451,8 @@
         "strength": 17,
         "cost": 105,
         "requiredTech": "Theology",
+        "promotions": ["Foreign Land Bonus", "Can Enter Rival Territory"],
         "uniques": [
-            "May enter foreign tiles without open borders",
-            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
             "Earn [200]% of killed [Military] unit's [Strength] as [Faith]"
         ],
         "upgradesTo": "Musketman",
@@ -1801,7 +1800,7 @@
             "[+33]% Strength <vs [Mounted] units>",
             "[+1] Sight"
         ],
-        "promotions": ["[Sipahi] ability"],
+        "promotions": ["No movement cost to pillage"],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
@@ -2424,16 +2423,15 @@
         "replaces": "Machine Gun",
         "uniqueTo": "Finland",
         "unitType": "Ranged Gunpowder",
-        "range": 1,
+        "range": 2,
         "movement": 2,
         "strength": 50,
         "rangedStrength": 60,
         "cost": 350,
         "requiredTech": "Ballistics",
-        "promotions": ["Ignore terrain cost"],
+        "promotions": ["Ignore terrain cost", "Extra Movement", "No movement cost to pillage"],
         "uniques": [
             "[+25]% Strength <vs [Armored] units>",
-            "No movement cost to pillage",
             "[+33]% Strength <vs [Gunpowder] units>"
         ],
         "upgradesTo": "Bazooka",
