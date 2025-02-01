@@ -461,7 +461,7 @@
         "culture": 2,
         "cost": 20,
         "hurryCostModifier": 40,
-        "maintenance": 1,
+        "maintenance": 0,
         "requiredTech": "Pottery",
         "uniques": ["Destroyed when the city is captured"]
     },
