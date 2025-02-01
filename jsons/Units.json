@@ -559,9 +559,9 @@
         "requiredTech": "Mining",
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
+        "promotions": ["Enhanced Flank Attack"],
         "uniques": [
-            "[+50]% Strength <vs [Mounted] units>",
-            "[+50]% to Flank Attack bonuses"
+            "[+50]% Strength <vs [Mounted] units>"
         ],
         "attackSound": "metalhit"
     },
@@ -1868,12 +1868,13 @@
         "uniqueTo": "Romania",
         "replaces": "Gatling Gun",
         "unitType": "Ranged Gunpowder",
-        "range": 2,
+        "range": 1,
         "movement": 2,
         "strength": 31,
         "rangedStrength": 31,
         "cost": 225,
         "requiredTech": "Industrialization",
+        "promotions": ["Extended Range"],
         "upgradesTo": "Machine Gun",
         "obsoleteTech": "Ballistics",
         "attackSound": "machinegun"
@@ -1960,8 +1961,7 @@
         "movement": 3,
         "strength": 34,
         "cost": 225,
-        "promotions": ["Blitz","Quick Study"],
-        "uniques": ["Transfer Movement to [All]"],
+        "promotions": ["Blitz","Quick Study", "Extra Movement"],
         "requiredTech": "Military Science",
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Great War Infantry",
@@ -2018,7 +2018,7 @@
             "[-33]% Strength <vs cities> <when attacking>",
             "[+1] Sight"
         ],
-        "promotions": ["[Hussar] ability"],
+        "promotions": ["Enhanced Flank Attack"],
         "attackSound": "horse"
     },
     {
@@ -2093,6 +2093,7 @@
         "obsoleteTech": "Combustion",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
+        "promotions": ["Extra Movement"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
