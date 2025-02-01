@@ -1794,10 +1794,12 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "[+33]% Strength <vs [Armored] units>",
-            "[+33]% Strength <vs [Mounted] units>",
-            "[+1] Sight"
+            "[+33]% Strength <vs [Mounted] units>"
         ],
-        "promotions": ["No movement cost to pillage"],
+        "promotions": [
+            "No movement cost to pillage",
+            "Extra Sight"
+        ],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
@@ -2259,7 +2261,11 @@
         "requiredTech": "Replaceable Parts",
         "obsoleteTech": "Electronics",
         "upgradesTo": "Infantry",
-        "promotions": ["[Norwegian Ski Infantry] ability"],
+        "promotions": [
+            "Drill I",
+            "Drill II",
+            "[Norwegian Ski Infantry] ability"
+        ],
         "attackSound": "shot"
     },
     {
