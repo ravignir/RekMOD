@@ -1635,11 +1635,11 @@
         "replaces": "Musketman",
         "uniqueTo": "Sweden",
         "unitType": "Gunpowder",
-        "movement": 3,
+        "movement": 2,
         "strength": 24,
         "cost": 150,
         "requiredTech": "Gunpowder",
-        "promotions": ["March"],
+        "promotions": ["March", "Extra Movement"],
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
@@ -2279,7 +2279,8 @@
         "strength": 47,
         "cost": 330,
         "requiredTech": "Replaceable Parts",
-        "uniques": ["[+50]% Strength <when attacking>"],
+        "promotion": ["Extra Movement", "Bonus For Attacking"],
+        "uniques": ["[This Unit] upgrades for free"],
         "upgradesTo": "Infantry",
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2373,7 +2374,8 @@
         "strength": 70,
         "cost": 350,
         "requiredTech": "Electronics",
-        "uniques": ["Can pass through impassable tiles"],
+        //"uniques": ["Can pass through impassable tiles"],
+        "uniques": ["[+25]% Strength <vs [Gunpowder] units>"],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"

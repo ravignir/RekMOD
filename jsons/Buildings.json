@@ -988,6 +988,7 @@
         "replaces": "Caravansary",
         "cost": 100,
         "hurryCostModifier": 25,
+        "gold": 2,
         "uniques": [
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] per [3] population [in this city]"
@@ -1492,7 +1493,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Gain [20] [Gold] <(modified by game speed)> <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
+            "Gain [30] [Gold] <(modified by game speed)> <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
@@ -2155,8 +2156,7 @@
             "New [Military] units start with [15] Experience [in this city]",
             "Destroyed when the city is captured",
             "[+1 Food, +1 Culture, +1 Production] from [Marsh] tiles [in this city]",
-            "[+1 Culture] from [Jungle] tiles [in this city]",
-            "All newly-trained [Melee] units [in this city] receive the [Woodsman] promotion"
+            "[+1 Culture] from [Jungle] tiles [in this city]"
         ],
         "requiredTech": "Metal Casting"
     },

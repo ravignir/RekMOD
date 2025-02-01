@@ -790,6 +790,13 @@
             "[+50]% Strength <when attacking>"
         ]
     },
+    //need new uniq for "enemy Units will retreat if they receive more damage than this Unit; this Unit deals +50% damage to defenders incapable of retreat"
+    {
+        "name": "Bonus For Attacking",
+        "uniques": [
+            "[+50]% Strength <when attacking>"
+        ]
+    },
     {
         "name": "Sauna",
         "uniques": [
@@ -899,6 +906,15 @@
     {
         "name": "May Not Melee Attack", //only for Ngao Mbeba and subsequent upgrades
         "uniques": ["Cannot attack"]
+    },
+    {
+        "name": "Vietnamese Walking",
+        "uniques": [
+            "Double movement in [Marsh]",
+            "Double movement in [Jungle]",
+            "[+30]% Strength <when fighting in [Marsh] tiles>",
+            "[+15]% Strength <when fighting in [Jungle] tiles>"
+        ]
     },
     // Section Kris Swordsmen
     {

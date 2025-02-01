@@ -2788,7 +2788,8 @@
         "uniqueName": "Nobel Prize",
         "uniques": [
             "[+20]% Great Person generation [in all cities]",
-            "Gain [100] Influence with a [Great Person] gift to a City-State"
+            "Gain [100] Influence with a [Great Person] gift to a City-State",
+            "Gain [200] [Gold] with a [Great Person] gift to a City-State"
         ],
         "cities": [
             "Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö",
@@ -3040,7 +3041,8 @@
         "uniqueName": "Tam Giao",
         "uniques": [
             "[+2 Food, +1 Production] from every [Marsh]",
-            "[+1 Faith] from every [Jungle]"
+            "[+1 Faith] from every [Jungle]",
+            "[Land] units gain the [Vietnamese Walking] promotion"
         ],
         "cities": [
             "Hà Noi","Thành Pho Ho Chí Minh","Hai Phòng","Thành Pho Hue","Can Tho","Dà Nang","Biên Hòa","Phan Rang","Quang Ngãi","Quang Ninh",
