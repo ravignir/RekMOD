@@ -892,6 +892,14 @@
         "name": "Can Enter Rival Territory", //only for Crusader and subsequent upgrades
         "uniques": ["May enter foreign tiles without open borders"]
     },
+    {
+        "name": "Range Defence", //only for Ngao Mbeba and subsequent upgrades
+        "uniques": ["[+100]% Strength <when defending> <vs [Ranged] units>"]
+    },
+    {
+        "name": "May Not Melee Attack", //only for Ngao Mbeba and subsequent upgrades
+        "uniques": ["Cannot attack"]
+    },
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",

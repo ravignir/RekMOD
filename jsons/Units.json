@@ -818,10 +818,7 @@
         "requiredTech": "Iron Working",
         "upgradesTo": "Longswordsman",
         "obsoleteTech": "Steel",
-        "uniques": [
-            "[+100]% Strength <when defending> <vs [Ranged] units>",
-            "Cannot attack"
-        ],
+        "promotions": ["Range Defence", "May Not Melee Attack"],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
     },
@@ -3026,7 +3023,7 @@
             "Great Person - [Faith]",
             "Uncapturable",
             "Unbuildable",
-            "Only available <when religion is enabled>",
+            "Only available <when religion is enabled>"
         ],
         "movement": 4
     },
