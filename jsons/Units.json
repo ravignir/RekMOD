@@ -348,6 +348,7 @@
         "strength": 10,
         "cost": 38,
         "requiredTech": "Sailing",
+        "promotions": ["Extra Sight", "Supply"],
         "uniques": [
             "Can move after attacking",
             "[-33]% Strength <vs cities> <when attacking>"

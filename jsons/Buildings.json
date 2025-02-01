@@ -1035,6 +1035,7 @@
             "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
+            "[+1 Food, +1 Gold] from [Maize] tiles [in this city]",
             "New [Mounted] units start with [15] Experience [in this city]"
         ],
         "requiredTech": "Horseback Riding"
