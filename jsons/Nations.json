@@ -1783,8 +1783,10 @@
         "uniques": [
             "[-100]% maintenance costs <for [Mounted] units>",
             "[-100]% maintenance costs <for [Armor] units>",
+            "[-100]% maintenance costs <for [Bomber] units>",
             "[Mounted] units gain the [Volley] promotion",
-            "[Armor] units gain the [Volley] promotion"
+            "[Armor] units gain the [Volley] promotion",
+            "[Bomber] units gain the [Volley] promotion"
             //"[+100]% Production when constructing [Stable] buildings [in all cities]",
             //"[+1 Gold] from every [Stable]"
         ],
