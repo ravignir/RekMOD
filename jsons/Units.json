@@ -696,7 +696,8 @@
         "promotions": ["Cover I", "Extra Sight"],
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus"
+            "No defensive terrain bonus",
+            "Can only attack [City] units"
         ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
