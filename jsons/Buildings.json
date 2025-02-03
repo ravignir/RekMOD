@@ -988,7 +988,6 @@
         "replaces": "Caravansary",
         "cost": 100,
         "hurryCostModifier": 25,
-        "gold": 2,
         "uniques": [
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] per [3] population [in this city]"
