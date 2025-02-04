@@ -134,7 +134,7 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+15]% [Gold] [in all cities connected to capital]",
+                    "[+15]% [Gold] from Trade Routes",
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
                     "Provides [1] [Policies]"
