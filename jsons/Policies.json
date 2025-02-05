@@ -738,7 +738,11 @@
             {
                 "name": "Rationalism Complete",
                 "uniques": [
-                    "[17]% [Science] <while the empire is happy>"
+                    "[+10]% [Science] <while the empire is happy>",
+                    "[+5]% [Science] <in cities with a [National College]> <while the empire is happy>",
+                    "[+3]% [Science] <in cities with a [University]> <while the empire is happy>",
+                    "[+5]% [Science] <in cities with a [Research Lab]> <while the empire is happy>",
+                    "[+3]% [Science] <in cities with a [Factory]> <after adopting [Workers Faculties]> <while the empire is happy>",
                 ]
             }
         ]
