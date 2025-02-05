@@ -115,7 +115,7 @@
         "techs": [
             {
                 "name": "Optics",
-                "cost": 85,
+                "cost": 68,
                 "row": 1,
                 "prerequisites": ["Sailing"],
                 "uniques": ["[+1] Movement <for [Embarked] units>"],
@@ -659,7 +659,7 @@
     {
         "columnNumber": 17,
         "era": "Information era",
-        "techCost": 9500,
+        "techCost": 10500,
         "buildingCost": 750,
         "wonderCost": 1250,
         "techs": [
