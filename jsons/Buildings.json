@@ -2724,6 +2724,7 @@
     {
         "name": "Museum",
         "culture": 2,
+        "percentStatBonus": {"culture": 10},
         "requiredBuilding": "Amphitheater",
         "maintenance": 3,
         "hurryCostModifier": 0,
@@ -2764,6 +2765,7 @@
         "replaces": "Museum",
         "uniqueTo": "Italy",
         "culture": 2,
+        "percentStatBonus": {"culture": 10},
         "specialistSlots": {"Artist": 2},
         "greatPersonPoints": {"Great Artist": 2},
         "maintenance": 3,
@@ -2780,7 +2782,7 @@
         "replaces": "Museum",
         "uniqueTo": "Yugoslavia",
         "culture": 2,
-        "percentStatBonus": {"science": 20},
+        "percentStatBonus": {"science": 20, "culture": 10},
         "requiredBuilding": "Amphitheater",
         "maintenance": 3,
         "hurryCostModifier": 0,
@@ -3093,7 +3095,7 @@
     {
         "name": "Broadcast Tower",
         "culture": 2,
-        "percentStatBonus": {"culture": 33},
+        "percentStatBonus": {"culture": 15},
         "requiredBuilding": "Opera House",
         "maintenance": 3,
         "requiredTech": "Radio",
