@@ -707,7 +707,7 @@
         ]
     },
     {
-        "name": "[Sipahi] ability",
+        "name": "No movement cost to pillage",
         "uniques": [
             "No movement cost to pillage"
         ]
@@ -719,7 +719,7 @@
         ]
     },
     {
-        "name": "[Hussar] ability",
+        "name": "Enhanced Flank Attack",
         "uniques": [
             "[+50]% to Flank Attack bonuses"
         ]
@@ -775,7 +775,7 @@
     {
         "name": "Homeland Guardian",
         "uniques": [
-            "[+20]% Strength <when fighting in [Friendly Land] tiles>"
+            "[+25]% Strength <when fighting in [Friendly Land] tiles>"
         ]
     },
     {
@@ -786,6 +786,13 @@
     },
     {
         "name": "Heavy Charge",
+        "uniques": [
+            "[+50]% Strength <when attacking>"
+        ]
+    },
+    //need new uniq for "enemy Units will retreat if they receive more damage than this Unit; this Unit deals +50% damage to defenders incapable of retreat"
+    {
+        "name": "Bonus For Attacking",
         "uniques": [
             "[+50]% Strength <when attacking>"
         ]
@@ -850,7 +857,65 @@
             "Earn [100]% of killed [Military] unit's [Strength] as [GoldenAgePoints]"
         ]
     },
-
+    {
+        "name": "Extra Sight",
+        "uniques": ["[+1] Sight"]
+    },
+    {
+        "name": "Extra Movement",
+        "uniques": ["[+1] Movement"]
+    },
+    {
+        "name": "Forest Native",
+        "uniques": [
+            "[+33]% Strength <when attacking>",
+            "[+50]% Strength <when fighting in [Forest] tiles>"]
+    },
+    {
+        "name": "Heals 25 Damage If Kill a Unit",
+        "uniques": ["[This Unit] heals [25] HP <upon defeating a [All] unit>"]
+    },
+    {
+        "name": "Overseer", // only for Laputtu and subsequent upgrades
+        "uniques": ["Transfer Movement to [Civilian]"]
+    },
+    {
+        "name": "Heals Completely Upon Killing", //only for Voortrekker and subsequent upgrades
+        "uniques": ["Heals [100] damage if it kills a unit"]
+    },
+    {
+        "name": "Strong Defence", //only for Voortrekker and subsequent upgrades
+        "uniques": ["[+25]% Strength <when defending>"]
+    },
+    {
+        "name": "Can Move After Attacking", //only for Pracinha and subsequent upgrades
+        "uniques": ["Can move after attacking"]
+    },
+    {
+        "name": "Foreign Land Bonus", //only for Pracinha and Crusader and subsequent upgrades
+        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+    },
+    {
+        "name": "Can Enter Rival Territory", //only for Crusader and subsequent upgrades
+        "uniques": ["May enter foreign tiles without open borders"]
+    },
+    {
+        "name": "Range Defence", //only for Ngao Mbeba and subsequent upgrades
+        "uniques": ["[+100]% Strength <when defending> <vs [Ranged] units>"]
+    },
+    {
+        "name": "May Not Melee Attack", //only for Ngao Mbeba and subsequent upgrades
+        "uniques": ["Cannot attack"]
+    },
+    {
+        "name": "Vietnamese Walking",
+        "uniques": [
+            "Double movement in [Marsh]",
+            "Double movement in [Jungle]",
+            "[+30]% Strength <when fighting in [Marsh] tiles>",
+            "[+15]% Strength <when fighting in [Jungle] tiles>"
+        ]
+    },
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",
