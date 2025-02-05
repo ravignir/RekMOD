@@ -2788,8 +2788,8 @@
         "uniqueName": "Nobel Prize",
         "uniques": [
             "[+20]% Great Person generation [in all cities]",
-            "Gain [100] Influence with a [Great Person] gift to a City-State",
-            "Gain [200] [Gold] with a [Great Person] gift to a City-State"
+            "Gain [100] Influence with a [Great Person] gift to a City-State"
+           // "Gain [200] [Gold] with a [Great Person] gift to a City-State"
         ],
         "cities": [
             "Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö",
