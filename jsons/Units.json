@@ -1435,7 +1435,7 @@
         "cost": 120,
         "requiredTech": "Steel",
         "upgradesTo": "Rifleman",
-        "obsoleteTech": "Gunpowder",
+        "obsoleteTech": "Rifling",
         "requiredResource": "Iron",
         "promotions": ["Shock I", "Great Generals II"],
         "uniques": ["Can build [Fishing Boats] improvements on tiles"],
@@ -2361,7 +2361,7 @@
         "strength": 80,
         "cost": 410,
         "requiredTech": "Electronics",
-        "promotions": ["Can move after attacking", "Foreign Land Bonus"],
+        "promotions": ["Can Move After Attacking", "Foreign Land Bonus"],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
