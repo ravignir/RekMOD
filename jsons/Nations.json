@@ -827,7 +827,7 @@
             "[+1 Happiness] from every [Constabulary]",
             "[+100]% Production when constructing [Police Station] buildings [in all cities]",
             "[+100]% Production when constructing [Constabulary] buildings [in all cities]",
-            "Gain an extra spy <upon entering the [Renaissance]>"
+            "Gain an extra spy <upon entering the [Renaissance era]>"
         ],
         "cities": [
             "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -2788,8 +2788,8 @@
         "uniqueName": "Nobel Prize",
         "uniques": [
             "[+20]% Great Person generation [in all cities]",
-            "Gain [100] Influence with a [Great Person] gift to a City-State",
-            "Gain [200] [Gold] with a [Great Person] gift to a City-State"
+            "Gain [100] Influence with a [Great Person] gift to a City-State"
+           // "Gain [200] [Gold] with a [Great Person] gift to a City-State"
         ],
         "cities": [
             "Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö",
