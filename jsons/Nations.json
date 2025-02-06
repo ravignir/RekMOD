@@ -862,7 +862,8 @@
             "[+1 Happiness] from every [Police Station]",
             "[+1 Happiness] from every [Constabulary]",
             "[+100]% Production when constructing [Police Station] buildings [in all cities]",
-            "[+100]% Production when constructing [Constabulary] buildings [in all cities]"
+            "[+100]% Production when constructing [Constabulary] buildings [in all cities]",
+            "Gain an extra spy <upon entering the [Renaissance era]>"
         ],
         "cities": [
             "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -1113,7 +1114,10 @@
         "outerColor": [29, 26, 26],
         "innerColor": [181, 214, 207],
         "uniqueName": "Drauhtinon",
-        "uniques": ["[+1] Movement <for [Melee] units>"],
+        "uniques": [
+            "[+1] Movement <for [Sword] units>",
+            "[+1] Movement <for [Gunpowder] units>"
+        ],
         "cities": [
             "Arheimar","Aujum","Potaissa","Apulon","Tyras","Sarmizegetusa","Argidava","Olite","Tolosa","Olbia",
             "Reccopolis","Toletum","Pityus","Burdigala","Gerunda","Aiadava","Thessalonica","Victoriacum","Carnuntum","Sirmium",
@@ -1815,8 +1819,10 @@
         "uniques": [
             "[-100]% maintenance costs <for [Mounted] units>",
             "[-100]% maintenance costs <for [Armor] units>",
+            "[-100]% maintenance costs <for [Bomber] units>",
             "[Mounted] units gain the [Volley] promotion",
-            "[Armor] units gain the [Volley] promotion"
+            "[Armor] units gain the [Volley] promotion",
+            "[Bomber] units gain the [Volley] promotion"
             //"[+100]% Production when constructing [Stable] buildings [in all cities]",
             //"[+1 Gold] from every [Stable]"
         ],
@@ -1850,7 +1856,7 @@
         "uniques": [
             "[Land] units gain the [Dharma] promotion <hidden from users>",
             "[Water] units gain the [Dharma] promotion <hidden from users>",
-            "Comment [Non-Air Units receive a -15% Combat Penalty when attacking, and a +15% Combat Bonus when defending]"
+            "Comment [Non-Air Units receive a -10% Combat Penalty when attacking, and a +10% Combat Bonus when defending]"
         ],
         "cities": [
             "Pataliputra","Sarnath","Ujjain","Mathura","Indraprastha","Suvarnagiri","Tamralipti","Varanasi","Lumbini","Toshali",
@@ -1946,7 +1952,7 @@
             "[+30]% Strength <vs [City-States]>",
             "[+1] Movement <for [Mounted] units>",
             "[+1] Movement <for [Armor] units>",
-            "Double quantity of [Horses] produced",
+            "Double quantity of [Horses] produced <after discovering [Chivalry]>",
             "[+1 Food] from every [Horses] <after discovering [Chivalry]>"
         ],
         "cities": [
@@ -1979,7 +1985,7 @@
         "uniqueName": "Glory of Al-Andalus",
         "uniques": [
             "[+30]% Production when constructing [All] buildings [in all cities] <during the [Medieval era]>",
-            "[+15]% Production when constructing [All] buildings [in all cities] <starting from the [Renaissance era]>"
+            "[+15]% Production when constructing [All] buildings [in all cities] <during the [Renaissance era]>"
         ],
         "cities": [
             "Córdoba","Granada","Valencia","Murcia","Toledo","Zaragoza","Seville","Malága","Almeria","Salamanca",
@@ -2178,7 +2184,7 @@
         "outerColor": [193,159,86],
         "innerColor": [0,0,0],
         "uniqueName": "Ta-Seti",
-        "uniques": ["Free [Apedemaks Bow] appears <upon discovering [Pottery] technology>"],
+        "uniques": ["Free [Apedemaks Bow] appears"],
         "cities": [
             "Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe",
             "Shaat","Heh","Dengeil","Miam","Tombos","Kurgus","Debba","Bugdumbush","Ukma","Defeia",
@@ -2335,7 +2341,7 @@
         "innerColor": [234,201,52],
         "uniqueName": "Skillful Traders",
         "uniques": [
-            "Gain [50] [Gold] <(modified by game speed)> <upon founding a city> <after discovering [Optics]>",
+            "Gain [75] [Gold] <(modified by game speed)> <upon founding a city> <after discovering [Optics]>",
             "[+1] population [in this city] <upon founding a city> <after discovering [Optics]>",
             "Free [Square Sail Ship] appears <upon discovering [Sailing] technology>"
         ],
@@ -2432,7 +2438,7 @@
         "innerColor": [8,25,115],
         "uniqueName": "Mare Clausum",
         "uniques": [
-            "[+3 Gold] from every [Luxury resource]",
+            "[+3 Gold] from every [Trade Route]",
             "[+33]% Production when constructing [Caravan] units [in all cities]",
             "[+33]% Production when constructing [Cargo Ship] units [in all cities]"
         ],
@@ -2503,7 +2509,9 @@
         "uniqueName": "Nihil Sine Deo",
         "uniques": [
             "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
-            "[+25]% [Culture] [in all cities] <during a Golden Age>"
+            "[+25]% [Culture] [in all cities] <during a Golden Age>",
+            "Instantly gain [100] [GoldenAgePoints] <upon conquering a city>"
+            //need new uniq for liberating cities too
         ],
         "cities": [
             "Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti",
@@ -2817,6 +2825,7 @@
         "uniques": [
             "[+20]% Great Person generation [in all cities]",
             "Gain [100] Influence with a [Great Person] gift to a City-State"
+           // "Gain [200] [Gold] with a [Great Person] gift to a City-State"
         ],
         "cities": [
             "Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö",
@@ -3068,7 +3077,8 @@
         "uniqueName": "Tam Giao",
         "uniques": [
             "[+2 Food, +1 Production] from every [Marsh]",
-            "[+1 Faith] from every [Jungle]"
+            "[+1 Faith] from every [Jungle]",
+            "[Land] units gain the [Vietnamese Walking] promotion"
         ],
         "cities": [
             "Hà Noi","Thành Pho Ho Chí Minh","Hai Phòng","Thành Pho Hue","Can Tho","Dà Nang","Biên Hòa","Phan Rang","Quang Ngãi","Quang Ninh",

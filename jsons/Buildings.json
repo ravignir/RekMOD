@@ -461,7 +461,7 @@
         "culture": 2,
         "cost": 20,
         "hurryCostModifier": 40,
-        "maintenance": 1,
+        "maintenance": 0,
         "requiredTech": "Pottery",
         "uniques": ["Destroyed when the city is captured"]
     },
@@ -1106,6 +1106,7 @@
         "name": "Colosseum",
         "maintenance": 1,
         "happiness": 2,
+        "cost": 100,
         "hurryCostModifier": 25,
         "requiredTech": "Construction"
     },
@@ -1113,6 +1114,7 @@
         "name": "Mead Hall",
         "replaces": "Colosseum",
         "uniqueTo": "Franks",
+        "cost": 75,
         "happiness": 3,
         "culture": 1,
         "hurryCostModifier": 25,
@@ -1488,7 +1490,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Gain [20] [Gold] <(modified by game speed)> <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
+            "Gain [20] [Gold] <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
@@ -2151,8 +2153,7 @@
             "New [Military] units start with [15] Experience [in this city]",
             "Destroyed when the city is captured",
             "[+1 Food, +1 Culture, +1 Production] from [Marsh] tiles [in this city]",
-            "[+1 Culture] from [Jungle] tiles [in this city]",
-            "All newly-trained [Melee] units [in this city] receive the [Woodsman] promotion"
+            "[+1 Culture] from [Jungle] tiles [in this city]"
         ],
         "requiredTech": "Metal Casting"
     },
@@ -2724,6 +2725,7 @@
     {
         "name": "Museum",
         "culture": 2,
+        "percentStatBonus": {"culture": 10},
         "requiredBuilding": "Amphitheater",
         "maintenance": 3,
         "hurryCostModifier": 0,
@@ -2764,6 +2766,7 @@
         "replaces": "Museum",
         "uniqueTo": "Italy",
         "culture": 2,
+        "percentStatBonus": {"culture": 10},
         "specialistSlots": {"Artist": 2},
         "greatPersonPoints": {"Great Artist": 2},
         "maintenance": 3,
@@ -2780,7 +2783,7 @@
         "replaces": "Museum",
         "uniqueTo": "Yugoslavia",
         "culture": 2,
-        "percentStatBonus": {"science": 20},
+        "percentStatBonus": {"science": 20, "culture": 10},
         "requiredBuilding": "Amphitheater",
         "maintenance": 3,
         "hurryCostModifier": 0,
@@ -3112,7 +3115,7 @@
     {
         "name": "Broadcast Tower",
         "culture": 2,
-        "percentStatBonus": {"culture": 33},
+        "percentStatBonus": {"culture": 15},
         "requiredBuilding": "Opera House",
         "maintenance": 3,
         "requiredTech": "Radio",

@@ -348,6 +348,7 @@
         "strength": 10,
         "cost": 38,
         "requiredTech": "Sailing",
+        "promotions": ["Extra Sight", "Supply"],
         "uniques": [
             "Can move after attacking",
             "[-33]% Strength <vs cities> <when attacking>"
@@ -497,6 +498,7 @@
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
         "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+        "promotions": ["Overseer"],
         "attackSound": "metalhit"
     },
     {
@@ -557,9 +559,9 @@
         "requiredTech": "Mining",
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
+        "promotions": ["Enhanced Flank Attack"],
         "uniques": [
-            "[+50]% Strength <vs [Mounted] units>",
-            "[+50]% to Flank Attack bonuses"
+            "[+50]% Strength <vs [Mounted] units>"
         ],
         "attackSound": "metalhit"
     },
@@ -593,12 +595,12 @@
         "cost": 120,
         "requiredTech": "Horseback Riding",
         "upgradesTo": "Knight",
+        "promotions": ["Leadership"],
         "uniques": [
             "Consumes [2] [Horses]",
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles"
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "horse"
@@ -633,7 +635,7 @@
         "requiredTech": "Horseback Riding",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "promotions": ["Great Generals II"],
+        "promotions": ["Great Generals II","Heavy Charge"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -691,11 +693,11 @@
         "requiredTech": "Mathematics",
         "obsoleteTech": "Physics",
         "upgradesTo": "Trebuchet",
-        "promotions": ["Cover I"],
+        "promotions": ["Cover I", "Extra Sight"],
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "[-1] Sight"
+            "Can only attack [City] units"
         ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
@@ -818,10 +820,7 @@
         "requiredTech": "Iron Working",
         "upgradesTo": "Longswordsman",
         "obsoleteTech": "Steel",
-        "uniques": [
-            "[+100]% Strength <when defending> <vs [Ranged] units>",
-            "Cannot attack"
-        ],
+        "promotions": ["Range Defence", "May Not Melee Attack"],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
     },
@@ -1113,12 +1112,11 @@
         "obsoleteTech": "Military Science",
         "upgradesTo": "Cavalry",
         "requiredResource": "Horses",
+        "promotions": ["Swift Charge"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
-            "[+50]% Strength <vs [Sword] units>",
-            "[+25]% Strength <vs [Gunpowder] units>"
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "attackSound": "horse"
     },
@@ -1408,10 +1406,7 @@
         "strength": 20,
         "cost": 120,
         "requiredTech": "Steel",
-        "uniques": [
-            "[+33]% Strength <when attacking>",
-            "[+50]% Strength <when fighting in [Forest] tiles>"
-        ],
+        "promotions": ["Forest Native"],
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
         "attackSound": "metalhit"
@@ -1427,9 +1422,7 @@
         "requiredTech": "Steel",
         "upgradesTo": "Musketman",
         "obsoleteTech": "Gunpowder",
-        "uniques" :[
-            "[This Unit] heals [25] HP <upon defeating a [All] unit>"
-        ],
+        "promotions": ["Heals 25 Damage If Kill a Unit"],
         "attackSound": "metalhit"
     },
     {
@@ -1441,8 +1434,8 @@
         "strength": 21,
         "cost": 120,
         "requiredTech": "Steel",
-        "upgradesTo": "Musketman",
-        "obsoleteTech": "Gunpowder",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Rifling",
         "requiredResource": "Iron",
         "promotions": ["Shock I", "Great Generals II"],
         "uniques": ["Can build [Fishing Boats] improvements on tiles"],
@@ -1457,9 +1450,8 @@
         "strength": 17,
         "cost": 105,
         "requiredTech": "Theology",
+        "promotions": ["Foreign Land Bonus", "Can Enter Rival Territory"],
         "uniques": [
-            "May enter foreign tiles without open borders",
-            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
             "Earn [200]% of killed [Military] unit's [Strength] as [Faith]"
         ],
         "upgradesTo": "Musketman",
@@ -1644,11 +1636,11 @@
         "replaces": "Musketman",
         "uniqueTo": "Sweden",
         "unitType": "Gunpowder",
-        "movement": 3,
+        "movement": 2,
         "strength": 24,
         "cost": 150,
         "requiredTech": "Gunpowder",
-        "promotions": ["March"],
+        "promotions": ["March", "Extra Movement"],
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
@@ -1723,10 +1715,10 @@
         "rangedStrength": 30,
         "cost": 185,
         "requiredResource": "Iron",
-        "uniques": ["[+1] Sight"],
         "requiredTech": "Navigation",
         "obsoleteTech": "Electronics",
         "upgradesTo": "Battleship",
+        "promotions": ["Extra Sight"],
         "hurryCostModifier": 20,
         "attackSound": "cannon"
     },
@@ -1767,7 +1759,7 @@
             "[+33]% Strength <vs [Armored] units>",
             "[+33]% Strength <vs [Mounted] units>"
         ],
-        "promotions": ["Heavy Charge"],
+        "promotions": ["Heavy Charge", "Extra Sight", "Extra Movement"],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
@@ -1804,10 +1796,12 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "[+33]% Strength <vs [Armored] units>",
-            "[+33]% Strength <vs [Mounted] units>",
-            "[+1] Sight"
+            "[+33]% Strength <vs [Mounted] units>"
         ],
-        "promotions": ["[Sipahi] ability"],
+        "promotions": [
+            "No movement cost to pillage",
+            "Extra Sight"
+        ],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
@@ -1875,12 +1869,13 @@
         "uniqueTo": "Romania",
         "replaces": "Gatling Gun",
         "unitType": "Ranged Gunpowder",
-        "range": 2,
+        "range": 1,
         "movement": 2,
         "strength": 31,
         "rangedStrength": 31,
         "cost": 225,
         "requiredTech": "Industrialization",
+        "promotions": ["Extended Range"],
         "upgradesTo": "Machine Gun",
         "obsoleteTech": "Ballistics",
         "attackSound": "machinegun"
@@ -1967,8 +1962,7 @@
         "movement": 3,
         "strength": 34,
         "cost": 225,
-        "promotions": ["Blitz","Quick Study"],
-        "uniques": ["Transfer Movement to [All]"],
+        "promotions": ["Blitz","Quick Study", "Extra Movement"],
         "requiredTech": "Military Science",
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Great War Infantry",
@@ -2025,7 +2019,7 @@
             "[-33]% Strength <vs cities> <when attacking>",
             "[+1] Sight"
         ],
-        "promotions": ["[Hussar] ability"],
+        "promotions": ["Enhanced Flank Attack"],
         "attackSound": "horse"
     },
     {
@@ -2100,6 +2094,7 @@
         "obsoleteTech": "Combustion",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
+        "promotions": ["Extra Movement"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -2238,11 +2233,8 @@
         "strength": 50,
         "cost": 300,
         "requiredTech": "Replaceable Parts",
-        "uniques": [
-            "Heals [100] damage if it kills a unit",
-            "[+25]% Strength <when defending>",
-            "Can build [Farm] improvements on tiles"
-        ],
+        "uniques": ["Can build [Farm] improvements on tiles"],
+        "promotions": ["Heals Completely Upon Killing","Strong Defence"],
         "upgradesTo": "Infantry",
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2272,7 +2264,11 @@
         "requiredTech": "Replaceable Parts",
         "obsoleteTech": "Electronics",
         "upgradesTo": "Infantry",
-        "promotions": ["[Norwegian Ski Infantry] ability"],
+        "promotions": [
+            "Drill I",
+            "Drill II",
+            "[Norwegian Ski Infantry] ability"
+        ],
         "attackSound": "shot"
     },
     {
@@ -2284,7 +2280,8 @@
         "strength": 47,
         "cost": 330,
         "requiredTech": "Replaceable Parts",
-        "uniques": ["[+50]% Strength <when attacking>"],
+        "promotion": ["Extra Movement", "Bonus For Attacking"],
+        "uniques": ["[This Unit] upgrades for free"],
         "upgradesTo": "Infantry",
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2364,10 +2361,7 @@
         "strength": 80,
         "cost": 410,
         "requiredTech": "Electronics",
-        "uniques": [
-            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
-            "Can move after attacking"
-        ],
+        "promotions": ["Can Move After Attacking", "Foreign Land Bonus"],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
@@ -2381,7 +2375,8 @@
         "strength": 70,
         "cost": 350,
         "requiredTech": "Electronics",
-        "uniques": ["Can pass through impassable tiles"],
+        //"uniques": ["Can pass through impassable tiles"],
+        "uniques": ["[+25]% Strength <vs [Gunpowder] units>"],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
@@ -2436,16 +2431,15 @@
         "replaces": "Machine Gun",
         "uniqueTo": "Finland",
         "unitType": "Ranged Gunpowder",
-        "range": 1,
+        "range": 2,
         "movement": 2,
         "strength": 50,
         "rangedStrength": 60,
         "cost": 350,
         "requiredTech": "Ballistics",
-        "promotions": ["Ignore terrain cost"],
+        "promotions": ["Ignore terrain cost", "Extra Movement", "No movement cost to pillage"],
         "uniques": [
             "[+25]% Strength <vs [Armored] units>",
-            "No movement cost to pillage",
             "[+33]% Strength <vs [Gunpowder] units>"
         ],
         "upgradesTo": "Bazooka",
@@ -3058,7 +3052,7 @@
             "Great Person - [Faith]",
             "Uncapturable",
             "Unbuildable",
-            "Only available <when religion is enabled>",
+            "Only available <when religion is enabled>"
         ],
         "movement": 4
     },
@@ -3112,7 +3106,7 @@
             "Unbuildable",
             "Uncapturable"
         ],
-        "movement": 4
+        "movement": 7
     },
     {
         "name": "Great Admiral",
