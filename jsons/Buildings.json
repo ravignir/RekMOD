@@ -2937,7 +2937,7 @@
         "hurryCostModifier": 0,
         "uniques": [
             "Provides [1] [Factories]",
-            "Adopt [Ideology] <when above [0] [Factories]>",
+            "Adopt [Ideology]",
             "[+2 Gold] from [Rubber] tiles [in this city]"
         ],
         "requiredTech": "Industrialization"
