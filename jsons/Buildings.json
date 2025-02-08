@@ -842,7 +842,7 @@
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": [
-            "Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+            "Gain [100] [Gold] <upon expending a [Great Person] unit>",
             "[+2 Gold] from [Marble] tiles [in this city]",
             "[+2 Gold] from [Stone] tiles [in this city]",
             "[+2 Gold] from [Obsidian] tiles [in this city]"
