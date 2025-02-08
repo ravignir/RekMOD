@@ -1245,8 +1245,8 @@
             "Can be purchased for [450] [Gold] [in all cities]",
             "Can be purchased for [390] [Faith] [in all cities]",
             "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
-            "Gain [75] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
-            "Gain [75] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>"
+            "Gain [75] [Faith] <upon expending a [Great Person] unit>",
+            "Gain [75] [Science] <upon expending a [Great Person] unit>"
         ]
     },
     {
@@ -1490,7 +1490,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Gain [20] [Gold] <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
+            "Gain [20] [Gold] <upon expending a [Great Person] unit>",
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
