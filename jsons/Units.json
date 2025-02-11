@@ -2733,7 +2733,25 @@
         ],
         "attackSound": "machinegun"
     },
-
+    {
+        "name": "Cardoen",
+        "unitType": "Helicopter",
+        "replaces": "Helicopter Gunship",
+        "uniqueTo": "Chile",
+        "movement": 10,
+        "strength": 85,
+        "cost": 510,
+        "requiredTech": "Computers",
+        "requiredResource": "Aluminum",
+        "promotions": ["Range Defence"],
+        "uniques": [
+            "[+200]% Strength <vs [Armored] units>",
+            "No defensive terrain bonus",
+            "Can move after attacking",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
     // Information Era
     {
         "name": "Nuclear Submarine",

@@ -2924,6 +2924,25 @@
         "requiredTech": "Industrialization"
     },
     {
+        "name": "Cooperation",
+        "uniqueTo": "Chile",
+        "replaces": "Factory",
+        "happiness": 2,
+        "cost": 360,
+        "production": 4,
+        "percentStatBonus": {"production": 10},
+        "specialistSlots": {"Engineer": 3},
+        "requiredBuilding": "Workshop",
+        "maintenance": 0,
+        "hurryCostModifier": 0,
+        "uniques": [
+            "Provides [1] [Factories]",
+            "Adopt [Ideology]",
+            "[+2 Gold] from [Rubber] tiles [in this city]"
+        ],
+        "requiredTech": "Industrialization"
+    },
+    {
         "name": "Center of Progress",
         "cost": 0,
         "uniques": [

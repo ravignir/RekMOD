@@ -64,6 +64,7 @@ Contains stuff from mods:
 - [Igloo](https://www.freepik.com/icon/igloo_7658414#fromView=search&page=2&position=21&uuid=79b64564-ec97-4883-94a9-a867e1860917) by Freepik for Rocke-hewn church
 - [Minar](https://www.freepik.com/icon/qutb-minar_3186670#fromView=search&page=1&position=20&uuid=b5a934d7-7209-4ba9-8158-43954e56a2a1) by surang for Minaa
 - [Dock](https://thenounproject.com/icon/dock-4489742/) by Flowicon for Dry Dock
+- [Factory](https://thenounproject.com/icon/factory-6833299/) by Hadi Mulyono for Cooperation
 
 ## Resources
 
@@ -77,3 +78,4 @@ Contains stuff from mods:
 - [War Ship](https://thenounproject.com/icon/war-ship-5307671/) by SHAHAREA for Heavy Cruiser
 - [Tank](https://thenounproject.com/icon/tank-7284085/) by Taewon Kang for M-84
 - [Halberd](https://thenounproject.com/icon/halberd-440848/) by Parkjisun for Reislaufer
+- [Helicopter](https://thenounproject.com/icon/helicopter-6903169/) by swk for Cardoen

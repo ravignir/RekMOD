@@ -704,6 +704,44 @@
         ]
     },
     {
+        "name": "Chile",
+        "leaderName": "Bernardo O’ Higgens",
+        "adjective": ["Chilean"],
+        "startBias": ["Coast"],
+        "startIntroPart1": "Hail to you, O' Great Captain, General, and Admiral, Bernardo O'Higgens Riquelme, father of the Chilean nation. With tenacity and skill, you led the nascent Chile to its liberty. Propelled by Napoleon's conquest of Spain and inspired by the ideals sweeping across the new world, your role in Chile's independence war would see you rise to the position of Supreme Director. In this position, you would proclaim an independent republic, and in so doing would fuel the flames of Latin independence.",
+        "startIntroPart2": "Honoured leader, the Chilean people look back upon your deeds with pride and inspiration. It is once more your charge to ensure their liberty and independence. Can you lead them to prosperity? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+        "outerColor": [186, 186, 160],
+        "innerColor": [28, 76, 107],
+        "uniqueName": "By Reason or By Force",
+        "uniques": [
+            "Gain control over [All] tiles in a [1]-tile radius <upon building a [Fishing Boats] improvement>",
+            "Gain control over [All] tiles in a [1]-tile radius <upon building a [Dry Dock] improvement>",
+            "Free [Great Admiral] appears <upon discovering [Compass] technology>",
+            "Comment [[Sword] Units  inflict a -25% Combat Penalty to adjacent enemy [Water] Units]",
+            "Comment [[Gunpowder] Units  inflict a -25% Combat Penalty to adjacent enemy [Water] Units]",
+            "Comment [[Melee Water] Units inflict this penalty to adjacent enemy [Land] Units]",
+            "[Sword] units gain the [By Reason] promotion <hidden from users>",
+            "[Gunpowder] units gain the [By Reason] promotion <hidden from users>",
+            "[Melee Water] units gain the [By Force] promotion <hidden from users>"
+        ],
+        "cities": [
+            "Santiago de Chile","Concepción","Valparaiso","La Serena","Valdivia","Castro","Talca","Copiapó","Iquique","Arica","Puerto Montt"
+            "Antofagasta","Punta Arenas","Temuco","La Ligua","San Felipe","Vallenar","San Fernando","Calama","Putre","Linares",
+            "Cauquenes","Lebu","General Carrera","Cochrane","Porvenir","Melipilla","Cachagua","Neltume","Los Andes","Pichilemu",
+            "Illapel","Lluscuma"
+        ],
+        "spyNames": [
+            "Mamo Contreras","Arellano Stark","Paul Schafer","Alvaro Corbalán","Odlanier Mena","Humberto Gordon","Hugo Salas","Gustavo Abarzúa","Ingrid Olderock","La Pepa"
+        ]
+    },
+    {
         "name": "China",
         "leaderName": "Wu Zetian",
         "adjective": ["Chinese"],

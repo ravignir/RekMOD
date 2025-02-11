@@ -916,6 +916,19 @@
             "[+15]% Strength <when fighting in [Jungle] tiles>"
         ]
     },
+    {
+    "name": "Range Defence", //only for Cardoen and subsequent upgrades
+    "uniques": ["[+100]% Strength <vs [Ranged] units> <when defending>"]
+    },
+  //TODO need add uniq for [2]-tiles radius
+    {
+    "name": "By Reason", //only for Chile
+    "uniques": ["[-25]% Strength for enemy [Water] units in adjacent [All] tiles <in [Land] tiles>"]
+    },
+    {
+    "name": "By Force", //only for Chile
+    "uniques": ["[-25]% Strength for enemy [Land] units in adjacent [All] tiles"]
+    },
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",
