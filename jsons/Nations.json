@@ -1065,6 +1065,41 @@
             "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
+	{
+        "name": "Georgia",
+        "leaderName": "Tamar",
+        "adjective": ["Georgian"],
+        "startBias": ["Avoid [Coast]"],
+        "startIntroPart1": "The mountains echo with the strength of our ancestors.",
+        "startIntroPart2": "Georgia rises, proud and unbroken.",
+        "declaringWar": "Your actions dishonor the legacy of peace. Now, feel the might of Georgia!",
+        "attacked": "Your treachery knows no bounds! Georgia will endure, and you will fall!",
+        "defeated": "The proud heart of Georgia is silent... but her spirit will rise again.",
+        "introduction": "Gamarjoba. In the name of the ancient land of Kartli, welcome.",
+        "neutralHello": "The mountains stand still. What do you seek?",
+        "hateHello": "Enough talk! What is it this time?",
+        "tradeRequest": "This trade honors us both. Shall we proceed?",
+        "outerColor": [147,112,219],
+        "innerColor": [246,205,137],
+        "uniqueName": "Ecclesiastical Architecture",
+        "uniques": [
+            "[+2 Production] from every [Gurdwara]",
+            "[+2 Production] from every [Cathedral]",
+            "[+2 Production] from every [Mandir]",
+            "[+2 Production] from every [Mosque]",
+            "[+2 Production] from every [Pagoda]",
+            "[+2 Production] from every [Synagogue]",
+            "[+2 Production] from every [Vihara]"
+            // TODO: new uniq Buildings unlocked by religious beliefs (except Houses of Worship) are built using Production instead (cost equal to 50% of the required Faith)
+        ],
+        "cities": [
+            "Tbilisi","Batumi","Kutaisi","Sokhumi","Zugdidi","Rust'avi","P'ot'i","Gori","Ts'khinvali","Samtredia","Khashuri","Senak'i","Zestap'oni",           "Telavi","Akhaltsikhe","Ozurgeti","Kaspi","Chiatura","Tskaltubo","Sagarejo","Gardabani","Borjomi","Tkibuli","Khoni","Bolnisi","Akhalkalaki","Gurjaani",
+            "Mtskheta","Kvareli","Akhmeta","Kareli","Lanchkhuti","Tsalenjikha","Dusheti","Sachkhere","Dedoplistsqaro"
+        ],
+        "spyNames": [
+            "Giorgi","Mariam","Davit","Tamar","Levan","Nino","Zurab","Salome","Vazha","Ekaterine"
+        ]
+    },
     {
         "name": "Golden Horde",
         "leaderName": "Batu Khan",

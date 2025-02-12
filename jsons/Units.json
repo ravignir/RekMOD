@@ -1162,6 +1162,25 @@
         "promotions": ["Great Generals I","Quick Study"],
         "attackSound": "arrow"
     },
+	{
+        "name": "Khevsur",
+        "replaces": "Swordsman",
+        "uniqueTo": "Georgia",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 14,
+        "cost": 75,
+        "requiredTech": "Guilds",
+        "upgradesTo": "Longswordsman",
+        "obsoleteTech": "Steel",
+        "requiredResource": "Iron",
+        "hurryCostModifier": 20,
+        "uniques": [
+            "Ignore terrain cost",
+            "[+33]% Strength <during a Golden Age>"
+        ],
+        "attackSound": "metalhit"
+    },
     {
         "name": "Naresuan's Elephant",
         "unitType": "Mounted",
