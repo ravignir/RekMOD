@@ -79,3 +79,4 @@ Contains stuff from mods:
 - [Tank](https://thenounproject.com/icon/tank-7284085/) by Taewon Kang for M-84
 - [Halberd](https://thenounproject.com/icon/halberd-440848/) by Parkjisun for Reislaufer
 - [Helicopter](https://thenounproject.com/icon/helicopter-6903169/) by swk for Cardoen
+- [Beret](https://thenounproject.com/icon/beret-6945974/) by krisna arga muria for Expeditionary Force
