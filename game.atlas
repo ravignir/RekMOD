@@ -934,7 +934,7 @@ UnitIcons/Future Soldier
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Gadrauht
+UnitIcons/Missionários
   rotate: false
   xy: 420, 1668
   size: 200, 200
@@ -969,21 +969,21 @@ UnitIcons/Heavy Cruiser
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Hetairoi
+UnitIcons/Cavalaria de Geovanna
   rotate: false
   xy: 628, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Hetairoi
+UnitPromotionIcons/Cavalaria de Geovanna
   rotate: false
   xy: 628, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Koa
+UnitIcons/Filhos de Ci
   rotate: false
   xy: 628, 628
   size: 200, 200
@@ -997,7 +997,7 @@ UnitIcons/Konnitsa
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Krivis
+UnitIcons/Serpentes
   rotate: false
   xy: 1044, 1044
   size: 200, 200
@@ -1011,21 +1011,21 @@ NationIcons/Lithuania
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Kuva-yi Milliye
+UnitIcons/Dani Said
   rotate: false
   xy: 1252, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Landwehr
+UnitIcons/Bob
   rotate: false
   xy: 1460, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Laputtu
+UnitIcons/Alcateia
   rotate: false
   xy: 1668, 1668
   size: 200, 200
@@ -1074,7 +1074,7 @@ UnitIcons/Pedite
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Pestininkas
+UnitIcons/Poder Marinho
   rotate: false
   xy: 1460, 212
   size: 200, 200
@@ -2047,6 +2047,13 @@ UnitIcons/Caravan
   offset: 0, 0
   index: -1
 UnitIcons/Cargo Ship
+  rotate: false
+  xy: 1692, 878
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Banda voou
   rotate: false
   xy: 1692, 878
   size: 100, 100
