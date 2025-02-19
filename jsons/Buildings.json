@@ -386,6 +386,18 @@
             "[+2] population [in this city]"
         ]
     },
+    {
+        "name": "Bahai Kubo",
+        "uniqueTo": "Philippines",
+        "uniques": [
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "[+1] population [in this city]",
+            "Limited to [2] per Civilization",
+            "Will not be displayed in Civilopedia",
+            "Only available <in cities without a [Palace]>"
+        ]
+    },
 
     // Ancient Era
     // Always available
@@ -2394,6 +2406,19 @@
         "maintenance": 2,
         "requiredBuilding": "Colosseum",
         "requiredTech": "Printing Press"
+    },
+    {
+        "name": "National Church",
+        "replaces": "Zoo",
+        "uniqueTo": "Philippines",
+        "cost": 150,
+        "happiness": 2,
+        "faith": 4,
+        "culture": 1,
+        "hurryCostModifier": 10,
+        "maintenance": 2,
+        "requiredTech": "Compass",
+        "uniques": ["New [Military] units start with [15] Experience [in this city]"]
     },
     {
         "name": "Stade",

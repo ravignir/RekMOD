@@ -2103,6 +2103,23 @@
         "attackSound": "horse"
     },
     {
+        "name": "Gerilya",
+        "unitType": "Gunpowder",
+        "uniqueTo": "Philippines",
+        "replaces": "Expeditionary Force",
+        "movement": 3,
+        "strength": 55,
+        "cost": 270,
+        "requiredTech": "Biology",
+        "upgradesTo": "Marine",
+        "obsoleteTech": "Pharmaceuticals",
+        "promotions": ["Amphibious", "Embarkation with Defense", "Volley", "Fast Swimmer"],
+        "uniques": [
+            "[+1] Sight <when [Embarked]>"
+        ],
+        "attackSound": "shot"
+    },
+    {
         "name": "Ironclad",
         "unitType": "Melee Water",
         "movement": 3,

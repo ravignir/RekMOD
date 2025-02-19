@@ -79,3 +79,6 @@ Contains stuff from mods:
 - [Tank](https://thenounproject.com/icon/tank-7284085/) by Taewon Kang for M-84
 - [Halberd](https://thenounproject.com/icon/halberd-440848/) by Parkjisun for Reislaufer
 - [Helicopter](https://thenounproject.com/icon/helicopter-6903169/) by swk for Cardoen
+- [hat](https://thenounproject.com/icon/hat-7388612/) by Haider Ali for Gerilya
+- [Church](https://thenounproject.com/icon/church-1855092/) by Smashicons for National Church
+- [Swimmer](https://thenounproject.com/icon/swimmer-6735717/) by yode tive for Fast Swimmer
