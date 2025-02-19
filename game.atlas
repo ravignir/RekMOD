@@ -221,7 +221,7 @@ NationIcons/Argentina
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Armenia
+NationIcons/Casa Assunção
   rotate: false
   xy: 1244, 1428
   size: 200, 200
@@ -242,7 +242,7 @@ NationIcons/Burma
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Canada
+NationIcons/Casa Dantas
   rotate: false
   xy: 412, 804
   size: 200, 200
@@ -1703,14 +1703,14 @@ NationIcons/Celts
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Ethiopia
+NationIcons/Casa Menezes
   rotate: false
   xy: 1800, 631
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Hittites
+NationIcons/Casa Borges
   rotate: false
   xy: 1692, 446
   size: 100, 100
@@ -1734,13 +1734,6 @@ NationIcons/Kongo
 UnitIcons/Ngao Mbeba
   rotate: false
   xy: 1368, 238
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Macedonia
-  rotate: false
-  xy: 1800, 199
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1836,7 +1829,7 @@ NationIcons/Wales
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Zimbabwe
+NationIcons/Casa Macedo
   rotate: false
   xy: 1252, 994
   size: 200, 200
@@ -2598,7 +2591,7 @@ NationIcons/Ayyubids
   orig: 90, 90
   offset: 0, 0
   index: -1
-NationIcons/Belgium
+NationIcons/Casa Said
   rotate: false
   xy: 642, 188
   size: 90, 90
@@ -2661,7 +2654,7 @@ NationIcons/Sioux
   orig: 90, 90
   offset: 0, 0
   index: -1
-NationIcons/Switzerland
+NationIcons/Casa Silva
   rotate: false
   xy: 647, 832
   size: 90, 90
