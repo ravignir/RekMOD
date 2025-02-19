@@ -5,6 +5,199 @@
         "outerColor": [255,255,255]
     },
     //nations
+	{
+		"name": "Casa Said",
+		"leaderName": "Davi Said",
+		"adjective": ["Saids"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Davi Said",
+		
+	"startIntroPart1": "Cultura é poder!!",
+	"startIntroPart2": "Lord dos 7 reinos e protetor de nações, todos saudem Davi Said!!",
+		
+	"declaringWar": "Nunca é o que procuramos, mas sempre o que temos ao final!!",
+		"attacked": "Desejamos uma boa sorte, vão precisar!",
+		"defeated": "Isso não é possivel, e muito menos justo!",
+		"introduction": "O lord dos 7 reinos pede sua atenção!!",
+		
+		"neutralHello": "Como posso ajudá-lo?",
+		"hateHello": "O que você quer agora",
+		"tradeRequest": "Nós temos uma ótima oferta!.",
+		"outerColor": [255,255,255],
+		"innerColor": [65,141,254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Tesouro Cultural",
+		"uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>", "[+2 Gold] from each Trade Route", "[-50]% City-State Influence degradation", "[2] Free Social Policies", "[+2 Gold, +3 Production] per [4] social policies adopted"],
+		"cities": ["Jequié","Caucaia","Ouro Verde","Mar de Aruana","Royal Palm","Felicidades","Fortaleza","Q'Vronens","Q'Aerlae",
+			"Q'Royal Palm","Q'Felicidades","Q'São Paulo","Q'Fortaleza","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+	},
+		{
+		"name": "Casa Dantas",
+		"leaderName": "Pricylla",
+		"adjective": ["Dantas"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Pricylla",
+
+        "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
+        "startIntroPart2": "Great Caliph Harun al Rashid, all Arabian people long for greatness! Arabia must be once again the land of arts and knowledge, which under the radiant law of God, will fear no enemy! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "Fool! You will soon regret dearly! I swear it!",
+		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
+		"introduction": "Welcome foreigner, I am Harun Al-Rashid, Caliph of the Arabs. Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come forth, let's do business.",
+		"outerColor": [43, 88, 46],
+		"innerColor": [146, 221, 10],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Deus da Luxuria",
+		"uniques": ["[+1 Gold] from each Trade Route", "[+1 Gold, +2 Production] per [5] population [in all cities]", "[+10]% Production when constructing [Culture] buildings [in all cities]", "[4]% Food is carried over after population increases [in all cities]", "[3] Happiness from each type of luxury resource" ],
+		"cities": ["Sitio","Robalo","Aruana","Santa Maria","Aracaju","Praias","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"] 
+
+    },
+		{
+		"name": "Casa Menezes",
+		"leaderName": "Valdeci",
+		"adjective": ["Menezes"],
+		"preferredVictoryType": "Domination",
+		"personality": "Lurdes",
+
+        "startIntroPart1": "Great King Darius of Aracaju, the heaven casts its light upon you! Menezes people are strong and wise, as their leader. In old ages, the great Menezes king Cyrus fought back the mighty Median empire and finally destroyed the Medes in 550 BC. Cunning diplomacy and military achievements helped then to conquer the wealthy Lydia and the powerful Babylon, Cyrus' son conquering the eternal Egypt some years later. At the height of its power, the Persian Empire reached the shores of Macedonia, at the very door of the upstart Greek city-states. Persia would have prospered for centuries if Alexander of Macedon hadn't brutally destroyed the great empire in one violent strike.",
+        "startIntroPart2": "King Darius, the people of Persia await, longing for its past glory and power! Persia of the Immortals must reborn, to punish its foes and rebuild the gleaming Persepolis! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Your continue existence is an embarrassment to all leaders everywhere! You must be destroyed!",
+		"attacked": "Curse you! You are beneath me, son of a donkey driver! I will crush you!",
+		"defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
+		"introduction": "Peace be on you! I am Darius, the great and outstanding king of kings of great Persia... but I suppose you knew that.",
+		"neutralHello": "Good day to you!",
+		"hateHello": "Ahh... you...",
+		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+
+        "outerColor": [153,5,3],
+        "innerColor": [244,232,54],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Guerras de Mentira",
+		"uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+15]% Strength <for [All] units> <during a Golden Age>"],
+		"cities": ["Mosqueiro","Santa Tereza","Malvina","Âncora","Barraca","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
+			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
+			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
+			"Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
+			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
+			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
+			"Paishiyauvada","Patigrbana","Phrada"],
+		},
+		{
+		"name": "Casa Silva",
+		"leaderName": "Joana",
+		"adjective": ["Silvas"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Jennifer",
+
+        "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
+        "startIntroPart2": "Great Queen, can you make China prevail again, using your divine intelligence and beauty? China stands for greatness, and all its enemies will be dazzled soon enough! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
+		"attacked": "Fool! I will disembowel you all!",
+		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "Greetings, I am Empress Wu Zetian. China desires peace and development. You leave us alone, we'll leave you alone.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+        "outerColor": [255, 252, 3],
+		"innerColor": [83, 0, 208],
+		"uniqueName": "Amor de familia",
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [60]% faster", "[-45]% maintenance costs <for [Land] units>", "[+50]% Strength <vs [City-States]>", "[+2] Movement <for [Mounted] units>", "Starts with [Honor] adopted"]
+		"cities": ["Itanhaém","São Paulo","Santos","Caminho das indias","Santa fé do Sul","Mogi das cruzes","Zona Leste","Zona norte","Zona sul","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+		},
+	{                
+                "name": "Casa Borges",
+                "leaderName": "Marcos",
+                "adjective": "Borges",
+                "personality": "Marcos",
+                "startBias": ["Gold Ore"],
+                "preferredVictoryType": "Diplomatic",
+                "declaringWar": "I'm in the world a little while longer, to defend the Lannisters, to defend my blood.",
+                "attacked": "Hmph. Wars swallow gold like a pit in the earth.",
+                "defeated":  "It’s the family name that lives on. It’s all that lives on. Not your honor, not your personal glory, family.",
+                "introduction":  "When soldiers lack discipline, the fault lies with their commander.",
+                "neutralHello": "The House that puts family first will always defeat the house that puts the whims and wishes of their sons and daughters' first.",
+                "hateHello": "A lion doesn’t concern himself with the opinions of the sheep.",
+                "tradeRequest": "You don't need to make formal alliances with people you trust.",
+                "outerColor": [ 28,51,119],
+                "innerColor": [255,255,255],
+                "uniqueName": "Capitalismo Selvagem",
+                "uniques": ["[+3 Gold, +1 Culture] from [Gold Ore] tiles [in all cities]", "Double quantity of [Gold Ore] produced",
+                  "[+2 Gold] from [Mine] tiles [in all cities]", 
+                  "[-30]% maintenance costs <for [Land] units>", 
+                  "[Gold] cost of purchasing [Land] units [-30]%", 
+                  "[+1 Culture, +1 Happiness, +1 Science] per every [90] [Gold]"],
+
+                "cities": ["Salt Lake city","Utah","Las vegas","Califórnia","Nova York","Texas","Silverhill","Crakehall","Golden Tooth"]
+        },
+	{
+		"name": "Casa Macedo",
+		"leaderName": "Cris",
+		"adjective": ["Macedos"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Cris",
+
+		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
+		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"uniqueName": "Estudar Sempre",
+		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [80]% faster","[+2 Science] from every specialist [in all cities]",  "[+3 Science] from every [Great Improvement]"],
+		"cities": ["Augusto Franco","Farolândia","Barra dos Coqueiros","São Conrado","Atalaia","Sippar","Coroa do Meio","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+	},
+	{
+		"name": "Casa Assunção"
+		"leaderName": "Cláudia",
+		"adjective": ["Cristãos"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Cláudia",
+
+		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
+		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "Vamos negociar!!",
+		"outerColor": [179, 178, 184],
+		"innerColor": [37, 43, 33],
+		"uniqueName": "Guerreiros de fé"
+		"uniques": ["[+70]% [Faith] from City-States", "May choose [2] additional belief(s) of any type when [founding] a religion", "[+1 Faith] [in all cities]"],
+		"cities": ["Curiós", "templo de Deus", "casa do senhor", "fim de mundo", "mosqueiro", "Orla por do Sol"]
+	},
     {
         "name": "Akkad",
         "leaderName": "Sargon",
@@ -3920,6 +4113,54 @@
         "uniques": [],
         "cities": ["Wittenberg"]
     },
+{
+    	"name": "Espantas",
+		"adjective": ["Espantas"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["Romeu de Castro"]
+	},
+	{
+		"name": "Sábios de Lurdes",
+		"adjective": ["Lurdenses"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "Why have you forsaken us my lord?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+		"cities": ["Santa Tereza"]
+	},
+		{
+		"name": "Migas suas loucas",
+		"adjective": ["Baianas"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Ouro Verde"]
+	},
+	{
+		"name": "Coleguinhas",
+		"adjective": ["Coleguinhas"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,0],
+		"cities": ["Royal Palm"]
+	},
 
     //Barbarian
     {
