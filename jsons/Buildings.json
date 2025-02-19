@@ -1,4 +1,28 @@
 [
+	    {
+        "name": "GBarbosa",
+        "replaces": "Colosseum",
+        "uniqueTo": "Casa Said",
+        "production": 5,
+        "gold": 6,
+        "hurryCostModifier": 25,
+        "requiredTech": "Construction",
+        "uniques": [
+            "[+3 Production, +3 Gold] <after discovering [Industrialization]>",
+            "[+1] population [in this city]"
+        ]
+    },
+	{
+		"name": "Estúdio de Hip Hop",
+		"uniqueTo": "Casa Borges",
+		"production": 2,
+		"Happiness": 2,
+		"Culture": 5,
+		"cost": 60,
+		"maintenance": 5,
+		"requiredTech": "Construction",
+		"uniques":["Destroyed when the city is captured", "[2] free [Worker] units appear"],
+	},
 		{
 		"name": "condomínio",
 		"uniqueTo": "Casa Said",
