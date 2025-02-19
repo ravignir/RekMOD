@@ -382,7 +382,7 @@ UnitIcons/Atomic Bomb
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Baghlah
+UnitIcons/Poder Marinho
   rotate: false
   xy: 1244, 1220
   size: 200, 200
@@ -976,13 +976,6 @@ UnitIcons/Cavalaria de Geovanna
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Cavalaria de Geovanna
-  rotate: false
-  xy: 628, 1044
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 UnitIcons/Filhos de Ci
   rotate: false
   xy: 628, 628
@@ -1074,7 +1067,7 @@ UnitIcons/Pedite
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Poder Marinho
+UnitIcons/Banda voou
   rotate: false
   xy: 1460, 212
   size: 200, 200
@@ -2053,13 +2046,6 @@ UnitIcons/Cargo Ship
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Banda voou
-  rotate: false
-  xy: 1692, 878
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Cataphract
   rotate: false
   xy: 1044, 778
@@ -2084,8 +2070,7 @@ UnitIcons/Combat Engineer
 UnitIcons/Dhow
   rotate: false
   xy: 1476, 670
-  size: 100, 100
-  orig: 100, 100
+  si  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Fenian
