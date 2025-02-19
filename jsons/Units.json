@@ -1,5 +1,112 @@
 [
     // Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
+	{
+	"name": "Dani Said",
+	"unitType": "Civilian",
+	"uniqueTo": "Casa Said",
+	"strength": 8,
+	"movement": 2,
+	"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+	"cost": 20,
+	},
+{
+	"name": "Bob",
+	"unitType": "Sword",
+	"uniqueTo": "Casa Said",
+	"movement": 2,
+	"strength": 10,
+	"cost": 20,
+	"promotions": ["Ignore terrain cost","[Jaguar] ability","Woodsman"],
+	"attackSound": "nonmetalhit"
+},
+	{
+	"name": "Banda voou",
+	"unitType": "Civilian Water",
+	"uniqueTo": "Casa Dantas",
+	"movement": 3,
+	"strength": 10,
+	"cost": 10,
+	"requiredTech": "Sailing",
+	"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	"attackSound": "nonmetalhit"
+},
+	{
+		"name": "Serpentes",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 13,
+		"cost": 80,
+		"requiredTech": "Archery",
+		"replaces": "Archer",
+		"uniqueTo": "Casa Menezes",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Filhos de Ci",
+		"unitType": "Sword",
+		"uniqueTo": "Casa Menezes",
+		"movement": 2,
+		"strength": 15,
+		"cost": 50,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"hurryCostModifier": 5,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Missionários",
+		"unitType": "Sword",
+		"uniqueTo": "Casa Assunção",
+		"movement": 4,
+		"strength": 5,
+		"cost": 45,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Poder Marinho",
+		"unitType": "Melee Water",
+		"uniqueTo":  "Casa Borges",
+		"movement": 3,
+		"strength": 15,
+		"cost": 16,
+		"requiredTech": "Sailing",
+		"uniques": ["[+50]% Strength <vs [Water] units>", "Cannot enter ocean tiles"]
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Cavalaria de Geovanna",
+		"unitType": "Mounted",
+		"uniqueTo": "Casa Silva",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 10,
+		"attackSound": "horse",
+	},
+	{
+		"name": "Alcateia",
+		"unitType": "Sword",
+		"uniqueTo": "Casa Dantas",
+		"movement": 1,
+		"strength": 25,
+		"cost": 70,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"hurryCostModifier": 5,
+		"attackSound": "metalhit"
+	},
 
     /* Ancient Era */
     {
