@@ -1,6 +1,15 @@
 [
     // Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 	{
+	"name": "Professor",
+	"unitType": "Sword",
+	"uniqueTo": "Casa Macedo",
+	"movement": 3,
+	"strength":3,
+	"cost": 15,
+	"attackSound": "nonmetalhit"
+},
+	{
 	"name": "Dani Said",
 	"unitType": "Civilian",
 	"uniqueTo": "Casa Said",
