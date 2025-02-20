@@ -57,8 +57,11 @@
         "innerColor": [190, 146, 61],
         "uniqueName": "Saint Elesbaan's Blessing",
         "uniques": [
-            "[-999]% Natural religion spread [in enemy cities]",
-            "[+10000]% Natural religion spread [in your cities] <for [2] turns> <upon founding a Religion>"
+            // Something Something Religion goes to every city immedietely
+            // Something Something Religion doesn't spread to other cities
+            //Note: this requires a unique regarding what it spreads to, not from
+            //"[-999]% Natural religion spread [in enemy cities]",
+            //"[+10000]% Natural religion spread [in your cities] <for [2] turns> <upon founding a Religion>"
         ],
         "cities": [
             "Aksum","Adulis","Qohaito","Matara","Yeha","Hawulti","Massawa","Zeila","Lalibela","Addi Galamo",
