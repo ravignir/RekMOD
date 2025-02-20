@@ -1093,8 +1093,9 @@
             // TODO: new uniq Buildings unlocked by religious beliefs (except Houses of Worship) are built using Production instead (cost equal to 50% of the required Faith)
         ],
         "cities": [
-            "Tbilisi","Batumi","Kutaisi","Sokhumi","Zugdidi","Rust'avi","P'ot'i","Gori","Ts'khinvali","Samtredia","Khashuri","Senak'i","Zestap'oni",           "Telavi","Akhaltsikhe","Ozurgeti","Kaspi","Chiatura","Tskaltubo","Sagarejo","Gardabani","Borjomi","Tkibuli","Khoni","Bolnisi","Akhalkalaki","Gurjaani",
-            "Mtskheta","Kvareli","Akhmeta","Kareli","Lanchkhuti","Tsalenjikha","Dusheti","Sachkhere","Dedoplistsqaro"
+            "Tbilisi","Kutaisi","Batumi","Sokhumi","Zugdidi","Rust'avi","P'ot'i","Gori","Ts'khinvali","Samtredia",
+            "Khashuri","Senak'i","Zestap'oni","Telavi","Ozurgeti","Marneuli","Kobuleti","Tqvarch'eli","Akhaltsikhe","Tsqaltubo",
+            "Kaspi"
         ],
         "spyNames": [
             "Giorgi","Mariam","Davit","Tamar","Levan","Nino","Zurab","Salome","Vazha","Ekaterine"
