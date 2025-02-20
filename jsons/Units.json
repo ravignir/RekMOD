@@ -111,6 +111,7 @@
         "cost": 25,
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Airship",
+        "uniques":["Does not upgrade from ruins-like effects"],
         "promotions": ["Ignore terrain cost"],
         "attackSound": "arrow"
     },
@@ -253,7 +254,10 @@
         "strength": 5,
         "rangedStrength": 7,
         "cost": 30,
-        "uniques": ["[+1] Sight"],
+        "uniques": [
+            "[+1] Sight",
+            "Does not upgrade from ruins-like effects"
+        ],
         "obsoleteTech": "Machinery",
         "upgradesTo": "Composite Bowman",
         "attackSound": "arrow"

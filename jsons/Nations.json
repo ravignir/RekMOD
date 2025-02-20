@@ -60,6 +60,8 @@
             // Something Something Religion goes to every city immedietely
             // Something Something Religion doesn't spread to other cities
             //Note: this requires a unique regarding what it spreads to, not from
+            //"[-999]% Natural religion spread [in enemy cities]",
+            //"[+10000]% Natural religion spread [in your cities] <for [2] turns> <upon founding a Religion>"
         ],
         "cities": [
             "Aksum","Adulis","Qohaito","Matara","Yeha","Hawulti","Massawa","Zeila","Lalibela","Addi Galamo",
@@ -1481,15 +1483,6 @@
         "uniques": [
             "[+1 Culture] from every specialist [in all cities]",
             "Comment [Receive a burst of Golden Age points upon completion of a Policy Tree, and if already in a Golden Age, extend it instead.]",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Tradition Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Liberty Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Honor Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Piety Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Aesthetics Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Patronage Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Exploration Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Commerce Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Rationalism Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
@@ -1499,15 +1492,15 @@
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>"
-            //maybe need better solution for condition
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
         ],
         "cities": [
             "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
@@ -1623,7 +1616,6 @@
         "outerColor": [119,59,129],
         "innerColor": [194,222,155],
         "uniqueName": "Merchant Economy",
-        //"uniqueText": "+10% Growth in all cities.\n\n[+4 Gold] from [Food] and [Production] Trade Routes",
         "uniques": [
             "[+10]% growth [in all cities]",
             "[+4 Gold] from every [Land Trade Route (Food)]",
@@ -2512,7 +2504,7 @@
         "uniques": [
             "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
             "[+25]% [Culture] [in all cities] <during a Golden Age>",
-            "Instantly gain [100] [GoldenAgePoints] <upon conquering a city>"
+            "Instantly gain [100] [GoldenAgePoints] <(modified by game speed)> <upon conquering a city>"
             //need new uniq for liberating cities too
         ],
         "cities": [
