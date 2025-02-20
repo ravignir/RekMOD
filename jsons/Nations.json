@@ -474,7 +474,7 @@
             "[Great Artist] is earned [100]% faster <during a Golden Age>",
             "[Great Writer] is earned [100]% faster <during a Golden Age>",
             "[Great Musician] is earned [100]% faster <during a Golden Age>",
-            "Earn [100]% of killed [Military] unit's [Strength] as [GoldenAgePoints]"
+            "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
         ],
         "cities": [
             "Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -1492,15 +1492,15 @@
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
         ],
         "cities": [
             "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
@@ -2504,7 +2504,7 @@
         "uniques": [
             "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
             "[+25]% [Culture] [in all cities] <during a Golden Age>",
-            "Instantly gain [100] [GoldenAgePoints] <(modified by game speed)> <upon conquering a city>"
+            "Instantly gain [100] [Golden Age points] <(modified by game speed)> <upon conquering a city>"
             //need new uniq for liberating cities too
         ],
         "cities": [
