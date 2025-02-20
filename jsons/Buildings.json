@@ -823,6 +823,21 @@
             "Destroyed when the city is captured"
         ]
     },
+	{
+        "name": "Tsikhe",
+        "replaces": "Walls",
+        "uniqueTo": "Georgia",
+        "cityStrength": 5,
+        "cityHealth": 50,
+        "faith": 3,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+1 Culture] from [Strategic Resource] tiles [in this city]",
+            "All newly-trained [relevant] units [in this city] receive the [Golden Age from Victories] promotion",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Masonry"
+    },
     {
         "name": "The Pyramids",
         "culture": 1,
