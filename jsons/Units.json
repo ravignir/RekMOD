@@ -2115,7 +2115,7 @@
         "requiredTech": "Biology",
         "upgradesTo": "Marine",
         "obsoleteTech": "Pharmaceuticals",
-        "promotions": ["Amphibious", "Embarkation with Defense"],
+        "promotions": ["Amphibious", "Embarkation with Defence"],
         "attackSound": "shot"
     },
     {
@@ -2527,7 +2527,7 @@
         "strength": 80,
         "cost": 450,
         "requiredTech": "Pharmaceuticals",
-        "promotions": ["Amphibious", "Embarkation with Defense"],
+        "promotions": ["Amphibious", "Embarkation with Defence"],
         "uniques": [
             "[+1] Sight <when [Embarked]>"
         ],

@@ -929,6 +929,13 @@
     "name": "By Force", //only for Chile
     "uniques": ["[-25]% Strength for enemy [Land] units in adjacent [All] tiles"]
     },
+    {
+        "name": "Embarkation with Defence",
+        "uniques": [
+            "[+100]% Strength <when defending> <when [Embarked]>"
+        ]
+    },
+
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",
