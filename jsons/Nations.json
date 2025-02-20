@@ -2339,8 +2339,8 @@
         "neutralHello": "Greetings. Our meeting should be fruitful for both sides.",
         "hateHello": "I see hostility in your eyes. But know this: the Filipino people will never back down.",
         "tradeRequest": "Let us work together and exchange resources for the prosperity of our nations.",
-        "outerColor": [175, 238, 238],
-        "innerColor": [128, 0, 0],
+        "outerColor": [1, 204, 187],
+        "innerColor": [100, 13, 4],
         "uniqueName": "The Good Fight",
         "uniques": [
             "[+2] Movement <for [Civilian] units> <in [your] tiles>",
