@@ -2103,6 +2103,18 @@
         "attackSound": "horse"
     },
     {
+        "name": "Expeditionary Force",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "strength": 40,
+        "cost": 270,
+        "requiredTech": "Biology",
+        "upgradesTo": "Marine",
+        "obsoleteTech": "Pharmaceuticals",
+        "promotions": ["Amphibious", "Embarkation with Defense"],
+        "attackSound": "shot"
+    },
+    {
         "name": "Ironclad",
         "unitType": "Melee Water",
         "movement": 3,
@@ -2509,12 +2521,11 @@
         "unitType": "Gunpowder",
         "movement": 3,
         "strength": 80,
-        "cost": 480,
+        "cost": 450,
         "requiredTech": "Pharmaceuticals",
-        "promotions": ["Amphibious"],
+        "promotions": ["Amphibious", "Embarkation with Defense"],
         "uniques": [
-            "[+1] Sight <when [Embarked]>",
-            "[+100]% Strength <when defending> <when [Embarked]>"
+            "[+1] Sight <when [Embarked]>"
         ],
         "attackSound": "shot"
     },
