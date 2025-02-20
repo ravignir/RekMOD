@@ -653,7 +653,7 @@
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
             "Comment [Has 1 Great Work of Writing Slot]",
-            "New [Military] units start with [15] Experience [in this city] <in cities with a [Royal Library Great Writing Slot]>"
+            "New [Military] units start with [15] XP [in this city] <in cities with a [Royal Library Great Writing Slot]>"
         ],
         "requiredTech": "Writing"
     },
@@ -855,7 +855,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -868,7 +868,7 @@
         "science": 2,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"
         ],
@@ -883,7 +883,7 @@
         "uniques": [
             "[-25]% Culture cost of natural border growth [in this city]",
             "[-25]% Gold cost of acquiring tiles [in this city]",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -895,7 +895,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Sword] units [in this city] receive the [Buffalo Horns I] promotion",
             "All newly-trained [Mounted] units [in this city] receive the [Buffalo Horns I] promotion"
@@ -1033,7 +1033,7 @@
             "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
-            "New [Mounted] units start with [15] Experience [in this city]"
+            "New [Mounted] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -1919,7 +1919,7 @@
             "Must be next to [Coast]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Water resource] tiles [in this city]",
-            "New [Water] units start with [15] Experience [in this city]"
+            "New [Water] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Compass"
     },
@@ -2123,7 +2123,7 @@
         "maintenance": 1,
         "requiredBuilding": "Barracks",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Steel"
@@ -2137,7 +2137,7 @@
         "requiredBuilding": "Barracks",
         "uniques": [
             "Free [Reislaufer] appears",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "All newly-trained [{Land} {Military}] units [in this city] receive the [Mountaineer] promotion",
             "Destroyed when the city is captured"
         ],
@@ -2150,7 +2150,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "[+1 Food, +1 Culture, +1 Production] from [Marsh] tiles [in this city]",
             "[+1 Culture] from [Jungle] tiles [in this city]"
@@ -2987,7 +2987,7 @@
         "maintenance": 1,
         "requiredBuilding": "Armory",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Military Science"
@@ -2999,7 +2999,7 @@
         "isWonder": true,
         "uniques": [
             "Free [Great General] appears",
-            "New [Military] units start with [15] Experience [in this city]"
+            "New [Military] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Military Science",
         "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
