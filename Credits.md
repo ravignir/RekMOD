@@ -82,3 +82,4 @@ Contains stuff from mods:
 - [hat](https://thenounproject.com/icon/hat-7388612/) by Haider Ali for Gerilya
 - [Church](https://thenounproject.com/icon/church-1855092/) by Smashicons for National Church
 - [Swimmer](https://thenounproject.com/icon/swimmer-6735717/) by yode tive for Fast Swimmer
+- [Beret](https://thenounproject.com/icon/beret-6945974/) by krisna arga muria for Expeditionary Force
