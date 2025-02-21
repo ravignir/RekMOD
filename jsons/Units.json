@@ -2129,7 +2129,7 @@
     "requiredTech": "Biology",
     "upgradesTo": "Marine",
     "obsoleteTech": "Pharmaceuticals",
-    "promotions": ["Amphibious", "Embarkation with Defense", "Volley", "Fast Swimmer"],
+    "promotions": ["Amphibious", "Embarkation with Defence", "Volley", "Fast Swimmer"],
     "uniques": [
       "[+1] Sight <when [Embarked]>"
     ],
