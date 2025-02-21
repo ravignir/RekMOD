@@ -389,6 +389,7 @@
     {
         "name": "Bahai Kubo",
         "uniqueTo": "Philippines",
+        "cost": 0,
         "uniques": [
             "Unsellable",
             "Never destroyed when the city is captured",
