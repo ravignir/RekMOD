@@ -34,7 +34,10 @@
     {
         "name": "unitUpgrade",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "uniques": ["[This Unit] upgrades for free including special upgrades"]
+        "uniques": [
+            "[This Unit] upgrades for free including special upgrades",
+            "Only available <for [non-[Does not upgrade from ruins-like effects]] units>"
+        ]
         },
     {
         "name": "crudelyDrawnMap",

@@ -854,7 +854,7 @@
     {
         "name": "Golden Age from Victories",
         "uniques": [
-            "Earn [100]% of killed [Military] unit's [Strength] as [GoldenAgePoints]"
+            "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
         ]
     },
     {
@@ -928,6 +928,12 @@
     {
     "name": "By Force", //only for Chile
     "uniques": ["[-25]% Strength for enemy [Land] units in adjacent [All] tiles"]
+    },
+    {
+        "name": "Embarkation with Defence",
+        "uniques": [
+            "[+100]% Strength <when defending> <when [Embarked]>"
+        ]
     },
     {
         "name": "Fast Swimmer", //only for Gerilya and subsequent upgrades
