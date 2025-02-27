@@ -935,6 +935,10 @@
             "[+100]% Strength <when defending> <when [Embarked]>"
         ]
     },
+    {
+        "name": "Fast Swimmer", //only for Gerilya and subsequent upgrades
+        "uniques": ["[+3] Movement <when [Embarked]>"]
+    },
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",
