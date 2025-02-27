@@ -397,7 +397,8 @@
             "Limited to [2] per Civilization",
             //TODO: stockpile resource for prevent 'could be captured, then rebuilt in a new city'
             "Will not be displayed in Civilopedia",
-            "Only available <in cities without a [Palace]>"
+            "Only available <in cities without a [Palace]>",
+            "Automatically built in all cities where it is buildable"
         ]
     },
 
