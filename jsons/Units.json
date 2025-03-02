@@ -318,8 +318,8 @@
         "requiredTech": "Sailing",
         "uniques": [
             "Cannot enter ocean tiles",
-            "Can move after attacking",
-            "[-33]% Strength <vs cities> <when attacking>"
+            "Can move after attacking"
+            //"[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Caravel",
         "obsoleteTech": "Astronomy",
@@ -336,8 +336,8 @@
         "requiredTech": "Sailing",
         "uniques": [
             "Cannot enter ocean tiles",
-            "Can move after attacking",
-            "[-33]% Strength <vs cities> <when attacking>"
+            "Can move after attacking"
+            //"[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Caravel",
         "obsoleteTech": "Astronomy",
@@ -354,8 +354,8 @@
         "requiredTech": "Sailing",
         "promotions": ["Extra Sight", "Supply"],
         "uniques": [
-            "Can move after attacking",
-            "[-33]% Strength <vs cities> <when attacking>"
+            "Can move after attacking"
+            //"[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Caravel",
         "obsoleteTech": "Astronomy",
@@ -369,8 +369,8 @@
         "uniques": [
             "Can move after attacking",
             "Unbuildable",
-            "Unable to pillage tiles",
-            "[-33]% Strength <vs cities> <when attacking>"
+            "Unable to pillage tiles"
+            //"[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Privateer",
         "attackSound": "nonmetalhit"
