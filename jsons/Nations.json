@@ -508,7 +508,8 @@
             "Comment [-33% maintenance costs for Water units]",
             "Comment [Water units may heal outside of friendly territory]",
             "Comment [Water units can build Water improvements on tiles]",
-            "[Water] units gain the [Sea Nomads] promotion <hidden from users>"
+            "[Water] units gain the [Sea Nomads] promotion <hidden from users>",
+            "[Water] units gain the [Supply] promotion <hidden from users>"
         ],
         "cities": [
             "Bandar Brunei","Manila","Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Ma-I","Madja-As",
