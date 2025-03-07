@@ -3234,7 +3234,7 @@
         "uniqueName": "Iklwa",
         "uniques": [
             "[-50]% maintenance costs <for [Melee] units>",
-            "[25]% XP gained from combat <for [Military] units>"
+            "[-25]% XP required for promotions"
         ],
         "cities": [
             "Ulundi","Umgungundlovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
