@@ -3051,6 +3051,7 @@
     },
     {
         "name": "BMPC Plant",
+        "requiredNearbyImprovedResources": ["Oil"],
         "replaces": "Oil Refinery",
         "uniqueTo": "Brunei",
         "gold": 3,
