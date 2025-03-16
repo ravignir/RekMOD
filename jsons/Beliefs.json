@@ -1,6 +1,6 @@
 [
     {
-        "name": "Alters of Worship",
+        "name": "Altars of Worship",
         "type": "Pantheon",
         "uniques": ["[+20]% Production when constructing [All] wonders [in cities following this religion]"]
         // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
