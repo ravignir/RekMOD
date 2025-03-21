@@ -7,7 +7,9 @@
         "religionLimitMultiplier": 1,
         "unitSupplyPerPopulation": 10,
         "pantheonBase": 23,
-        "pantheonGrowth": 0
+        "pantheonGrowth": 0,
+        "tributeGlobalModifier": 50,
+        "tributeLocalModifier": 150
     },
     "isBaseRuleset": true
 }

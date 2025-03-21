@@ -60,6 +60,8 @@
             // Something Something Religion goes to every city immedietely
             // Something Something Religion doesn't spread to other cities
             //Note: this requires a unique regarding what it spreads to, not from
+            //"[-999]% Natural religion spread [in enemy cities]",
+            //"[+10000]% Natural religion spread [in your cities] <for [2] turns> <upon founding a Religion>"
         ],
         "cities": [
             "Aksum","Adulis","Qohaito","Matara","Yeha","Hawulti","Massawa","Zeila","Lalibela","Addi Galamo",
@@ -472,7 +474,7 @@
             "[Great Artist] is earned [100]% faster <during a Golden Age>",
             "[Great Writer] is earned [100]% faster <during a Golden Age>",
             "[Great Musician] is earned [100]% faster <during a Golden Age>",
-            "Earn [100]% of killed [Military] unit's [Strength] as [GoldenAgePoints]"
+            "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
         ],
         "cities": [
             "Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -506,7 +508,8 @@
             "Comment [-33% maintenance costs for Water units]",
             "Comment [Water units may heal outside of friendly territory]",
             "Comment [Water units can build Water improvements on tiles]",
-            "[Water] units gain the [Sea Nomads] promotion <hidden from users>"
+            "[Water] units gain the [Sea Nomads] promotion <hidden from users>",
+            "[Water] units gain the [Supply] promotion <hidden from users>"
         ],
         "cities": [
             "Bandar Brunei","Manila","Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Ma-I","Madja-As",
@@ -1517,15 +1520,6 @@
         "uniques": [
             "[+1 Culture] from every specialist [in all cities]",
             "Comment [Receive a burst of Golden Age points upon completion of a Policy Tree, and if already in a Golden Age, extend it instead.]",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Tradition Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Liberty Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Honor Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Piety Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Aesthetics Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Patronage Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Exploration Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Commerce Complete]> <hidden from users>",
-            "Instantly gain [250] [GoldenAgePoints] <upon adopting [Rationalism Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
@@ -1535,15 +1529,15 @@
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
             "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
-            "Instantly gain [-250] [GoldenAgePoints] <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>"
-            //maybe need better solution for condition
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
         ],
         "cities": [
             "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
@@ -1659,7 +1653,6 @@
         "outerColor": [119,59,129],
         "innerColor": [194,222,155],
         "uniqueName": "Merchant Economy",
-        //"uniqueText": "+10% Growth in all cities.\n\n[+4 Gold] from [Food] and [Production] Trade Routes",
         "uniques": [
             "[+10]% growth [in all cities]",
             "[+4 Gold] from every [Land Trade Route (Food)]",
@@ -2362,6 +2355,38 @@
         ]
     },
     {
+        "name": "Philippines",
+        "leaderName": "Emilio Aguinaldo",
+        "adjective": ["Filipino"],
+        "startBias": ["Coast"],
+        "startIntroPart1": "Long may you live, esteemed General Emilio Aguinaldo, first President of the Republic of the Philippines, and leader of your nation in one of its most glorious times! The Philippines is a young nation, born of the colonial Spanish East Indies, whose many diverse peoples became one under the yoke of the foreign empire. The great Revolution of 1896 and it glorious victories expelled the hated Spanish from the homeland, but those treacherous Americans snatched that hard-earned freedom away shortly after, ending the Republic in 1901, three years after its establishment. The Philippines would not regain its independence until 1946.",
+        "startIntroPart2": "Great President Aguinaldo, can you once more lead the Filipino people into another great era? Your people once more seek to make their nation free from foreign domination and subservience. Will you seek it through diplomacy, or will you stand and fight? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "Your actions leave us no choice but to resort to war. Prepare to face the determination of the Filipino people!",
+        "attacked": "You have dared to attack our land! The Philippines will not fall without a fierce and honorable fight!",
+        "defeated": "Defeat today does not mean the end. We will rise again, stronger than ever!",
+        "introduction": "Welcome. I am Emilio Aguinaldo, leader of the Filipino people. Peace between us will be based on mutual respect.",
+        "neutralHello": "Greetings. Our meeting should be fruitful for both sides.",
+        "hateHello": "I see hostility in your eyes. But know this: the Filipino people will never back down.",
+        "tradeRequest": "Let us work together and exchange resources for the prosperity of our nations.",
+        "outerColor": [1, 204, 187],
+        "innerColor": [100, 13, 4],
+        "uniqueName": "The Good Fight",
+        "uniques": [
+            "[+2] Movement <for [Civilian] units> <in [your] tiles>",
+            "Comment [The first two Cities you settle (after your Capital) begin with +1 extra Citizen.]"
+        ],
+        "cities": [
+            "Malolos","Cavite El Viejo","San Juan del Monte","Pasig","Pateros","Tagig","Kalookan","San Pedro de Makati",
+            "Mandaluyong","San Francisco de Malabon","Noveleta","Imus","Mariquina","Antipolo","Bacoor","Montalban",
+            "Las Pinas","Naik","Tejeros","Maragondon","Biak-na-bato","Capiz","Jaro","Guagua","San Fernando","Angono",
+            "Calamba","Bocaue","Baler","Bacolor","Kakarong","Bacolod","Cebu","Nueva Caceres","Carcar","Nueva Vergara",
+            "San Isidro","Bamban","Tarlac","Bayombong","Palanan"
+        ],
+        "spyNames": [
+            "Antonio","Crisostomo","Gregoria","Apolinario","Andres","Miguel","Pio","Mariano","Tomas","Marcela"
+        ]
+    },
+    {
         "name": "Phoenicia",
         "leaderName": "Hiram",
         "adjective": ["Phoenician"],
@@ -2548,7 +2573,7 @@
         "uniques": [
             "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
             "[+25]% [Culture] [in all cities] <during a Golden Age>",
-            "Instantly gain [100] [GoldenAgePoints] <upon conquering a city>"
+            "Instantly gain [100] [Golden Age points] <(modified by game speed)> <upon conquering a city>"
             //need new uniq for liberating cities too
         ],
         "cities": [
@@ -3246,7 +3271,7 @@
         "uniqueName": "Iklwa",
         "uniques": [
             "[-50]% maintenance costs <for [Melee] units>",
-            "[25]% XP gained from combat <for [Military] units>"
+            "[-25]% XP required for promotions"
         ],
         "cities": [
             "Ulundi","Umgungundlovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",

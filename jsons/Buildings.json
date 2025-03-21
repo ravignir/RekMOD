@@ -170,7 +170,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "Comment [Has 1 Great Work of Art Slot]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Cathedrals] religion>"
         ]
     },
     {
@@ -192,7 +194,9 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [150] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mosques] religion>"
         ]
     },
     {
@@ -203,7 +207,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[10]% Food is carried over after population increases [in this city]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [200] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Pagodas] religion>"
         ]
     },
     {
@@ -214,7 +220,9 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Gurdwaras] religion>"
         ]
     },
     {
@@ -225,7 +233,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% Production when constructing [All] buildings [in this city]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [200] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Synagogues] religion>"
         ]
     },
     {
@@ -236,7 +246,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [150] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Viharas] religion>"
         ]
     },
     {
@@ -244,7 +256,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mandirs] religion>"
         ]
     },
 
@@ -384,6 +398,21 @@
         "uniques": [
             "Unsellable", "Unbuildable",
             "[+2] population [in this city]"
+        ]
+    },
+    {
+        "name": "Bahai Kubo",
+        "uniqueTo": "Philippines",
+        "cost": 0,
+        "uniques": [
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "[+1] population [in this city]",
+            "Limited to [2] per Civilization",
+            //TODO: stockpile resource for prevent 'could be captured, then rebuilt in a new city'
+            "Will not be displayed in Civilopedia",
+            "Only available <in cities without a [Palace]>",
+            "Automatically built in all cities where it is buildable"
         ]
     },
 
@@ -653,7 +682,7 @@
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
             "Comment [Has 1 Great Work of Writing Slot]",
-            "New [Military] units start with [15] Experience [in this city] <in cities with a [Royal Library Great Writing Slot]>"
+            "New [Military] units start with [15] XP [in this city] <in cities with a [Royal Library Great Writing Slot]>"
         ],
         "requiredTech": "Writing"
     },
@@ -857,7 +886,7 @@
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": [
-            "Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+            "Gain [100] [Gold] <upon expending a [Great Person] unit>",
             "[+2 Gold] from [Marble] tiles [in this city]",
             "[+2 Gold] from [Stone] tiles [in this city]",
             "[+2 Gold] from [Obsidian] tiles [in this city]"
@@ -870,7 +899,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -883,7 +912,7 @@
         "science": 2,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"
         ],
@@ -898,7 +927,7 @@
         "uniques": [
             "[-25]% Culture cost of natural border growth [in this city]",
             "[-25]% Gold cost of acquiring tiles [in this city]",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -910,7 +939,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Sword] units [in this city] receive the [Buffalo Horns I] promotion",
             "All newly-trained [Mounted] units [in this city] receive the [Buffalo Horns I] promotion"
@@ -1048,7 +1077,7 @@
             "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
-            "New [Mounted] units start with [15] Experience [in this city]"
+            "New [Mounted] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -1260,8 +1289,8 @@
             "Can be purchased for [450] [Gold] [in all cities]",
             "Can be purchased for [390] [Faith] [in all cities]",
             "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
-            "Gain [75] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
-            "Gain [75] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>"
+            "Gain [75] [Faith] <upon expending a [Great Person] unit>",
+            "Gain [75] [Science] <upon expending a [Great Person] unit>"
         ]
     },
     {
@@ -1505,7 +1534,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Gain [20] [Gold] <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
+            "Gain [20] [Gold] <upon expending a [Great Person] unit>",
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
@@ -1934,7 +1963,7 @@
             "Must be next to [Coast]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Water resource] tiles [in this city]",
-            "New [Water] units start with [15] Experience [in this city]"
+            "New [Water] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Compass"
     },
@@ -2138,7 +2167,7 @@
         "maintenance": 1,
         "requiredBuilding": "Barracks",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Steel"
@@ -2152,7 +2181,7 @@
         "requiredBuilding": "Barracks",
         "uniques": [
             "Free [Reislaufer] appears",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "All newly-trained [{Land} {Military}] units [in this city] receive the [Mountaineer] promotion",
             "Destroyed when the city is captured"
         ],
@@ -2165,7 +2194,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "[+1 Food, +1 Culture, +1 Production] from [Marsh] tiles [in this city]",
             "[+1 Culture] from [Jungle] tiles [in this city]"
@@ -2409,6 +2438,19 @@
         "maintenance": 2,
         "requiredBuilding": "Colosseum",
         "requiredTech": "Printing Press"
+    },
+    {
+        "name": "National Church",
+        "replaces": "Zoo",
+        "uniqueTo": "Philippines",
+        "cost": 150,
+        "happiness": 2,
+        "faith": 4,
+        "culture": 1,
+        "hurryCostModifier": 10,
+        "maintenance": 2,
+        "requiredTech": "Compass",
+        "uniques": ["New [Military] units start with [15] XP [in this city]"]
     },
     {
         "name": "Stade",
@@ -3002,7 +3044,7 @@
         "maintenance": 1,
         "requiredBuilding": "Armory",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Military Science"
@@ -3014,7 +3056,7 @@
         "isWonder": true,
         "uniques": [
             "Free [Great General] appears",
-            "New [Military] units start with [15] Experience [in this city]"
+            "New [Military] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Military Science",
         "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
@@ -3222,7 +3264,7 @@
         "uniques": [
             "Only available <when espionage is enabled>",
             "Gain an extra spy",
-            "Promotes all spies",
+            "Promotes all spies [1] time(s)",
             "[-15]% enemy spy effectiveness [in this city]",
             "Only available <if [Constabulary] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
