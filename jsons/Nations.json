@@ -1086,6 +1086,7 @@
         "innerColor": [254,254,0],
         "uniqueName": "Ecclesiastical Architecture",
         "uniques": [
+            "Comment [Buildings unlocked by religious beliefs (except Houses of Worship) are built using Production instead (cost equal to 50% of the required Faith)]",
             "[+2 Production] from every [Gurdwara]",
             "[+2 Production] from every [Cathedral]",
             "[+2 Production] from every [Mandir]",
@@ -1093,7 +1094,6 @@
             "[+2 Production] from every [Pagoda]",
             "[+2 Production] from every [Synagogue]",
             "[+2 Production] from every [Vihara]"
-            // TODO: new uniq Buildings unlocked by religious beliefs (except Houses of Worship) are built using Production instead (cost equal to 50% of the required Faith)
         ],
         "cities": [
             "Tbilisi","Kutaisi","Batumi","Sokhumi","Zugdidi","Rust'avi","P'ot'i","Gori","Ts'khinvali","Samtredia",
