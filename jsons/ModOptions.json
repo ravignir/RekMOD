@@ -9,7 +9,9 @@
         "pantheonBase": 23,
         "pantheonGrowth": 0,
         "tributeGlobalModifier": 50,
-        "tributeLocalModifier": 150
+        "tributeLocalModifier": 150,
+        "scoreFromPopulation": 4,
+        "scoreFromWonders": 25
     },
     "isBaseRuleset": true
 }
