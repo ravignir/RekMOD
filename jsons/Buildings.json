@@ -516,6 +516,26 @@
         "requiredTech": "Sailing"
     },
     {
+        "name": "Cacicazgo",
+        "uniqueTo": "Colombia",
+        "replaces": "Granary",
+        "cost": 66,
+        "food": 2,
+        "gold": 1,
+        "production": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+1 Food] from [Deer] tiles [in this city]",
+            "[+1 Food] from [Bison] tiles [in this city]",
+            "[+1 Food] from [Bananas] tiles [in this city]",
+            "[+1 Food] from [Wheat] tiles [in this city]",
+            "[+1 Food] from [Maize] tiles [in this city]",
+            "[+3 Production] from [Land Trade Route (Production)] tiles [in this city] <in cities without a [Workshop]>",
+            "[+6 Production] from [Sea Trade Route (Production)] tiles [in this city] <in cities without a [Workshop]>"
+        ],
+        "requiredTech": "Pottery"
+    },
+    {
         "name": "Shrine",
         "faith": 1,
         "cost": 40,

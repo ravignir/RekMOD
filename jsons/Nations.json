@@ -757,17 +757,22 @@
         "neutralHello": "Greetings. May this meeting mark the beginning of mutual understanding and shared prosperity between our nations.",
         "hateHello": "Your hostility is clear, but know this: Colombia, inspired by Bolívar’s courage, will never back down from a challenge.",
         "tradeRequest": "Let us unite through trade, exchanging resources to strengthen our nations and build a brighter future for both our peoples.",
-        "outerColor": [],
-        "innerColor": [],
+        "outerColor": [51, 28, 63],
+        "innerColor": [235, 226, 79],
         "uniqueName": "Independence of the People",
         "uniques": [
-
+            "[+1 Food] from every [Lumber mill]",
+            "[+1 Gold] from every [Lumber mill]"
         ],
         "cities": [
-
+            "Bogotá", "Caracas", "Quito", "Panamá", "Pamplona", "Cartagena de Indias", "Portobelo", "Guayaquil",
+            "Maracaibo", "Cumaná", "Puerto Cabello", "Popayán", "Angostura", "Santiago de Cali", "Tunja", "Medellín",
+            "Santa Marta", "Antioquía", "Mariquita", "Neiva", "Chocó", "Casanare", "Pamplona", "Socorro", "Margarita",
+            "Barinas", "Trujillo"
         ],
         "spyNames": [
-
+            "Rodriguez", "San Martin", "Castilla", "Artigas", "Hidalgo", "Saenz", "Miranda",
+            "Piar", "Arenales", "Mariscal"
         ]
     },
     {

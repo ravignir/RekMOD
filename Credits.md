@@ -65,6 +65,7 @@ Contains stuff from mods:
 - [Minar](https://www.freepik.com/icon/qutb-minar_3186670#fromView=search&page=1&position=20&uuid=b5a934d7-7209-4ba9-8158-43954e56a2a1) by surang for Minaa
 - [Dock](https://thenounproject.com/icon/dock-4489742/) by Flowicon for Dry Dock
 - [Factory](https://thenounproject.com/icon/factory-6833299/) by Hadi Mulyono for Cooperation
+- [Barn](https://thenounproject.com/icon/barn-6373750/) by Amazona Adorada for Cacicazgo
 
 ## Resources
 
@@ -80,3 +81,4 @@ Contains stuff from mods:
 - [Halberd](https://thenounproject.com/icon/halberd-440848/) by Parkjisun for Reislaufer
 - [Helicopter](https://thenounproject.com/icon/helicopter-6903169/) by swk for Cardoen
 - [Beret](https://thenounproject.com/icon/beret-6945974/) by krisna arga muria for Expeditionary Force
+- [Horse](https://thenounproject.com/icon/horse-2191914/) by RIZCA for Llanero
