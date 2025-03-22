@@ -170,7 +170,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "Comment [Has 1 Great Work of Art Slot]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Cathedrals] religion>"
         ]
     },
     {
@@ -192,7 +194,9 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [150] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mosques] religion>"
         ]
     },
     {
@@ -203,7 +207,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[10]% Food is carried over after population increases [in this city]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [200] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Pagodas] religion>"
         ]
     },
     {
@@ -214,7 +220,9 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Gurdwaras] religion>"
         ]
     },
     {
@@ -225,7 +233,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% Production when constructing [All] buildings [in this city]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [200] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Synagogues] religion>"
         ]
     },
     {
@@ -236,7 +246,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [150] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Viharas] religion>"
         ]
     },
     {
@@ -244,7 +256,9 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
-            "Only available <when religion is enabled>"
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mandirs] religion>"
         ]
     },
 
@@ -384,6 +398,21 @@
         "uniques": [
             "Unsellable", "Unbuildable",
             "[+2] population [in this city]"
+        ]
+    },
+    {
+        "name": "Bahai Kubo",
+        "uniqueTo": "Philippines",
+        "cost": 0,
+        "uniques": [
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "[+1] population [in this city]",
+            "Limited to [2] per Civilization",
+            //TODO: stockpile resource for prevent 'could be captured, then rebuilt in a new city'
+            "Will not be displayed in Civilopedia",
+            "Only available <in cities without a [Palace]>",
+            "Automatically built in all cities where it is buildable"
         ]
     },
 
@@ -2416,6 +2445,19 @@
         "requiredTech": "Printing Press"
     },
     {
+        "name": "National Church",
+        "replaces": "Zoo",
+        "uniqueTo": "Philippines",
+        "cost": 150,
+        "happiness": 2,
+        "faith": 4,
+        "culture": 1,
+        "hurryCostModifier": 10,
+        "maintenance": 2,
+        "requiredTech": "Compass",
+        "uniques": ["New [Military] units start with [15] XP [in this city]"]
+    },
+    {
         "name": "Stade",
         "replaces": "Zoo",
         "uniqueTo": "Belgium",
@@ -3227,7 +3269,7 @@
         "uniques": [
             "Only available <when espionage is enabled>",
             "Gain an extra spy",
-            "Promotes all spies",
+            "Promotes all spies [1] time(s)",
             "[-15]% enemy spy effectiveness [in this city]",
             "Only available <if [Constabulary] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"

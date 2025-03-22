@@ -655,7 +655,6 @@
         "name": "Sea Nomads", // Brunei
         "uniques": [
             "[-33]% maintenance costs",
-            "May heal outside of friendly territory",
             "Can build [Water] improvements on tiles"
         ]
     },
@@ -934,6 +933,10 @@
         "uniques": [
             "[+100]% Strength <when defending> <when [Embarked]>"
         ]
+    },
+    {
+        "name": "Fast Swimmer", //only for Gerilya and subsequent upgrades
+        "uniques": ["[+3] Movement <when [Embarked]>"]
     },
     // Section Kris Swordsmen
     {

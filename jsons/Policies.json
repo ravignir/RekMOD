@@ -920,7 +920,7 @@
             {
                 "name": "Communism",
                 "uniques": [
-                    "[+10]% [Science] [in all cities]",
+                    "Each city founded increases Science cost of Technologies [20]% less than normal",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
