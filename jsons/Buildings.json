@@ -1047,7 +1047,8 @@
             "[+15]% Production when constructing [Mounted] units [in this city]",
             "[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Food] from [Horses] tiles [in this city]",
-            "[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
+            "[+1 Production, +1 Food] from [Sheep] tiles [in this city]",
+            "[+1 Production] from [Maize] tiles [in this city]",
         ],
         "requiredTech": "Horseback Riding"
     },
