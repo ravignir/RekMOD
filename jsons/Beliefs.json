@@ -414,7 +414,7 @@
     {
         "name": "Gurdwaras",
         "type": "Follower",
-        "uniques": ["Unlocks [Gurdwara] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Gurdwara] [in cities following this religion]]"]
     },
     {
         "name": "Guruship",
@@ -437,17 +437,17 @@
     {
         "name": "Mandirs",
         "type": "Follower",
-        "uniques": ["Comment[Unlocks [Mandir] [in cities following this religion]]"]
+        "uniques": ["Comment [Unlocks [Mandir] [in cities following this religion]]"]
     },
     {
         "name": "Mosques",
         "type": "Follower",
-        "uniques": ["Comment[Unlocks [Mosque] [in cities following this religion]]"]
+        "uniques": ["Comment [Unlocks [Mosque] [in cities following this religion]]"]
     },
     {
         "name": "Pagodas",
         "type": "Follower",
-        "uniques": ["Comment[Unlocks [Pagoda] [in cities following this religion]]"]
+        "uniques": ["Comment [Unlocks [Pagoda] [in cities following this religion]]"]
     },
     {
         "name": "Peace Gardens",
@@ -483,12 +483,12 @@
     {
         "name": "Synagogues",
         "type": "Follower",
-        "uniques": ["Comment[Unlocks [Synagogue] [in cities following this religion]]"]
+        "uniques": ["Comment [Unlocks [Synagogue] [in cities following this religion]]"]
     },
     {
         "name": "Viharas",
         "type": "Follower",
-        "uniques": ["Comment[Unlocks [Vihara] [in cities following this religion]]"]
+        "uniques": ["Comment [Unlocks [Vihara] [in cities following this religion]]"]
     },
 
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
