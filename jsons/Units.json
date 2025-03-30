@@ -2107,6 +2107,25 @@
         "attackSound": "horse"
     },
     {
+        "name": "Llanero",
+        "replaces": "Cavalry",
+        "uniqueTo": "Colombia",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 34,
+        "cost": 225,
+        "requiredTech": "Military Science",
+        "obsoleteTech": "Combustion",
+        "requiredResource": "Horses",
+        "upgradesTo": "Landship",
+        "uniques": [
+            "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "[+10]% Strength <when defending>"
+        ],
+        "attackSound": "horse"
+    },
+    {
         "name": "Expeditionary Force",
         "unitType": "Gunpowder",
         "movement": 3,
