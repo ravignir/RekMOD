@@ -163,8 +163,8 @@
         "innerColor": [244, 244, 86],
         "uniqueName": "Pride of the People",
         "uniques": [
-            "Can build [Pasture] improvements at a [+50]% rate",
-            "Can build [Farm] improvements at a [+50]% rate"
+            "Can build [Pasture] improvements at a [+100]% rate",
+            "Can build [Farm] improvements at a [+100]% rate"
         ],
         "cities": [
             "Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
@@ -742,6 +742,39 @@
         ],
         "spyNames": [
             "Mamo Contreras","Arellano Stark","Paul Schafer","Alvaro Corbalán","Odlanier Mena","Humberto Gordon","Hugo Salas","Gustavo Abarzúa","Ingrid Olderock","La Pepa"
+        ]
+    },
+    {
+        "name": "Colombia",
+        "leaderName": "Simon Bolivar",
+        "adjective": ["Columbian"],
+        "startBias": ["Avoid [Coast]", "Forest", "Plains"],
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "Your actions leave us no choice but to take up arms. Colombia, under the enduring legacy of Simón Bolívar, will defend its freedom and sovereignty at all costs!",
+        "attacked": "You have struck our land, but you underestimate the resilience of our people!",
+        "defeated": "This setback is temporary. The spirit of liberty that Bolívar ignited in our hearts will never fade—Colombia will rise again, stronger than ever!",
+        "introduction": "I am Simón Bolívar, leader of Colombia. Together, we can forge a path of peace and cooperation—or face the consequences of conflict.",
+        "neutralHello": "Greetings. May this meeting mark the beginning of mutual understanding and shared prosperity between our nations.",
+        "hateHello": "Your hostility is clear, but know this: Colombia, inspired by Bolívar’s courage, will never back down from a challenge.",
+        "tradeRequest": "Let us unite through trade, exchanging resources to strengthen our nations and build a brighter future for both our peoples.",
+        "outerColor": [51, 28, 63],
+        "innerColor": [235, 226, 79],
+        "uniqueName": "Independence of the People",
+        "uniques": [
+            "[+1 Food] from every [Lumber mill]",
+            "[+1 Gold] from every [Lumber mill]",
+            "[+1 Science] from every [Lumber mill] <after discovering [Chemistry]>"
+        ],
+        "cities": [
+            "Bogotá", "Caracas", "Quito", "Panamá", "Pamplona", "Cartagena de Indias", "Portobelo", "Guayaquil",
+            "Maracaibo", "Cumaná", "Puerto Cabello", "Popayán", "Angostura", "Santiago de Cali", "Tunja", "Medellín",
+            "Santa Marta", "Antioquía", "Mariquita", "Neiva", "Chocó", "Casanare", "Pamplona", "Socorro", "Margarita",
+            "Barinas", "Trujillo"
+        ],
+        "spyNames": [
+            "Rodriguez", "San Martin", "Castilla", "Artigas", "Hidalgo", "Saenz", "Miranda",
+            "Piar", "Arenales", "Mariscal"
         ]
     },
     {
