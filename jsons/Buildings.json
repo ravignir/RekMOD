@@ -267,6 +267,7 @@
         "uniqueTo": "Georgia",
         "cost": 135,
         "culture": 5,
+        "production": 2,
         "uniques": [
             "Unsellable",
             "Comment [Has 1 Great Work of Art Slot]",
@@ -282,6 +283,7 @@
         "cost": 75,
         "culture": 1,
         "faith": 3,
+        "production": 2,
         "happiness": 1,
         "uniques": [
             "Unsellable",
@@ -296,6 +298,7 @@
         "uniqueTo": "Georgia",
         "cost": 100,
         "faith": 2,
+        "production": 2,
         "culture": 1,
         "happiness": 1,
         "uniques": [
@@ -313,6 +316,7 @@
         "cost": 135,
         "culture": 1,
         "faith": 4,
+        "production": 2,
         "science": 4,
         "happiness": 1,
         "uniques": [
@@ -329,7 +333,7 @@
         "cost": 100,
         "culture": 1,
         "faith": 2,
-        "production": 1,
+        "production": 3,
         "uniques": [
             "Unsellable",
             "[+15]% Production when constructing [All] buildings [in this city]",
@@ -344,6 +348,7 @@
         "uniqueTo": "Georgia",
         "cost": 75,
         "faith": 1,
+        "production": 2,
         "happiness": 1,
         "specialistSlots": {"Merchant": 1},
         "uniques": [
@@ -352,6 +357,17 @@
             "Only available <when religion is enabled>",
             "Only available <in cities with a [Viharas] religion>",
             "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Mandir",
+        "production": 2,
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mandirs] religion>"
         ]
     },
     // Uniques

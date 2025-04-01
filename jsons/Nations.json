@@ -1082,18 +1082,12 @@
         "neutralHello": "The mountains stand still. What do you seek?",
         "hateHello": "Enough talk! What is it this time?",
         "tradeRequest": "This trade honors us both. Shall we proceed?",
-        "outerColor": [183,157,233],
-        "innerColor": [254,254,0],
+        "outerColor": [149,129,189],
+        "innerColor": [254,254,51],
         "uniqueName": "Ecclesiastical Architecture",
         "uniques": [
             "Comment [Buildings unlocked by religious beliefs (except Houses of Worship) are built using Production instead (cost equal to 50% of the required Faith)]",
-            "[+2 Production] from every [Gurdwara]",
-            "[+2 Production] from every [Cathedral]",
-            "[+2 Production] from every [Mandir]",
-            "[+2 Production] from every [Mosque]",
-            "[+2 Production] from every [Pagoda]",
-            "[+2 Production] from every [Synagogue]",
-            "[+2 Production] from every [Vihara]"
+            "Comment [These buildings provide +2 Production]"
         ],
         "cities": [
             "Tbilisi","Kutaisi","Batumi","Sokhumi","Zugdidi","Rust'avi","P'ot'i","Gori","Ts'khinvali","Samtredia",
