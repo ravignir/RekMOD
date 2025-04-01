@@ -261,7 +261,115 @@
             "Only available <in cities with a [Mandirs] religion>"
         ]
     },
-
+    {
+        "name": "Georgian Cathedral",
+        "replaces": "Cathedral",
+        "uniqueTo": "Georgia",
+        "cost": 135,
+        "culture": 5,
+        "production": 2,
+        "uniques": [
+            "Unsellable",
+            "Comment [Has 1 Great Work of Art Slot]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Cathedrals] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Mosque",
+        "replaces": "Mosque",
+        "uniqueTo": "Georgia",
+        "cost": 75,
+        "culture": 1,
+        "faith": 3,
+        "production": 2,
+        "happiness": 1,
+        "uniques": [
+            "Unsellable",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mosques] religion>",
+            "Will not be displayed in Civilopedia",
+        ]
+    },
+    {
+        "name": "Georgian Pagoda",
+        "replaces": "Pagoda",
+        "uniqueTo": "Georgia",
+        "cost": 100,
+        "faith": 2,
+        "production": 2,
+        "culture": 1,
+        "happiness": 1,
+        "uniques": [
+            "Unsellable",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Pagodas] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Gurdwara",
+        "replaces": "Gurdwara",
+        "uniqueTo": "Georgia",
+        "cost": 135,
+        "culture": 1,
+        "faith": 4,
+        "production": 2,
+        "science": 4,
+        "happiness": 1,
+        "uniques": [
+            "Unsellable",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Gurdwaras] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Synagogue",
+        "replaces": "Synagogue",
+        "uniqueTo": "Georgia",
+        "cost": 100,
+        "culture": 1,
+        "faith": 2,
+        "production": 3,
+        "uniques": [
+            "Unsellable",
+            "[+15]% Production when constructing [All] buildings [in this city]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Synagogues] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Vihara",
+        "replaces": "Vihara",
+        "uniqueTo": "Georgia",
+        "cost": 75,
+        "faith": 1,
+        "production": 2,
+        "happiness": 1,
+        "specialistSlots": {"Merchant": 1},
+        "uniques": [
+            "Unsellable",
+            "[+15]% [Gold] [in this city]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Viharas] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Mandir",
+        "production": 2,
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mandirs] religion>"
+        ]
+    },
     // Uniques
     {
         "name": "Art Hall",
@@ -871,6 +979,21 @@
             "Can be purchased for [225] [Faith] [in all cities]",
             "Destroyed when the city is captured"
         ]
+    },
+	{
+        "name": "Tsikhe",
+        "replaces": "Walls",
+        "uniqueTo": "Georgia",
+        "cityStrength": 5,
+        "cityHealth": 50,
+        "faith": 3,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+1 Culture] from [Strategic Resource] tiles [in this city]",
+            "All newly-trained [relevant] units [in this city] receive the [Golden Age from Victories] promotion",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Masonry"
     },
     {
         "name": "The Pyramids",
