@@ -365,7 +365,7 @@
     {
         "name": "Cathedrals",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Cathedral] [in cities following this religion]]"]
     },
     {
         "name": "Choral Music",
