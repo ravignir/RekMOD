@@ -693,8 +693,8 @@
         "innerColor": [148,170,255],
         "uniqueName": "Druidic Lore",
         "uniques": [
-            "[+1 Faith] from every [Forest] <in tiles without [Improvement]>",
-            "[+1 Faith] from every [Forest] <with [3] to [6] neighboring [Forest] tiles><in tiles without [Improvement]>"
+            "[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
+            "[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"
         ],
         "cities": [
             "Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth","Penzance",
