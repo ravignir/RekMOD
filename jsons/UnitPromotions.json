@@ -1359,7 +1359,7 @@
         "name": "Zuverlässigkeit",
         "uniques": [
             "Unit will heal every turn, even if it performs an action",
-            "[+15]% Strength when stacked with [Great General]"
+            "[+15]% Strength <when stacked with a [Great General] unit>"
         ],
         "prerequisites": ["Zielstrebigkeit"],
         "unitTypes": ["Sword","Mounted","Scout","Siege","Archery", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]

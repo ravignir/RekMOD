@@ -1242,7 +1242,7 @@
         "maintenance": 4,
         "hurryCostModifier": 50,
         "uniques": [
-            "Remove extra unhappiness from annexed cities",
+            "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
         "requiredTech": "Mathematics"
@@ -1256,7 +1256,7 @@
         "happiness": 2,
         "hurryCostModifier": 50,
         "uniques": [
-            "Remove extra unhappiness from annexed cities",
+            "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
         "requiredTech": "Mathematics"
