@@ -18,7 +18,7 @@ jobs:
       
       - name: oxipng image compression # This needs to be before the Unciv run since that packs images
         run: | 
-          oxipng_url=$(curl -s https://api.github.com/repos/shssoichiro/oxipng/releases/latest | grep -o "http.*x86_64-unknown-linux-gnu.tar.gz")
+          oxipng_url=$(curl -sL https://api.github.com/repos/shssoichiro/oxipng/releases/latest | grep -o "http.*x86_64-unknown-linux-gnu.tar.gz")
           wget -O oxipng.tar.gz $oxipng_url
           tar -xvzf oxipng.tar.gz
           rm oxipng.tar.gz
@@ -38,7 +38,7 @@ jobs:
       - name: Autoupdate
         continue-on-error: true  # We want to autoupdate even if there are errors
         run: |
-          unciv_url=$(curl -s https://api.github.com/repos/yairm210/unciv/releases/latest | grep -o "http.*Unciv.jar")
+          unciv_url=$(curl -sL https://api.github.com/repos/yairm210/unciv/releases/latest | grep -o "http.*Unciv.jar")
           wget -q -O Unciv.jar $unciv_url
           java -jar Unciv.jar mod-ci
 
