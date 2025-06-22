@@ -140,7 +140,7 @@ bounds:1954,749,90,90
 NationIcons/The Maya
 bounds:1369,20,100,100
 NationIcons/Tibet
-bounds:640,558,90,90
+bounds:642,558,90,90
 NationIcons/Tonga
 bounds:1598,1184,200,200
 NationIcons/Venice
@@ -328,9 +328,9 @@ bounds:1516,1288,80,76
 TileSets/5Hex/Tiles/Tobacco+Plantation
 bounds:1516,820,80,76
 TileSets/5Hex/Units/Airship
-bounds:606,630,32,40
+bounds:606,630,34,40
 TileSets/FantasyHex/Units/Airship
-bounds:606,630,32,40
+bounds:606,630,34,40
 TileSets/5Hex/Units/Apedemaks Bow
 bounds:1036,279,80,70
 TileSets/5Hex/Units/Black Arquebusier-1
@@ -342,13 +342,13 @@ bounds:1251,348,80,70
 TileSets/5Hex/Units/Hetairoi-3
 bounds:1508,598,80,70
 TileSets/5Hex/Units/Konnitsa-1
-bounds:896,564,80,70
+bounds:898,564,80,70
 TileSets/5Hex/Units/Krivis-2
-bounds:732,564,80,70
+bounds:734,564,80,70
 TileSets/5Hex/Units/Mamluk-1
 bounds:1251,420,80,70
 TileSets/5Hex/Units/Mpiambina-2
-bounds:814,564,80,70
+bounds:816,564,80,70
 TileSets/5Hex/Units/Nelayan-2
 bounds:1251,492,80,70
 TileSets/5Hex/Units/Ngao Mbeba-1
@@ -516,7 +516,7 @@ bounds:1251,27,32,32
 TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site
 bounds:385,4,32,32
 TileSets/FantasyHex/Units/Apedemaks Bow
-bounds:978,575,32,28
+bounds:980,575,32,28
 TileSets/FantasyHex/Units/Black Arquebusier
 bounds:1710,3,30,22
 TileSets/FantasyHex/Units/Black Legion
@@ -542,9 +542,9 @@ bounds:506,750,32,28
 TileSets/FantasyHex/Units/Ngao Mbeba
 bounds:1080,249,32,28
 TileSets/FantasyHex/Units/Pioneer
-bounds:978,605,32,29
+bounds:980,605,32,29
 TileSets/FantasyHex/Units/Ranchero
-bounds:978,605,32,29
+bounds:980,605,32,29
 TileSets/FantasyHex/Units/Pittore
 bounds:472,750,32,28
 TileSets/FantasyHex/Units/Pittore Writer
