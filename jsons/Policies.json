@@ -1319,12 +1319,12 @@
             {
                 "name": "Third Alternative",
                 "uniques": [
-                    "Double quantity of [Horses] produced",
-                    "Double quantity of [Iron] produced",
-                    "Double quantity of [Coal] produced",
-                    "Double quantity of [Oil] produced",
-                    "Double quantity of [Aluminum] produced",
-                    "Double quantity of [Uranium] produced",
+                    "[+100]% [Horses] resource production",
+                    "[+100]% [Iron] resource production",
+                    "[+100]% [Coal] resource production",
+                    "[+100]% [Oil] resource production",
+                    "[+100]% [Aluminum] resource production",
+                    "[+100]% [Uranium] resource production",
                     "[+5 Science, +5 Food] [in capital]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
