@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Mystic Blade Promotion",
+        "presentation": "None",
+        "choices": [
+            {
+                "uniques": [
+                    "[This Unit] gains the [Ambition] promotion",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "uniques": [
+                    "[This Unit] gains the [Invulnerability] promotion",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "uniques": [
+                    "[This Unit] gains the [Restlessness] promotion",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "uniques": [
+                    "[This Unit] gains the [Sneak Attack] promotion",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "uniques": [
+                    "[This Unit] gains the [Recruitment] promotion",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "uniques": [
+                    "[This Unit] gains the [Heroism] promotion",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            }
+        ]
+    }
+]
