@@ -942,102 +942,48 @@
     {
         "name": "Mystic Blade",
         "uniques": [
-            "Comment [Access to special promotions]"
+            "Triggers a [Mystic Blade Promotion] event <upon losing at least [1] HP in a single attack>"
         ]
     },
     {
         "name": "Ambition",
         "uniques": [
             "[+50]% Strength <when attacking>",
-            "[-20]% Strength <when defending>",
-            "Only available <for units without [Ambition]>",
-            "Only available <for units without [Invulnerability]>",
-            "Only available <for units without [Restlessness]>",
-            "Only available <for units without [Sneak Attack]>",
-            "Only available <for units without [Recruitment]>",
-            "Only available <for units without [Heroism]>",
-            "This Promotion is free"
-        ],
-        "prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+            "[-20]% Strength <when defending>"
+        ]
     },
     {
         "name": "Invulnerability",
         "uniques": [
             "[+20] HP when healing",
-            "[+30]% Strength <when defending>",
-            "Only available <for units without [Ambition]>",
-            "Only available <for units without [Invulnerability]>",
-            "Only available <for units without [Restlessness]>",
-            "Only available <for units without [Sneak Attack]>",
-            "Only available <for units without [Recruitment]>",
-            "Only available <for units without [Heroism]>",
-            "This Promotion is free"
-        ],
-        "prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+            "[+30]% Strength <when defending>"
+        ]
     },
     {
         "name": "Restlessness",
         "uniques": [
             "[1] additional attacks per turn",
-            "[+1] Movement",
-            "Only available <for units without [Ambition]>",
-            "Only available <for units without [Invulnerability]>",
-            "Only available <for units without [Restlessness]>",
-            "Only available <for units without [Sneak Attack]>",
-            "Only available <for units without [Recruitment]>",
-            "Only available <for units without [Heroism]>",
-            "This Promotion is free"
-        ],
-        "prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+            "[+1] Movement"
+        ]
     },
     {
         "name": "Sneak Attack",
         "uniques": [
-            "[+50]% to Flank Attack bonuses",
-            "Only available <for units without [Ambition]>",
-            "Only available <for units without [Invulnerability]>",
-            "Only available <for units without [Restlessness]>",
-            "Only available <for units without [Sneak Attack]>",
-            "Only available <for units without [Recruitment]>",
-            "Only available <for units without [Heroism]>",
-            "This Promotion is free"
-        ],
-        "prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+            "[+50]% to Flank Attack bonuses"
+        ]
     },
     {
         "name": "Recruitment",
         "uniques": [
             "[This Unit] heals [50] HP <upon defeating a [Major] unit>",
-            "[This Unit] heals [50] HP <upon defeating a [City-State] unit>",
-            "Only available <for units without [Ambition]>",
-            "Only available <for units without [Invulnerability]>",
-            "Only available <for units without [Restlessness]>",
-            "Only available <for units without [Sneak Attack]>",
-            "Only available <for units without [Recruitment]>",
-            "Only available <for units without [Heroism]>",
-            "This Promotion is free"
-        ],
-        "prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+            "[This Unit] heals [50] HP <upon defeating a [City-State] unit>"
+        ]
     },
     {
         "name": "Heroism",
         "uniques": [
-            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
-            "Only available <for units without [Ambition]>",
-            "Only available <for units without [Invulnerability]>",
-            "Only available <for units without [Restlessness]>",
-            "Only available <for units without [Sneak Attack]>",
-            "Only available <for units without [Recruitment]>",
-            "Only available <for units without [Heroism]>",
-            "This Promotion is free"
-        ],
-        "prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles"
+        ]
     },
     //section end
     {
