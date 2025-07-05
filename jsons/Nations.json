@@ -2728,7 +2728,10 @@
         "outerColor": [65,54,42],
         "innerColor": [78,244,234],
         "uniqueName": "Great Expanse",
-        "uniques": ["[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>"],
+        "uniques": [
+            "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+            "Gain control over [4] tiles [in this city] <upon founding a city>"
+        ],
         "cities": [
             "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
             "Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",

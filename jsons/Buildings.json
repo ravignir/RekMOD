@@ -505,7 +505,8 @@
         "happiness": 2,
         "uniques": [
             "Unsellable", "Unbuildable",
-            "[+2] population [in this city]"
+            "[+2] population [in this city]",
+            "Gain control over [6] tiles [in this city] <upon founding a city>"
         ]
     },
     {
