@@ -2630,7 +2630,7 @@
         "cost": 450,
         "requiredTech": "Radar",
         "uniques": [
-            "May Paradrop up to [9] tiles from inside friendly territory",
+            "May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>",
             "No movement cost to pillage",
             "Never appears as a Barbarian unit"
         ],
@@ -2950,7 +2950,7 @@
         "cost": 510,
         "requiredTech": "Nanotechnology",
         "uniques": [
-            "May Paradrop up to [40] tiles from inside friendly territory",
+            "May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shot"
