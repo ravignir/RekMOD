@@ -886,17 +886,20 @@
     {
         "name": "Nutmeg", 
         "gold": 2,
-        "resourceType": "Luxury"
+        "resourceType": "Luxury",
+        "uniques": ["Doesn't generate naturally"]
     },
     {
         "name": "Cloves", 
         "gold": 2,
-        "resourceType": "Luxury"
+        "resourceType": "Luxury",
+        "uniques": ["Doesn't generate naturally"]
     },
     {
         "name": "Pepper", 
         "gold": 2,
-        "resourceType": "Luxury"
+        "resourceType": "Luxury",
+        "uniques": ["Doesn't generate naturally"]
     },
     {
         "name": "Jewelry",
@@ -929,41 +932,80 @@
     {
         "name": "Trade Route", 
         "resourceType": "Strategic",
-        "uniques": ["Cannot be traded"]
+        "uniques": [
+            "Cannot be traded",
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+        ]
     },
     {
         "name": "Factories", 
         "resourceType": "Strategic",
-        "uniques": ["Not shown on world screen","Cannot be traded"]
+        "uniques": [
+            "Not shown on world screen",
+            "Cannot be traded",
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+        ]
     },
     {
         "name": "Policies", 
         "resourceType": "Strategic",
-        "uniques": ["Not shown on world screen","Cannot be traded"]
+        "uniques": [
+            "Not shown on world screen",
+            "Cannot be traded",
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+        ]
     },
     {
         "name": "Level 1 Ideology", 
         "resourceType": "Strategic",
-        "uniques": ["Not shown on world screen","Cannot be traded"]
+        "uniques": [
+            "Not shown on world screen",
+            "Cannot be traded",
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+        ]
     },
     {
         "name": "Level 2 Ideology", 
         "resourceType": "Strategic",
-        "uniques": ["Not shown on world screen","Cannot be traded"]
+        "uniques": [
+            "Not shown on world screen",
+            "Cannot be traded",
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+        ]
     },
     {
         "name": "Great Work of Writing", 
         "resourceType": "Strategic",
-        "uniques": ["Stockpiled"]
+        "uniques": [
+            "Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+        ]
     },
     {
         "name": "Great Work of Art", 
         "resourceType": "Strategic",
-        "uniques": ["Stockpiled"]
+        "uniques": [
+            "Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+        ]
     },
     {
         "name": "Great Work of Music", 
         "resourceType": "Strategic",
-        "uniques": ["Stockpiled"]
+        "uniques": [
+            "Cannot be traded <hidden from users>",
+			"Stockpiled",
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+        ]
     }
 ]
