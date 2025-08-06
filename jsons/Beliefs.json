@@ -66,12 +66,13 @@
         "name": "God of the Sea",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture, +1 Faith] from every [Fish]",
-            "[+1 Culture, +1 Faith] from every [Whales]",
-            "[+1 Culture, +1 Faith] from every [Coral]",
-            "[+1 Culture, +1 Faith] from every [Pearls]",
-            "[+1 Culture, +1 Faith] from every [Crab]",
-            "[+1 Culture, +1 Faith] from every [Atoll]"
+            "[+1 Culture, +1 Faith] from every [Fish]<hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Whales]<hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Coral]<hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Pearls]<hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Crab]<hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Atoll]",
+            "Comment [[+1 Culture, +1 Faith] from every [Fish], [Whales], [Coral], [Pearls], and [Crab]]"
         ]
     },
     {
@@ -86,10 +87,11 @@
         "name": "Goddess of Festivals",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food, +1 Culture] from every [Wine]", // Rebalanced from +2 Faith to +1 Production to +1 Food
-            "[+1 Food, +1 Culture] from every [Sugar]",
-            "[+1 Food, +1 Culture] from every [Spices]",
-            "[+1 Food, +1 Culture] from every [Incense]"
+            "[+1 Food, +1 Culture] from every [Wine]<hidden from users>", // Rebalanced from +2 Faith to +1 Production to +1 Food
+            "[+1 Food, +1 Culture] from every [Sugar]<hidden from users>",
+            "[+1 Food, +1 Culture] from every [Spices]<hidden from users>",
+            "[+1 Food, +1 Culture] from every [Incense]<hidden from users>",
+            "Comment [[+1 Food, +1 Culture] from every [Wine], [Sugar], [Spices] and [Incense]]"
         ]
     },
     {
@@ -109,10 +111,11 @@
         "name": "Goddess of the Orchards", // Renamed from Goddess of the Fields
         "type": "Pantheon",
         "uniques": [
-            "[+1 Production] from every [Incense]", // Changed from +2 Faith to +1 Production due to Work Spirituals
-            "[+1 Production] from every [Cotton]",
-            "[+1 Production] from every [Tea]",
-            "[+1 Production] from every [Coffee]"
+            "[+1 Production] from every [Incense]<hidden from users>", // Changed from +2 Faith to +1 Production due to Work Spirituals
+            "[+1 Production] from every [Cotton]<hidden from users>",
+            "[+1 Production] from every [Tea]<hidden from users>",
+            "[+1 Production] from every [Coffee]<hidden from users>",
+            "Comment [[+1 Production] from every [Incense], [Cotton], [Tea] and [Coffee]]"
         ]
     },
     {
@@ -124,8 +127,9 @@
         "name": "Goddess of the Fields", // Renamed from Harvest Festival
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food] from every [Wheat]",
-            "[+1 Food] from every [Maize]"
+            "[+1 Food] from every [Wheat]<hidden from users>",
+            "[+1 Food] from every [Maize]<hidden from users>",
+            "Comment [[+1 Food] from every [Wheat] and [Maize]]"
         ]
     },
     {
@@ -137,10 +141,11 @@
         "name": "Mystic Rituals",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture, +1 Gold] from every [Silk]",  // Rebalanced from +1 Food to +1 Gold
-            "[+1 Culture, +1 Gold] from every [Dyes]",
-            "[+1 Culture, +1 Gold] from every [Perfume]",
-            "[+1 Culture, +1 Gold] from every [Tobacco]"
+            "[+1 Culture, +1 Gold] from every [Silk]<hidden from users>",  // Rebalanced from +1 Food to +1 Gold
+            "[+1 Culture, +1 Gold] from every [Dyes]<hidden from users>",
+            "[+1 Culture, +1 Gold] from every [Perfume]<hidden from users>",
+            "[+1 Culture, +1 Gold] from every [Tobacco]<hidden from users>",
+            "Comment [[+1 Culture, +1 Gold] from every [Silk], [Dyes], [Perfume] and [Tobacco]]"
         ]
     },
     {
@@ -173,9 +178,10 @@
         "name": "Religious Idols",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture, +1 Faith] from every [Gold Ore]",
-            "[+1 Culture, +1 Faith] from every [Silver]",
-            "[+1 Culture, +1 Faith] from every [Copper]"
+            "[+1 Culture, +1 Faith] from every [Gold Ore]<hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Silver]<hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Copper]<hidden from users>",
+            "Comment [[+1 Culture, +1 Faith] from every [Gold Ore], [Silver] and [Copper]]"
         ]
     },
     {
@@ -191,27 +197,30 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Faith] from every [Horses]",
-            "[+1 Culture, +1 Faith] from every [Deer]",
-            "[+1 Culture, +1 Faith] from every [Bison]"   // Merged with Spirit Animals when compared to God of the Open Sky
+            "[+1 Culture, +1 Faith] from every [Deer]<hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Bison]<hidden from users>",   // Merged with Spirit Animals when compared to God of the Open Sky
+            "Comment [[+1 Culture, +1 Faith] from every [Deer] and [Bison]]"
         ]
     },
     {
         "name": "Ritual Sacrifice",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture, +2 Gold] from every [Ivory]",
-            "[+1 Culture, +2 Gold] from every [Furs]",
-            "[+1 Culture, +2 Gold] from every [Truffles]"
+            "[+1 Culture, +2 Gold] from every [Ivory]<hidden from users>",
+            "[+1 Culture, +2 Gold] from every [Furs]<hidden from users>",
+            "[+1 Culture, +2 Gold] from every [Truffles]<hidden from users>",
+            "Comment [[+1 Culture, +2 Gold] from every [Ivory], [Furs] and [Truffles]]"
         ]
     },
     {
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture] from every [Forest]",
-            "[+1 Culture] from every [Jungle]",
-            "[+1 Culture] from every [Hardwood]",
-            "[+1 Culture] from every [Rubber]"
+            "[+1 Culture] from every [Forest]<hidden from users>",
+            "[+1 Culture] from every [Jungle]<hidden from users>",
+            "[+1 Culture] from every [Hardwood]<hidden from users>",
+            "[+1 Culture] from every [Rubber]<hidden from users>",
+            "Comment [[+1 Culture] from every [Forest], [Jungle], [Hardwood] and [Rubber]]"
         ]
     },
     {
@@ -234,29 +243,32 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Production, +1 Faith] from every [Quarry]",
-            "[+1 Culture] from every [Marble]", // Rebalanced from +1 Faith to +1 Culture
-            "[+1 Culture] from every [Obsidian]"
+            "[+1 Culture] from every [Marble]<hidden from users>", // Rebalanced from +1 Faith to +1 Culture
+            "[+1 Culture] from every [Obsidian]<hidden from users>",
+            "Comment [[+1 Culture] from every [Marble] and [Obsidian]]"
         ]
     },
     {
         "name": "Sun God",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food] from every [Bananas]",
-            "[+1 Food] from every [Citrus]",
-            "[+1 Food] from every [Olives]",
-            "[+1 Food] from every [Cocoa]",
-            "[+1 Food] from every [Coconut]"
+            "[+1 Food] from every [Bananas]<hidden from users>",
+            "[+1 Food] from every [Citrus]<hidden from users>",
+            "[+1 Food] from every [Olives]<hidden from users>",
+            "[+1 Food] from every [Cocoa]<hidden from users>",
+            "[+1 Food] from every [Coconut]<hidden from users>",
+            "Comment [[+1 Food] from every [Bananas], [Citrus], [Olives], [Cocoa], [Coconut]]"
         ]
     },
     {
         "name": "Tears of the Gods",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith, +2 Gold] from every [Gems]",
-            "[+1 Faith, +2 Gold] from every [Amber]",
-            "[+1 Faith, +2 Gold] from every [Lapis Lazuli]",
-            "[+1 Faith, +2 Gold] from every [Jade]"
+            "[+1 Faith, +2 Gold] from every [Gems]<hidden from users>",
+            "[+1 Faith, +2 Gold] from every [Amber]<hidden from users>",
+            "[+1 Faith, +2 Gold] from every [Lapis Lazuli]<hidden from users>",
+            "[+1 Faith, +2 Gold] from every [Jade]<hidden from users>",
+            "Comment [[+1 Faith, +2 Gold] from every [Gems], [Amber], [Lapis Lazuli], [Jade]]"
         ]
     },
     {
@@ -378,12 +390,13 @@
         "name": "Followers of Refined Crafts",
         "type": "Follower",
         "uniques": [
-            "[+1 Culture, +2 Gold] from every [Mint]",
-            "[+1 Culture, +2 Gold] from every [Gemcutter]",
-            "[+1 Culture, +2 Gold] from every [Brewery]",
-            "[+1 Culture, +2 Gold] from every [Grocer]",
-            "[+1 Culture, +2 Gold] from every [Censer Maker]",
-            "[+1 Culture, +2 Gold] from every [Textile Mill]"
+            "[+1 Culture, +2 Gold] from every [Mint]<hidden from users>",
+            "[+1 Culture, +2 Gold] from every [Gemcutter]<hidden from users>",
+            "[+1 Culture, +2 Gold] from every [Brewery]<hidden from users>",
+            "[+1 Culture, +2 Gold] from every [Grocer]<hidden from users>",
+            "[+1 Culture, +2 Gold] from every [Censer Maker]<hidden from users>",
+            "[+1 Culture, +2 Gold] from every [Textile Mill]<hidden from users>",
+            "Comment [[+1 Culture, +2 Gold] from every [Mint], [Gemcutter], [Brewery], [Grocer], [Censer Maker] and [Textile Mill]]"
         ]
     },
     {
