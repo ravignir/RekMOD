@@ -1,0 +1,520 @@
+[
+    // Spaceflight Pioneers - Great Engineer - Build Spaceship Part
+    {
+        "name": "Spaceship part",
+        "text": "By expending your [Great Engineer] you gained [spaceship parts]!",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "SS Booster",
+                "uniques": [
+                    "Free [SS Booster] appears <hidden from users>",
+                    "Only available <after discovering [Advanced Ballistics]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "SS Cockpit",
+                "uniques": [
+                    "Free [SS Cockpit] appears <hidden from users>",
+                    "Only available <after discovering [Satellites]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "SS Engine",
+                "uniques": [
+                    "Free [SS Engine] appears <hidden from users>",
+                    "Only available <after discovering [Particle Physics]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "SS Stasis Chamber",
+                "uniques": [
+                    "Free [SS Stasis Chamber] appears <hidden from users>",
+                    "Only available <after discovering [Nanotechnology]> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    // Archaeology
+    {
+        // Waiting to implement artifacts
+        /*"name": "Archaeological Dig",
+        "text": "Your Archaeological Dig has uncovered an Ancient Artifact",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Dig up the Artifact",
+                "uniques": [
+                    "Instantly provides [1] [Artifact]"
+                ]
+            }
+        ]*/
+    },
+    {
+        "name": "Archaeological Dig - Hidden - Great Work of Writing",
+        "text": "Your Archaeological Dig has uncovered a Great Work of Writing",
+        "presentation": "None",
+        "choices": [
+            {
+                "text": "Dig up the Great Work",
+                "uniques": [
+                    "Instantly provides [1] [Great Work of Writing]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Archaeological Dig - Hidden - Culture",
+        "text": "Your Archaeological Dig has sparked a Cultural Renaissance",
+        "presentation": "None",
+        "choices": [
+            {
+                "text": "Begin the Renaissance",
+                "uniques": [
+                    "Free Social Policy"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Archaeological Dig - Destroy Unit",
+        "text": "[This Unit] is destroyed",
+        "presentation": "None",
+        "choices": [
+            {
+                "text": "[This Unit] is destroyed",
+                "uniques": [
+                    "[This Unit] is destroyed"
+                ]
+            }
+        ]
+    },
+    // Ideology
+    {
+        "name": "Ideology",
+        "text": "Choose an [Ideology]:",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Autocracy",
+                "uniques": [
+                    "Adopt [Autocracy]",
+                    "Only available <before adopting [Autocracy]>",
+                    "Only available <before adopting [Freedom]>",
+                    "Only available <before adopting [Order]>"
+                ]
+            },
+            {
+                "text": "Freedom",
+                "uniques": [
+                    "Adopt [Freedom]",
+                    "Only available <before adopting [Autocracy]>",
+                    "Only available <before adopting [Freedom]>",
+                    "Only available <before adopting [Order]>"
+                ]
+            },
+            {
+                "text": "Order",
+                "uniques": [
+                    "Adopt [Order]",
+                    "Only available <before adopting [Autocracy]>",
+                    "Only available <before adopting [Freedom]>",
+                    "Only available <before adopting [Order]>"
+                ]
+            }
+        ]
+    },
+    // Pathfinder Native Tongue
+    // Note: limitation of not allowing the last 2 options not implemented yet
+    {
+        "name": "Native Tongue",
+        "text": "The [Pathfinder]'s [Native Tongue] allows you to choose an [Ancient ruins] benefit",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Use this contact with the lost tribe to enhance your [Culture]",
+                "uniques": [
+                    "Gain [20] [Culture] <(modified by game speed)> <after turn number [15]>"
+                ]
+            },
+            {
+                "text": "Convince the lost tribe to become a Worker for your civilization.",
+                "uniques": [
+                    "Free [Worker] appears"
+                ]
+            },
+            {
+                "text": "Convince the lost tribe to become a Settler for your civilization",
+                "uniques": [
+                    "Free [Settler] appears"
+                ]
+            },
+            {
+                "text": "Convince the remaining population to join one of your cities",
+                "uniques": [
+                    "[+1] population in a random city"
+                ]
+            },
+            {
+                "text": "Trade with the lost tribe for [Gold]",
+                "uniques": [
+                    "Gain [50]-[100] [Gold] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "Study their tools to discover a new technology",
+                "uniques": [
+                    "[1] free random researchable Tech(s) from the [Ancient era]"
+                ]
+            },
+            {
+                "text": "Use equipment around the tribe to upgrade your unit",
+                "uniques": [
+                    "[This Unit] upgrades for free including special upgrades",
+					"Only available <for [Pathfinder] units>"
+                ]
+            },
+            {
+                "text": "Study their maps of nearby territory",
+                "uniques": [
+                    "Reveal up to [All] [All] within a [5] tile radius"
+                ]
+            },
+            {
+                "text": "Study the lost tribe's religion",
+                "uniques": [
+                    "Only available <when religion is enabled>",
+                    "Gain [20] [Faith] <(modified by game speed)> <after turn number [15]>"
+                ]
+            }
+        ]
+    },
+    // Kris Swordsman: Mystic Blade
+    {
+        "name": "Mystic Blade",
+        "text": "Provides a randomly selected special promotion after the first battle",
+        "presentation": "None", // A presentation of "None" will select at random.
+        "choices": [
+            {
+                "text": "Invulnerability",
+                "uniques": ["[This Unit] gains the [Invulnerability] promotion"]
+            },
+            {
+                "text": "Sneak Attack",
+                "uniques": ["[This Unit] gains the [Sneak Attack] promotion"]
+            },
+            {
+                "text": "Heroism",
+                "uniques": ["[This Unit] gains the [Heroism] promotion"]
+            },
+            {
+                "text": "Ambition",
+                "uniques": ["[This Unit] gains the [Ambition] promotion"]
+            },
+            {
+                "text": "Restlessness",
+                "uniques": ["[This Unit] gains the [Restlessness] promotion"]
+            },
+            {
+                "text": "Recruitment",
+                "uniques": ["[This Unit] gains the [Recruitment] promotion"]
+            },
+            {
+                "text": "Enemy Blade",
+                "uniques": ["[This Unit] gains the [Enemy Blade] promotion"]
+            },
+            {
+                "text": "Evil Spirits",
+                "uniques": ["[This Unit] gains the [Evil Spirits] promotion"]
+            }
+        ]
+    }
+    // Terracotta Army - Disabling temporarily until I find a solution I like better than listing every unit
+    /*{
+		"name": "Terracotta Army - Melee",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Warrior",
+				"uniques": [
+					"Only available <when number of [[Warrior] Units] is more than [0]>",
+					"Free [Warrior] appears"
+				]
+			},
+			{
+				"text": "Spearman",
+				"uniques": [
+					"Only available <when number of [[Spearman] Units] is more than [0]>",
+					"Free [Spearman] appears"
+				]
+			},
+			{
+				"text": "Swordsman",
+				"uniques": [
+					"Only available <when number of [[Swordsman] Units] is more than [0]>",
+					"Free [Swordsman] appears"
+				]
+			},
+			{
+				"text": "Longswordsman",
+				"uniques": [
+					"Only available <when number of [[Longswordsman] Units] is more than [0]>",
+					"Free [Longswordsman] appears"
+				]
+			},
+			{
+				"text": "Pikeman",
+				"uniques": [
+					"Only available <when number of [[Pikeman] Units] is more than [0]>",
+					"Free [Pikeman] appears"
+				]
+			},
+			{
+				"text": "Future Soldier",
+				"uniques": [
+					"Only available <when number of [[Future Soldier] Units] is more than [0]>",
+					"Free [Future Soldier] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Archery",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Archer",
+				"uniques": [
+					"Only available <when number of [[Archer] Units] is more than [0]>",
+					"Free [Archer] appears"
+				]
+			},
+			{
+				"text": "Chariot Archer",
+				"uniques": [
+					"Only available <when number of [[Chariot Archer] Units] is more than [0]>",
+					"Free [Chariot Archer] appears"
+				]
+			},
+			{
+				"text": "Composite Bowman",
+				"uniques": [
+					"Only available <when number of [[Composite Bowman] Units] is more than [0]>",
+					"Free [Composite Bowman] appears"
+				]
+			},
+			{
+				"text": "Crossbowman",
+				"uniques": [
+					"Only available <when number of [[Crossbowman] Units] is more than [0]>",
+					"Free [Crossbowman] appears"
+				]
+			},
+			{
+				"text": "Gatling Gun",
+				"uniques": [
+					"Only available <when number of [[Gatling Gun] Units] is more than [0]>",
+					"Free [Gatling Gun] appears"
+				]
+			},
+			{
+				"text": "Machine Gun",
+				"uniques": [
+					"Only available <when number of [[Machine Gun] Units] is more than [0]>",
+					"Free [Machine Gun] appears"
+				]
+			},
+			{
+				"text": "Bazooka",
+				"uniques": [
+					"Only available <when number of [[Bazooka] Units] is more than [0]>",
+					"Free [Bazooka] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Mounted",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Horseman",
+				"uniques": [
+					"Only available <when number of [[Horseman] Units] is more than [0]>",
+					"Free [Horseman] appears"
+				]
+			},
+			{
+				"text": "Knight",
+				"uniques": [
+					"Only available <when number of [[Knight] Units] is more than [0]>",
+					"Free [Knight] appears"
+				]
+			},
+			{
+				"text": "Lancer",
+				"uniques": [
+					"Only available <when number of [[Lancer] Units] is more than [0]>",
+					"Free [Lancer] appears"
+				]
+			},
+			{
+				"text": "Cavalry",
+				"uniques": [
+					"Only available <when number of [[Cavalry] Units] is more than [0]>",
+					"Free [Cavalry] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Siege",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Catapult",
+				"uniques": [
+					"Only available <when number of [[Catapult] Units] is more than [0]>",
+					"Free [Catapult] appears"
+				]
+			},
+			{
+				"text": "Trebuchet",
+				"uniques": [
+					"Only available <when number of [[Trebuchet] Units] is more than [0]>",
+					"Free [Trebuchet] appears"
+				]
+			},
+			{
+				"text": "Cannon",
+				"uniques": [
+					"Only available <when number of [[Cannon] Units] is more than [0]>",
+					"Free [Cannon] appears"
+				]
+			},
+			{
+				"text": "Artillery",
+				"uniques": [
+					"Only available <when number of [[Artillery] Units] is more than [0]>",
+					"Free [Artillery] appears"
+				]
+			},
+			{
+				"text": "Rocket Artillery",
+				"uniques": [
+					"Only available <when number of [[Rocket Artillery] Units] is more than [0]>",
+					"Free [Rocket Artillery] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Gunpowder",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Musketman",
+				"uniques": [
+					"Only available <when number of [[Musketman] Units] is more than [0]>",
+					"Free [Musketman] appears"
+				]
+			},
+			{
+				"text": "Rifleman",
+				"uniques": [
+					"Only available <when number of [[Rifleman] Units] is more than [0]>",
+					"Free [Rifleman] appears"
+				]
+			},
+			{
+				"text": "Anti-Aircraft Gun",
+				"uniques": [
+					"Only available <when number of [[Anti-Aircraft Gun] Units] is more than [0]>",
+					"Free [Anti-Aircraft Gun] appears"
+				]
+			},
+			{
+				"text": "Great War Infantry",
+				"uniques": [
+					"Only available <when number of [[Great War Infantry] Units] is more than [0]>",
+					"Free [Great War Infantry] appears"
+				]
+			},
+			{
+				"text": "Infantry",
+				"uniques": [
+					"Only available <when number of [[Infantry] Units] is more than [0]>",
+					"Free [Infantry] appears"
+				]
+			},
+			{
+				"text": "Anti-Tank Gun",
+				"uniques": [
+					"Only available <when number of [[Anti-Tank Gun] Units] is more than [0]>",
+					"Free [Anti-Tank Gun] appears"
+				]
+			},
+			{
+				"text": "Marine",
+				"uniques": [
+					"Only available <when number of [[Marine] Units] is more than [0]>",
+					"Free [Marine] appears"
+				]
+			},
+			{
+				"text": "Paratrooper",
+				"uniques": [
+					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
+					"Free [Paratrooper] appears"
+				]
+			},
+			{
+				"text": "Mobile SAM",
+				"uniques": [
+					"Only available <when number of [[Mobile SAM] Units] is more than [0]>",
+					"Free [Mobile SAM] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Armored",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Tank",
+				"uniques": [
+					"Only available <when number of [[Tank] Units] is more than [0]>",
+					"Free [Tank] appears"
+				]
+			},
+			{
+				"text": "Mechanized Infantry",
+				"uniques": [
+					"Only available <when number of [[Mechanized Infantry] Units] is more than [0]>",
+					"Free [Mechanized Infantry] appears"
+				]
+			},
+			{
+				"text": "Modern Armor",
+				"uniques": [
+					"Only available <when number of [[Modern Armor] Units] is more than [0]>",
+					"Free [Modern Armor] appears"
+				]
+			},
+			{
+				"text": "Giant Death Robot",
+				"uniques": [
+					"Only available <when number of [[Giant Death Robot] Units] is more than [0]>",
+					"Free [Giant Death Robot] appears"
+				]
+			}
+		]
+	}*/
+]

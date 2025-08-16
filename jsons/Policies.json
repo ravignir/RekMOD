@@ -1406,7 +1406,13 @@
         "name": "Ideology",
         "era": "Modern era",
         "uniques": [
-            "Free Social Policy",
+            "Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
+			// Humans are given an event to choose their Ideology.
+            // AI will instead choose via the free policy once it's implemented correctly (sorry, I'm being lazy about adding it)
+
+			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
+            "Triggers a [Ideology] event <for [AI player] Civilizations> <hidden from users>",
+			//"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
             "Unavailable"
         ],
         "policies": [
