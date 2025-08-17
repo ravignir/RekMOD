@@ -747,7 +747,6 @@
         "name": "Order",
         "era": "Ancient era",
         "uniques": [
-            "Free Social Policy",
             "Comment [Unlocks [Kremlin]]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>",
@@ -966,7 +965,6 @@
         "name": "Freedom",
         "era": "Ancient era",
         "uniques": [
-            "Free Social Policy",
             "Comment [Unlocks [Statue of Liberty]]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>",
@@ -1189,7 +1187,6 @@
         "name": "Autocracy",
         "era": "Ancient era",
         "uniques": [
-            "Free Social Policy",
             "Comment [Unlocks [Prora]]",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>",
