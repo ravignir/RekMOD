@@ -36,9 +36,9 @@
         ]
     },
     // Archaeology
-    {
+    /*{
         // Waiting to implement artifacts
-        /*"name": "Archaeological Dig",
+        "name": "Archaeological Dig",
         "text": "Your Archaeological Dig has uncovered an Ancient Artifact",
         "presentation": "Alert",
         "choices": [
@@ -48,7 +48,28 @@
                     "Instantly provides [1] [Artifact]"
                 ]
             }
-        ]*/
+        ]
+    },*/
+	{
+        "name": "Archaeological Dig",
+        "text": "Your Archaeological Dig has uncovered an Ancient Artifact",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Dig up the Artifact",
+                "uniques": [
+                    "Instantly provides [1] [Great Work of Art]",
+                    "[This Unit] is destroyed"
+                ]
+            },
+			{
+                "text": "Convert into a permanent dig site",
+                "uniques": [
+					"Remove [Antiquity Site] resources from this tile",
+                    "[This Unit] is destroyed"
+                ]
+            }
+        ]
     },
     {
         "name": "Archaeological Dig - Hidden - Great Work of Writing",

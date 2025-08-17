@@ -197,10 +197,12 @@
     {
         "name": "Archaeological Dig",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
+		"turnsToBuild": 4,
         "culture": 6,
         "gold": 2,
         "science": 2,
         "uniques": [
+			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
             "Can be built outside your borders",
             "Can only be built to improve a resource",
             "Removes removable features when built",

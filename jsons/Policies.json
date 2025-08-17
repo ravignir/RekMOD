@@ -1228,6 +1228,7 @@
             {
                 "name": "Futurism",
                 "uniques": [
+                    // Should be Tourism
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",

@@ -3198,8 +3198,10 @@
         "cost": 200,
         "requiredTech": "Archaeology",
         "uniques": [
-            "Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
-            "Only available <if [University] is constructed>",
+			"Can build [Archaeological Dig] improvements on tiles",
+			"Only available <in cities with a [University]>",
+			"Uncapturable <hidden from users>",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>",
             "Cannot be purchased"
         ]
     },
