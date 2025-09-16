@@ -285,6 +285,7 @@
         "movement": 4,
         "cost": 100,
         "uniques": [
+            "Cannot enter ocean tiles <before discovering [Astronomy]>",
             "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
