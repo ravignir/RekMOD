@@ -59,6 +59,8 @@
                 "text": "Dig up the Artifact",
                 "uniques": [
                     "Instantly provides [1] [Great Work of Art]",
+                    "Remove [Archaeological Dig] improvements from this tile",
+					"Remove [Antiquity Site] resources from this tile",
                     "[This Unit] is destroyed"
                 ]
             },
