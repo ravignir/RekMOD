@@ -1180,7 +1180,7 @@
         "requiredResource": "Iron",
         "hurryCostModifier": 20,
         "uniques": [
-            "Ignore terrain cost",
+            "Ignores terrain cost",
             "[+33]% Strength <during a Golden Age>"
         ],
         "attackSound": "metalhit"
@@ -1372,7 +1372,7 @@
         ],
         "uniques": [
             "Earn [200]% of killed [Military] unit's [Strength] as [Gold]",
-            "Only available <in cities with a [Reislauder Post]>",
+            "Only available <in cities with a [Reislaufer Post]>",
             "Cannot be purchased"
         ],
         "attackSound": "metalhit"
@@ -3198,8 +3198,10 @@
         "cost": 200,
         "requiredTech": "Archaeology",
         "uniques": [
-            "Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
-            "Only available <if [University] is constructed>",
+			"Can build [Archaeological Dig] improvements on tiles",
+			"Only available <in cities with a [University]>",
+			"Uncapturable",
+			"Unavailable <for [City-States] Civilizations>",
             "Cannot be purchased"
         ]
     },

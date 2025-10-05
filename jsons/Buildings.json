@@ -505,7 +505,8 @@
         "happiness": 2,
         "uniques": [
             "Unsellable", "Unbuildable",
-            "[+2] population [in this city]"
+            "[+2] population [in this city]",
+            "Gain control over [6] tiles [in this city] <upon founding a city>"
         ]
     },
     {
@@ -989,7 +990,7 @@
         "faith": 3,
         "hurryCostModifier": 25,
         "uniques": [
-            "[+1 Culture] from [Strategic Resource] tiles [in this city]",
+            "[+1 Culture] from [Strategic resource] tiles [in this city]",
             "All newly-trained [relevant] units [in this city] receive the [Golden Age from Victories] promotion",
             "Destroyed when the city is captured"
         ],

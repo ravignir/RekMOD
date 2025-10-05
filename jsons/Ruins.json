@@ -1,7 +1,7 @@
 [
     {
         "name": "freeCulture",
-        "notification": "We have discovered cultural artifacts in the ruins! (+10 culture)",
+        "notification": "We have discovered cultural artifacts in the ruins!",
         "uniques": ["Gain [20] [Culture] <(modified by game speed)> <after turn number [15]>"]
         },
     {
@@ -42,7 +42,7 @@
     {
         "name": "crudelyDrawnMap",
         "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["Reveal up to [All] [All] within a [6] tile radius"]
+        "uniques": ["Reveal up to [All] [All] within a [5] tile radius"]
         },
     {
         "name": "holySymbols",
