@@ -202,6 +202,7 @@
         "gold": 2,
         "science": 2,
         "uniques": [
+			"Only available <for [Archaeologist] units>",
 			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
             "Can be built outside your borders",
             "Can only be built to improve a resource",
