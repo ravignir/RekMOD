@@ -3200,8 +3200,8 @@
         "uniques": [
 			"Can build [Archaeological Dig] improvements on tiles",
 			"Only available <in cities with a [University]>",
-			"Uncapturable <hidden from users>",
-			"Unavailable <for [City-States] Civilizations> <hidden from users>",
+			"Uncapturable",
+			"Unavailable <for [City-States] Civilizations>",
             "Cannot be purchased"
         ]
     },
