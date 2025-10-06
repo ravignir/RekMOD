@@ -3147,7 +3147,7 @@
         "innerColor": [255,254,231],
         "uniqueName": "Serenissima",
         "uniques": [
-            "Provides [1] [Trade Route] <upon discovering [Compass] technology>",
+            //"Provides [1] [Trade Route] <upon discovering [Compass] technology>",
             "Free [Cargo Ship] appears <upon discovering [Compass] technology>"
         ],
         "cities": [
