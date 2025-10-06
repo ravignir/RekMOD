@@ -952,7 +952,6 @@
         "name": "Policies", 
         "resourceType": "Strategic",
         "uniques": [
-            "Not shown on world screen",
             "Cannot be traded",
 			"Excluded from map editor",
 			"Doesn't generate naturally"
