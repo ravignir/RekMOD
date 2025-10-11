@@ -50,7 +50,7 @@
             }
         ]
     },*/
-	{
+    {
         "name": "Archaeological Dig",
         "text": "Your Archaeological Dig has uncovered an Ancient Artifact",
         "presentation": "Alert",
@@ -373,19 +373,34 @@
             {
                 "text": "Use this contact with the lost tribe to enhance your [Culture]",
                 "uniques": [
-                    "Gain [20] [Culture] <(modified by game speed)> <after turn number [15]>"
+                    "Gain [20] [Culture] <(modified by game speed)>",
+                    "Only available <after turn number [15]>"
                 ]
             },
             {
                 "text": "Convince the lost tribe to become a Worker for your civilization.",
                 "uniques": [
-                    "Free [Worker] appears"
+                    "Free [Worker] appears",
+                    "Unavailable <on [Warlord] difficulty>",
+                    "Unavailable <on [Prince] difficulty>",
+                    "Unavailable <on [King] difficulty>",
+                    "Unavailable <on [Emperor] difficulty>",
+                    "Unavailable <on [Immortal] difficulty>",
+                    "Unavailable <on [Deity] difficulty>",
+                    "Unavailable <on [AI] difficulty>"
                 ]
             },
             {
                 "text": "Convince the lost tribe to become a Settler for your civilization",
                 "uniques": [
-                    "Free [Settler] appears"
+                    "Free [Settler] appears",
+                    "Unavailable <on [Warlord] difficulty>",
+                    "Unavailable <on [Prince] difficulty>",
+                    "Unavailable <on [King] difficulty>",
+                    "Unavailable <on [Emperor] difficulty>",
+                    "Unavailable <on [Immortal] difficulty>",
+                    "Unavailable <on [Deity] difficulty>",
+                    "Unavailable <on [AI] difficulty>"
                 ]
             },
             {
@@ -423,7 +438,8 @@
                 "text": "Study the lost tribe's religion",
                 "uniques": [
                     "Only available <when religion is enabled>",
-                    "Gain [20] [Faith] <(modified by game speed)> <after turn number [15]>"
+                    "Gain [20] [Faith] <(modified by game speed)>",
+                    "Only available <after turn number [15]>"
                 ]
             }
         ]
@@ -436,27 +452,147 @@
         "choices": [
             {
                 "text": "Invulnerability",
-                "uniques": ["[This Unit] gains the [Invulnerability] promotion"]
+                "uniques": [
+                    "[This Unit] gains the [Invulnerability] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
             },
             {
                 "text": "Sneak Attack",
-                "uniques": ["[This Unit] gains the [Sneak Attack] promotion"]
+                "uniques": [
+                    "[This Unit] gains the [Sneak Attack] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
             },
             {
                 "text": "Heroism",
-                "uniques": ["[This Unit] gains the [Heroism] promotion"]
+                "uniques": [
+                    "[This Unit] gains the [Heroism] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
             },
             {
                 "text": "Ambition",
-                "uniques": ["[This Unit] gains the [Ambition] promotion"]
+                "uniques": [
+                    "[This Unit] gains the [Ambition] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
             },
             {
                 "text": "Restlessness",
-                "uniques": ["[This Unit] gains the [Restlessness] promotion"]
+                "uniques": [
+                    "[This Unit] gains the [Restlessness] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
             },
             {
                 "text": "Recruitment",
-                "uniques": ["[This Unit] gains the [Recruitment] promotion"]
+                "uniques": [
+                    "[This Unit] gains the [Recruitment] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            }
+        ]
+    },
+    // Mpiambina: Sampy
+    {
+        "name": "Sampy",
+        "text": "Provides a randomly selected special promotion after the first battle",
+        "presentation": "None", // A presentation of "None" will select at random.
+        "choices": [
+            {
+                "text": "Kelimazala",
+                "uniques": [
+                    "[This Unit] gains the [Kelimazala] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Ramahavaly",
+                "uniques": [
+                    "[This Unit] gains the [Ramahavaly] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Manjakatsiroa",
+                "uniques": [
+                    "[This Unit] gains the [Manjakatsiroa] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Mosasa",
+                "uniques": [
+                    "[This Unit] gains the [Mosasa] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Rafantaka",
+                "uniques": [
+                    "[This Unit] gains the [Rafantaka] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Rabehaza",
+                "uniques": [
+                    "[This Unit] gains the [Rabehaza] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Ambohimanambola",
+                "uniques": [
+                    "[This Unit] gains the [Ambohimanambola] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Sehatra",
+                "uniques": [
+                    "[This Unit] gains the [Sehatra] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Lambamena",
+                "uniques": [
+                    "[This Unit] gains the [Lambamena] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Razana",
+                "uniques": [
+                    "[This Unit] gains the [Razana] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Masina",
+                "uniques": [
+                    "[This Unit] gains the [Masina] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
             }
         ]
     }
