@@ -966,7 +966,7 @@
             "This Promotion is free"
         ],
         //"prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+        //"unitTypes": ["Sword","Gunpowder"]
     },
     {
         "name": "Invulnerability",
@@ -982,7 +982,7 @@
             "This Promotion is free"
         ],
         //"prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+        //"unitTypes": ["Sword","Gunpowder"]
     },
     {
         "name": "Restlessness",
@@ -998,7 +998,7 @@
             "This Promotion is free"
         ],
         //"prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+        //"unitTypes": ["Sword","Gunpowder"]
     },
     {
         "name": "Sneak Attack",
@@ -1013,7 +1013,7 @@
             "This Promotion is free"
         ],
         //"prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+        //"unitTypes": ["Sword","Gunpowder"]
     },
     {
         "name": "Recruitment",
@@ -1029,7 +1029,7 @@
             "This Promotion is free"
         ],
         //"prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+        //"unitTypes": ["Sword","Gunpowder"]
     },
     {
         "name": "Heroism",
@@ -1044,7 +1044,7 @@
             "This Promotion is free"
         ],
         //"prerequisites": ["Mystic Blade"],
-        "unitTypes": ["Sword","Gunpowder"]
+        //"unitTypes": ["Sword","Gunpowder"]
     },
     //section end
     {
@@ -1100,8 +1100,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Ramahavaly",
@@ -1121,8 +1121,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Manjakatsiroa",
@@ -1141,8 +1141,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Mosasa",
@@ -1162,8 +1162,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Rafantaka",
@@ -1183,8 +1183,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Rabehaza",
@@ -1203,8 +1203,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Ambohimanambola",
@@ -1223,8 +1223,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Sehatra",
@@ -1243,8 +1243,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Lambamena",
@@ -1263,8 +1263,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Razana",
@@ -1283,8 +1283,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     {
         "name": "Masina",
@@ -1303,8 +1303,8 @@
             "Only available <for units without [Masina]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Sampy"],
-        "unitTypes": ["Archery", "Mounted Ranged"]
+        //"prerequisites": ["Sampy"],
+        //"unitTypes": ["Archery", "Mounted Ranged"]
     },
     //section end///////////
     // PRUSSIA
