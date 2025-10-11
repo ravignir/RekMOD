@@ -916,6 +916,12 @@
         ]
     },
     {
+        "name": "Native Tongue",
+        "uniques": [
+            "Ignores Ruins <hidden from users>"
+        ]
+    },
+    {
     "name": "Range Defence", //only for Cardoen and subsequent upgrades
     "uniques": ["[+100]% Strength <vs [Ranged] units> <when defending>"]
     },
@@ -942,7 +948,8 @@
     {
         "name": "Mystic Blade",
         "uniques": [
-            "Comment [Access to special promotions]"
+            "Comment [Gains a random special promotion upon attacking]",
+            "Triggers a [Mystic Blade] event <upon entering combat> <when attacking> <hidden from users>"
         ]
     },
     {
@@ -958,7 +965,7 @@
             "Only available <for units without [Heroism]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Mystic Blade"],
+        //"prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
     {
@@ -974,7 +981,7 @@
             "Only available <for units without [Heroism]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Mystic Blade"],
+        //"prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
     {
@@ -990,7 +997,7 @@
             "Only available <for units without [Heroism]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Mystic Blade"],
+        //"prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
     {
@@ -1005,7 +1012,7 @@
             "Only available <for units without [Heroism]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Mystic Blade"],
+        //"prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
     {
@@ -1021,7 +1028,7 @@
             "Only available <for units without [Heroism]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Mystic Blade"],
+        //"prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
     {
@@ -1036,7 +1043,7 @@
             "Only available <for units without [Heroism]>",
             "This Promotion is free"
         ],
-        "prerequisites": ["Mystic Blade"],
+        //"prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
     },
     //section end

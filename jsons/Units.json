@@ -125,8 +125,10 @@
         "cost": 40,
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Airship",
-        "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
-        "promotions": ["Ignore terrain cost"],
+        "uniques": [
+            "May upgrade to [Composite Bowman] through ruins-like effects"
+        ],
+        "promotions": ["Ignore terrain cost", "Native Tongue"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -285,7 +287,6 @@
         "movement": 4,
         "cost": 100,
         "uniques": [
-            "Cannot enter ocean tiles <before discovering [Astronomy]>",
             "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
@@ -3199,10 +3200,8 @@
         "cost": 200,
         "requiredTech": "Archaeology",
         "uniques": [
-			"Can build [Archaeological Dig] improvements on tiles",
-			"Only available <in cities with a [University]>",
-			"Uncapturable",
-			"Unavailable <for [City-States] Civilizations>",
+            "Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
+            "Only available <if [University] is constructed>",
             "Cannot be purchased"
         ]
     },
