@@ -499,6 +499,102 @@
                 ]
             }
         ]
+    },
+    // Mpiambina: Sampy
+    {
+        "name": "Sampy",
+        "text": "Provides a randomly selected special promotion after the first battle",
+        "presentation": "None", // A presentation of "None" will select at random.
+        "choices": [
+            {
+                "text": "Kelimazala",
+                "uniques": [
+                    "[This Unit] gains the [Kelimazala] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Ramahavaly",
+                "uniques": [
+                    "[This Unit] gains the [Ramahavaly] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Manjakatsiroa",
+                "uniques": [
+                    "[This Unit] gains the [Manjakatsiroa] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Mosasa",
+                "uniques": [
+                    "[This Unit] gains the [Mosasa] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Rafantaka",
+                "uniques": [
+                    "[This Unit] gains the [Rafantaka] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Rabehaza",
+                "uniques": [
+                    "[This Unit] gains the [Rabehaza] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Ambohimanambola",
+                "uniques": [
+                    "[This Unit] gains the [Ambohimanambola] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Sehatra",
+                "uniques": [
+                    "[This Unit] gains the [Sehatra] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Lambamena",
+                "uniques": [
+                    "[This Unit] gains the [Lambamena] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Razana",
+                "uniques": [
+                    "[This Unit] gains the [Razana] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Masina",
+                "uniques": [
+                    "[This Unit] gains the [Masina] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            }
+        ]
     }
     // Terracotta Army - Disabling temporarily until I find a solution I like better than listing every unit
     /*{

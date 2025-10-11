@@ -1079,7 +1079,8 @@
     {
         "name": "Sampy",
         "uniques": [
-            "Comment [Access to special promotions]"
+            "Comment [Gains a random special promotion upon attacking]",
+            "Triggers a [Sampy] event <upon entering combat> <when attacking> <hidden from users>"
         ]
     },
     {
