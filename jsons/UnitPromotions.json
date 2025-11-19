@@ -918,7 +918,10 @@
     {
         "name": "Native Tongue",
         "uniques": [
-            "Ignores Ruins <hidden from users>"
+            "Ignores ruins <hidden from users>",
+            "Comment [Allows you to choose your ruins reward]",
+			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+            "Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>"
         ]
     },
     {
