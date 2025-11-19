@@ -363,6 +363,18 @@
             }
         ]
     },
+    {
+        "name": "Native Tongue full",
+        "presentation": "None",
+        "choices": [
+            {
+                "uniques": [
+                    "Remove [Ancient ruins] improvements from this tile",
+                    "Triggers a [Native Tongue] event"
+                ]
+            }
+        ]
+    },
     // Pathfinder Native Tongue
     // Note: limitation of not allowing the last 2 options not implemented yet
     {
