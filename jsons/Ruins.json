@@ -4,7 +4,7 @@
         "notification": "We have discovered cultural artifacts in the ruins!",
         "uniques": [
             "Gain [20] [Culture] <(modified by game speed)> <after turn number [15]>",
-            "Only available <for [non-[Native Tongue]] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ]
     },
     {
@@ -12,7 +12,7 @@
         "notification": "A [Worker] has joined us!",
         "uniques": [
             "Free [Worker] found in the ruins",
-            "Only available <for [non-[Native Tongue]] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ],
         "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity", "AI"]
     },
@@ -21,7 +21,7 @@
         "notification": "A [Settler] has joined us!",
         "uniques": [
             "Free [Settler] found in the ruins",
-            "Only available <for [non-[Native Tongue]] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ],
         "excludedDifficulties": ["Warlord", "Prince", "King", "Emperor", "Immortal", "Deity", "AI"]
     },
@@ -30,7 +30,7 @@
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
         "uniques": [
             "[+1] population in a random city", // This can't be easily added to cityFilter, as it is non-deterministic
-            "Only available <for [non-[Native Tongue]] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ]
     },
     {
@@ -38,7 +38,7 @@
         "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
         "uniques": [
             "Gain [50]-[100] [Gold]",
-            "Only available <for [non-[Native Tongue]] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ]
     },
     {
@@ -46,7 +46,7 @@
         "notification": "We have discovered the lost technology of [techName] in the ruins!",
         "uniques": [
             "[1] free random researchable Tech(s) from the [Ancient era]",
-            "Only available <for [non-[Native Tongue]] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ]
     },
     {
@@ -55,7 +55,7 @@
         "uniques": [
             "[This Unit] upgrades for free including special upgrades",
             "Only available <for [non-[Does not upgrade from ruins-like effects]] units>",
-            "Only available <for [non-[Native Tongue]] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ]
     },
     {
@@ -63,7 +63,7 @@
         "notification": "We have found a crudely-drawn map in the ruins!",
         "uniques": [
             "Reveal up to [All] [All] within a [5] tile radius",
-            "Only available <for [non-[Native Tongue]] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ]
     },
     {
@@ -72,15 +72,7 @@
         "uniques": [
             "Only available <when religion is enabled>",
             "Gain [20] [Faith] <(modified by game speed)> <after turn number [15]>",
-            "Only available <for [non-[Native Tongue]] units>"
-        ]
-    },
-    {
-        "name": "Native Tongue",
-        "notification": "We have found a lost tribe",
-        "uniques": [
-            "Triggers a [Native Tongue] event",
-            "Only available <for [Native Tongue] units>"
+            "Only available <for [non-[Ignores ruins]] units>"
         ]
     }
 ]
