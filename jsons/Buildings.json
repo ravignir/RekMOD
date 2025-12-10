@@ -1336,7 +1336,7 @@
         "name": "Burial Tomb",
         "replaces": "Temple",
         "uniqueTo": "Egypt",
-        "uniques": ["[+100]% Gold given to enemy if city is captured"],
+        "uniques": ["[+100]% Gold given to enemy if city is captured <in this city>"],
         "faith": 2,
         "happiness": 2,
         "requiredBuilding": "Shrine",
@@ -1347,7 +1347,7 @@
         "name": "Ayyubid Burial Tomb",
         "uniqueTo": "Ayyubids",
         "uniques": [
-            "[+100]% Gold given to enemy if city is captured",
+            "[+100]% Gold given to enemy if city is captured <in this city>",
             "Cannot be purchased",
             "Unbuildable", "Unsellable"
         ],
