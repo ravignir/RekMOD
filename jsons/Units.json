@@ -2298,10 +2298,10 @@
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-            "[+100]% Strength <vs [Armored] units>",
-            "[+2] Strength <for every [[Happiness] / [5]]> ",
+            "[+2] Strength <for every [[Happiness] / [5]]> <hidden from users>",
             "Comment [+2 Strength for every 5 [Happiness]]",
-            "Comment [Unlocked earlier at [Dynamite] vs [Railroads]"
+            "Comment [Unlocked earlier at [Dynamite] vs [Railroads]]",
+			"[+100]% Strength <vs [Armored] units>"
         ],
         "attackSound": "machinegun"
     },
