@@ -2299,7 +2299,7 @@
         "obsoleteTech": "Combined Arms",
         "uniques": [
             "[+100]% Strength <vs [Armored] units>",
-            "[+2] Strength <for every [{Happiness}/5]> ",
+            "[+2] Strength <for every [[Happiness] / [5]]> ",
             "Comment [+2 Strength for every 5 [Happiness]]",
             "Comment [Unlocked earlier at [Dynamite] vs [Railroads]"
         ],
