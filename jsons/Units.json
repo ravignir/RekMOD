@@ -3041,7 +3041,7 @@
         "replaces": "Great Musician",
         "unitType": "Civilian",
         "uniques": [
-            "Empire enters golden age ",
+            "Empire enters golden age <by consuming this unit>",
             "Can generate a large amount of culture",
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>", //Should instead generate a large amount of tourism
             "Is part of Great Person group [Musician]",
