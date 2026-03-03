@@ -452,6 +452,40 @@
             "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
+	{
+        "name": "Bolivia",
+        "leaderName": "Tata Balzu",
+        "adjective": ["Bolivian"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Cultural",
+        "startIntroPart1": "Greetings to you, Manuel Isidoro Belzu. You led the multitudinary Bolivian civilization and were part of the armies that secured the Independency of South America. Bolivia is a country with deep diversity, both cultural and geographical. This setting, however, led to many clashes between every culture and social class in the land, making Bolivia a land both of revolutions and discrimination. However, it also led to many unions, represented by the religious syncretism and the folklorical festivities.",
+        "startIntroPart2": "In your time, you managed to give a blow against the discrimination of the ruling oligarchy, by giving the native people rights they lacked even after. Bolivia still lives in the conflicts of class and racial discrimination, and humble people still have to fight for their rights. But they still call for a leader. Will you grant them the chance to live well together? Will you build a civilization that will stand the test of time?",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "You treacherous oligarchy pig!",
+        "introduction": "Greetings. Welcome to the multitudinary lands of Bolivia. I'm President 'Tata' Belzu, and I hope you won't add up to the conflicts here, and rather be a friend of our Nation.",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+        "outerColor": [ 28,51,119],
+        "innerColor": [255,255,255],
+        "uniqueName": "Revolución Nacional",
+        "uniques": [
+            "Gain a free [boliviaGreatArtistAbility] [in capital] <upon expending a [Great Artist] unit> <hidden from users>",
+            "Gain a free [boliviaGreatWriterAbility] [in capital] <upon expending a [Great Writer] unit> <hidden from users>",
+			"Comment [Expending a [Great Artist] improves the yield of [Mines] with +1 [Production]]",
+			"Comment [Expending a [Great Writer] improves the yield of [Mines] with +1 [Food]]",
+			"Comment [These yields will not stack, but will swap each other out instead]"
+        ],
+        "cities": [
+            "Sucre","La Paz","Santa Cruz","Cochabamba","Oruro","Potosí","Tarija","Antofagasta","Montero","Trinidad",
+            "Riberalta","Warnes","La Guardia","Viacha","Calama","Yacuíba","Cobija","Camiri","Guayaramerín","Villazón",
+            "Villamontes","Bermejo","Tupiza","Llallagua","San Julián","Huanuni","Punata","Uyuni","Mejillones"
+        ],
+        "spyNames": [
+            "","","","","","","","","",""
+        ]
+    },
     {
         "name": "Brazil",
         "leaderName": "Pedro II",
