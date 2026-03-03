@@ -402,6 +402,26 @@
             "Never destroyed when the city is captured"
         ]
     },
+	{
+        "name": "boliviaGreatArtistAbility",
+        "uniques": [
+            "[+1 Production] from every [Mine]",
+            "Remove [boliviaGreatWriterAbility] [in all cities]",
+			"Will not be displayed in Civilopedia",
+			"Moves to new capital when capital changes",
+            "Unbuildable","Unsellable"
+        ]
+    },
+    {
+        "name": "boliviaGreatWriterAbility",
+        "uniques": [
+            "[+1 Food] from every [Mine]",
+            "Remove [boliviaGreatArtistAbility] [in all cities]",
+			"Will not be displayed in Civilopedia",
+			"Moves to new capital when capital changes",
+            "Unbuildable","Unsellable"
+        ]
+    },
     /*{
         "name": "~limit",
         "gold": 2,
