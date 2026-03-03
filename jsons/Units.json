@@ -2299,7 +2299,7 @@
         "obsoleteTech": "Combined Arms",
         "uniques": [
             "[+100]% Strength <vs [Armored] units>",
-            "[+2] Strength <for every [Happiness/5]> ",
+            "[+2] Strength <for every [{Happiness}/5]> ",
             "Comment [+2 Strength for every 5 [Happiness]]",
             "Comment [Unlocked earlier at [Dynamite] vs [Railroads]"
         ],
@@ -3043,7 +3043,7 @@
         "uniques": [
             "Empire enters golden age ",
             "Can generate a large amount of culture",
-            "Instantly provides [1] [Great Work of Music] ", //Should instead generate a large amount of tourism
+            "Instantly provides [1] [Great Work of Music] <by consuming this unit>", //Should instead generate a large amount of tourism
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
