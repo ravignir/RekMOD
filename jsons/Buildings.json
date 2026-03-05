@@ -2133,6 +2133,7 @@
     {
         "name": "Wat",
         "replaces": "University",
+        "cost": 120,
         "uniqueTo": "Siam",
         "maintenance": 2,
         "hurryCostModifier": 15,
@@ -2582,7 +2583,7 @@
         "uniqueTo": "Philippines",
         "cost": 150,
         "happiness": 2,
-        "faith": 4,
+        "faith": 2,
         "culture": 1,
         "hurryCostModifier": 10,
         "maintenance": 2,
