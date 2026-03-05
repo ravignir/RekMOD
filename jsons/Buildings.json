@@ -1109,6 +1109,7 @@
         "uniqueTo": "Carthage",
         "cost": 75,
         "food": 1,
+        "production": 1,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
@@ -1252,6 +1253,7 @@
         "name": "Outremer",
         "uniqueTo": "Jerusalem",
         "replaces": "Courthouse",
+        "maintenance": 2,
         "culture": 2,
         "faith": 2,
         "happiness": 2,
@@ -1456,7 +1458,7 @@
         "name": "Amphitheater",
         "culture": 2,
         "requiredBuilding": "Monument",
-        "maintenance": 2,
+        "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
@@ -1514,6 +1516,7 @@
             "[+20]% Great Person generation [in this city]",
             "Must be next to [Fresh water]"
         ],
+        "cost": 120,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -2533,7 +2536,8 @@
         "uniques": [
             "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
-        ]
+        ],
+        "requiredTech": "Machinery"
     },
     {
         "name": "Grocer",
@@ -2849,7 +2853,7 @@
         "hurryCostModifier": 25,
         "maintenance": 2,
         "uniques": [
-            "[+20]% Great Person generation [in this city]",
+            "[+25]% Great Person generation [in this city]",
             "[+1 Production] from [Oasis] tiles [in this city]",
             "[+1 Production] from [Lakes] tiles [in this city]"
         ],
