@@ -819,6 +819,10 @@
         ]
     },
     {
+		"name": "Mana of Tumatauenga",
+		"uniques": ["[+2] Movement", "[This Unit] loses the [Mana of Tumatauenga] promotion <upon turn end>"]
+	}
+    {
         "name": "Dharma",
         "uniques": [
             "[-10]% Strength <when attacking>",
