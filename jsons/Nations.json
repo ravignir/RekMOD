@@ -1910,7 +1910,7 @@
         "outerColor": [255, 148, 10],
         "innerColor": [3, 16, 230],
         "uniqueName": "Mana of Tumatauenga",
-        "uniques": ["[+1] Movement <for [non-[Scout]] units> <before turn number [6]>",
+        "uniques": ["[+2] Movement <for [non-[Scout]] units> <before turn number [6]>",
 					"[+1] Sight <for [non-[Scout]] units> <before turn number [6]>",
 					"[All] units gain the [Mana of Tumatauenga] promotion <after turn number [5]>"],
         "cities": [
