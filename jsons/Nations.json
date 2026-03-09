@@ -2134,6 +2134,38 @@
             "Zahir","Babur","Jalal","Faaiz","Qutb","Humayun","Mirza","Muhy","Shere","Gauhar"
         ]
     },
+	 {
+        "name": "Nabataea",
+        "leaderName": "Aretas III",
+        "adjective": ["Nabataean"],
+        "startBias": ["Desert"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+        "outerColor": [70, 83, 150],
+        "innerColor": [184, 175, 118],
+        "uniqueName": "Spring of Moses",
+        "uniques": [
+            "Comment [+1 [Food] from Fresh Water [Farm] tiles at discovering [Mathematics], instead of [Civil Service]]",
+            "[+1 Food] from [{Fresh Water} {Farm}] tiles [in all cities] <after discovering [Mathematics]>",
+            "[-1 Food] from [{Fresh Water} {Farm}] tiles [in all cities] <after discovering [Civil Sevice]>"
+        ],
+        "cities": [
+            "Petra","Bostra","Hegra","Edoba","Leuke","Mampsis","Sela","Elusa","Jenysos","Gaza",
+            "Philadelphia","Sia","Madaba","Soada","Augustopolis","Avdat","Punon","Zoara","Nessana","Sobara",
+            "Iram","Teima","Gypsaria","Auara","Nemara","Adraa","Rhinocoluna","Damascus","Pharan","Bethoro"
+        ],
+        "spyNames": [
+            "Rabbel","Obodas","Malichus","Avdomanis","Pavivlos","Shaqilat","Galimat","Gamlat","Haganu","Khaldw"
+        ]
+    },
     {
         "name": "The Netherlands",
         "leaderName": "William I",
