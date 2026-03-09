@@ -66,6 +66,7 @@ Contains stuff from mods:
 - [Dock](https://thenounproject.com/icon/dock-4489742/) by Flowicon for Dry Dock
 - [Factory](https://thenounproject.com/icon/factory-6833299/) by Hadi Mulyono for Cooperation
 - [Barn](https://thenounproject.com/icon/barn-6373750/) by Amazona Adorada for Cacicazgo
+- [Petra](https://thenounproject.com/browse/icons/term/petra/) by Icons Cart for Rock-Cut Tomb
 
 ## Resources
 
@@ -86,3 +87,5 @@ Contains stuff from mods:
 - [Swimmer](https://thenounproject.com/icon/swimmer-6735717/) by yode tive for Fast Swimmer
 - [Beret](https://thenounproject.com/icon/beret-6945974/) by krisna arga muria for Expeditionary Force
 - [Horse](https://thenounproject.com/icon/horse-2191914/) by RIZCA for Llanero
+- [Camel](https://thenounproject.com/browse/icons/term/camel/) by taash5studio for Zabonah
+
