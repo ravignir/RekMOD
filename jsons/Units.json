@@ -99,6 +99,24 @@
         "promotions": ["Ignore terrain cost"],
         "attackSound": "nonmetalhit"
     },
+	{
+        "name": "Zabonah",
+		"replaces": "Scout",
+        "uniqueTo": "Nabataea",
+        "unitType": "Scout",
+        "movement": 3,
+        "strength": 5,
+        "cost": 25,
+        "obsoleteTech": "Steam Power",
+        "upgradesTo": "Airship",
+        "uniques": [
+			"Cannot attack",
+			"Gain [10] [Gold] <upon discovering a [{City-State} {City center}] tile>",
+			"Gain [10] [Gold] <upon discovering a [{non-[Known]} {Major} {City center}] tile>"
+             ],//May discover Cities from an additional +3 tiles away, but still needs to be in regular sight to meet them
+        "promotions": ["Ignore terrain cost"],
+        "attackSound": "nonmetalhit"
+    },
     {
         "name": "Apedemaks Bow",
         "replaces": "Scout",
