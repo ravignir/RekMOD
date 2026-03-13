@@ -1175,6 +1175,17 @@
         "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]"],
         "requiredTech": "The Wheel"
     },
+	 {
+        "name": "Rock-Cut Tomb",
+		"uniqueTo": "Nabataea",
+        "replaces": "Caravansary",
+        "cost": 100,
+        "hurryCostModifier": 25,
+        "gold": 3,
+		"food": 2,
+        "uniques": ["[+2 Gold, +1 Food] from [Land Trade Route (Gold)] tiles [in this city]"], //+1 Food for every trade rout leaving this city
+        "requiredTech": "Horseback Riding"
+    },
     {
         "name": "Serai",
         "uniqueTo": "Timurids",

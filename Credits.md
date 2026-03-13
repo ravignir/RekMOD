@@ -66,6 +66,7 @@ Contains stuff from mods:
 - [Dock](https://thenounproject.com/icon/dock-4489742/) by Flowicon for Dry Dock
 - [Factory](https://thenounproject.com/icon/factory-6833299/) by Hadi Mulyono for Cooperation
 - [Barn](https://thenounproject.com/icon/barn-6373750/) by Amazona Adorada for Cacicazgo
+- [Petra](https://thenounproject.com/browse/icons/term/petra/) by Icons Cart for Rock-Cut Tomb
 
 ## Resources
 
@@ -89,4 +90,5 @@ Contains stuff from mods:
 - [sabres](https://thenounproject.com/browse/icons/term/sabres/) by Tresnatiq for Colorado
 - [Bolivia Woman Clothing](https://thenounproject.com/browse/icons/term/bolivia-woman-clothing/) by Gan Khoon Lay for Comparasa Folkloria
 
+- [Camel](https://thenounproject.com/browse/icons/term/camel/) by taash5studio for Zabonah
 
