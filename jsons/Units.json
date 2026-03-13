@@ -2298,8 +2298,7 @@
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-            "[+2] Strength <for every [[Happiness] / [5]]> <hidden from users>",
-            "Comment [+2 Strength for every 5 [Happiness]]",
+            "[+2] Strength <for every [[Happiness] / [5]]>",
             "Comment [Unlocked earlier at [Dynamite] vs [Railroads]]",
 			"[+100]% Strength <vs [Armored] units>"
         ],
@@ -3043,7 +3042,6 @@
         "uniques": [
             "Empire enters golden age <by consuming this unit>",
             "Can generate a large amount of culture",
-            "Instantly provides [1] [Great Work of Music] <by consuming this unit>", //Should instead generate a large amount of tourism
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
