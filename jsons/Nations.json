@@ -1894,6 +1894,33 @@
             "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
         ]
     },
+	{
+        "name": "Maori",
+        "leaderName": "Te Rauparaha",
+        "adjective": ["Maori"],
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+        "outerColor": [86, 60, 21],
+        "innerColor": [241, 213, 125],
+        "uniqueName": "Mana of Tumatauenga",
+        "uniques": ["[+2] Movement <for [non-[Scout]] units> <before turn number [6]>",
+					"[+1] Sight <for [non-[Scout]] units> <before turn number [6]>",
+					"[All] units gain the [Mana of Tumatauenga] promotion <after turn number [5]>"],
+        "cities": [
+            "Parihaka","Kaiapoi","Ruapekapeka","Whanganui-a-tara","Pukekura","Rangiriri","Nukuhau","Hingikaka","Waitangi","Kapiti",
+            "Tamaki Makaurau","Otautahi","Ngaruawahia","Wairau","Taihape","Whanganui","Whangarei","Whakatane","Porirua","Mimiwhangata"
+        ],
+        "spyNames": [
+            "Tane","Apirana","Hone","Tamati","Wiremu","Tame","Anika","Hinewai","Aroha","Kora"
+        ]
+    },
     {
         "name": "Maurya",
         "leaderName": "Ashoka",
