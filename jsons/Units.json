@@ -2305,6 +2305,24 @@
         ],
         "attackSound": "machinegun"
     },
+	{
+        "name": "Colorado",
+        "uniqueTo": "Bolivia",
+        "replaces": "Anti-Tank Rifle",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 40,
+        "cost": 300,
+        "requiredTech": "Dynamite",
+        "upgradesTo": "Anti-Tank Gun",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+            "[+2] Strength <for every [[Happiness] / [5]]> <hidden from users>",
+            "Comment [+2 Strength for every 5 [Happiness]]",
+			"[+100]% Strength <vs [Armored] units>"
+        ],
+        "attackSound": "machinegun"
+    },
     {
         "name": "Great War Infantry",
         "unitType": "Gunpowder",
@@ -3035,6 +3053,21 @@
         ],
         "movement": 4
     },
+	{
+        "name": "Comparasa Folkloria",
+        "uniqueTo": "Bolivia",
+        "replaces": "Great Musician",
+        "unitType": "Civilian",
+        "uniques": [
+            "Empire enters golden age <by consuming this unit>",
+            "Can generate a large amount of culture",
+            "Is part of Great Person group [Musician]",
+            "Great Person - [Culture]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4 //Docs say: 'Moves further (4 Movement vs. 2)', but the GM already has 4 movement?
+    }, 
     {
         "name": "Pittore",
         "uniqueTo": "Italy",

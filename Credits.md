@@ -87,5 +87,8 @@ Contains stuff from mods:
 - [Swimmer](https://thenounproject.com/icon/swimmer-6735717/) by yode tive for Fast Swimmer
 - [Beret](https://thenounproject.com/icon/beret-6945974/) by krisna arga muria for Expeditionary Force
 - [Horse](https://thenounproject.com/icon/horse-2191914/) by RIZCA for Llanero
+- [sabres](https://thenounproject.com/browse/icons/term/sabres/) by Tresnatiq for Colorado
+- [Bolivia Woman Clothing](https://thenounproject.com/browse/icons/term/bolivia-woman-clothing/) by Gan Khoon Lay for Comparasa Folkloria
+
 - [Camel](https://thenounproject.com/browse/icons/term/camel/) by taash5studio for Zabonah
 
