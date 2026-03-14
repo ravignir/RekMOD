@@ -1109,6 +1109,7 @@
         "uniqueTo": "Carthage",
         "cost": 75,
         "food": 1,
+        "production": 1,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
@@ -1252,6 +1253,7 @@
         "name": "Outremer",
         "uniqueTo": "Jerusalem",
         "replaces": "Courthouse",
+        "maintenance": 2,
         "culture": 2,
         "faith": 2,
         "happiness": 2,
@@ -1456,7 +1458,7 @@
         "name": "Amphitheater",
         "culture": 2,
         "requiredBuilding": "Monument",
-        "maintenance": 2,
+        "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
@@ -1485,7 +1487,6 @@
         "faith": 2,
         "happiness": 1,
         "requiredBuilding": "Monument",
-        "maintenance": 2,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
@@ -1514,6 +1515,7 @@
             "[+20]% Great Person generation [in this city]",
             "Must be next to [Fresh water]"
         ],
+        "cost": 120,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -2130,6 +2132,7 @@
     {
         "name": "Wat",
         "replaces": "University",
+        "cost": 120,
         "uniqueTo": "Siam",
         "maintenance": 2,
         "hurryCostModifier": 15,
@@ -2533,7 +2536,8 @@
         "uniques": [
             "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
-        ]
+        ],
+        "requiredTech": "Machinery"
     },
     {
         "name": "Grocer",
@@ -2578,7 +2582,7 @@
         "uniqueTo": "Philippines",
         "cost": 150,
         "happiness": 2,
-        "faith": 4,
+        "faith": 2,
         "culture": 1,
         "hurryCostModifier": 10,
         "maintenance": 2,

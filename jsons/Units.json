@@ -722,7 +722,7 @@
         "upgradesTo": "Trebuchet",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "[-1] Sight"
         ],
@@ -2031,7 +2031,7 @@
         "unitType": "Mounted",
         "replaces": "Cavalry",
         "uniqueTo": "Austria",
-        "movement": 5,
+        "movement": 4,
         "strength": 34,
         "cost": 225,
         "requiredTech": "Military Science",
@@ -2042,9 +2042,8 @@
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
-            "[+1] Sight"
         ],
-        "promotions": ["Enhanced Flank Attack"],
+        "promotions": ["Enhanced Flank Attack", "Extra Sight", "Extra Movement"],
         "attackSound": "horse"
     },
     {
@@ -2112,7 +2111,7 @@
         "replaces": "Cavalry",
         "uniqueTo": "Shoshone",
         "unitType": "Mounted",
-        "movement": 5,
+        "movement": 4,
         "strength": 34,
         "cost": 198,
         "requiredTech": "Military Science",
@@ -2700,12 +2699,12 @@
         "requiredTech": "Combined Arms",
         "requiredResource": "Oil",
         "upgradesTo": "Modern Armor",
-        "promotions": ["[M-84] ability"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
             "[+50]% Strength <vs [Land] units>",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "Ignores Zone of Control"
         ],
         "attackSound": "tankshot"
     },
