@@ -27,7 +27,7 @@ jobs:
           # We're left with a folder named like "oxipng-9.1.2-x86_64-unknown-linux-gnu" which contains the actual executable
           # So we find the file, run it on all png files in "Images" folders, and then delete the folder so it won't be a git diff
           oxipng_file=$(find oxipng* | grep "/oxipng")
-          find Images* -type f -regex ".*png" | xargs -d '\n' $oxipng_file --opt max --strip all --alpha
+          find Images* -type f -regex ".*png" | xargs -d '\n' $oxipng_file --opt max --strip all
           rm -rf $(ls -1 | grep oxipng)
 
       - uses: actions/setup-java@v4
