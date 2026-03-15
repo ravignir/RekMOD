@@ -438,10 +438,10 @@
         "innerColor": [38, 41, 80],
         "uniqueName": "The Great Trek",
         "uniques": [
-            "[+1 Food] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
-            "[+1 Gold] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
-            "[+1 Production] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>",
-            "[+1 Culture, +1 Science] from every [Farm] <with [6] to [6] neighboring [Farm] tiles>"
+            "[+1 Food] from every [Farm] <with [2] to [6] neighboring [Farm] tiles>",
+            "[+1 Gold] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
+            "[+1 Production] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
+            "[+1 Culture, +1 Science] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>"
         ],
         "cities": [ //Tweebuffelsmeteenskootmorsdoodgeskietfontein
             "Pretoria","Bloemfontein","Johannesburg","Pietermaritzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof",
@@ -1804,7 +1804,6 @@
         "innerColor": [220,190,92],
         "uniqueName": "Macedonian Discipline",
         "uniques": [
-            "Free [Hetairoi] appears <upon discovering [Horseback Riding] technology>",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Military Academy]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]"

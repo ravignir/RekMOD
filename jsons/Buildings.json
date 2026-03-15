@@ -715,6 +715,7 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "uniques": [
             "[+15]% Production when constructing [Ranged] units [in this city]",
+            "[+15]% Production when constructing [WaterRanged] units [in this city]",
             "Only available <after adopting [Honor]>"
         ],
         "requiredTech": "Archery",
@@ -1051,7 +1052,9 @@
         "name": "Krepost",
         "replaces": "Barracks",
         "uniqueTo": "Russia",
+        "cost": 65,
         "hurryCostModifier": 25,
+        "culture": 1,
         "maintenance": 1,
         "uniques": [
             "[-25]% Culture cost of natural border growth [in this city]",
@@ -1430,7 +1433,7 @@
     },
     {
         "name": "The Oracle",
-        "culture": 3,
+        "culture": 1,
         "greatPersonPoints": {"Great Scientist": 1},
         "isWonder": true,
         "uniques": [
@@ -1647,12 +1650,13 @@
         "name": "Bazaar",
         "replaces": "Market",
         "uniqueTo": "Arabia",
+        "happiness": 1,
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Provides 1 extra copy of each improved luxury resource near this City",
+            "[+1 Gold] from every [Luxury resource] tiles [in this city]",
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+2 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+2 Gold] from [Oil] tiles [in this city]",
@@ -2099,6 +2103,18 @@
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Water resource] tiles [in this city]",
             "New [Water] units start with [15] XP [in this city]"
+        ],
+        "requiredTech": "Compass"
+    },
+    {
+        "name": "Tower of Belem",
+        "cost": 300,
+        "culture": 2,
+        "isWonder": true,
+        "uniques": [
+            "[+4 Golden Age points] [in this city]",
+            "[+1 Production, +1 Gold] [in Coastal cities]",
+            "Only available <after adopting [Exploration]>"
         ],
         "requiredTech": "Compass"
     },
@@ -2688,6 +2704,20 @@
         "requiredTech": "Navigation"
     },
     {
+        "name": "Arsenal of Venice",
+        "cost": 500,
+        "culture": 3,
+        "greatPersonPoints": {"Great Engineer": 2},
+        "cityStrength": 5,
+        "cityHealth": 25,
+        "isWonder": true,
+        "uniques": [
+            "Must be next to [Coast]",
+            "[+67]% Production when constructing [Water] units [in this city]"
+        ],
+        "requiredTech": "Navigation"
+    },
+    {
         "name": "Hermitage",
         "cost": 125,
         "percentStatBonus": {"culture": 50},
@@ -2989,12 +3019,10 @@
     },
     {
         "name": "The Louvre",
-        "culture": 1,
-        "happiness": 4,
+        "culture": 2,
         "isWonder": true,
         "uniques": [
-            "Free [Great Artist] appears",
-            "Only available <after adopting [Exploration]>",
+            "Instantly provides [2] [Great Work of Art]",
             "Comment [Has [4] Great Work of Art Slots]"
         ],
         "requiredTech": "Archaeology",
@@ -3218,7 +3246,31 @@
     {
         "name": "BMPC Plant",
         "replaces": "Oil Refinery",
-        "uniqueTo": "Brunei",
+        "uniqueTo": "Brunei",Ideologies
+        Autocracy
+        Lightning warfare ( tier 2 )
+        Now provides +1 Movement to naval units and all other civilian units in addition to the regular units
+        Order
+        Patriotic War (Tier 1)
+        Now provides +1 Movement to all units within Friendly Territory
+        Party Leadership (Tier 1)
+        Yields from Cities increased to +2 Food, +2 Production, +2 Science, and +2 Gold
+        People’s Army
+        No longer provides a % production bonus towards Armories and Military Academies
+        Now reads: +1 Science and +1 Culture from Barracks, +2 Science and +2 Culture from Armories, and +3 Science and +3 Culture from Military Academies
+        Cultural Revolution (Tier 2)
+        In addition, now also provides -50% Ideology Pressure Unhappiness
+        Communism (Tier 3)
+        Renamed to “Command Economy”
+        No longer provides a reduced science cost for every owned city
+        Now reads: “+3 Production, +3 Science, and +3 Gold from Strategic Resources. Provides 4 of every Strategic Resource in the Capital”
+        Freedom
+        Universal Healthcare ( Tier 2 )
+        No longer provides food in the capital
+        % production bonus to Hospitals and Medical Labs decreased ( 100 > 50%)
+        Hospitals and Medical Labs now also provide +2 Happiness
+        Science yield from Hospitals and Medical Labs decreased ( 3 > 2 )
+
         "gold": 3,
         "production": 5,
         "cost": 200,
@@ -3481,7 +3533,7 @@
         "name": "Cristo Redentor",
         "culture": 5,
         "isWonder": true,
-        "uniques": ["[-10]% Culture cost of adopting new Policies"],
+        "uniques": ["[-15]% Culture cost of adopting new Policies"],
         "requiredTech": "Plastics",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
     },

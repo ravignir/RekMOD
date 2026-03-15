@@ -3152,14 +3152,13 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Can be earned through combat <for [Land] units>",
             "Great Person - [War]",
             "Unbuildable",
             "Uncapturable"
         ],
-        "movement": 5,
+        "movement": 4,
         "attackSound": "horse"
     },
     {

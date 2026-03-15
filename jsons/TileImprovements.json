@@ -648,7 +648,7 @@
     {
         "name": "Brazilwood Camp",
         "uniqueTo": "Brazil",
-        "terrainsCanBeBuiltOn": ["Jungle","Forest"],
+        "terrainsCanBeBuiltOn": ["Jungle"],
         "production": 1,
         "turnsToBuild": 7,
         "techRequired": "Bronze Working",
