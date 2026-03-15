@@ -3246,31 +3246,7 @@
     {
         "name": "BMPC Plant",
         "replaces": "Oil Refinery",
-        "uniqueTo": "Brunei",Ideologies
-        Autocracy
-        Lightning warfare ( tier 2 )
-        Now provides +1 Movement to naval units and all other civilian units in addition to the regular units
-        Order
-        Patriotic War (Tier 1)
-        Now provides +1 Movement to all units within Friendly Territory
-        Party Leadership (Tier 1)
-        Yields from Cities increased to +2 Food, +2 Production, +2 Science, and +2 Gold
-        People’s Army
-        No longer provides a % production bonus towards Armories and Military Academies
-        Now reads: +1 Science and +1 Culture from Barracks, +2 Science and +2 Culture from Armories, and +3 Science and +3 Culture from Military Academies
-        Cultural Revolution (Tier 2)
-        In addition, now also provides -50% Ideology Pressure Unhappiness
-        Communism (Tier 3)
-        Renamed to “Command Economy”
-        No longer provides a reduced science cost for every owned city
-        Now reads: “+3 Production, +3 Science, and +3 Gold from Strategic Resources. Provides 4 of every Strategic Resource in the Capital”
-        Freedom
-        Universal Healthcare ( Tier 2 )
-        No longer provides food in the capital
-        % production bonus to Hospitals and Medical Labs decreased ( 100 > 50%)
-        Hospitals and Medical Labs now also provide +2 Happiness
-        Science yield from Hospitals and Medical Labs decreased ( 3 > 2 )
-
+        "uniqueTo": "Brunei",
         "gold": 3,
         "production": 5,
         "cost": 200,
