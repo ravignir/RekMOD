@@ -1657,7 +1657,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "[+1 Gold] from every [Luxury resource] tiles [in this city]",
+            "[+1 Gold] from [Luxury resource] tiles [in this city]",
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+2 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+2 Gold] from [Oil] tiles [in this city]",
