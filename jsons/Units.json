@@ -2264,6 +2264,7 @@
         "requiredTech": "Refrigeration",
         "upgradesTo": "Nuclear Submarine",
         "uniques": [
+            "Can move after attacking",
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "Never appears as a Barbarian unit"
@@ -2491,9 +2492,6 @@
         "cost": 385,
         "requiredTech": "Ballistics",
         "promotions": ["Logistics"],
-        "uniques": [
-            "[+33]% Strength <vs [Gunpowder] units>"
-        ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
         "attackSound": "machinegun"
@@ -2512,7 +2510,6 @@
         "promotions": ["Ignore terrain cost", "Extra Movement", "No movement cost to pillage"],
         "uniques": [
             "[+25]% Strength <vs [Armored] units>",
-            "[+33]% Strength <vs [Gunpowder] units>"
         ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
@@ -2751,9 +2748,6 @@
         "rangedStrength": 80,
         "cost": 450,
         "requiredTech": "Nuclear Fission",
-        "uniques": [
-            "[+33]% Strength <vs [Gunpowder] units>"
-        ],
         "promotions": ["Logistics"],
         "attackSound": "machinegun"
     },
@@ -2834,6 +2828,7 @@
         "cost": 510,
         "requiredTech": "Telecommunications",
         "uniques": [
+            "Can move after attacking",
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "[+1] Sight",
@@ -2952,7 +2947,8 @@
         "requiredTech": "Nanotechnology",
         "uniques": [
             "May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles>",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "No movement cost to pillage"
         ],
         "attackSound": "shot"
     },
@@ -3096,7 +3092,7 @@
         "replaces": "Great Prophet",
         "unitType": "Civilian",
         "uniques": [
-            "Empire enters a [11]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [8] movement> <[5] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",

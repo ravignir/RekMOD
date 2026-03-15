@@ -374,21 +374,21 @@
     {
         "name": "Art Hall",
         "culture": 2,
-        "faith": 1,
+        "faith": 4,
         "specialistSlots": {"Artist": 1},
         "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Writing Auditorium",
         "culture": 2,
-        "faith": 1,
+        "science": 1,
         "specialistSlots": {"Writer": 1},
         "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Vocal Chamber",
-        "culture": 2,
-        "faith": 1,
+        "culture": 4,
+        "happiness": 1,
         "specialistSlots": {"Musician": 1},
         "uniques": ["Unbuildable","Unsellable"]
     },
@@ -1052,9 +1052,7 @@
         "name": "Krepost",
         "replaces": "Barracks",
         "uniqueTo": "Russia",
-        "cost": 65,
         "hurryCostModifier": 25,
-        "culture": 1,
         "maintenance": 1,
         "uniques": [
             "[-25]% Culture cost of natural border growth [in this city]",
@@ -1146,7 +1144,10 @@
         "cost": 100,
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]"],
+        "uniques": [
+            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            "Provides [2] [Horses]"
+        ],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -1424,7 +1425,7 @@
         "uniques": [
             "Shown while unbuilable",
             "Unbuildable",
-            "Can be purchased for [450] [Gold] [in all cities]",
+            "Can be purchased for [300] [Gold] [in all cities]",
             "Can be purchased for [390] [Faith] [in all cities]",
             "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
             "Gain [75] [Faith] <upon expending a [Great Person] unit>",
@@ -1510,7 +1511,7 @@
             "Destroyed when the city is captured",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        "requiredTech": "Drama and Poetry"
+        "requiredTech": "Writing"
     },
     {
         "name": "Garden",
@@ -2150,7 +2151,6 @@
         "replaces": "University",
         "cost": 120,
         "uniqueTo": "Siam",
-        "maintenance": 2,
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
