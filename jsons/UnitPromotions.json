@@ -58,7 +58,7 @@
     {
         "name": "Anti-Naval III",
         "prerequisites": ["Anti-Naval II"],
-        "uniques": ["[+33]% Strength <vs [Water] units>"],
+        "uniques": ["[+34]% Strength <vs [Water] units>"],
         "unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
     },
     {
