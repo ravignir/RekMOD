@@ -135,18 +135,80 @@
     },
 
     // Special improvement
+    /*// Archeology
+	// https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": [
+			"[+1 Culture] <for every [Era number]>", // +1 Culture for each era of difference between the era of origin of the Antiquity Site and the current era
+			"Great Improvement",
+			"Can also be built on tiles adjacent to fresh water <hidden from users>",
+            "Can only be built to improve a resource <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+            "Will not be replaced by automated units <hidden from users>",
+			"Remove [Antiquity Site] resources from this tile <hidden from users>",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Antiquity Dig Site",
+			"Only available <for [Archaeologist] units>"
+		],
+		"civilopediaText": [
+			{ "text": "Landmarks are built from [Antiquity Site]s by [Archaeologist]s, consuming the unit." },
+			{ "separator": true },
+			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" }
+		]
+	},
+	{
+		"name": "Archaeological Dig",
+        "terrainsCanBeBuiltOn": ["Land"],
+		"culture": 5,
+		"turnsToBuild": 3,
+		"techRequired": "Archaeology",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Can also be built on tiles adjacent to fresh water",
+			"Removes removable features when built",
+
+			// Antiquity Site
+			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
+
+	        // Hidden Antiquity Site: Give 30% chance in Civ 5, but we are generous.
+			"Triggers a [Archaeological Dig - Hidden - Great Work of Writing] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
+			"Triggers a [Archaeological Dig - Hidden - Culture] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
+
+			// Remove the resource/improvement.
+			"Remove [Archaeological Dig] improvements from this tile <hidden from users>",
+			"Remove [Antiquity Site] resources from this tile <hidden from users>",
+			"Remove [Hidden Antiquity Site] resources from this tile <hidden from users>",
+
+			// Remove the unit.
+			"Triggers a [Archaeological Dig - Destroy Unit] event <hidden from users>",
+
+            "Will not be replaced by automated units <hidden from users>",
+			"Can be built outside your borders",
+			"Excluded from map editor",
+			"Antiquity Dig Site",
+			"Only available <for [Archaeologist] units>"
+		]
+	},*/
     {
         "name": "Archaeological Dig",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
+		"turnsToBuild": 4,
         "culture": 6,
         "gold": 2,
         "science": 2,
         "uniques": [
+			"Only available <for [Archaeologist] units>",
+			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
             "Can be built outside your borders",
             "Can only be built to improve a resource",
             "Removes removable features when built",
             "Pillaging this improvement yields approximately [+20 Gold]",
-            "Excluded from map editor"
+            //"Excluded from map editor"
         ]
     },
     {

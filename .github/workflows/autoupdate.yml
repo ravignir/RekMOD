@@ -17,8 +17,9 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: oxipng image compression # This needs to be before the Unciv run since that packs images
+        continue-on-error: true  # We want to autoupdate even if there are errors
         run: | 
-          oxipng_url=$(curl -s https://api.github.com/repos/shssoichiro/oxipng/releases/latest | grep -o "http.*x86_64-unknown-linux-gnu.tar.gz")
+          oxipng_url=$(curl -sL https://api.github.com/repos/shssoichiro/oxipng/releases/latest | grep -o "http.*x86_64-unknown-linux-gnu.tar.gz")
           wget -O oxipng.tar.gz $oxipng_url
           tar -xvzf oxipng.tar.gz
           rm oxipng.tar.gz
@@ -26,19 +27,19 @@ jobs:
           # We're left with a folder named like "oxipng-9.1.2-x86_64-unknown-linux-gnu" which contains the actual executable
           # So we find the file, run it on all png files in "Images" folders, and then delete the folder so it won't be a git diff
           oxipng_file=$(find oxipng* | grep "/oxipng")
-          find Images* -type f -regex ".*png" | xargs -d '\n' $oxipng_file --opt max --strip all --alpha
+          find Images* -type f -regex ".*png" | xargs -d '\n' $oxipng_file --opt max --strip all
           rm -rf $(ls -1 | grep oxipng)
 
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: 17
+          java-version: 21
 
       # Runs a set of commands using the runners shell
       - name: Autoupdate
         continue-on-error: true  # We want to autoupdate even if there are errors
         run: |
-          unciv_url=$(curl -s https://api.github.com/repos/yairm210/unciv/releases/latest | grep -o "http.*Unciv.jar")
+          unciv_url=$(curl -sL https://api.github.com/repos/yairm210/unciv/releases/latest | grep -o "http.*Unciv.jar")
           wget -q -O Unciv.jar $unciv_url
           java -jar Unciv.jar mod-ci
 
@@ -46,6 +47,7 @@ jobs:
         run: rm Unciv.jar
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: Autoupdate
+          title: Autoupdate

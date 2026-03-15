@@ -1,0 +1,899 @@
+[
+    // Spaceflight Pioneers - Great Engineer - Build Spaceship Part
+    {
+        "name": "Spaceship part",
+        "text": "By expending your [Great Engineer] you gained [spaceship parts]!",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "SS Booster",
+                "uniques": [
+                    "Free [SS Booster] appears <hidden from users>",
+                    "Only available <after discovering [Advanced Ballistics]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "SS Cockpit",
+                "uniques": [
+                    "Free [SS Cockpit] appears <hidden from users>",
+                    "Only available <after discovering [Satellites]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "SS Engine",
+                "uniques": [
+                    "Free [SS Engine] appears <hidden from users>",
+                    "Only available <after discovering [Particle Physics]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "SS Stasis Chamber",
+                "uniques": [
+                    "Free [SS Stasis Chamber] appears <hidden from users>",
+                    "Only available <after discovering [Nanotechnology]> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    // Archaeology
+    /*{
+        // Waiting to implement artifacts
+        "name": "Archaeological Dig",
+        "text": "Your Archaeological Dig has uncovered an Ancient Artifact",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Dig up the Artifact",
+                "uniques": [
+                    "Instantly provides [1] [Artifact]"
+                ]
+            }
+        ]
+    },*/
+    {
+        "name": "Archaeological Dig",
+        "text": "Your Archaeological Dig has uncovered an Ancient Artifact",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Dig up the Artifact",
+                "uniques": [
+                    "Instantly provides [1] [Great Work of Art]",
+                    "Remove [Archaeological Dig] improvements from this tile",
+					"Remove [Antiquity Site] resources from this tile",
+                    "[This Unit] is destroyed"
+                ]
+            },
+			{
+                "text": "Convert into a permanent dig site",
+                "uniques": [
+					"Remove [Antiquity Site] resources from this tile",
+                    "[This Unit] is destroyed"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Archaeological Dig - Hidden - Great Work of Writing",
+        "text": "Your Archaeological Dig has uncovered a Great Work of Writing",
+        "presentation": "None",
+        "choices": [
+            {
+                "text": "Dig up the Great Work",
+                "uniques": [
+                    "Instantly provides [1] [Great Work of Writing]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Archaeological Dig - Hidden - Culture",
+        "text": "Your Archaeological Dig has sparked a Cultural Renaissance",
+        "presentation": "None",
+        "choices": [
+            {
+                "text": "Begin the Renaissance",
+                "uniques": [
+                    "Free Social Policy"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Archaeological Dig - Destroy Unit",
+        "text": "[This Unit] is destroyed",
+        "presentation": "None",
+        "choices": [
+            {
+                "text": "[This Unit] is destroyed",
+                "uniques": [
+                    "[This Unit] is destroyed"
+                ]
+            }
+        ]
+    },
+    // Ideology
+    {
+        "name": "Ideology",
+        "text": "Choose an [Ideology]:",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Autocracy",
+                "uniques": [
+                    "Adopt [Autocracy]",
+					"Triggers a [Choose Autocracy] event <hidden from users>",
+                    "Only available <before adopting [Autocracy]>",
+                    "Only available <before adopting [Freedom]>",
+                    "Only available <before adopting [Order]>"
+                ]
+            },
+            {
+                "text": "Freedom",
+                "uniques": [
+                    "Adopt [Freedom]",
+					"Triggers a [Choose Freedom] event <hidden from users>",
+                    "Only available <before adopting [Autocracy]>",
+                    "Only available <before adopting [Freedom]>",
+                    "Only available <before adopting [Order]>"
+                ]
+            },
+            {
+                "text": "Order",
+                "uniques": [
+                    "Adopt [Order]",
+					"Triggers a [Choose Order] event <hidden from users>",
+                    "Only available <before adopting [Autocracy]>",
+                    "Only available <before adopting [Freedom]>",
+                    "Only available <before adopting [Order]>"
+                ]
+            }
+        ]
+    },
+	{
+        "name": "Choose Order",
+        "text": "Choose an [Order] policy:",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Hero of the People",
+                "uniques": [
+                    "Adopt [Hero of the People]",
+					"Comment [[+20]% Great Person generation [in all cities]]",
+					"Only available <before adopting [Hero of the People]>"
+                ]
+            },
+            {
+                "text": "Socialist Realism",
+                "uniques": [
+                    "Adopt [Socialist Realism]",
+                    "Comment [[+2 Happiness] from every [Monument]]",
+                    "Comment [[+100]% Production when constructing [Monument] buildings [in all cities]]",
+					"Only available <before adopting [Socialist Realism]>"
+                ]
+            },
+            {
+                "text": "Patriotic War",
+                "uniques": [
+                    "Adopt [Patriotic War]",
+                    "Comment [[[+10]% Strength] [for [Military] units] [when fighting in [Friendly Land] tiles]]",
+                    "Comment [[[+50]% XP gained from combat] [for [non-[Air]] units]]",
+					"Only available <before adopting [Patriotic War]>"
+                ]
+            },
+            {
+                "text": "Double Agents",
+                "uniques": [
+                    "Adopt [Double Agents]",
+                    "Comment [[-100]% enemy spy effectiveness [in all cities connected to capital]]",
+					"Only available <before adopting [Double Agents]>"
+                ]
+            },
+            {
+                "text": "Young Pioneers",
+                "uniques": [
+                    "Adopt [Young Pioneers]",
+                    "Comment [[+1 Happiness] from every [Workshop]]",
+                    "Comment [[+1 Happiness] from every [Factory]]",
+                    "Comment [[+1 Happiness] from every [Solar Plant]]",
+                    "Comment [[+1 Happiness] from every [Nuclear Plant]]",
+                    "Comment [[+1 Happiness] from every [Hydro Plant]]",
+					"Only available <before adopting [Young Pioneers]>"
+                ]
+            },
+            {
+                "text": "Party Leadership",
+                "uniques": [
+                    "Adopt [Party Leadership]",
+                    "Comment [[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]]",
+					"Only available <before adopting [Party Leadership]>"
+                ]
+            },
+            {
+                "text": "Resettlements",
+                "uniques": [
+                    "Adopt [Resettlements]",
+                    "Comment [[[+4] population [in this city]] [upon founding a city]]",
+                    "Comment [[Gain a free [Workshop] [in this city]] [upon founding a city]]",
+                    "Comment [[Gain a free [Monument] [in this city]] [upon founding a city]]",
+                    "Comment [[Gain a free [Granary] [in this city]] [upon founding a city]]",
+                    "Comment [[Gain a free [Library] [in this city]] [upon founding a city]]",
+                    "Comment [[Gain a free [Aqueduct] [in this city]] [upon founding a city]]",
+					"Only available <before adopting [Resettlements]>"
+                ]
+            }
+        ]
+    },
+	{
+        "name": "Choose Freedom",
+        "text": "Choose an [Freedom] policy:",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Avant Garde",
+                "uniques": [
+                    "Adopt [Avant Garde]",
+                    "Comment [[+25]% Great Person generation [in all cities]]",
+					"Only available <before adopting [Avant Garde]>"
+                ]
+            },
+            {
+                "text": "Creative Expression",
+                "uniques": [
+                    "Adopt [Creative Expression]",
+                    "Comment [[+2 Culture] from every [Great Work]]",
+					"Only available <before adopting [Creative Expression]>"
+                ]
+            },
+            {
+                "text": "Civil Society",
+                "uniques": [
+                    "Adopt [Civil Society]",
+                    "Comment [[-50]% Food consumption by specialists [in all cities]]",
+					"Only available <before adopting [Civil Society]>"
+                ]
+            },
+            {
+                "text": "Volunteer Army",
+                "uniques": [
+                    "Adopt [Volunteer Army]",
+                    "Comment [[3] free [Foreign Legion] units appear]",
+                    "Comment [[3] units cost no maintenance]",
+                    "Comment [[Gunpowder] units gain the [Morale] promotion]",
+                    "Comment [All newly-trained [Gunpowder] units [in all cities] receive the [Morale] promotion]",
+					"Only available <before adopting [Volunteer Army]>"
+                ]
+            },
+            {
+                "text": "Covert Action",
+                "uniques": [
+                    "Adopt [Covert Action]",
+                    "Comment [[+100]% spy effectiveness [in City-State cities]]",
+                    "Comment [Gain an extra spy]",
+					"Only available <before adopting [Covert Action]>"
+                ]
+            },
+            {
+                "text": "Capitalism",
+                "uniques": [
+                    "Adopt [Capitalism]",
+                    "Comment [[+1 Happiness] from every [Market]]",
+                    "Comment [[+1 Happiness] from every [Bank]]",
+                    "Comment [[+1 Happiness] from every [Stock Exchange]]",
+					"Only available <before adopting [Capitalism]>"
+                ]
+            },
+            {
+                "text": "Economic Union",
+                "uniques": [
+                    "Adopt [Economic Union]",
+                    "Comment [[+25]% [Gold] [in all cities]]",
+                    "Comment [Provides [1] [Trade Route]]",
+					"Only available <before adopting [Economic Union]>"
+                ]
+            }
+        ]
+    },
+	{
+        "name": "Choose Autocracy",
+        "text": "Choose an [Autocracy] policy:",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Elite Forces",
+                "uniques": [
+                    "Adopt [Elite Forces]",
+                    "Comment [[[+10]% Strength] [for [Military] units]]",
+                    "Comment [[[+10] HP when healing] [for [Military] units]]",
+					"Only available <before adopting [Elite Forces]>"
+                ]
+            },
+            {
+                "text": "Mobilization",
+                "uniques": [
+                    "Adopt [Mobilization]",
+                    "Comment [[Gold] cost of purchasing [All] units [-25]%]",
+                    "Comment [[[-25]% maintenance costs] [for [All] units]]",
+					"Only available <before adopting [Mobilization]>"
+                ]
+            },
+            {
+                "text": "United Front",
+                "uniques": [
+                    "Adopt [United Front]",
+                    "Comment [Militaristic City-States grant units [2] times as fast when you are at war with a common nation]",
+					"Only available <before adopting [United Front]>"
+                ]
+            },
+            {
+                "text": "Futurism",
+                "uniques": [
+                    "Adopt [Futurism]",
+                    "Comment [[Gain [250] [Culture]] [(modified by game speed)] [upon gaining a [Great Artist] unit]]",
+                    "Comment [[Gain [250] [Culture]] [(modified by game speed)] [upon gaining a [Great Writer] unit]]",
+                    "Comment [[Gain [250] [Culture]] [(modified by game speed)] [upon gaining a [Great Musician] unit]]",
+					"Only available <before adopting [Futurism]>"
+                ]
+            },
+            {
+                "text": "Industrial Espionage",
+                "uniques": [
+                    "Adopt [Industrial Espionage]",
+                    "Comment [[+100]% spy effectiveness [in all cities]]",
+					"Only available <before adopting [Industrial Espionage]>"
+                ]
+            },
+            {
+                "text": "Militarism",
+                "uniques": [
+                    "Adopt [Militarism]",
+                    "Comment [[+1 Happiness] from every [Barracks]]",
+                    "Comment [[+1 Happiness] from every [Armory]]",
+                    "Comment [[+1 Happiness] from every [Military Academy]]",
+					"Only available <before adopting [Militarism]>"
+                ]
+            },
+            {
+                "text": "Fascism",
+                "uniques": [
+                    "Adopt [Fascism]",
+                    "Comment [[+12 Happiness]]",
+					"Only available <before adopting [Fascism]>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Native Tongue full",
+        "presentation": "None",
+        "choices": [
+            {
+                "uniques": [
+                    "Remove [Ancient ruins] improvements from this tile",
+                    "Triggers a [Native Tongue] event"
+                ]
+            }
+        ]
+    },
+    // Pathfinder Native Tongue
+    // Note: limitation of not allowing the last 2 options not implemented yet
+    {
+        "name": "Native Tongue",
+        "text": "The [Pathfinder]'s [Native Tongue] allows you to choose an [Ancient ruins] benefit",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Use this contact with the lost tribe to enhance your [Culture]",
+                "uniques": [
+                    "Gain [20] [Culture] <(modified by game speed)>",
+                    "Only available <after turn number [15]>"
+                ]
+            },
+            {
+                "text": "Convince the lost tribe to become a Worker for your civilization.",
+                "uniques": [
+                    "Free [Worker] appears",
+                    "Unavailable <on [Warlord] difficulty>",
+                    "Unavailable <on [Prince] difficulty>",
+                    "Unavailable <on [King] difficulty>",
+                    "Unavailable <on [Emperor] difficulty>",
+                    "Unavailable <on [Immortal] difficulty>",
+                    "Unavailable <on [Deity] difficulty>",
+                    "Unavailable <on [AI] difficulty>"
+                ]
+            },
+            {
+                "text": "Convince the lost tribe to become a Settler for your civilization",
+                "uniques": [
+                    "Free [Settler] appears",
+                    "Unavailable <on [Warlord] difficulty>",
+                    "Unavailable <on [Prince] difficulty>",
+                    "Unavailable <on [King] difficulty>",
+                    "Unavailable <on [Emperor] difficulty>",
+                    "Unavailable <on [Immortal] difficulty>",
+                    "Unavailable <on [Deity] difficulty>",
+                    "Unavailable <on [AI] difficulty>"
+                ]
+            },
+            {
+                "text": "Convince the remaining population to join one of your cities",
+                "uniques": [
+                    "[+1] population in a random city"
+                ]
+            },
+            {
+                "text": "Trade with the lost tribe for [Gold]",
+                "uniques": [
+                    "Gain [50]-[100] [Gold] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "Study their tools to discover a new technology",
+                "uniques": [
+                    "[1] free random researchable Tech(s) from the [Ancient era]"
+                ]
+            },
+            {
+                "text": "Use equipment around the tribe to upgrade your unit",
+                "uniques": [
+                    "[This Unit] upgrades for free including special upgrades",
+					"Only available <for [Pathfinder] units>"
+                ]
+            },
+            {
+                "text": "Study their maps of nearby territory",
+                "uniques": [
+                    "Reveal up to [All] [All] within a [5] tile radius"
+                ]
+            },
+            {
+                "text": "Study the lost tribe's religion",
+                "uniques": [
+                    "Only available <when religion is enabled>",
+                    "Gain [20] [Faith] <(modified by game speed)>",
+                    "Only available <after turn number [15]>"
+                ]
+            }
+        ]
+    },
+    // Kris Swordsman: Mystic Blade
+    {
+        "name": "Mystic Blade",
+        "text": "Provides a randomly selected special promotion after the first battle",
+        "presentation": "None", // A presentation of "None" will select at random.
+        "choices": [
+            {
+                "text": "Invulnerability",
+                "uniques": [
+                    "[This Unit] gains the [Invulnerability] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "text": "Sneak Attack",
+                "uniques": [
+                    "[This Unit] gains the [Sneak Attack] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "text": "Heroism",
+                "uniques": [
+                    "[This Unit] gains the [Heroism] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "text": "Ambition",
+                "uniques": [
+                    "[This Unit] gains the [Ambition] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "text": "Restlessness",
+                "uniques": [
+                    "[This Unit] gains the [Restlessness] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            },
+            {
+                "text": "Recruitment",
+                "uniques": [
+                    "[This Unit] gains the [Recruitment] promotion",
+                    "Only available <for [Mystic Blade] units>",
+                    "[This Unit] loses the [Mystic Blade] promotion"
+                ]
+            }
+        ]
+    },
+    // Mpiambina: Sampy
+    {
+        "name": "Sampy",
+        "text": "Provides a randomly selected special promotion after the first battle",
+        "presentation": "None", // A presentation of "None" will select at random.
+        "choices": [
+            {
+                "text": "Kelimazala",
+                "uniques": [
+                    "[This Unit] gains the [Kelimazala] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Ramahavaly",
+                "uniques": [
+                    "[This Unit] gains the [Ramahavaly] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Manjakatsiroa",
+                "uniques": [
+                    "[This Unit] gains the [Manjakatsiroa] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Mosasa",
+                "uniques": [
+                    "[This Unit] gains the [Mosasa] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Rafantaka",
+                "uniques": [
+                    "[This Unit] gains the [Rafantaka] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Rabehaza",
+                "uniques": [
+                    "[This Unit] gains the [Rabehaza] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Ambohimanambola",
+                "uniques": [
+                    "[This Unit] gains the [Ambohimanambola] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Sehatra",
+                "uniques": [
+                    "[This Unit] gains the [Sehatra] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Lambamena",
+                "uniques": [
+                    "[This Unit] gains the [Lambamena] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Razana",
+                "uniques": [
+                    "[This Unit] gains the [Razana] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            },
+            {
+                "text": "Masina",
+                "uniques": [
+                    "[This Unit] gains the [Masina] promotion",
+                    "Only available <for [Sampy] units>",
+                    "[This Unit] loses the [Sampy] promotion"
+                ]
+            }
+        ]
+    }
+    // Terracotta Army - Disabling temporarily until I find a solution I like better than listing every unit
+    /*{
+		"name": "Terracotta Army - Melee",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Warrior",
+				"uniques": [
+					"Only available <when number of [[Warrior] Units] is more than [0]>",
+					"Free [Warrior] appears"
+				]
+			},
+			{
+				"text": "Spearman",
+				"uniques": [
+					"Only available <when number of [[Spearman] Units] is more than [0]>",
+					"Free [Spearman] appears"
+				]
+			},
+			{
+				"text": "Swordsman",
+				"uniques": [
+					"Only available <when number of [[Swordsman] Units] is more than [0]>",
+					"Free [Swordsman] appears"
+				]
+			},
+			{
+				"text": "Longswordsman",
+				"uniques": [
+					"Only available <when number of [[Longswordsman] Units] is more than [0]>",
+					"Free [Longswordsman] appears"
+				]
+			},
+			{
+				"text": "Pikeman",
+				"uniques": [
+					"Only available <when number of [[Pikeman] Units] is more than [0]>",
+					"Free [Pikeman] appears"
+				]
+			},
+			{
+				"text": "Future Soldier",
+				"uniques": [
+					"Only available <when number of [[Future Soldier] Units] is more than [0]>",
+					"Free [Future Soldier] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Archery",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Archer",
+				"uniques": [
+					"Only available <when number of [[Archer] Units] is more than [0]>",
+					"Free [Archer] appears"
+				]
+			},
+			{
+				"text": "Chariot Archer",
+				"uniques": [
+					"Only available <when number of [[Chariot Archer] Units] is more than [0]>",
+					"Free [Chariot Archer] appears"
+				]
+			},
+			{
+				"text": "Composite Bowman",
+				"uniques": [
+					"Only available <when number of [[Composite Bowman] Units] is more than [0]>",
+					"Free [Composite Bowman] appears"
+				]
+			},
+			{
+				"text": "Crossbowman",
+				"uniques": [
+					"Only available <when number of [[Crossbowman] Units] is more than [0]>",
+					"Free [Crossbowman] appears"
+				]
+			},
+			{
+				"text": "Gatling Gun",
+				"uniques": [
+					"Only available <when number of [[Gatling Gun] Units] is more than [0]>",
+					"Free [Gatling Gun] appears"
+				]
+			},
+			{
+				"text": "Machine Gun",
+				"uniques": [
+					"Only available <when number of [[Machine Gun] Units] is more than [0]>",
+					"Free [Machine Gun] appears"
+				]
+			},
+			{
+				"text": "Bazooka",
+				"uniques": [
+					"Only available <when number of [[Bazooka] Units] is more than [0]>",
+					"Free [Bazooka] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Mounted",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Horseman",
+				"uniques": [
+					"Only available <when number of [[Horseman] Units] is more than [0]>",
+					"Free [Horseman] appears"
+				]
+			},
+			{
+				"text": "Knight",
+				"uniques": [
+					"Only available <when number of [[Knight] Units] is more than [0]>",
+					"Free [Knight] appears"
+				]
+			},
+			{
+				"text": "Lancer",
+				"uniques": [
+					"Only available <when number of [[Lancer] Units] is more than [0]>",
+					"Free [Lancer] appears"
+				]
+			},
+			{
+				"text": "Cavalry",
+				"uniques": [
+					"Only available <when number of [[Cavalry] Units] is more than [0]>",
+					"Free [Cavalry] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Siege",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Catapult",
+				"uniques": [
+					"Only available <when number of [[Catapult] Units] is more than [0]>",
+					"Free [Catapult] appears"
+				]
+			},
+			{
+				"text": "Trebuchet",
+				"uniques": [
+					"Only available <when number of [[Trebuchet] Units] is more than [0]>",
+					"Free [Trebuchet] appears"
+				]
+			},
+			{
+				"text": "Cannon",
+				"uniques": [
+					"Only available <when number of [[Cannon] Units] is more than [0]>",
+					"Free [Cannon] appears"
+				]
+			},
+			{
+				"text": "Artillery",
+				"uniques": [
+					"Only available <when number of [[Artillery] Units] is more than [0]>",
+					"Free [Artillery] appears"
+				]
+			},
+			{
+				"text": "Rocket Artillery",
+				"uniques": [
+					"Only available <when number of [[Rocket Artillery] Units] is more than [0]>",
+					"Free [Rocket Artillery] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Gunpowder",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Musketman",
+				"uniques": [
+					"Only available <when number of [[Musketman] Units] is more than [0]>",
+					"Free [Musketman] appears"
+				]
+			},
+			{
+				"text": "Rifleman",
+				"uniques": [
+					"Only available <when number of [[Rifleman] Units] is more than [0]>",
+					"Free [Rifleman] appears"
+				]
+			},
+			{
+				"text": "Anti-Aircraft Gun",
+				"uniques": [
+					"Only available <when number of [[Anti-Aircraft Gun] Units] is more than [0]>",
+					"Free [Anti-Aircraft Gun] appears"
+				]
+			},
+			{
+				"text": "Great War Infantry",
+				"uniques": [
+					"Only available <when number of [[Great War Infantry] Units] is more than [0]>",
+					"Free [Great War Infantry] appears"
+				]
+			},
+			{
+				"text": "Infantry",
+				"uniques": [
+					"Only available <when number of [[Infantry] Units] is more than [0]>",
+					"Free [Infantry] appears"
+				]
+			},
+			{
+				"text": "Anti-Tank Gun",
+				"uniques": [
+					"Only available <when number of [[Anti-Tank Gun] Units] is more than [0]>",
+					"Free [Anti-Tank Gun] appears"
+				]
+			},
+			{
+				"text": "Marine",
+				"uniques": [
+					"Only available <when number of [[Marine] Units] is more than [0]>",
+					"Free [Marine] appears"
+				]
+			},
+			{
+				"text": "Paratrooper",
+				"uniques": [
+					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
+					"Free [Paratrooper] appears"
+				]
+			},
+			{
+				"text": "Mobile SAM",
+				"uniques": [
+					"Only available <when number of [[Mobile SAM] Units] is more than [0]>",
+					"Free [Mobile SAM] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "Terracotta Army - Armored",
+		"text": "Terracotta Army",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Tank",
+				"uniques": [
+					"Only available <when number of [[Tank] Units] is more than [0]>",
+					"Free [Tank] appears"
+				]
+			},
+			{
+				"text": "Mechanized Infantry",
+				"uniques": [
+					"Only available <when number of [[Mechanized Infantry] Units] is more than [0]>",
+					"Free [Mechanized Infantry] appears"
+				]
+			},
+			{
+				"text": "Modern Armor",
+				"uniques": [
+					"Only available <when number of [[Modern Armor] Units] is more than [0]>",
+					"Free [Modern Armor] appears"
+				]
+			},
+			{
+				"text": "Giant Death Robot",
+				"uniques": [
+					"Only available <when number of [[Giant Death Robot] Units] is more than [0]>",
+					"Free [Giant Death Robot] appears"
+				]
+			}
+		]
+	}*/
+]

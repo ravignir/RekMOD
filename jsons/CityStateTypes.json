@@ -40,10 +40,10 @@
     {
         "name": "Militaristic",
         "friendBonusUniques": [
-            "Provides military units every ≈[20] turns"
+            "Provides military units every ≈[15] turns"
         ],
         "allyBonusUniques": [
-            "Provides military units every ≈[13] turns"
+            "Provides military units every ≈[10] turns"
         ],
         "color": [255,0,0]
     },
