@@ -72,18 +72,19 @@
         "attackSound": "nonmetalhit"
     },
     {
-        "name": "Fast Worker",
-        "replaces": "Worker",
-        "uniqueTo": "Maurya",
+        "name": "Aahkyayhkya Sai",
+        "uniqueTo": "Burma",
         "unitType": "Civilian",
+        "replaces": "Settler",
         "movement": 2,
+        "cost": 64,
         "uniques": [
-            "Can build [All] improvements on tiles",
-            "Can build [Land] improvements on tiles",
-            "Automation is a primary action",
-            "Ignores terrain cost"
+            "Founds a new city <by consuming this unit>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [3] population",
+            "[-1] population [in this city]"
         ],
-        "cost": 48
+        "hurryCostModifier": 20
     },
     {
         "name": "Ranchero",
