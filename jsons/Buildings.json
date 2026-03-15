@@ -2110,10 +2110,10 @@
         "name": "Tower of Belem",
         "cost": 300,
         "culture": 2,
+        "happiness": 2,
         "isWonder": true,
         "uniques": [
-            "[+4 Golden Age points] [in this city]",
-            "[+1 Production, +1 Gold] [in Coastal cities]",
+            "[+1 Production, +1 Gold] [in all coastal cities]",
             "Only available <after adopting [Exploration]>"
         ],
         "requiredTech": "Compass"
