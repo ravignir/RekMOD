@@ -289,7 +289,7 @@
             "Unsellable",
             "Only available <when religion is enabled>",
             "Only available <in cities with a [Mosques] religion>",
-            "Will not be displayed in Civilopedia",
+            "Will not be displayed in Civilopedia"
         ]
     },
     {
@@ -2703,20 +2703,22 @@
         ],
         "requiredTech": "Navigation"
     },
-    {
-        "name": "Arsenal of Venice",
-        "cost": 500,
-        "culture": 3,
-        "greatPersonPoints": {"Great Engineer": 2},
-        "cityStrength": 5,
-        "cityHealth": 25,
-        "isWonder": true,
-        "uniques": [
-            "Must be next to [Coast]",
-            "[+67]% Production when constructing [Water] units [in this city]"
-        ],
-        "requiredTech": "Navigation"
-    },
+//    {
+//        "name": "Arsenal of Venice",
+//        "cost": 500,
+//        "culture": 3,
+//        "greatPersonPoints": {"Great Engineer": 2},
+//        "cityStrength": 5,
+//        "cityHealth": 25,
+//        "isWonder": true,
+//        "uniques": [
+//            "Must be next to [Coast]",
+//        ],
+//        "requiredTech": "Navigation"
+//    },
+    //TODO: reuired new uniq
+    //Naval Units in the city are 33% more expensive to construct
+    //Provides a second naval unit for each Naval Unit built with Production in the city
     {
         "name": "Hermitage",
         "cost": 125,
