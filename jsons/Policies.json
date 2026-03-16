@@ -779,9 +779,7 @@
                 "name": "Skyscrapers",
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-50]%",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -842,7 +840,9 @@
                 "uniques": [
                     "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
                     "[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
-                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
                     "Provides [1] [Policies]"
                 ],
                 "row": 2,
