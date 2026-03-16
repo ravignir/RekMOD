@@ -471,6 +471,7 @@
         "innerColor": [63,106,64],
         "uniqueName": "Carnival",
         "uniques": [
+            //UA: Tourism modifier during Golden Ages ( 100% )
             "[Great Artist] is earned [100]% faster <during a Golden Age>",
             "[Great Writer] is earned [100]% faster <during a Golden Age>",
             "[Great Musician] is earned [100]% faster <during a Golden Age>",
