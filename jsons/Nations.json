@@ -126,13 +126,15 @@
         "innerColor": [146,221,9],
         "uniqueName": "Trade Caravans",
         "uniques": [
-            "Comment [[+1 Gold] from every Trade Route]",
-            "[+1 Gold] from every [Land Trade Route (Food)] <hidden from users>",
-            "[+1 Gold] from every [Land Trade Route (Production)] <hidden from users>",
-            "[+1 Gold] from every [Land Trade Route (Gold)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Food)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Production)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Gold)] <hidden from users>",
+            "Comment [+1 [Culture] and +1 [Gold] from Luxury Buildings. Buildings that may improve luxury resources also receive this bonus.]",
+            "[+1 Gold, +1 Culture] from every [Censer Maker] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Gemcutter] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Grocer] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Brewery] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Mint] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Circus] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Stone Works] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Lighthouse] <hidden from users>",
             "[+100]% [Oil] resource production"
         ],
         "cities": [
