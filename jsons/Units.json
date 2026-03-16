@@ -42,6 +42,13 @@
         ],
         "cost": 48
     },
+    //TODO: for Maurya needs new uniq for new UU instead of Fast Worker
+    //Ashoka’s Envoy - UU (new!)
+    //Replaces the Missionary
+    //5 base movement (vs. 4)
+    //Ignores terrain cost
+    //Awards 1 Science, Culture, Gold, and Faith per Citizen converted to a religion upon spreading one
+    //Fully converting a city to a religion awards an additional 4 of these yields
     {
         "name": "Settler",
         "unitType": "Civilian",
@@ -2041,7 +2048,7 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "promotions": ["Enhanced Flank Attack", "Extra Sight", "Extra Movement"],
         "attackSound": "horse"
@@ -2509,7 +2516,7 @@
         "requiredTech": "Ballistics",
         "promotions": ["Ignore terrain cost", "Extra Movement", "No movement cost to pillage"],
         "uniques": [
-            "[+25]% Strength <vs [Armored] units>",
+            "[+25]% Strength <vs [Armored] units>"
         ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
