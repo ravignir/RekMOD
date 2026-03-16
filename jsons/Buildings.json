@@ -2114,6 +2114,7 @@
         "happiness": 2,
         "isWonder": true,
         "uniques": [
+            "Instantly gain [4] [Golden Age points] <upon turn end>",
             "[+1 Production, +1 Gold] [in all coastal cities]",
             "Only available <after adopting [Exploration]>"
         ],
