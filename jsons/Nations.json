@@ -2668,7 +2668,15 @@
             "[+1 Production] from every [Strategic resource]",
             "[+100]% [Horses] resource production",
             "[+100]% [Iron] resource production",
-            "[+100]% [Uranium] resource production"
+            "[+100]% [Uranium] resource production",
+            "Comment [All Strategic resources may be improved in 1 turn]",
+            "Can build [Mine] improvements at a [+500]% rate <in [Iron] tiles> <hidden from users>",
+            "Can build [Pasture] improvements at a [+500]% rate <in [Horses] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Aluminum] tiles> <hidden from users>",
+            "Can build [Oil well] improvements at a [+500]% rate <in [Oil] tiles> <hidden from users>",
+            "Can build [Offshore Platform] improvements at a [+500]% rate <in [Oil] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Coal] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Uranium] tiles> <hidden from users>"
         ],
         "cities": [
             "Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
