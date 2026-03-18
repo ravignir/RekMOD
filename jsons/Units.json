@@ -72,6 +72,21 @@
         "attackSound": "nonmetalhit"
     },
     {
+        "name": "Aahkyayhkya Sai",
+        "uniqueTo": "Burma",
+        "unitType": "Civilian",
+        "replaces": "Settler",
+        "movement": 2,
+        "cost": 64,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [3] population",
+            "[-1] population [in this city]"
+        ],
+        "hurryCostModifier": 20
+    },
+    {
         "name": "Ranchero",
         "replaces": "Settler",
         "uniqueTo": "Mexico",
@@ -1858,29 +1873,6 @@
         "rangedStrength": 20,
         "cost": 185,
         "requiredTech": "Chemistry",
-        "promotions": ["Indirect Fire"],
-        "upgradesTo": "Artillery",
-        "obsoleteTech": "Dynamite",
-        "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "[-1] Sight",
-            "Never appears as a Barbarian unit"
-        ],
-        "attackSound": "cannon"
-    },
-    {
-        "name": "Akyat Cannon",
-        "replaces": "Cannon",
-        "uniqueTo": "Burma",
-        "unitType": "Siege",
-        "movement": 2,
-        "strength": 12,
-        "rangedStrength": 14,
-        "range": 3,
-        "cost": 120,
-        "requiredTech": "Gunpowder",
         "promotions": ["Indirect Fire"],
         "upgradesTo": "Artillery",
         "obsoleteTech": "Dynamite",

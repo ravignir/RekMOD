@@ -67,6 +67,7 @@ Contains stuff from mods:
 - [Factory](https://thenounproject.com/icon/factory-6833299/) by Hadi Mulyono for Cooperation
 - [Barn](https://thenounproject.com/icon/barn-6373750/) by Amazona Adorada for Cacicazgo
 - [Petra](https://thenounproject.com/browse/icons/term/petra/) by Icons Cart for Rock-Cut Tomb
+- [Nomad](https://www.flaticon.com/free-icon/nomad_7683815?term=nomad&related_id=7683815) by Eucalip for Aahkyayhkya Sai
 
 ## Resources
 
