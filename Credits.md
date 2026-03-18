@@ -66,6 +66,8 @@ Contains stuff from mods:
 - [Dock](https://thenounproject.com/icon/dock-4489742/) by Flowicon for Dry Dock
 - [Factory](https://thenounproject.com/icon/factory-6833299/) by Hadi Mulyono for Cooperation
 - [Barn](https://thenounproject.com/icon/barn-6373750/) by Amazona Adorada for Cacicazgo
+- [Tower of Belem](https://www.flaticon.com/free-icon/belem-tower_4294814?term=belem&page=1&position=3&origin=search&related_id=4294814) by kerismaker
+- [Venetian Arsenal](https://www.flaticon.com/free-icon/venetian-arsenal_4123668?term=venice+arsenal&page=1&position=2&origin=search&related_id=4123668) by Vitaly Gorbachev for Arsenal of Venice
 
 ## Resources
 

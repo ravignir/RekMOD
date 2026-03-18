@@ -126,13 +126,15 @@
         "innerColor": [146,221,9],
         "uniqueName": "Trade Caravans",
         "uniques": [
-            "Comment [[+1 Gold] from every Trade Route]",
-            "[+1 Gold] from every [Land Trade Route (Food)] <hidden from users>",
-            "[+1 Gold] from every [Land Trade Route (Production)] <hidden from users>",
-            "[+1 Gold] from every [Land Trade Route (Gold)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Food)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Production)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Gold)] <hidden from users>",
+            "Comment [+1 [Culture] and +1 [Gold] from Luxury Buildings. Buildings that may improve luxury resources also receive this bonus.]",
+            "[+1 Gold, +1 Culture] from every [Censer Maker] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Gemcutter] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Grocer] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Brewery] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Mint] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Circus] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Stone Works] <hidden from users>",
+            "[+1 Gold, +1 Culture] from every [Lighthouse] <hidden from users>",
             "[+100]% [Oil] resource production"
         ],
         "cities": [
@@ -438,10 +440,10 @@
         "innerColor": [38, 41, 80],
         "uniqueName": "The Great Trek",
         "uniques": [
-            "[+1 Food] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
-            "[+1 Gold] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
-            "[+1 Production] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>",
-            "[+1 Culture, +1 Science] from every [Farm] <with [6] to [6] neighboring [Farm] tiles>"
+            "[+1 Food] from every [Farm] <with [2] to [6] neighboring [Farm] tiles>",
+            "[+1 Gold] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
+            "[+1 Production] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
+            "[+1 Culture, +1 Science] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>"
         ],
         "cities": [ //Tweebuffelsmeteenskootmorsdoodgeskietfontein
             "Pretoria","Bloemfontein","Johannesburg","Pietermaritzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof",
@@ -471,6 +473,7 @@
         "innerColor": [63,106,64],
         "uniqueName": "Carnival",
         "uniques": [
+            //UA: Tourism modifier during Golden Ages ( 100% )
             "[Great Artist] is earned [100]% faster <during a Golden Age>",
             "[Great Writer] is earned [100]% faster <during a Golden Age>",
             "[Great Musician] is earned [100]% faster <during a Golden Age>",
@@ -764,7 +767,6 @@
         "uniqueName": "Independence of the People",
         "uniques": [
             "[+1 Food] from every [Lumber mill]",
-            "[+1 Gold] from every [Lumber mill]",
             "[+1 Science] from every [Lumber mill] <after discovering [Chemistry]>"
         ],
         "cities": [
@@ -1282,7 +1284,6 @@
         "uniques": [
             "[+1 Production] from every [Pasture]",
             "Cities are razed [2] times as fast",
-            "Starts with [Animal Husbandry]",
             "\"Borrows\" city names from other civilizations in the game"
         ],
         "cities": ["Attila's Court"],
@@ -1362,7 +1363,7 @@
         "name": "India",
         "leaderName": "Gandhi",
         "adjective": ["Indian"],
-        "startBias": ["Avoid [Coast]","Grassland"],
+        "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Cultural",
         "startIntroPart1": "Greetings, President Mahatma Gandhi, great souled leader of India! You are the ruler of one of the oldest countries in the world with history stretching back almost 10'000 years. A spiritual country, India is the birthplace of three of the world's great religions - Hinduism, Buddhism and Jainism. This is a passionate land of music and color, a land of great wealth and grinding poverty. For centuries, India was divided into kingdoms who fought constantly with each other and against outside invaders. That was, horever, after empires such as Maratha, Maurya and Gupta. In the 12th century AD, India was conquered by Muslim Turks fled from the Mongols. In the early 17th century, the English arrived, and thought a combination of shrewd diplomacy and technological supeiority, they conquered your fragmented nation. England remained in power for some two centuries until driven out by a rising wave of Indian nationalism, a peaceful rebellion unlike any before seen in history, one led by you!",
         "startIntroPart2": "Gandhi, your people look to you to lead them to even greater heights of glory! Can you help your people realize their great potential, to once again become the world's center of arts, culture and religion? Can you build a civilization that will stand the test of time?",
@@ -1701,7 +1702,7 @@
         "name": "Kongo",
         "leaderName": "Nzinga Mbande",
         "adjective": ["Kongo"],
-        "startBias": ["Avoid [Coast]","Forest"],
+        "startBias": ["Avoid [Coast]","Avoid [Desert]","Jungle"],
         "preferredVictoryType": "Cultural",
         "startIntroPart1": "Hail to you, brave Nzinga Mbande, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
         "startIntroPart2": "Mighty Queen of Kongo, your prople has been chained and sold into slavery. Yet, your old alliances stand firm and await your call. It is time to return, to instill your strenght and spirit and lead your people to battle once more. Can you restore your war-torn land? Can you build a civilization that will stand the test of time?",
@@ -1806,7 +1807,6 @@
         "innerColor": [220,190,92],
         "uniqueName": "Macedonian Discipline",
         "uniques": [
-            "Free [Hetairoi] appears <upon discovering [Horseback Riding] technology>",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Military Academy]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]"
@@ -1838,7 +1838,7 @@
         "innerColor": [8,117,46],
         "uniqueName": "Sacred Hills of Imerina",
         "uniques": [
-            "[Faith] cost of purchasing items in cities [-33]%",
+            "[Faith] cost of purchasing items in cities [-25]%",
             "[+1 Culture, +1 Faith] from every [Holy site]",
             "Comment [[[+1 Culture, +1 Faith] from every [Holy site]] [from each adjecent [Holy site]]]",
             "[+1 Culture, +1 Faith] from every [Holy site] <with [1] to [6] neighboring [Holy site] tiles> <hidden from users>",
@@ -1915,7 +1915,7 @@
         "uniques": [
             "[Land] units gain the [Dharma] promotion <hidden from users>",
             "[Water] units gain the [Dharma] promotion <hidden from users>",
-            "Comment [Non-Air Units receive a -10% Combat Penalty when attacking, and a +10% Combat Bonus when defending]"
+            "Comment [Non-Air Units receive a +20% Combat Bonus when defending]"
         ],
         "cities": [
             "Pataliputra","Sarnath","Ujjain","Mathura","Indraprastha","Suvarnagiri","Tamralipti","Varanasi","Lumbini","Toshali",
@@ -2334,7 +2334,7 @@
         "innerColor": [130,130,130],
         "uniqueName": "The Holy See",
         "uniques": [
-            "[+1 Culture, +1 Food, +1 Gold] from every [Great Improvement]",
+            "[+1 Culture, +2 Food, +1 Gold] from every [Great Improvement]",
             "Gain a free [Courthouse] [in annexed cities] <in cities following our religion>",
             "Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>"
         ],
@@ -2529,7 +2529,8 @@
         "innerColor": [8,25,115],
         "uniqueName": "Mare Clausum",
         "uniques": [
-            "[+3 Gold] from every [Trade Route]",
+            "[+3 Gold] from every [Land Trade Route (Gold)]",
+            "[+3 Gold] from every [Sea Trade Route (Gold)]",
             "[+33]% Production when constructing [Caravan] units [in all cities]",
             "[+33]% Production when constructing [Cargo Ship] units [in all cities]"
         ],
@@ -2667,7 +2668,15 @@
             "[+1 Production] from every [Strategic resource]",
             "[+100]% [Horses] resource production",
             "[+100]% [Iron] resource production",
-            "[+100]% [Uranium] resource production"
+            "[+100]% [Uranium] resource production",
+            "Comment [All Strategic resources may be improved in 1 turn]",
+            "Can build [Mine] improvements at a [+500]% rate <in [Iron] tiles> <hidden from users>",
+            "Can build [Pasture] improvements at a [+500]% rate <in [Horses] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Aluminum] tiles> <hidden from users>",
+            "Can build [Oil well] improvements at a [+500]% rate <in [Oil] tiles> <hidden from users>",
+            "Can build [Offshore Platform] improvements at a [+500]% rate <in [Oil] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Coal] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Uranium] tiles> <hidden from users>"
         ],
         "cities": [
             "Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",

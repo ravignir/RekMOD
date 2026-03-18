@@ -289,7 +289,7 @@
             "Unsellable",
             "Only available <when religion is enabled>",
             "Only available <in cities with a [Mosques] religion>",
-            "Will not be displayed in Civilopedia",
+            "Will not be displayed in Civilopedia"
         ]
     },
     {
@@ -374,21 +374,21 @@
     {
         "name": "Art Hall",
         "culture": 2,
-        "faith": 1,
+        "faith": 4,
         "specialistSlots": {"Artist": 1},
         "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Writing Auditorium",
         "culture": 2,
-        "faith": 1,
+        "science": 1,
         "specialistSlots": {"Writer": 1},
         "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Vocal Chamber",
-        "culture": 2,
-        "faith": 1,
+        "culture": 4,
+        "happiness": 1,
         "specialistSlots": {"Musician": 1},
         "uniques": ["Unbuildable","Unsellable"]
     },
@@ -659,7 +659,6 @@
         "replaces": "Granary",
         "cost": 66,
         "food": 2,
-        "gold": 1,
         "production": 1,
         "hurryCostModifier": 25,
         "uniques": [
@@ -715,6 +714,7 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "uniques": [
             "[+15]% Production when constructing [Ranged] units [in this city]",
+            "[+15]% Production when constructing [WaterRanged] units [in this city]",
             "Only available <after adopting [Honor]>"
         ],
         "requiredTech": "Archery",
@@ -775,8 +775,8 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "requiredTech": "Calendar",
         "uniques": [
-            "[-25]% Culture cost of natural border growth [in all cities]",
-            "[-25]% Gold cost of acquiring tiles [in all cities]"
+            "[-20]% Culture cost of natural border growth [in all cities]",
+            "[-20]% Gold cost of acquiring tiles [in all cities]"
         ],
         "quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
     },
@@ -992,6 +992,7 @@
         "uniques": [
             "[+1 Culture] from [Strategic resource] tiles [in this city]",
             "All newly-trained [relevant] units [in this city] receive the [Golden Age from Victories] promotion",
+            //TODO: The Golden Age from Kills promotion given to units now only awards the Kill Reward if the Killed Unit is Pre-Industrial. Does not impact other Golden Age from Kills Promotions  (America Minuteman)
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Masonry"
@@ -1109,6 +1110,7 @@
         "uniqueTo": "Carthage",
         "cost": 75,
         "food": 1,
+        "production": 1,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
@@ -1142,7 +1144,10 @@
         "cost": 100,
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]"],
+        "uniques": [
+            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            "Provides [2] [Horses]"
+        ],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -1252,6 +1257,7 @@
         "name": "Outremer",
         "uniqueTo": "Jerusalem",
         "replaces": "Courthouse",
+        "maintenance": 2,
         "culture": 2,
         "faith": 2,
         "happiness": 2,
@@ -1419,7 +1425,7 @@
         "uniques": [
             "Shown while unbuilable",
             "Unbuildable",
-            "Can be purchased for [450] [Gold] [in all cities]",
+            "Can be purchased for [300] [Gold] [in all cities]",
             "Can be purchased for [390] [Faith] [in all cities]",
             "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
             "Gain [75] [Faith] <upon expending a [Great Person] unit>",
@@ -1428,7 +1434,7 @@
     },
     {
         "name": "The Oracle",
-        "culture": 3,
+        "culture": 1,
         "greatPersonPoints": {"Great Scientist": 1},
         "isWonder": true,
         "uniques": [
@@ -1456,7 +1462,7 @@
         "name": "Amphitheater",
         "culture": 2,
         "requiredBuilding": "Monument",
-        "maintenance": 2,
+        "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
@@ -1485,7 +1491,6 @@
         "faith": 2,
         "happiness": 1,
         "requiredBuilding": "Monument",
-        "maintenance": 2,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
@@ -1506,7 +1511,7 @@
             "Destroyed when the city is captured",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        "requiredTech": "Drama and Poetry"
+        "requiredTech": "Writing"
     },
     {
         "name": "Garden",
@@ -1514,6 +1519,7 @@
             "[+20]% Great Person generation [in this city]",
             "Must be next to [Fresh water]"
         ],
+        "cost": 120,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -1645,12 +1651,13 @@
         "name": "Bazaar",
         "replaces": "Market",
         "uniqueTo": "Arabia",
+        "happiness": 1,
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Provides 1 extra copy of each improved luxury resource near this City",
+            "[+1 Gold] from [Luxury resource] tiles [in this city]",
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+2 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+2 Gold] from [Oil] tiles [in this city]",
@@ -2101,6 +2108,19 @@
         "requiredTech": "Compass"
     },
     {
+        "name": "Tower of Belem",
+        "cost": 300,
+        "culture": 2,
+        "happiness": 2,
+        "isWonder": true,
+        "uniques": [
+            "Instantly gain [4] [Golden Age points] <upon turn end>",
+            "[+1 Production, +1 Gold] [in all coastal cities]",
+            "Only available <after adopting [Exploration]>"
+        ],
+        "requiredTech": "Compass"
+    },
+    {
         "name": "University",
         "maintenance": 2,
         "hurryCostModifier": 15,
@@ -2130,8 +2150,8 @@
     {
         "name": "Wat",
         "replaces": "University",
+        "cost": 120,
         "uniqueTo": "Siam",
-        "maintenance": 2,
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
@@ -2533,7 +2553,8 @@
         "uniques": [
             "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
-        ]
+        ],
+        "requiredTech": "Machinery"
     },
     {
         "name": "Grocer",
@@ -2578,7 +2599,7 @@
         "uniqueTo": "Philippines",
         "cost": 150,
         "happiness": 2,
-        "faith": 4,
+        "faith": 2,
         "culture": 1,
         "hurryCostModifier": 10,
         "maintenance": 2,
@@ -2683,6 +2704,22 @@
         ],
         "requiredTech": "Navigation"
     },
+//    {
+//        "name": "Arsenal of Venice",
+//        "cost": 500,
+//        "culture": 3,
+//        "greatPersonPoints": {"Great Engineer": 2},
+//        "cityStrength": 5,
+//        "cityHealth": 25,
+//        "isWonder": true,
+//        "uniques": [
+//            "Must be next to [Coast]",
+//        ],
+//        "requiredTech": "Navigation"
+//    },
+    //TODO: reuired new uniq
+    //Naval Units in the city are 33% more expensive to construct
+    //Provides a second naval unit for each Naval Unit built with Production in the city
     {
         "name": "Hermitage",
         "cost": 125,
@@ -2985,12 +3022,10 @@
     },
     {
         "name": "The Louvre",
-        "culture": 1,
-        "happiness": 4,
+        "culture": 2,
         "isWonder": true,
         "uniques": [
-            "Free [Great Artist] appears",
-            "Only available <after adopting [Exploration]>",
+            "Instantly provides [2] [Great Work of Art]",
             "Comment [Has [4] Great Work of Art Slots]"
         ],
         "requiredTech": "Archaeology",
@@ -3477,7 +3512,7 @@
         "name": "Cristo Redentor",
         "culture": 5,
         "isWonder": true,
-        "uniques": ["[-10]% Culture cost of adopting new Policies"],
+        "uniques": ["[-15]% Culture cost of adopting new Policies"],
         "requiredTech": "Plastics",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
     },

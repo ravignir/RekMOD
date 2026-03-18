@@ -34,7 +34,7 @@
         "uniques": [
             "[+2 Faith] from every [Barracks]",
             "[+2 Faith] from every [Courthouse]",
-            "[+2 Happiness] from every [Palace]",
+            "[+3 Happiness] from every [Palace]",
         ]
     },
     {
@@ -75,15 +75,18 @@
     {
         "name": "God of War",
         "type": "Pantheon",
-        "uniques": ["[+2 Production] from every [Barracks]"]
+        "uniques": [
+            "[+1 Production] from every [Barracks]",
+            "[+1 Food] from every [Barracks]"
+        ]
     },
     {
         "name": "Goddess of Festivals",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Production] from every [Wine]",
-            "[+1 Production] from every [Sugar]",
-            "[+1 Production] from every [Spices]"
+            "[+1 Production, +1 Faith] from every [Wine]",
+            "[+1 Production, +1 Faith] from every [Sugar]",
+            "[+1 Production, +1 Faith] from every [Spices]"
         ]
     },
     {
@@ -176,7 +179,7 @@
         "name": "Religious Settlements",
         "type": "Pantheon",
         "uniques": [
-            "[-15]% Culture cost of natural border growth [in cities following this religion]",
+            "[-20]% Culture cost of natural border growth [in cities following this religion]",
             "[+1 Food] [in cities following this religion]"
         ]
     },
@@ -192,9 +195,9 @@
         "name": "Ritual Sacrifice",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture, +2 Gold] from every [Ivory]",
-            "[+1 Culture, +2 Gold] from every [Furs]",
-            "[+1 Culture, +2 Gold] from every [Truffles]"
+            "[+2 Culture, +1 Gold] from every [Ivory]",
+            "[+2 Culture, +1 Gold] from every [Furs]",
+            "[+2 Culture, +1 Gold] from every [Truffles]"
         ]
     },
     {
@@ -304,7 +307,7 @@
     {
         "name": "Dawah",
         "type": "Founder",
-        "uniques": ["[+4 Culture] [in capital]"]
+        "uniques": ["[+3 Culture, +4 Faith] [in capital]"]
     },
     {
         "name": "Initiation Rites",
@@ -338,6 +341,13 @@
         "uniques": [
             "[+100]% Natural religion spread [in City-State cities]",
             "Resting point for Influence with City-States following this religion [+45]"
+        ]
+    },
+     {
+        "name": "Reliquary",
+        "type": "Founder",
+        "uniques": [
+            "Gain [75] [Faith] <upon expending a [Great Person] unit>"
         ]
     },
     {
@@ -460,7 +470,7 @@
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+5 Culture] from every [Hermitage]"]
+        "uniques": ["[+8 Culture, +8 Faith] from every [Hermitage]"]
     },
     {
         "name": "Religious Center",
