@@ -819,6 +819,14 @@
         ]
     },
     {
+		"name": "Mana of Tumatauenga", //Maori
+		"uniques": ["[+2] Movement", "[This Unit] loses the [Mana of Tumatauenga] promotion <upon turn end>"]
+	}
+	{
+		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
+    {
         "name": "Dharma",
         "uniques": [
             "[-10]% Strength <when attacking>",
