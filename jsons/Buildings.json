@@ -1162,7 +1162,10 @@
         "cost": 100,
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]"],
+        "uniques": [
+            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            "Provides [1] [Horses]"
+        ],
         "requiredTech": "Horseback Riding"
     },
     {
