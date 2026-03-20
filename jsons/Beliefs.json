@@ -34,7 +34,7 @@
         "uniques": [
             "[+2 Faith] from every [Barracks]",
             "[+2 Faith] from every [Courthouse]",
-            "[+3 Happiness] from every [Palace]",
+            "[+3 Happiness] from every [Palace]"
         ]
     },
     {
@@ -299,6 +299,7 @@
         "type": "Founder",
         "uniques": ["[+1 Happiness] for each global city following this religion"]
     },
+    //TODO +1 Global Happiness per 2 Cities following this Religion; +1 Local Happiness in the Palace
     {
         "name": "Church Property",
         "type": "Founder",
@@ -629,6 +630,7 @@
         "type": "Enhancer",
         "uniques": [
             //Should be for all cities following the religion, but I can't do so as an enhancer
+            "[+1 Food] [in cities following this religion]",
             "[+20]% growth [in cities following this religion]",
             "Only available <after adopting [Reformation]>"
         ]
