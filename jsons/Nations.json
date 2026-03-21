@@ -126,16 +126,16 @@
         "innerColor": [146,221,9],
         "uniqueName": "Trade Caravans",
         "uniques": [
-            "Comment [+1 [Culture] and +1 [Gold] from Luxury Buildings. Buildings that may improve luxury resources also receive this bonus.]",
-            "[+1 Gold, +1 Culture] from every [Censer Maker] <hidden from users>",
-            "[+1 Gold, +1 Culture] from every [Gemcutter] <hidden from users>",
-            "[+1 Gold, +1 Culture] from every [Grocer] <hidden from users>",
-            "[+1 Gold, +1 Culture] from every [Brewery] <hidden from users>",
-            "[+1 Gold, +1 Culture] from every [Mint] <hidden from users>",
-            "[+1 Gold, +1 Culture] from every [Circus] <hidden from users>",
-            "[+1 Gold, +1 Culture] from every [Stone Works] <hidden from users>",
-            "[+1 Gold, +1 Culture] from every [Lighthouse] <hidden from users>",
-            "[+100]% [Oil] resource production"
+            "[+100]% [Oil] resource production",
+            "[+1 Gold, +1 Culture] from every [Censer Maker]",
+            "[+1 Gold, +1 Culture] from every [Gemcutter]",
+            "[+1 Gold, +1 Culture] from every [Grocer]",
+            "[+1 Gold, +1 Culture] from every [Brewery]",
+            "[+1 Gold, +1 Culture] from every [Mint]",
+            "[+1 Gold, +1 Culture] from every [Circus] <within [3] tiles of a [[your] [Ivory]]>",
+            "[+1 Gold, +1 Culture] from every [Stone Works] <within [3] tiles of a [[your] [Quarry resource]]>",
+            "[+1 Gold, +1 Culture] from every [Lighthouse] <within [3] tiles of a [[your] [Water] [Luxury]]>",
+            "[+1 Gold, +1 Culture] from every [Factory] <within [3] tiles of a [[your] [Rubber]]>"
         ],
         "cities": [
             "Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
