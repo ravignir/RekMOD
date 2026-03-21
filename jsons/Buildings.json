@@ -996,8 +996,7 @@
         "hurryCostModifier": 25,
         "uniques": [
             "[+1 Culture] from [Strategic resource] tiles [in this city]",
-            "All newly-trained [relevant] units [in this city] receive the [Golden Age from Victories] promotion",
-            //TODO: The Golden Age from Kills promotion given to units now only awards the Kill Reward if the Killed Unit is Pre-Industrial. Does not impact other Golden Age from Kills Promotions  (America Minuteman)
+            "All newly-trained [relevant] units [in this city] receive the [Georgia Golden Age from Victories] promotion",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Masonry"
