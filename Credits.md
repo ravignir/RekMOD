@@ -68,6 +68,8 @@ Contains stuff from mods:
 - [Barn](https://thenounproject.com/icon/barn-6373750/) by Amazona Adorada for Cacicazgo
 - [Petra](https://thenounproject.com/browse/icons/term/petra/) by Icons Cart for Rock-Cut Tomb
 - [Nomad](https://www.flaticon.com/free-icon/nomad_7683815?term=nomad&related_id=7683815) by Eucalip for Aahkyayhkya Sai
+- [Tower of Belem](https://www.flaticon.com/free-icon/belem-tower_4294814?term=belem&page=1&position=3&origin=search&related_id=4294814) by kerismaker
+- [Venetian Arsenal](https://www.flaticon.com/free-icon/venetian-arsenal_4123668?term=venice+arsenal&page=1&position=2&origin=search&related_id=4123668) by Vitaly Gorbachev for Arsenal of Venice
 
 ## Resources
 

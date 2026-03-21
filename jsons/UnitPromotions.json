@@ -58,7 +58,7 @@
     {
         "name": "Anti-Naval III",
         "prerequisites": ["Anti-Naval II"],
-        "uniques": ["[+33]% Strength <vs [Water] units>"],
+        "uniques": ["[+34]% Strength <vs [Water] units>"],
         "unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
     },
     {
@@ -134,10 +134,11 @@
     },
     {
         "name": "Woodsman",
-        "prerequisites": ["Shock III","Drill III","Ambush Formation III"],
+        "prerequisites": ["Shock II","Drill II","Ambush Formation II"],
         "uniques": [
             "Double movement in [Forest]",
-            "Double movement in [Jungle]"
+            "Double movement in [Jungle]",
+            "[+15]% Strength <when fighting in [Forest] tiles>"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping"]
     },
@@ -554,8 +555,8 @@
     {
         "name": "Ambush Formation I",
         "uniques": [
-            "[+15]% Strength <vs [Armored] units>",
-            "[+15]% Strength <vs [Mounted] units>"
+            "[+33]% Strength <vs [Armored] units>",
+            "[+33]% Strength <vs [Mounted] units>"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
@@ -563,8 +564,8 @@
         "name": "Ambush Formation II",
         "prerequisites": ["Ambush Formation I"],
         "uniques": [
-            "[+15]% Strength <vs [Armored] units>",
-            "[+15]% Strength <vs [Mounted] units>"
+            "[+33]% Strength <vs [Armored] units>",
+            "[+33]% Strength <vs [Mounted] units>"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
@@ -741,12 +742,6 @@
         ]
     },
     {
-        "name": "[M-84] ability",
-        "uniques": [
-            "Ignores Zone of Control"
-        ]
-    },
-    {
         "name": "Leadership",
         "uniques": [
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
@@ -821,8 +816,7 @@
     {
         "name": "Dharma",
         "uniques": [
-            "[-10]% Strength <when attacking>",
-            "[+10]% Strength <when defending>"
+            "[+20]% Strength <when defending>"
         ]
     },
     {
