@@ -66,6 +66,8 @@ Contains stuff from mods:
 - [Dock](https://thenounproject.com/icon/dock-4489742/) by Flowicon for Dry Dock
 - [Factory](https://thenounproject.com/icon/factory-6833299/) by Hadi Mulyono for Cooperation
 - [Barn](https://thenounproject.com/icon/barn-6373750/) by Amazona Adorada for Cacicazgo
+- [Petra](https://thenounproject.com/browse/icons/term/petra/) by Icons Cart for Rock-Cut Tomb
+- [Nomad](https://www.flaticon.com/free-icon/nomad_7683815?term=nomad&related_id=7683815) by Eucalip for Aahkyayhkya Sai
 - [Tower of Belem](https://www.flaticon.com/free-icon/belem-tower_4294814?term=belem&page=1&position=3&origin=search&related_id=4294814) by kerismaker
 - [Venetian Arsenal](https://www.flaticon.com/free-icon/venetian-arsenal_4123668?term=venice+arsenal&page=1&position=2&origin=search&related_id=4123668) by Vitaly Gorbachev for Arsenal of Venice
 
@@ -88,3 +90,8 @@ Contains stuff from mods:
 - [Swimmer](https://thenounproject.com/icon/swimmer-6735717/) by yode tive for Fast Swimmer
 - [Beret](https://thenounproject.com/icon/beret-6945974/) by krisna arga muria for Expeditionary Force
 - [Horse](https://thenounproject.com/icon/horse-2191914/) by RIZCA for Llanero
+- [sabres](https://thenounproject.com/browse/icons/term/sabres/) by Tresnatiq for Colorado
+- [Bolivia Woman Clothing](https://thenounproject.com/browse/icons/term/bolivia-woman-clothing/) by Gan Khoon Lay for Comparasa Folkloria
+
+- [Camel](https://thenounproject.com/browse/icons/term/camel/) by taash5studio for Zabonah
+
