@@ -169,22 +169,9 @@
         "culture": 5,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Comment [Has 1 Great Work of Art Slot]",
-            "Can be purchased for [270] [Faith] [in all cities]",
+            "Can be purchased for [150] [Faith] [in all cities]",
             "Only available <when religion is enabled>",
             "Only available <in cities with a [Cathedrals] religion>"
-        ]
-    },
-    {
-        "name": "Cathedral Great Art Slot",
-        "culture": 2,
-        "cost": 0,
-        "requiredResource": "Great Work of Art",
-        "uniques": [
-            "Great Work", "GW Art",
-            "Only available <in cities with a [Cathedral]>",
-            "Provides [1] [Great Work of Art]",
-            "Instantly consumes [1] [Great Work of Art]"
         ]
     },
     {
@@ -373,16 +360,14 @@
     // Uniques
     {
         "name": "Art Hall",
-        "culture": 2,
+        "culture": 1,
         "faith": 4,
-        "specialistSlots": {"Artist": 1},
         "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Writing Auditorium",
         "culture": 2,
         "science": 1,
-        "specialistSlots": {"Writer": 1},
         "uniques": ["Unbuildable","Unsellable"]
     },
     {
@@ -1146,7 +1131,7 @@
         "gold": 2,
         "uniques": [
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "Provides [2] [Horses]"
+            "Provides [1] [Horses]"
         ],
         "requiredTech": "Horseback Riding"
     },
