@@ -132,10 +132,10 @@
             "[+1 Gold, +1 Culture] from every [Grocer]",
             "[+1 Gold, +1 Culture] from every [Brewery]",
             "[+1 Gold, +1 Culture] from every [Mint]",
-            "[+1 Gold, +1 Culture] from every [Circus] <within [3] tiles of a [[your] [Ivory]]>",
-            "[+1 Gold, +1 Culture] from every [Stone Works] <within [3] tiles of a [[your] [Quarry resource]]>",
-            "[+1 Gold, +1 Culture] from every [Lighthouse] <within [3] tiles of a [[your] [Water] [Luxury]]>",
-            "[+1 Gold, +1 Culture] from every [Factory] <within [3] tiles of a [[your] [Rubber]]>"
+            "[+1 Gold, +1 Culture] from every [Circus] <within [3] tiles of a [{your} {Ivory}]>",
+            "[+1 Gold, +1 Culture] from every [Stone Works] <within [3] tiles of a [{your} {Quarry resource}]>",
+            "[+1 Gold, +1 Culture] from every [Lighthouse] <within [3] tiles of a [{your} {Water} {Luxury}]>",
+            "[+1 Gold, +1 Culture] from every [Factory] <within [3] tiles of a [{your} {Rubber}]>"
         ],
         "cities": [
             "Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
