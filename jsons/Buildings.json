@@ -1160,7 +1160,10 @@
         "cost": 100,
         "hurryCostModifier": 25,
         "science": 3,
-        "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]"],
+        "uniques": [
+			"[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+			"Provides [1] [Horses]"
+		],
         "requiredTech": "The Wheel"
     },
 	 {
@@ -1171,7 +1174,11 @@
         "hurryCostModifier": 25,
         "gold": 3,
 		"food": 2,
-        "uniques": ["[+2 Gold, +1 Food] from [Land Trade Route (Gold)] tiles [in this city]"], //+1 Food for every trade rout leaving this city
+        "uniques": [
+			"[+2 Gold, +1 Food] from [Land Trade Route (Gold)] tiles [in this city]",
+			"Provides [1] [Horses]"
+		], 
+		//+1 Food for every trade rout leaving this city
         "requiredTech": "Horseback Riding"
     },
     {
@@ -1182,7 +1189,8 @@
         "hurryCostModifier": 25,
         "uniques": [
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "[+1 Gold] per [3] population [in this city]"
+            "[+1 Gold] per [3] population [in this city]",
+			"Provides [1] [Horses]"
         ],
         "requiredTech": "Horseback Riding"
     },
