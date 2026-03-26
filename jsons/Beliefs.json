@@ -648,9 +648,9 @@
     },
     {
         "name": "Underground Sect",
-        "type": "Follower",
+        "type": "Founder",
         "uniques": [
-            "[+1 Science] from every [4] global followers [in cities following this religion]",
+            "[+1 Science] from every [4] global followers [in foreign cities]",
             "Reformation belief",
             "Unavailable"
         ]
