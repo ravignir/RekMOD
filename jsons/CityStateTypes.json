@@ -3,13 +3,13 @@
         "name": "Cultured",
         "friendBonusUniques": [
             "[+3 Culture] <before the [Medieval era]>",
-            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+12 Culture] <starting from the [Industrial era]>"
+            "[+5 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+10 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before the [Medieval era]>",
-            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+24 Culture] <starting from the [Industrial era]>"
+            "[+10 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+20 Culture] <starting from the [Industrial era]>"
         ],
         "color": [139,96,255]
     },
@@ -53,15 +53,15 @@
             "[+2 Faith] <before the [Classical era]>",
             "[+3 Faith] <starting from the [Classical era]> <before the [Medieval era]>",
             "[+4 Faith] <starting from the [Medieval era]> <before the [Renaissance era]>",
-            "[+6 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
-            "[+8 Faith] <starting from the [Industrial era]>"
+            "[+8 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
+            "[+12 Faith] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
             "[+4 Faith] <before the [Classical era]>",
             "[+6 Faith] <starting from the [Classical era]> <before the [Medieval era]>",
             "[+8 Faith] <starting from the [Medieval era]> <before the [Renaissance era]>",
-            "[+12 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
-            "[+16 Faith] <starting from the [Industrial era]>"
+            "[+16 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
+            "[+24 Faith] <starting from the [Industrial era]>"
         ],
         "color": [255,255,255]
     }
