@@ -364,7 +364,7 @@
     {
         "name": "World Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [6] global followers [in foreign cities]"]
+        "uniques": ["[+1 Culture] from every [6] global followers [in all cities]"]
     },
     {
         "name": "Zakat",
@@ -650,7 +650,7 @@
         "name": "Underground Sect",
         "type": "Founder",
         "uniques": [
-            "[+1 Science] from every [4] global followers [in foreign cities]",
+            "[+1 Science] from every [4] global followers [in all cities]",
             "Reformation belief",
             "Unavailable"
         ]
