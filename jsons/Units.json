@@ -42,6 +42,13 @@
         ],
         "cost": 48
     },
+    //TODO: for Maurya needs new uniq for new UU instead of Fast Worker
+    //Ashoka’s Envoy - UU (new!)
+    //Replaces the Missionary
+    //5 base movement (vs. 4)
+    //Ignores terrain cost
+    //Awards 1 Science, Culture, Gold, and Faith per Citizen converted to a religion upon spreading one
+    //Fully converting a city to a religion awards an additional 4 of these yields
     {
         "name": "Settler",
         "unitType": "Civilian",
@@ -756,7 +763,7 @@
         "upgradesTo": "Trebuchet",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "[-1] Sight"
         ],
@@ -2042,7 +2049,7 @@
         "unitType": "Mounted",
         "replaces": "Cavalry",
         "uniqueTo": "Austria",
-        "movement": 5,
+        "movement": 4,
         "strength": 34,
         "cost": 225,
         "requiredTech": "Military Science",
@@ -2052,10 +2059,9 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
-            "[+1] Sight"
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
-        "promotions": ["Enhanced Flank Attack"],
+        "promotions": ["Enhanced Flank Attack", "Extra Sight", "Extra Movement"],
         "attackSound": "horse"
     },
     {
@@ -2123,7 +2129,7 @@
         "replaces": "Cavalry",
         "uniqueTo": "Shoshone",
         "unitType": "Mounted",
-        "movement": 5,
+        "movement": 4,
         "strength": 34,
         "cost": 198,
         "requiredTech": "Military Science",
@@ -2276,6 +2282,7 @@
         "requiredTech": "Refrigeration",
         "upgradesTo": "Nuclear Submarine",
         "uniques": [
+            "Can move after attacking",
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "Never appears as a Barbarian unit"
@@ -2521,9 +2528,6 @@
         "cost": 385,
         "requiredTech": "Ballistics",
         "promotions": ["Logistics"],
-        "uniques": [
-            "[+33]% Strength <vs [Gunpowder] units>"
-        ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
         "attackSound": "machinegun"
@@ -2541,8 +2545,7 @@
         "requiredTech": "Ballistics",
         "promotions": ["Ignore terrain cost", "Extra Movement", "No movement cost to pillage"],
         "uniques": [
-            "[+25]% Strength <vs [Armored] units>",
-            "[+33]% Strength <vs [Gunpowder] units>"
+            "[+25]% Strength <vs [Armored] units>"
         ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
@@ -2729,12 +2732,12 @@
         "requiredTech": "Combined Arms",
         "requiredResource": "Oil",
         "upgradesTo": "Modern Armor",
-        "promotions": ["[M-84] ability"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
             "[+50]% Strength <vs [Land] units>",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "Ignores Zone of Control"
         ],
         "attackSound": "tankshot"
     },
@@ -2781,9 +2784,6 @@
         "rangedStrength": 80,
         "cost": 450,
         "requiredTech": "Nuclear Fission",
-        "uniques": [
-            "[+33]% Strength <vs [Gunpowder] units>"
-        ],
         "promotions": ["Logistics"],
         "attackSound": "machinegun"
     },
@@ -2864,6 +2864,7 @@
         "cost": 510,
         "requiredTech": "Telecommunications",
         "uniques": [
+            "Can move after attacking",
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "[+1] Sight",
@@ -2982,7 +2983,8 @@
         "requiredTech": "Nanotechnology",
         "uniques": [
             "May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles>",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "No movement cost to pillage"
         ],
         "attackSound": "shot"
     },
@@ -3141,7 +3143,7 @@
         "replaces": "Great Prophet",
         "unitType": "Civilian",
         "uniques": [
-            "Empire enters a [11]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [8] movement> <[5] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -3190,21 +3192,34 @@
         "replaces": "Great General",
         "uniqueTo": "Macedonia",
         "unitType": "Mounted",
-        "strength": 15,
+        "strength": 12,
         "requiredResource": "Horses",
-        "promotions": ["Great Generals II","Charge","Heavy Charge","Leadership"],
-        "upgradesTo": "Knight",
+        "promotions": ["Great Generals II","Charge","Heavy Charge"],
         "uniques": [
-            "Can move after attacking",
-            "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Can be earned through combat <for [Land] units>",
             "Great Person - [War]",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+4] Strength <starting from the [Classical era]>",
+            "[+7] Strength <starting from the [Medieval era]>",
+            "[This Unit] gains [15] XP <starting from the [Medieval era]>",
+            "[+7] Strength <starting from the [Renaissance era]>",
+            "[This Unit] gains [15] XP <starting from the [Renaissance era]>",
+            "[+10] Strength <starting from the [Industrial era]>",
+            "[This Unit] gains the [March] promotion <starting from the [Industrial era]>",
+            "[This Unit] gains the [March] promotion <starting from the [Industrial era]> <upon turn end>",
+            "[+15] Strength <starting from the [Modern era]>",
+            "[+50]% Strength <vs [Land] units> <starting from the [Modern era]>",
+            "[+15] Strength <starting from the [Atomic era]>",
+            "[+1] Movement <starting from the [Atomic era]>",
+            "[+20] Strength <starting from the [Information era]>",
+            "[This Unit] gains [30] XP <starting from the [Information era]>",
             "Unbuildable",
             "Uncapturable"
         ],
-        "movement": 5,
+        "movement": 4,
         "attackSound": "horse"
     },
     {

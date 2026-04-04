@@ -207,7 +207,7 @@
             "Can be built outside your borders",
             "Can only be built to improve a resource",
             "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Pillaging this improvement yields approximately [+20 Gold]"
             //"Excluded from map editor"
         ]
     },
@@ -583,6 +583,9 @@
             "[+1 Culture] for each adjacent [Moai]",
             "[+1 Gold] <after discovering [Flight]>",
             "Can only be built on [Coastal] tiles",
+            "Improves [Strategic] resource in this tile",
+            "Improves [Luxury] resource in this tile",
+            "Improves [Bonus] resource in this tile",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ],
         "techRequired": "Construction",
@@ -648,13 +651,15 @@
     {
         "name": "Brazilwood Camp",
         "uniqueTo": "Brazil",
-        "terrainsCanBeBuiltOn": ["Jungle","Forest"],
+        "terrainsCanBeBuiltOn": ["Jungle"],
         "production": 1,
         "turnsToBuild": 7,
         "techRequired": "Bronze Working",
         "uniques": [
             "[+2 Gold] <after discovering [Machinery]>",
             "[+2 Culture] <after discovering [Acoustics]>",
+            "Improves [Strategic] resource in this tile",
+            "Improves [Luxury] resource in this tile",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
@@ -719,7 +724,7 @@
         "production": 1,
         "gold": 1,
         "turnsToBuild": 7,
-        "techRequired": "Chivalry",
+        "techRequired": "Guilds",
         "uniques": [
             "Can only be built on [Desert] tiles <in [Hill] tiles>",
             "Cannot be built on [resource] tiles",
