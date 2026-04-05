@@ -813,6 +813,24 @@
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
+	{
+        // NOTE: NEEDS A SPRITE
+        "name": "Pa",
+        "uniqueTo": "Maori",
+        "techRequired": "Engineering",
+        "terrainsCanBeBuiltOn": ["Hill"],
+        "food": 2,
+		"faith": 1,
+        "turnsToBuild": 7,
+        "uniques": [
+            "[+1 Food] <after discovering [Civil Service]>",
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Gives a defensive bonus of [40]%",
+            "Cannot be built on [resource] tiles",
+            "Only available <with [0] to [0] neighboring [Pa] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
+    },
 
     // Unbuildable improvements
     {
