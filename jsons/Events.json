@@ -112,6 +112,103 @@
             }
         ]
     },
+    // Reformation Beliefs
+    {
+        "name": "Reformation",
+        "text": "Gain a free [Reformation] belief",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Apostolic Palace",
+                "uniques": [
+                    "Adopt [Apostolic Palace]",
+                    "Comment [[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]]",
+                    "Only available <if no Civilization has adopted [Apostolic Palace]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "City of God",
+                "uniques": [
+                    "Adopt [City of God]",
+                    "Comment [[+2 Food, +1 Science] from every [Holy site]]",
+                    "Comment [Free [Great Prophet] appears]",
+                    "Only available <if no Civilization has adopted [City of God]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Houses of Worship",
+                "uniques": [
+                    "Adopt [Houses of Worship]",
+                    "Comment [May buy [Art Hall] buildings for [150] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [Writing Auditorium] buildings for [150] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [Vocal Chamber] buildings for [150] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Only available <if no Civilization has adopted [Houses of Worship]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Indulgences",
+                "uniques": [
+                    "Adopt [Indulgences]",
+                    "Comment [[+1 Food, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in cities following this religion]]",
+                    "Only available <if no Civilization has adopted [Indulgences]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Jesuit Education",
+                "uniques": [
+                    "Adopt [Jesuit Education]",
+                    "Comment [May buy [Library] buildings for [60] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [University] buildings for [220] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [Observatory] buildings for [260] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [Public School] buildings for [380] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [Research Lab] buildings for [630] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Sacred Sites",
+                "uniques": [
+                    "Adopt [Sacred Sites]",
+                    "Comment [[+2 Gold, +2 Culture, +2 Faith] from every [Vihara]]",
+                    "Comment [[+2 Gold, +2 Culture, +2 Faith] from every [Cathedral]]",
+                    "Comment [[+2 Gold, +2 Culture, +2 Faith] from every [Gurdwara]]",
+                    "Comment [[+2 Gold, +2 Culture, +2 Faith] from every [Mandir]]",
+                    "Comment [[+2 Gold, +2 Culture, +2 Faith] from every [Mosque]]",
+                    "Comment [[+2 Gold, +2 Culture, +2 Faith] from every [Pagoda]]",
+                    "Comment [[+2 Gold, +2 Culture, +2 Faith] from every [Synagogue]]",
+                    "Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Swords into Ploughshares",
+                "uniques": [
+                    "Adopt [Swords into Ploughshares]",
+                    "Comment [[+1 Food] [in cities following this religion]]",
+                    "Comment [[+20]% growth [in cities following this religion]]",
+                    "Only available <if no Civilization has adopted [Swords into Ploughshares]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Underground Sect",
+                "uniques": [
+                    "Adopt [Underground Sect]",
+                    "Comment [[+1 Science] from every [4] global followers [in cities following this religion]]",
+                    "Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Work Ethic",
+                "uniques": [
+                    "Adopt [Work Ethic]",
+                    "Comment [May buy [Workshop] buildings for [200] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [Factory] buildings for [450] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [Windmill] buildings for [320] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Comment [May buy [Hydro Plant] buildings for [520] [Faith] [in cities following this religion] [(modified by game speed)]]",
+                    "Only available <if no Civilization has adopted [Work Ethic]> <hidden from users>"
+                ]
+            }
+        ]
+    },
     // Ideology
     {
         "name": "Ideology",
