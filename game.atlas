@@ -983,20 +983,6 @@ UnitIcons/Heavy Cruiser
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Hetairoi
-  rotate: false
-  xy: 212, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Hetairoi
-  rotate: false
-  xy: 212, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 UnitIcons/Khevsur
   rotate: false
   xy: 836, 628
@@ -1105,6 +1091,20 @@ UnitPromotionIcons/Epic of Battle
 UnitPromotionIcons/Fast Swimmer
   rotate: false
   xy: 420, 1668
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hetairoi
+  rotate: false
+  xy: 212, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Hetairoi
+  rotate: false
+  xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -3130,20 +3130,6 @@ TileSets/5Hex/Tiles/Amber+Mine
   orig: 80, 70
   offset: 0, 0
   index: -1
-TileSets/5Hex/Tiles/Caer
-  rotate: false
-  xy: 1999, 1429
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Caer
-  rotate: false
-  xy: 1999, 1429
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
 TileSets/5Hex/Tiles/Coffee
   rotate: false
   xy: 539, 702
@@ -3184,20 +3170,6 @@ TileSets/5Hex/Tiles/HF+Hardwood+Lumber mill
   xy: 1466, 1339
   size: 80, 76
   orig: 80, 76
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Tiles/Harjis
-  rotate: false
-  xy: 866, 398
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Harjis
-  rotate: false
-  xy: 866, 398
-  size: 32, 32
-  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/5Hex/Tiles/Jade
@@ -3247,20 +3219,6 @@ TileSets/5Hex/Tiles/Maize+Farm
   xy: 1794, 1867
   size: 80, 76
   orig: 80, 76
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Tiles/Motte and Bailey
-  rotate: false
-  xy: 974, 917
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Motte and Bailey
-  rotate: false
-  xy: 974, 917
-  size: 32, 32
-  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/5Hex/Tiles/Obsidian
@@ -3333,34 +3291,6 @@ TileSets/5Hex/Tiles/Tea+Plantation
   orig: 80, 76
   offset: 0, 0
   index: -1
-TileSets/5Hex/Tiles/Tibetan Monastery
-  rotate: false
-  xy: 1206, 1262
-  size: 34, 32
-  orig: 34, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tibetan Monastery
-  rotate: false
-  xy: 1206, 1262
-  size: 34, 32
-  orig: 34, 32
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Tiles/Tipi
-  rotate: false
-  xy: 1026, 584
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tipi
-  rotate: false
-  xy: 1026, 584
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
 TileSets/5Hex/Tiles/Tobacco
   rotate: false
   xy: 735, 879
@@ -3373,20 +3303,6 @@ TileSets/5Hex/Tiles/Tobacco+Plantation
   xy: 823, 879
   size: 80, 76
   orig: 80, 76
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Units/Airship
-  rotate: false
-  xy: 1328, 1334
-  size: 32, 40
-  orig: 32, 40
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Airship
-  rotate: false
-  xy: 1328, 1334
-  size: 32, 40
-  orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/5Hex/Units/Apedemaks Bow
@@ -3919,20 +3835,6 @@ TileSets/5Hex/Units/Ngao Mbeba-3
   xy: 1936, 1553
   size: 80, 70
   orig: 80, 70
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Units/Pestininkas
-  rotate: false
-  xy: 964, 761
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Pestininkas
-  rotate: false
-  xy: 964, 761
-  size: 32, 28
-  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/5Hex/Units/Pioneer
@@ -4495,6 +4397,20 @@ TileSets/FantasyHex/Tiles/Archaeological Dig
   orig: 32, 30
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Caer
+  rotate: false
+  xy: 1999, 1429
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Caer
+  rotate: false
+  xy: 1999, 1429
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Camp
   rotate: false
   xy: 1999, 1389
@@ -4586,6 +4502,20 @@ TileSets/FantasyHex/Tiles/Hardwood
   orig: 30, 27
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Harjis
+  rotate: false
+  xy: 866, 398
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Harjis
+  rotate: false
+  xy: 866, 398
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Hill+Forest+Antiquity Site
   rotate: false
   xy: 906, 669
@@ -4647,6 +4577,20 @@ TileSets/FantasyHex/Tiles/Maize
   xy: 1322, 1141
   size: 32, 30
   orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Motte and Bailey
+  rotate: false
+  xy: 974, 917
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Motte and Bailey
+  rotate: false
+  xy: 974, 917
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Obsidian
@@ -4726,6 +4670,34 @@ TileSets/FantasyHex/Tiles/Tea
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Tibetan Monastery
+  rotate: false
+  xy: 1206, 1262
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Tibetan Monastery
+  rotate: false
+  xy: 1206, 1262
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tipi
+  rotate: false
+  xy: 1026, 584
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Tipi
+  rotate: false
+  xy: 1026, 584
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Tobacco
   rotate: false
   xy: 890, 561
@@ -4738,6 +4710,20 @@ TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site
   xy: 906, 521
   size: 32, 32
   orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Airship
+  rotate: false
+  xy: 1328, 1334
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Units/Airship
+  rotate: false
+  xy: 1328, 1334
+  size: 32, 40
+  orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Tank Rifle
@@ -4897,6 +4883,20 @@ TileSets/FantasyHex/Units/Nelayan
 TileSets/FantasyHex/Units/Ngao Mbeba
   rotate: false
   xy: 974, 881
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pestininkas
+  rotate: false
+  xy: 964, 761
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Units/Pestininkas
+  rotate: false
+  xy: 964, 761
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -5335,20 +5335,6 @@ UnitIcons/Siege Tower
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Ski Infantry
-  rotate: false
-  xy: 544, 1081
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ski Infantry
-  rotate: false
-  xy: 544, 1081
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Winged Hussar
   rotate: false
   xy: 4, 321
@@ -5522,6 +5508,20 @@ UnitPromotionIcons/Restlessness
   xy: 974, 1232
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ski Infantry
+  rotate: false
+  xy: 544, 1081
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ski Infantry
+  rotate: false
+  xy: 544, 1081
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Spear Throw
