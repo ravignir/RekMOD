@@ -679,7 +679,7 @@
     {
         "name": "Shrine",
         "faith": 1,
-        "cost": 40,
+        "cost": 30,
         "maintenance": 1,
         "requiredTech": "Pottery",
         "uniques": ["Only available <when religion is enabled>"]
@@ -689,7 +689,7 @@
         "replaces": "Shrine",
         "uniqueTo": "Finland",
         "faith": 1,
-        "cost": 40,
+        "cost": 30,
         "maintenance": 1,
         "requiredTech": "Pottery",
         "uniques": [
@@ -1356,6 +1356,7 @@
         "name": "Temple",
         "faith": 2,
         "requiredBuilding": "Shrine",
+        "cost": 75,
         "maintenance": 2,
         "hurryCostModifier": 25,
         "requiredTech": "Philosophy"
@@ -1389,7 +1390,7 @@
         "name": "Stave Church",
         "replaces": "Temple",
         "uniqueTo": "Norway",
-        "cost": 75,
+        "cost": 55,
         "faith": 2,
         "requiredBuilding": "Shrine",
         "hurryCostModifier": 25,
