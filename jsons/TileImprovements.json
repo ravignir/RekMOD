@@ -673,6 +673,8 @@
         "techRequired": "Calendar",
         "uniques": [
             "[+1 Faith] <after discovering [Theology]>",
+            "[+1 Culture] <after discovering [Acoustics]>",
+            "[+1 Gold, +1 Culture] <after discovering [Flight]>",
             "[+1 Culture] for each adjacent [Mountain]",
             "Can only be built on [Hill] tiles",
             "Cannot be built on [resource] tiles",
