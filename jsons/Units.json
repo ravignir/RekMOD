@@ -1825,7 +1825,7 @@
             "[+33]% Strength <vs [Armored] units>",
             "[+33]% Strength <vs [Mounted] units>"
         ],
-        "promotions": ["Heavy Charge", "Extra Sight", "Extra Movement"],
+        "promotions": ["Heavy Charge", "Extra Sight"],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
