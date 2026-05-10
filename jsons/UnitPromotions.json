@@ -682,7 +682,7 @@
     {
         "name": "[Jaguar] ability",
         "uniques": [
-            "[+33]% Strength <when fighting in [Forest] tiles>",
+            "[+18]% Strength <when fighting in [Forest] tiles>", 
             "[+33]% Strength <when fighting in [Jungle] tiles>",
             "Heals [25] damage if it kills a unit"
         ]
@@ -710,6 +710,18 @@
         "name": "No movement cost to pillage",
         "uniques": [
             "No movement cost to pillage"
+        ]
+    },
+    {
+        "name": "[Heavy Chariot] ability",
+        "uniques": [
+            "[+20]% Strength <when defending>"
+        ]
+    },
+    {
+        "name": "[Swiss Guard] ability",
+        "uniques": [
+            "Earn [100]% of the damage done to [City] units as [Gold]"
         ]
     },
     {
@@ -866,7 +878,7 @@
     {
         "name": "Forest Native",
         "uniques": [
-            "[+33]% Strength <when attacking>",
+            "[+25]% Strength <when attacking>",
             "[+50]% Strength <when fighting in [Forest] tiles>"]
     },
     {

@@ -127,15 +127,18 @@
         "uniqueName": "Trade Caravans",
         "uniques": [
             "[+100]% [Oil] resource production",
-            "[+1 Gold, +1 Culture] from every [Censer Maker]",
-            "[+1 Gold, +1 Culture] from every [Gemcutter]",
-            "[+1 Gold, +1 Culture] from every [Grocer]",
-            "[+1 Gold, +1 Culture] from every [Brewery]",
-            "[+1 Gold, +1 Culture] from every [Mint]",
-            "[+1 Gold, +1 Culture] from every [Circus] <within [3] tiles of a [{your} {Ivory}]>",
-            "[+1 Gold, +1 Culture] from every [Stone Works] <within [3] tiles of a [{your} {Quarry resource}]>",
-            "[+1 Gold, +1 Culture] from every [Lighthouse] <within [3] tiles of a [{your} {Water} {Luxury}]>",
-            "[+1 Gold, +1 Culture] from every [Factory] <within [3] tiles of a [{your} {Rubber}]>"
+            "[+2 Gold, +2 Culture] from every [Censer Maker]",
+            "[+2 Gold, +2 Culture] from every [Gemcutter]",
+            "[+2 Gold, +2 Culture] from every [Grocer]",
+            "[+2 Gold, +2 Culture] from every [Brewery]",
+            "[+2 Gold, +2 Culture] from every [Mint]",
+            "[+2 Gold, +2 Culture] from every [Textile Mill]",
+            "Comment [Luxury Resources are improved twice as fast.]",
+            "Can build [Mine] improvements at a [+100]% rate <in [Luxury resource] tiles> <hidden from users>",
+            "Can build [Plantation] improvements at a [+100]% rate <in [Luxury resource] tiles> <hidden from users>",
+            "Can build [Fishing Boats] improvements at a [+100]% rate <in [Luxury resource] tiles> <hidden from users>",
+            "Can build [Camp] improvements at a [+100]% rate <in [Luxury resource] tiles> <hidden from users>",
+            "Can build [Quarry] improvements at a [+100]% rate <in [Luxury resource] tiles> <hidden from users>"
         ],
         "cities": [
             "Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -1030,7 +1033,7 @@
         "innerColor": [239,236,148],
         "uniqueName": "City of Light",
         "uniques": [
-            "[+1 Culture] from every [Great Work]",
+            "[+2 Culture] from every [World Wonder]",
             "[+1 Culture] [in capital]",
             "[+15 Culture] [in capital] <after discovering [Acoustics]>"
         ],
@@ -1583,24 +1586,24 @@
         "uniques": [
             "[+1 Culture] from every specialist [in all cities]",
             "Comment [Receive a burst of Golden Age points upon completion of a Policy Tree, and if already in a Golden Age, extend it instead.]",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
-            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
-            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
         ],
         "cities": [
             "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
@@ -1811,7 +1814,10 @@
         "outerColor": [203,84,58],
         "innerColor": [78,26,69],
         "uniqueName": "Baltic Mythology",
-        "uniques": ["Comment [All Great Prophets generated by Lithuania become the Krivis, which can create the Sacred Grove]"],
+        "uniques": [
+            "Comment [All Great Prophets generated by Lithuania become the Krivis, which can create the Sacred Grove]",
+            "Gain [100] [Faith] <(modified by game speed)> <upon founding a Pantheon>"
+        ],
         "cities": [
             "Vilnius","Kaunas","Polotsk","Minsk","Voruta","Klaipeda","Vitebsk","Trakai","Mstsislau","Navahrudak",
             "Raseiniai","Kernave","Siauliai","Panevezys","Alytus","Marijampole","Mazeikiai","Jonava","Utena","Kedainiai",
@@ -1842,7 +1848,6 @@
         "uniqueName": "Macedonian Discipline",
         "uniques": [
             "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
-            "[+1 Food, +1 Culture, +1 Happiness] from every [Military Academy]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]"
         ],
         "cities": [
@@ -1915,8 +1920,8 @@
             "[-100]% maintenance costs <for [Bomber] units>",
             "[Mounted] units gain the [Volley] promotion",
             "[Armor] units gain the [Volley] promotion",
-            "[Bomber] units gain the [Volley] promotion"
-            //"[+100]% Production when constructing [Stable] buildings [in all cities]",
+            "[Bomber] units gain the [Volley] promotion",
+            "[+50]% Production when constructing [Stable] buildings [in all cities]"
             //"[+1 Gold] from every [Stable]"
         ],
         "cities": [
@@ -2402,7 +2407,8 @@
         "uniques": [
             "[+1 Culture, +2 Food, +1 Gold] from every [Great Improvement]",
             "Gain a free [Courthouse] [in annexed cities] <in cities following our religion>",
-            "Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>"
+            "Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>",
+            "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
         ],
         "cities": [
             "Vatican City","Benevento","Pontecorvo","San Marino","Terracina","Narni","Spoleto","Assisi","Arpino","Perugia",
@@ -2597,8 +2603,8 @@
         "uniques": [
             "[+3 Gold] from every [Land Trade Route (Gold)]",
             "[+3 Gold] from every [Sea Trade Route (Gold)]",
-            "[+33]% Production when constructing [Caravan] units [in all cities]",
-            "[+33]% Production when constructing [Cargo Ship] units [in all cities]"
+            "[+50]% Production when constructing [Caravan] units [in all cities]",
+            "[+50]% Production when constructing [Cargo Ship] units [in all cities]"
         ],
         "cities": [
             "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
@@ -2668,7 +2674,7 @@
         "uniques": [
             "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
             "[+25]% [Culture] [in all cities] <during a Golden Age>",
-            "Instantly gain [100] [Golden Age points] <(modified by game speed)> <upon conquering a city>"
+            "Instantly gain [150] [Golden Age points] <(modified by game speed)> <upon conquering a city>"
             //need new uniq for liberating cities too
         ],
         "cities": [
@@ -2731,9 +2737,14 @@
         "innerColor": [0,0,0],
         "uniqueName": "Siberian Riches",
         "uniques": [
-            "[+1 Production] from every [Strategic resource]",
+            "[+1 Production] from every [Iron]",
+            "[+1 Production] from every [Coal]",
+            "[+1 Production] from every [Aluminum]",
+            "[+1 Production] from every [Uranium]",
             "[+100]% [Horses] resource production",
             "[+100]% [Iron] resource production",
+            "[+100]% [Coal] resource production",
+            "[+100]% [Aluminum] resource production",
             "[+100]% [Uranium] resource production",
             "Comment [All Strategic resources may be improved in 1 turn]",
             "Can build [Mine] improvements at a [+500]% rate <in [Iron] tiles> <hidden from users>",
@@ -2772,9 +2783,9 @@
         "innerColor": [201,214,217],
         "uniqueName": "Flower of Scotland",
         "uniques": [
-            "[+2 Culture, +2 Science, +2 Production] from every [Writer Guild]",
-            "[+2 Culture, +2 Science, +2 Production] from every [Artist Guild]",
-            "[+2 Culture, +2 Science, +2 Production] from every [Musician Guild]",
+            "[+3 Culture, +3 Science, +3 Production] from every [Writer Guild]",
+            "[+3 Culture, +3 Science, +3 Production] from every [Artist Guild]",
+            "[+3 Culture, +3 Science, +3 Production] from every [Musician Guild]",
             "[+33]% Great Person generation [in capital]"
         ],
         "cities": [
@@ -3151,11 +3162,11 @@
         "innerColor": [191,25,39],
         "uniqueName": "Westernization",
         "uniques": [
-            "[+1 Production, +1 Science] from every [Amphitheater]",
-            "[+1 Production, +1 Science] from every [Museum]",
-            "[+1 Production, +1 Science] from every [Opera House]",
-            "[+1 Production, +1 Science] from every [Broadcast Tower]",
-            "[+1 Production, +1 Science] from every [Great Work]",
+            "[+1 Production, +1 Gold, +1 Science] from every [Amphitheater]",
+            "[+1 Production, +1 Gold, +1 Science] from every [Museum]",
+            "[+1 Production, +1 Gold, +1 Science] from every [Opera House]",
+            "[+1 Production, +1 Gold, +1 Science] from every [Broadcast Tower]",
+            "[+1 Production, +1 Gold, +1 Science] from every [Great Work]",
             "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
             "[+50]% Production when constructing [Opera House] buildings [in all cities]",
             "[+50]% Production when constructing [Museum] buildings [in all cities]",
@@ -3284,7 +3295,7 @@
         "innerColor": [189,90,80],
         "uniqueName": "Hafod a Hendref",
         "uniques": [
-            "[+1 Food, +1 Gold] from every [Sheep]",
+            "[+1 Food, +1 Gold] from every [Sheep] <after discovering [Animal Husbandry]>",
             "[+10]% Strength <in [Hill] tiles>"
         ],
         "cities": [

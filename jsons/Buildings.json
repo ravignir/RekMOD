@@ -635,7 +635,8 @@
             "[+1 Food] from [Bison] tiles [in this city]",
             "[+1 Food] from [Bananas] tiles [in this city]",
             "[+1 Food, +1 Gold] from [Wheat] tiles [in this city]",
-            "[+1 Food, +1 Gold] from [Maize] tiles [in this city]"
+            "[+1 Food] from [Maize] tiles [in this city]",
+            "[+1 Gold] from [Cattle] tiles [in this city]"
         ],
         "requiredTech": "Pottery"
     },
@@ -643,6 +644,7 @@
         "name": "Mala'e",
         "replaces": "Granary",
         "uniqueTo": "Tonga",
+        "cost": 60,
         "faith": 1,
         "food": 2,
         "maintenance": 1,
@@ -690,7 +692,6 @@
         "uniqueTo": "Finland",
         "faith": 1,
         "cost": 30,
-        "maintenance": 1,
         "requiredTech": "Pottery",
         "uniques": [
             "All newly-trained [relevant] units [in this city] receive the [Sauna] promotion",
@@ -799,6 +800,7 @@
         "uniqueTo": "Akkad",
         "hurryCostModifier": 25,
         "science": 1,
+        "cost": 60,
         "uniques": [
             "[+1 Science] per [2] population [in this city]"
         ],
@@ -883,7 +885,7 @@
     },
     {
         "name": "Circus",
-        "requiredNearbyImprovedResources": ["Ivory","Truffles","Furs","Horses"],
+        "requiredNearbyImprovedResources": ["Ivory", "Horses"],
         "happiness": 2,
         "hurryCostModifier": 25,
         "requiredTech": "Trapping"
@@ -1144,12 +1146,12 @@
     },
     {
         "name": "Caravansary",
-        "cost": 100,
+        "cost": 90,
         "hurryCostModifier": 25,
         "gold": 2,
         "uniques": [
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "Provides [1] [Horses]"
+            "Provides [2] [Horses]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -1157,12 +1159,12 @@
         "name": "Yam Route",
         "replaces": "Caravansary",
         "uniqueTo": "Golden Horde",
-        "cost": 100,
+        "cost": 90,
         "hurryCostModifier": 25,
         "science": 3,
         "uniques": [
 			"[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-			"Provides [1] [Horses]"
+			"Provides [2] [Horses]"
 		],
         "requiredTech": "The Wheel"
     },
@@ -1170,13 +1172,13 @@
         "name": "Rock-Cut Tomb",
 		"uniqueTo": "Nabataea",
         "replaces": "Caravansary",
-        "cost": 100,
+        "cost": 90,
         "hurryCostModifier": 25,
         "gold": 3,
 		"food": 2,
         "uniques": [
 			"[+2 Gold, +1 Food] from [Land Trade Route (Gold)] tiles [in this city]",
-			"Provides [1] [Horses]"
+			"Provides [2] [Horses]"
 		], 
 		//+1 Food for every trade rout leaving this city
         "requiredTech": "Horseback Riding"
@@ -1190,7 +1192,8 @@
         "uniques": [
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] per [3] population [in this city]",
-			"Provides [1] [Horses]"
+            "Can carry [1] extra [air] units",
+			"Provides [2] [Horses]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -1218,7 +1221,8 @@
             "[+15]% Production when constructing [Mounted] units [in this city]",
             "[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Food] from [Horses] tiles [in this city]",
-            "[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
+            "[+1 Production, +1 Food] from [Sheep] tiles [in this city]",
+            "[+1 Production] from [Maize] tiles [in this city]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -1233,6 +1237,7 @@
             "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
+            "[+1 Gold] from [Maize] tiles [in this city]",
             "New [Mounted] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Horseback Riding"
@@ -1327,6 +1332,7 @@
         "uniqueTo": "Kongo",
         "production": 4,
         "gold": 5,
+        "cost": 100,
         "hurryCostModifier": 25,
         "requiredTech": "Construction",
         "uniques": [
@@ -1435,7 +1441,7 @@
         "requiredTech": "Philosophy"
     },
     {
-        "name": "King Soloman's Temple",
+        "name": "King Solomon's Temple",
         "replaces": "National College",
         "uniqueTo": "Israel",
         "cost": 125,
@@ -1451,8 +1457,8 @@
             "Can be purchased for [300] [Gold] [in all cities]",
             "Can be purchased for [390] [Faith] [in all cities]",
             "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
-            "Gain [75] [Faith] <upon expending a [Great Person] unit>",
-            "Gain [75] [Science] <upon expending a [Great Person] unit>"
+            "Gain [75] [Faith] <(modified by game speed)> <upon expending a [Great Person] unit>",
+            "Gain [75] [Science] <(modified by game speed)> <upon expending a [Great Person] unit>"
         ]
     },
     {
@@ -1514,6 +1520,7 @@
         "faith": 2,
         "happiness": 1,
         "requiredBuilding": "Monument",
+        "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
@@ -1529,6 +1536,7 @@
         "gold": 1,
         "specialistSlots": {"Writer": 1},
         "requiredBuilding": "Monument",
+        "cost": 100,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
@@ -1697,7 +1705,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Gain [20] [Gold] <upon expending a [Great Person] unit>",
+            "Gain [30] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
@@ -1950,6 +1958,7 @@
         ],
         "requiredTech": "Guilds"
     },
+    // Grand Canal of Venice should be replaced by the merchant of venice, which can buy city states like the austrian ua
     {
         "name": "Grand Canal of Venice",
         "uniqueTo": "Venice",
@@ -2010,7 +2019,8 @@
         "percentStatBonus": {"production": 10},
         "uniques": [
             "[+1 Production] from [Forest] tiles [in this city]",
-            "[+1 Production] from [Jungle] tiles [in this city]"
+            "[+1 Production] from [Jungle] tiles [in this city]",
+            "[+1 Production] from [Hardwood] tiles [in this city]"
         ],
         "requiredTech": "Metal Casting"
     },
@@ -2265,11 +2275,11 @@
         "cityStrength": 7,
         "cityHealth": 25,
         "science": 3,
+        "percentStatBonus": {"food": 10},
         "hurryCostModifier": 25,
         "requiredBuilding": "Walls",
         "requiredTech": "Chivalry",
         "uniques": [
-            "[+10]% growth [in this city]",
             "Destroyed when the city is captured"
         ]
     },
@@ -2353,7 +2363,6 @@
         "replaces": "Armory",
         "uniqueTo": "Switzerland",
         "hurryCostModifier": 25,
-        "maintenance": 1,
         "requiredBuilding": "Barracks",
         "uniques": [
             "Free [Reislaufer] appears",
@@ -2652,7 +2661,8 @@
         "uniques": [
             "[+1 Production] from [Coffee] tiles [in this city]",
             "[+1 Production] from [Wine] tiles [in this city]",
-            "[+1 Production] from [Tea] tiles [in this city]"
+            "[+1 Production] from [Tea] tiles [in this city]",
+            "[+1 Production] from [Tobacco] tiles [in this city]"
         ],
         "requiredTech": "Printing Press"
     },
@@ -2807,6 +2817,7 @@
         "gold": 3,
         "isNationalWonder": true,
         "uniques": [
+            "Hermitage",
             "Only available <if [Walls] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "Empire enters golden age"
@@ -2910,6 +2921,7 @@
         "maintenance": 2,
         "uniques": [
             "[+20]% Great Person generation [in this city]",
+            "[+10]% Production when constructing [All] buildings [in this city]",
             "[+1 Production] from [Oasis] tiles [in this city]",
             "[+1 Production] from [Lakes] tiles [in this city]"
         ],
@@ -2922,7 +2934,6 @@
         "production": 2,
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
-        "maintenance": 2,
         "uniques": [
             "[+10]% Production when constructing [All] buildings [in this city]",
             "[+1 Production] from [Oasis] tiles [in this city]",
@@ -3035,6 +3046,7 @@
         "culture": 2,
         "percentStatBonus": {"science": 20, "culture": 10},
         "requiredBuilding": "Amphitheater",
+        "cost": 345,
         "maintenance": 3,
         "hurryCostModifier": 0,
         "requiredTech": "Archaeology",
@@ -3172,7 +3184,7 @@
         "requiredTech": "Industrialization"
     },
     {
-        "name": "Cooperation",
+        "name": "Cooperative",
         "uniqueTo": "Chile",
         "replaces": "Factory",
         "happiness": 2,
