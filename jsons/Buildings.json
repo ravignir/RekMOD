@@ -528,6 +528,16 @@
             "Automatically built in all cities where it is buildable"
         ]
     },
+    {
+        "name": "lithuaniaFirstKrivisCheaper",
+        "uniques": [
+            "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Unbuildable",
+            "Moves to new capital when capital changes",
+            "[+100]% Faith cost of generating Great Prophet equivalents <hidden from users>"
+        ]
+    },
 
     // Ancient Era
     // Always available
