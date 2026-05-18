@@ -983,20 +983,6 @@ UnitIcons/Heavy Cruiser
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Hetairoi
-  rotate: false
-  xy: 212, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Hetairoi
-  rotate: false
-  xy: 212, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 UnitIcons/Khevsur
   rotate: false
   xy: 836, 628
@@ -1105,6 +1091,20 @@ UnitPromotionIcons/Epic of Battle
 UnitPromotionIcons/Fast Swimmer
   rotate: false
   xy: 420, 1668
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hetairoi
+  rotate: false
+  xy: 212, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Hetairoi
+  rotate: false
+  xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -5335,20 +5335,6 @@ UnitIcons/Siege Tower
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Ski Infantry
-  rotate: false
-  xy: 544, 1081
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ski Infantry
-  rotate: false
-  xy: 544, 1081
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Winged Hussar
   rotate: false
   xy: 4, 321
@@ -5522,6 +5508,20 @@ UnitPromotionIcons/Restlessness
   xy: 974, 1232
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ski Infantry
+  rotate: false
+  xy: 544, 1081
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ski Infantry
+  rotate: false
+  xy: 544, 1081
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Spear Throw
