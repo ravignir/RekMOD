@@ -317,7 +317,7 @@
     {
         "name": "Road",
         "terrainsCanBeBuiltOn": ["Land"],
-        "turnsToBuild": 4,
+        "turnsToBuild": 3,
         "techRequired": "The Wheel",
         "uniques": [
             "Can be built outside your borders",
