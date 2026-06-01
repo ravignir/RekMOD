@@ -468,9 +468,9 @@
         "obsoleteTech": "Chivalry",
         "uniques": [
             "No defensive terrain bonus",
-            "Rough terrain penalty",
-            "[+20]% Strength <when defending>"
+            "Rough terrain penalty"
         ],
+        "promotions": ["[Heavy Chariot] ability"],
         "attackSound": "arrow"
     },
     {
@@ -1047,7 +1047,7 @@
         "strength": 25,
         "cost": 65,
         "requiredTech": "Economics",
-        "promotions": ["Medic","Medic II"],
+        "promotions": ["Medic","Medic II", "[Swiss Guard] ability"],
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
             "No movement cost to pillage",
@@ -1143,6 +1143,7 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "Can build [Pasture] improvements on tiles",
+            "Can build [Farm] improvements on tiles",
             "Withdraws before melee combat <with [50]% chance>"
         ],
         "attackSound": "horse"
@@ -1750,7 +1751,7 @@
         "cost": 150,
         "requiredTech": "Navigation",
         "upgradesTo": "Destroyer",
-        "promotions": ["Supply","Coastal Raider I","Boarding Party I"],
+        "promotions": ["Supply","Coastal Raider I","Boarding Party I", "Heals 25 Damage If Kill a Unit"],
         "uniques": [
             //"[-33]% Strength <vs cities> <when attacking>",
             "Can move after attacking"
@@ -1825,13 +1826,13 @@
             "[+33]% Strength <vs [Armored] units>",
             "[+33]% Strength <vs [Mounted] units>"
         ],
-        "promotions": ["Heavy Charge", "Extra Sight"],
+        "promotions": ["Heavy Charge"],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
     },
     {
-        "name": "Grenadine Cavalry",
+        "name": "Granadine Cavalry",
         "uniqueTo": "The Moors",
         "replaces": "Lancer",
         "unitType": "Mounted Ranged",
@@ -2484,8 +2485,11 @@
         "strength": 70,
         "cost": 350,
         "requiredTech": "Electronics",
-        //"uniques": ["Can pass through impassable tiles"],
-        "uniques": ["[+25]% Strength <vs [Gunpowder] units>"],
+        //"uniques": ["Can pass through impassable tiles"], ["bonus ranged attack prior to melee combat"]
+        "uniques": [
+            "[+25]% Strength <vs [Gunpowder] units>",
+            "[1] additional attacks per turn"
+        ],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
