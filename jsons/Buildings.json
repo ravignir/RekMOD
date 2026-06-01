@@ -1382,6 +1382,7 @@
         "faith": 2,
         "happiness": 2,
         "requiredBuilding": "Shrine",
+        "cost": 75,
         "hurryCostModifier": 25,
         "requiredTech": "Philosophy"
     },
@@ -1421,6 +1422,7 @@
         "culture": 2,
         "faith": 2,
         "requiredBuilding": "Shrine",
+        "cost": 75,
         "requiredTech": "Philosophy"
     },
     {
@@ -1429,6 +1431,7 @@
         "uniqueTo": "Sumeria",
         "faith": 2,
         "requiredBuilding": "Shrine",
+        "cost": 75,
         "maintenance": 1,
         "hurryCostModifier": 25,
         "percentStatBonus": {"science": 10},
