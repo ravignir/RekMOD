@@ -2343,7 +2343,10 @@
         "strength": 50,
         "cost": 300,
         "requiredTech": "Replaceable Parts",
-        "uniques": ["Can build [Farm] improvements on tiles"],
+        "uniques": [
+            "Can build [Farm] improvements on tiles",
+            "Can build [Farm] improvements at a [+134]% rate"
+        ],
         "promotions": ["Heals Completely Upon Killing","Strong Defence"],
         "upgradesTo": "Infantry",
         "obsoleteTech": "Electronics",
