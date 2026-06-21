@@ -742,7 +742,7 @@
         "upgradesTo": "Trebuchet",
         "promotions": ["Cover I", "Extra Sight"],
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+150]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Can only attack [City] units",
             "[This Unit] gains the [Sapper] promotion <upon entering a [all] tile> <in tiles adjacent to [City center] tiles>"
