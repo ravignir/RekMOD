@@ -744,7 +744,8 @@
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "Can only attack [City] units"
+            "Can only attack [City] units",
+            "[This Unit] gains the [Sapper] promotion <upon entering a [all] tile> <in tiles adjacent to [City center] tiles>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
@@ -3245,22 +3246,6 @@
             "Uncapturable"
         ],
         "movement": 7
-    },
-    {
-        "name": "Akkadian Great General",
-        "uniqueTo": "Akkad",
-        "replaces": "Great General",
-        "unitType": "Civilian",
-        "uniques": [
-            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
-            "[+30]% Strength bonus for [{Military} {Land}] units within [2] tiles <vs cities>",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-            "Can be earned through combat <for [Land] units>",
-            "Great Person - [War]",
-            "Unbuildable",
-            "Uncapturable"
-        ],
-        "movement": 4
     },
 
     {

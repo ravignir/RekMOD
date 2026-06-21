@@ -25,7 +25,8 @@
         "uniqueName": "The Great Unification",
         "uniques": [
             "[+2 Happiness, +3 Culture, +1 Production] [in annexed cities]",
-            "[+2 Happiness, +3 Culture, +1 Production] [in puppeted cities]"
+            "[+2 Happiness, +3 Culture, +1 Production] [in puppeted cities]",
+            "[Great General] units gain the [Akkadian General] promotion"
         ],
         "cities": [
             "Akkad","Kish","Sippar","Nuzi","Marad","Azupiranu","Eshnunna","Tell Brak","Tell Leilan","Umma",
