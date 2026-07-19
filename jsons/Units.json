@@ -1014,7 +1014,7 @@
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
             "[+25]% Strength <vs [Gunpowder] units>",
-            "[1] additional attacks per turn"
+            "Before engaging in combat performs an extra ranged attack with [50]% of melee combat strength"
         ],
         "upgradesTo": "Lancer",
         "obsoleteTech": "Metallurgy",
@@ -2488,7 +2488,7 @@
         //"uniques": ["Can pass through impassable tiles"], ["bonus ranged attack prior to melee combat"]
         "uniques": [
             "[+25]% Strength <vs [Gunpowder] units>",
-            "[1] additional attacks per turn"
+            "Before engaging in combat performs an extra ranged attack with [50]% of melee combat strength"
         ],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
