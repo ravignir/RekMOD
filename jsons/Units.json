@@ -1185,7 +1185,7 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "[+25]% Strength <vs [Gunpowder] units>",
-            "[1] additional attacks per turn"
+            "Before engaging in combat performs an extra ranged attack with [50]% of melee combat strength"
         ],
         "attackSound": "horse"
     },
