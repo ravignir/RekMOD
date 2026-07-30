@@ -2579,7 +2579,8 @@
         "hurryCostModifier": 25,
         "uniques": [
             "Only available <when espionage is enabled>",
-            "[-25]% enemy spy effectiveness [in this city]"
+            "[-25]% enemy spy effectiveness [in this city]",
+            "Spies in [in this city] cities act as though they have [+1] levels for [Counter-intelligence]"
         ],
         "requiredTech": "Banking"
     },
@@ -2594,7 +2595,8 @@
         "percentStatBonus": {"gold": 5,"production": 5},
         "uniques": [
             "Only available <when espionage is enabled>",
-            "[-25]% enemy spy effectiveness [in this city]"
+            "[-25]% enemy spy effectiveness [in this city]",
+            "Spies in [in this city] cities act as though they have [+1] levels for [Counter-intelligence]"
         ],
         "requiredTech": "Machinery"
     },
