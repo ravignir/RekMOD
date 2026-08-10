@@ -1677,11 +1677,15 @@
         "uniqueTo": "Hungary",
         "movement": 2,
         "strength": 24,
+        "rangedStrength": 24,
         "cost": 135,
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
         "promotions": ["Accuracy I"],
         "obsoleteTech": "Rifling",
+        "uniques": [
+            "Must set up to ranged attack"
+        ],
         "attackSound": "shot"
     },
     {
