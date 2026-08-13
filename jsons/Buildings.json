@@ -252,7 +252,7 @@
         "name": "Georgian Cathedral",
         "replaces": "Cathedral",
         "uniqueTo": "Georgia",
-        "cost": 135,
+        "cost": 75,
         "culture": 5,
         "production": 2,
         "uniques": [
@@ -347,13 +347,16 @@
     },
     {
         "name": "Georgian Mandir",
+        "replaces": "Mandir",
+        "uniqueTo": "Georgia",
+        "cost": 135,
         "production": 2,
         "uniques": [
-            "Unbuildable","Unsellable",
+            "Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
-            "Can be purchased for [270] [Faith] [in all cities]",
             "Only available <when religion is enabled>",
-            "Only available <in cities with a [Mandirs] religion>"
+            "Only available <in cities with a [Mandirs] religion>",
+            "Will not be displayed in Civilopedia"
         ]
     },
     // Uniques
