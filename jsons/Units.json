@@ -1684,6 +1684,7 @@
         "promotions": ["Accuracy I"],
         "obsoleteTech": "Rifling",
         "uniques": [
+            "Can melee attack",
             "Must set up to ranged attack"
         ],
         "attackSound": "shot"
