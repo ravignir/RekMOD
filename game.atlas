@@ -151,7 +151,7 @@ BuildingIcons/Coffee House
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Cooperation
+BuildingIcons/Cooperative
   rotate: false
   xy: 1252, 268
   size: 200, 200
@@ -551,28 +551,28 @@ BuildingIcons/Governor's Mansion
   index: -1
 BuildingIcons/Grand Canal of Venice
   rotate: false
-  xy: 628, 1044
+  xy: 836, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Grand Cathedral of Vilnius
   rotate: false
-  xy: 836, 1252
+  xy: 1044, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Great Library Great Writing Slot 1
   rotate: false
-  xy: 1044, 1460
+  xy: 1252, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Great Library Great Writing Slot 2
   rotate: false
-  xy: 1044, 1460
+  xy: 1252, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -633,7 +633,7 @@ BuildingIcons/King Ezana's Stele
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/King Soloman's Temple
+BuildingIcons/King Solomon's Temple
   rotate: false
   xy: 1668, 1460
   size: 200, 200
@@ -901,7 +901,7 @@ ResourceIcons/Factories
   index: -1
 ResourceIcons/Great Work of Music
   rotate: false
-  xy: 4, 212
+  xy: 212, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -955,16 +955,16 @@ UnitIcons/Gerilya
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Great Musician
+UnitIcons/Granadine Cavalry
   rotate: false
-  xy: 1252, 1668
+  xy: 628, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Grenadine Cavalry
+UnitIcons/Great Musician
   rotate: false
-  xy: 212, 420
+  xy: 4, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -3130,20 +3130,6 @@ TileSets/5Hex/Tiles/Amber+Mine
   orig: 80, 70
   offset: 0, 0
   index: -1
-TileSets/5Hex/Tiles/Caer
-  rotate: false
-  xy: 1999, 1429
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Caer
-  rotate: false
-  xy: 1999, 1429
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
 TileSets/5Hex/Tiles/Coffee
   rotate: false
   xy: 539, 702
@@ -3184,20 +3170,6 @@ TileSets/5Hex/Tiles/HF+Hardwood+Lumber mill
   xy: 1466, 1339
   size: 80, 76
   orig: 80, 76
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Tiles/Harjis
-  rotate: false
-  xy: 866, 398
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Harjis
-  rotate: false
-  xy: 866, 398
-  size: 32, 32
-  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/5Hex/Tiles/Jade
@@ -3247,20 +3219,6 @@ TileSets/5Hex/Tiles/Maize+Farm
   xy: 1794, 1867
   size: 80, 76
   orig: 80, 76
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Tiles/Motte and Bailey
-  rotate: false
-  xy: 974, 917
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Motte and Bailey
-  rotate: false
-  xy: 974, 917
-  size: 32, 32
-  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/5Hex/Tiles/Obsidian
@@ -3333,34 +3291,6 @@ TileSets/5Hex/Tiles/Tea+Plantation
   orig: 80, 76
   offset: 0, 0
   index: -1
-TileSets/5Hex/Tiles/Tibetan Monastery
-  rotate: false
-  xy: 1206, 1262
-  size: 34, 32
-  orig: 34, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tibetan Monastery
-  rotate: false
-  xy: 1206, 1262
-  size: 34, 32
-  orig: 34, 32
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Tiles/Tipi
-  rotate: false
-  xy: 1026, 584
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tipi
-  rotate: false
-  xy: 1026, 584
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
 TileSets/5Hex/Tiles/Tobacco
   rotate: false
   xy: 735, 879
@@ -3373,20 +3303,6 @@ TileSets/5Hex/Tiles/Tobacco+Plantation
   xy: 823, 879
   size: 80, 76
   orig: 80, 76
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Units/Airship
-  rotate: false
-  xy: 1328, 1334
-  size: 32, 40
-  orig: 32, 40
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Airship
-  rotate: false
-  xy: 1328, 1334
-  size: 32, 40
-  orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/5Hex/Units/Apedemaks Bow
@@ -3921,20 +3837,6 @@ TileSets/5Hex/Units/Ngao Mbeba-3
   orig: 80, 70
   offset: 0, 0
   index: -1
-TileSets/5Hex/Units/Pestininkas
-  rotate: false
-  xy: 964, 761
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Pestininkas
-  rotate: false
-  xy: 964, 761
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/5Hex/Units/Pioneer
   rotate: false
   xy: 1911, 1391
@@ -4217,7 +4119,7 @@ TileSets/5Hex/Units/Ulan-3
   index: -1
 TileSets/AbsoluteUnits/Units/Anti-Tank Rifle
   rotate: false
-  xy: 1112, 1445
+  xy: 1112, 1381
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4495,6 +4397,20 @@ TileSets/FantasyHex/Tiles/Archaeological Dig
   orig: 32, 30
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Caer
+  rotate: false
+  xy: 1999, 1429
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Caer
+  rotate: false
+  xy: 1999, 1429
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Camp
   rotate: false
   xy: 1999, 1389
@@ -4586,6 +4502,20 @@ TileSets/FantasyHex/Tiles/Hardwood
   orig: 30, 27
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Harjis
+  rotate: false
+  xy: 866, 398
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Harjis
+  rotate: false
+  xy: 866, 398
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Hill+Forest+Antiquity Site
   rotate: false
   xy: 906, 669
@@ -4647,6 +4577,20 @@ TileSets/FantasyHex/Tiles/Maize
   xy: 1322, 1141
   size: 32, 30
   orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Motte and Bailey
+  rotate: false
+  xy: 974, 917
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Motte and Bailey
+  rotate: false
+  xy: 974, 917
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Obsidian
@@ -4726,6 +4670,34 @@ TileSets/FantasyHex/Tiles/Tea
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Tibetan Monastery
+  rotate: false
+  xy: 1206, 1262
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Tibetan Monastery
+  rotate: false
+  xy: 1206, 1262
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tipi
+  rotate: false
+  xy: 1026, 584
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Tipi
+  rotate: false
+  xy: 1026, 584
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Tobacco
   rotate: false
   xy: 890, 561
@@ -4738,6 +4710,20 @@ TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site
   xy: 906, 521
   size: 32, 32
   orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Airship
+  rotate: false
+  xy: 1328, 1334
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Units/Airship
+  rotate: false
+  xy: 1328, 1334
+  size: 32, 40
+  orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Tank Rifle
@@ -4897,6 +4883,20 @@ TileSets/FantasyHex/Units/Nelayan
 TileSets/FantasyHex/Units/Ngao Mbeba
   rotate: false
   xy: 974, 881
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pestininkas
+  rotate: false
+  xy: 964, 761
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Units/Pestininkas
+  rotate: false
+  xy: 964, 761
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -5127,7 +5127,7 @@ TileSets/HexaRealm/Tiles/Sea Trade Route (Production)-Renaissance era
   index: -1
 TileSets/HexaRealm/Units/Anti-Tank Rifle
   rotate: false
-  xy: 1112, 1381
+  xy: 1112, 1445
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
