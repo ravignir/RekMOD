@@ -204,6 +204,20 @@
         "upgradesTo": "Swordsman",
         "attackSound": "nonmetalhit"
     },
+	{
+		"name": "Maori Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Maori",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 9,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["Haka War Dance"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
     {
         "name": "Shona Warrior",
         "uniqueTo": "Zimbabwe",
