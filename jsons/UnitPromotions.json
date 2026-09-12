@@ -826,7 +826,11 @@
     },
     {
 		"name": "Mana of Tumatauenga", //Maori
-		"uniques": ["[+2] Movement", "[This Unit] loses the [Mana of Tumatauenga] promotion <upon turn end>"]
+		"uniques": [
+            "[+2] Movement",
+            "[This Unit] loses the [Mana of Tumatauenga] promotion <upon turn end> <when above [0] movement>",
+            "[This Unit] loses the [Mana of Tumatauenga] promotion upon entering a [all] tile>"
+        ]
 	}
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
