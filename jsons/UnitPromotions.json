@@ -974,7 +974,7 @@
         "name": "Mystic Blade",
         "uniques": [
             "Comment [Gains a random special promotion upon attacking]",
-            "Triggers a [Mystic Blade] event <upon entering combat> <when attacking> <hidden from users>"
+            "Triggers a [Mystic Blade] event <upon entering combat> <when attacking> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <hidden from users>"
         ]
     },
     {
@@ -1105,7 +1105,7 @@
         "name": "Sampy",
         "uniques": [
             "Comment [Gains a random special promotion upon attacking]",
-            "Triggers a [Sampy] event <upon entering combat> <when attacking> <hidden from users>"
+            "Triggers a [Sampy] event <upon entering combat> <when attacking> <for units without [Kelimazala]> <for units without [Ramahavaly]> <for units without [Manjakatsiroa]> <for units without [Mosasa]> <for units without [Rafantaka]> <for units without [Rabehaza]> <for units without [Ambohimanambola]> <for units without [Sehatra]> <for units without [Lambamena]> <for units without [Razana]> <for units without [Masina]> <hidden from users>"
         ]
     },
     {
