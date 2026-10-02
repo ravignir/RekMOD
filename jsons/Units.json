@@ -3278,7 +3278,7 @@
         "cost": 200,
         "requiredTech": "Archaeology",
         "uniques": [
-            "Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
+            "Can instantly construct a [Archaeological Dig] improvement",
             "Only available <if [University] is constructed>",
             "Cannot be purchased"
         ]
