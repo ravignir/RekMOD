@@ -31,6 +31,9 @@ Contains stuff from mods:
 - [Idea](https://thenounproject.com/icon/idea-7336528/) by NAPISAH for Ideology
 - [Teamwork](https://www.freepik.com/icon/teamwork_6321379#fromView=search&page=1&position=30&uuid=ae02d268-a17d-4a63-bd6b-724cba646173) by Aficons studio for Cultural Revolution
 - [Tools](https://www.freepik.com/icon/construction-tools_10364500#fromView=search&page=1&position=0&uuid=d7e23f69-0cca-4044-8f4d-3e8b7a64a30e) by IconMarketPK for Worker Faculties
+- [White Feather](https://www.pngaaa.com/detail/2635931) for Aesthetics
+- [White Globe 2](https://www.pngaaa.com/detail/119349) by icons8 for Exploration
+- Pa icon by Tipitip332
 
 ## Buildings
 
@@ -92,6 +95,5 @@ Contains stuff from mods:
 - [Horse](https://thenounproject.com/icon/horse-2191914/) by RIZCA for Llanero
 - [sabres](https://thenounproject.com/browse/icons/term/sabres/) by Tresnatiq for Colorado
 - [Bolivia Woman Clothing](https://thenounproject.com/browse/icons/term/bolivia-woman-clothing/) by Gan Khoon Lay for Comparasa Folkloria
-
 - [Camel](https://thenounproject.com/browse/icons/term/camel/) by taash5studio for Zabonah
 
