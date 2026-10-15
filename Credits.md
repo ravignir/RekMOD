@@ -5,6 +5,7 @@ Contains stuff from mods:
 - More Luxuries by Kolobok
 - More Buildings by Shannaurelle
 - Extra Resources by Cavenir
+- Extra Tiles by ZenithC7
 - LEKmod for Civ5 by lek
 - FantasyHex Black Arquebusier art done by Sacafan
 - [Feather](https://thenounproject.com/term/feather/1628/) By Eduardo Souza for Constitution
