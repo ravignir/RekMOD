@@ -35,7 +35,7 @@ Contains stuff from mods:
 - [Tools](https://www.freepik.com/icon/construction-tools_10364500#fromView=search&page=1&position=0&uuid=d7e23f69-0cca-4044-8f4d-3e8b7a64a30e) by IconMarketPK for Worker Faculties
 - [White Feather](https://www.pngaaa.com/detail/2635931) for Aesthetics
 - [White Globe 2](https://www.pngaaa.com/detail/119349) by icons8 for Exploration
-- Pa icon, Bison, Airship by Tipitip332
+- Pa icon, Bison by Tipitip332
 
 ## Buildings
 
