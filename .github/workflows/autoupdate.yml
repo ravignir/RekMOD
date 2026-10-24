@@ -14,7 +14,7 @@ jobs:
   unciv-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       
       - name: oxipng image compression # This needs to be before the Unciv run since that packs images
         continue-on-error: true  # We want to autoupdate even if there are errors
@@ -28,6 +28,9 @@ jobs:
           # So we find the file, run it on all png files in "Images" folders, and then delete the folder so it won't be a git diff
           oxipng_file=$(find oxipng* | grep "/oxipng")
           find Images* -type f -regex ".*png" | xargs -d '\n' $oxipng_file --opt max --strip all
+
+      - name: remove oxipng # In case of failure, it may leave behind an empty file, generating a pr
+        run: | 
           rm -rf $(ls -1 | grep oxipng)
 
       - uses: actions/setup-java@v4
