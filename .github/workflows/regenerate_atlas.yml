@@ -1,4 +1,4 @@
-name: CI
+name: Regenerate Atlas
 
 on:
   workflow_dispatch:
